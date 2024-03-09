@@ -2,7 +2,7 @@
 
 ### gitleaks
 
-TODO
+Looks like some GCP API keys may be exposed. Not sure how to confirm this.
 
 ### apkurlgrep
 
