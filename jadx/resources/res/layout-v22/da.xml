@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:layout_marginHorizontal="@dimen/bm3">
+        <LinearLayout android:orientation="vertical" android:id="@+id/l0" android:background="@drawable/ge" android:paddingBottom="@dimen/bnj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+            <RelativeLayout android:layout_gravity="center" android:id="@+id/lp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bqn" android:layout_marginRight="@dimen/bn4">
+                <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/j_" android:layout_width="118dp" android:layout_height="118dp" android:layout_marginLeft="@dimen/bp0" android:layout_marginRight="@dimen/bp0" android:layout_centerVertical="true" android:layout_marginHorizontal="@dimen/bp0" app:radius="@dimen/iv" app:rect_radio="1">
+                    <com.ushareit.theme.night.view.NightImageView android:id="@+id/km" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/hx" android:scaleType="centerCrop"/>
+                    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/ef" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/m3" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_marginBottom="@dimen/brl" android:text="desc" android:lines="1" android:singleLine="true" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/blk"/>
+                </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bqf" android:layout_toRightOf="@+id/j_" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/bqf" android:layout_toEndOf="@+id/j_">
+                    <TextView android:textSize="@dimen/bsx" android:textColor="@color/e5" android:ellipsize="end" android:id="@+id/lz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Embracing Meaningful Work: Finding Joy and Fulfillment in Your Career"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1">
+                        <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="@color/eb" android:layout_gravity="end" android:id="@+id/md" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp0" android:text="1/3" android:layout_marginStart="@dimen/bp0"/>
+                        <com.ushareit.filemanager.widget.HorizontalProgressBar android:layout_gravity="center_vertical" android:id="@+id/lx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/lv" android:background="@drawable/i5" android:layout_width="match_parent" android:layout_height="@dimen/iy" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:text="@string/l1" android:layout_below="@+id/l0" android:textAllCaps="true" android:layout_marginHorizontal="@dimen/bnj"/>
+        </LinearLayout>
+        <TextView android:textStyle="italic|bold" android:textColor="#ffb56b2d" android:gravity="center" android:background="@drawable/i6" android:layout_width="wrap_content" android:layout_height="@dimen/bpr" android:text="@string/k4" android:layout_centerHorizontal="true"/>
+        <FrameLayout android:id="@+id/kj" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/iv" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="end|top" android:background="@drawable/ha" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bmf"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

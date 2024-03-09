@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/a6z" android:paddingLeft="@dimen/anm" android:paddingRight="@dimen/anm" android:layout_width="match_parent" android:layout_height="@dimen/ar9">
+        <ImageView android:id="@+id/a0l" android:layout_width="@dimen/apb" android:layout_height="@dimen/apb" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/a0l" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@+id/a0l" android:layout_alignParentStart="true">
+            <com.ushareit.muslim.prayers.settings.adhan.AdhanPlayIconView android:id="@+id/adt" android:layout_width="@dimen/apb" android:layout_height="@dimen/apb" android:scaleType="centerInside"/>
+            <TextView android:textSize="@dimen/ast" android:textColor="@color/ij" android:ellipsize="end" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/am3" android:layout_marginRight="@dimen/am3" android:maxLines="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/zf" android:paddingTop="-10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ar9" android:minHeight="@dimen/apb">
+        <ProgressBar android:id="@+id/a5p" android:visibility="gone" android:layout_width="0dp" android:layout_height="@dimen/ap6" android:max="100" android:progress="1" android:progressDrawable="@drawable/a06" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textSize="@dimen/asq" android:textColor="#fb5151" android:id="@+id/yx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqw" android:layout_marginRight="@dimen/aqw" android:text="@string/a6f"/>
+        <TextView android:textSize="@dimen/asq" android:textColor="@color/ij" android:id="@+id/zo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqw" android:layout_marginRight="@dimen/aqw"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/yi" android:padding="@dimen/arr" android:visibility="gone" android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:src="@drawable/dqp"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/zh" android:padding="@dimen/ar7" android:visibility="gone" android:layout_width="@dimen/apb" android:layout_height="@dimen/apb" android:src="@drawable/a4v"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/adv" android:background="#33979797" android:layout_width="match_parent" android:layout_height="@dimen/alp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7"/>
+</FrameLayout>

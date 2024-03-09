@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?android:attr/selectableItemBackground" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/ev" android:id="@+id/vv" android:padding="2dp" android:layout_width="40dp" android:layout_height="wrap_content" android:layout_alignParentLeft="true"/>
+    <TextView android:textAppearance="@style/ev" android:id="@+id/a59" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/vv"/>
+    <TextView android:id="@+id/xh" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/vv" android:layout_below="@+id/a59"/>
+    <ImageView android:id="@+id/a92" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginTop="4dp" android:src="@drawable/q7" android:layout_toRightOf="@+id/xh" android:layout_below="@+id/a59" android:contentDescription="@string/s6"/>
+    <LinearLayout android:id="@+id/a43" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_below="@+id/xh">
+        <TextView android:id="@+id/a93" android:padding="2dp" android:layout_width="72dp" android:layout_height="wrap_content"/>
+        <TextView android:gravity="end" android:id="@+id/w9" android:padding="2dp" android:layout_width="80dp" android:layout_height="wrap_content"/>
+        <TextView android:gravity="end" android:id="@+id/a8n" android:padding="2dp" android:layout_width="80dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

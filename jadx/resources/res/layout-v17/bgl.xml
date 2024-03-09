@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.shop.ad.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/bko" android:layout_width="match_parent" android:layout_height="wrap_content" app:rfl_radius="@dimen/e02">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/dw4" android:paddingBottom="@dimen/e52" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/e6t" android:textStyle="bold" android:textColor="@color/bkz" android:id="@+id/ea2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e02" android:layout_marginTop="@dimen/e5m" android:layout_marginRight="@dimen/e02" android:text="@string/dww" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/e9o" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e52" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/ea2"/>
+        <RelativeLayout android:id="@+id/e_2" android:paddingLeft="@dimen/e02" android:paddingTop="@dimen/e52" android:paddingRight="@dimen/e02" android:paddingBottom="@dimen/e52" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@+id/ea2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@+id/ea2">
+            <TextView android:textSize="@dimen/e6r" android:textColor="@color/bkz" android:id="@+id/ea4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dxq" android:layout_centerVertical="true"/>
+            <ImageView android:background="@drawable/dwh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e5m" android:layout_toRightOf="@+id/ea4" android:layout_centerVertical="true" android:layout_marginStart="@dimen/e5m" android:layout_toEndOf="@+id/ea4"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ushareit.shop.ad.widget.RoundFrameLayout>

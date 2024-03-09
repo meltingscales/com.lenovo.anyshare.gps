@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bhm" android:paddingTop="@dimen/bmf" android:paddingRight="@dimen/bhm" android:paddingBottom="@dimen/bmf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.san.ads.MediaView android:id="@+id/bx9" android:layout_width="@dimen/bqt" android:layout_height="@dimen/bqt" android:layout_alignParentTop="true" style="@style/am8"/>
+            <TextView android:textSize="@dimen/bhl" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bhs" android:singleLine="true" android:layout_alignParentTop="true" style="@style/am9"/>
+            <TextView android:textSize="@dimen/bho" android:textColor="@color/sg" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:maxEms="72" android:layout_below="@+id/title" android:layout_alignWithParentIfMissing="true" style="@style/am7"/>
+        </RelativeLayout>
+        <com.san.ads.TextProgressView android:textSize="@dimen/bhr" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="match_parent" android:layout_height="@dimen/bhp" android:layout_marginTop="@dimen/bl2" style="@style/am6"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aiu"/>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="@dimen/bqp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="@dimen/bqp" android:layout_height="@dimen/bqp" app:radius="@dimen/brt" app:rect_radio="1">
+        <ImageView android:id="@+id/chv" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/chw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:maxLines="1"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

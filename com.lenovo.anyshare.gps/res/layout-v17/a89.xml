@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/q1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/bkg" android:text="@string/bw3" android:layout_weight="1.0" style="@style/q7" />
+            <TextView android:textSize="@dimen/bsz" android:textColor="#ff757575" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/bke" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/by7" android:text="/" android:lines="1" android:layout_marginEnd="@dimen/by7" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp7" style="@style/pq">
+            <ProgressBar android:id="@id/bkf" android:layout_width="fill_parent" android:layout_height="@dimen/bq1" android:layout_marginTop="@dimen/bl2" android:max="100" android:progress="0" android:progressDrawable="@drawable/b95" android:layout_toLeftOf="@id/cyu" android:layout_centerVertical="true" android:layout_toStartOf="@id/cyu" style="@android:style/Widget.ProgressBar.Horizontal" />
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:gravity="center_vertical" android:id="@id/cym" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" android:layout_marginBottom="@dimen/brt" android:text="12345" android:lines="1" />
+            <TextView android:textSize="@dimen/bsw" android:textColor="@color/xu" android:id="@id/cyu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12345" android:lines="1" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/a76" android:gravity="end" android:id="@id/bkd" android:paddingLeft="@dimen/boe" android:paddingRight="@dimen/boe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bpe" android:layout_marginBottom="@dimen/bo8" android:text="@string/ar6" />
+    </LinearLayout>
+</LinearLayout>

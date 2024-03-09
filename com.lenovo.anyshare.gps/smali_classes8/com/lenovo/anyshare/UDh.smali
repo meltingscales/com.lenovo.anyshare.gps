@@ -1,0 +1,67 @@
+.class public final Lcom/lenovo/anyshare/UDh;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/lenovo/anyshare/VDh;->invoke()Landroid/view/View$OnClickListener;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/lenovo/anyshare/VDh;
+
+
+# direct methods
+.method public constructor <init>(Lcom/lenovo/anyshare/VDh;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/lenovo/anyshare/UDh;->a:Lcom/lenovo/anyshare/VDh;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 1
+    invoke-static {p1}, Lcom/lenovo/anyshare/_cj;->a(Landroid/view/View;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    return-void
+
+    .line 2
+    :cond_0
+    iget-object p1, p0, Lcom/lenovo/anyshare/UDh;->a:Lcom/lenovo/anyshare/VDh;
+
+    iget-object p1, p1, Lcom/lenovo/anyshare/VDh;->a:Lcom/ushareit/muslim/audio/PlayerFloatView;
+
+    invoke-static {p1}, Lcom/ushareit/muslim/audio/PlayerFloatView;->f(Lcom/ushareit/muslim/audio/PlayerFloatView;)V
+
+    .line 3
+    iget-object p1, p0, Lcom/lenovo/anyshare/UDh;->a:Lcom/lenovo/anyshare/VDh;
+
+    iget-object p1, p1, Lcom/lenovo/anyshare/VDh;->a:Lcom/ushareit/muslim/audio/PlayerFloatView;
+
+    const-string v0, "Prev"
+
+    invoke-static {p1, v0}, Lcom/ushareit/muslim/audio/PlayerFloatView;->a(Lcom/ushareit/muslim/audio/PlayerFloatView;Ljava/lang/String;)V
+
+    return-void
+.end method

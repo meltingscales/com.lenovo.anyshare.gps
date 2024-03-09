@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/e6t" android:textColor="@color/bj_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dwl"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/e8d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e1i">
+        <EditText android:textSize="@dimen/e6r" android:textColorHint="@color/bjo" android:gravity="center" android:id="@+id/e8c" android:background="@drawable/dvi" android:layout_width="0dp" android:layout_height="@dimen/e3d" android:hint="@string/dxp" android:singleLine="true" android:maxLength="10" android:layout_weight="1" android:inputType="number" android:imeOptions="actionDone"/>
+        <View android:layout_gravity="center_vertical" android:background="#cccccc" android:layout_width="@dimen/dzm" android:layout_height="@dimen/e2z" android:layout_marginLeft="@dimen/dzm" android:layout_marginRight="@dimen/dzm" android:layout_marginHorizontal="@dimen/dzm"/>
+        <EditText android:textSize="@dimen/e6r" android:textColorHint="@color/bjo" android:gravity="center" android:id="@+id/e8b" android:background="@drawable/dvi" android:layout_width="0dp" android:layout_height="@dimen/e3d" android:hint="@string/dxn" android:singleLine="true" android:maxLength="10" android:layout_weight="1" android:inputType="number" android:imeOptions="actionDone"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/e8e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e02" android:overScrollMode="never"/>
+</merge>

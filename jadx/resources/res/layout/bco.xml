@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <LinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/bo8" style="@style/q1">
+        <TextView android:id="@+id/title_text_res_0x7f090ec1" android:paddingBottom="@dimen/bmm" android:layout_marginBottom="@dimen/bkq" android:text="@string/c2z" style="@style/q7"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ca0" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="@dimen/bn6">
+            <com.ushareit.security.vip.time.widget.WheelView android:id="@+id/bwh" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <com.ushareit.security.vip.time.widget.WheelView android:id="@+id/ckc" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+        <include layout="@layout/a30"/>
+    </LinearLayout>
+</LinearLayout>

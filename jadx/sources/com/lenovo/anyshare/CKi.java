@@ -1,0 +1,156 @@
+package com.lenovo.anyshare;
+
+import android.os.Binder;
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import android.os.RemoteException;
+
+/* loaded from: classes8.dex */
+public interface CKi extends IInterface {
+
+    /* loaded from: classes8.dex */
+    public static class a implements CKi {
+        @Override // android.os.IInterface
+        public IBinder asBinder() {
+            return null;
+        }
+
+        @Override // com.lenovo.anyshare.CKi
+        public String getOaid() throws RemoteException {
+            return null;
+        }
+
+        @Override // com.lenovo.anyshare.CKi
+        public boolean isOaidTrackLimited() throws RemoteException {
+            return false;
+        }
+    }
+
+    String getOaid() throws RemoteException;
+
+    boolean isOaidTrackLimited() throws RemoteException;
+
+    /* loaded from: classes8.dex */
+    public static abstract class b extends Binder implements CKi {
+
+        /* renamed from: a  reason: collision with root package name */
+        public static final int f7301a = 1;
+        public static final int b = 2;
+        public static final String c = "com.uodis.opendevice.aidl.OpenDeviceIdentifierService";
+
+        /* JADX INFO: Access modifiers changed from: private */
+        /* loaded from: classes8.dex */
+        public static class a implements CKi {
+
+            /* renamed from: a  reason: collision with root package name */
+            public static CKi f7302a;
+            public final IBinder b;
+
+            public a(IBinder iBinder) {
+                this.b = iBinder;
+            }
+
+            public String a() {
+                return "com.uodis.opendevice.aidl.OpenDeviceIdentifierService";
+            }
+
+            @Override // android.os.IInterface
+            public IBinder asBinder() {
+                return this.b;
+            }
+
+            @Override // com.lenovo.anyshare.CKi
+            public String getOaid() throws RemoteException {
+                Parcel obtain = Parcel.obtain();
+                Parcel obtain2 = Parcel.obtain();
+                try {
+                    obtain.writeInterfaceToken("com.uodis.opendevice.aidl.OpenDeviceIdentifierService");
+                    if (!this.b.transact(1, obtain, obtain2, 0) && b.a() != null) {
+                        return b.a().getOaid();
+                    }
+                    obtain2.readException();
+                    return obtain2.readString();
+                } finally {
+                    obtain2.recycle();
+                    obtain.recycle();
+                }
+            }
+
+            @Override // com.lenovo.anyshare.CKi
+            public boolean isOaidTrackLimited() throws RemoteException {
+                Parcel obtain = Parcel.obtain();
+                Parcel obtain2 = Parcel.obtain();
+                try {
+                    obtain.writeInterfaceToken("com.uodis.opendevice.aidl.OpenDeviceIdentifierService");
+                    if (!this.b.transact(2, obtain, obtain2, 0) && b.a() != null) {
+                        return b.a().isOaidTrackLimited();
+                    }
+                    obtain2.readException();
+                    return obtain2.readInt() != 0;
+                } finally {
+                    obtain2.recycle();
+                    obtain.recycle();
+                }
+            }
+        }
+
+        public b() {
+            attachInterface(this, "com.uodis.opendevice.aidl.OpenDeviceIdentifierService");
+        }
+
+        public static CKi a(IBinder iBinder) {
+            if (iBinder == null) {
+                return null;
+            }
+            IInterface queryLocalInterface = iBinder.queryLocalInterface("com.uodis.opendevice.aidl.OpenDeviceIdentifierService");
+            if (queryLocalInterface != null && (queryLocalInterface instanceof CKi)) {
+                return (CKi) queryLocalInterface;
+            }
+            return new a(iBinder);
+        }
+
+        @Override // android.os.IInterface
+        public IBinder asBinder() {
+            return this;
+        }
+
+        @Override // android.os.Binder
+        public boolean onTransact(int i, Parcel parcel, Parcel parcel2, int i2) throws RemoteException {
+            if (i == 1) {
+                parcel.enforceInterface("com.uodis.opendevice.aidl.OpenDeviceIdentifierService");
+                String oaid = getOaid();
+                parcel2.writeNoException();
+                parcel2.writeString(oaid);
+                return true;
+            } else if (i != 2) {
+                if (i != 1598968902) {
+                    return super.onTransact(i, parcel, parcel2, i2);
+                }
+                parcel2.writeString("com.uodis.opendevice.aidl.OpenDeviceIdentifierService");
+                return true;
+            } else {
+                parcel.enforceInterface("com.uodis.opendevice.aidl.OpenDeviceIdentifierService");
+                boolean isOaidTrackLimited = isOaidTrackLimited();
+                parcel2.writeNoException();
+                parcel2.writeInt(isOaidTrackLimited ? 1 : 0);
+                return true;
+            }
+        }
+
+        public static boolean a(CKi cKi) {
+            if (a.f7302a == null) {
+                if (cKi != null) {
+                    a.f7302a = cKi;
+                    return true;
+                }
+                return false;
+            }
+            throw new IllegalStateException("setDefaultImpl() called twice");
+        }
+
+        public static CKi a() {
+            return a.f7302a;
+        }
+    }
+}

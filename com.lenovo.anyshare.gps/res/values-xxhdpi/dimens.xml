@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="c7i">30.0dip</dimen>
+    <dimen name="c7j">50.0dip</dimen>
+    <dimen name="c7k">13.0sp</dimen>
+    <dimen name="c7l">380.0dip</dimen>
+    <dimen name="c7m">20.0sp</dimen>
+    <dimen name="ce2">98.0dip</dimen>
+    <dimen name="dbc">4.0dip</dimen>
+    <dimen name="db9">9.0dip</dimen>
+    <dimen name="db6">30.0dip</dimen>
+    <dimen name="dbd">20.0sp</dimen>
+    <dimen name="db8">30.0dip</dimen>
+    <dimen name="db_">14.0sp</dimen>
+    <dimen name="db7">26.0dip</dimen>
+    <dimen name="dbb">11.0sp</dimen>
+    <dimen name="db5">10.0dip</dimen>
+    <dimen name="dba">33.0dip</dimen>
+</resources>

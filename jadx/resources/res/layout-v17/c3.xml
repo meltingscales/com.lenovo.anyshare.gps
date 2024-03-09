@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/ex">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/aj" android:background="@drawable/dn" android:layout_width="wrap_content" android:layout_height="@dimen/ex" android:layout_marginLeft="@dimen/df" android:layout_marginRight="@dimen/df">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq" android:layout_marginRight="@dimen/gf" android:src="@drawable/dz" android:layout_marginStart="@dimen/bq" android:layout_marginEnd="@dimen/gf"/>
+        <TextView android:textSize="@dimen/hq" android:textColor="@color/d7" android:ellipsize="end" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/au" android:text="@string/ci" android:maxLines="1" android:layout_weight="1" android:layout_marginEnd="@dimen/au"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bq" android:src="@drawable/dy" android:layout_marginEnd="@dimen/bq"/>
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ab" android:background="@drawable/dn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ex">
+        <TextView android:textSize="@dimen/hq" android:textColor="@color/d7" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b7" android:layout_marginRight="@dimen/b7" android:text="@string/cg" android:layout_marginStart="@dimen/b7" android:layout_marginEnd="@dimen/b7"/>
+    </FrameLayout>
+</FrameLayout>

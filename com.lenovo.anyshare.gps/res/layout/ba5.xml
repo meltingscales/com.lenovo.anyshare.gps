@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightRelativeLayout android:orientation="horizontal" android:id="@id/bvn" android:background="@drawable/aso" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bqf" app:a76="@color/afs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bvj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dag" android:paddingLeft="@dimen/brt" android:paddingTop="@dimen/bl2" android:paddingRight="@dimen/brt" android:paddingBottom="@dimen/bmf" android:layout_width="@dimen/bkq" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsv" android:textColor="@color/vu" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bhg" android:singleLine="true" android:drawableLeft="@drawable/bua" android:drawablePadding="@dimen/bq1" android:drawableStart="@drawable/bua" app:a7f="@dimen/db2" />
+                <TextView android:textSize="@dimen/bt2" android:textColor="@color/vu" android:gravity="start|center" android:id="@id/dal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:singleLine="true" />
+                <TextView android:textSize="@dimen/bsu" android:textColor="@color/ye" android:gravity="start|center" android:id="@id/dac" android:paddingTop="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/wh" android:gravity="start|center" android:id="@id/dah" android:paddingTop="@dimen/bq1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/yr" android:layout_width="@dimen/bnc" android:layout_height="@dimen/br2" android:layout_marginTop="@dimen/bs3" />
+        <LinearLayout android:orientation="vertical" android:id="@id/d1m" android:paddingLeft="@dimen/brt" android:paddingTop="@dimen/bl2" android:paddingRight="@dimen/brt" android:paddingBottom="@dimen/bmf" android:layout_width="@dimen/bkq" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsv" android:textColor="@color/vu" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bh_" android:singleLine="true" android:drawableLeft="@drawable/bu_" android:drawablePadding="@dimen/bq1" android:drawableStart="@drawable/bu_" app:a7f="@dimen/db2" />
+                <TextView android:textSize="@dimen/bt2" android:textColor="@color/vu" android:gravity="start|center" android:id="@id/d1s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:singleLine="true" />
+                <TextView android:textSize="@dimen/bsu" android:textColor="@color/ye" android:gravity="start|center" android:id="@id/d1i" android:paddingTop="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/bu9" android:drawablePadding="@dimen/br9" android:drawableEnd="@drawable/bu9" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/wh" android:gravity="start|center" android:id="@id/d1n" android:paddingTop="@dimen/bq1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.ushareit.theme.night.view.NightRelativeLayout>

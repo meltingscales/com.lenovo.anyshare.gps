@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bof" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bov" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp7" android:layout_marginBottom="@dimen/bqj" android:src="@drawable/bsc" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    <FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bov">
+        <com.ushareit.widget.flash.FlashBrandView android:layout_gravity="center" android:id="@id/bon" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/boo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/boy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/bp4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.lenovo.anyshare.flash.widget.FlashSkipView android:id="@id/bp3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/bz5" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/bl2" android:layout_alignParentLeft="true" layout="@layout/wf" />
+    <ViewStub android:id="@id/bu3" android:layout="@layout/vb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

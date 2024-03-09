@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/wt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/ws" android:background="@drawable/zw" android:padding="@dimen/as1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/as1">
+            <com.ushareit.muslim.share.widget.ShareTextView android:textSize="@dimen/asv" android:textStyle="bold" android:textColor="@color/l9" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/ad4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/api" android:maxHeight="@dimen/apv" android:minWidth="@dimen/api"/>
+            <com.ushareit.muslim.share.widget.ShareTextView android:textSize="@dimen/asv" android:textStyle="bold" android:textColor="@color/l9" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/ad3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/api" android:maxHeight="@dimen/apv" android:minWidth="@dimen/api"/>
+        </FrameLayout>
+        <View android:layout_gravity="end|top" android:id="@+id/ady" android:background="@drawable/zo" android:layout_width="@dimen/ans" android:layout_height="@dimen/ans"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="start|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/ar7" android:src="@drawable/zh"/>
+</FrameLayout>

@@ -1,0 +1,127 @@
+.class public Lcom/lenovo/anyshare/TPh;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/lenovo/anyshare/VPh;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/lenovo/anyshare/mZh;Z)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/String;
+
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Lcom/lenovo/anyshare/mZh;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Lcom/lenovo/anyshare/mZh;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/lenovo/anyshare/TPh;->a:Ljava/lang/String;
+
+    iput-object p2, p0, Lcom/lenovo/anyshare/TPh;->b:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/lenovo/anyshare/TPh;->c:Lcom/lenovo/anyshare/mZh;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 4
+
+    :try_start_0
+    const-string v0, "/Convention"
+
+    .line 1
+    invoke-static {v0}, Lcom/lenovo/anyshare/mOa;->b(Ljava/lang/String;)Lcom/lenovo/anyshare/mOa;
+
+    move-result-object v0
+
+    const-string v1, "/Feed"
+
+    invoke-virtual {v0, v1}, Lcom/lenovo/anyshare/mOa;->a(Ljava/lang/String;)Lcom/lenovo/anyshare/mOa;
+
+    move-result-object v0
+
+    const-string v1, "/Item"
+
+    invoke-virtual {v0, v1}, Lcom/lenovo/anyshare/mOa;->a(Ljava/lang/String;)Lcom/lenovo/anyshare/mOa;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/lenovo/anyshare/mOa;->a()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 2
+    new-instance v1, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v1}, Ljava/util/LinkedHashMap;-><init>()V
+
+    const-string v2, "portal"
+
+    .line 3
+    iget-object v3, p0, Lcom/lenovo/anyshare/TPh;->a:Ljava/lang/String;
+
+    invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v2, "item_from"
+
+    .line 4
+    iget-object v3, p0, Lcom/lenovo/anyshare/TPh;->b:Ljava/lang/String;
+
+    invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v2, "item_to"
+
+    .line 5
+    iget-object v3, p0, Lcom/lenovo/anyshare/TPh;->c:Lcom/lenovo/anyshare/mZh;
+
+    iget-object v3, v3, Lcom/lenovo/anyshare/mZh;->id:Ljava/lang/String;
+
+    invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v2, "item_id"
+
+    .line 6
+    iget-object v3, p0, Lcom/lenovo/anyshare/TPh;->c:Lcom/lenovo/anyshare/mZh;
+
+    iget-object v3, v3, Lcom/lenovo/anyshare/mZh;->id:Ljava/lang/String;
+
+    invoke-virtual {v1, v2, v3}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const/4 v2, 0x0
+
+    .line 7
+    invoke-static {v0, v2, v1}, Lcom/lenovo/anyshare/sOa;->e(Ljava/lang/String;Ljava/lang/String;Ljava/util/LinkedHashMap;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    .line 8
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+    :goto_0
+    return-void
+.end method

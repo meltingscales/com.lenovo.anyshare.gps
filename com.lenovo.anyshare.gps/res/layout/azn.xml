@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:background="@drawable/cmo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cph" android:adjustViewBounds="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/bqf" android:paddingRight="@dimen/bm3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bq4">
+                <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@id/c7m" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:src="@drawable/cpg" app:a76="@color/w4" />
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/bs3" android:text="@string/c_9" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/wh" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/dxn" android:background="@drawable/cn4" android:layout_width="@dimen/brc" android:layout_height="@dimen/bok" android:text="@string/dol" android:maxLines="1" />
+            </LinearLayout>
+        </FrameLayout>
+        <View android:layout_gravity="bottom" android:id="@id/e2a" android:background="@drawable/cpf" android:visibility="gone" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bla" />
+    </LinearLayout>
+    <View android:layout_gravity="end" android:id="@id/e2b" android:background="@drawable/cna" android:visibility="gone" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bmf" android:layout_marginTop="5.0dip" />
+</FrameLayout>

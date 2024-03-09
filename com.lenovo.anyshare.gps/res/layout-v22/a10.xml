@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.content.video.VideoButtons android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/e32" android:background="@drawable/avy" android:paddingLeft="@dimen/bn4" android:paddingTop="@dimen/blk" android:paddingRight="@dimen/bn4" android:paddingBottom="@dimen/blk" android:layout_width="fill_parent" android:layout_height="@dimen/bqq" android:paddingHorizontal="@dimen/bn4" android:paddingVertical="@dimen/blk">
+        <com.lenovo.anyshare.content.widget.RedDotTabView android:id="@id/e2q" android:background="@drawable/awr" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:a03="@string/c7r" />
+        <TextView android:textSize="@dimen/buk" android:textColor="@color/agg" android:gravity="center" android:id="@id/e3o" android:background="@drawable/awr" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bon" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/buk" android:textColor="@color/agg" android:gravity="center" android:id="@id/e36" android:background="@drawable/awr" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/boj" android:layout_weight="1.0" />
+    </com.lenovo.anyshare.content.video.VideoButtons>
+</FrameLayout>

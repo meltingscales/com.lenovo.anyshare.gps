@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dnu" android:paddingLeft="@dimen/blv" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/blv" android:paddingBottom="@dimen/brt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bms" />
+    <com.ushareit.filemanager.widget.UniversalAdView android:id="@id/e1e" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.ushareit.filemanager.widget.Gla1BannerThirdAdView android:id="@id/do_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" />
+</LinearLayout>

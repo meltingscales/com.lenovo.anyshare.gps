@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="c">
+        <item quantity="one">%dটি নতুন বিজ্ঞপ্তি</item>
+        <item quantity="other">%dটি নতুন বিজ্ঞপ্তি</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="zero">%1$d টি বিষয়</item>
+        <item quantity="one">%1$d টি বিষয়</item>
+        <item quantity="other">%1$d টি বিষয়</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="zero">%1$d টি বিষয়</item>
+        <item quantity="one">%1$d টি বিষয়</item>
+        <item quantity="other">%1$d টি বিষয়</item>
+    </plurals>
+</resources>

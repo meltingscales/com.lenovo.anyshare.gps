@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bgi" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/bnj" android:paddingEnd="@dimen/bnj"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/bo4" android:layout_height="@dimen/bn6" android:layout_marginRight="@dimen/bs7" android:src="@drawable/dn8" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/bs7" android:layout_alignParentEnd="true" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dje" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginTop="@dimen/bno" android:src="@drawable/dma" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/dke" android:layout_width="@dimen/bq9" android:layout_height="@dimen/bpy" android:layout_marginTop="@dimen/bo3" android:src="@drawable/dmz" />
+        <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/bgl" android:layout_gravity="center_horizontal" android:id="@id/dkv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk" android:text="@string/di0" android:textAlignment="viewStart" />
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/bgl" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dkw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bs3" android:text="@string/dhw" android:layout_centerHorizontal="true" android:textAlignment="center" />
+        <include layout="@layout/bbp" />
+        <include layout="@layout/bbq" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView android:textSize="@dimen/btj" android:textColor="#ff8c8d97" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/djc" android:padding="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnj" android:text="@string/di5" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/cao" android:background="@drawable/c5l" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c4f" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/br9" android:src="@drawable/c4g" android:scaleType="centerCrop" android:layout_marginStart="@dimen/br9" />
+    <View android:id="@id/bfp" android:background="@color/a0t" android:layout_width="@dimen/bnc" android:layout_height="@dimen/blk" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" />
+    <ImageView android:id="@id/c5x" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/c5p" android:scaleType="centerCrop" />
+    <View android:id="@id/bfq" android:background="@color/a0t" android:layout_width="@dimen/bnc" android:layout_height="@dimen/blk" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" />
+    <ImageView android:id="@id/c4n" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginRight="@dimen/br9" android:src="@drawable/c5q" android:scaleType="centerCrop" />
+</LinearLayout>

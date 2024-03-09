@@ -1,0 +1,39 @@
+package com.lenovo.anyshare;
+
+import android.view.View;
+import com.ushareit.ads.ui.view.SelectBannerAdView;
+import me.ele.lancet.base.Scope;
+
+/* renamed from: com.lenovo.anyshare.pVd  reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public class C17957pVd {
+    @Hrk(mayCreateSuper = true, value = "setOnClickListener")
+    @Krk(scope = Scope.LEAF, value = "android.widget.FrameLayout")
+    public static void a(SelectBannerAdView selectBannerAdView, View.OnClickListener onClickListener) {
+        if ((onClickListener instanceof View$OnClickListenerC4863Odh) || !C1410Cdh.c()) {
+            b(selectBannerAdView, onClickListener);
+        } else {
+            b(selectBannerAdView, new View$OnClickListenerC4863Odh(onClickListener));
+        }
+    }
+
+    @Hrk(mayCreateSuper = true, value = "setOnClickListener")
+    @Krk(scope = Scope.LEAF, value = "android.view.ViewGroup")
+    public static void b(SelectBannerAdView selectBannerAdView, View.OnClickListener onClickListener) {
+        if ((onClickListener instanceof View$OnClickListenerC4863Odh) || !C1410Cdh.c()) {
+            c(selectBannerAdView, onClickListener);
+        } else {
+            c(selectBannerAdView, new View$OnClickListenerC4863Odh(onClickListener));
+        }
+    }
+
+    @Hrk(mayCreateSuper = true, value = "setOnClickListener")
+    @Krk(scope = Scope.LEAF, value = "android.view.View")
+    public static void c(SelectBannerAdView selectBannerAdView, View.OnClickListener onClickListener) {
+        if ((onClickListener instanceof View$OnClickListenerC4863Odh) || !C1410Cdh.c()) {
+            selectBannerAdView.setOnClickListener$___twin___(onClickListener);
+        } else {
+            selectBannerAdView.setOnClickListener$___twin___(new View$OnClickListenerC4863Odh(onClickListener));
+        }
+    }
+}

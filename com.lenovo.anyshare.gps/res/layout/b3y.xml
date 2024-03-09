@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d77" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/d55" android:layout_width="@dimen/bm5" android:layout_height="@dimen/bl8">
+        <com.filepreview.pdf.view.CircleProgressBar android:layout_gravity="center_horizontal" android:id="@id/cyt" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bo8" app:rt="@dimen/bmm" app:rw="@dimen/bq1" app:ry="@dimen/bsu" app:rz="@dimen/bsu" />
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/bj1" android:layout_gravity="center_horizontal" android:id="@id/cd1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blv" android:text="@string/cln" android:includeFontPadding="false" />
+    </LinearLayout>
+</FrameLayout>

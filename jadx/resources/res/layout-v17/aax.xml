@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sothree="http://schemas.android.com/apk/res-auto" android:id="@+id/cg9" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ushareit.filemanager.main.music.view.MusicSearchTabTopView android:id="@+id/cmw" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@+id/e48" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/dfz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqd" android:layout_marginEnd="@dimen/bqd">
+                <com.lenovo.anyshare.base.slider.SlidingTabLayout android:id="@+id/dfy" android:layout_width="wrap_content" android:layout_height="@dimen/bpv"/>
+            </LinearLayout>
+        </com.ushareit.listplayer.pager.ViewPagerForSlider>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/be2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

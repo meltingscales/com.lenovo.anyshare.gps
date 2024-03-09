@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a3a" android:background="@drawable/a6l" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a2w" android:background="@drawable/a6m" android:layout_width="match_parent" android:layout_height="@dimen/an2">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/any">
+            <TextView android:textSize="@dimen/asq" android:textColor="#3d3d3d" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/ac7" android:background="@drawable/a1p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ans"/>
+            <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/xx" android:background="@drawable/a1o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/aos"/>
+        </FrameLayout>
+        <com.ushareit.muslim.beads.view.BeadsScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/and">
+            <RelativeLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/at2" android:textStyle="bold" android:textColor="#005f43" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ac6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/and" android:layout_marginRight="@dimen/and" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="@dimen/asv" android:textColor="#514234" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ac8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/and" android:layout_marginTop="@dimen/aq3" android:layout_marginRight="@dimen/and" android:layout_below="@+id/ac6" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </com.ushareit.muslim.beads.view.BeadsScrollView>
+    </LinearLayout>
+    <View android:background="@drawable/a6o" android:layout_width="match_parent" android:layout_height="@dimen/anz" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/aqx">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:background="@drawable/a14" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/iw" android:layout_gravity="center_horizontal" android:id="@+id/ace" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/iw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqw" android:text="@string/a5f" android:layout_toRightOf="@+id/xj" android:layout_below="@+id/ace"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:background="@drawable/a6t" android:layout_width="@dimen/anz" android:layout_height="@dimen/ap4"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:background="@drawable/a14" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/iw" android:layout_gravity="center_horizontal" android:id="@+id/acg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/iw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqw" android:text="@string/a58" android:layout_toRightOf="@+id/xj" android:layout_below="@+id/ace"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

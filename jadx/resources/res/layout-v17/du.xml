@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/kw" android:layout_width="match_parent" android:layout_height="@dimen/bqx" android:layout_marginBottom="@dimen/bmm">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:id="@+id/lj" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/iw" android:layout_marginStart="@dimen/bqf" android:layout_marginEnd="@dimen/iw" app:radius="@dimen/bqf" app:rect_radio="1">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@+id/km" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bn4" android:layout_weight="1" android:layout_marginEnd="@dimen/bn4">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textColor="@color/e5" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/lz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/blk" android:text="@string/b8y" android:maxLines="1" android:includeFontPadding="false" android:layout_marginEnd="@dimen/blk" app:night_tv_drawable_tint="@color/e5"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqf" android:layout_marginEnd="@dimen/bqf">
+            <com.ushareit.filemanager.widget.HorizontalProgressBar android:layout_gravity="center_vertical" android:id="@+id/lx" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:textSize="11sp" android:textColor="@color/eb" android:layout_gravity="center_vertical" android:id="@+id/md" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp0" android:text="1/3" android:layout_marginStart="@dimen/bp0"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

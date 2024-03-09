@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wheel="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.photo.photoview.PhotoView android:id="@+id/cx0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ushareit.photo.photoview.PhotoView android:id="@+id/cwt" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ushareit.photo.subscaleview.SubsamplingScaleImageView android:id="@+id/cwy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/cyc" android:visibility="gone" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4" wheel:mpb_indeterminateTint="@color/bj1" wheel:mpb_strokeWidth="@dimen/bp0"/>
+</FrameLayout>

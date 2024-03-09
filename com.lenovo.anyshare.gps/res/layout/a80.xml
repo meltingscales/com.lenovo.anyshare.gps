@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:id="@id/d2l" android:layout_width="fill_parent" android:layout_height="@dimen/c1p" android:layout_margin="@dimen/c2m" app:a_7="@dimen/c2m" app:a_j="1.3">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/doh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:layout_gravity="bottom" android:background="@drawable/b1d" android:layout_width="fill_parent" android:layout_height="@dimen/c30" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="bottom|center|right" android:id="@id/bgf" android:padding="@dimen/c35" android:layout_width="@dimen/c2e" android:layout_height="@dimen/c2e" android:src="@drawable/b0w" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="bottom|center|right" android:id="@id/b26" android:visibility="gone" android:layout_width="@dimen/c1t" android:layout_height="@dimen/c1t" android:layout_marginRight="@dimen/c35" android:layout_marginBottom="@dimen/c35" android:src="@drawable/b2x" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center|top" android:id="@id/cvm" android:background="@drawable/b0y" android:visibility="visible" android:layout_width="@dimen/c23" android:layout_height="@dimen/c23" android:layout_margin="@dimen/c35" />
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightFrameLayout android:fitsSystemWindows="true" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.theme.night.view.NightLinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/bo8" style="@style/q1">
+        <com.ushareit.theme.night.view.NightTextView android:id="@id/title_text" android:layout_marginBottom="0.0dip" android:text="@string/ah3" style="@style/q7" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/anl" android:paddingLeft="@dimen/blk" android:paddingRight="@dimen/blk" android:layout_width="fill_parent" android:layout_height="@dimen/br7" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8">
+            <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/bq8" android:layout_height="@dimen/bq8" android:src="@drawable/dpd" />
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsw" android:textColor="@color/xl" android:ellipsize="end" android:gravity="start" android:id="@id/axo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:maxLines="2" />
+        </LinearLayout>
+        <com.ushareit.widget.UpperCaseButton android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center" android:id="@id/e76" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/arl" />
+        <com.ushareit.widget.UpperCaseButton android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:id="@id/e75" android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bl2" android:text="@string/ar5" />
+    </com.ushareit.theme.night.view.NightLinearLayout>
+</com.ushareit.theme.night.view.NightFrameLayout>

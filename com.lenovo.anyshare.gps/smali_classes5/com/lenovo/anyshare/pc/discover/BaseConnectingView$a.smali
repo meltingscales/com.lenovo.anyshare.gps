@@ -1,0 +1,25 @@
+.class public interface abstract Lcom/lenovo/anyshare/pc/discover/BaseConnectingView$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/lenovo/anyshare/pc/discover/BaseConnectingView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Lcom/ushareit/nft/discovery/Device;Ljava/lang/String;)V
+.end method
+
+.method public abstract a(Lcom/ushareit/user/UserInfo;Z)V
+.end method
+
+.method public abstract a(Ljava/lang/String;Z)V
+.end method

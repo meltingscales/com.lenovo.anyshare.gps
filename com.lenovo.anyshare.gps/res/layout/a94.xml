@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/d7u" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bqd" />
+    <include layout="@layout/a9h" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/awg" android:background="@color/a3s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/a1b" android:layout_width="fill_parent" android:layout_height="@dimen/bnd" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/aw2" android:layout_width="fill_parent" android:layout_height="@dimen/bqe" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bvv" android:layout_height="@dimen/bvv" android:src="@drawable/bq6" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/btj" android:textColor="@color/aer" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/arg" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bt6" android:textColor="@color/ty" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/dsy" android:background="@drawable/bpo" android:layout_width="@dimen/br0" android:layout_height="@dimen/br0" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bq4" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:a7f="@dimen/db2" />
+</FrameLayout>

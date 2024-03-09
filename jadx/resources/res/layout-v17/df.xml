@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/bsz" android:id="@+id/j6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bp7" android:layout_marginRight="@dimen/bnj" android:text="verse content" android:layout_marginStart="@dimen/bnj" android:layout_marginEnd="@dimen/bnj"/>
+</FrameLayout>

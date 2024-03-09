@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lenovo.anyshare.content.recent.RecentButton android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/d20" android:background="@drawable/avy" android:paddingLeft="@dimen/bn4" android:paddingTop="@dimen/blk" android:paddingRight="@dimen/bn4" android:paddingBottom="@dimen/blk" android:layout_width="fill_parent" android:layout_height="@dimen/bqq">
+        <TextView android:textSize="@dimen/buk" android:textColor="@color/agg" android:gravity="center" android:id="@id/d2_" android:background="@drawable/awr" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bgz" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/buk" android:textColor="@color/agg" android:gravity="center" android:id="@id/d2a" android:background="@drawable/awr" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/d2r" android:layout_weight="1.0" />
+    </com.lenovo.anyshare.content.recent.RecentButton>
+</FrameLayout>

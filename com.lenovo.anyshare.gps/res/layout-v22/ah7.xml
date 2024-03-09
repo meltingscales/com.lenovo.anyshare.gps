@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bzh" android:paddingBottom="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/title_text" android:layout_marginTop="@dimen/bo8" style="@style/q7" />
+            <TextView android:id="@id/d0e" android:background="@drawable/btw" android:padding="@dimen/br9" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/bmm" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:id="@id/cl9" android:visibility="gone" style="@style/pr" />
+        <ScrollView android:id="@id/ba_" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:layout_marginHorizontal="@dimen/bo8">
+                    <ImageView android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:src="@drawable/bxu" />
+                    <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/vu" android:id="@id/e0r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:text="@string/bp3" android:layout_marginStart="@dimen/brt" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bxn" android:paddingLeft="@dimen/bow" android:paddingRight="@dimen/bow" android:paddingBottom="@dimen/bm3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bo8" android:layout_marginHorizontal="@dimen/bo8" android:paddingHorizontal="@dimen/bow">
+                    <com.lenovo.anyshare.widget.RectFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_j="0.56">
+                        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bxs" />
+                    </com.lenovo.anyshare.widget.RectFrameLayout>
+                    <TextView android:textSize="@dimen/bsv" android:textColor="@color/w4" android:id="@id/e0q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" android:text="@string/bp2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginHorizontal="@dimen/bo8">
+                    <ImageView android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:src="@drawable/bxu" />
+                    <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/vu" android:id="@id/dyt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:text="@string/bp1" android:layout_marginStart="@dimen/brt" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/bxn" android:paddingLeft="@dimen/bow" android:paddingRight="@dimen/bow" android:paddingBottom="@dimen/bm3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bo8" android:layout_marginHorizontal="@dimen/bo8" android:paddingHorizontal="@dimen/bow">
+                    <com.lenovo.anyshare.widget.RectFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_j="0.56">
+                        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bxr" />
+                    </com.lenovo.anyshare.widget.RectFrameLayout>
+                    <TextView android:textSize="@dimen/bsv" android:textColor="@color/w4" android:id="@id/dys" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" android:text="@string/bp0" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.ushareit.widget.UpperCaseButton android:textSize="@dimen/bsx" android:textColor="@color/a3s" android:gravity="center" android:id="@id/d0j" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bo8" android:text="@string/as_" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bo8" />
+        <LinearLayout android:id="@id/cr3" android:visibility="gone" android:layout_height="@dimen/bkq" style="@style/pl" />
+    </LinearLayout>
+</FrameLayout>

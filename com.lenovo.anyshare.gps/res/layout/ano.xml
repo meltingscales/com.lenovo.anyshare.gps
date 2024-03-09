@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsRelativeLayout android:id="@id/c2d" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/c2y" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ushareit.mcds.ui.view.RatioByWidthImageView android:id="@id/c4h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ank="1.7826" />
+        <ViewStub android:layout_gravity="center" android:id="@id/cf0" android:layout="@layout/anp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgm" android:layout_height="@dimen/cgf" android:layout_margin="@dimen/ch3" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/chd" android:textStyle="bold" android:textColor="@color/w4" android:layout_gravity="center_vertical" android:id="@id/e09" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cgd" android:layout_marginTop="@dimen/cgd" android:layout_marginRight="@dimen/cgd" android:layout_marginBottom="@dimen/cgf" android:maxLines="2" android:layout_below="@id/c2y" />
+</com.ushareit.mcds.ui.view.McdsRelativeLayout>

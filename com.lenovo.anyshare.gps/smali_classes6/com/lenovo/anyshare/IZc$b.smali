@@ -1,0 +1,34 @@
+.class public interface abstract Lcom/lenovo/anyshare/IZc$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/lenovo/anyshare/IZc$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/lenovo/anyshare/IZc;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "b"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Lcom/sharead/biz/yydl/AdXzRecord;)V
+.end method
+
+.method public abstract a(Ljava/lang/String;)V
+.end method
+
+.method public abstract a(Ljava/lang/String;JJ)V
+.end method
+
+.method public abstract b(Ljava/lang/String;ZLjava/lang/String;)V
+.end method
+
+.method public abstract c(Ljava/lang/String;)V
+.end method

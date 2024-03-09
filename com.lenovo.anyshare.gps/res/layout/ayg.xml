@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d83" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/d89" layout="@layout/ayf" />
+    <com.lenovo.anyshare.widget.recyclerview_adapter.sticky_recyclerview.StickyRecyclerView android:id="@id/d85" android:background="@color/bi0" android:paddingBottom="@dimen/bmw" android:clipToPadding="false" style="@style/qo" />
+    <include android:id="@id/d84" layout="@layout/ayd" />
+    <include android:id="@id/d87" layout="@layout/aye" />
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/d86" android:background="@drawable/duj" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+</FrameLayout>

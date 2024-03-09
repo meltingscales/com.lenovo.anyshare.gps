@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp8" android:layout_marginRight="@dimen/dp8" android:layout_marginHorizontal="@dimen/dp8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp9" android:layout_marginRight="@dimen/dp9" android:layout_marginHorizontal="@dimen/dp9">
+        <include android:id="@id/dfa" layout="@layout/ban" />
+    </LinearLayout>
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/b8t" android:background="@drawable/diz" android:paddingLeft="@dimen/dp9" android:paddingRight="@dimen/dp9" android:layout_width="fill_parent" android:layout_height="@dimen/doq" android:paddingHorizontal="@dimen/dp9" app:a76="@color/afs" />
+    <com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:background="@drawable/dix" android:paddingLeft="@dimen/dp9" android:paddingRight="@dimen/dp9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp9" app:a76="@color/afs">
+        <include layout="@layout/ayt" />
+        <include android:id="@id/df_" layout="@layout/bbb" />
+    </com.ushareit.theme.night.view.NightLinearLayout>
+    <include layout="@layout/bb8" />
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/b8b" android:background="@drawable/diw" android:paddingLeft="@dimen/dp9" android:paddingRight="@dimen/dp9" android:layout_width="fill_parent" android:layout_height="@dimen/dp6" android:paddingHorizontal="@dimen/dp9" app:a76="@color/afs" />
+</LinearLayout>

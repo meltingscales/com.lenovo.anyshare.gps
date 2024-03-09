@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin" android:background="@color/bi0">
+    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/bfo" android:layout_centerHorizontal="true"/>
+    <ViewStub android:id="@+id/e5d" android:layout="@layout/amo" android:layout_width="@dimen/bla" android:layout_height="@dimen/bla" android:layout_marginTop="@dimen/bq1" android:src="@drawable/all" android:layout_alignRight="@+id/icon" android:layout_alignParentTop="true" android:layout_alignEnd="@+id/icon"/>
+    <ViewStub android:id="@+id/e5p" android:layout="@layout/yr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/bs8" android:minWidth="@dimen/bnv" android:layout_alignRight="@+id/icon" android:layout_alignParentTop="true" android:layout_alignEnd="@+id/icon" app:layout_goneMarginRight="@dimen/bs8"/>
+    <TextView android:textSize="@dimen/cf7" android:textColor="@color/bhc" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/icon" android:layout_centerHorizontal="true" android:lineSpacingExtra="0dp" skin:enable="true"/>
+</merge>

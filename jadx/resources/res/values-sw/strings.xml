@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Kiini</string>
+    <string name="a98">Kichwa</string>
+    <string name="a99">Mwonekano wa Maudhui</string>
+    <string name="a9_">Ruhusu</string>
+    <string name="a9a">Usiruhusu</string>
+    <string name="a9b">Ungependa kuruhusu programu ikutumie arifa?</string>
+    <string name="a9c">Gusa ili ufungue tangazo</string>
+    <string name="a9d">Angalia tangazo ulilohifadhi ulipokuwa nje ya mtandao</string>
+    <string name="a9e">Sawa</string>
+    <string name="a9f">Utapokea arifa yenye kiungo utakaporudi mtandaoni</string>
+    <string name="a9g">Hapana</string>
+    <string name="a9h">Tutakutumia arifa yenye kiungo kinachoelekeza kwenye tovuti ya mtangazaji.</string>
+    <string name="a9i">Fungua tangazo utakaporudi mtandaoni.</string>
+    <string name="a9j">Hifadhi picha</string>
+    <string name="a9k">Ungependa kuruhusu tangazo lihifadhi picha katika matunzio ya Picha?</string>
+    <string name="a9l">Kubali</string>
+    <string name="a9m">Kataa</string>
+    <string name="a9n">Unda tukio la kalenda</string>
+    <string name="a9o">Ungependa kuruhusu tangazo liunde tukio la kalenda?</string>
+    <string name="a9p">Tangazo la Jaribio</string>
+    <string name="a9q">AdMob -</string>
+</resources>

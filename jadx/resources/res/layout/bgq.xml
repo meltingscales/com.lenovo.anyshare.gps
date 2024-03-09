@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/bk8" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/e_5" android:background="@drawable/dw6" android:layout_width="match_parent" android:layout_height="@dimen/e2h" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:background="@drawable/dw3" android:layout_width="@dimen/e5x" android:layout_height="@dimen/dzz" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/e87" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/e3d"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/e4c">
+            <ImageView android:id="@+id/e93" android:background="@drawable/dw_" android:layout_width="@dimen/e3q" android:layout_height="@dimen/e3q" android:layout_marginLeft="@dimen/e52" android:layout_centerVertical="true"/>
+            <TextView android:textSize="@dimen/e6w" android:textStyle="bold" android:textColor="@color/bkz" android:ellipsize="end" android:id="@+id/eah" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e36" android:layout_marginRight="@dimen/e52" android:text="@string/dww" android:maxLines="1" android:layout_toRightOf="@+id/e93" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ushareit.base.widget.pulltorefresh.ActionPullToRefreshRecyclerView android:id="@+id/e9t" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <include android:id="@+id/e7v" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/bgf"/>
+            <ViewStub android:id="@+id/e7u" android:layout="@layout/bgc" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ViewStub android:id="@+id/e7t" android:layout="@layout/bga" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|bottom" android:id="@+id/e9i" android:background="@drawable/dx0" android:visibility="gone" android:layout_width="@dimen/e4l" android:layout_height="@dimen/e4l" android:layout_marginRight="@dimen/dzm" android:layout_marginBottom="@dimen/e3w"/>
+</FrameLayout>

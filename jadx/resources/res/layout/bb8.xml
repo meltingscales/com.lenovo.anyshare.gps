@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.theme.night.view.NightLinearLayout android:gravity="center_vertical" android:id="@+id/ccg" android:background="@drawable/djh" android:paddingTop="@dimen/bl2" android:paddingBottom="@dimen/bn4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:night_bg_color_tint="#292929">
+        <com.ushareit.theme.night.view.NightImageView android:background="@drawable/dkb" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginLeft="@dimen/bo3" app:night_tv_alpha="@dimen/db2"/>
+        <TextView android:textSize="@dimen/bst" android:textColor="@color/a57" android:gravity="start" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:text="@string/d1d" android:layout_weight="1"/>
+    </com.ushareit.theme.night.view.NightLinearLayout>
+</merge>

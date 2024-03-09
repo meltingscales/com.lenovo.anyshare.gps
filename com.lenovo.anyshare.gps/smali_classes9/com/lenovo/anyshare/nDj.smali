@@ -1,0 +1,64 @@
+.class public Lcom/lenovo/anyshare/nDj;
+.super Ljava/lang/Thread;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/lenovo/anyshare/oDj;->h()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/lenovo/anyshare/oDj;
+
+
+# direct methods
+.method public constructor <init>(Lcom/lenovo/anyshare/oDj;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/lenovo/anyshare/nDj;->a:Lcom/lenovo/anyshare/oDj;
+
+    invoke-direct {p0, p2}, Ljava/lang/Thread;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .line 1
+    :try_start_0
+    iget-object v0, p0, Lcom/lenovo/anyshare/nDj;->a:Lcom/lenovo/anyshare/oDj;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/oDj;->a(Lcom/lenovo/anyshare/oDj;)Lcom/lenovo/anyshare/iDj;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/lenovo/anyshare/iDj;->a()V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    .line 2
+    iget-object v1, p0, Lcom/lenovo/anyshare/nDj;->a:Lcom/lenovo/anyshare/oDj;
+
+    const/16 v2, 0x9
+
+    invoke-virtual {v1, v2, v0}, Lcom/lenovo/anyshare/CDj;->c(ILjava/lang/Exception;)V
+
+    :goto_0
+    return-void
+.end method

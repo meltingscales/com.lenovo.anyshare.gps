@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/cvg" android:background="?pz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?ic">
+        <include layout="@layout/b4l" />
+    </LinearLayout>
+    <View android:background="@drawable/d60" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <View android:id="@id/cvh" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/cv9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@android:color/white" android:layout_weight="1.0" android:layout_marginStart="@dimen/deo" />
+    <include layout="@layout/b4h" />
+    <include layout="@layout/b4k" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.muslim.settings.widget.TriangleView android:layout_gravity="end" android:id="@+id/adu" android:layout_width="@dimen/arr" android:layout_height="@dimen/arj" android:layout_marginRight="@dimen/aog" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/aog" custom:fill_color="@color/ip"/>
+    <TextView android:textSize="@dimen/asr" android:textColor="@color/l9" android:layout_gravity="end" android:id="@+id/adn" android:background="@drawable/pj" android:paddingLeft="@dimen/amy" android:paddingTop="@dimen/amf" android:paddingRight="@dimen/amy" android:paddingBottom="@dimen/amf" android:layout_width="@dimen/apc" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/amf" android:layout_marginRight="@dimen/amf" android:layout_marginHorizontal="@dimen/amf" android:paddingHorizontal="@dimen/amy" android:paddingVertical="@dimen/amf"/>
+</LinearLayout>

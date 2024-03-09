@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornográf és trágár</item>
+        <item>Bűncselekmény</item>
+        <item>Politikai szempontból kényes</item>
+        <item>Illegális marketing</item>
+        <item>Hamis információ</item>
+        <item>Jogsértés</item>
+    </array>
+    <array name="c">
+        <item>Kellemetlen tartalom</item>
+        <item>Pornográfia</item>
+        <item>Erőszakos tartalom</item>
+        <item>Káros és veszélyes tartalom</item>
+        <item>Cím/fedőlap nem felel meg a tartalomnak</item>
+    </array>
+</resources>

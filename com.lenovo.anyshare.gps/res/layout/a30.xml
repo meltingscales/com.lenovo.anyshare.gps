@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/cr3" style="@style/pl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.widget.UpperCaseButton android:id="@id/d0e" android:background="@drawable/axm" style="@style/pj" />
+    <com.ushareit.widget.UpperCaseButton android:id="@id/d0j" android:background="@drawable/axm" style="@style/pk" />
+</LinearLayout>

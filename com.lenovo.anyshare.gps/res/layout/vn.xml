@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/topon_selfrender_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="#fff6f4f5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/boq" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/topon_blur_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <View android:layout_gravity="bottom" android:background="@drawable/ai5" android:layout_width="fill_parent" android:layout_height="@dimen/bm5" />
+            <com.ushareit.ads.ui.widget.RectFrameLayout android:layout_gravity="bottom|center" android:id="@id/d2j" android:background="@drawable/ai7" android:padding="2.0dip" android:layout_width="307.0dip" android:layout_height="wrap_content" android:layout_marginBottom="44.0dip" android:rotation="2.0" app:a_j="0.52356">
+                <ImageView android:id="@id/topon_coverimage_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            </com.ushareit.ads.ui.widget.RectFrameLayout>
+            <com.ushareit.ads.ui.widget.RectFrameLayout android:layout_gravity="bottom|center" android:id="@id/d2i" android:background="@drawable/ai7" android:padding="2.0dip" android:layout_width="307.0dip" android:layout_height="wrap_content" android:layout_marginBottom="44.0dip" app:a_j="0.52356">
+                <FrameLayout android:id="@id/topon_ad_content_image_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.ushareit.ads.ui.widget.RectFrameLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bop" android:background="#fff6f4f5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/bmf" />
+            <FrameLayout android:id="@id/topon_ad_image" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bqx" android:scaleType="fitCenter" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff191919" android:id="@id/topon_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bi1" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bi1" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff757575" android:gravity="center_horizontal" android:id="@id/topon_ad_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bi1" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bi1" android:maxLines="2" />
+            <TextView android:textSize="18.0sp" android:textColor="@color/bj1" android:gravity="center" android:id="@id/topon_ad_install_btn" android:background="@drawable/aho" android:layout_width="fill_parent" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/bqx" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bqx" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/topon_ad_logo" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="20.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentRight="true" />
+    <FrameLayout android:id="@id/topon_ad_logo_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

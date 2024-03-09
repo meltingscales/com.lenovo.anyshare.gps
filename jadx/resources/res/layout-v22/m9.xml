@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a75" android:background="@drawable/buq" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@drawable/a1z" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a3i" android:layout_width="match_parent" android:layout_height="@dimen/apx">
+            <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/l9" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/ab3" android:paddingLeft="@dimen/am9" android:paddingRight="@dimen/am9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xq" android:singleLine="true" android:drawableRight="@drawable/w2" android:drawablePadding="@dimen/b1t" android:drawableEnd="@drawable/w2" android:paddingHorizontal="@dimen/am9"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a3i">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ar7" android:layout_marginTop="@dimen/am3" android:layout_marginRight="@dimen/ar7" android:layout_marginBottom="@dimen/an7" android:weightSum="5" android:layout_marginHorizontal="@dimen/ar7">
+                <include android:id="@+id/a25" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/nh"/>
+                <include android:id="@+id/a23" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/nh"/>
+                <include android:id="@+id/a20" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/nh"/>
+                <include android:id="@+id/a29" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/nh"/>
+                <include android:id="@+id/a27" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/nh"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

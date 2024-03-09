@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.downloader.widget.HomeSearchKeywordView android:id="@id/bw7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/c2w" app:a_7="@dimen/c3j"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/aog" android:background="@drawable/ah6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bmm" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/bmm" android:paddingBottom="@dimen/bnj" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/bkw">
+            <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="5">
+                <TextView android:textSize="@dimen/bqs" android:textStyle="bold" android:textColor="#191919" android:id="@+id/aol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"/>
+                <ImageView android:gravity="center_horizontal" android:id="@+id/apa" android:layout_width="@dimen/br3" android:layout_height="@dimen/bl2" android:src="@drawable/ahn" android:layout_below="@+id/aol" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="@dimen/bsv" android:textColor="#666666" android:gravity="center_horizontal" android:id="@+id/aoq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <View android:background="@drawable/ai8" android:layout_width="1px" android:layout_height="match_parent"/>
+            <RelativeLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="8">
+                <FrameLayout android:id="@+id/bx9" android:layout_width="@dimen/bq9" android:layout_height="@dimen/bq9" android:layout_marginTop="@dimen/bs3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                    <include android:layout_gravity="end|bottom" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" layout="@layout/uo"/>
+                </FrameLayout>
+                <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/brl" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bhs" android:singleLine="true" android:layout_below="@+id/bx9" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="@dimen/bho" android:textColor="@color/sg" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bnj" android:maxLines="1" android:maxEms="36" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/bhn"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="match_parent" android:layout_height="@dimen/bhp" android:layout_marginTop="@dimen/bl2" android:max="100" android:progress="100" app:textSize="@dimen/bsx" app:text_bold="true" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akc"/>
+    </LinearLayout>
+</FrameLayout>

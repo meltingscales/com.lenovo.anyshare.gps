@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="c">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%1$d بار</item>
+        <item quantity="zero">%1$d مورد</item>
+        <item quantity="one">%1$d مورد</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%1$d files, total %2$s</item>
+        <item quantity="zero">%1$d file, total %2$s</item>
+        <item quantity="one">%1$d file, total %2$s</item>
+    </plurals>
+</resources>

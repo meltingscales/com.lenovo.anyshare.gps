@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="c">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%1$d na mga item</item>
+        <item quantity="zero">%1$d na item</item>
+        <item quantity="one">%1$d na item</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%1$d mga file, kabuuang %2$s</item>
+        <item quantity="zero">%1$d file, kabuuang %2$s</item>
+        <item quantity="one">%1$d file, kabuuang %2$s</item>
+    </plurals>
+</resources>

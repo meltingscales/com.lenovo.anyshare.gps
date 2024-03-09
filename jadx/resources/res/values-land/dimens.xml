@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bdq">48dp</dimen>
+    <dimen name="bfs">12dp</dimen>
+    <dimen name="bfu">14dp</dimen>
+    <dimen name="cg8">450dp</dimen>
+    <dimen name="cg9">600dp</dimen>
+    <dimen name="d5w">24dp</dimen>
+    <dimen name="d5z">24dp</dimen>
+    <dimen name="d7c">20dp</dimen>
+    <dimen name="d7e">4dp</dimen>
+    <dimen name="d7i">96dp</dimen>
+    <dimen name="d7l">0dp</dimen>
+    <dimen name="d7m">0dp</dimen>
+    <dimen name="d7n">104dp</dimen>
+    <dimen name="d7v">68dp</dimen>
+    <dimen name="d7x">28dp</dimen>
+    <dimen name="d7y">64dp</dimen>
+    <dimen name="d7z">32dp</dimen>
+    <dimen name="d80">24dp</dimen>
+    <dimen name="d81">32dp</dimen>
+</resources>

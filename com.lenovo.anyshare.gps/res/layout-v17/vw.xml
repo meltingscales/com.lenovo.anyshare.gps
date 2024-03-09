@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.san.ads.MediaView android:id="@id/bx9" android:layout_width="@dimen/bpr" android:layout_height="@dimen/bpr" android:layout_marginRight="@dimen/bl2" android:layout_marginEnd="@dimen/bl2">
+        <ImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </com.san.ads.MediaView>
+    <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/s1" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center" android:id="@id/dpx" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/br9" android:maxLines="2" android:layout_weight="1.0" android:layout_marginEnd="@dimen/br9" />
+    <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center_vertical" android:id="@id/b00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/brq" android:max="100" android:progress="100" android:minWidth="@dimen/bqt" android:singleLine="true" app:ajb="@dimen/bsx" app:ajg="@dimen/bqf" app:ajh="@dimen/blk" app:aji="@dimen/blk" app:ajj="@dimen/bqf" app:ajk="@dimen/brq" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/akc" />
+</LinearLayout>

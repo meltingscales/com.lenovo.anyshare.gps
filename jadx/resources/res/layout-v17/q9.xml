@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/white" android:paddingBottom="@dimen/b60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="300dp" android:minHeight="250dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aga" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/b60" android:layout_toLeftOf="@+id/ago" android:layout_alignParentTop="true" android:layout_toStartOf="@+id/ago">
+        <FrameLayout android:id="@+id/agj" android:layout_marginRight="@dimen/b60" android:layout_marginEnd="@dimen/b60" style="@style/gf">
+            <ImageView android:id="@+id/agi" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="50dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView style="@style/h1"/>
+                <TextView android:id="@+id/agq" style="@style/h3"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/agp" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+            <TextView android:id="@+id/agc" style="@style/h2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/ago" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:minWidth="20dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="2dp" android:layout_alignParentEnd="true"/>
+    <TextView android:id="@+id/age" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:maxLines="3" android:layout_below="@+id/aga" style="@style/h4"/>
+    <FrameLayout android:id="@+id/agn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/agf" android:layout_below="@+id/age" android:layout_centerHorizontal="true"/>
+    <Button android:textSize="15sp" android:id="@+id/agf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/b60" android:singleLine="false" android:layout_alignParentBottom="true" style="@style/gr"/>
+</RelativeLayout>

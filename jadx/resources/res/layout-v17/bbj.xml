@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/bvk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/br9">
+    <LinearLayout android:orientation="vertical" android:id="@+id/den" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/v9" android:id="@+id/deo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bmw" android:layout_marginRight="@dimen/bmm" android:text="@string/dfi" android:maxLines="3"/>
+        <View android:background="#4d979797" android:layout_width="match_parent" android:layout_height="@dimen/bko" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bmm"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bmw" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bn4">
+            <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:id="@+id/dex" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" app:radius="@dimen/bl2" app:rect_radio="1">
+                <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@+id/dej" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/au3" android:scaleType="centerCrop" app:night_color_tint="@color/w4"/>
+            </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_weight="1" android:layout_marginStart="@dimen/blk">
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/wu" android:ellipsize="end" android:id="@+id/del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textSize="@dimen/doh" android:textColor="@color/ye" android:id="@+id/deh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqf" android:text="TOOLS" android:singleLine="true" android:textDirection="locale"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/wh" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/df4" android:background="@drawable/agy" android:layout_width="@dimen/bra" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:minHeight="@dimen/bow" android:text="@string/dfg" android:maxLines="1" android:layout_marginStart="@dimen/bl2"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

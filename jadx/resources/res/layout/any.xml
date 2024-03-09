@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.gallery.GalleryRoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" app:rfl_radius="@dimen/ch3">
+    <com.ushareit.mcds.ui.component.McdsGalleryItemNormal android:id="@+id/bc7" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop"/>
+</com.ushareit.mcds.ui.view.gallery.GalleryRoundFrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/dev" android:layout_width="@dimen/api" android:layout_height="wrap_content" android:layout_centerInParent="true">
+    <ImageView android:id="@+id/vr" android:visibility="invisible" android:layout_width="@dimen/amy" android:layout_height="@dimen/amy" android:layout_marginTop="@dimen/amf" android:layout_marginRight="@dimen/amf" android:src="@drawable/sn" android:layout_alignParentRight="true"/>
+    <TextView android:textSize="@dimen/asr" android:textColor="@color/j9" android:id="@+id/a_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqj" android:text="@string/re" android:layout_below="@+id/vr" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ap4" android:layout_marginBottom="@dimen/apx" android:layout_below="@+id/a_5">
+        <LinearLayout android:gravity="center" android:id="@+id/uz" android:background="@drawable/p8" android:layout_width="@dimen/arf" android:layout_height="@dimen/arf" android:layout_marginLeft="@dimen/aok">
+            <ImageView android:layout_gravity="center" android:id="@+id/uy" android:layout_width="@dimen/ar1" android:layout_height="@dimen/ar1" android:src="@drawable/th"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/a41" android:background="@drawable/p8" android:layout_width="@dimen/arf" android:layout_height="@dimen/arf" android:layout_centerHorizontal="true">
+            <ImageView android:id="@+id/v1" android:layout_width="@dimen/ar1" android:layout_height="@dimen/ar1" android:src="@drawable/tj"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/aeu" android:background="@drawable/p8" android:layout_width="@dimen/arf" android:layout_height="@dimen/arf" android:layout_marginLeft="@dimen/aok" android:layout_toRightOf="@+id/a41">
+            <ImageView android:id="@+id/v2" android:layout_width="@dimen/ar1" android:layout_height="@dimen/ar1" android:src="@drawable/tk"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

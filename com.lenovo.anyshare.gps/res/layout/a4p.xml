@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/b8q" android:background="@color/abt" android:layout_width="fill_parent" android:layout_height="@dimen/c4h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/ayk" android:layout_width="@dimen/c3x" android:layout_height="@dimen/c3w" style="@style/am3" />
+    <ViewStub android:layout_gravity="start|center" android:id="@id/b79" android:layout="@layout/a3j" android:layout_width="@dimen/c3x" android:layout_height="@dimen/c3w" style="@style/am2" />
+    <TextView android:textSize="@dimen/c4m" android:textColor="@color/ac_" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="5.0dip" style="@style/am4" />
+    <Button android:textSize="@dimen/c4k" android:textColor="@color/aba" android:gravity="center" android:layout_gravity="end|center" android:background="@color/ac8" android:visibility="gone" android:layout_width="@dimen/c3z" android:layout_height="@dimen/c3y" style="@style/am1" />
+    <ViewStub android:layout_gravity="end|center" android:id="@id/right_container" android:layout="@layout/a3k" android:layout_width="@dimen/c3z" android:layout_height="@dimen/c3z" style="@style/am1" />
+</FrameLayout>

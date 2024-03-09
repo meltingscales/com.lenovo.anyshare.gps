@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/aw5" android:paddingLeft="@dimen/bl2" android:paddingTop="@dimen/br9" android:paddingRight="@dimen/bl2" android:paddingBottom="@dimen/brt" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/d17" android:paddingLeft="@dimen/bm3" android:paddingTop="@dimen/bm3" android:paddingRight="@dimen/bm3" android:layout_width="fill_parent" android:layout_height="@dimen/bn6" android:layout_marginBottom="@dimen/bm3">
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ce4" />
+        <com.ushareit.rateui.widget.EmotionRatingBar android:layout_gravity="center" android:id="@id/d18" android:layout_width="fill_parent" android:layout_height="@dimen/dyh" android:layout_marginLeft="@dimen/bq9" android:layout_marginTop="@dimen/bnb" android:layout_marginRight="@dimen/bq9" android:numStars="5" android:rating="0.0" android:stepSize="1.0" style="@style/hl" />
+        <TextView android:textSize="@dimen/bsx" android:gravity="center" android:id="@id/ck2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmf" android:text="@string/b7u" />
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/a79" android:gravity="center" android:id="@id/cqe" android:background="@drawable/aru" android:layout_width="fill_parent" android:layout_height="@dimen/bpe" android:layout_marginTop="@dimen/bmm" android:text="@string/as_" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/do6" android:background="@drawable/aw5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bn6" android:layout_marginBottom="@dimen/br9">
+        <ImageView android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:src="@drawable/b_a" />
+        <TextView android:textSize="@dimen/bsx" android:id="@id/do7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bla" android:text="@string/atl" />
+    </LinearLayout>
+</FrameLayout>

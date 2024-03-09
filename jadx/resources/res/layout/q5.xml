@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+    <FrameLayout android:id="@+id/agj" style="@style/gf">
+        <ImageView android:id="@+id/agi" style="@style/gf"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/aga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/agq" android:layout_marginBottom="1dp" android:layout_toLeftOf="@+id/ago" android:layout_alignParentLeft="true" style="@style/h3"/>
+            <FrameLayout android:id="@+id/ago" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView style="@style/gs"/>
+            <TextView android:id="@+id/agc" style="@style/gt"/>
+        </LinearLayout>
+        <TextView android:id="@+id/age" style="@style/gt"/>
+    </LinearLayout>
+</LinearLayout>

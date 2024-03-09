@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightFrameLayout android:background="@drawable/c9d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="0.0dip" android:layout_marginHorizontal="@dimen/cx6" app:a76="@color/au7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/d6v" android:background="@drawable/cau" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/aso" />
+        <include layout="@layout/asn" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d1e" android:layout_marginRight="@dimen/d1e">
+            <FrameLayout android:layout_gravity="center" android:id="@id/caa" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_gravity="center" android:id="@id/ca5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/asm" />
+    </LinearLayout>
+</com.ushareit.theme.night.view.NightFrameLayout>

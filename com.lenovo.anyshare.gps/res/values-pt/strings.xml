@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abr">Navegar para a página inicial</string>
+    <string name="abs">Navegar para cima</string>
+    <string name="abt">Mais opções</string>
+    <string name="abu">Concluído</string>
+    <string name="abv">Ver tudo</string>
+    <string name="abw">Selecionar um app</string>
+    <string name="abx">DESATIVADO</string>
+    <string name="aby">ATIVADO</string>
+    <string name="abz">Alt+</string>
+    <string name="ac0">Ctrl+</string>
+    <string name="ac1">delete</string>
+    <string name="ac2">enter</string>
+    <string name="ac3">Function+</string>
+    <string name="ac4">Meta+</string>
+    <string name="ac5">Shift+</string>
+    <string name="ac6">espaço</string>
+    <string name="ac7">Sym+</string>
+    <string name="ac8">Menu+</string>
+    <string name="ac9">Pesquisar…</string>
+    <string name="ac_">Limpar consulta</string>
+    <string name="aca">Consulta de pesquisa</string>
+    <string name="acb">Pesquisar</string>
+    <string name="acc">Enviar consulta</string>
+    <string name="acd">Pesquisa por voz</string>
+    <string name="ace">Compartilhar com</string>
+    <string name="acf">Compartilhar com %s</string>
+    <string name="acg">Recolher</string>
+    <string name="avf">Link copiado para a área de transferência</string>
+    <string name="b5v">Copiar link</string>
+    <string name="b5w">Abrir no navegador</string>
+    <string name="b5x">Compartilhar link</string>
+    <string name="ceo">Não, obrigado</string>
+    <string name="ctm">Pesquisar</string>
+    <string name="dgu">999+</string>
+    <string name="dim">Canal predefinido do sistema</string>
+    <string name="du_">Sim, concordo</string>
+</resources>

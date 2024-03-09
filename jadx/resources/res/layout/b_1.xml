@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@drawable/dlm" android:paddingLeft="@dimen/bm3" android:paddingRight="@dimen/bm3" android:layout_width="match_parent" android:layout_height="@dimen/dk5" app:night_bg_color_tint="@color/w4">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:background="@drawable/dln" android:layout_width="@dimen/dk7" android:layout_height="@dimen/dk7" app:night_alpha="@dimen/db2" app:night_bg_color_tint="@color/w4" style="@style/ap9"/>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dk6" android:textColor="@color/a35" android:layout_gravity="start|center_vertical" android:id="@+id/dcr" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/d3_" android:layout_weight="1" app:night_tv_text_color="@color/w4"/>
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center_vertical" android:background="@drawable/ata" android:layout_width="@dimen/dk4" android:layout_height="@dimen/dk4" app:night_bg_color_tint="@color/w4" style="@style/ap_"/>
+</com.ushareit.theme.night.view.NightLinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" style="@style/a7_"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c5q" android:visibility="gone" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:scaleType="fitXY" android:layout_marginStart="@dimen/bn4" android:layout_marginEnd="@dimen/bqv" app:a0o="@id/c74" app:a1c="csi" app:a1g="@id/c74" />
+    <TextView android:id="@id/dbg" android:layout_marginStart="@dimen/bs3" app:a0p="@id/dc1" app:a1b="@id/c5q" app:a1g="csi" app:a1v="@dimen/bn4" style="@style/u8" />
+    <ImageView android:id="@id/c74" app:a0o="csi" app:a0u="csi" app:a1g="csi" style="@style/h8" />
+    <TextView android:textSize="@dimen/bsy" android:textColor="@color/ye" android:gravity="end" android:id="@id/dcm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewEnd" android:layout_marginEnd="@dimen/bqv" app:a0o="@id/c74" app:a0v="@id/c74" app:a1b="@id/dbg" app:a1g="@id/c74" app:a1s="@dimen/boe" />
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/c7w" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" android:layout_marginEnd="@dimen/bqv" app:a0o="@id/c74" app:a0v="@id/c74" app:a1g="@id/c74" app:a1s="@dimen/bsq" app:a75="@dimen/db2" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:gravity="start" android:id="@id/dc1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/bqx" app:a0o="csi" app:a0v="@id/c74" app:a1c="@id/dbg" app:a1f="@id/dbg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

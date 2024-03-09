@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="@dimen/dw" android:layout_height="@dimen/dw">
+        <ImageView android:id="@+id/cl" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ch"/>
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/ag" android:layout_width="@dimen/dw" android:layout_height="@dimen/dw" android:src="@drawable/dt"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/ho" android:textColor="@color/d7" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dy" android:text="@string/e4"/>
+</merge>

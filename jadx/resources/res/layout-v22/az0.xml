@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/ayv"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/bt6" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/c97" android:maxLines="2" style="@style/q7"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpe" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bpe" android:layout_marginHorizontal="@dimen/bpe">
+            <ImageView android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginTop="@dimen/bq1" android:src="@drawable/cpd"/>
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="0dp" android:layout_marginRight="@dimen/brt" android:text="@string/c9f" android:maxLines="4" android:layout_marginHorizontal="@dimen/brt" style="@style/pr"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpe" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bpe" android:layout_marginHorizontal="@dimen/bpe">
+            <ImageView android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginTop="@dimen/bq1" android:src="@drawable/cpd"/>
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="0dp" android:layout_marginRight="@dimen/brt" android:text="@string/c9g" android:maxLines="4" android:layout_marginHorizontal="@dimen/brt" style="@style/pr"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpe" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bpe" android:layout_marginHorizontal="@dimen/bpe">
+            <ImageView android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginTop="@dimen/bq1" android:src="@drawable/cpd"/>
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="0dp" android:layout_marginRight="@dimen/brt" android:text="@string/c9h" android:maxLines="4" android:layout_marginHorizontal="@dimen/brt" style="@style/pr"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@+id/dtr" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/bpv" android:layout_marginRight="@dimen/by7" android:layout_marginBottom="@dimen/bpv" android:text="@string/at2" android:layout_marginHorizontal="@dimen/by7" android:layout_marginVertical="@dimen/bpv"/>
+    </LinearLayout>
+    <com.lenovo.anyshare.widget.CommonTitleView android:id="@+id/e2t" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

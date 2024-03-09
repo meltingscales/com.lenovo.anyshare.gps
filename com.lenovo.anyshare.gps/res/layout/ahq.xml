@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:layout_gravity="center_horizontal" android:id="@id/cfs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="64.0dip">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/cfv" android:background="@drawable/au3" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/br9" android:layout_alignParentLeft="true" app:a75="@dimen/db2" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/xu" android:gravity="left" android:autoLink="web" android:id="@id/cg8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="@dimen/br9" android:text="@string/b8f" android:layout_toRightOf="@id/cfv" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:gravity="start" android:autoLink="web" android:id="@id/cfx" android:background="@drawable/b_f" android:paddingLeft="@dimen/bo3" android:paddingTop="@dimen/bnj" android:paddingRight="@dimen/bo3" android:paddingBottom="@dimen/bnv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bqo" android:layout_toRightOf="@id/cfv" android:layout_below="@id/cg8" app:a7g="@color/afs" />
+    </RelativeLayout>
+</LinearLayout>

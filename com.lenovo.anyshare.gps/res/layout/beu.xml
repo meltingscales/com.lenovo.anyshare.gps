@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/bo8" style="@style/q1">
+        <TextView android:id="@id/title_text" android:layout_marginBottom="@dimen/bkq" style="@style/q7" />
+        <TextView android:id="@id/cl9" android:layout_marginTop="@dimen/bmm" style="@style/pr" />
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center_vertical" android:id="@id/b_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bo8" app:lz="@dimen/bkq" app:m1="@dimen/bkq" app:a_j="0.45" app:al6="@dimen/bkq" app:al7="@dimen/bkq">
+            <ImageView android:id="@id/b_a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="@dimen/bn4" />
+        <include layout="@layout/a30" />
+    </LinearLayout>
+</FrameLayout>

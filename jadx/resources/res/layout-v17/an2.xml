@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.main.CustomCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bqc" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/e63" android:layout="@layout/yd" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3"/>
+    <com.lenovo.anyshare.main.CustomAppBarLayout android:orientation="vertical" android:id="@+id/arl" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" app:elevation="0dp" app:layout_behavior="com.lenovo.anyshare.main.home.behavior.FixAppBarBehavior">
+        <com.lenovo.anyshare.main.widget.MainTransHomeTopView2 android:id="@+id/bvu" android:layout_width="match_parent" android:layout_height="@dimen/bn0" android:minHeight="@dimen/brc" app:layout_scrollFlags="0x3"/>
+    </com.lenovo.anyshare.main.CustomAppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d7t" android:paddingLeft="@dimen/brl" android:paddingTop="@dimen/bl2" android:paddingRight="@dimen/brl" android:paddingBottom="@dimen/bqj" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+    <ViewStub android:layout_gravity="end|top" android:id="@+id/e5g" android:fitsSystemWindows="true" android:layout="@layout/ajz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqj" android:layout_marginRight="@dimen/bl2" android:layout_marginEnd="@dimen/bl2"/>
+    <FrameLayout android:layout_gravity="end|bottom" android:id="@+id/cge" android:layout_width="90dp" android:layout_height="90dp" android:layout_marginBottom="145dp"/>
+</com.lenovo.anyshare.main.CustomCoordinatorLayout>

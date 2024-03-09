@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lenovo.anyshare.qrcode.QRScanView android:layout_gravity="center" android:id="@+id/d05" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/ayb"/>
+    <include layout="@layout/aya"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/d4o" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="wrap_content" android:layout_height="@dimen/bpe" android:layout_marginBottom="@dimen/bqx" android:paddingHorizontal="@dimen/bnj" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0">
+            <TextView android:textSize="@dimen/bsx" android:textColor="#e0e0e0" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clb"/>
+            <TextView android:textSize="@dimen/bsx" android:textColor="#3086ff" android:layout_gravity="center" android:id="@+id/b98" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cl4"/>
+        </LinearLayout>
+        <include layout="@layout/ay_"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.lenovo.anyshare.pc.widget.PCConnectingView android:id="@+id/e2c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

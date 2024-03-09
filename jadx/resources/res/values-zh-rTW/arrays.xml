@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>色情粗俗</item>
+        <item>犯罪</item>
+        <item>政治敏感</item>
+        <item>非法行銷</item>
+        <item>虛假資訊</item>
+        <item>侵權</item>
+    </array>
+    <array name="c">
+        <item>引起他人不適的內容</item>
+        <item>色情</item>
+        <item>暴力內容</item>
+        <item>有害和危險內容</item>
+        <item>標題/封面與內容不符</item>
+    </array>
+</resources>

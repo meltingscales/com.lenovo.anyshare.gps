@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@+id/ij" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/gk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/f3" android:layout_marginEnd="@dimen/f3">
+            <com.lenovo.anyshare.base.slider.SlidingTabLayout android:id="@+id/gj" android:layout_width="wrap_content" android:layout_height="@dimen/el"/>
+        </LinearLayout>
+    </com.ushareit.listplayer.pager.ViewPagerForSlider>
+</LinearLayout>

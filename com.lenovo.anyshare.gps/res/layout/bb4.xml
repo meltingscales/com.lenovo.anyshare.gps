@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bae" />
+    <LinearLayout android:orientation="vertical" android:id="@id/deu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/bqn" android:layout_below="@id/e26" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true">
+        <include layout="@layout/bb2" />
+        <include layout="@layout/bb1" />
+        <include layout="@layout/bb7" />
+        <include layout="@layout/bb8" />
+        <include layout="@layout/bb0" />
+        <com.lenovo.anyshare.appextension.view.AppExtensionTextLayout android:id="@id/arz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.lenovo.anyshare.appextension.view.AppExtensionImageLayout android:id="@id/arx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.lenovo.anyshare.appextension.view.AppExtensionRecommentLayout android:id="@id/ary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/u9" android:background="@color/l9" android:paddingLeft="@dimen/ap4" android:paddingRight="@dimen/ap4" android:layout_width="match_parent" android:layout_height="@dimen/arf">
+    <com.ushareit.widget.RoundFrameLayout android:id="@+id/wk" android:layout_width="@dimen/aqh" android:layout_height="@dimen/aqh" app:radius="@dimen/arr">
+        <com.san.ads.MediaView android:id="@+id/zx" android:layout_width="@dimen/aqh" android:layout_height="@dimen/aqh"/>
+    </com.ushareit.widget.RoundFrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/am3" android:layout_marginRight="@dimen/am3" android:layout_weight="1">
+        <TextView android:textSize="@dimen/ast" android:textColor="@color/hp" android:ellipsize="end" android:id="@+id/a_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqj">
+            <ImageView android:id="@+id/zy" android:layout_width="@dimen/amy" android:layout_height="@dimen/am3" android:layout_marginRight="@dimen/aqj" android:src="@drawable/yn"/>
+            <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:ellipsize="end" android:layout_gravity="start|center_vertical" android:id="@+id/a_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/asp" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/a_s" android:background="@drawable/a5s" android:layout_width="@dimen/ars" android:layout_height="@dimen/apb" android:textAllCaps="true"/>
+</LinearLayout>

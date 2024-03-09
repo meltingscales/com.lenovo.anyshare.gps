@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsFrameLayout style="@style/re"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" style="@style/rd">
+        <ImageView android:layout_gravity="end" android:id="@id/bfx" android:padding="@dimen/byl" android:layout_width="@dimen/byh" android:layout_height="@dimen/byh" android:layout_marginTop="@dimen/byg" android:layout_marginRight="@dimen/byg" android:src="@drawable/axr" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/byw" android:textColor="@color/w4" android:id="@id/bfz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/bym" android:layout_marginRight="@dimen/bye" android:layout_marginBottom="@dimen/by_" />
+        <ScrollView android:id="@id/bb6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bfz">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/by8" android:textColor="@color/xu" android:id="@id/bfy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bye" android:layout_marginRight="@dimen/bye" android:maxHeight="225.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <TextView android:textSize="@dimen/by4" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bfu" android:background="@drawable/axo" android:layout_width="fill_parent" android:layout_height="@dimen/bxx" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/by9" android:layout_marginRight="@dimen/bye" android:layout_marginBottom="@dimen/bye" android:layout_below="@id/bb6" />
+        <View android:id="@id/boe" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_below="@id/bfu" android:layout_alignParentRight="true" />
+        <ViewStub android:id="@id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgm" android:layout_height="@dimen/cgf" android:layout_margin="@dimen/ch3" android:layout_toLeftOf="@id/boe" android:layout_above="@id/boe" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</com.ushareit.mcds.ui.view.McdsFrameLayout>

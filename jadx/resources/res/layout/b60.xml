@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.siplayer.local.popmenu.view.popupfloatview.PopupSetSpeedView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/dse" android:paddingLeft="@dimen/dfj" android:paddingTop="@dimen/dfr" android:paddingRight="@dimen/dfj" android:paddingBottom="@dimen/dfr" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/dh1" android:textColor="#e6ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dr8"/>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/df8">
+        <ImageView android:id="@+id/dhj" android:background="@drawable/ds5" android:layout_width="@dimen/dfj" android:layout_height="@dimen/dfj"/>
+        <TextView android:textSize="@dimen/dgz" android:textColor="@color/b33" android:gravity="center_horizontal" android:id="@+id/dhl" android:background="@color/b3d" android:layout_width="0dp" android:layout_height="wrap_content" android:minWidth="@dimen/dgk" android:layout_weight="1"/>
+        <ImageView android:id="@+id/dhk" android:background="@drawable/drw" android:layout_width="@dimen/dfj" android:layout_height="@dimen/dfj"/>
+    </LinearLayout>
+</com.ushareit.siplayer.local.popmenu.view.popupfloatview.PopupSetSpeedView>

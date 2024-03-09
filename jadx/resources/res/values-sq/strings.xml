@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Teksti</string>
+    <string name="a98">Titulli</string>
+    <string name="a99">Pamja e medias</string>
+    <string name="a9_">Lejo</string>
+    <string name="a9a">Mos lejo</string>
+    <string name="a9b">Të lejohet aplikacioni të të dërgojë njoftime?</string>
+    <string name="a9c">Trokit për të hapur reklamën</string>
+    <string name="a9d">Shiko reklamën që ruajte kur ishe jashtë linje</string>
+    <string name="a9e">Në rregull</string>
+    <string name="a9f">Do të marrësh një njoftim me lidhjen kur të jesh përsëri në linjë.</string>
+    <string name="a9g">Jo</string>
+    <string name="a9h">Do të të dërgojmë një njoftim me një lidhje për te sajti i reklamuesit.</string>
+    <string name="a9i">Hape reklamën kur të jesh përsëri në linjë.</string>
+    <string name="a9j">Ruaje imazhin</string>
+    <string name="a9k">Të lejohet që reklama të ruajë imazhin në \"Galerinë e fotografive\"?</string>
+    <string name="a9l">Prano</string>
+    <string name="a9m">Refuzo</string>
+    <string name="a9n">Krijo një ngjarje në kalendar</string>
+    <string name="a9o">Të lejohet që reklama të krijojë një ngjarje në kalendar?</string>
+    <string name="a9p">Reklamë test</string>
+    <string name="a9q">AdMob -</string>
+</resources>

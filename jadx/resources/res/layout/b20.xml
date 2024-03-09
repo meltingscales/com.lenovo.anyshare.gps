@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/cz6" android:paddingLeft="@dimen/bmm" android:paddingTop="@dimen/bm3" android:paddingRight="@dimen/bmm" android:paddingBottom="@dimen/bm3" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bo8" android:layout_weight="1">
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:id="@+id/bth" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:id="@+id/btg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.lenovo.anyshare.main.music.equalizer.SwitchButton android:layout_gravity="end|center_vertical" android:id="@+id/btf" android:background="@drawable/cun" android:layout_width="@dimen/bpo" android:layout_height="@dimen/bnj" android:layout_centerVertical="true" custom:switchThumb="@drawable/cum"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/c_7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@+id/dzn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0KB"/>
+        <SeekBar android:id="@+id/d_q" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:progressDrawable="@drawable/cwc" android:thumb="@drawable/bm8" android:layout_weight="1" android:soundEffectsEnabled="false"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@+id/dzm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2MB"/>
+    </LinearLayout>
+</LinearLayout>

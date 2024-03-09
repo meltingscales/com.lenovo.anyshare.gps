@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/bh5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bmb" app:uh="true" style="?aj8">
+        <AutoCompleteTextView android:id="@id/bhn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/bh7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bmb" app:uh="true" style="?aj8">
+        <AutoCompleteTextView android:id="@id/bho" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="none" android:imeOptions="flagNoExtractUi" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

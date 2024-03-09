@@ -1,0 +1,11 @@
+.class public interface abstract Lcom/lenovo/anyshare/vBc;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(S)Ljava/lang/String;
+.end method
+
+.method public abstract a(Ljava/lang/String;)S
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/vw" android:layout_width="match_parent" android:layout_height="@dimen/atf">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x710701d8" android:background="@drawable/ue" android:layout_width="@dimen/asg" android:layout_height="@dimen/asf" style="@style/aj7"/>
+        <TextView android:textSize="@dimen/atp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/title_text_res_0x71070257" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zj" android:singleLine="true" android:drawablePadding="5dp" style="@style/alh"/>
+        <FrameLayout android:gravity="center_vertical" android:layout_gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/aqh" android:layout_marginRight="@dimen/aqp" android:layout_marginEnd="@dimen/aqp" style="@style/alh">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a3n" android:background="@drawable/a4c" android:paddingLeft="@dimen/ar7" android:paddingTop="@dimen/ap6" android:paddingRight="@dimen/ar7" android:paddingBottom="@dimen/ap6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/aqw" android:minWidth="@dimen/ar9" android:minHeight="@dimen/aon" android:layout_marginEnd="@dimen/aqw">
+                <ImageView android:id="@+id/a0s" android:layout_width="wrap_content" android:layout_height="@dimen/ans" android:layout_marginRight="@dimen/aq3" android:src="@drawable/a48" android:layout_marginEnd="@dimen/aq3"/>
+                <TextView android:textSize="@dimen/asp" android:textStyle="bold" android:textColor="@color/i6" android:ellipsize="end" android:gravity="center" android:id="@+id/abj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/an8" android:text="@string/zj" android:singleLine="true" style="@style/ahx"/>
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/ks"/>
+        <View android:layout_gravity="bottom" android:background="@color/a4n" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/ao0"/>
+    </FrameLayout>
+</merge>

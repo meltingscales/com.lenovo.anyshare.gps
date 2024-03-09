@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fresco="http://schemas.android.com/apk/res-auto" android:id="@+id/nj" android:background="#33333333" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/pa" android:background="@drawable/lb" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_horizontal" android:background="@drawable/lc" android:layout_width="40dp" android:layout_height="4dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp"/>
+        <FrameLayout android:gravity="start|center_vertical" android:orientation="horizontal" android:id="@+id/nr" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="56dp">
+            <TextView android:textSize="17sp" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:layout_gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="20dp" android:text="@string/n0" android:lines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="15dp" android:layout_marginEnd="20dp"/>
+            <View android:gravity="center" android:layout_gravity="end|center_vertical" android:background="@drawable/la" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="15dp" android:layout_marginRight="20dp" android:layout_marginStart="15dp" android:layout_marginEnd="20dp"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/nq" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="56dp">
+            <View android:id="@+id/pb" android:background="#e9e9e9" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="15dp" android:layout_marginStart="15dp"/>
+            <TextView android:textSize="17sp" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:layout_gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="20dp" android:text="@string/mz" android:lines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="15dp" android:layout_marginEnd="20dp"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/nu" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="56dp">
+            <View android:id="@+id/pb" android:background="#e9e9e9" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="15dp" android:layout_marginStart="15dp"/>
+            <TextView android:textSize="17sp" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:layout_gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="20dp" android:text="@string/n1" android:lines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="15dp" android:layout_marginEnd="20dp"/>
+            <View android:gravity="center" android:layout_gravity="end|center_vertical" android:background="@drawable/la" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="15dp" android:layout_marginRight="20dp" android:layout_marginStart="15dp" android:layout_marginEnd="20dp"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/nn" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="56dp">
+            <View android:id="@+id/pb" android:background="#e9e9e9" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="15dp" android:layout_marginStart="15dp"/>
+            <TextView android:textSize="17sp" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:layout_gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="20dp" android:text="@string/my" android:lines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="15dp" android:layout_marginEnd="20dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

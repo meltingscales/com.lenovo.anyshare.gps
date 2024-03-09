@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.video.widget.PlayerLoadingView android:id="@+id/f7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/f6" android:layout="@layout/cg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:layout_gravity="bottom" android:id="@+id/at" android:layout_width="match_parent" android:layout_height="@dimen/dy" android:progressDrawable="@drawable/dh" style="@android:style/Widget.ProgressBar.Horizontal"/>
+</merge>

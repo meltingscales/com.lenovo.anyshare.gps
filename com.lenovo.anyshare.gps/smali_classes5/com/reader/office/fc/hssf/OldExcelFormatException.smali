@@ -1,0 +1,14 @@
+.class public Lcom/reader/office/fc/hssf/OldExcelFormatException;
+.super Lcom/reader/office/fc/OldFileFormatException;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/reader/office/fc/OldFileFormatException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

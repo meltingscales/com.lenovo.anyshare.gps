@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Порнографічний, непристойний</item>
+        <item>Злочинний</item>
+        <item>Політично чутливий</item>
+        <item>Незаконний маркетинг</item>
+        <item>Хибна інформація</item>
+        <item>Порушення</item>
+    </array>
+    <array name="c">
+        <item>Контент, що спричиняє дискомфорт</item>
+        <item>Порнографія</item>
+        <item>Контент насильницького характеру</item>
+        <item>Шкідливий і небезпечний контент</item>
+        <item>Заголовок/обкладинка не відповідає контенту</item>
+    </array>
+</resources>

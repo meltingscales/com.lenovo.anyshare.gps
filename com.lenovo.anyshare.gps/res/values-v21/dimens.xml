@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="cdc">0.32</item>
+    <item type="dimen" name="cdd">0.24</item>
+    <item type="dimen" name="cde">0.16</item>
+    <item type="dimen" name="cdf">0.24</item>
+    <dimen name="d7u">0.0dip</dimen>
+    <dimen name="d8f">1.0dip</dimen>
+    <item type="dimen" name="d92">0.48</item>
+    <item type="dimen" name="d93">0.48</item>
+    <item type="dimen" name="d94">0.16</item>
+    <item type="dimen" name="d95">0.48</item>
+    <item type="dimen" name="d97">0.24</item>
+    <item type="dimen" name="d98">0.24</item>
+    <item type="dimen" name="d99">0.08</item>
+    <item type="dimen" name="d9_">0.24</item>
+    <dimen name="dbh">0.0dip</dimen>
+    <dimen name="dbk">0.0dip</dimen>
+    <dimen name="dbl">12.0dip</dimen>
+</resources>

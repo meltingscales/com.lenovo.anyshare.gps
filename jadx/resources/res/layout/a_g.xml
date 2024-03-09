@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/d77" style="@style/q3">
+    <LinearLayout android:layout_gravity="bottom" android:background="@drawable/bkk" android:paddingTop="0dp" android:paddingBottom="@dimen/bm3" android:layout_marginLeft="@dimen/bkq" android:layout_marginRight="@dimen/bkq" android:layout_marginBottom="@dimen/bkq" style="@style/q1">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bmf">
+            <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/w4" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginTop="@dimen/bn4" android:text="@string/c2u"/>
+            <ImageView android:id="@+id/c49" android:padding="@dimen/bqf" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:src="@drawable/bk4" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/cab" style="@style/rc"/>
+    </LinearLayout>
+</FrameLayout>

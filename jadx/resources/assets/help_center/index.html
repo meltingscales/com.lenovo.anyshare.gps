@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="https://static.wshareit.com/libs/swiper.min.css"><title>Help Center</title><script>;try {
+        if(location.hash !== '#/') {
+          document.title = 'Details';
+        }
+        window.__FE_PAGE_START_TIME__ = new Date().getTime();
+        if (window.shareitBridge) {
+          function getUrlParam(name) {
+            var u = window.location.search,
+              reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+              r = u.substr(u.indexOf("?") + 1).match(reg);
+            return r != null ? r[2] : "";
+          }
+          // 离线包统计埋点
+          window.shareitBridge.syncInvoke("web", "handleStatsEvent", JSON.stringify({
+            "eventId": "show_ve",
+            "pve_cur": "/fe-ClientHelp/0" + "/x",
+            "extras": "online_1_1017",
+            "portal": getUrlParam('portal'),
+            "url": window.location.href,
+          }))
+        }
+      } catch (e) {
+        console.log(e)
+      }</script><link href="css/chunk-00510948.cf8ef326.css" rel="prefetch"><link href="css/chunk-b458b210.8fb8fa6d.css" rel="prefetch"><link href="css/detail.e6102955.css" rel="prefetch"><link href="js/chunk-00510948.5bdd725c.js" rel="prefetch"><link href="js/chunk-b458b210.fd9cc05b.js" rel="prefetch"><link href="js/detail.4459480a.js" rel="prefetch"><link href="css/app.b876b6ee.css" rel="preload" as="style"><link href="css/chunk-vendors.cdd1fdf7.css" rel="preload" as="style"><link href="js/app.75fd2419.js" rel="preload" as="script"><link href="js/chunk-vendors.20813e5b.js" rel="preload" as="script"><link href="css/chunk-vendors.cdd1fdf7.css" rel="stylesheet"><link href="css/app.b876b6ee.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but active-template doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://static.wshareit.com/libs/bundle_vue_axios.js"></script><script src="https://static.wshareit.com/libs/bundle_intersection_hybird.js"></script><script src="https://static.wshareit.com/libs/bundle_vue-router_vuex.js"></script><script src="https://static.wshareit.com/libs/vue-i18n.js"></script><script src="https://static.wshareit.com/libs/bundle_sentry-vue_sentry-tracing.js"></script><script src="https://static.wshareit.com/libs/swiper.min.js"></script><script src="js/chunk-vendors.20813e5b.js"></script><script src="js/app.75fd2419.js"></script></body></html>

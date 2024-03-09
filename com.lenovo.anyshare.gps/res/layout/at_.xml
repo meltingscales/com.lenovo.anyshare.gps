@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d77" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightFrameLayout android:id="@id/b8q" android:background="@color/auj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/dqn" android:layout_width="fill_parent" android:layout_height="@dimen/czh" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/c_a" android:layout_width="@dimen/cym" android:layout_height="@dimen/cyl" android:layout_marginLeft="@dimen/cya" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/czl" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/czk" android:layout_marginRight="@dimen/cwy" android:singleLine="true" android:drawablePadding="@dimen/cxh" />
+    </com.ushareit.theme.night.view.NightFrameLayout>
+    <com.ushareit.cleanit.diskclean.fragment.CleanMainFeedView android:id="@id/b59" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

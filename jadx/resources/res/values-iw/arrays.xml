@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>פשיעה</item>
+        <item>וולגרית</item>
+        <item>רגשי פוליטי</item>
+        <item>שיווק לא חוקי</item>
+        <item>מידע כוזב</item>
+        <item>הפרה</item>
+    </array>
+    <array name="c">
+        <item>תוכן לא מתאים</item>
+        <item>פורנוגרפיה</item>
+        <item>תוכן אלים</item>
+        <item>תוכן פוגע ומסוכן</item>
+        <item>נושא/כותר לא מתאים לתוכן</item>
+    </array>
+</resources>

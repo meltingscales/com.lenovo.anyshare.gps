@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/awr" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/ay1" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/cf5" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/azc" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/ckr" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bs3" android:textColor="@color/axy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/asc" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/azv" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/ckt" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bs3" android:textColor="@color/axy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/ast" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/azx" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/cjw" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bs3" android:textColor="@color/axy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/asx" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/azy" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/cjg" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bs3" android:textColor="@color/axy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/de8" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/azo" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/cks" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bs3" android:textColor="@color/axy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/awt" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ayh" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/ckk" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bs3" android:textColor="@color/axy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/arg" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/az8" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/cj4" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bs3" android:textColor="@color/axy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/as6" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

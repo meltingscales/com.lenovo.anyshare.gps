@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:id="@+id/bvg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dl5" android:layout_marginRight="@dimen/dl5">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/byb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dl2" app:radius="@dimen/bl2">
+        <com.ushareit.ads.ui.view.DiscoverBannerAdView android:layout_gravity="center_horizontal" android:id="@+id/bf0" android:layout_width="match_parent" android:layout_height="@dimen/bqj"/>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</FrameLayout>

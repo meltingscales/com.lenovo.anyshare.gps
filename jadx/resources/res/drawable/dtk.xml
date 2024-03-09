@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="100" android:drawable="@drawable/dtl"/>
+    <item android:duration="100" android:drawable="@drawable/dtm"/>
+    <item android:duration="100" android:drawable="@drawable/dtn"/>
+    <item android:duration="100" android:drawable="@drawable/dto"/>
+    <item android:duration="100" android:drawable="@drawable/dtp"/>
+    <item android:duration="100" android:drawable="@drawable/dtq"/>
+    <item android:duration="100" android:drawable="@drawable/dtn"/>
+    <item android:duration="100" android:drawable="@drawable/dtr"/>
+</animation-list>

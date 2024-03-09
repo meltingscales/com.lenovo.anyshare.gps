@@ -1,0 +1,44 @@
+package com.lenovo.anyshare;
+
+import android.text.TextUtils;
+import com.lenovo.anyshare.AbstractAsyncTaskC15514lV;
+import java.util.HashSet;
+import org.json.JSONObject;
+
+/* renamed from: com.lenovo.anyshare.pV  reason: case insensitive filesystem */
+/* loaded from: classes4.dex */
+public class AsyncTaskC17953pV extends AbstractAsyncTaskC14904kV {
+    public AsyncTaskC17953pV(AbstractAsyncTaskC15514lV.b bVar, HashSet<String> hashSet, JSONObject jSONObject, long j) {
+        super(bVar, hashSet, jSONObject, j);
+    }
+
+    private void b(String str) {
+        HU c = HU.c();
+        if (c != null) {
+            for (C21603vU c21603vU : c.b()) {
+                if (this.c.contains(c21603vU.b())) {
+                    c21603vU.c().b(str, this.e);
+                }
+            }
+        }
+    }
+
+    @Override // android.os.AsyncTask
+    /* renamed from: a */
+    public String doInBackground(Object... objArr) {
+        if (ZU.h(this.d, this.b.a())) {
+            return null;
+        }
+        this.b.a(this.d);
+        return this.d.toString();
+    }
+
+    @Override // com.lenovo.anyshare.AbstractAsyncTaskC15514lV, android.os.AsyncTask
+    /* renamed from: a */
+    public void onPostExecute(String str) {
+        if (!TextUtils.isEmpty(str)) {
+            b(str);
+        }
+        super.onPostExecute(str);
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c2d" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.mcds.ui.view.RatioByWidthImageView android:id="@+id/byp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:layout_constraintTop_toTopOf="0" app:whRatio="4"/>
+    <ViewStub android:id="@+id/cfa" android:layout="@layout/ani" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ViewStub android:id="@+id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgh" android:layout_height="@dimen/cgc" android:layout_margin="@dimen/ch3" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintRight_toRightOf="0"/>
+</com.ushareit.mcds.ui.view.McdsConstraintLayout>

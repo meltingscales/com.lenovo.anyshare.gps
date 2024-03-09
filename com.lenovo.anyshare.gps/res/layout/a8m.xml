@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/axm" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/ctb" android:layout_width="fill_parent" android:layout_height="@dimen/bjn" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/ank" style="?android:progressBarStyleHorizontal" />
+        <include layout="@layout/ai3" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/e6c" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <WebView android:id="@id/e61" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/bjf" layout="@layout/a05" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/bcr" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/cr8" android:layout_width="fill_parent" android:layout_height="@dimen/bjm">
+            <ImageView android:layout_gravity="start|center" android:id="@id/ay6" android:layout_width="@dimen/btm" android:layout_height="@dimen/btl" android:src="@drawable/an6" android:layout_weight="1.0" style="@style/ai7" />
+            <ImageView android:layout_gravity="start|center" android:id="@id/ayv" android:layout_width="@dimen/btm" android:layout_height="@dimen/btl" android:src="@drawable/an9" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/azx" android:layout_width="@dimen/btm" android:layout_height="@dimen/btl" android:src="@drawable/anh" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/azk" android:layout_width="@dimen/btm" android:layout_height="@dimen/btl" android:src="@drawable/ane" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/aza" android:layout_width="@dimen/btm" android:layout_height="@dimen/btl" android:src="@drawable/anb" android:layout_weight="1.0" style="@style/ah0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/ac4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="11dp" android:layout_marginRight="16dp" android:layout_marginBottom="11dp">
+        <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/ajk" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="centerCrop" app:rsi_radius="10dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_weight="1" android:layout_marginStart="12dp">
+            <TextView android:textSize="16sp" android:textColor="@color/pw" android:ellipsize="end" android:id="@+id/aka" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                <com.st.entertainment.core.view.RoundStrokeImageView android:layout_gravity="center_vertical" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginTop="1dp" android:src="@drawable/ace"/>
+                <TextView android:textSize="14sp" android:textColor="@color/ow" android:layout_gravity="center_vertical" android:id="@+id/akq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:includeFontPadding="false" android:layout_marginStart="2dp"/>
+                <TextView android:textSize="14sp" android:textColor="@color/px" android:ellipsize="end" android:id="@+id/akg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="13sp" android:textColor="@color/q2" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/akd" android:background="@drawable/ac_" android:layout_width="74dp" android:layout_height="30dp" android:layout_marginLeft="12dp" android:text="@string/ab6" android:layout_marginStart="12dp"/>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/qa" android:layout_gravity="center" android:id="@+id/aj4" android:paddingTop="11dp" android:paddingBottom="11dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ab5"/>
+</LinearLayout>

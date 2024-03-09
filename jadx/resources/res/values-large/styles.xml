@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ju" parent="@style/js">
+    </style>
+    <style name="k1" parent="@style/jz">
+    </style>
+    <style name="kf" parent="@style/kd">
+    </style>
+    <style name="kp" parent="@style/kn">
+    </style>
+    <style name="a1t" parent="@style/k4">
+        <item name="anp">@dimen/bef</item>
+        <item name="anq">@dimen/beg</item>
+        <item name="anr">@dimen/beh</item>
+        <item name="ans">@dimen/bei</item>
+    </style>
+    <style name="a2_" parent="@style/k7">
+        <item name="anp">@dimen/bef</item>
+        <item name="anq">@dimen/beg</item>
+        <item name="anr">@dimen/beh</item>
+        <item name="ans">@dimen/bei</item>
+    </style>
+</resources>

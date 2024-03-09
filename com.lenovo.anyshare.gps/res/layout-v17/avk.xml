@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bnh" android:background="@color/z6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cg6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/xl" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk" android:text="@string/c1h" app:a75="@dimen/db2" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/dli" android:paddingLeft="@dimen/brl" android:paddingRight="@dimen/brl" android:paddingBottom="@dimen/bp0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/br6" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/bmq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="1.0dip" android:text="28" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/ye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apd" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/br6" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="1.0dip">
+                    <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dfj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="537.4" />
+                    <TextView android:textSize="@dimen/bsu" android:textStyle="bold" android:textColor="@color/w4" android:gravity="bottom" android:id="@id/dfm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="MB" android:textDirection="locale" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/ye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c7f" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/br6" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="1.0dip">
+                    <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dhi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40" />
+                    <TextView android:textSize="@dimen/bsu" android:textStyle="bold" android:textColor="@color/w4" android:gravity="bottom" android:id="@id/dhm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="Minutes" android:textDirection="locale" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/ye" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/da9" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

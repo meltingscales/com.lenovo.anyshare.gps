@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Gorputza</string>
+    <string name="a98">Titulua</string>
+    <string name="a99">Multimedia-edukiaren ikuspegia</string>
+    <string name="a9_">Eman baimena</string>
+    <string name="a9a">Ez eman baimenik</string>
+    <string name="a9b">Zuri jakinarazpenak bidaltzeko baimena eman nahi diozu aplikazioari?</string>
+    <string name="a9c">Sakatu hau iragarkia irekitzeko</string>
+    <string name="a9d">Ikusi gorde duzun iragarkia berriro konektatzen zarenean</string>
+    <string name="a9e">Ados</string>
+    <string name="a9f">Berriro konektatzen zarenean, jakinarazpen bat jasoko duzu estekarekin</string>
+    <string name="a9g">Ez</string>
+    <string name="a9h">Jakinarazpen bat bidaliko dizugu iragarlearen gunerako esteka batekin.</string>
+    <string name="a9i">Ireki iragarkia berriro konektatzen zarenean.</string>
+    <string name="a9j">Gorde irudia</string>
+    <string name="a9k">Irudia irudien galerian gordetzea baimendu nahi diozu iragarkiari?</string>
+    <string name="a9l">Onartu</string>
+    <string name="a9m">Baztertu</string>
+    <string name="a9n">Sortu egutegiko gertaera bat</string>
+    <string name="a9o">Egutegiko gertaera bat sortzea baimendu nahi diozu iragarkiari?</string>
+    <string name="a9p">Probako iragarkia</string>
+    <string name="a9q">AdMob -</string>
+</resources>

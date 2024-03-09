@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <LinearLayout android:background="@drawable/hr" android:layout_marginTop="@dimen/bnj" android:layout_marginBottom="@dimen/bnj" style="@style/ps">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" app:radius="@dimen/iv" app:rect_radio="1">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/h1"/>
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ep" android:layout_gravity="bottom|center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:layout_marginBottom="@dimen/bn4" android:text="@string/jx"/>
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <LinearLayout android:layout_gravity="bottom|center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bmm">
+            <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/e3" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/mf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jy"/>
+            <Button android:textStyle="bold" android:textColor="@color/ef" android:layout_gravity="center_horizontal" android:id="@+id/k_" android:background="@drawable/i5" android:layout_height="@dimen/bq9" android:layout_marginLeft="@dimen/bkq" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bkq" android:layout_marginBottom="@dimen/bn4" android:text="@string/cgh" style="@style/w1"/>
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/zt" android:layout_gravity="center_horizontal" android:id="@+id/j9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnj" android:text="@string/ah5" android:textAllCaps="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

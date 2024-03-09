@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ushareit.muslim.view.ImageViewRound android:id="@+id/xw" android:layout_width="@dimen/avm" android:layout_height="@dimen/ax4" android:scaleType="centerCrop" app:pic_corner="@dimen/aug"/>
+        <View android:layout_gravity="bottom" android:background="@drawable/z4" android:layout_width="@dimen/avm" android:layout_height="@dimen/b2f"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/l9" android:layout_gravity="bottom" android:id="@+id/aao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b30" android:layout_marginBottom="@dimen/b30" android:drawableLeft="@drawable/vj" android:drawableStart="@drawable/vj" android:fontFamily="sans-serif-medium"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:ellipsize="end" android:id="@+id/abv" android:layout_width="@dimen/av4" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b30" android:singleLine="true"/>
+    <com.ushareit.muslim.nearby.view.RatingView android:id="@+id/a67" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b30"/>
+</LinearLayout>

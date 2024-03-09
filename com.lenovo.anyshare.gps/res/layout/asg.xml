@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/atl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:layout_gravity="center" android:id="@id/bb6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cuu" android:layout_marginRight="@dimen/cuu" app:a_7="@dimen/cu2">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/axv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ca9" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="right" android:id="@id/c49" android:padding="@dimen/cxh" android:layout_width="@dimen/cvc" android:layout_height="@dimen/cvc" android:layout_marginTop="@dimen/cy4" android:layout_marginRight="@dimen/cy4" android:src="@drawable/caa" />
+                <TextView android:textSize="@dimen/cz0" android:textStyle="bold" android:textColor="@color/auf" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dut" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cvc" android:layout_marginTop="@dimen/cws" android:layout_marginRight="@dimen/cvc" android:text="@string/bil" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/c4m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cv_" android:src="@drawable/ca_" />
+            <TextView android:textSize="@dimen/cyv" android:textColor="@color/auf" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cua" android:text="@string/bin" />
+            <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/aw3" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/az_" android:background="@drawable/c91" android:layout_width="fill_parent" android:layout_height="@dimen/cwp" android:layout_marginLeft="@dimen/cw5" android:layout_marginTop="@dimen/cuu" android:layout_marginRight="@dimen/cw5" android:text="@string/bim" />
+            <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/aw2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ayq" android:background="@drawable/c97" android:layout_width="fill_parent" android:layout_height="@dimen/cwp" android:layout_marginLeft="@dimen/cw5" android:layout_marginTop="@dimen/cya" android:layout_marginRight="@dimen/cw5" android:layout_marginBottom="@dimen/csw" android:text="@string/afj" />
+        </LinearLayout>
+    </com.ushareit.widget.RoundFrameLayout>
+</FrameLayout>

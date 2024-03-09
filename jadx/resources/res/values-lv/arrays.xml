@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Vulgāra pornogrāfija</item>
+        <item>Noziegums</item>
+        <item>Politiski sensitīvs</item>
+        <item>Nelikumīgs mārketings</item>
+        <item>Viltus informācija</item>
+        <item>Pārkāpums</item>
+    </array>
+    <array name="c">
+        <item>Neērts saturs</item>
+        <item>Pornogrāfija</item>
+        <item>Varmācīgs saturs</item>
+        <item>Kaitīgs un bīstams saturs</item>
+        <item>Nosaukums/virsraksts neatbilst saturam</item>
+    </array>
+</resources>

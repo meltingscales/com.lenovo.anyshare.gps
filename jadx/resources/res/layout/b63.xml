@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center" android:id="@+id/ddz" android:background="@null" android:padding="@dimen/dfj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drh" android:scaleType="fitCenter"/>
+    <com.ushareit.siplayer.component.view.PlayerLoadingView android:id="@+id/cx4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/cx3" android:layout="@layout/b5_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:layout_gravity="bottom" android:id="@+id/bbc" android:layout_width="match_parent" android:layout_height="@dimen/dfy" android:progressDrawable="@drawable/ds6" style="@style/a99"/>
+</merge>

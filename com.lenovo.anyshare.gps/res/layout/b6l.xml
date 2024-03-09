@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="end" android:layout_gravity="end" android:orientation="vertical" android:id="@id/d72" android:background="#99000000" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/boo" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/d66" android:background="@drawable/d9j" android:layout_width="fill_parent" android:layout_height="@dimen/bo5" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/dpf" android:padding="@dimen/bqv" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/bla" android:layout_marginBottom="@dimen/bnf" android:src="@drawable/d9o" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <com.ushareit.widget.round.RoundImageView android:id="@id/c5j" android:background="@drawable/d9k" android:padding="@dimen/bq1" android:layout_width="@dimen/brh" android:layout_height="@dimen/brh" android:scaleType="fitXY" android:layout_centerHorizontal="true" app:a_d="@dimen/bn4" app:a_e="@color/bj1" app:a_f="crn" app:a_g="@dimen/bq1" />
+        <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blv" android:layout_below="@id/c5j" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/b7r" android:background="@drawable/d9f" android:layout_width="wrap_content" android:layout_height="@dimen/boe" android:layout_marginTop="@dimen/bl2" android:layout_below="@id/e09" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:src="@drawable/d9e" />
+            <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/zc" android:gravity="center" android:id="@id/b7k" android:paddingRight="@dimen/bq1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bqh" android:layout_marginRight="@dimen/brt" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wu" android:ellipsize="end" android:gravity="center" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:singleLine="true" android:layout_below="@id/b7r" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:background="@drawable/aro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bqb" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:id="@id/dvo" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:text="@string/art" />
+            <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:id="@id/dqo" android:padding="@dimen/dhu" android:visibility="gone" android:layout_width="@dimen/dhx" android:layout_height="@dimen/dhx" android:layout_centerInParent="true" app:a6i="@color/a4d" app:a6t="@dimen/bq1" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/v4" android:id="@id/awt" android:padding="@dimen/bqh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bl2" android:text="@string/c_b" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </RelativeLayout>
+</RelativeLayout>

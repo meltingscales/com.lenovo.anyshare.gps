@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f8" parent="@style/a2i">
+        <item name="android:statusBarColor">?attr/q4</item>
+        <item name="po">@color/hp</item>
+        <item name="pr">@color/hp</item>
+        <item name="pz">@color/l1</item>
+        <item name="q4">@color/l3</item>
+        <item name="q6">@color/l5</item>
+        <item name="q8">@color/l5</item>
+    </style>
+</resources>

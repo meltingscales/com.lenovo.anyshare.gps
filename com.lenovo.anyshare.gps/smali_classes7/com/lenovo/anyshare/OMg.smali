@@ -1,0 +1,132 @@
+.class public Lcom/lenovo/anyshare/OMg;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/lenovo/anyshare/vLg;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ushareit/hybrid/action/dto/InterLevelAction;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/ushareit/hybrid/action/dto/InterLevelAction;
+
+
+# direct methods
+.method public constructor <init>(Lcom/ushareit/hybrid/action/dto/InterLevelAction;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/lenovo/anyshare/OMg;->a:Lcom/ushareit/hybrid/action/dto/InterLevelAction;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/OMg;->a:Lcom/ushareit/hybrid/action/dto/InterLevelAction;
+
+    invoke-virtual {v0}, Lcom/ushareit/hybrid/action/dto/InterLevelAction;->a()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public a(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;Ljava/util/Map;Lcom/lenovo/anyshare/CNg;)Ljava/lang/String;
+    .locals 1
+
+    :try_start_0
+    const-string v0, "itemId"
+
+    .line 2
+    invoke-interface {p5, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p5
+
+    check-cast p5, Ljava/lang/String;
+
+    .line 3
+    invoke-static {}, Lcom/lenovo/anyshare/LNg;->m()Lcom/lenovo/anyshare/MNg$m;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 4
+    invoke-interface {v0, p1, p2, p5}, Lcom/lenovo/anyshare/MNg$m;->enterLiveDetail(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :cond_0
+    const-string p1, ""
+
+    return-object p1
+
+    :catch_0
+    move-exception p1
+
+    const-string p2, "-5"
+
+    .line 5
+    invoke-static {p2, p1}, Lcom/lenovo/anyshare/qQg;->a(Ljava/lang/String;Ljava/lang/Exception;)Lorg/json/JSONObject;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p3, p4, p6, p1}, Lcom/lenovo/anyshare/qQg;->a(ILjava/lang/String;Lcom/lenovo/anyshare/CNg;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public b()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public c()Z
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public d()I
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public name()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "entryLiveDetail"
+
+    return-object v0
+.end method

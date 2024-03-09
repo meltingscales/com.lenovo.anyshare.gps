@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <LinearLayout android:orientation="vertical" android:id="@+id/c99" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/q1">
+        <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:id="@+id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/ani" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/xl" android:id="@+id/e07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/boz" android:layout_marginTop="@dimen/bnb" android:layout_marginRight="@dimen/bnb" android:text="@string/anh"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:layout_gravity="right" android:id="@+id/dxl" android:padding="@dimen/bqf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bpr" android:layout_marginRight="@dimen/bow" android:layout_marginBottom="@dimen/bn4" android:text="@string/cge" android:layout_marginEnd="@dimen/bp7"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lenovo.anyshare.qrcode.QRScanView android:layout_gravity="center" android:id="@+id/d05" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/ay0"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/d35" android:background="#ff000000" android:paddingLeft="@dimen/bpz" android:paddingTop="@dimen/bks" android:paddingRight="@dimen/bpz" android:paddingBottom="@dimen/bn6" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/bpz">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dha" app:night_alpha="@dimen/db2"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:layout_marginBottom="@dimen/bpj" android:text="@string/d4_" app:night_tv_text_color="@color/w4"/>
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/a5g" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d36" android:background="@drawable/aro" android:paddingLeft="@dimen/brp" android:paddingRight="@dimen/brp" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" android:text="@string/d48" android:lines="1" android:paddingHorizontal="@dimen/brp"/>
+    </LinearLayout>
+    <com.lenovo.anyshare.share.discover.page.ScanBottomLayout android:layout_gravity="bottom" android:id="@+id/d8p" android:layout_width="match_parent" android:layout_height="@dimen/bpd">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/d7o" android:background="@drawable/cml" android:paddingLeft="@dimen/bmm" android:paddingRight="@dimen/bmm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bqj" android:paddingHorizontal="@dimen/bmm">
+                <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/ty" android:ellipsize="end" android:gravity="center" android:id="@+id/dvc" android:paddingLeft="@dimen/bmm" android:paddingRight="@dimen/bmm" android:layout_width="wrap_content" android:layout_height="@dimen/bok" android:text="@string/c84" android:maxLines="1" android:layout_centerHorizontal="true" android:paddingHorizontal="@dimen/bmm"/>
+                <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/bmm" android:layout_height="@dimen/bok" android:src="@drawable/col" android:adjustViewBounds="true" android:layout_marginEnd="-16dp" android:layout_toStartOf="@+id/dvc" app:night_alpha="@dimen/db2"/>
+                <com.ushareit.theme.night.view.NightImageView android:id="@+id/c50" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bok" android:src="@drawable/coo" android:adjustViewBounds="true" android:layout_alignParentEnd="true" app:night_alpha="@dimen/db2"/>
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:background="@drawable/d_f" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="26dp">
+                <com.airbnb.lottie.LottieAnimationView android:id="@+id/d8v" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:alpha="0.7"/>
+                <com.ushareit.theme.night.view.NightImageView android:id="@+id/drf" android:paddingLeft="@dimen/bqf" android:paddingTop="@dimen/bla" android:paddingRight="@dimen/bqf" android:paddingBottom="@dimen/bm3" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:src="@drawable/dhh" android:layout_centerHorizontal="true" android:paddingHorizontal="@dimen/bqf" app:night_bg_color_tint="@color/w4"/>
+                <FrameLayout android:id="@+id/bvf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_marginBottom="@dimen/bnj" android:layout_below="@+id/drf" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/blk">
+                    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dl6" android:textStyle="bold" android:textColor="@color/tj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/bvi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d3s"/>
+                </FrameLayout>
+                <FrameLayout android:gravity="center" android:id="@+id/d8l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bvf" android:layout_alignParentBottom="true">
+                    <com.lenovo.anyshare.share.discover.widget.MultiLineScanDeviceListView android:layout_gravity="center_horizontal" android:id="@+id/d8n" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/bru"/>
+                    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/d43" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqx">
+                        <com.ushareit.theme.night.view.NightImageView android:id="@+id/d3z" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" android:src="@drawable/dhe" android:layout_centerHorizontal="true" app:night_bg_color_tint="@color/w4"/>
+                        <TextView android:textSize="@dimen/bsu" android:textColor="@color/w4" android:id="@+id/d40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bs3" android:text="@string/asl" android:layout_below="@+id/d3z" android:layout_centerHorizontal="true"/>
+                    </RelativeLayout>
+                </FrameLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </com.lenovo.anyshare.share.discover.page.ScanBottomLayout>
+    <include android:id="@+id/dq2" layout="@layout/b_t"/>
+</FrameLayout>

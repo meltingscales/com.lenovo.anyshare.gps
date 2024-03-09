@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/agg" android:layout_width="0dp" android:layout_height="0dp" android:layout_centerInParent="true"/>
+    <FrameLayout android:id="@+id/agn" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/agg"/>
+    <FrameLayout android:id="@+id/ago" android:layout_width="20dp" android:layout_height="20dp" android:layout_above="@+id/agg" android:layout_alignParentLeft="true"/>
+    <FrameLayout android:id="@+id/agj" android:layout_width="64dp" android:layout_height="64dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/agi" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+    </FrameLayout>
+    <TextView android:textColor="@color/lz" android:id="@+id/agq" android:layout_marginLeft="@dimen/b60" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/b60" android:layout_marginBottom="20dp" android:layout_below="@+id/agj" android:layout_centerHorizontal="true" style="@style/h3"/>
+    <TextView android:textColor="@color/m0" android:id="@+id/age" android:layout_marginLeft="@dimen/b60" android:layout_marginRight="@dimen/b60" android:layout_marginBottom="20dp" android:layout_below="@+id/agq" android:layout_centerHorizontal="true" style="@style/h2"/>
+    <TextView android:textColor="@color/m0" android:id="@+id/agc" android:layout_marginLeft="@dimen/b60" android:layout_marginRight="@dimen/b60" android:layout_below="@+id/age" android:layout_centerHorizontal="true" style="@style/h2"/>
+    <Button android:textSize="15sp" android:id="@+id/agf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/b60" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/gr"/>
+</RelativeLayout>

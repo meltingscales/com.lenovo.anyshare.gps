@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/box" android:layout_marginTop="@dimen/iv" android:layout_marginBottom="@dimen/bqf">
+    <RelativeLayout android:id="@+id/lm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/ef" android:ellipsize="end" android:id="@+id/k9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqv" android:maxLines="4" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/ef" android:gravity="center" android:id="@+id/l6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bn4" android:layout_marginBottom="@dimen/bqv" android:text="luke 11:10" android:layout_below="@+id/k9" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/j8" android:background="@drawable/hr" android:layout_width="match_parent" android:layout_height="@dimen/bq7" android:layout_marginLeft="@dimen/bp0" android:layout_marginRight="@dimen/bp0" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bnb" android:src="@drawable/hh"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/v9" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/mb" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bqv" android:text="@string/la"/>
+    </LinearLayout>
+</RelativeLayout>

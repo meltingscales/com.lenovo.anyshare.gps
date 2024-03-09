@@ -1,0 +1,100 @@
+package com.bytedance.sdk.openadsdk.component.reward.view;
+
+import android.content.Context;
+import android.graphics.Color;
+import android.os.Build;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import com.bytedance.sdk.component.utils.s;
+import com.bytedance.sdk.openadsdk.core.customview.PAGProgressBar;
+import com.bytedance.sdk.openadsdk.core.customview.PAGTextView;
+import com.bytedance.sdk.openadsdk.core.widget.TTRoundRectImageView;
+import com.bytedance.sdk.openadsdk.utils.ac;
+import com.lenovo.anyshare.C17016nsc;
+import com.lenovo.anyshare.KZh;
+
+/* loaded from: classes3.dex */
+public class PAGPAGLoadingOneLayout extends PAGLoadingBaseLayout {
+    public PAGPAGLoadingOneLayout(Context context) {
+        super(context);
+        LinearLayout linearLayout = new LinearLayout(context);
+        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(-1, -2);
+        layoutParams.addRule(13);
+        linearLayout.setLayoutParams(layoutParams);
+        linearLayout.setGravity(17);
+        linearLayout.setOrientation(1);
+        this.f5260a = new TTRoundRectImageView(context);
+        this.f5260a.setId(520093745);
+        int b = ac.b(context, 60.0f);
+        this.f5260a.setLayoutParams(new RelativeLayout.LayoutParams(b, b));
+        this.b = new PAGTextView(context);
+        this.b.setId(520093746);
+        RelativeLayout.LayoutParams layoutParams2 = new RelativeLayout.LayoutParams(-2, ac.b(context, 28.0f));
+        layoutParams2.topMargin = ac.b(context, 24.0f);
+        this.b.setLayoutParams(layoutParams2);
+        this.b.setEllipsize(TextUtils.TruncateAt.END);
+        this.b.setGravity(17);
+        this.b.setMaxWidth(ac.b(context, 150.0f));
+        this.b.setSingleLine(true);
+        this.b.setTextColor(Color.parseColor("#ffffff"));
+        this.b.setTextSize(1, 20.0f);
+        RelativeLayout relativeLayout = new RelativeLayout(context);
+        RelativeLayout.LayoutParams layoutParams3 = new RelativeLayout.LayoutParams(-2, -2);
+        layoutParams3.topMargin = ac.b(context, 32.0f);
+        relativeLayout.setLayoutParams(layoutParams3);
+        View view = new View(context);
+        view.setId(520093747);
+        view.setLayoutParams(new RelativeLayout.LayoutParams(ac.b(context, 206.0f), ac.b(context, 19.0f)));
+        view.setBackgroundResource(s.d(context, "tt_ad_loading_rect"));
+        this.c = new PAGProgressBar(context, null, 16973855);
+        this.c.setId(520093748);
+        RelativeLayout.LayoutParams layoutParams4 = new RelativeLayout.LayoutParams(ac.b(context, 200.0f), ac.b(context, 13.0f));
+        layoutParams4.topMargin = ac.b(context, 3.0f);
+        layoutParams4.leftMargin = ac.b(context, 3.0f);
+        if (Build.VERSION.SDK_INT >= 17) {
+            layoutParams4.setMarginStart(ac.b(context, 3.0f));
+        }
+        this.c.setLayoutParams(layoutParams4);
+        this.c.setMax(100);
+        this.c.setProgress(1);
+        this.c.setProgressDrawable(s.c(context, "tt_full_reward_loading_progress_style"));
+        relativeLayout.addView(view);
+        relativeLayout.addView(this.c);
+        LinearLayout linearLayout2 = new LinearLayout(context);
+        RelativeLayout.LayoutParams layoutParams5 = new RelativeLayout.LayoutParams(-1, -1);
+        layoutParams5.topMargin = ac.b(context, 13.0f);
+        linearLayout2.setLayoutParams(layoutParams5);
+        linearLayout2.setGravity(17);
+        linearLayout2.setOrientation(0);
+        PAGTextView pAGTextView = new PAGTextView(context);
+        pAGTextView.setLayoutParams(new RelativeLayout.LayoutParams(-2, -2));
+        pAGTextView.setAlpha(0.5f);
+        pAGTextView.setTextColor(Color.parseColor(KZh.p));
+        pAGTextView.setTextSize(1, 17.0f);
+        pAGTextView.setText("Loading");
+        this.d = new PAGTextView(context);
+        this.d.setId(520093749);
+        this.d.setLayoutParams(new RelativeLayout.LayoutParams(-2, -2));
+        this.d.setAlpha(0.5f);
+        this.d.setTextColor(Color.parseColor(KZh.p));
+        this.d.setTextSize(1, 17.0f);
+        PAGTextView pAGTextView2 = new PAGTextView(context);
+        pAGTextView2.setLayoutParams(new RelativeLayout.LayoutParams(-2, -2));
+        pAGTextView2.setAlpha(0.5f);
+        pAGTextView2.setTextColor(Color.parseColor(KZh.p));
+        pAGTextView2.setTextSize(1, 17.0f);
+        pAGTextView2.setText(C17016nsc.k);
+        linearLayout2.addView(pAGTextView);
+        linearLayout2.addView(this.d);
+        linearLayout2.addView(pAGTextView2);
+        linearLayout.addView(this.f5260a);
+        linearLayout.addView(this.b);
+        linearLayout.addView(relativeLayout);
+        linearLayout.addView(linearLayout2);
+        a(context);
+        addView(linearLayout);
+        addView(this.e);
+    }
+}

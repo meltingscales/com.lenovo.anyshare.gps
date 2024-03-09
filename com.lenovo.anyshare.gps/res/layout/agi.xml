@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bj1" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.widget.flash.FlashBrandView android:id="@id/box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/bov" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp7" android:layout_marginBottom="@dimen/bqj" android:src="@drawable/bsc" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+</RelativeLayout>

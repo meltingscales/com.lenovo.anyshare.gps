@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/dh1" android:textColor="@color/b3g" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/dqf" android:background="@drawable/d6m" android:paddingLeft="@dimen/df8" android:paddingRight="@dimen/df8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dh_" android:maxLines="2"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/action_bar" android:background="@drawable/d6m" android:layout_width="match_parent" android:layout_height="@dimen/dh_">
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/anf" android:layout_width="@dimen/dg2" android:layout_height="@dimen/dg2" android:src="@drawable/avj" style="@style/aok"/>
+        <com.ushareit.siplayer.component.view.LiveTagView android:layout_gravity="start|center_vertical" android:id="@+id/ani" android:background="@drawable/drj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dgn" android:layout_marginStart="@dimen/dgn" app:auto_play="false"/>
+        <TextView android:textSize="@dimen/dh1" android:textColor="@color/b3g" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/action_bar_title" android:paddingLeft="@dimen/dgd" android:paddingRight="@dimen/dgd" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/ang" android:background="@drawable/byf" android:visibility="gone" android:layout_width="@dimen/dg2" android:layout_height="@dimen/dg2" style="@style/aoa"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/ank" android:background="@drawable/d74" android:visibility="gone" android:layout_width="@dimen/dg2" android:layout_height="@dimen/dg2" style="@style/aoa"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/anm" android:background="@drawable/d7t" android:layout_width="@dimen/dg2" android:layout_height="@dimen/dg2" style="@style/ao_"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/anj" android:background="@drawable/atp" android:layout_width="@dimen/dg2" android:layout_height="@dimen/dg2" style="@style/aoa"/>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@+id/e5i" android:layout="@layout/b5i" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/e5f" android:layout="@layout/b5j" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/e5m" android:layout="@layout/ak7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/e5k" android:layout="@layout/ak7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="bottom|center_horizontal" android:id="@+id/e5e" android:layout="@layout/b5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dg1"/>
+    <TextView android:textSize="@dimen/dgv" android:textColor="@color/b3g" android:gravity="center" android:layout_gravity="start|bottom" android:id="@+id/cwh" android:background="@drawable/drf" android:paddingLeft="@dimen/dgn" android:paddingRight="@dimen/dgn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dew" android:layout_marginBottom="@dimen/dgg" android:text="@string/av6" style="@style/aod"/>
+</merge>

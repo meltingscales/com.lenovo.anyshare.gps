@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/bo8" style="@style/q1">
+        <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/bp4" />
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/xu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:text="@string/bpb" />
+        <com.lenovo.anyshare.widget.RectFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq8" android:layout_marginTop="@dimen/bo3" android:layout_marginRight="@dimen/bq8" app:a_j="0.56">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bxr" />
+        </com.lenovo.anyshare.widget.RectFrameLayout>
+        <include layout="@layout/a30" />
+    </LinearLayout>
+</FrameLayout>

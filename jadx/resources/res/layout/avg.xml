@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/cyr" android:background="@color/a2i" android:paddingBottom="@dimen/d4y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/cnj" android:background="@color/a3s" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/bt_" android:textColor="@color/w4" android:gravity="center" android:id="@+id/cnl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/boe" android:layout_marginTop="@dimen/brq" android:layout_marginRight="@dimen/boe" android:text="@string/c0n" android:maxLines="2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/brl"/>
+        <TextView android:textColor="@color/xl" android:gravity="center" android:id="@+id/cni" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/boe" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/boe" android:text="@string/c0m" android:maxLines="2" android:layout_below="@+id/cnl" android:layout_centerHorizontal="true"/>
+        <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:id="@+id/cye" android:padding="@dimen/bmf" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bqj" android:layout_centerInParent="true" app:mpb_indeterminateTint="@color/v4" app:mpb_strokeWidth="@dimen/bq1"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/b8q" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="#99ffffff" style="@style/aj7"/>
+    </FrameLayout>
+</FrameLayout>

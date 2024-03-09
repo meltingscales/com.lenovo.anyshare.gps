@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/awg" android:background="@color/bj1" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/bqj">
+    <View android:background="@color/a0o" android:layout_width="match_parent" android:layout_height="@dimen/bnd"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/aw9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bvv" android:layout_height="@dimen/bvv" android:src="@drawable/bh5" app:night_color_tint="@color/w4"/>
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/aer" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/ast"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/aw_" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bvv" android:layout_height="@dimen/bvv" android:src="@drawable/bh9" app:night_color_tint="@color/w4"/>
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/aer" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/asx"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/awa" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bvv" android:layout_height="@dimen/bvv" android:src="@drawable/bif" app:night_color_tint="@color/w4"/>
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/aer" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/de8"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/aw0" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.ushareit.theme.night.view.NightImageView android:id="@+id/c39" android:duplicateParentState="true" android:layout_width="@dimen/bvv" android:layout_height="@dimen/bvv" android:src="@drawable/bbj" app:night_color_tint="@color/w4"/>
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/aer" android:id="@+id/dt2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/b9o"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/aw4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/bvv" android:layout_height="@dimen/bvv" android:src="@drawable/bi9" app:night_color_tint="@color/w4"/>
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/aer" android:id="@+id/dwu" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cf6" android:text="@string/as6"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

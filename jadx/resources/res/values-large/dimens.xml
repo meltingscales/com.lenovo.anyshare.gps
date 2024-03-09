@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bea">440dp</dimen>
+    <dimen name="bef">60%</dimen>
+    <dimen name="beg">90%</dimen>
+    <dimen name="beh">60%</dimen>
+    <dimen name="bei">90%</dimen>
+    <dimen name="bel">55%</dimen>
+    <dimen name="bem">80%</dimen>
+</resources>

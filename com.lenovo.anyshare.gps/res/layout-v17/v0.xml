@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d6v" android:background="@drawable/ah7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@id/bb6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-2.0dip" app:m4="@dimen/bkq" app:m5="@dimen/bkq" app:al8="@dimen/bl2" app:al9="@dimen/bl2" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/bqj">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/d2f" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/brl" android:layout_marginRight="@dimen/bqv" android:text="@string/ads_recommended_info" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/bqv" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/c64" android:paddingLeft="@dimen/br9" android:paddingTop="@dimen/br9" android:paddingRight="@dimen/bp0" android:paddingBottom="@dimen/br9" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bnv" android:layout_marginBottom="@dimen/blk" android:src="@drawable/agh" android:scaleType="centerCrop" android:paddingStart="@dimen/br9" />
+    </LinearLayout>
+</LinearLayout>

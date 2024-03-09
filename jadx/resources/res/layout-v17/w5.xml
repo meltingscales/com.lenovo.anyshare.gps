@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ap9" android:background="@drawable/ak8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/bce" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="0dp" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0">
+        <com.ushareit.widget.ImageViewWatch android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.san.ads.MediaView android:id="@+id/bc_" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <FrameLayout android:layout_gravity="end" android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:layout_gravity="end|bottom" android:id="@+id/apc" android:visibility="gone" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bm3" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/bl2" android:src="@drawable/agp" android:layout_marginEnd="@dimen/brt"/>
+    </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    <eightbitlab.com.blurview.BlurView android:id="@+id/do8" android:background="@color/a4r" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/d2i">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.san.ads.MediaView android:layout_gravity="center_horizontal" android:id="@+id/bx9" android:layout_width="@dimen/bqz" android:layout_height="@dimen/bqz" android:layout_marginTop="@dimen/bqb" android:layout_marginBottom="@dimen/bmm">
+                <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            </com.san.ads.MediaView>
+            <TextView android:textSize="@dimen/bii" android:textStyle="bold" android:textColor="@color/bj1" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bik" android:layout_marginRight="@dimen/bik" android:lines="1"/>
+            <TextView android:textSize="@dimen/bih" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="center" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bik" android:layout_marginTop="@dimen/big" android:layout_marginRight="@dimen/bik" android:layout_marginBottom="@dimen/bmm" android:maxLines="2"/>
+            <com.san.ads.TextProgressView android:gravity="center" android:id="@+id/b00" android:background="@drawable/agw" android:layout_width="match_parent" android:layout_height="@dimen/bi6" android:layout_marginLeft="@dimen/bik" android:layout_marginRight="@dimen/bik" android:layout_marginBottom="@dimen/bqd" android:max="100" android:progress="100" app:textSize="@dimen/bi8" app:text_default_color="@color/bj1" app:progress_drawable="@drawable/akc"/>
+        </LinearLayout>
+    </eightbitlab.com.blurview.BlurView>
+</androidx.constraintlayout.widget.ConstraintLayout>

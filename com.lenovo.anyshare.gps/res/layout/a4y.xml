@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.downloader.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/c1x" android:layout_marginBottom="@dimen/c22" app:al6="@dimen/c0r" app:al7="@dimen/c0r">
+        <ImageView android:id="@id/dom" android:layout_width="fill_parent" android:layout_height="@dimen/c1x" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center" android:id="@id/doh" android:layout_width="@dimen/c1g" android:layout_height="@dimen/c1x" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/c52" android:textColor="@color/aaz" android:layout_gravity="start|center|top" android:id="@id/dpx" android:background="@drawable/b1e" android:paddingLeft="@dimen/c13" android:paddingTop="@dimen/c3j" android:paddingRight="@dimen/c13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/c2t" android:maxLines="2" />
+        <ImageView android:layout_gravity="center" android:id="@id/cvm" android:layout_width="@dimen/c2u" android:layout_height="@dimen/c2u" android:src="@drawable/b3i" />
+        <FrameLayout android:layout_gravity="bottom|center" android:background="@drawable/b1d" android:layout_width="@dimen/c1g" android:layout_height="wrap_content" android:minHeight="@dimen/c2g">
+            <TextView android:textSize="@dimen/c48" android:textColor="@color/aaz" android:gravity="center" android:layout_gravity="bottom" android:id="@id/bh8" android:padding="@dimen/c3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--:--" />
+            <ImageView android:layout_gravity="center|right" android:layout_width="@dimen/c2e" android:layout_height="@dimen/c2e" android:layout_margin="@dimen/c3j" android:src="@drawable/b5a" />
+        </FrameLayout>
+    </com.ushareit.downloader.widget.RoundFrameLayout>
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/c4c" android:textStyle="bold" android:textColor="@color/a__" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginRight="@dimen/c23" android:text="@string/bsu" />
+        <TextView android:textSize="@dimen/c49" android:textColor="@color/a_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginTop="@dimen/c18" android:layout_marginRight="@dimen/c23" android:text="@string/bss" />
+    </LinearLayout>
+</LinearLayout>

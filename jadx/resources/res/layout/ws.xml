@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.sharemob.landing.ExpandableTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bk_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginRight="@dimen/bmf" app:animDuration="200" app:canCollapse="true" app:expandToggleOnTextClick="false" app:expandToggleType="1" app:maxCollapsedLines="5">
+    <TextView android:textSize="@dimen/bsz" android:textColor="#757575" android:id="@+id/bka" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textColor="#247fff" android:layout_gravity="bottom|right" android:id="@+id/bk8" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.ushareit.ads.sharemob.landing.ExpandableTextView>

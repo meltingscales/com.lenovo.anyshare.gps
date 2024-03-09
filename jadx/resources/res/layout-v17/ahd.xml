@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/b9k" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/b9n" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/b_8" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:scaleType="fitXY"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/bq7" android:layout_toLeftOf="@+id/c0_" android:layout_toRightOf="@+id/b_8" android:layout_centerVertical="true" android:layout_marginStart="@dimen/blk">
+            <TextView android:textSize="@dimen/bz4" android:textColor="@color/w4" android:id="@+id/bag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/brt" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/bz0" android:textColor="@color/xl" android:id="@+id/bb0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:text="238K"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/wh" android:id="@+id/c0_" android:background="@drawable/ai9" android:paddingLeft="@dimen/bs3" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bs3" android:paddingBottom="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INSTALL" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="@dimen/bs3" android:paddingEnd="@dimen/bs3"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/b9m" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8">
+        <ImageView android:id="@+id/b_7" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:src="@drawable/ak0" android:scaleType="fitXY"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/bq7" android:layout_toLeftOf="@+id/c0a" android:layout_toRightOf="@+id/b_7" android:layout_centerVertical="true" android:layout_marginStart="@dimen/blk">
+            <TextView android:textSize="@dimen/bz4" android:textColor="@color/w4" android:id="@+id/baf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/brt" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/bz0" android:textColor="@color/xl" android:id="@+id/baz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/wh" android:id="@+id/c0a" android:background="@drawable/ai9" android:paddingLeft="@dimen/bs3" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bs3" android:paddingBottom="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INSTALL" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="@dimen/bs3" android:paddingEnd="@dimen/bs3"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/b9o" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8">
+        <ImageView android:id="@+id/b_9" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:src="@drawable/ak0" android:scaleType="fitXY"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/bq7" android:layout_toLeftOf="@+id/c0b" android:layout_toRightOf="@+id/b_9" android:layout_centerVertical="true" android:layout_marginStart="@dimen/blk">
+            <TextView android:textSize="@dimen/bz4" android:textColor="@color/w4" android:id="@+id/bah" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/brt" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/bz0" android:textColor="@color/xl" android:id="@+id/bb1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:text="238K"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/wh" android:id="@+id/c0b" android:background="@drawable/ai9" android:paddingLeft="@dimen/bs3" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bs3" android:paddingBottom="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INSTALL" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="@dimen/bs3" android:paddingEnd="@dimen/bs3"/>
+    </RelativeLayout>
+</LinearLayout>

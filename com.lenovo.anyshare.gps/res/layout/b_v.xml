@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/c0f" android:background="@android:color/transparent" android:descendantFocusability="beforeDescendants" style="@style/qo" />
+    <include android:id="@id/cyc" layout="@layout/a0b" />
+    <include android:id="@id/cnz" layout="@layout/a05" />
+</FrameLayout>

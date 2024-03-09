@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginRight="@dimen/bm3" android:layout_marginBottom="@dimen/brp" app:a_j="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.widget.CircleImageView android:layout_gravity="center" android:id="@id/c5_" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="26.0dip">
+        <TextView android:textSize="@dimen/bt5" android:textStyle="bold" android:textColor="@color/a5o" android:id="@id/dxs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="86" />
+        <TextView android:textSize="@dimen/bti" android:textStyle="bold" android:textColor="@color/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" />
+    </LinearLayout>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

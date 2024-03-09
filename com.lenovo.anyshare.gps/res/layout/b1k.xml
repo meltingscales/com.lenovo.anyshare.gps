@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@id/d2i" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/bij" app:a0t="H,360:189" app:a1g="csi" app:a_7="0.0dip">
+        <ImageView android:id="@id/bcd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <com.san.ads.MediaView android:id="@id/bc_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/apc" android:visibility="gone" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bm3" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/bl2" android:src="@drawable/agp" />
+    </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/a4r" android:layout_width="fill_parent" android:layout_height="0.0dip" app:a0o="csi" app:a0t="H,360:96" app:a1f="@id/d2i">
+        <com.san.ads.MediaView android:id="@id/bx9" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bqx" android:layout_marginLeft="@dimen/bmm" app:a0o="csi" app:a17="csi" app:a1c="csi" app:a1g="csi">
+            <com.ushareit.widget.round.RoundImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:a_d="@dimen/bl2" />
+        </com.san.ads.MediaView>
+        <com.san.ads.TextProgressView android:gravity="center" android:id="@id/b00" android:background="@drawable/cvg" android:layout_width="@dimen/bru" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/blk" android:max="100" android:progress="100" android:minWidth="@dimen/bru" app:a0o="csi" app:a0u="csi" app:a1a="csi" app:a1g="csi" app:ajb="@dimen/bsx" app:ajd="true" app:ajf="@color/bj1" app:a9_="@drawable/akc" />
+        <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bla" android:layout_marginRight="@dimen/bmm" android:maxLines="2" app:a0p="@id/ck2" app:a18="@id/bx9" app:a1_="@id/b00" app:a1g="csi" app:a1i="csb" />
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bla" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bmm" android:lines="1" app:a0o="csi" app:a18="@id/bx9" app:a1_="@id/b00" app:a1f="@id/dpx" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

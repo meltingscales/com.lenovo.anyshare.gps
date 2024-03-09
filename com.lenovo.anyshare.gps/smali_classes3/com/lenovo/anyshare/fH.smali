@@ -1,0 +1,63 @@
+.class public final Lcom/lenovo/anyshare/fH;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/facebook/internal/FeatureManager$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/lenovo/anyshare/hH;->a(Landroid/app/Application;Ljava/lang/String;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/lenovo/anyshare/fH;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/lenovo/anyshare/fH;
+
+    invoke-direct {v0}, Lcom/lenovo/anyshare/fH;-><init>()V
+
+    sput-object v0, Lcom/lenovo/anyshare/fH;->a:Lcom/lenovo/anyshare/fH;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Z)V
+    .locals 0
+
+    if-eqz p1, :cond_0
+
+    .line 1
+    invoke-static {}, Lcom/lenovo/anyshare/sG;->b()V
+
+    goto :goto_0
+
+    .line 2
+    :cond_0
+    invoke-static {}, Lcom/lenovo/anyshare/sG;->a()V
+
+    :goto_0
+    return-void
+.end method

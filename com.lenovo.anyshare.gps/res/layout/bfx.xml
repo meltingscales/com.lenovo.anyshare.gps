@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a75="@dimen/db4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.listplayer.widget.RatioByWidthImageView android:id="@id/ber" android:background="@drawable/dqq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ank="2.62" />
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/d0e" android:padding="@dimen/blk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bow" android:src="@drawable/dqp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:a0u="csi" app:a1a="csi" app:a1g="csi" app:a7_="@color/w4" />
+</com.ushareit.theme.night.view.NightRelativeLayout>

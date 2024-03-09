@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="@dimen/atf">
+    <ImageView android:id="@+id/a18" android:layout_width="@dimen/apx" android:layout_height="@dimen/apx" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ahx"/>
+    <ImageView android:id="@+id/a19" android:layout_width="@dimen/apx" android:layout_height="@dimen/apx" android:layout_toLeftOf="@+id/a18" android:layout_centerVertical="true" android:layout_toStartOf="@+id/a18"/>
+    <ImageView android:id="@+id/a1_" android:layout_width="@dimen/apx" android:layout_height="@dimen/apx" android:layout_toLeftOf="@+id/a19" android:layout_centerVertical="true" android:layout_toStartOf="@+id/a19"/>
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/a3v" android:visibility="gone" android:layout_width="@dimen/aq6" android:layout_height="@dimen/aok" android:layout_toLeftOf="@+id/a19" android:layout_centerVertical="true" android:layout_toStartOf="@+id/a19" app:lottie_fileName="adhanclock/data.json" app:lottie_imageAssetsFolder="adhanclock/images"/>
+</RelativeLayout>

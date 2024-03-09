@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="end" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="end" android:id="@+id/d66" android:background="@drawable/d_1" android:paddingLeft="0dp" android:paddingTop="@dimen/blk" android:paddingRight="0dp" android:paddingBottom="@dimen/blk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp7">
+        <ImageView android:id="@+id/dpf" android:padding="@dimen/bqf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14dp" android:src="@drawable/d9n" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/c5j" android:layout_width="@dimen/bq9" android:layout_height="@dimen/bq9" android:layout_marginLeft="@dimen/bl2" android:scaleType="fitXY" android:layout_toRightOf="@+id/c54" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/c54" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginLeft="@dimen/bmw" android:src="@drawable/d_0" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <com.ushareit.ads.ui.view.circlepager.CyclicViewPager android:id="@+id/bcz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/bp0" android:layout_toLeftOf="@+id/dpf" android:layout_toRightOf="@+id/c54" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

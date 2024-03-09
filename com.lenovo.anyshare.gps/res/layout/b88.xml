@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/c8u" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ceo" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginTop="0.0dip" />
+    <RelativeLayout android:id="@id/d5m" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cux" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/cv1" android:layout_centerVertical="true" />
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bqd" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cv0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/cv1" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/d5n" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dip">
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cuv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/cuu" android:layout_centerVertical="true" />
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bqd" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cuz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/cuu" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/d5o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dip">
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cuy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/cut" android:layout_centerVertical="true" />
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bqd" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cuw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/cut" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/d5p" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dip">
+        <com.lenovo.anyshare.safebox.pwd.widget.PinLockNumber android:id="@id/cv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bqd" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cus" android:background="@drawable/dde" android:layout_width="@dimen/bqp" android:layout_height="@dimen/bqp" android:layout_toRightOf="@id/cv3" android:layout_centerVertical="true">
+            <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="20.0dip" android:src="@drawable/de0" />
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

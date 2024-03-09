@@ -1,0 +1,208 @@
+.class public Lcom/lenovo/anyshare/vij;
+.super Lcom/lenovo/anyshare/jij;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/lenovo/anyshare/jij<",
+        "Lcom/lenovo/anyshare/Mij;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(IIILcom/lenovo/anyshare/Fij;Lcom/lenovo/anyshare/jij$a;)V
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(III",
+            "Lcom/lenovo/anyshare/Fij;",
+            "Lcom/lenovo/anyshare/jij$a<",
+            "Lcom/lenovo/anyshare/Mij;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 2
+    invoke-static {p4}, Lcom/lenovo/anyshare/vij;->a(Lcom/lenovo/anyshare/Fij;)Lcom/lenovo/anyshare/gij;
+
+    move-result-object v4
+
+    move-object v0, p0
+
+    move v1, p1
+
+    move v2, p2
+
+    move v3, p3
+
+    move-object v5, p5
+
+    invoke-direct/range {v0 .. v5}, Lcom/lenovo/anyshare/jij;-><init>(IIILcom/lenovo/anyshare/gij;Lcom/lenovo/anyshare/jij$a;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/lenovo/anyshare/Fij;Lcom/lenovo/anyshare/jij$a;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/lenovo/anyshare/Fij;",
+            "Lcom/lenovo/anyshare/jij$a<",
+            "Lcom/lenovo/anyshare/Mij;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {p1}, Lcom/lenovo/anyshare/vij;->a(Lcom/lenovo/anyshare/Fij;)Lcom/lenovo/anyshare/gij;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1, p2}, Lcom/lenovo/anyshare/jij;-><init>(Lcom/lenovo/anyshare/gij;Lcom/lenovo/anyshare/jij$a;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;IIILcom/lenovo/anyshare/Fij;Lcom/lenovo/anyshare/jij$a;)V
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "III",
+            "Lcom/lenovo/anyshare/Fij;",
+            "Lcom/lenovo/anyshare/jij$a<",
+            "Lcom/lenovo/anyshare/Mij;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 3
+    invoke-static {p1, p5}, Lcom/lenovo/anyshare/vij;->a(Ljava/lang/String;Lcom/lenovo/anyshare/Fij;)Lcom/lenovo/anyshare/gij;
+
+    move-result-object v4
+
+    move-object v0, p0
+
+    move v1, p2
+
+    move v2, p3
+
+    move v3, p4
+
+    move-object v5, p6
+
+    invoke-direct/range {v0 .. v5}, Lcom/lenovo/anyshare/jij;-><init>(IIILcom/lenovo/anyshare/gij;Lcom/lenovo/anyshare/jij$a;)V
+
+    return-void
+.end method
+
+.method public static a(Lcom/lenovo/anyshare/Fij;)Lcom/lenovo/anyshare/gij;
+    .locals 2
+
+    .line 2
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-static {}, Lcom/lenovo/anyshare/Aij;->a()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "/file/multipart/upload/preSignedUrls"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, p0}, Lcom/lenovo/anyshare/vij;->a(Ljava/lang/String;Lcom/lenovo/anyshare/Fij;)Lcom/lenovo/anyshare/gij;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static a(Ljava/lang/String;Lcom/lenovo/anyshare/Fij;)Lcom/lenovo/anyshare/gij;
+    .locals 3
+
+    .line 3
+    new-instance v0, Ljava/util/HashMap;
+
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+
+    const-string v1, "Content-Type"
+
+    const-string v2, "application/json"
+
+    .line 4
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "Accept-Charset"
+
+    const-string v2, "UTF-8"
+
+    .line 5
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 6
+    :try_start_0
+    new-instance v1, Lcom/lenovo/anyshare/gij;
+
+    invoke-virtual {p1}, Lcom/lenovo/anyshare/Fij;->a()Lorg/json/JSONObject;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {v1, p0, p1, v0}, Lcom/lenovo/anyshare/gij;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    .line 7
+    invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
+
+    const/4 v1, 0x0
+
+    :goto_0
+    return-object v1
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/String;)Lcom/lenovo/anyshare/Mij;
+    .locals 1
+
+    .line 8
+    new-instance v0, Lcom/lenovo/anyshare/Lij;
+
+    invoke-direct {v0, p1}, Lcom/lenovo/anyshare/Lij;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic a(Ljava/lang/String;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/lenovo/anyshare/vij;->a(Ljava/lang/String;)Lcom/lenovo/anyshare/Mij;
+
+    move-result-object p1
+
+    return-object p1
+.end method

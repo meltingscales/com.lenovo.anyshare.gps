@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/be3" android:layout_width="fill_parent" android:layout_height="@dimen/bra"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bn4" android:layout_weight="1.0" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/bn4">
+        <com.ushareit.filemanager.widget.HorizontalProgressBar android:id="@id/dj6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqv" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:id="@id/c_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <View android:background="@color/a1_" android:layout_width="fill_parent" android:layout_height="@dimen/bnc" android:layout_marginTop="@dimen/bp0" />
+</LinearLayout>

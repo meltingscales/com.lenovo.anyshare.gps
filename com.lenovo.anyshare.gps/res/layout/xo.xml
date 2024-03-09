@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/d75" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/akq" android:layout_width="fill_parent" android:layout_height="236.0dip" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bnj" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/bt3" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bz7" android:layout_marginTop="@dimen/bo8" android:text="@string/ads_reward_tips" />
+        <TextView android:textSize="@dimen/bsz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bnj" android:text="@string/ads_reward_tipdesc" />
+        <TextView android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center" android:id="@id/dpv" android:background="@drawable/ako" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bpv" android:layout_marginRight="20.0dip" android:text="@string/aot" />
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/wh" android:layout_gravity="center_horizontal" android:id="@id/dps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk" android:text="@string/adshonor_common_close_caps" />
+    </LinearLayout>
+</RelativeLayout>

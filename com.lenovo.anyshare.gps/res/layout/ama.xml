@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.san.ads.MediaView android:layout_gravity="center_horizontal" android:id="@id/bx9" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bqx">
+        <com.ushareit.widget.round.RoundImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:a_d="@dimen/bl2" />
+    </com.san.ads.MediaView>
+    <TextView android:textSize="@dimen/bst" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:id="@id/dpx" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bpj" android:lines="2" />
+    <TextView android:textSize="@dimen/bst" android:textColor="@color/bj1" android:gravity="center" android:id="@id/b00" android:background="@drawable/aho" android:paddingLeft="@dimen/bp0" android:paddingRight="@dimen/bp0" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bo8" android:singleLine="true" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/e_c" android:paddingTop="@dimen/e14" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/e90" android:layout_width="@dimen/e0c" android:layout_height="@dimen/e0y" android:src="@drawable/dvs"/>
+    <TextView android:textSize="@dimen/e6v" android:textColor="@color/bjc" android:id="@+id/e9w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e2e" android:text="@string/dyn"/>
+    <TextView android:textSize="@dimen/e6r" android:textColor="@color/bjo" android:gravity="center" android:id="@+id/e7w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="77.5dp" android:layout_marginTop="@dimen/e0n" android:layout_marginRight="77.5dp" android:text="@string/dv7"/>
+    <com.ushareit.widget.flowlayout.TagFlowLayout android:id="@+id/e8a" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e3q" android:layout_marginTop="@dimen/e36" android:layout_marginRight="@dimen/e3q" app:height_space="@dimen/e5m" app:width_space="@dimen/e1v"/>
+</LinearLayout>

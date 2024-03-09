@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Главен текст</string>
+    <string name="a98">Наслов</string>
+    <string name="a99">Преглед на аудиовизуелни содржини</string>
+    <string name="a9_">Дозволи</string>
+    <string name="a9a">Не дозволувај</string>
+    <string name="a9b">Дозволи апликацијата да ти испраќа известувања?</string>
+    <string name="a9c">Допрете за да ја отворите рекламата</string>
+    <string name="a9d">Прегледајте ја рекламата што ја зачувавте кога бевте офлајн</string>
+    <string name="a9e">Во ред</string>
+    <string name="a9f">Ќе добиете известување со линк кога ќе бидете повторно онлајн</string>
+    <string name="a9g">Не, фала</string>
+    <string name="a9h">Ќе ви испратиме известување со линк до сајтот на огласувачот.</string>
+    <string name="a9i">Отворете ја рекламата кога ќе бидете повторно онлајн.</string>
+    <string name="a9j">Зачувај ја сликата</string>
+    <string name="a9k">Дали дозволувате рекламата да ја зачува сликата во „Галеријата со слики“?</string>
+    <string name="a9l">Прифати</string>
+    <string name="a9m">Одбиј</string>
+    <string name="a9n">Создај настан во календарот</string>
+    <string name="a9o">Дали дозволувате рекламата да создаде настан во календарот?</string>
+    <string name="a9p">Тестирај ја рекламата</string>
+    <string name="a9q">AdMob -</string>
+</resources>

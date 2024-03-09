@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:radius="@dimen/c3j" app:rect_radio="1.325">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/c6j" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/ac_" android:scaleType="centerCrop"/>
+        <TextView android:id="@+id/dvr" android:layout_width="@dimen/c1k" android:layout_height="@dimen/c1m" android:scaleType="fitXY" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <View android:id="@+id/e2u" android:background="@drawable/b3y" android:layout_width="match_parent" android:layout_height="@dimen/c25" app:layout_constraintBottom_toBottomOf="0"/>
+        <TextView android:textSize="@dimen/c4f" android:textColor="@color/ac_" android:ellipsize="end" android:id="@+id/e09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2w" android:layout_marginRight="@dimen/c2w" android:layout_marginBottom="@dimen/c2w" android:lines="1" app:layout_constraintBottom_toBottomOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

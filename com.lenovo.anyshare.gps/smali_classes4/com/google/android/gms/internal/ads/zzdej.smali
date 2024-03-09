@@ -1,0 +1,48 @@
+.class public final Lcom/google/android/gms/internal/ads/zzdej;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzgwe;
+
+
+# instance fields
+.field public final zza:Lcom/google/android/gms/internal/ads/zzddr;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/internal/ads/zzddr;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzdej;->zza:Lcom/google/android/gms/internal/ads/zzddr;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza()Lcom/google/android/gms/internal/ads/zzcez;
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdej;->zza:Lcom/google/android/gms/internal/ads/zzddr;
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzddr;->zzc()Lcom/google/android/gms/internal/ads/zzcez;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final synthetic zzb()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzdej;->zza:Lcom/google/android/gms/internal/ads/zzddr;
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzddr;->zzc()Lcom/google/android/gms/internal/ads/zzcez;
+
+    move-result-object v0
+
+    return-object v0
+.end method

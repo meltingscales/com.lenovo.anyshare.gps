@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/bqo" android:background="@drawable/axq" android:paddingTop="@dimen/bkq" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bo8" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bo8" style="@style/q1">
+        <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ffffc000" android:layout_gravity="center_horizontal" android:id="@id/title_text" android:layout_marginTop="@dimen/bq8" android:text="@string/bc_" android:shadowColor="#ff3b3b2b" android:shadowDx="0.0" android:shadowDy="6.0" android:shadowRadius="3.0" style="@style/q7" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff191919" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cl9" android:layout_marginTop="@dimen/bpe" android:layout_marginBottom="@dimen/bqf" android:text="@string/ce_" style="@style/pr" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/d0l" android:background="@drawable/bt4" android:layout_width="@dimen/bny" android:layout_height="@dimen/bq9" android:layout_marginTop="@dimen/bpe" android:layout_marginBottom="@dimen/bq4">
+            <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="#ff191919" android:layout_gravity="center" android:id="@id/d0j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bc9" android:shadowDx="0.0" android:shadowDy="4.0" android:shadowRadius="3.0" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/cq8" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginBottom="@dimen/bnj" android:src="@drawable/bt3" android:scaleType="centerCrop" android:layout_above="@id/bqo" android:layout_alignRight="@id/bqo" android:layout_alignEnd="@id/bqo" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornografik Müstehcen</item>
+        <item>Suç</item>
+        <item>Siyasi Açıdan Hassas</item>
+        <item>Yasadışı Pazarlama</item>
+        <item>Yanlış Bilgi</item>
+        <item>Hak İhlali</item>
+    </array>
+    <array name="c">
+        <item>Rahatsız edici içerik</item>
+        <item>Pornografi</item>
+        <item>Şiddet içerikli</item>
+        <item>Zararlı veya tehlikeli içerik</item>
+        <item>Başlık/kapak, içerikle eşleşmiyor</item>
+    </array>
+</resources>

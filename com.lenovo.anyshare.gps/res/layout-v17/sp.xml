@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/arf" android:background="@drawable/dnr" android:layout_width="@dimen/br4" android:layout_height="@dimen/br4" android:layout_marginTop="@dimen/bql" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bn4" android:src="@drawable/dnq" />
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:layout_gravity="center" android:id="@id/arg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" android:layout_marginBottom="@dimen/bl2" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bbx" android:background="@drawable/auq" android:paddingLeft="@dimen/blk" android:paddingRight="@dimen/blk" android:layout_width="wrap_content" android:layout_height="@dimen/bo8" android:layout_marginBottom="@dimen/bpj">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/dnx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqv" android:layout_marginEnd="@dimen/bqv" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ayc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awz" />
+    </LinearLayout>
+    <ExpandableListView android:id="@id/b9q" android:background="@color/bi0" android:scrollbars="none" style="@style/qo" />
+</LinearLayout>

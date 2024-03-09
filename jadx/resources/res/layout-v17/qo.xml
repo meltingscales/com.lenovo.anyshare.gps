@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/abo" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/bcc" android:textStyle="bold" android:textColor="@color/md" android:id="@+id/ali" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b7n" android:layout_marginTop="@dimen/b6r" android:text="@string/a_j" android:layout_marginStart="@dimen/b7n"/>
+    <com.st.entertainment.core.view.RoundFrameLayout android:id="@+id/akp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/b7n" android:layout_marginTop="@dimen/b_j" android:layout_marginRight="@dimen/b7n" android:layout_marginBottom="@dimen/b7n" app:radius="@dimen/bbc">
+        <com.ushareit.base.widget.cyclic.CyclicViewPager android:id="@+id/ak7" android:background="@color/nl" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+        <com.lenovo.anyshare.bizentertainment.view.CirclePageIndicator android:layout_gravity="bottom|right" android:id="@+id/ak8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bbc" android:layout_marginBottom="@dimen/bbc" android:layout_marginEnd="@dimen/bbc" app:indicator_bg="@drawable/abr" app:indicator_height="@dimen/ba5" app:indicator_spacing="@dimen/ba5" app:indicator_width="@dimen/ba5"/>
+    </com.st.entertainment.core.view.RoundFrameLayout>
+</FrameLayout>

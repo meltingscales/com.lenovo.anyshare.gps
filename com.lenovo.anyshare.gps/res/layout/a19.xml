@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/avv" android:layout_width="fill_parent" android:layout_height="@dimen/bqx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ar8" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" style="@style/r6" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="start|center" android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/ar_" style="@style/r9" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1">
+                    <TextView android:textColor="@color/ye" android:id="@id/ara" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/br9" style="@style/r5" />
+                    <TextView android:textColor="@color/ye" android:id="@id/arb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/brt" style="@style/r5" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/cr4" android:paddingLeft="@dimen/bv_" android:paddingRight="@dimen/bv_" android:layout_width="wrap_content" android:layout_height="@dimen/bv9">
+                <ImageView android:layout_gravity="end|center" android:id="@id/ar7" android:visibility="gone" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:src="@drawable/as4" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/cl0" android:padding="@dimen/bs3" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5.0dip" android:src="@drawable/b1o" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

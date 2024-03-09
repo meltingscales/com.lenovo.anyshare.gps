@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/avo">
+        <com.ushareit.muslim.view.ImageViewRound android:id="@+id/xw" android:layout_width="@dimen/b2x" android:layout_height="@dimen/b2x" android:layout_marginTop="@dimen/avo" android:scaleType="centerCrop" app:pic_corner="@dimen/aug"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/atv" android:layout_marginTop="@dimen/avo">
+            <TextView android:textSize="@dimen/ast" android:textStyle="bold" android:textColor="@color/ij" android:id="@+id/abv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.ushareit.muslim.nearby.view.RatingView android:id="@+id/a67" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/azv"/>
+            <TextView android:textSize="@dimen/asq" android:textColor="@color/j5" android:id="@+id/aao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/azv"/>
+            <TextView android:textSize="@dimen/asq" android:textColor="@color/j5" android:ellipsize="end" android:id="@+id/a_w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/azv" android:layout_marginRight="@dimen/azw" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/a2m" android:background="#38979797" android:layout_width="match_parent" android:layout_height="@dimen/alp"/>
+</FrameLayout>

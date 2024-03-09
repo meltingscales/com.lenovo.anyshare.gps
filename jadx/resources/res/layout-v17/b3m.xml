@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.main.CustomCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a5n" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="@dimen/bqe" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/dq1" app:layout_constraintVertical_weight="1">
+    <com.lenovo.anyshare.main.CustomAppBarLayout android:orientation="vertical" android:id="@+id/asf" android:background="@color/a5n" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="0x1">
+            <FrameLayout android:id="@+id/e6f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/au6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/dfz" android:paddingTop="@dimen/bqv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <com.ushareit.widget.slide.DotLineTabIndicator android:id="@+id/dfy" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" app:indicatorWidth="@dimen/bmf" app:tabPaddingLeft="@dimen/bqv" app:tabPaddingRight="@dimen/bqv" app:tabViewSelectedTextSize="@dimen/bsx" app:tabViewTextSize="@dimen/bsx"/>
+        </LinearLayout>
+    </com.lenovo.anyshare.main.CustomAppBarLayout>
+    <com.lenovo.anyshare.main.CustomViewPagerForSlider android:id="@+id/e48" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.lenovo.anyshare.main.CustomCoordinatorLayout>

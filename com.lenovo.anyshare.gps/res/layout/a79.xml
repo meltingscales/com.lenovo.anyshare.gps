@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/csn" android:background="@color/aaz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dq6" android:background="@drawable/ayf" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/c4h" app:a1g="csi">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center" android:id="@id/bvv" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:src="@drawable/ay6" android:scaleType="centerInside" app:a7_="@color/a__" style="@style/aj7" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:background="@drawable/b02" android:layout_width="0.0dip" android:layout_height="@dimen/c2j" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/c46" android:textColor="@color/a__" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/d_f" android:layout_width="0.0dip" android:layout_height="@dimen/c2c" android:layout_marginLeft="@dimen/c3j" android:maxLines="1" app:a0o="csi" app:a0v="@id/d3z" app:a1c="csi" app:a1g="csi" />
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/d3z" android:layout_width="@dimen/c2c" android:layout_height="@dimen/c2c" android:layout_marginLeft="@dimen/c13" android:layout_marginRight="@dimen/c2m" android:src="@drawable/azy" android:scaleType="centerInside" app:a0o="csi" app:a0u="csi" app:a1b="@id/d_f" app:a1g="csi" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@id/as0" android:padding="@dimen/c35" android:visibility="gone" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:src="@drawable/az_" android:scaleType="fitXY" />
+        <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/c3j">
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@id/bgm" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:src="@drawable/b16" android:scaleType="fitXY" app:a7_="@color/a__" />
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c4f" android:textColor="@color/ac_" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/bgr" android:background="@drawable/b7m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c35" android:layout_marginRight="@dimen/c1r" android:minWidth="@dimen/c18" android:minHeight="@dimen/c18" app:a7_="@color/a__" app:a7i="@color/a__" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/e62" android:layout_width="fill_parent" android:layout_height="0.0dip" app:a0o="csi" app:a1f="@id/dq6">
+        <com.ushareit.downloader.widget.MovableFloatingActionButtonLayout android:id="@id/bgo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c35" android:layout_marginBottom="@dimen/c35" app:a0o="csi" app:a0u="csi" />
+        <FrameLayout android:id="@id/bct" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.ushareit.downloader.widget.MovableFloatingActionButtonLayoutSingle android:id="@id/bgg" android:layout_width="wrap_content" android:layout_height="wrap_content" app:a0o="csi" app:a0u="csi" />
+        <include android:id="@id/bwp" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a0o="csi" app:a1g="csi" layout="@layout/a3h" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/b7j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0v" android:layout_marginRight="@dimen/c1f" app:a0u="csi" app:a1a="csi" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

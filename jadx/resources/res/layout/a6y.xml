@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/c3p" android:paddingBottom="@dimen/c1d" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="#e6e6e6" android:layout_width="@dimen/c2n" android:layout_height="@dimen/c0q" android:layout_marginLeft="@dimen/c1b" android:layout_marginRight="@dimen/c1d" android:layout_toLeftOf="@+id/dq9" android:layout_centerInParent="true"/>
+    <View android:background="#e6e6e6" android:layout_width="@dimen/c2n" android:layout_height="@dimen/c0q" android:layout_marginLeft="@dimen/c1d" android:layout_marginRight="@dimen/c1b" android:layout_toRightOf="@+id/dq9" android:layout_centerInParent="true"/>
+    <LinearLayout android:gravity="center" android:id="@+id/dq9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/byr" android:paddingRight="@dimen/c2m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c2m" android:src="@drawable/b5b" android:layout_toLeftOf="@+id/e09"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/c47" android:textStyle="bold" android:textColor="@color/a__" android:id="@+id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/c1u" android:layout_weight="1" android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+</RelativeLayout>

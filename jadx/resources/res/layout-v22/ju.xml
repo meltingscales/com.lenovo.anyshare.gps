@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a2z" android:background="@color/l9" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:visibility="gone" layout="@layout/a0g"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/a2c" layout="@layout/ix"/>
+        <View android:id="@+id/a2l" android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7" android:layout_marginHorizontal="@dimen/ar7"/>
+        <include android:id="@+id/a2d" layout="@layout/ix"/>
+        <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7" android:layout_marginHorizontal="@dimen/ar7"/>
+        <include android:id="@+id/a2e" layout="@layout/iy"/>
+        <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7" android:layout_marginHorizontal="@dimen/ar7"/>
+        <include android:id="@+id/a2f" layout="@layout/iy"/>
+    </LinearLayout>
+</LinearLayout>

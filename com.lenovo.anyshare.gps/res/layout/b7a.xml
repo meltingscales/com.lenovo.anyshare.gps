@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a3s" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/dpx" android:background="@color/a20" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/bpv">
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:text="@string/cqe" android:maxLines="1" />
+    </RelativeLayout>
+    <com.ushareit.base.widget.pulltorefresh.ActionPullToRefreshRecyclerView android:id="@id/cz0" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dpx" />
+</RelativeLayout>

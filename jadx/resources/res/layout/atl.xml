@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="@dimen/cy4" android:paddingRight="@dimen/cy4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:background="@drawable/ccj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ctn"/>
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-5dp" app:cardCornerRadius="@dimen/csw" app:cardElevation="0dp">
+        <com.ushareit.listplayer.widget.RatioByWidthImageView android:id="@+id/c1u" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:whRatio="1"/>
+        <ImageView android:gravity="end" android:layout_gravity="end|top" android:id="@+id/c1b" android:visibility="gone" android:layout_width="@dimen/d05" android:layout_height="@dimen/d05" android:layout_marginTop="@dimen/cya" android:layout_marginRight="@dimen/cxs" android:src="@drawable/c9_"/>
+    </androidx.cardview.widget.CardView>
+    <TextView android:textSize="@dimen/cyw" android:textStyle="bold" android:textColor="@color/auf" android:ellipsize="end" android:id="@+id/c26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cxs" android:maxLines="1"/>
+    <TextView android:textSize="@dimen/cyu" android:textColor="@color/aun" android:ellipsize="end" android:id="@+id/c1h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cwu" android:maxLines="1"/>
+</LinearLayout>

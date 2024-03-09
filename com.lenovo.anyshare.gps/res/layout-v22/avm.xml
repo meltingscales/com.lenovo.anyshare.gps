@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/b8q" android:layout_width="fill_parent" android:layout_height="@dimen/btl"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/aj7" />
+    <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bn6" android:singleLine="true" android:drawablePadding="5.0dip" style="@style/alh" />
+    <ImageView android:textSize="@dimen/bts" android:textColor="@color/a7a" android:gravity="center" android:layout_gravity="end|center" android:id="@id/right_button" android:background="@color/bi0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bow" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bow" android:layout_marginBottom="@dimen/bl2" android:scaleType="centerInside" android:layout_marginHorizontal="@dimen/bow" android:layout_marginVertical="@dimen/bl2" />
+</FrameLayout>

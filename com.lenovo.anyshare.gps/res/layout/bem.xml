@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/q1">
+        <include layout="@layout/bf2" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/beo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/bl2" android:layout_weight="1.0" />
+        <TextView android:id="@id/dp4" android:layout_marginTop="@dimen/bl2" style="@style/pr" />
+        <include layout="@layout/a30" />
+    </LinearLayout>
+</FrameLayout>

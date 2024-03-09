@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/l9" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lenovo.anyshare.widget.RectFrameLayout android:id="@+id/wi" android:layout_width="match_parent" android:layout_height="wrap_content" app:rect_radio="0.506">
+        <ImageView android:id="@+id/a1l" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ob"/>
+        <FrameLayout android:id="@+id/vw" android:layout_width="match_parent" android:layout_height="@dimen/atf" android:layout_marginTop="@dimen/aos">
+            <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x710701d8" android:background="@drawable/ue" android:layout_width="@dimen/asg" android:layout_height="@dimen/asf" style="@style/aj7"/>
+            <TextView android:textSize="@dimen/atp" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/title_text_res_0x71070257" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adhan_adjust" android:singleLine="true" android:drawablePadding="5dp" style="@style/alh"/>
+        </FrameLayout>
+    </com.lenovo.anyshare.widget.RectFrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a30" android:background="@drawable/px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-12dp" android:layout_below="@+id/wi">
+        <TextView android:textSize="@dimen/asq" android:textColor="@color/j9" android:gravity="start|center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ao5" android:layout_marginTop="@dimen/ao5" android:layout_marginRight="@dimen/ao5" android:text="@string/adhan_adjust_step"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a72" android:background="@drawable/u6" android:paddingLeft="@dimen/apb" android:paddingRight="@dimen/apb" android:layout_width="match_parent" android:layout_height="@dimen/art" android:layout_marginLeft="@dimen/aqj" android:layout_marginTop="@dimen/ar7" android:layout_marginRight="@dimen/aqj">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adhan_automanually"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqj" android:text="@string/adhan_open_permission_settings"/>
+            </LinearLayout>
+            <ImageView android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:src="@drawable/og"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a7a" android:background="@drawable/u6" android:paddingLeft="@dimen/apb" android:paddingRight="@dimen/apb" android:layout_width="match_parent" android:layout_height="@dimen/art" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adhan_manually"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:id="@+id/acd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqj"/>
+            </LinearLayout>
+            <ImageView android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:src="@drawable/og"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a77" android:background="@drawable/u6" android:paddingLeft="@dimen/apb" android:paddingRight="@dimen/apb" android:layout_width="match_parent" android:layout_height="@dimen/art" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj" android:layout_marginBottom="@dimen/arr">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/t8"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:id="@+id/aaf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqj"/>
+            </LinearLayout>
+            <ImageView android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:src="@drawable/og"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/asq" android:textColor="@color/j9" android:gravity="start|center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ao5" android:layout_marginTop="@dimen/ar7" android:layout_marginRight="@dimen/ao5" android:text="@string/adhan_note"/>
+    </LinearLayout>
+</RelativeLayout>

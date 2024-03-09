@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/bkq" style="@style/q1">
+        <TextView android:id="@id/title_text" android:layout_marginTop="@dimen/bo8" android:layout_marginBottom="@dimen/bkq" style="@style/q7" />
+        <TextView android:id="@id/cl9" android:layout_marginTop="@dimen/bmm" style="@style/pr" />
+        <ViewStub android:id="@id/d4o" android:layout="@layout/bf1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bym" android:layout_marginRight="@dimen/bym" android:layout_weight="1.0" />
+        <ViewStub android:id="@id/b29" android:layout="@layout/ber" style="@style/po" />
+        <LinearLayout android:id="@id/cr3" style="@style/pl">
+            <com.ushareit.widget.UpperCaseButton android:id="@id/d0j" android:background="@drawable/axm" style="@style/pk" />
+            <com.ushareit.widget.UpperCaseButton android:textColor="@color/a77" android:id="@id/d0e" android:background="@drawable/axm" style="@style/pj" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

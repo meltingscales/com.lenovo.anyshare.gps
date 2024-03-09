@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ay1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0x" android:layout_marginTop="@dimen/c0x" android:layout_marginRight="@dimen/c0x" app:al6="@dimen/c13" app:al7="@dimen/c13"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.downloader.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:al6="@dimen/c13" app:al7="@dimen/c13">
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/c98" android:paddingLeft="@dimen/c3j" android:paddingRight="@dimen/c3j" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/c7r" android:layout_width="@dimen/c1d" android:layout_height="@dimen/c1o" android:layout_marginLeft="@dimen/c2m" android:layout_marginTop="@dimen/c3p" android:src="@drawable/b7q" android:scaleType="fitXY" app:a17="csi" app:a1c="csi" app:a1g="csi" />
+            <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c52" android:textStyle="bold" android:textColor="@color/a__" android:ellipsize="end" android:id="@id/e0c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0r" android:text="@string/b28" android:lines="1" app:a0o="@id/c7r" app:a18="@id/c7r" app:a1b="@id/c7r" app:a1g="@id/c7r" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/c9r" android:background="@drawable/b85" android:paddingTop="@dimen/c1d" android:paddingRight="@dimen/c13" android:paddingBottom="@dimen/c3c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c3c" app:a1f="@id/c7r">
+                <include layout="@layout/a56" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.ushareit.downloader.widget.RoundFrameLayout>
+</LinearLayout>

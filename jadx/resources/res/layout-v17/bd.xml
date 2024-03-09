@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <View android:id="@+id/h8" android:layout_width="match_parent" android:layout_height="@dimen/gp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/g1" android:background="@color/c5" android:paddingLeft="@dimen/b7" android:layout_width="match_parent" android:layout_height="@dimen/el" android:paddingStart="@dimen/b7">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fe"/>
+        <TextView android:textSize="@dimen/ho" android:textStyle="bold" android:textColor="@color/d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:text="@string/fu" android:layout_marginStart="@dimen/g8"/>
+        <View android:background="@drawable/fi" android:layout_width="@dimen/f5" android:layout_height="@dimen/f5" android:layout_marginLeft="@dimen/fi" android:layout_marginRight="@dimen/fi"/>
+        <TextView android:textSize="@dimen/ho" android:textStyle="bold" android:textColor="@color/d7" android:ellipsize="end" android:id="@+id/g7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/eq" android:layout_marginRight="@dimen/au" android:src="@drawable/ff" android:layout_marginStart="@dimen/eq" android:layout_marginEnd="@dimen/au"/>
+        <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/ho" android:textColor="@color/d7" android:gravity="center_vertical" android:layout_gravity="end|center_vertical" android:id="@+id/g2" android:background="@drawable/fg" android:paddingLeft="@dimen/g8" android:paddingRight="@dimen/g8" android:layout_width="wrap_content" android:layout_height="@dimen/df" android:layout_marginRight="@dimen/au" android:text="@string/fs" android:drawableRight="@drawable/ff" android:drawablePadding="@dimen/dy" android:drawableEnd="@drawable/ff" android:layout_marginEnd="@dimen/au"/>
+    </LinearLayout>
+    <View android:id="@+id/s" android:layout_width="match_parent" android:layout_height="@dimen/au"/>
+</LinearLayout>

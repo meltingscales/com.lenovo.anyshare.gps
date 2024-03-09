@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/d77" style="@style/q3">
+    <FrameLayout android:layout_gravity="bottom" android:background="@drawable/bkk" android:paddingTop="0dp" android:paddingBottom="@dimen/bm3" android:layout_marginLeft="@dimen/bkq" android:layout_marginRight="@dimen/bkq" android:layout_marginBottom="@dimen/bkq" android:layout_marginStart="@dimen/bkq" android:layout_marginEnd="@dimen/bkq" style="@style/q1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c_c" android:layout_width="match_parent" android:layout_height="@dimen/bqq" android:layout_marginTop="@dimen/bm3" android:layout_marginStart="@dimen/bnj">
+            <ImageView android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/bov" android:scaleType="centerCrop"/>
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bmm" android:text="@string/bag" android:layout_marginStart="@dimen/bmm"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c_d" android:layout_width="match_parent" android:layout_height="@dimen/bqq" android:layout_marginTop="@dimen/bra" android:layout_marginStart="@dimen/bnj">
+            <ImageView android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/bow" android:scaleType="centerCrop"/>
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bmm" android:text="@string/baf" android:layout_marginStart="@dimen/bmm"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|top" android:id="@+id/c49" android:padding="@dimen/bmf" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:src="@drawable/bk4"/>
+    </FrameLayout>
+</FrameLayout>

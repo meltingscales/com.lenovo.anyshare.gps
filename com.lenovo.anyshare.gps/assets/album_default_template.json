@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hot",
+    "name": "Hot",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/hot.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/Hot1.zip"
+  },
+  {
+    "id": "Hari 17an",
+    "name": "Hari 17an",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/Hari17an.jpg",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/HariMerdeka.zip"
+  },
+  {
+    "id": "fashion",
+    "name": "Fashion",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/Fashion.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/Fashion.zip"
+  },
+  {
+    "id": "Idul Adha",
+    "name": "Idul Adha",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/IdulAdha1.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/IdulAdha(1).zip"
+  },
+  {
+    "id": "love",
+    "name": "Cinta",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/love.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/Love.zip"
+  },
+  {
+    "id": "Memories",
+    "name": "Memori",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/Memories2.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/Memories.zip"
+  },
+  {
+    "id": "travel",
+    "name": "Travel",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/travel.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/Travel.zip"
+  },
+  {
+    "id": "summer",
+    "name": "Summer",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/summer.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/Summer.zip"
+  },
+  {
+    "id": "food",
+    "name": "Food",
+    "cover_thumb": "http://vs.wshareit.com/ares/h/p/f/food.png",
+    "download_url": "http://vs.wshareit.com/ares/h/p/f/Food.zip"
+  }
+]

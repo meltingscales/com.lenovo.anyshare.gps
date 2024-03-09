@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center" android:background="@drawable/avd" android:visibility="gone" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:a78="@color/bev"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

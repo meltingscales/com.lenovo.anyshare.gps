@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/fx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ax" android:background="@color/cy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/q" android:background="@drawable/q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginTop="@dimen/fi" android:layout_marginStart="@dimen/c6">
+            <ImageView android:id="@+id/cf" android:layout_width="@dimen/cx" android:layout_height="@dimen/bh"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fi" android:maxEms="9" android:singleLine="true" android:layout_marginStart="@dimen/fi"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/eo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/en" android:layout_marginBottom="@dimen/f0">
+            <ImageView android:id="@+id/a0" android:layout_width="@dimen/eb" android:layout_height="@dimen/eb" android:layout_marginLeft="@dimen/au" android:src="@drawable/b6" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/au"/>
+            <ImageView android:id="@+id/a2" android:layout_width="@dimen/eb" android:layout_height="@dimen/eb" android:layout_marginLeft="@dimen/en" android:src="@drawable/w" android:layout_toRightOf="@+id/a0" android:layout_centerVertical="true" android:layout_marginStart="@dimen/en" android:layout_toEndOf="@+id/a0"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

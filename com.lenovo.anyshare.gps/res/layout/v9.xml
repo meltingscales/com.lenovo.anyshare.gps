@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bqd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/d0w" style="@style/ha" />
+    <TextView android:id="@id/d13" style="@style/hb" />
+</RelativeLayout>

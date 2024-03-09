@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/deb" android:background="@drawable/djk" android:paddingLeft="@dimen/bo8" android:paddingTop="@dimen/brl" android:paddingRight="@dimen/bo8" android:paddingBottom="@dimen/brl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-1px">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/bpe">
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/e09" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/bo8" android:text="@string/c7q" android:maxLines="2" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/bj1" android:id="@+id/ay4" android:background="@drawable/aro" android:visibility="gone" android:layout_height="@dimen/bow" android:maxWidth="@dimen/brz" android:minWidth="@dimen/br3" android:text="@string/asb" android:maxLines="1" style="@style/sn"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ary" android:paddingLeft="@dimen/bl2" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/bl2" android:paddingBottom="@dimen/brt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/bm3" android:src="@drawable/cq0" android:adjustViewBounds="true"/>
+                <TextView android:textSize="@dimen/bti" android:textColor="#a3a3a3" android:ellipsize="end" android:gravity="end|center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/c7m" android:singleLine="true" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2">
+                <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/bo8" android:src="@drawable/cnf" android:adjustViewBounds="true"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/bow">
+                    <TextView android:textSize="@dimen/bst" android:textStyle="bold" android:textColor="@color/w4" android:id="@+id/dxf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d67" android:singleLine="true"/>
+                    <TextView android:textSize="@dimen/bst" android:textStyle="bold" android:textColor="@color/wh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c7l" android:singleLine="true" android:layout_alignBaseline="@+id/dxf" android:layout_alignParentRight="true"/>
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                        <View android:background="#d9e9ff" android:layout_width="match_parent" android:layout_height="@dimen/bqf" android:layout_centerInParent="true"/>
+                        <ImageView android:id="@+id/c6p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cni" android:layout_centerVertical="true"/>
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cnj"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

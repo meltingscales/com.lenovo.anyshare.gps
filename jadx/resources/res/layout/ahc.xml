@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="vertical" android:background="@color/b3t" android:paddingLeft="@dimen/c7t" android:paddingRight="@dimen/c7t" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ddc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ushareit.theme.night.view.NightTextView android:id="@+id/aye" android:background="@drawable/as0" android:layout_marginBottom="@dimen/c7n" android:text="@string/d5m" app:night_tv_text_color="@color/w4" style="@style/w0"/>
+        <com.ushareit.theme.night.view.NightTextView android:id="@+id/az5" android:background="@drawable/as0" android:layout_marginBottom="@dimen/ceu" android:text="@string/d5o" app:night_tv_text_color="@color/w4" style="@style/w0"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c7r" android:layout_marginBottom="@dimen/c7q">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/c7p" android:layout_height="@dimen/c7p" android:src="@drawable/dhm" app:night_color_tint="@color/w4" style="@style/ahx"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c7s" android:textColor="@android:color/white" android:id="@+id/az1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d5n" app:night_tv_text_color="@color/w4"/>
+    </LinearLayout>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c7o" android:textColor="#aaffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d5p"/>
+</LinearLayout>

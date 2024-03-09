@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a4d" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aox" android:layout_width="match_parent" android:layout_height="@dimen/br7" android:layout_centerInParent="true">
+        <com.san.ads.MediaView android:id="@+id/bx9" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd">
+            <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/so"/>
+        </com.san.ads.MediaView>
+        <RelativeLayout android:id="@+id/aog" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_weight="1">
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/a4h" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bq1" android:singleLine="true"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/title">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aom" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bqv" android:src="@drawable/agp" android:scaleType="fitXY"/>
+                <TextView android:textSize="@dimen/bsw" android:textColor="@color/xu" android:ellipsize="end" android:gravity="start" android:layout_gravity="bottom" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags"/>
+        <FrameLayout android:id="@+id/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags">
+            <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/agy" android:layout_width="@dimen/bru" android:layout_height="@dimen/bp7" android:max="100" android:progress="100" android:maxLines="1" android:maxEms="6" app:reset_drawable="false" app:textSize="@dimen/bsw" app:text_bold="true" app:text_default_color="@color/wh" app:text_margin_left="@dimen/brt" app:text_margin_right="@dimen/brt" app:text_max_length="@dimen/bre" app:progress_drawable="@drawable/akj" style="?android:attr/progressBarStyleHorizontal"/>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/cwi" android:visibility="gone" android:layout_width="@dimen/bkq" android:layout_height="@dimen/bkq" android:src="@drawable/d67"/>
+</RelativeLayout>

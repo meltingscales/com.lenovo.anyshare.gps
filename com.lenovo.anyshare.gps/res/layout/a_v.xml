@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="@dimen/bqv" android:paddingRight="@dimen/bqv" android:paddingBottom="@dimen/bnc" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/a_x" />
+    <include layout="@layout/a_x" />
+    <include layout="@layout/a_x" />
+    <include layout="@layout/a_x" />
+</LinearLayout>

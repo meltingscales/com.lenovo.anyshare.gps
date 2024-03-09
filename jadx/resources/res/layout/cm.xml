@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/dj" style="@style/q3">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/ar" android:background="@drawable/ae" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/hw" android:textStyle="bold" android:textColor="@color/c4" android:ellipsize="end" android:gravity="start" android:id="@+id/hq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq" android:layout_marginTop="@dimen/cx" android:layout_marginRight="@dimen/f9" android:maxLines="2"/>
+        <ImageView android:id="@+id/cj" android:padding="@dimen/eq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c6" android:layout_marginRight="@dimen/c6" android:src="@drawable/cu" android:scaleType="centerCrop" android:layout_alignParentRight="true"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/ak" android:layout_below="@+id/hq">
+            <com.ushareit.base.widget.pulltorefresh.ActionPullToRefreshRecyclerView android:id="@+id/fh" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c6"/>
+            <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/fd" android:background="@drawable/gb" android:padding="@dimen/bz" android:layout_width="@dimen/f9" android:layout_height="@dimen/f9" android:layout_centerInParent="true" app:mpb_strokeWidth="@dimen/eq"/>
+        </FrameLayout>
+        <com.ushareit.minivideo.series.SeriesCollectView android:gravity="center" android:id="@+id/ak" android:layout_width="match_parent" android:layout_height="@dimen/f4" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

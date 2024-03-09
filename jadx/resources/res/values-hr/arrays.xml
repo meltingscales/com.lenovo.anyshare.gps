@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornografski vulgarno</item>
+        <item>Kriminal</item>
+        <item>Politički osjetljivo</item>
+        <item>Nezakonita prodaja</item>
+        <item>Lažne informacije</item>
+        <item>Povreda prava</item>
+    </array>
+    <array name="c">
+        <item>Neugodan sadržaj</item>
+        <item>Pornografija</item>
+        <item>Nasilan sadržaj</item>
+        <item>Štetan i opasan sadržaj</item>
+        <item>Naslov/ilustracija ne odgovara sadržaju</item>
+    </array>
+</resources>

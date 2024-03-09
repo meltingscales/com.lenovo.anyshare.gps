@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/amy" android:layout_marginRight="@dimen/amy">
+    <ImageView android:id="@+id/vj" android:background="@drawable/a65" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignLeft="@+id/wm" android:layout_alignTop="@+id/wm" android:layout_alignRight="@+id/wm" android:layout_alignBottom="@+id/wm"/>
+    <ImageView android:id="@+id/vi" android:background="@drawable/a66" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignLeft="@+id/wm" android:layout_alignTop="@+id/wm" android:layout_alignRight="@+id/wm" android:layout_alignBottom="@+id/wm"/>
+    <FrameLayout android:id="@+id/wm" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/l9" android:id="@+id/ab7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/anm"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/l9" android:id="@+id/aby" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aq0" android:layout_marginBottom="@dimen/amq"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/a1a" android:layout_width="@dimen/aon" android:layout_height="@dimen/apr" android:layout_marginTop="@dimen/aqw" android:layout_marginRight="@dimen/aos" android:src="@drawable/yj" android:scaleType="center"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/a0p" android:layout_width="@dimen/aon" android:layout_height="@dimen/apr" android:layout_marginTop="@dimen/aqw" android:layout_marginRight="@dimen/ar5" android:src="@drawable/si" android:scaleType="center"/>
+    </FrameLayout>
+</RelativeLayout>

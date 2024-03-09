@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b9k" android:background="@drawable/ah4" android:paddingTop="@dimen/br9" android:paddingBottom="@dimen/br9" android:layout_width="@dimen/bpc" android:layout_height="@dimen/bqj">
+    <com.san.ads.MediaView android:id="@+id/bx9" android:layout_width="@dimen/bpz" android:layout_height="@dimen/bpz" android:layout_marginLeft="@dimen/bm3" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bm3">
+        <ImageView android:id="@+id/icon" android:background="@drawable/ai_" android:padding="@dimen/bnd" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/sp"/>
+    </com.san.ads.MediaView>
+    <FrameLayout android:id="@+id/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/ag6">
+        <com.san.ads.TextProgressView android:gravity="center" android:id="@+id/b00" android:background="@drawable/agw" android:paddingLeft="@dimen/brt" android:paddingRight="@dimen/brt" android:layout_width="wrap_content" android:layout_height="@dimen/bnv" android:maxWidth="@dimen/bqj" android:maxLines="1" app:textColor="@color/rw" app:textSize="@dimen/bst" app:maxEms="10"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags"/>
+    <RelativeLayout android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/brl" android:layout_marginRight="@dimen/bl2" android:layout_toLeftOf="@+id/bo8" android:layout_toRightOf="@+id/bx9" android:layout_centerVertical="true" android:layout_marginStart="@dimen/brl" android:layout_marginEnd="@dimen/bl2" android:layout_toStartOf="@+id/bo8" android:layout_toEndOf="@+id/bx9">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/bsw" android:textColor="@color/s1" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/bsu" android:textColor="@color/ry" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:singleLine="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

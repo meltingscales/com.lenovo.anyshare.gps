@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/aek" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ushareit.filemanager.content.ContentPagersTitleBar3 android:id="@id/e2d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/aod" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/bkq">
+            <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@id/cit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/bl2">
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/bcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:visibility="gone" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" android:layout_margin="5.0dip" android:src="@drawable/bbe" />
+            </FrameLayout>
+            <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/a96" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/e58" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

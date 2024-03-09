@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/csn" android:background="@color/a9o" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/ay3" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c0s">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bb6" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end" android:id="@id/byq" android:padding="@dimen/c3j" android:visibility="visible" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:layout_margin="@dimen/c3j" android:src="@drawable/ayv" app:a0u="csi" app:a1a="csi" app:a1g="csi" />
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/dor" android:layout_width="@dimen/c0w" android:layout_height="@dimen/c36" android:layout_marginLeft="@dimen/c1t" android:layout_marginTop="@dimen/c1t" android:scaleType="centerCrop" app:a17="csi" app:a1c="csi" app:a1g="csi" />
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/e3k" android:layout_width="@dimen/c2c" android:layout_height="@dimen/c2c" android:src="@drawable/axy" android:scaleType="centerInside" app:a0o="@id/dor" app:a0u="@id/dor" app:a1c="@id/dor" app:a1g="@id/dor" />
+            <TextView android:textSize="@dimen/c47" android:textStyle="bold" android:textColor="@color/a__" android:id="@id/title_text" android:background="@drawable/ay_" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c3j" android:layout_marginRight="@dimen/c2o" android:maxLines="4" android:textSelectHandle="@drawable/b11" android:textCursorDrawable="@drawable/aym" app:a0o="@id/dor" app:a0u="csi" app:a18="@id/dor" app:a1a="csi" app:a1b="@id/dor" app:a1g="@id/dor" app:a1i="csb" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/beo" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/c1v" android:layout_marginTop="@dimen/c1f" android:layout_marginRight="@dimen/c23" android:layout_weight="1.0" android:overScrollMode="never" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/c38" android:layout_marginLeft="@dimen/c23" android:layout_marginTop="@dimen/c13" android:layout_marginRight="@dimen/c23">
+            <com.ushareit.widget.UpperCaseTextView android:enabled="false" android:textSize="@dimen/c47" android:textStyle="bold" android:textColor="@color/abz" android:gravity="center" android:layout_gravity="top" android:id="@id/d_w" android:background="@drawable/ay5" android:layout_width="fill_parent" android:layout_height="@dimen/c2j" android:text="Download" android:maxLines="1" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/aqr" android:background="@color/ac8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

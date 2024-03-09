@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:banner="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.flash.Banner android:id="@id/au2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/bkq" android:layout_weight="1.0">
+        <com.lenovo.anyshare.flash.indicator.RectangleIndicator android:layout_gravity="center" android:id="@id/bzs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/bvt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/bkh" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:minWidth="@dimen/bos" android:text="@string/bbf" android:singleLine="true" android:layout_marginHorizontal="@dimen/bnj" />
+    </FrameLayout>
+</LinearLayout>

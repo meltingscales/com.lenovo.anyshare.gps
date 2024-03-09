@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <RelativeLayout android:id="@+id/c99" android:background="@drawable/ap5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/q1">
+        <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="#bb4f00" android:gravity="center" android:id="@+id/b56" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bmm" android:layout_alignParentTop="true"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bok" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bnj" android:layout_below="@+id/b56" android:layout_alignParentLeft="true">
+            <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@+id/b0s" android:background="@drawable/ap4" android:layout_width="0dp" android:layout_height="@dimen/bqa" android:layout_marginRight="@dimen/bnj" android:minWidth="@dimen/blw" android:text="@string/ar6" android:layout_weight="1" android:textAllCaps="true"/>
+            <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@+id/cqe" android:background="@drawable/ap6" android:layout_width="0dp" android:layout_height="@dimen/bqa" android:minWidth="@dimen/blw" android:text="@string/ar8" android:layout_weight="1" android:textAllCaps="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:id="@+id/b7o" android:layout_width="@dimen/boa" android:layout_height="@dimen/d4z" android:layout_marginTop="-103dp" android:src="@drawable/ap3" android:layout_alignTop="@+id/c99" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

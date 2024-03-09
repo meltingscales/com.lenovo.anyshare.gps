@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/brq">
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" app:bottom_left_corner="@dimen/bl2" app:bottom_right_corner="0dp" app:rect_radio="0.5236" app:top_left_corner="@dimen/bl2" app:top_right_corner="0dp">
+        <com.san.ads.MediaView android:id="@+id/bc_" android:background="@color/sh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aiu"/>
+    </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/bl3" android:layout_width="0dp" android:layout_height="match_parent" android:minHeight="@dimen/brq" android:layout_weight="1" app:bottomRightRadius="@dimen/bl2" app:topRightRadius="@dimen/bl2">
+        <LinearLayout android:orientation="vertical" android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dq7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bs3">
+                <com.ushareit.ads.ui.widget.RoundFrameLayout android:gravity="center_vertical" android:background="@color/so" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginRight="@dimen/br9" app:radius="@dimen/brt">
+                    <com.san.ads.MediaView android:id="@+id/bx9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </com.ushareit.ads.ui.widget.RoundFrameLayout>
+                <TextView android:textSize="@dimen/bih" android:textColor="@color/sw" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bih" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:maxLines="1"/>
+            <FrameLayout android:id="@+id/az6" android:layout_width="match_parent" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/br9" android:layout_marginBottom="9dp">
+                <com.san.ads.TextProgressView android:textSize="@dimen/btj" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/am6"/>
+            </FrameLayout>
+        </LinearLayout>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</LinearLayout>

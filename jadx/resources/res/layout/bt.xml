@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/cc" android:background="@drawable/g8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.video.list.holder.view.ShortVideoCoverView android:id="@+id/ay" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/ae" android:visibility="gone" android:layout="@layout/v" android:inflatedId="@+id/ad" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.ushareit.video.list.holder.view.VideoPosterBottomLayout android:id="@+id/i7" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cq"/>
+</LinearLayout>

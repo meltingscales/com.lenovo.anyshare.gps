@@ -1,0 +1,39 @@
+.class public Lcom/apm/insight/runtime/q;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/apm/insight/runtime/q$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static a:J = -0x1L
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static synthetic a()J
+    .locals 2
+
+    sget-wide v0, Lcom/apm/insight/runtime/q;->a:J
+
+    return-wide v0
+.end method
+
+.method public static synthetic a(J)J
+    .locals 0
+
+    sput-wide p0, Lcom/apm/insight/runtime/q;->a:J
+
+    return-wide p0
+.end method

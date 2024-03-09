@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#fff6f4f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.san.ads.MediaView android:id="@+id/a7z" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/wl" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="22dp" android:layout_marginTop="42dp" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="start" android:id="@+id/zy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yp"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end" android:id="@+id/a_u" android:background="@drawable/a5w" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="wrap_content" android:layout_height="22dp"/>
+    </FrameLayout>
+</RelativeLayout>

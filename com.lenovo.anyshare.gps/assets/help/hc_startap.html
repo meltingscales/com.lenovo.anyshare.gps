@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <title></title>
+    <link rel="stylesheet" href="index.min.css">
+</head>
+
+<body>
+    <div id="box">
+        <div class="content">
+            <h1 id="head">Why can’t I activate hotspot?</h1>
+            <div class="hr"></div>
+            <div id="cont">
+                <p>Due to compatibility issues, it may take more time to activate hotspot on some devices. In these cases, restart
+                    SHAREit on the receiving device and the tap Receive to try again.</p>
+                <br>
+                <p>Additionally, this problem may also be due to SHAREit not having permissions for Wi-Fi connection on the
+                    device. Please see Configuring Xiaomi Security Center.</p>
+                <br>
+                <p>Some devices, such as Nexus7 and Mi pad, do not support hotspot connections. In these cases, tap 'Receive'
+                    on the sending device and 'Send' on the receiving device to try again.</p>
+            </div>
+            <div id="btn">
+                <a class="btn" id="btn_1" onclick="collect('btn_1',true);">
+                    <img src="like.png" alt="" width="100%">
+                    <span id="done">Solved</span>
+                </a>
+                <a class="btn" id="btn_2" onclick="collect('btn_2',false);">
+                    <img src="dislike.png" alt="" width="100%">
+                    <span id="undone">Unsolved</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <h2 id="xiangguan">See also</h2>
+    <div id="box">
+        <div class="content">
+            <div id="other">
+                <a href="shareits://test_portal/21?url=file:///android_asset/help/hc_find.html" id="other_1">Why can’t I find receivers around me?</a>
+                <a href="shareits://test_portal/21?url=file:///android_asset/help/hd_misafe.html" id="other_2">Configuring Xiaomi Security Center</a>
+                <a href="shareits://test_portal/21?url=file:///android_asset/help/hd_mipad.html" id="other_3">Failed to open hotspot on Mi Pad?</a>
+                <a href="shareits://test_portal/21?url=file:///android_asset/help/hd_nexus7.html" id="other_4" style="border-bottom: medium none;">Failed to open hotspot on Nexus7?</a>
+            </div>
+        </div>
+    </div>
+    <h2 id="feadback_title">Have any other questions</h2>
+    <div id="box" class="feed">
+        <div class="content">
+            <div id="other">
+                <a id="feadback_btn" onclick="goFeadback()">Feedback</a>
+            </div>
+        </div>
+    </div>
+    <script src="index.min.js"></script>
+</body>
+
+</html>

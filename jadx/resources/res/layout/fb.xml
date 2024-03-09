@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/p9" android:background="#30000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/op">
+            <ImageView android:id="@+id/o5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/op" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <sg.bigo.ads.common.view.RoundedFrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="16dp" app:radius="6dp">
+                    <ImageView android:id="@+id/oq" android:layout_width="80dp" android:layout_height="80dp"/>
+                </sg.bigo.ads.common.view.RoundedFrameLayout>
+                <TextView android:textSize="20sp" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:id="@+id/oy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/na" android:maxLines="2" android:fontFamily="sans-serif-medium"/>
+                <TextView android:textSize="13sp" android:textColor="#888888" android:ellipsize="end" android:gravity="center" android:id="@+id/oo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/mt" android:maxLines="2"/>
+                <TextView android:textSize="12sp" android:textColor="#ffaeb3b7" android:ellipsize="end" android:gravity="center" android:id="@+id/of" android:background="@drawable/m7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:layout_marginBottom="18dp" android:maxWidth="340dp" android:text="bigoad.com" android:maxLines="1"/>
+                <Button android:textSize="14sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@+id/oi" android:background="@drawable/l3" android:layout_width="match_parent" android:layout_height="43.5dp" android:layout_marginBottom="16dp" android:text="@string/mr" android:maxLines="1" android:textAllCaps="false"/>
+                <TextView android:textSize="13sp" android:textColor="#d8d8d8" android:ellipsize="end" android:gravity="center" android:id="@+id/oz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="" android:maxLines="2"/>
+            </LinearLayout>
+            <TextView android:textSize="9sp" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/oe" android:background="@drawable/m6" android:paddingLeft="3dp" android:paddingTop="1dp" android:paddingRight="3dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad"/>
+            <sg.bigo.ads.api.AdOptionsView android:layout_gravity="end|bottom" android:id="@+id/ox" android:layout_width="16dp" android:layout_height="16dp"/>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,603 @@
+{
+  "festival_names": [
+    {
+      "id": 1,
+      "name": {
+        "text_en": "Al-Hijira",
+        "text_ms": "Al-Hijira",
+        "text_ru": "Новый год",
+        "text_ar": "رأس السنة",
+        "text_ur": "Al-Hijira",
+        "text_zh-rCN": "Al-Hijira",
+        "text_bn": "Hijriah",
+        "text_hi": "Al-Hijira",
+        "text_tr": "Al-Hijira",
+        "text_fr": "Al-Hijira",
+        "text_de": "Al-Hijira"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "text_en": "Lailat al Miraj",
+        "text_ms": "Lailat al Miraj",
+        "text_ru": "Ночь Мирадж",
+        "text_ar": "لیلة المعراج‎",
+        "text_ur": "Lailat al Miraj",
+        "text_zh-rCN": "Lailat al Miraj",
+        "text_bn": "Lailat al Miraj",
+        "text_hi": "इस्रा और मेराज",
+        "text_tr": "Mirac Kandili",
+        "text_fr": "Lailat al Miraj",
+        "text_de": "Lailat al Miraj"
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "text_en": "Laylat al Baraat",
+        "text_ms": "Laylat al Baraat",
+        "text_ru": "Ночь Бараат",
+        "text_ar": "ليلة البارات",
+        "text_ur": "Laylat al Baraat",
+        "text_zh-rCN": "Laylat al Baraat",
+        "text_bn": "Laylat al Baraat",
+        "text_hi": "शब-ए-बारात",
+        "text_tr": "Berat Kandili",
+        "text_fr": "Laylat al Baraat",
+        "text_de": "Laylat al Baraat"
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "text_en": "Ramadan (start)",
+        "text_ms": "Ramadan (start)",
+        "text_ru": "Рамадан",
+        "text_ar": "رمضان‎",
+        "text_ur": "Ramadan (start)",
+        "text_zh-rCN": "Ramadan (start)",
+        "text_bn": "Ramadan (start)",
+        "text_hi": "रमज़ान (शुरु)",
+        "text_tr": "Ramazan'ın Başlangıcı",
+        "text_fr": "Ramadan (start)",
+        "text_de": "Ramadan (start)"
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "text_en": "Eid-Ul-Fitr (~)",
+        "text_ms": "Eid-Ul-Fitr (~)",
+        "text_ru": "Ураза байрам (~)",
+        "text_ar": "عيد الفطر(~)",
+        "text_ur": "Eid-Ul-Fitr (~)",
+        "text_zh-rCN": "Eid-Ul-Fitr (~)",
+        "text_bn": "Hari Raya Aidilfitri (~)",
+        "text_hi": "ईद उल-फ़ित्र (~)",
+        "text_tr": "Ramazan Bayramı",
+        "text_fr": "Aïd el-Fitr(~)",
+        "text_de": "Eid-Ul-Fitr (~)"
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "text_en": "Waqf Al Arafa - Hajj",
+        "text_ms": "Waqf Al Arafa - Hajj",
+        "text_ru": "День Арафат",
+        "text_ar": "يوم عرفة",
+        "text_ur": "Waqf Al Arafa - Hajj",
+        "text_zh-rCN": "Waqf Al Arafa - Hajj",
+        "text_bn": "Waqf Al Arafa - Hajj",
+        "text_hi": "Waqf Al Arafa - Hajj",
+        "text_tr": "Arefe (Kurban)",
+        "text_fr": "Waqf Al Arafa - Hajj",
+        "text_de": "Waqf Al Arafa - Hajj"
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "text_en": "Eid-Ul-Adha",
+        "text_ms": "Eid-Ul-Adha",
+        "text_ru": "Курбан байрам",
+        "text_ar": "عيد الأضحى‎",
+        "text_ur": "Eid-Ul-Adha",
+        "text_zh-rCN": "Eid-Ul-Adha",
+        "text_bn": "Hari Raya Aidiladha",
+        "text_hi": "ईद-उल-अज़हा",
+        "text_tr": "Kurban Bayramı",
+        "text_fr": "Aïd al-Adha",
+        "text_de": "Eid-Ul-Adha"
+      }
+    }
+  ],
+  "festival_year": [
+    {
+      "year": 2016,
+      "festival": [
+        {
+          "timestamp": 1475337600,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "festival": [
+        {
+          "timestamp": 1492963200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1494432000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1495814400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1498320000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1504108800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1504195200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1505923200,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "festival": [
+        {
+          "timestamp": 1523548800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1525104000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1526400000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1528992000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1534694400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1534780800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1536595200,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "festival": [
+        {
+          "timestamp": 1554220800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1555689600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1557072000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1559577600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1565366400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1565452800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1567180800,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "festival": [
+        {
+          "timestamp": 1584806400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1586275200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1587657600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1590249600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1596038400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1596124800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1597852800,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "festival": [
+        {
+          "timestamp": 1615392000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1616860800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1618243200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1620835200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1626624000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1626710400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1628438400,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "festival": [
+        {
+          "timestamp": 1645977600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1647532800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1648828800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1651420800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1657209600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1657296000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1659110400,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "festival": [
+        {
+          "timestamp": 1676649600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1678118400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1679500800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1682006400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1687795200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1687881600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1689696000,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "festival": [
+        {
+          "timestamp": 1707321600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1708790400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1710086400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1712678400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1718380800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1718467200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1720281600,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "festival": [
+        {
+          "timestamp": 1737907200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1739462400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1740758400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1743264000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1749052800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1749139200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1750867200,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "festival": [
+        {
+          "timestamp": 1768492800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1770048000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1771344000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1773936000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1779724800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1779811200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1781539200,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "festival": [
+        {
+          "timestamp": 1799078400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        },
+        {
+          "timestamp": 1800633600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1802016000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1804521600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1810310400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1810396800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        },
+        {
+          "timestamp": 1812211200,
+          "wiki_url": "https://en.m.wikipedia.org/wiki/Islamic_New_Year",
+          "festival_id": 1
+        },
+        {
+          "timestamp": 1829664000,
+          "wiki_url": "https://en.wikipedia.org/wiki/Isra_and_Mi%27raj",
+          "festival_id": 2
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "festival": [
+        {
+          "timestamp": 1831219200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Barat_Night",
+          "festival_id": 3
+        },
+        {
+          "timestamp": 1832601600,
+          "wiki_url": "https://en.wikipedia.org/wiki/Ramadan",
+          "festival_id": 4
+        },
+        {
+          "timestamp": 1835107200,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+          "festival_id": 5
+        },
+        {
+          "timestamp": 1840982400,
+          "wiki_url": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+          "festival_id": 6
+        },
+        {
+          "timestamp": 1841068800,
+          "wiki_url": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+          "festival_id": 7
+        }
+      ]
+    }
+  ]
+}

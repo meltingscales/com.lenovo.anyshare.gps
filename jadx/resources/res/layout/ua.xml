@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@+id/d2i" android:background="@color/s3" android:layout_width="match_parent" android:layout_height="wrap_content" app:rect_radio="0.5236">
+        <ImageView android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.san.ads.MediaView android:id="@+id/bc_" android:background="@color/sh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aiu"/>
+    </com.ushareit.ads.ui.widget.RectFrameLayout>
+    <View android:background="#0d000000" android:layout_width="match_parent" android:layout_height="@dimen/bnd" android:layout_below="@+id/d2i"/>
+    <RelativeLayout android:id="@+id/bl3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnd" android:layout_below="@+id/d2i">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_marginBottom="@dimen/bno">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br9" android:singleLine="true" android:lineSpacingExtra="@dimen/bhn"/>
+            <include android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/v3"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

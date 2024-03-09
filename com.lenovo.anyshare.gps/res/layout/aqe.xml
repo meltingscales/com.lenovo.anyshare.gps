@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cya" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:id="@id/bwy" android:layout_width="@dimen/cyj" android:layout_height="@dimen/cyj" android:layout_marginTop="@dimen/ctn" android:layout_alignParentLeft="true" app:a_7="@dimen/cwu">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/c5_" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a75="0.66" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <TextView android:textSize="@dimen/cys" android:textColor="@color/auo" android:ellipsize="end" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginTop="@dimen/cyj" android:maxLines="1" android:layout_toRightOf="@id/bwy" />
+    <TextView android:textSize="@dimen/czf" android:textColor="@color/auo" android:id="@id/dfj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cun" android:layout_toRightOf="@id/bwy" android:layout_below="@id/dpx" android:layout_alignLeft="@id/dpx" />
+</RelativeLayout>

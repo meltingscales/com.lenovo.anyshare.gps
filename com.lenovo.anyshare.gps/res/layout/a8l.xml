@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/b_o" android:layout_width="@dimen/bn6" android:layout_height="@dimen/blf" android:layout_marginBottom="@dimen/bmm">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9">
+                <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/cye" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" android:indeterminate="false" android:indeterminateOnly="false" app:a6k="@color/a7j" app:a6n="@color/bj1" app:a6s="true" />
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/a4d" android:layout_gravity="center" android:id="@id/cyu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bp0" android:text="@string/bff" android:singleLine="true" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

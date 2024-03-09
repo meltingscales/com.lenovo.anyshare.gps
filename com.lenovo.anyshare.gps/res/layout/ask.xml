@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/c9d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/cau" android:paddingLeft="@dimen/cu2" android:paddingTop="@dimen/cuu" android:paddingRight="@dimen/cu2" android:paddingBottom="@dimen/cvc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/cyx" android:textStyle="bold" android:textColor="@color/auf" android:gravity="center" android:id="@id/dpx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/cyt" android:textColor="@color/auf" android:gravity="center" android:id="@id/ck2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cyj" android:lineSpacingExtra="@dimen/cyj" />
+        <ImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cum" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/aw3" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/axp" android:background="@drawable/c92" android:layout_width="fill_parent" android:layout_height="@dimen/cws" android:layout_marginLeft="@dimen/cvp" android:layout_marginTop="@dimen/cum" android:layout_marginRight="@dimen/cvp" android:minWidth="@dimen/cui" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/buk" android:textColor="@color/agg" android:ellipsize="end" android:gravity="center" android:id="@+id/dwd" android:paddingLeft="@dimen/bow" android:paddingRight="@dimen/bow" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="2" android:layout_centerInParent="true"/>
+    <com.lenovo.anyshare.content.reddot.TabRedDotView android:id="@+id/e2p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/dwd" android:layout_alignEnd="@+id/dwd"/>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/aq1" android:background="@drawable/c4t" android:layout_width="match_parent" android:layout_height="wrap_content" android:supportsRtl="true">
+    <com.ushareit.widget.RoundFrameLayout android:background="@drawable/c4p" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/blk">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blv">
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:gravity="start|center_vertical" android:id="@+id/e09" android:paddingLeft="@dimen/bm3" android:paddingRight="@dimen/bm3" android:layout_width="0dp" android:layout_height="@dimen/bn4" android:text="@string/bya" android:maxLines="1" android:layout_weight="1" android:paddingHorizontal="@dimen/bm3"/>
+                <LinearLayout android:layout_gravity="end|center_vertical" android:orientation="horizontal" android:id="@+id/ckx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/blk" android:layout_marginEnd="@dimen/blk">
+                    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="center" android:id="@+id/dwu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqv" android:text="@string/byd" android:layout_marginEnd="@dimen/bqv"/>
+                    <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:layout_marginTop="@dimen/bne" android:src="@drawable/c5j" app:night_color_tint="@color/ye"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/blk">
+                <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/b1x" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:radius="@dimen/brl" app:rect_radio="1.3">
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/c4d" android:scaleType="centerCrop"/>
+                    <TextView android:text="@string/byb" style="@style/agb"/>
+                    <TextView android:background="@drawable/c4q" android:text="@string/byf" style="@style/aga"/>
+                </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+                <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/b1y" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_weight="1" android:layout_marginHorizontal="@dimen/bqf" app:radius="@dimen/brl" app:rect_radio="1.3">
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/c4e" android:scaleType="centerCrop"/>
+                    <TextView android:text="@string/byc" style="@style/agb"/>
+                    <TextView android:background="@drawable/c4s" android:text="@string/byf" style="@style/aga"/>
+                </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+                <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/cuq" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:radius="@dimen/brl" app:rect_radio="1.3">
+                    <ImageView android:background="@drawable/c5g" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                    <TextView android:text="@string/bye" style="@style/agb"/>
+                    <TextView android:background="@drawable/c4r" android:text="@string/byf" style="@style/aga"/>
+                </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ushareit.widget.RoundFrameLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/d6x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginHorizontal="@dimen/bqf">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/d6v" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/blk">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center_horizontal" android:id="@+id/bb6" android:background="#edfdfe" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="15sp" android:textColor="#191919" android:id="@+id/d2f" android:paddingLeft="@dimen/blv" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/blk" android:paddingBottom="@dimen/bmf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ads_recommended_info" android:paddingStart="@dimen/blv" android:paddingEnd="@dimen/blk"/>
+        </LinearLayout>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+    <ViewStub android:layout_gravity="end" android:id="@+id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/bj1" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@+id/aue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" app:item_status="" app:item_title="@string/afn"/>
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@+id/auo" android:layout_width="match_parent" android:layout_height="wrap_content" app:item_status="@string/cty" app:item_title="@string/dpl"/>
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@+id/aui" android:layout_width="match_parent" android:layout_height="wrap_content" app:item_status="@string/cty" app:item_title="@string/bcd"/>
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@+id/aud" android:layout_width="match_parent" android:layout_height="wrap_content" app:item_status="@string/cty" app:item_title="@string/ad4"/>
+    <View android:id="@+id/c_x" android:background="@color/a16" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/bmf" android:layout_marginBottom="@dimen/bmf"/>
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@+id/aun" android:layout_width="match_parent" android:layout_height="wrap_content" app:item_status="@string/cty" app:item_tail_icon="@drawable/af8" app:item_title="@string/dey"/>
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@+id/auc" android:layout_width="match_parent" android:layout_height="wrap_content" app:item_status="" app:item_title="@string/ad0"/>
+    <com.ushareit.accountsetting.views.AccoutSettingButonBar android:id="@+id/aul" android:layout_width="match_parent" android:layout_height="wrap_content" app:item_title="@string/dey"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

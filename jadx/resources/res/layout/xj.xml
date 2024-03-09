@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dlj" android:background="@color/bi0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/c4i" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="#eaeaea" android:scaleType="fitCenter"/>
+    <include layout="@layout/wr"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/cyc" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp" style="@style/ag_"/>
+    <ProgressBar android:layout_gravity="bottom" android:id="@+id/cka" android:layout_width="match_parent" android:layout_height="2dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/akz" style="@android:style/Widget.ProgressBar.Horizontal"/>
+    <ImageView android:layout_gravity="top|right" android:id="@+id/bzg" android:clickable="true" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/blk" android:src="@drawable/akt"/>
+    <com.ushareit.ads.sharemob.views.VideoEndFrameView android:id="@+id/bng" android:background="@color/bi0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/xv"/>
+    <com.ushareit.ads.sharemob.views.VideoCoverView android:id="@+id/bc9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

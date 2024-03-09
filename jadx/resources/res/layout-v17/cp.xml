@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.listplayer.widget.RatioByWidthImageView android:id="@+id/aw" android:layout_width="match_parent" android:layout_height="match_parent" app:whRatio="1.7778"/>
+    <ViewStub android:id="@+id/af" android:layout="@layout/ao" android:inflatedId="@+id/he" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b7" android:layout_marginTop="@dimen/au" android:layout_marginStart="@dimen/b7"/>
+    <ViewStub android:id="@+id/il" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/gp" android:padding="@dimen/e4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/db" android:scaleType="fitCenter"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/ah" android:layout="@layout/y" android:inflatedId="@+id/ai" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <include layout="@layout/cf"/>
+</merge>

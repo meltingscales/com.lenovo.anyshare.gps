@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bow" android:paddingRight="@dimen/blk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bow" android:paddingEnd="@dimen/blk"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d8c" />
+    <RelativeLayout android:id="@id/aru" android:background="#4ee9e9e9" android:layout_width="fill_parent" android:layout_height="@dimen/bqq" android:layout_marginTop="@dimen/brt">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/ari" android:layout_width="@dimen/bpo" android:layout_height="@dimen/bpo" android:layout_marginLeft="@dimen/bl2" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bl2" app:a7_="@color/w4" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_toRightOf="@id/ari" android:layout_centerVertical="true" android:layout_marginStart="@dimen/brt" android:layout_toEndOf="@id/ari">
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:gravity="center_vertical" android:id="@id/arj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="@dimen/bst" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/arh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:lines="1" />
+        </LinearLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <com.ushareit.theme.night.view.NightButton android:id="@id/ark" android:layout_marginRight="@dimen/blk" android:text="@string/aed" android:layout_marginEnd="@dimen/blk" app:a79="@color/w4" style="@style/sm" />
+    </RelativeLayout>
+</LinearLayout>

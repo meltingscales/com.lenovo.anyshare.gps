@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bb6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bok" android:layout_marginBottom="@dimen/brt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/c1p" android:background="@drawable/dl6" android:layout_width="wrap_content" android:layout_height="@dimen/blw" android:layout_centerInParent="true" app:a75="@dimen/db2" />
+</RelativeLayout>

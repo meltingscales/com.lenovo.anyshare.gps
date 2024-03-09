@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cg9" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/b0z" />
+    <ScrollView android:background="@color/a3s" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ushareit.theme.night.view.NightFrameLayout android:id="@id/bkn" android:background="@drawable/cz7" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/a3s">
+                <LinearLayout style="@style/a7_">
+                    <TextView android:text="@string/d0u" style="@style/a7a" />
+                    <TextView android:text="@string/d0v" style="@style/a76" />
+                </LinearLayout>
+                <include android:id="@id/bko" layout="@layout/b2c" />
+            </com.ushareit.theme.night.view.NightFrameLayout>
+            <View android:layout_gravity="start|bottom|center" android:background="@color/b0j" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.ushareit.theme.night.view.NightFrameLayout android:id="@id/atj" android:background="@drawable/cz7" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/a3s">
+                <LinearLayout style="@style/a7_">
+                    <TextView android:text="@string/d0r" style="@style/a7a" />
+                    <TextView android:text="@string/d0s" style="@style/a76" />
+                </LinearLayout>
+                <include android:id="@id/atk" layout="@layout/b2c" />
+            </com.ushareit.theme.night.view.NightFrameLayout>
+            <View android:layout_gravity="start|bottom|center" android:background="@color/b0j" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.ushareit.theme.night.view.NightFrameLayout android:id="@id/dbf" android:background="@drawable/cz7" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/a3s">
+                <LinearLayout android:gravity="center_vertical" style="@style/a7_">
+                    <TextView android:text="@string/cvs" style="@style/a7a" />
+                    <TextView android:visibility="gone" style="@style/a76" />
+                </LinearLayout>
+            </com.ushareit.theme.night.view.NightFrameLayout>
+            <View android:layout_gravity="start|bottom|center" android:background="@color/b0j" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.ushareit.theme.night.view.NightFrameLayout android:id="@id/dbl" android:background="@drawable/cz7" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/a3s">
+                <LinearLayout android:gravity="center_vertical" style="@style/a7_">
+                    <TextView android:text="@string/cx9" style="@style/a7a" />
+                    <TextView android:id="@id/dbm" style="@style/a76" />
+                </LinearLayout>
+            </com.ushareit.theme.night.view.NightFrameLayout>
+            <View android:layout_gravity="start|bottom|center" android:background="@color/b0j" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

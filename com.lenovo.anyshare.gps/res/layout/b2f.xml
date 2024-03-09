@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="start|center" android:layout_width="fill_parent" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aq5" android:layout_width="@dimen/bli" android:layout_height="@dimen/bli" android:scaleType="centerCrop" android:layout_alignParentTop="true" style="@style/agr" />
+    <ImageView android:id="@id/b73" android:padding="@dimen/brl" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_alignParentTop="true" style="@style/ags" />
+    <TextView android:textAppearance="@style/sf" android:ellipsize="end" android:id="@id/dgg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bla" android:singleLine="true" android:layout_alignParentTop="true" style="@style/ana" />
+    <TextView android:textAppearance="@style/se" android:ellipsize="end" android:id="@id/atd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/dgg" style="@style/ana" />
+    <LinearLayout android:gravity="start|bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/atd" android:layout_alignParentBottom="true" style="@style/an_">
+        <ImageView android:id="@id/cw7" android:padding="@dimen/bqv" android:layout_width="0.0dip" android:layout_height="@dimen/bq7" android:layout_weight="1.0" />
+        <ImageView android:id="@id/cvm" android:padding="@dimen/bqv" android:layout_width="0.0dip" android:layout_height="@dimen/bq7" android:layout_weight="1.0" />
+        <ImageView android:id="@id/cw6" android:padding="@dimen/bqv" android:layout_width="0.0dip" android:layout_height="@dimen/bq7" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

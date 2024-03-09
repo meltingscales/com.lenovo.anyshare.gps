@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="jo" parent="@style/m0" />
+    <style name="jv" parent="@style/m1" />
+    <style name="a1l" parent="@style/a0o">
+        <item name="android:windowBackground">@color/tb</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dropDownListViewStyle">@style/qx</item>
+        <item name="android:listPopupWindowStyle">@style/qy</item>
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:isLightTheme">false</item>
+        <item name="yp">false</item>
+    </style>
+    <style name="a1m" parent="@style/a1l">
+        <item name="android:windowBackground">@color/bj1</item>
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:isLightTheme">true</item>
+    </style>
+    <style name="m0" parent="@style/lp">
+        <item name="iz">?android:actionModeShareDrawable</item>
+        <item name="tx">?android:editTextBackground</item>
+    </style>
+    <style name="m1" parent="@style/lr">
+        <item name="iz">?android:actionModeShareDrawable</item>
+        <item name="tx">?android:editTextBackground</item>
+    </style>
+</resources>

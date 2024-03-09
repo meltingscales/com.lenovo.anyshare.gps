@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="90dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/agm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/agn" android:layout_alignParentLeft="true">
+        <FrameLayout android:id="@+id/agj" style="@style/ge">
+            <ImageView android:id="@+id/agi" style="@style/ge"/>
+            <FrameLayout android:id="@+id/ago" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/aga" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+            <TextView android:id="@+id/agq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp" style="@style/gx"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp">
+                <TextView style="@style/gv"/>
+                <TextView android:id="@+id/agc" style="@style/gw"/>
+            </LinearLayout>
+            <TextView android:id="@+id/age" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/gw"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/agn" android:layout_width="180dp" android:layout_height="match_parent" android:layout_toLeftOf="@+id/agf"/>
+    <Button android:textSize="20sp" android:id="@+id/agf" android:background="@color/lm" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="128dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gr"/>
+</RelativeLayout>

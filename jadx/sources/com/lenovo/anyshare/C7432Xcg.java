@@ -1,0 +1,26 @@
+package com.lenovo.anyshare;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import com.ushareit.filemanager.main.local.base.BaseStatusLocalView;
+
+/* renamed from: com.lenovo.anyshare.Xcg  reason: case insensitive filesystem */
+/* loaded from: classes7.dex */
+public class C7432Xcg extends BroadcastReceiver {
+
+    /* renamed from: a  reason: collision with root package name */
+    public final /* synthetic */ BaseStatusLocalView f16791a;
+
+    public C7432Xcg(BaseStatusLocalView baseStatusLocalView) {
+        this.f16791a = baseStatusLocalView;
+    }
+
+    @Override // android.content.BroadcastReceiver
+    public void onReceive(Context context, Intent intent) {
+        String action = intent.getAction();
+        if (action.equals("android.intent.action.MEDIA_MOUNTED") || action.equals("android.intent.action.MEDIA_UNMOUNTED")) {
+            this.f16791a.b();
+        }
+    }
+}

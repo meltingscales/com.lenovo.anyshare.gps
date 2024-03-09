@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/cvi" android:background="@null" android:padding="@dimen/def" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d_j" android:layout_weight="0.0" android:contentDescription="@string/cn5" />
+    <EditText android:textSize="@dimen/der" android:textColor="@color/b2g" android:textColorHint="@color/b2f" android:id="@id/cvj" android:background="@null" android:paddingLeft="@dimen/deq" android:paddingRight="@dimen/deq" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/cn5" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="textNoSuggestions" />
+    <ImageButton android:id="@id/cv6" android:background="@null" android:padding="@dimen/def" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d_h" android:layout_weight="0.0" android:contentDescription="@string/cn2" />
+</LinearLayout>

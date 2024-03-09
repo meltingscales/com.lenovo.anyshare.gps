@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@+id/d71" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:background="@color/a4r" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/a0g"/>
+        <com.ushareit.widget.CommonContentPagesSwitchBar android:id="@+id/dm4" android:paddingTop="@dimen/bs3" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bqd" app:layout_constraintTop_toTopOf="0" app:viewPagerScrollWithAnimation="false"/>
+        <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@+id/e5b" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/blv" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bpo" app:layout_constraintBottom_toTopOf="@+id/dwu" app:layout_constraintTop_toBottomOf="@+id/dm4"/>
+        <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/a4d" android:gravity="center" android:layout_gravity="center" android:id="@+id/dwu" android:background="@drawable/bac" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bpo" android:text="@string/bmk" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@+id/e2r" android:background="@color/a4r" android:layout_width="match_parent" android:layout_height="2dp"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/auj" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.bst.speed.widget.ScanningView android:id="@+id/d96" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/cy7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ushareit.theme.night.view.NightLottieAnimationView android:id="@+id/cf8" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/cu5" android:layout_marginTop="@dimen/cyh" app:lottie_loop="true" app:night_alpha="@dimen/db2"/>
+        <TextView android:textSize="@dimen/cza" android:textColor="@color/axs" android:gravity="center" android:id="@+id/d94" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cww"/>
+        <TextView android:textSize="@dimen/cu2" android:textColor="@color/axs" android:gravity="center" android:id="@+id/cr7" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cvc" android:layout_marginBottom="@dimen/cx4" android:text="@string/c32"/>
+    </LinearLayout>
+</FrameLayout>

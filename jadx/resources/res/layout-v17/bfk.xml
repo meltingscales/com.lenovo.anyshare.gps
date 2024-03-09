@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/bkv" android:layout_height="@dimen/bq8">
+    <ImageView android:id="@+id/as0" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/bp0" android:layout_marginBottom="@dimen/bne" android:layout_marginStart="@dimen/bp0"/>
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/asa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:maxWidth="@dimen/bqp" android:lines="1" android:layout_toRightOf="@+id/as0" android:layout_marginStart="@dimen/bqf" android:layout_toEndOf="@+id/as0"/>
+    <TextView android:textSize="@dimen/bsv" android:textColor="#ff9b9b9b" android:ellipsize="end" android:id="@+id/ase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bp0" android:maxWidth="@dimen/bqp" android:lines="1" android:layout_toRightOf="@+id/as0" android:layout_below="@+id/asa" android:layout_alignLeft="@+id/asa" android:layout_marginEnd="@dimen/bp0" android:layout_toEndOf="@+id/as0" android:layout_alignStart="@+id/asa"/>
+    <View android:id="@+id/cgp" android:background="@color/bj1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.4"/>
+</RelativeLayout>

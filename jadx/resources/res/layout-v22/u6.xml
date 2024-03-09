@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/d6v" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginBottom="@dimen/bkq" android:layout_marginHorizontal="@dimen/bqf">
+    <com.ushareit.ads.ui.view.NativeNormalAdView android:layout_width="match_parent" android:layout_height="wrap_content" app:is_game="true" app:radius="@dimen/blk" app:rect_radio="0"/>
+</LinearLayout>

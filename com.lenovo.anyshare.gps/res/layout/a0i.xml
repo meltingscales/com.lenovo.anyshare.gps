@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:background="@drawable/aw8" android:paddingLeft="@dimen/brl" android:paddingRight="@dimen/brl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" app:a76="@color/afs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/br2" android:visibility="gone" layout="@layout/akn" />
+    <LinearLayout android:id="@id/as3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.ushareit.theme.night.view.NightLinearLayout>

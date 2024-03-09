@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.sharemob.landing.widget.AnimatedDoorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/d6z" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/d77" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/d78" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+        <com.ushareit.ads.sharemob.landing.widget.ObservableScrollView android:id="@+id/dlk" android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/b9k" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.ushareit.ads.sharemob.landing.widget.ObservableScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@+id/brt" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include android:id="@+id/c97" android:visibility="gone" layout="@layout/xc"/>
+        <include layout="@layout/xy"/>
+        <include layout="@layout/xz"/>
+    </FrameLayout>
+</com.ushareit.ads.sharemob.landing.widget.AnimatedDoorLayout>

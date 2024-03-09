@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/be3" android:layout_width="fill_parent" android:layout_height="@dimen/brp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightFrameLayout android:id="@id/bc_" android:layout_width="@dimen/bkw" android:layout_height="@dimen/br5" android:layout_marginLeft="@dimen/bmm" app:a0o="csi" app:a17="csi" app:a1c="csi" app:a1g="csi" app:a75="@dimen/db2">
+        <View android:layout_gravity="center_horizontal" android:background="@drawable/bjw" android:layout_width="@dimen/bl4" android:layout_height="@dimen/br9" />
+        <com.ushareit.filemanager.view.RoundImageView android:layout_gravity="bottom" android:id="@id/bzd" android:layout_width="fill_parent" android:layout_height="@dimen/bqx" android:src="@drawable/brn" app:a75="@dimen/db2" app:a_d="@dimen/brt" />
+    </com.ushareit.theme.night.view.NightFrameLayout>
+    <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/tj" android:ellipsize="end" android:id="@id/dxw" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/blv" android:singleLine="true" app:a0v="@id/bzc" app:a18="@id/bc_" app:a1b="@id/bc_" app:a1g="@id/bc_" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@id/dxx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brl" app:a1c="@id/dxw" app:a1f="@id/dxw" />
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/bzc" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginRight="@dimen/bmm" android:src="@drawable/bns" android:scaleType="center" app:a0o="csi" app:a0u="csi" app:a1g="csi" app:a7_="@color/w4" />
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/b25" android:visibility="gone" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:layout_marginRight="@dimen/bmm" android:src="@drawable/bd0" app:a0o="csi" app:a0u="csi" app:a1a="csi" app:a1g="csi" app:a75="@dimen/db2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

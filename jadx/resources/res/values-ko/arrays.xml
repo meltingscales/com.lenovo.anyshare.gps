@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>포르노 음란물</item>
+        <item>범죄</item>
+        <item>정치적으로 민감한 내용</item>
+        <item>불법 마케팅</item>
+        <item>허위 정보</item>
+        <item>침해</item>
+    </array>
+    <array name="c">
+        <item>불편한 콘텐츠</item>
+        <item>포르노</item>
+        <item>폭력적인 콘텐츠</item>
+        <item>유해하거나 위험한 콘텐츠</item>
+        <item>타이틀/커버가 콘텐츠와 일치하지 않음</item>
+    </array>
+</resources>

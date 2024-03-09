@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_gravity="end|bottom|center" android:id="@id/cdf" android:background="@color/b2v" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/cdp" android:paddingTop="@dimen/dew" android:paddingBottom="@dimen/dft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/cdr" android:paddingLeft="@dimen/dgn" android:paddingRight="@dimen/dgn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df8" android:layout_marginTop="@dimen/dfj" android:layout_marginRight="@dimen/df8">
+                    <ImageView android:layout_width="@dimen/dfr" android:layout_height="@dimen/dfr" android:src="@drawable/d86" />
+                    <SeekBar android:id="@id/cds" android:paddingLeft="@dimen/df1" android:paddingTop="@dimen/dgh" android:paddingRight="@dimen/df1" android:paddingBottom="@dimen/dgh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dfy" android:progressDrawable="@drawable/d7n" android:thumb="@drawable/d6l" style="@style/a99" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df8" android:layout_marginTop="@dimen/dfr" android:layout_marginRight="@dimen/df8">
+                    <ImageView android:layout_width="@dimen/dfr" android:layout_height="@dimen/dfr" android:src="@drawable/d6w" />
+                    <SeekBar android:id="@id/cdm" android:paddingLeft="@dimen/df1" android:paddingTop="@dimen/dgh" android:paddingRight="@dimen/df1" android:paddingBottom="@dimen/dgh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dfy" android:progressDrawable="@drawable/d7n" android:thumb="@drawable/d6l" style="@style/a99" />
+                </LinearLayout>
+                <com.ushareit.siplayer.local.view.LocalSettingView android:id="@id/cdn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df8" android:layout_marginTop="@dimen/dfj" android:layout_marginRight="@dimen/df8" />
+                <com.ushareit.siplayer.local.view.LocalSettingView android:id="@id/cdl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df8" android:layout_marginTop="@dimen/dfb" android:layout_marginRight="@dimen/df8" />
+                <com.ushareit.siplayer.local.view.LocalSettingView android:id="@id/cdq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df8" android:layout_marginTop="@dimen/dfb" android:layout_marginRight="@dimen/df8" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <ViewStub android:id="@id/cdo" android:layout="@layout/akv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </ScrollView>
+</FrameLayout>

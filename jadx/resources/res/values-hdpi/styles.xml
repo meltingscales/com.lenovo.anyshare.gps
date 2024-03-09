@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="n6" parent="@style/n7">
+        <item name="l9">18.66dp</item>
+        <item name="ti">24dp</item>
+        <item name="wy">3.33dp</item>
+    </style>
+</resources>

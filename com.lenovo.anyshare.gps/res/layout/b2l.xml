@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/da5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/bmn" android:layout_height="@dimen/bmn" android:layout_marginTop="@dimen/bqj" android:src="@drawable/czr" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/asg" android:padding="@dimen/bnd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/ast" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/d06" android:scaleType="fitXY" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bs3" android:src="@drawable/d07" style="@style/aj8" />
+    <ProgressBar android:id="@id/ass" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/bp0" android:layout_marginLeft="@dimen/bmf" android:layout_marginRight="@dimen/bmf" android:progressDrawable="@drawable/d01" android:layout_above="@id/asm" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/asm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/blv" android:layout_marginRight="@dimen/bks" android:text="@string/aff" android:singleLine="true" android:layout_above="@id/cwq" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/a77" android:ellipsize="end" android:id="@id/aso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/blv" android:layout_marginRight="@dimen/bmf" android:singleLine="true" android:layout_above="@id/cwq" style="@style/ags" />
+    <LinearLayout android:id="@id/cwq" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqv" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/asi" android:src="@drawable/czw" android:layout_weight="1.0" style="@style/hy" />
+        <ImageView android:id="@id/ask" android:src="@drawable/czz" android:layout_weight="1.0" style="@style/hy" />
+        <ImageView android:id="@id/asq" android:src="@drawable/czy" android:layout_weight="1.0" style="@style/hy" />
+        <ImageView android:id="@id/asp" android:src="@drawable/d00" android:layout_weight="1.0" style="@style/hy" />
+        <ImageView android:id="@id/asr" android:src="@drawable/d02" android:layout_weight="1.0" style="@style/anw" />
+    </LinearLayout>
+</RelativeLayout>

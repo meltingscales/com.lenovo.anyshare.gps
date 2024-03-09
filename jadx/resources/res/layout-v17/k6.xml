@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/l9" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="@dimen/ars" android:layout_height="@dimen/aqm">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/a4j" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_centerVertical="true"/>
+            <TextView android:textColor="@color/kl" android:id="@+id/a4k" android:shadowColor="@color/jv" style="@style/fa"/>
+            <TextView android:textColor="@color/k8" android:id="@+id/a4l" android:shadowColor="@color/j1" style="@style/fa"/>
+            <TextView android:textColor="@color/kl" android:id="@+id/a4m" android:shadowColor="@color/jo" style="@style/fa"/>
+            <TextView android:textColor="@color/kl" android:id="@+id/a4n" android:shadowColor="@color/it" style="@style/fa"/>
+            <TextView android:textColor="@color/kl" android:id="@+id/a4o" android:shadowColor="@color/jz" style="@style/fa"/>
+        </FrameLayout>
+        <ImageView android:orientation="vertical" android:id="@+id/a5b" android:background="@drawable/y_" android:layout_width="@dimen/aon" android:layout_height="@dimen/aon" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/a4v" android:layout_width="wrap_content" android:layout_height="@dimen/and" android:src="@drawable/vl" android:scaleType="fitEnd" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/am3" android:layout_marginRight="@dimen/amy" android:layout_marginStart="@dimen/am3" android:layout_marginEnd="@dimen/amy">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:ellipsize="end" android:id="@+id/a50" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/f4"/>
+            <TextView android:textSize="@dimen/asp" android:textColor="@color/j2" android:id="@+id/a4h" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/f3"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a4w" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aq3" android:layout_marginBottom="@dimen/aq3">
+                <ImageView android:layout_width="@dimen/amf" android:layout_height="@dimen/amf" android:src="@drawable/u4"/>
+                <TextView android:textSize="@dimen/aso" android:textStyle="bold" android:textColor="@color/wh" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aq3" android:layout_marginRight="@dimen/aq3" android:text="@string/wi" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/a6m" android:visibility="gone" android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:src="@drawable/y3"/>
+        <ProgressBar android:id="@+id/a6n" android:visibility="gone" android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:indeterminateDrawable="@drawable/y4" style="?android:attr/progressBarStyleSmall"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/daq" android:layout_width="fill_parent" android:layout_height="@dimen/br8" android:layout_marginTop="@dimen/bqf" android:layout_marginBottom="@dimen/bqf"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/arp" android:layout_width="@dimen/bks" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/blk" android:layout_centerVertical="true" android:layout_marginStart="@dimen/blk" layout="@layout/bfk" />
+    <ImageView android:id="@id/arw" android:background="@drawable/da_" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bq1" android:layout_marginRight="@dimen/bq1" android:layout_toRightOf="@id/arp" android:layout_centerVertical="true" android:layout_toEndOf="@id/arp" />
+    <include android:id="@id/arq" android:layout_width="@dimen/bks" android:layout_height="@dimen/bq4" android:layout_toRightOf="@id/arw" android:layout_centerVertical="true" android:layout_toEndOf="@id/arw" layout="@layout/bfk" />
+    <ImageView android:id="@id/b20" android:background="@drawable/as5" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4" android:layout_marginLeft="@dimen/boe" android:layout_toRightOf="@id/arq" android:layout_centerVertical="true" android:layout_marginStart="@dimen/boe" android:layout_toEndOf="@id/arq" />
+</RelativeLayout>

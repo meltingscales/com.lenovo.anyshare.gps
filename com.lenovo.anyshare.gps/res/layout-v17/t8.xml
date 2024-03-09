@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d77" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/bsx" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dvd" android:layout_width="fill_parent" android:layout_height="@dimen/bqd" android:maxLines="1" android:paddingStart="@dimen/bnj" android:paddingEnd="@dimen/bnj" />
+    <com.filepreview.txt.main.TxtReaderView android:id="@id/ao7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bn4" android:layout_marginRight="@dimen/bn4" android:layout_above="@id/c9l" android:layout_below="@id/dvd" />
+    <FrameLayout android:id="@id/c9l" android:layout_width="fill_parent" android:layout_height="@dimen/bqd" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/bsw" android:layout_gravity="center_vertical" android:id="@id/dy5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginStart="@dimen/bnj" />
+    </FrameLayout>
+    <include android:id="@id/c9p" android:layout_width="fill_parent" android:layout_height="@dimen/bqd" android:layout_alignTop="@id/dvd" layout="@layout/akf" />
+    <include android:id="@id/c8y" android:layout_width="fill_parent" android:layout_height="@dimen/bqd" android:layout_alignParentBottom="true" layout="@layout/akc" />
+    <include android:id="@id/c91" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bqx" android:layout_above="@id/c8y" layout="@layout/akd" />
+    <include android:id="@id/c_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/c8y" layout="@layout/aki" />
+    <include android:id="@id/auv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/akg" />
+</RelativeLayout>

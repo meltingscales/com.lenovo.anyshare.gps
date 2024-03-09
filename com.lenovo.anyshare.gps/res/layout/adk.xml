@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/bqv"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:id="@id/b9p" android:layout_width="@dimen/brw" android:layout_height="@dimen/brw" app:a_7="@dimen/brt">
+        <ImageView android:id="@id/c1p" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/c2q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:maxWidth="@dimen/brw" android:maxLines="2" />
+</LinearLayout>

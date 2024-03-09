@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="e">
+        <item>May Allah bless you in this holy month of Ramadan</item>
+        <item>I wish you a peaceful and happy Ramadan</item>
+        <item>I wish you health and prosperity in this Ramadan</item>
+        <item>Wishing you a joyful and glorious holy month</item>
+        <item>Wishing you a blessed Ramadan</item>
+        <item>May this holy month bring an abundance of blessings</item>
+        <item>May Ramadan bring you ever closer to Jannah</item>
+        <item>Keeping you in our prayers during Ramadan</item>
+        <item>Sending your family love and light this Ramadan</item>
+        <item>May Allah be with you throughout your fast.</item>
+        <item>May Allah bless you during the Holy Month.</item>
+        <item>Allah bless and protect your family during Ramadan</item>
+        <item>May Allah be generous to you this Ramadan</item>
+        <item>Wishing you a holy month of enlightenment and joy.</item>
+        <item>Let Allah fill your life this holy month</item>
+        <item>Wishing you goodness this Ramadan.</item>
+        <item>May your fast bring you inner peace and inherent joy.</item>
+    </array>
+    <array name="cp">
+        <item>闪电发货</item>
+        <item>品质精选</item>
+        <item>百亿补贴</item>
+        <item>低至2折</item>
+    </array>
+    <array name="a">
+        <item>色情低俗</item>
+        <item>违法犯罪</item>
+        <item>政治敏感</item>
+        <item>违规营销</item>
+        <item>不实信息</item>
+        <item>侵权作品</item>
+    </array>
+    <array name="c">
+        <item>令人不适内容</item>
+        <item>色情内容</item>
+        <item>暴力内容</item>
+        <item>有害和危险内容</item>
+        <item>标题/封面与内容不符</item>
+    </array>
+</resources>

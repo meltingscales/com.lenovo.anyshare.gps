@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bv4" android:background="@drawable/aso" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bra">
+    <ImageView android:id="@+id/ats" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:layout_marginLeft="@dimen/bmm" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm"/>
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:text="@string/bes" android:layout_toRightOf="@+id/ats" android:layout_centerVertical="true" android:layout_marginStart="@dimen/blk" android:layout_toEndOf="@+id/ats"/>
+    <View android:id="@+id/cl8" android:background="@drawable/c1f" android:visibility="gone" android:layout_width="@dimen/bl2" android:layout_height="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_toLeftOf="@+id/asz" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/bl2" android:layout_toStartOf="@+id/asz"/>
+    <ImageView android:id="@+id/asz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bl2" android:src="@drawable/ata" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/bl2" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

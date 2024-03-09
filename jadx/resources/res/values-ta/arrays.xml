@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>ஆபாசப் படங்கள்</item>
+        <item>குற்றம்</item>
+        <item>அரசியல்ரீதியாக உணர்ச்சியூட்டக்கூடியது</item>
+        <item>சட்டவிரோத சந்தைப்படுத்தல்</item>
+        <item>தவறான தகவல்</item>
+        <item>விதிமீறல்</item>
+    </array>
+    <array name="c">
+        <item>விரும்பத்தகாத உள்ளடக்கம்</item>
+        <item>போர்னோகிராஃபி</item>
+        <item>வன்முறையான உள்ளடக்கம்</item>
+        <item>தீங்கிழைக்கக்கூடிய அபாயமான உள்ளடக்கம்</item>
+        <item>தலைப்பு/அட்டை உள்ளடக்கத்துடன் பொருந்தவில்லை</item>
+    </array>
+</resources>

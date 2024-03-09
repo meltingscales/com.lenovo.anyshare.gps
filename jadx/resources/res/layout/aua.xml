@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:background="@color/a2b" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <com.ushareit.cleanit.analyze.widget.CleanFileWithSizeHeaderView android:id="@+id/drg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" app:layout_scrollFlags="0x1"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.ushareit.cleanit.analyze.content.photocleanup.PhotoCleanupFeedView android:id="@+id/cu2" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/afm"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/bi0" android:layout="@layout/atk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx4"/>
+    <ViewStub android:id="@+id/auv" android:layout="@layout/at6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

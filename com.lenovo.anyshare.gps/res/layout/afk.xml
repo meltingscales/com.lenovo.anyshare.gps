@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/bqf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c7l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="center" android:id="@id/c6k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bhs" />
+    <TextView android:textSize="@dimen/btg" android:textColor="@color/aek" android:layout_gravity="bottom" android:id="@id/e0w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bq1" />
+</com.ushareit.widget.RoundFrameLayout>

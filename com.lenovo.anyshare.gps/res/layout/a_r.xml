@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/d6t" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bla" />
+    <ViewStub android:layout_gravity="center" android:id="@id/bi0" android:layout="@layout/abl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

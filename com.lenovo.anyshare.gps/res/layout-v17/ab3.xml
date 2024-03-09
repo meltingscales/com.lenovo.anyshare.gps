@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bra" android:paddingLeft="@dimen/bl2" android:paddingTop="@dimen/bnj" android:paddingRight="@dimen/bl2" android:paddingBottom="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginRight="@dimen/brl" android:paddingStart="@dimen/bl2" android:paddingEnd="@dimen/bl2" android:layout_marginStart="@dimen/brl" android:layout_marginEnd="@dimen/brl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/bn2" layout="@layout/ad5" />
+    <include android:id="@id/d_n" android:visibility="gone" layout="@layout/ad5" />
+</LinearLayout>

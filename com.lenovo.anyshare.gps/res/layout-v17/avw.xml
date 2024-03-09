@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/cfb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:layout_width="@dimen/bl4" android:layout_height="@dimen/br6" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:layout_marginStart="@dimen/bm3" app:a_7="@dimen/bqf">
+        <ImageView android:id="@id/e39" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/bo3" android:src="@drawable/cfl" />
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/ty" android:layout_gravity="end|bottom|center" android:id="@id/e35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bqf" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/blk" android:layout_weight="1.0" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/blk">
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/e3i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br9" android:maxLines="1" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="start" android:id="@id/e3n" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/avo" />
+</LinearLayout>

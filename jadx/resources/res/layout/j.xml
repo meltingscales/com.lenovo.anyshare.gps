@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/fz" style="@style/q3">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@+id/fo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/et" android:layout_marginRight="@dimen/et"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:id="@id/bx9" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_centerVertical="true" app:a_7="@dimen/bs3">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/c1p" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" app:a75="@dimen/db2" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginRight="@dimen/bl2" android:layout_toLeftOf="@id/cr3" android:layout_toRightOf="@id/bx9" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/c26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:id="@id/c1i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" />
+    </LinearLayout>
+    <TextView android:id="@id/cr3" android:layout_width="wrap_content" android:layout_height="@dimen/bp7" android:maxWidth="@dimen/bl4" android:minWidth="@dimen/bru" android:singleLine="true" android:layout_alignParentRight="true" style="@style/sn" />
+    <ImageView android:id="@id/b25" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

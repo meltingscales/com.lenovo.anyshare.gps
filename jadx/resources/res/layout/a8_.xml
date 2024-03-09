@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <LinearLayout style="@style/q1">
+        <TextView android:id="@+id/bkg" android:text="@string/bw3" style="@style/q7"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp7" style="@style/pq">
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/a6v" android:id="@+id/cyu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/aib"/>
+            <ProgressBar android:id="@+id/bkf" android:layout_width="match_parent" android:layout_height="@dimen/bq1" android:layout_marginTop="@dimen/bl2" android:max="100" android:progress="0" android:progressDrawable="@drawable/b95" android:layout_toLeftOf="@+id/cyu" android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Horizontal"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/a76" android:gravity="end" android:id="@+id/bkd" android:paddingLeft="@dimen/boe" android:paddingRight="@dimen/boe" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bpe" android:layout_marginBottom="@dimen/bo8" android:text="@string/ar6"/>
+    </LinearLayout>
+</LinearLayout>

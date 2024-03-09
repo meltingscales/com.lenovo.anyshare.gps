@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/bw4" android:paddingRight="@dimen/bw4" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/bw5" android:paddingHorizontal="@dimen/bw4">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/btn" android:textColor="@color/xu" android:id="@+id/title" android:paddingLeft="@dimen/br9" android:paddingTop="@dimen/bqf" android:paddingRight="@dimen/br9" android:paddingBottom="@dimen/bqf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="true" android:paddingHorizontal="@dimen/br9" android:paddingVertical="@dimen/bqf"/>
+        <com.lenovo.anyshare.content.TitleBarRedDotView android:layout_gravity="end|top" android:id="@+id/d2w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</FrameLayout>

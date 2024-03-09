@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.qrcode.QRScanView android:layout_gravity="center" android:id="@id/d05" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/ay0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/d35" android:background="#ff000000" android:paddingLeft="@dimen/bpz" android:paddingTop="@dimen/bks" android:paddingRight="@dimen/bpz" android:paddingBottom="@dimen/bn6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dha" app:a75="@dimen/db2" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:layout_marginBottom="@dimen/bpj" android:text="@string/d4_" app:a7i="@color/w4" />
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/a5g" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/d36" android:background="@drawable/aro" android:paddingLeft="@dimen/brp" android:paddingRight="@dimen/brp" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" android:text="@string/d48" android:lines="1" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/d43" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqx">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/d3z" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" android:src="@drawable/dhe" android:layout_centerHorizontal="true" app:a76="@color/w4" />
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/w4" android:id="@id/d40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bs3" android:text="@string/asl" android:layout_below="@id/d3z" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include android:id="@id/dq2" layout="@layout/b_t" />
+</FrameLayout>

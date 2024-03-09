@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/b1j" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bkr" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <TextView android:textSize="@dimen/bt3" android:textColor="@color/a7_" android:gravity="center" android:layout_gravity="center" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bpe" android:layout_marginBottom="@dimen/bno" android:text="@string/ctk" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ushareit.musicplayer.scan.ScanView android:id="@id/d92" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/bt_" android:textColor="@color/b1p" android:gravity="center" android:id="@id/d8u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/b1p" android:gravity="center" android:id="@id/cmv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmf" android:text="@string/cte" android:layout_below="@id/d8u" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/bt3" android:textColor="@color/a7_" android:gravity="center" android:layout_gravity="center|top" android:id="@id/d8w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bpv" />
+    <TextView android:textSize="@dimen/bsy" android:textColor="@color/b1o" android:ellipsize="middle" android:gravity="center" android:layout_gravity="center|top" android:id="@id/d8o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bnj" android:singleLine="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="@dimen/bsx" android:textColor="@color/b1p" android:gravity="center" android:id="@id/d8m" android:background="@drawable/cz3" android:paddingLeft="@dimen/bqd" android:paddingRight="@dimen/bqd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ctc" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

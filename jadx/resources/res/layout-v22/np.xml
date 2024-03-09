@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendarview="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/u6" android:paddingTop="@dimen/am3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj" android:layout_marginHorizontal="@dimen/aqj">
+    <include layout="@layout/nr"/>
+    <com.ushareit.muslim.prayerrecorder.widget.SingleLineDateView android:id="@+id/aee" android:layout_width="match_parent" android:layout_height="@dimen/aqh" calendarview:choose_type="0" calendarview:show_holiday="false" calendarview:show_last_next="false" calendarview:show_lunar="false" calendarview:show_term="true" calendarview:switch_choose="false"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/a00" android:paddingLeft="@dimen/am3" android:paddingTop="@dimen/arr" android:paddingRight="@dimen/am3" android:paddingBottom="@dimen/am3" android:layout_width="wrap_content" android:layout_height="@dimen/apo" android:src="@drawable/a26" android:adjustViewBounds="true" android:paddingHorizontal="@dimen/am3"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="n2">तपाईँले आफ्नो पुरस्कार गुमाउनुहुनेछ।</string>
+    <string name="n3">पुनः निरन्तरता दिनुहोस्</string>
+    <string name="n4">छोड्नुहोस्</string>
+    <string name="n5">भिडियो छोड्ने?</string>
+    <string name="a97">मुख्य भाग</string>
+    <string name="a98">शीर्षक</string>
+    <string name="a99">मिडिया दृश्य</string>
+    <string name="a9_">अनुमति दिनुहोस्</string>
+    <string name="a9a">अनुमति नदिनुहोस्</string>
+    <string name="a9b">यो एपलाई तपाईंलाई सूचनाहरू पठाउने अनुमति दिने हो?</string>
+    <string name="a9c">विज्ञापन खोल्न ट्याप गर्नुहोस्</string>
+    <string name="a9d">आफूले अफलाइन हुँदा सुरक्षित गरेको विज्ञापन हेर्नुहोस्</string>
+    <string name="a9e">ठिक छ</string>
+    <string name="a9f">तपाईं फेरि अनलाइन हुँदा यो लिंकसहित एउटा सूचना प्राप्त गर्नु हुने छ</string>
+    <string name="a9g">पर्दैन, धन्यवाद</string>
+    <string name="a9h">हामी तपाईंलाई विज्ञापनदाताको साइटको लिंकसहित एउटा सूचना पठाउने छौँ।</string>
+    <string name="a9i">फेरि अनलाइन हुँदा विज्ञापन खोल्नुहोस्।</string>
+    <string name="a9j">छविलाई सेभ गर्नुहोस्</string>
+    <string name="a9k">विज्ञापनलाई तस्बिरको ग्यालरीमा छवि भण्डारण गर्न अनुमति दिने हो?</string>
+    <string name="a9l">स्वीकार गर्नुहोस्</string>
+    <string name="a9m">अस्वीकार गर्नुहोस्</string>
+    <string name="a9n">पात्रोमा कार्यक्रम सिर्जना गर्नुहोस्</string>
+    <string name="a9o">विज्ञापनलाई पात्रोमा कार्यक्रम सिर्जना गर्न अनुमति दिने हो?</string>
+    <string name="a9p">परीक्षण विज्ञापन</string>
+    <string name="a9q">AdMob -</string>
+</resources>

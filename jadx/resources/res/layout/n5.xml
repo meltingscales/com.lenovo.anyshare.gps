@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/ao5" android:paddingRight="@dimen/ao5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="start|center_vertical" android:orientation="horizontal" android:id="@+id/a_7" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/aqm">
+        <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:gravity="start|center_vertical" android:id="@+id/zr" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/vm" android:layout_width="@dimen/and" android:layout_height="@dimen/and" android:src="@drawable/u4"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/zf" android:paddingTop="-10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/apb">
+        <ProgressBar android:id="@+id/a5p" android:visibility="gone" android:layout_width="0dp" android:layout_height="@dimen/ap6" android:max="100" android:progress="1" android:progressDrawable="@drawable/a06" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textSize="@dimen/asq" android:textColor="#fb5151" android:id="@+id/yx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqw" android:layout_marginRight="@dimen/aqw" android:text="failed"/>
+        <TextView android:textSize="@dimen/asq" android:textColor="@color/ij" android:id="@+id/zo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqw" android:layout_marginRight="@dimen/aqw" android:text="1"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/yi" android:padding="@dimen/arr" android:visibility="gone" android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:src="@drawable/dqp"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/zh" android:padding="@dimen/ar7" android:visibility="gone" android:layout_width="@dimen/apb" android:layout_height="@dimen/apb" android:src="@drawable/a4v"/>
+    </LinearLayout>
+    <View android:id="@+id/a2k" android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="@dimen/ao0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toBottomOf="@+id/a_7"/>
+</LinearLayout>

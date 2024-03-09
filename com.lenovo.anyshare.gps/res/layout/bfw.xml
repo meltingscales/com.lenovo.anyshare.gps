@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/bb6" android:background="@drawable/alf" style="@style/ps">
+        <include android:id="@id/drr" layout="@layout/bfx" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/dqt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/bfv" />
+            <ScrollView android:id="@id/d9e" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/bl2" android:paddingBottom="@dimen/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/bsx" android:textColor="@color/xu" android:layout_gravity="start" android:id="@id/d32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bre" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bo8" android:lineSpacingExtra="@dimen/brl" />
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:id="@id/b1z" android:layout_height="@dimen/bnj" android:layout_marginLeft="@dimen/bpe" android:layout_marginTop="@dimen/blv" android:layout_marginRight="@dimen/bpe" android:layout_marginBottom="0.0dip" style="@style/po">
+                <ImageView android:id="@id/b26" style="@style/pp" />
+                <TextView android:textSize="@dimen/bsv" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/b2a" android:text="@string/ats" style="@style/pn" />
+            </LinearLayout>
+            <TextView android:ellipsize="end" android:id="@id/d0j" android:paddingLeft="@dimen/bmf" android:paddingRight="@dimen/bmf" android:layout_marginTop="@dimen/bnj" android:layout_marginBottom="@dimen/bo8" android:text="@string/at6" android:singleLine="true" style="@style/pz" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

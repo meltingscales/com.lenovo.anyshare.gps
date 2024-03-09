@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.theme.night.view.NightFrameLayout android:id="@+id/bno" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ushareit.theme.night.view.NightRelativeLayout android:layout_gravity="bottom" android:id="@+id/cbd" android:background="@drawable/cc6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/d4b">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ayr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.ushareit.theme.night.view.NightImageView android:duplicateParentState="true" android:layout_width="@dimen/d0h" android:layout_height="@dimen/d0h" android:src="@drawable/cea" app:night_color_tint="@color/auf"/>
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/cyr" android:textColor="@color/awb" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/arg"/>
+        </LinearLayout>
+    </com.ushareit.theme.night.view.NightRelativeLayout>
+    <ViewStub android:id="@+id/auv" android:layout="@layout/at6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

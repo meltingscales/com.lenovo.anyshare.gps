@@ -1,0 +1,11 @@
+package com.lenovo.anyshare;
+
+/* renamed from: com.lenovo.anyshare.Rbi  reason: case insensitive filesystem */
+/* loaded from: classes8.dex */
+public interface InterfaceC5702Rbi {
+    void a();
+
+    void onError(String str);
+
+    void onStart();
+}

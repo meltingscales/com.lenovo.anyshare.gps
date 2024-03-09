@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>__APPNAME__</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style>
+body {
+	font: 100%/1.0 'Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+}
+
+article {
+	width:100%;
+	max-width:720px;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 20%;
+	text-align: center;
+	margin-bottom:20%;
+}
+.title{margin-top: 4%;font-size:1.7em;color:#191919;text-align:center;}
+.info{margin-top: 18%;font-size:1.0em;color:#191919;line-height:1.3em;}
+.download {text-align: center;}
+.download a{font-size:1.8em;padding:0.2em; text-align:center;color:#ffffff;margin: 0 auto;width:56%;background-color:#2999f9;border-radius:8px; text-decoration:none;display:block;line-height:1.8em;}
+
+@media only screen and (min-width: 1080px) {
+article {
+	width:100%;
+	max-width:720px;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 5%;
+	text-align: center;
+	margin-bottom:20%;
+}
+}
+	</style>
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="favicon.png">
+  </head>
+
+<body>
+  <header>
+  </header>
+
+  <article>
+  <img src="favicon.png" width="28%">
+    <p class="title">__APPNAME__</p>
+    <p class="info">__INTRODUCTION1__<br>__INTRODUCTION2__</p>
+    <div class="download">
+      <a href="/apps/__PACKAGENAME__.apk">__DOWNLOAD_TEXT__</a>
+    </div>
+  </article>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ho" android:textColor="@color/cb" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/gv" android:paddingRight="@dimen/gf" android:layout_width="wrap_content" android:layout_height="@dimen/et" android:maxLines="1" android:layout_toRightOf="@+id/by" android:layout_centerVertical="true"/>
+    <FrameLayout android:layout_gravity="start|center_vertical" android:id="@+id/by" android:paddingLeft="@dimen/b7" android:paddingRight="@dimen/gf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/hw" android:layout_width="@dimen/eb" android:layout_height="@dimen/eb" android:scaleType="centerCrop"/>
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/au" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/dy" android:padding="@dimen/fi" android:paddingLeft="@dimen/eq" android:paddingRight="@dimen/b7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/f1" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@dimen/ho" android:textColor="@color/bh" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/dw" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dk" android:maxLines="1" android:layout_toLeftOf="@+id/dy" android:layout_centerVertical="true"/>
+    <com.ushareit.listplayer.widget.PraiseImageView android:layout_gravity="center_vertical" android:id="@+id/dx" android:paddingLeft="@dimen/dy" android:paddingTop="@dimen/fi" android:paddingRight="@dimen/dy" android:paddingBottom="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/dw" android:layout_centerVertical="true" app:normal_src="@drawable/c2" app:select_src="@drawable/c3"/>
+</merge>

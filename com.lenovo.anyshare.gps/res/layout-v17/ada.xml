@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/bl2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/c63" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/bap" android:scaleType="centerCrop" app:a0p="@id/c61" app:a1g="csi" />
+        <View android:background="@drawable/bld" android:layout_width="fill_parent" android:layout_height="@dimen/blc" app:a1g="csi" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:id="@id/e0z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bnb" android:layout_marginStart="@dimen/bnj" app:a1c="csi" app:a1g="csi" />
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:id="@id/e0y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bqv" android:layout_marginStart="@dimen/bnj" app:a1c="csi" app:a1f="@id/e0z" />
+        <TextView android:textSize="@dimen/bt6" android:textStyle="bold" android:textColor="@color/bj1" android:id="@id/dwt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bnj" android:layout_marginEnd="@dimen/bnj" app:a0u="csi" app:a1g="csi" />
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/c61" android:background="@color/bj1" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="@dimen/brm" android:text="@string/bmj" android:maxLines="3" android:paddingStart="@dimen/bnj" android:paddingEnd="@dimen/bnj" app:a0o="csi" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

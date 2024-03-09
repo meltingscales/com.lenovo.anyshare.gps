@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ck1" android:paddingLeft="@dimen/blk" android:paddingRight="@dimen/blk" android:layout_width="fill_parent" android:layout_height="60.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c5_" android:layout_width="@dimen/bq0" android:layout_height="@dimen/bq0" android:src="@drawable/dp4" />
+    <LinearLayout android:gravity="start" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="The current background transfer speed is unstable, go to setting" android:maxLines="3" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/bsu" android:textColor="@color/a4d" android:ellipsize="end" android:gravity="center" android:id="@id/dvo" android:background="@drawable/aro" android:paddingLeft="@dimen/brl" android:paddingRight="@dimen/brl" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/bok" android:minWidth="@dimen/br8" android:text="@string/dtx" android:singleLine="true" />
+</LinearLayout>

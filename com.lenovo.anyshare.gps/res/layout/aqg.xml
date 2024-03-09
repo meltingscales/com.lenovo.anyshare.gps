@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginRight="@dimen/ctn" android:layout_marginBottom="@dimen/csw"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/auf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ctn" android:text="@string/ai0" />
+    <TextView android:textSize="@dimen/cyr" android:textColor="@color/auo" android:gravity="center" android:id="@id/atr" android:layout_width="wrap_content" android:layout_height="@dimen/cuh" android:text="@string/ai1" />
+    <com.ushareit.cleanit.analyze.widget.AnalyzeSummaryView android:id="@id/blb" android:layout_width="fill_parent" android:layout_height="@dimen/ctv" android:layout_marginTop="@dimen/csw" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bl_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/csd" android:layout_marginRight="@dimen/csd">
+        <include android:id="@id/bl4" layout="@layout/aqe" />
+        <include android:id="@id/bl5" layout="@layout/aqe" />
+        <include android:id="@id/bl6" layout="@layout/aqe" />
+        <include android:id="@id/bl7" layout="@layout/aqe" />
+        <include android:id="@id/bl8" layout="@layout/aqe" />
+    </LinearLayout>
+</LinearLayout>

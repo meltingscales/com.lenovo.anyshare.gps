@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/bqd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="@dimen/bkq" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/w4" android:layout_gravity="center" android:id="@id/dty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/doq" android:drawableTop="@drawable/df9" android:drawablePadding="@dimen/bp0" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/bq4" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="@dimen/bkq" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/w4" android:layout_gravity="center" android:id="@id/dzh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cxl" android:drawableTop="@drawable/df_" android:drawablePadding="@dimen/bp0" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@color/a15" android:layout_width="fill_parent" android:layout_height="@dimen/bko" />
+</FrameLayout>

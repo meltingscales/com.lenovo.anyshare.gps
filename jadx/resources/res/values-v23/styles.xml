@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="j1" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="ja" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="jo" parent="@style/m2">
+    </style>
+    <style name="jv" parent="@style/m3">
+    </style>
+    <style name="m2" parent="@style/m0">
+        <item name="ia">?android:attr/actionBarItemBackground</item>
+        <item name="in">?android:attr/actionMenuTextAppearance</item>
+        <item name="io">?android:attr/actionMenuTextColor</item>
+        <item name="j4">?android:attr/actionOverflowButtonStyle</item>
+        <item name="r1">@drawable/adi</item>
+        <item name="a__">?android:attr/ratingBarStyleIndicator</item>
+        <item name="a_a">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="m3" parent="@style/m1">
+        <item name="ia">?android:attr/actionBarItemBackground</item>
+        <item name="in">?android:attr/actionMenuTextAppearance</item>
+        <item name="io">?android:attr/actionMenuTextColor</item>
+        <item name="j4">?android:attr/actionOverflowButtonStyle</item>
+        <item name="r1">@drawable/adi</item>
+        <item name="a__">?android:attr/ratingBarStyleIndicator</item>
+        <item name="a_a">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="mr" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="mx" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="mz" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/y4</item>
+    </style>
+    <style name="n9" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="nt" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="nu" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="o0" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="o1" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="p7" parent="@style/i4">
+        <item name="n5">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="a43" parent="@style/kx">
+        <item name="ph">@color/ap6</item>
+    </style>
+    <style name="a56" parent="@style/l0">
+        <item name="ph">@color/ap6</item>
+    </style>
+    <style name="a_1" parent="@style/o6">
+        <item name="ko">@drawable/c0v</item>
+        <item name="kv">@drawable/c0v</item>
+        <item name="kw">@drawable/c0v</item>
+    </style>
+    <style name="a_2" parent="@style/o7">
+        <item name="ko">@drawable/c0v</item>
+        <item name="kv">@drawable/c0v</item>
+    </style>
+    <style name="aae" parent="@style/oa">
+        <item name="android:background">@drawable/c0y</item>
+    </style>
+    <style name="aaf" parent="@style/ob">
+        <item name="android:background">@drawable/c0x</item>
+    </style>
+    <style name="aag" parent="@style/oc">
+        <item name="android:background">@drawable/c0y</item>
+    </style>
+    <style name="aay" parent="@style/oh">
+        <item name="ko">@drawable/c0v</item>
+        <item name="kv">@drawable/c0v</item>
+        <item name="kw">@drawable/c0v</item>
+    </style>
+    <style name="ac8" parent="@style/ol">
+        <item name="android:background">@drawable/c12</item>
+    </style>
+    <style name="af0" parent="@style/ot">
+        <item name="android:popupBackground">?attr/a8s</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="af1" parent="@style/ou">
+        <item name="android:popupBackground">?attr/a8s</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+</resources>

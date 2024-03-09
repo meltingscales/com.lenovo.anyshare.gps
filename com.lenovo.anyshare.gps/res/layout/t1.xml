@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/bj1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/aue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" app:zs="" app:zv="@string/afn" />
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/auo" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zs="@string/cty" app:zv="@string/dpl" />
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/aui" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zs="@string/cty" app:zv="@string/bcd" />
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/aud" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zs="@string/cty" app:zv="@string/ad4" />
+    <View android:id="@id/c_x" android:background="@color/a16" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/bmf" android:layout_marginBottom="@dimen/bmf" />
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/aun" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zs="@string/cty" app:zu="@drawable/af8" app:zv="@string/dey" />
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/auc" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zs="" app:zv="@string/ad0" />
+    <com.ushareit.accountsetting.views.AccoutSettingButonBar android:id="@id/aul" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zv="@string/dey" />
+</androidx.appcompat.widget.LinearLayoutCompat>

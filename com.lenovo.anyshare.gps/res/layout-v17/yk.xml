@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/a4d" android:layout_width="fill_parent" android:layout_height="@dimen/bra">
+        <com.san.ads.MediaView android:id="@id/bx9" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginStart="16.0dip" app:a0o="csi" app:a1c="csi" app:a1g="csi">
+            <ImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/so" />
+        </com.san.ads.MediaView>
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="@dimen/bmf" app:a0p="@id/c33" app:a0v="@id/bo8" app:a1b="@id/bx9" app:a1g="csi" app:a1i="csb" />
+        <ImageView android:id="@id/c33" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" android:layout_marginTop="8.0dip" android:scaleType="fitXY" app:a0o="csi" app:a1c="@id/dpx" app:a1f="@id/dpx" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/ck2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="6.0dip" app:a0o="@id/c33" app:a0u="@id/dpx" app:a1b="@id/c33" app:a1g="@id/c33" />
+        <FrameLayout android:id="@id/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/bn4" app:a0o="csi" app:a0u="csi" app:a1g="csi">
+            <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@id/b00" android:background="@drawable/amx" android:layout_width="@dimen/bru" android:layout_height="@dimen/bp7" android:max="100" android:progress="100" android:maxLines="1" android:maxEms="6" app:a_s="false" app:ajb="@dimen/bsw" app:ajd="true" app:ajf="@color/bj1" app:ajh="@dimen/brt" app:aji="@dimen/brt" app:ajk="@dimen/bre" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/amy" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

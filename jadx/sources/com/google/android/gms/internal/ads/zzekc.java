@@ -1,0 +1,10 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.RemoteException;
+
+/* loaded from: classes4.dex */
+public interface zzekc {
+    boolean zza();
+
+    boolean zzb(com.google.android.gms.ads.internal.client.zzl zzlVar, String str, zzeka zzekaVar, zzekb zzekbVar) throws RemoteException;
+}

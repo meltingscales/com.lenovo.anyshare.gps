@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cet" android:background="@color/b0h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cy8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/cei" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@color/b0i" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bp7">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/boe" style="@style/aib">
+            <TextView android:textSize="@dimen/btf" android:textColor="#ffffffff" android:id="@id/cev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" style="@style/ai1" />
+            <TextView android:textSize="@dimen/bt1" android:textColor="#ffffffff" android:id="@id/cem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-light" style="@style/anj" />
+            <TextView android:textSize="@dimen/bsx" android:textColor="#ffffffff" android:id="@id/cel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:singleLine="true" android:fontFamily="sans-serif-light" style="@style/ai6" />
+            <ImageView android:id="@id/bkw" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginTop="@dimen/bqv" android:src="@drawable/czm" style="@style/ai6" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/ceg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/bl2" android:layout_weight="7.3">
+            <ImageView android:id="@id/bcj" android:visibility="invisible" android:layout_width="@dimen/bo9" android:layout_height="@dimen/bo9" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <FrameLayout android:id="@id/cnt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center" android:id="@id/cns" android:visibility="visible" android:layout_width="@dimen/bo9" android:layout_height="@dimen/bo9" android:scaleType="centerCrop" />
+            </FrameLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.7">
+            <LinearLayout android:orientation="horizontal" android:id="@id/cek" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/cw5" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:src="@drawable/cvt" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/cw7" android:layout_width="@dimen/bpr" android:layout_height="@dimen/bpr" android:src="@drawable/cys" android:layout_weight="1.0" />
+                <FrameLayout android:layout_width="@dimen/bqs" android:layout_height="@dimen/bqs" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/b48" android:layout_width="@dimen/bqs" android:layout_height="@dimen/bqs" android:src="@drawable/cyj" />
+                    <ImageView android:layout_gravity="center" android:id="@id/cer" android:layout_width="@dimen/bqs" android:layout_height="@dimen/bqs" android:src="@drawable/cyi" />
+                </FrameLayout>
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/cw6" android:layout_width="@dimen/bpr" android:layout_height="@dimen/bpr" android:src="@drawable/cwx" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/apm" android:layout_width="@dimen/bo3" android:layout_height="@dimen/bo3" android:src="@drawable/crs" android:layout_weight="1.0" />
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/ceh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

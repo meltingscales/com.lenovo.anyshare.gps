@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/cm2" android:background="@drawable/djl" android:layout_width="match_parent" android:layout_height="@dimen/bm3"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/clz" android:background="@drawable/djk" android:paddingLeft="@dimen/bn4" android:paddingRight="@dimen/bn4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/b1o" layout="@layout/bab"/>
+        <include android:id="@+id/b1q" layout="@layout/bab"/>
+        <include android:id="@+id/b1p" layout="@layout/bab"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/cly" android:background="@drawable/djj" android:layout_width="match_parent" android:layout_height="@dimen/bmm"/>
+</merge>

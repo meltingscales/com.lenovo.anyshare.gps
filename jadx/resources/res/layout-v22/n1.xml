@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:paddingLeft="@dimen/and" android:paddingRight="@dimen/and" android:layout_width="match_parent" android:layout_height="@dimen/ar1" android:paddingHorizontal="@dimen/and">
+    <TextView android:textSize="@dimen/asq" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a2k"/>
+    <SeekBar android:id="@+id/a83" android:background="@color/l8" android:paddingTop="@dimen/an7" android:paddingBottom="@dimen/an7" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="@dimen/aq6" android:layout_marginLeft="@dimen/arr" android:layout_marginRight="@dimen/arr" android:max="100" android:progress="0" android:layout_weight="1" android:layout_marginHorizontal="@dimen/arr" android:paddingVertical="@dimen/an7" style="@style/f5"/>
+    <TextView android:textSize="@dimen/asq" android:textColor="@color/ij" android:id="@+id/adi" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

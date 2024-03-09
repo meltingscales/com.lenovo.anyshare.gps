@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/jb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/x6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/kd"/>
+    <View android:background="@color/a1_" android:layout_width="match_parent" android:layout_height="@dimen/alp"/>
+</FrameLayout>

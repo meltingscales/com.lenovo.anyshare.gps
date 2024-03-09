@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@+id/e_d" android:background="@color/bi0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:outlineSpotShadowColor="@color/bi0" android:outlineAmbientShadowColor="@color/bi0">
+        <LinearLayout android:orientation="vertical" android:id="@+id/e9k" android:paddingLeft="@dimen/e0n" android:paddingRight="@dimen/e0n" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/e0n" app:layout_scrollFlags="0x3">
+            <com.ushareit.shop.ad.widget.ShopBannerLayout android:id="@+id/e_e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e14"/>
+            <com.ushareit.shop.ad.widget.IncentiveWebView android:id="@+id/e_f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e14" app:rfl_radius="@dimen/e02"/>
+            <com.ushareit.shop.ad.widget.ShopLowestContainer android:id="@+id/e_g" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/e9j" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ushareit.shop.ad.widget.ShopConditionView android:id="@+id/e7x" android:paddingLeft="@dimen/e0n" android:paddingRight="@dimen/e0n" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e14" android:paddingHorizontal="@dimen/e0n"/>
+            <include android:id="@+id/e_o" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/bgw"/>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/afm">
+        <com.ushareit.base.widget.pulltorefresh.PullToRefreshRecyclerView android:id="@+id/e9v" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/e4e" android:layout_marginRight="@dimen/e4e"/>
+        <include android:id="@+id/e7v" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/bgf"/>
+        <ViewStub android:id="@+id/e7u" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/e7t" android:layout="@layout/bgd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

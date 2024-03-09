@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:paddingLeft="@dimen/ctn" android:paddingRight="@dimen/ctn" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/ciu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cxh" android:layout_marginBottom="@dimen/cxh" app:radius="@dimen/csw">
+        <com.ushareit.ads.ui.view.SelectBannerAdView android:id="@+id/cit" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</RelativeLayout>

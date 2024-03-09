@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bkv" android:paddingTop="@dimen/dk0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/dbh" android:text="@string/cx4" style="@style/a78" />
+    </LinearLayout>
+</ScrollView>

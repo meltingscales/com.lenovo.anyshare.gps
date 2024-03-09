@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="c">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%1$d آئیٹم</item>
+        <item quantity="zero">%1$d آئیٹم</item>
+        <item quantity="one">%1$d آئیٹم</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%1$dفائلیں، مجموعی %2$s</item>
+        <item quantity="zero">%1$dفائل، مجموعی %2$s</item>
+        <item quantity="one">%1$dفائل، مجموعی %2$s</item>
+    </plurals>
+</resources>

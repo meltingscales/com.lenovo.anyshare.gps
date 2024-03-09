@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.muslim.quran.widget.QuranTouchLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a7i" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/xc" android:layout_width="match_parent" android:layout_height="@dimen/amz" android:src="@drawable/a4g" android:scaleType="centerCrop"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ar9">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/a38" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/asy" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/abf" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/asp" android:textColor="@color/l9" android:gravity="center" android:id="@+id/abg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a0_"/>
+        </LinearLayout>
+        <View android:id="@+id/a2k" android:background="#81b9a8" android:layout_width="@dimen/alp" android:layout_height="@dimen/amy"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/a37" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/asy" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/abd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/asp" android:textColor="@color/l9" android:gravity="center" android:id="@+id/abe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a09"/>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/a58" android:background="@drawable/px" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/ami"/>
+    <FrameLayout android:id="@+id/a_i" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.muslim.quran.widget.QuranTopView android:id="@+id/a64" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/a3e" android:background="@drawable/zc" android:paddingLeft="@dimen/arq" android:paddingRight="@dimen/ans" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/aqx">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/l9" android:ellipsize="end" android:id="@+id/ad9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a36" android:lines="1"/>
+            <TextView android:textSize="@dimen/aso" android:textColor="@color/l9" android:ellipsize="end" android:id="@+id/ad8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a34" android:lines="1"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/aso" android:textStyle="bold" android:textColor="#098c65" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/a_r" android:background="@drawable/u0" android:paddingLeft="@dimen/amf" android:paddingRight="@dimen/amf" android:layout_width="wrap_content" android:layout_height="@dimen/aow" android:layout_marginLeft="@dimen/arr" android:minWidth="@dimen/ar9" android:text="@string/a32" android:lines="1"/>
+    </LinearLayout>
+</com.ushareit.muslim.quran.widget.QuranTouchLayout>

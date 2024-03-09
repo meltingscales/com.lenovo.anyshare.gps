@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dya">
+        <ImageView android:layout_gravity="center" android:id="@id/cad" android:background="#ffcccccc" android:visibility="gone" android:layout_width="@dimen/dyc" android:layout_height="1.0px" style="@style/ahz" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/cag" android:visibility="gone" android:layout_width="@dimen/dyd" android:layout_height="@dimen/dyd" android:indeterminateDrawable="@drawable/atm" style="@style/agu" />
+        <TextView android:textSize="@dimen/dyb" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/caf" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/cae" android:background="#ffcccccc" android:visibility="gone" android:layout_width="@dimen/dyc" android:layout_height="1.0px" style="@style/aj8" />
+    </LinearLayout>
+</LinearLayout>

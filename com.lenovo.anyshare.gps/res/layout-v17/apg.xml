@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bm3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:id="@id/c7w" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_marginRight="@dimen/bmm" android:src="@drawable/au4" android:layout_marginEnd="@dimen/bmm" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:layout_gravity="end" android:id="@id/e0s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bqo" android:text="@string/ad_" android:layout_marginEnd="@dimen/bqo" />
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ccd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq9" android:layout_marginTop="@dimen/bo3" android:layout_marginRight="@dimen/bqo" android:layout_marginStart="@dimen/bq9" android:layout_marginEnd="@dimen/bqo">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/da8" android:visibility="gone" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:layout_marginRight="@dimen/brt" android:src="@drawable/c5n" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/brt" />
+        <FrameLayout android:layout_gravity="end" android:background="@drawable/al3" android:paddingLeft="@dimen/bm3" android:paddingTop="@dimen/bm3" android:paddingRight="@dimen/bm3" android:paddingBottom="@dimen/bmw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/bm3" android:paddingEnd="@dimen/bm3">
+            <TextView android:textColor="@color/w4" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/dtz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bql" android:maxLines="2" android:layout_marginEnd="@dimen/bql" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/c52" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" android:src="@drawable/c5f" android:scaleType="centerCrop" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

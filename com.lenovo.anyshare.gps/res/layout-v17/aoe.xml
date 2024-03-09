@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsFrameLayout android:id="@id/chm" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/chl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff191919" android:ellipsize="end" android:id="@id/chn" android:paddingTop="@dimen/cgc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/cgf" android:paddingEnd="@dimen/cgk" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgm" android:layout_height="@dimen/cgf" android:layout_margin="@dimen/ch3" />
+</com.ushareit.mcds.ui.view.McdsFrameLayout>

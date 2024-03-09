@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/vw" android:layout_width="match_parent" android:layout_height="@dimen/atf">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x710701d8" android:background="@drawable/ue" android:layout_width="@dimen/asg" android:layout_height="@dimen/asf" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/aj7"/>
+        <RelativeLayout android:layout_gravity="end" android:id="@+id/a73" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@+id/a0w" android:padding="@dimen/amf" android:layout_width="@dimen/aqh" android:layout_height="@dimen/aqh" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj" android:src="@drawable/a2i" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+            <LinearLayout android:gravity="end|center_vertical" android:orientation="horizontal" android:id="@+id/a3g" android:background="@drawable/pa" android:paddingLeft="@dimen/ar7" android:paddingRight="@dimen/ar7" android:layout_width="wrap_content" android:layout_height="@dimen/aon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/amf" android:layout_toStartOf="@+id/a0w">
+                <TextView android:textSize="@dimen/asp" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/acn" android:background="@drawable/p_" android:paddingLeft="@dimen/aqw" android:paddingRight="@dimen/aqw" android:layout_width="wrap_content" android:layout_height="@dimen/ans" android:minWidth="@dimen/ans" tools:text="1"/>
+                <TextView android:textSize="@dimen/asp" android:textStyle="bold" android:textColor="@color/a7k" android:ellipsize="end" android:gravity="center_vertical" android:paddingLeft="@dimen/aqw" android:paddingRight="@dimen/aqw" android:layout_width="wrap_content" android:layout_height="@dimen/ans" android:text="@string/yj" android:maxLines="1" android:maxEms="8"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/asu" android:textStyle="bold" android:textColor="@color/l9" android:ellipsize="end" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/xr" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/ara" android:layout_toStartOf="@+id/a3g" android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

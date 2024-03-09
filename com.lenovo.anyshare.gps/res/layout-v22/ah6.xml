@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/q1">
+        <include layout="@layout/bf2" />
+        <include layout="@layout/bf0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ccl" android:background="@drawable/avv" android:layout_width="fill_parent" android:layout_height="@dimen/bra" android:layout_marginTop="@dimen/brt">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bl2" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bl2">
+                <ImageView android:layout_gravity="center" android:id="@id/c3h" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" />
+            </FrameLayout>
+            <LinearLayout android:gravity="start|center" android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/vu" android:id="@id/d13" style="@style/r9" />
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:id="@id/d12" android:layout_marginTop="@dimen/bnc" style="@style/r5" />
+            </LinearLayout>
+            <ImageView android:id="@id/d0w" android:padding="@dimen/bq1" android:visibility="gone" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bpe" android:layout_marginRight="@dimen/bo8" android:src="@drawable/as5" android:layout_marginStart="@dimen/bpe" android:layout_marginEnd="@dimen/bo8" />
+        </LinearLayout>
+        <View android:background="@color/a0t" android:layout_width="fill_parent" android:layout_height="@dimen/bko" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/bo8" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bo8" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/bl2" android:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/beo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/cbq" android:layout_width="wrap_content" android:layout_height="@dimen/brm" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bo8">
+                <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/cyc" android:background="@drawable/duj" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginRight="@dimen/brt" android:layout_marginEnd="@dimen/brt" />
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:gravity="center" android:id="@id/dwk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bpf" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:gravity="left" android:id="@id/bi1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bmf" android:layout_marginRight="@dimen/bnj" android:text="@string/d5_" android:layout_marginHorizontal="@dimen/bnj" />
+        </FrameLayout>
+        <include layout="@layout/a30" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:fitsSystemWindows="true" style="@style/q3">
+    <LinearLayout style="@style/q1">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/bnk" android:layout_height="@dimen/bl4" android:layout_marginTop="@dimen/bqf" android:src="@drawable/b_7"/>
+        <TextView android:textSize="@dimen/bsz" android:layout_gravity="center_horizontal" android:id="@+id/title_text_res_0x7f090ec1" android:layout_marginTop="@dimen/blk" android:text="@string/bek" style="@style/q7"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/boe" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/boe" android:layout_marginStart="@dimen/boe" android:layout_marginEnd="@dimen/boe">
+            <EditText android:textSize="@dimen/bsz" android:textColorHint="@color/w7" android:id="@+id/c05" android:background="@drawable/b9u" android:layout_width="match_parent" android:layout_height="@dimen/bq4" android:hint="@string/bej" android:maxLines="1" android:singleLine="true" android:maxLength="20" android:inputType="number"/>
+        </FrameLayout>
+        <LinearLayout style="@style/pl">
+            <com.ushareit.widget.UpperCaseButton android:textColor="@color/ae_" android:id="@+id/d0e" android:text="@string/at0" style="@style/pj"/>
+            <com.ushareit.widget.UpperCaseButton android:id="@+id/d0j" style="@style/pk"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+package com.lenovo.anyshare;
+
+import com.lenovo.anyshare.AbstractC4714Nqc;
+
+/* renamed from: com.lenovo.anyshare.Aqc  reason: case insensitive filesystem */
+/* loaded from: classes5.dex */
+public class C0956Aqc extends AbstractC4714Nqc.c {
+    @Override // com.lenovo.anyshare.AbstractC4714Nqc.c
+    public double a(double d, double d2) {
+        return C6710Upc.b(d, (int) d2);
+    }
+}

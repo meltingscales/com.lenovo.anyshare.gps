@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/bi0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/bra">
+        <ImageView android:id="@+id/coy" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginLeft="@dimen/blv" android:src="@drawable/ic_launcher" android:layout_centerVertical="true" android:layout_marginStart="@dimen/blv"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/bm3" android:layout_toStartOf="@+id/cor" android:layout_toEndOf="@+id/coy">
+            <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/cpn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:ellipsize="end" android:id="@+id/cos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="center" android:id="@+id/cor" android:background="@drawable/d19" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bo8" android:text="@string/ces" android:lines="1" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/bla" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</FrameLayout>

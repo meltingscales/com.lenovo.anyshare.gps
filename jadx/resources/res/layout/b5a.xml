@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/cx1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/bbh" android:background="@null" android:padding="@dimen/dfj" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d8u" android:scaleType="fitCenter" android:layout_centerVertical="true"/>
+        <ImageButton android:id="@+id/bbe" android:background="@null" android:padding="@dimen/dfj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drh" android:scaleType="fitCenter"/>
+        <ImageButton android:id="@+id/bbd" android:background="@null" android:padding="@dimen/dfj" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d8t" android:scaleType="fitCenter"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout android:layout_gravity="end|center_vertical" android:orientation="vertical" android:id="@+id/cdt" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ao7">
+        <ImageView android:id="@+id/cwx" android:visibility="gone" android:layout_width="@dimen/dg5" android:layout_height="@dimen/dg5" android:src="@drawable/d85" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/ce8" android:visibility="gone" android:layout_width="@dimen/dg5" android:layout_height="@dimen/dg5" android:layout_marginTop="@dimen/dfj" android:src="@drawable/d8p" android:scaleType="centerCrop"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_horizontal" android:orientation="horizontal" android:id="@+id/cwk" android:background="@drawable/d92" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dg_">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bbi" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/dgu" android:textColor="@color/b3g" android:id="@+id/bbf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" style="@style/aoh"/>
+            <SeekBar android:id="@+id/bbl" android:paddingLeft="@dimen/dgn" android:paddingTop="@dimen/df8" android:paddingRight="@dimen/dgn" android:paddingBottom="@dimen/df8" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="@dimen/dfy" android:max="100" android:progressDrawable="@drawable/ds6" android:minHeight="@dimen/dfy" android:thumb="@drawable/ds8" android:layout_weight="1" style="@style/aoj"/>
+            <TextView android:textSize="@dimen/dgu" android:textColor="@color/b3g" android:id="@+id/bbn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--/--" style="@style/aoj"/>
+            <ImageView android:id="@+id/bbj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/df5" android:maxWidth="@dimen/dg8" android:minWidth="@dimen/df8" style="@style/aod"/>
+            <TextView android:textSize="@dimen/dgu" android:textColor="@color/b3g" android:gravity="center" android:id="@+id/bbk" android:paddingLeft="@dimen/dgd" android:paddingRight="@dimen/dgd" android:layout_width="wrap_content" android:layout_height="match_parent" android:drawableRight="@drawable/d8h" android:drawablePadding="@dimen/dg4" android:drawableEnd="@drawable/d8h" style="@style/aod"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/bbb" android:paddingLeft="@dimen/df1" android:paddingRight="@dimen/df1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d8s" style="@style/aoa"/>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="bottom" android:id="@+id/bbc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dfy" android:progressDrawable="@drawable/ds6" style="@style/a99"/>
+</merge>

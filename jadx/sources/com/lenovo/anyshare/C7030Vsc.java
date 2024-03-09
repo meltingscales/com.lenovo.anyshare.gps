@@ -1,0 +1,79 @@
+package com.lenovo.anyshare;
+
+import com.reader.office.fc.ddf.EscherClientDataRecord;
+import com.reader.office.fc.ddf.EscherContainerRecord;
+import com.reader.office.fc.ddf.EscherOptRecord;
+import com.reader.office.fc.ddf.EscherSpRecord;
+import com.reader.office.fc.hssf.record.ObjRecord;
+
+/* renamed from: com.lenovo.anyshare.Vsc  reason: case insensitive filesystem */
+/* loaded from: classes6.dex */
+public class C7030Vsc extends AbstractC3589Jsc {
+
+    /* renamed from: a  reason: collision with root package name */
+    public EscherContainerRecord f16040a;
+    public ObjRecord b;
+
+    public C7030Vsc(C7052Vuc c7052Vuc, int i) {
+        this.f16040a = a(c7052Vuc, i);
+        this.b = b(c7052Vuc, i);
+    }
+
+    private EscherContainerRecord a(C7052Vuc c7052Vuc, int i) {
+        C3611Juc c3611Juc = (C3611Juc) c7052Vuc;
+        EscherContainerRecord escherContainerRecord = new EscherContainerRecord();
+        EscherSpRecord escherSpRecord = new EscherSpRecord();
+        EscherOptRecord escherOptRecord = new EscherOptRecord();
+        EscherClientDataRecord escherClientDataRecord = new EscherClientDataRecord();
+        escherContainerRecord.setRecordId(EscherContainerRecord.SP_CONTAINER);
+        escherContainerRecord.setOptions((short) 15);
+        escherSpRecord.setRecordId(EscherSpRecord.RECORD_ID);
+        escherSpRecord.setOptions((short) 1202);
+        escherSpRecord.setShapeId(i);
+        escherSpRecord.setFlags(2560);
+        escherOptRecord.setRecordId(EscherOptRecord.RECORD_ID);
+        escherOptRecord.addEscherProperty(new C22389wic(C16896nic.ba, false, true, c3611Juc.H));
+        a(c3611Juc, escherOptRecord);
+        AbstractC6754Utc abstractC6754Utc = c3611Juc.d;
+        if (abstractC6754Utc.j()) {
+            escherSpRecord.setFlags(escherSpRecord.getFlags() | 64);
+        }
+        if (abstractC6754Utc.k()) {
+            escherSpRecord.setFlags(escherSpRecord.getFlags() | 128);
+        }
+        AbstractC19945sic a2 = a(abstractC6754Utc);
+        escherClientDataRecord.setRecordId(EscherClientDataRecord.RECORD_ID);
+        escherClientDataRecord.setOptions((short) 0);
+        escherContainerRecord.addChildRecord(escherSpRecord);
+        escherContainerRecord.addChildRecord(escherOptRecord);
+        escherContainerRecord.addChildRecord(a2);
+        escherContainerRecord.addChildRecord(escherClientDataRecord);
+        return escherContainerRecord;
+    }
+
+    private ObjRecord b(AbstractC5331Puc abstractC5331Puc, int i) {
+        ObjRecord objRecord = new ObjRecord();
+        C12126ftc c12126ftc = new C12126ftc();
+        c12126ftc.K = (short) ((C7052Vuc) abstractC5331Puc).e;
+        c12126ftc.L = a(i);
+        c12126ftc.c(true);
+        c12126ftc.d(true);
+        c12126ftc.a(true);
+        c12126ftc.b(true);
+        c12126ftc.O = 0;
+        C13369htc c13369htc = new C13369htc();
+        objRecord.addSubRecord(c12126ftc);
+        objRecord.addSubRecord(c13369htc);
+        return objRecord;
+    }
+
+    @Override // com.lenovo.anyshare.AbstractC3589Jsc
+    public EscherContainerRecord b() {
+        return this.f16040a;
+    }
+
+    @Override // com.lenovo.anyshare.AbstractC3589Jsc
+    public ObjRecord a() {
+        return this.b;
+    }
+}

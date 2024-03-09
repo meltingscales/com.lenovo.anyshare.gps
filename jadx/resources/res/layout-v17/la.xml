@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/va" android:background="@drawable/r6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/and" android:layout_marginTop="@dimen/and" android:layout_marginRight="@dimen/and" android:layout_marginStart="@dimen/and" android:layout_marginEnd="@dimen/and">
+        <ImageView android:id="@+id/a99" android:visibility="gone" android:layout_width="@dimen/and" android:layout_height="@dimen/and" android:layout_marginRight="@dimen/ap6" android:layout_marginEnd="@dimen/ap6"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/hp" android:id="@+id/a_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/vc" android:maxLines="1"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:id="@+id/vz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/and" android:layout_marginTop="@dimen/and" android:layout_marginRight="@dimen/and" android:layout_marginStart="@dimen/and" android:layout_marginEnd="@dimen/and"/>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@+id/ul" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/and" android:layout_marginBottom="@dimen/am3" app:lottie_scale="0.52"/>
+</LinearLayout>

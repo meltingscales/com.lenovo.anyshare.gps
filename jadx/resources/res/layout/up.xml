@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/d6v" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@+id/bb6" android:background="#edfdfe" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

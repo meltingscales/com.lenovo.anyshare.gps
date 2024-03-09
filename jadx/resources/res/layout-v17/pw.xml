@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@+id/afa" android:background="@color/l_" android:layout_width="0dp" android:layout_height="0dp"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/af5" android:background="@color/lb" android:layout_width="match_parent" android:layout_height="@dimen/b5h" android:layout_marginTop="@dimen/b5i" android:layoutDirection="ltr">
+        <LinearLayout android:layout_gravity="start|center_vertical" android:id="@+id/ag4" android:paddingLeft="@dimen/b5j" android:paddingRight="@dimen/b5j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="@dimen/b5j" android:paddingEnd="@dimen/b5j">
+            <TextView android:id="@+id/afs" style="@style/gc"/>
+            <TextView style="@style/gd"/>
+            <TextView android:id="@+id/afb" style="@style/gb"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end|center_vertical" android:id="@+id/af4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <ImageButton android:id="@+id/ag5" style="@style/g2"/>
+            <ImageButton android:id="@+id/ag0" style="@style/g1"/>
+            <ImageButton android:id="@+id/afw" style="@style/fz"/>
+            <ImageButton android:id="@+id/ag2" style="@style/fu"/>
+            <ImageButton android:id="@+id/afz" style="@style/g0"/>
+            <ImageButton android:id="@+id/afh" style="@style/fv"/>
+            <ImageButton android:id="@+id/afm" style="@style/fx"/>
+        </LinearLayout>
+        <HorizontalScrollView android:layout_gravity="end|center_vertical" android:id="@+id/afe" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/afd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <ImageButton android:id="@+id/afl" style="@style/fw"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/afv" android:layout_width="match_parent" android:layout_height="@dimen/b5p" android:layout_marginBottom="@dimen/b5q"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|bottom" android:orientation="horizontal" android:id="@+id/afi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/b5l" android:layoutDirection="ltr">
+        <ImageButton android:id="@+id/afj" style="@style/fv"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/af7" android:background="@android:color/transparent" android:padding="@dimen/b5k" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/aft" style="@style/g7"/>
+        <include layout="@layout/pv"/>
+        <ImageButton android:id="@+id/afq" style="@style/g6"/>
+        <include layout="@layout/pu"/>
+        <ImageButton android:id="@+id/afk" style="@style/g5"/>
+    </LinearLayout>
+</merge>

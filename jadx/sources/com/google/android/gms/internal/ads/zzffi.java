@@ -1,0 +1,26 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Map;
+
+/* loaded from: classes4.dex */
+public final class zzffi implements zzfev {
+    public final zzfff zza;
+    public final zzffd zzb;
+
+    public zzffi(zzfff zzfffVar, zzffd zzffdVar) {
+        this.zza = zzfffVar;
+        this.zzb = zzffdVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzfev
+    public final String zza(zzfeu zzfeuVar) {
+        zzfff zzfffVar = this.zza;
+        Map zzj = zzfeuVar.zzj();
+        this.zzb.zza(zzj);
+        return zzfffVar.zza(zzj);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzfev
+    public final void zzb(zzfeu zzfeuVar) {
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/c9d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginTop="@dimen/cya" android:layout_marginRight="@dimen/cx6" android:minHeight="@dimen/cy5" android:layout_marginHorizontal="@dimen/cx6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/dr8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cu2" android:minHeight="@dimen/cy5" android:layout_marginStart="@dimen/cu2">
+        <TextView android:textSize="@dimen/cyw" android:textStyle="bold" android:textColor="@color/auf" android:ellipsize="end" android:gravity="start" android:id="@id/dp1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ctu" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" />
+        <include android:id="@id/dch" layout="@layout/ava" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/dp0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cy5" android:layout_below="@id/dr8">
+        <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="@dimen/cuo" android:layout_marginLeft="@dimen/cu2" android:layout_marginRight="@dimen/cuh" />
+        <ImageView android:id="@id/asz" android:layout_width="wrap_content" android:layout_height="@dimen/cvc" android:layout_marginRight="@dimen/ctn" android:src="@drawable/ce7" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/ctn" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cu2" android:layout_toLeftOf="@id/asz" android:layout_centerVertical="true" android:layout_marginStart="@dimen/cu2" android:layout_toStartOf="@id/asz">
+            <TextView android:textSize="@dimen/cyw" android:textStyle="bold" android:textColor="@color/auf" android:ellipsize="end" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c2z" android:singleLine="true" />
+            <TextView android:textSize="@dimen/cyt" android:textColor="@color/auo" android:ellipsize="end" android:id="@id/doy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c2y" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

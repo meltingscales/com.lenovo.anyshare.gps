@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/q1">
+        <TextView android:layout_marginBottom="@dimen/blv" android:text="@string/d18" style="@style/q7" />
+        <TextView android:textColor="#ff757575" android:text="@string/d17" style="@style/pr" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/dgi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/by7" android:minHeight="@dimen/bqj">
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:text="@string/d1_" android:layout_weight="1.0" android:layout_marginStart="@dimen/bmm" />
+            <ImageView android:layout_gravity="bottom" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bpv" android:src="@drawable/di3" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pl">
+            <TextView android:textColor="@color/ye" android:id="@id/b0q" android:text="@string/ar6" style="@style/pj" />
+            <com.ushareit.widget.UpperCaseButton android:id="@id/dcg" android:text="@string/cxl" style="@style/pk" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

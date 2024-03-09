@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d68" android:background="@color/bi0" android:paddingTop="@dimen/bl2" android:paddingBottom="@dimen/blk" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c3h" android:layout_width="@dimen/bq9" android:layout_height="@dimen/bq9" android:layout_marginRight="@dimen/bs3" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/b9q" android:layout_width="wrap_content" android:layout_height="@dimen/bq9" android:layout_toRightOf="@id/c3h">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/a3s" android:gravity="center" android:id="@id/dpd" android:background="@drawable/aro" android:layout_width="wrap_content" android:layout_height="@dimen/bo8" android:minWidth="@dimen/br8" android:text="@string/as1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/dpd" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/bsx" android:textColor="#ff191919" android:ellipsize="end" android:gravity="bottom" android:id="@id/e09" android:paddingBottom="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/bsu" android:textColor="#ff757575" android:ellipsize="end" android:gravity="center" android:id="@id/dnm" android:background="@drawable/d9q" android:paddingLeft="@dimen/br9" android:paddingTop="@dimen/bp0" android:paddingRight="@dimen/br9" android:paddingBottom="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:text="@string/az4" android:maxLines="1" android:drawableLeft="@drawable/d9p" android:drawablePadding="@dimen/bq1" android:paddingStart="@dimen/br9" android:paddingEnd="@dimen/br9" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

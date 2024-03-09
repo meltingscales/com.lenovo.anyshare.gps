@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="224.0dip" android:layout_height="224.0dip" app:a_7="@dimen/bmm" app:a_j="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/aw_" android:padding="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/bqa" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bpa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cbq" />
+                    <TextView android:textSize="@dimen/bsv" android:textColor="@color/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bz9" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bp9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cbo" />
+                    <TextView android:textSize="@dimen/bsv" android:textColor="@color/a5o" android:gravity="center" android:layout_width="@dimen/bqc" android:layout_height="wrap_content" android:text="@string/bz7" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bp_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cbp" />
+                    <TextView android:textSize="@dimen/bsv" android:textColor="@color/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bz8" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bpb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cbr" />
+                    <TextView android:textSize="@dimen/bsv" android:textColor="@color/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bz_" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/b77" android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/b73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cbs" />
+    </FrameLayout>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

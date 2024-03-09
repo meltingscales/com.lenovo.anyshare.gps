@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/e81" android:layout_width="match_parent" android:layout_height="@dimen/e5g" app:radius="@dimen/dzm">
+    <com.ushareit.base.widget.cyclic.CyclicViewPager android:id="@+id/e82" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ushareit.base.widget.cyclic.CirclePageIndicator android:layout_gravity="bottom|center_horizontal" android:id="@+id/e91" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/e52" app:indicator_bg="@drawable/dw1" app:indicator_height="@dimen/e3x" app:indicator_spacing="@dimen/e52" app:indicator_width="@dimen/e5m"/>
+</com.ushareit.widget.RoundFrameLayout>

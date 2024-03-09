@@ -1,0 +1,157 @@
+{
+  "version" : "0.0.4",
+  "name" : "Love",
+  "audio" : "Love.mp3",
+  "width" : 720,
+  "height" : 1280,
+  "fps" : 25.0,
+  "numberOfFrames" : 650,
+  "numberOfPhotos" : 12,
+  "numberOfParts" : 12,
+  "parts" : [
+       {
+           "frames" : 100,
+           "from" : 0,
+           "to" : 99,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [0, 1],
+                   "transition" : "Grid5x8P0"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 100,
+           "to" : 149,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [0,1],
+                   "transition" : "Grid5x8P1"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 150,
+           "to" : 199,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [1,2],
+                   "transition" : "Grid5x8P2"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 200,
+           "to" : 249,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [2,3],
+                   "transition" : "Grid5x8P3"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 250,
+           "to" : 299,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [3,4],
+                   "transition" : "Grid5x8P4"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 300,
+           "to" : 349,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [4,5],
+                   "transition" : "Grid5x8P1"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 350,
+           "to" : 399,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [5,6],
+                   "transition" : "Grid5x8P2"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 400,
+           "to" : 449,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [6,7],
+                   "transition" : "Grid5x8P3"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 450,
+           "to" : 499,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [7,8],
+                   "transition" : "Grid5x8P4"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 500,
+           "to" : 549,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [8,9],
+                   "transition" : "Grid5x8P1"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 550,
+           "to" : 599,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [9,10],
+                   "transition" : "Grid5x8P2"
+               }
+           ]
+       },
+       {
+           "frames" : 50,
+           "from" : 600,
+           "to" : 649,
+           "layers" : [
+               {
+                   "layerIndex" : 0,
+                   "photoIndex" : [10,11],
+                   "transition" : "Grid5x8P3"
+               }
+           ]
+       }
+   ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:banner="http://schemas.android.com/apk/res-auto" android:gravity="top|center_horizontal" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/awm">
+        <com.lenovo.anyshare.flash.Banner android:id="@+id/au2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.lenovo.anyshare.flash.indicator.RectangleIndicator android:id="@+id/bzs" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="@dimen/bmm"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/awm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/cel" android:textColor="#aeaeae" android:id="@+id/apw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq9" android:layout_marginRight="@dimen/bq9" android:text="@string/bb_" android:lineSpacingExtra="@dimen/bq1"/>
+        <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/a7_" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/apy" android:background="@drawable/aro" android:layout_width="wrap_content" android:layout_height="@dimen/bkh" android:layout_marginLeft="@dimen/bq9" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bq9" android:minWidth="@dimen/bos" android:text="@string/bb1" android:singleLine="true"/>
+        <TextView android:textSize="16sp" android:textColor="#ff247fff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/dyl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/bpv" android:text="@string/bau"/>
+    </LinearLayout>
+</RelativeLayout>

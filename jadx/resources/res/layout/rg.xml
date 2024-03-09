@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/ajv" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop" app:rsi_radius="6dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp">
+        <TextView android:textSize="12sp" android:textColor="@color/ou" android:ellipsize="end" android:id="@+id/aje" android:layout_width="85dp" android:layout_height="wrap_content" android:maxWidth="85dp" android:maxLines="1"/>
+        <TextView android:textSize="9sp" android:textColor="@color/ov" android:id="@+id/al8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:minWidth="85dp" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

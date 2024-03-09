@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <LinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/alr" style="@style/q1">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aqj" app:rect_radio="0.38" app:topLeftRadius="@dimen/and" app:topRightRadius="@dimen/and">
+            <ImageView android:id="@+id/a1m" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/qn"/>
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <TextView android:textStyle="bold" android:id="@+id/title_text_res_0x71070257" android:visibility="gone" android:layout_marginTop="@dimen/and" android:layout_marginBottom="@dimen/alr" android:text="@string/adhan_automanually" style="@style/q7"/>
+        <TextView android:textSize="@dimen/ast" android:textColor="@color/iy" android:id="@+id/ade" android:layout_marginTop="@dimen/and" android:layout_marginBottom="@dimen/alr" android:text="@string/adhan_automanually" style="@style/q7"/>
+        <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/ac1" android:background="@drawable/tz" android:layout_width="match_parent" android:layout_height="@dimen/apx" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aon" android:layout_marginRight="@dimen/aon" android:text="@string/sl" android:layout_marginHorizontal="@dimen/aon"/>
+        <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/kw" android:gravity="center" android:id="@+id/aa4" android:layout_width="match_parent" android:layout_height="@dimen/apx" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/arr" android:layout_marginRight="@dimen/aon" android:layout_marginBottom="@dimen/amf" android:text="@string/sh" android:layout_marginHorizontal="@dimen/aon"/>
+    </LinearLayout>
+</LinearLayout>

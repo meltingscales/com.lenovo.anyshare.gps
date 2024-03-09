@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/jb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a_k" android:background="@drawable/a5n" android:layout_width="match_parent" android:layout_height="@dimen/ani">
+        <TextView android:textSize="@dimen/at8" android:textStyle="bold" android:textColor="@color/l9" android:layout_gravity="center_horizontal" android:id="@+id/a_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ar9" android:text="0&apos;"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/l9" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a6b"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/vh" android:background="@drawable/px" android:layout_width="match_parent" android:layout_height="@dimen/aqq" android:layout_marginTop="-12dp" android:layout_below="@+id/a_k">
+        <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/ij" android:layout_gravity="center_vertical" android:id="@+id/aa3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/and"/>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/ao5" android:layout_height="@dimen/ao5" android:layout_marginLeft="@dimen/arr" android:src="@drawable/xz"/>
+    </LinearLayout>
+    <View android:id="@+id/a2k" android:background="@color/a1_" android:layout_width="match_parent" android:layout_height="@dimen/alp" android:layout_below="@+id/vh"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/a6i" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a2k"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/w_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/y3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/an7" android:src="@drawable/awo"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="#666666" android:gravity="center" android:id="@+id/y4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aq6" android:layout_marginRight="@dimen/aq6" android:text="@string/a1j"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/a_8" android:layout_width="match_parent" android:layout_height="@dimen/atf" android:layout_marginTop="@dimen/aos">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x710701d8" android:background="@drawable/ue" android:layout_width="@dimen/asg" android:layout_height="@dimen/asf" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/aj7"/>
+        <RelativeLayout android:layout_gravity="end" android:id="@+id/a73" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/asu" android:textStyle="bold" android:textColor="@color/l9" android:ellipsize="end" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ara" android:text="@string/a1l" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

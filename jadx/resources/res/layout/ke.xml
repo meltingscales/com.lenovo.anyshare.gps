@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a5e" android:background="@drawable/tp" android:paddingLeft="@dimen/aon" android:paddingTop="@dimen/ao5" android:paddingRight="@dimen/ao5" android:paddingBottom="@dimen/amf" android:layout_width="match_parent" android:layout_height="@dimen/amb">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a3i" android:layout_width="match_parent" android:layout_height="@dimen/apx" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/a03" android:layout_width="@dimen/apx" android:layout_height="@dimen/apx" android:src="@drawable/a5d"/>
+        <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/ij" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/arj" android:singleLine="true" android:layout_weight="1" android:layout_below="@+id/a83"/>
+        <ImageView android:id="@+id/a0b" android:padding="@dimen/aqj" android:layout_width="@dimen/apk" android:layout_height="@dimen/apk" android:src="@drawable/we" android:scaleType="centerCrop"/>
+    </LinearLayout>
+    <SeekBar android:id="@+id/a83" android:background="@color/l8" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/am3" android:layout_marginTop="@dimen/ar7" android:max="100" android:progress="0" android:layout_below="@+id/a3i" style="@style/f5"/>
+    <RelativeLayout android:id="@+id/a78" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/amy" android:layout_below="@+id/a83">
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/a4i" android:gravity="center" android:id="@+id/aaq" android:layout_width="wrap_content" android:layout_height="@dimen/amy" android:layout_marginLeft="@dimen/am3"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/a4i" android:gravity="center" android:id="@+id/aap" android:layout_width="wrap_content" android:layout_height="@dimen/amy" android:layout_marginRight="@dimen/ar7" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/apk" android:layout_marginTop="@dimen/am3" android:layout_below="@+id/a83">
+        <TextView android:textSize="@dimen/asq" android:textStyle="bold" android:textColor="@color/ij" android:gravity="center" android:id="@+id/ac4" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/a1e" android:padding="4dp" android:layout_width="@dimen/apk" android:layout_height="@dimen/apk" android:src="@drawable/wq" android:scaleType="centerCrop" android:layout_centerVertical="true"/>
+        <LinearLayout android:layout_width="@dimen/an1" android:layout_height="@dimen/apb" android:layout_centerHorizontal="true">
+            <ImageView android:id="@+id/a14" android:layout_width="@dimen/apb" android:layout_height="@dimen/apb" android:src="@drawable/sx"/>
+            <ImageView android:id="@+id/a11" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/apk" android:layout_marginRight="@dimen/apk" android:src="@drawable/su" android:scaleType="centerInside"/>
+            <ImageView android:id="@+id/a13" android:layout_width="@dimen/apb" android:layout_height="@dimen/apb" android:src="@drawable/ss"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

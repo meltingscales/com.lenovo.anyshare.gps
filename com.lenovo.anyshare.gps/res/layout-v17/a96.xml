@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/blg" android:visibility="gone" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bli" android:background="@drawable/bbd" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginRight="@dimen/bnv" android:src="@drawable/bbg" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/bnv" />
+    <ImageView android:id="@id/blf" android:visibility="gone" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:src="@drawable/bb8" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

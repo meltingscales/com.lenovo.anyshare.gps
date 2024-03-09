@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c18"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c48" android:textStyle="bold" android:textColor="@color/a__" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1b" android:text="@string/ci2" android:layout_marginStart="@dimen/c1b" />
+    <com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:id="@id/c01" android:background="@drawable/b3s" android:paddingTop="@dimen/c1m" android:paddingBottom="@dimen/c0r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2m" android:layout_marginTop="@dimen/c0r" android:layout_marginRight="@dimen/c2m" android:layout_marginStart="@dimen/c2m" android:layout_marginEnd="@dimen/c2m" app:a76="@color/a93">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/c02" android:paddingLeft="@dimen/c13" android:paddingRight="@dimen/c13" android:scrollbars="none" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/c13" android:paddingEnd="@dimen/c13" />
+    </com.ushareit.theme.night.view.NightLinearLayout>
+</LinearLayout>

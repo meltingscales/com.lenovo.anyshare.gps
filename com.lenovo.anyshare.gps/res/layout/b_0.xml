@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:name="com.lenovo.anyshare.base.EmptyFragment" android:id="@id/cyk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:name="com.lenovo.anyshare.base.EmptyFragment" android:id="@id/ctq" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:name="com.lenovo.anyshare.base.EmptyFragment" android:id="@id/bez" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:name="com.lenovo.anyshare.base.EmptyFragment" android:id="@id/b9q" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/c25" android:layout_height="@dimen/c25" android:layout_marginLeft="@dimen/c2w" android:layout_marginTop="@dimen/c3o" android:layout_marginRight="@dimen/c2w" android:layout_marginBottom="@dimen/c3o" android:src="@drawable/b5s" android:rotation="180"/>

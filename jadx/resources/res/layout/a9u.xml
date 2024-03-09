@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:paddingTop="@dimen/brl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="start|top" android:orientation="vertical" android:id="@+id/bm9" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:gravity="center_vertical" android:id="@+id/arc" android:layout_width="match_parent" android:layout_height="@dimen/bv4" layout="@layout/a9t"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/baa" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/rc"/>
+    </LinearLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/bak" android:background="@drawable/bru" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv"/>
+    <RelativeLayout android:layout_gravity="center" android:id="@+id/b_c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/bsx" android:textColor="#666666" android:gravity="center" android:id="@+id/bzv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bkf" android:layout_marginRight="@dimen/bkf" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/bzu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/boe" android:layout_above="@+id/bzv" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</FrameLayout>

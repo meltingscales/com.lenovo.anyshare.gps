@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="@dimen/c3c" android:layout_height="0.0dip" />
+    <include android:id="@id/c0z" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/a7q" />
+    <include android:id="@id/c10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/a7q" />
+    <include android:id="@id/c11" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/a7q" />
+    <include android:id="@id/c12" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/a7q" />
+    <com.ushareit.downloader.web.main.widget.WebSiteMoreView android:id="@id/e6k" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <Space android:layout_width="@dimen/c3c" android:layout_height="0.0dip" />
+</merge>

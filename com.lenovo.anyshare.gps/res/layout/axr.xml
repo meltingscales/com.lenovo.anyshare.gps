@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@drawable/djl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+        <ImageView android:background="@drawable/djk" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:background="@drawable/djj" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+    </LinearLayout>
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@id/c98" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bok" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/bok" android:layout_marginBottom="@dimen/bo3" app:a_7="@dimen/bl2" app:a_j="0.0">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/c5e" android:layout_width="fill_parent" android:layout_height="@dimen/br0" android:scaleType="centerCrop" app:a76="@color/w4" />
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:fitsSystemWindows="true" style="@style/pi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="#00000000" style="@style/ph">
+        <ImageView android:background="@drawable/b9q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/b_0" android:layout_alignParentTop="true" />
+        <com.ushareit.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:al6="@dimen/bmm" app:al7="@dimen/bmm">
+            <com.ushareit.theme.night.view.NightImageView android:background="@drawable/d_n" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/bi0" />
+        </com.ushareit.widget.RoundFrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/b_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/bmw" android:layout_marginRight="@dimen/bq4" android:layout_marginBottom="@dimen/bp0" android:maxLines="3" style="@style/q7" />
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/xl" android:gravity="start" android:id="@id/bdu" android:visibility="gone" android:layout_marginTop="@dimen/bnc" android:minLines="2" style="@style/pr" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" android:minHeight="61.0dip">
+                <com.ushareit.rateui.widget.EmotionRatingBar android:layout_gravity="center" android:id="@id/d18" android:layout_width="wrap_content" android:layout_height="@dimen/dyh" android:layout_marginLeft="@dimen/bqx" android:layout_marginRight="@dimen/bqx" android:layout_marginBottom="@dimen/brt" android:numStars="5" android:rating="0.0" android:stepSize="1.0" style="@style/hl" />
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/aqr" android:layout_width="wrap_content" android:layout_height="59.0dip" android:layout_marginTop="@dimen/bp0" />
+            </FrameLayout>
+            <TextView android:gravity="start" android:id="@id/ck2" android:layout_marginTop="@dimen/bqf" android:layout_marginBottom="@dimen/bla" android:minLines="2" style="@style/pr" />
+            <TextView android:gravity="center" android:id="@id/dhf" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <com.ushareit.rateui.ui.RateTipsView android:id="@id/d7h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqf" android:layout_marginBottom="@dimen/bnj" />
+            <GridView android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bub" android:background="@color/bi0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginRight="@dimen/bn4" android:horizontalSpacing="@dimen/brt" android:verticalSpacing="@dimen/brt" android:numColumns="2" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cr3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:id="@id/dya" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:layout_marginBottom="@dimen/bnj" android:text="@string/coz" android:drawableLeft="@drawable/d_p" android:drawableRight="@drawable/da5" android:drawablePadding="@dimen/bqf" android:drawableStart="@drawable/d_p" android:drawableEnd="@drawable/da5" />
+                <Button android:textStyle="bold" android:textColor="@color/ty" android:id="@id/azi" android:background="@drawable/b9b" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bo8" android:text="@string/as_" android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/c49" android:padding="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqf" android:src="@drawable/dqp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

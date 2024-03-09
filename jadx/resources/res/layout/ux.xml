@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="@dimen/bqj">
+    <TextView android:textSize="@dimen/bih" android:textColor="@color/sw" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/bqv" android:maxLines="1"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dq7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginTop="@dimen/bp0" android:layout_marginRight="@dimen/bqv">
+        <com.san.ads.MediaView android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bx9" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginRight="@dimen/br9"/>
+        <TextView android:textSize="@dimen/bih" android:textColor="@color/sw" android:ellipsize="end" android:id="@+id/title" android:layout_width="@dimen/bkq" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+        <FrameLayout android:id="@+id/az6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="@dimen/bqz" android:layout_height="@dimen/bmm" android:max="100" android:progress="100" android:singleLine="true" app:textSize="@dimen/bsx" app:text_bold="true" app:text_max_length="@dimen/bqj" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/ake"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

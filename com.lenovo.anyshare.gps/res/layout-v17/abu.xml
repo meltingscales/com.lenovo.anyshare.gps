@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bpl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/bpz" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/blk">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:layout_gravity="bottom" android:id="@id/bti" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bm3" />
+    </FrameLayout>
+</FrameLayout>

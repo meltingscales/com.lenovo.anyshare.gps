@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/d95" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ushareit.theme.night.view.NightLottieAnimationView android:layout_gravity="center" android:id="@id/b4s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a75="@dimen/db2" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/axu" android:paddingBottom="@dimen/csw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <FrameLayout android:layout_gravity="center" android:id="@id/b58" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.ushareit.theme.night.view.NightLottieAnimationView android:layout_gravity="center" android:id="@id/b5c" android:visibility="gone" android:layout_width="@dimen/ctj" android:layout_height="@dimen/ctj" app:a75="@dimen/db2" />
+                <com.ushareit.theme.night.view.NightLottieAnimationView android:layout_gravity="center" android:id="@id/b4t" android:visibility="gone" android:layout_width="@dimen/ctj" android:layout_height="@dimen/ctj" app:a75="@dimen/db2" />
+                <com.ushareit.theme.night.view.NightImageView android:id="@id/b55" android:layout_width="@dimen/ctj" android:layout_height="@dimen/ctj" android:src="@drawable/cac" app:a75="@dimen/db2" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/dij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                    <TextView android:textSize="@dimen/cz3" android:textStyle="bold" android:textColor="@color/axs" android:id="@id/dik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx6" android:layout_marginBottom="@dimen/cx6" android:maxWidth="@dimen/ctt" />
+                    <TextView android:textSize="@dimen/cyt" android:textColor="@color/axs" android:id="@id/din" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginTop="@dimen/cx6" android:layout_marginBottom="@dimen/cx6" android:maxWidth="@dimen/ctt" android:layout_marginStart="@dimen/cx6" />
+                </LinearLayout>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/cyw" android:textStyle="bold" android:textColor="@color/axs" android:id="@id/dil" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cvc" android:layout_marginTop="@dimen/csw" android:layout_marginRight="@dimen/cvc" android:layout_marginStart="@dimen/cvc" android:layout_marginEnd="@dimen/cvc" />
+            <TextView android:textSize="@dimen/cyt" android:textColor="@color/aw9" android:id="@id/dim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cvc" android:layout_marginTop="@dimen/cx6" android:layout_marginRight="@dimen/cvc" android:layout_marginStart="@dimen/cvc" android:layout_marginEnd="@dimen/cvc" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/b52" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/ctv">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/b51" android:layout_width="@dimen/cxi" android:layout_height="@dimen/cxi" android:src="@drawable/ao6" app:a75="@dimen/db2" />
+        <com.ushareit.theme.night.view.NightLinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/csw">
+            <TextView android:textSize="@dimen/cyz" android:textStyle="bold" android:textColor="@color/axs" android:id="@id/b5i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2MB" android:singleLine="true" />
+            <TextView android:textSize="@dimen/cyx" android:textColor="@color/axs" android:id="@id/b5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ail" android:singleLine="true" />
+        </com.ushareit.theme.night.view.NightLinearLayout>
+        <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/auj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/b5_" android:background="@drawable/c96" android:paddingLeft="@dimen/cta" android:paddingRight="@dimen/cta" android:layout_width="wrap_content" android:layout_height="@dimen/cwk" android:layout_marginLeft="@dimen/ctv" android:layout_marginTop="@dimen/ctv" android:layout_marginRight="@dimen/ctv" android:minWidth="@dimen/ctw" android:text="@string/aij" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cw2" android:src="@drawable/cpk" />
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:background="@drawable/cad" android:paddingLeft="@dimen/cta" android:paddingTop="@dimen/csw" android:paddingRight="@dimen/cta" android:paddingBottom="@dimen/csw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cu2" android:layout_marginRight="@dimen/cu2" android:paddingStart="@dimen/cta" android:paddingEnd="@dimen/cta" android:layout_marginStart="@dimen/cu2" android:layout_marginEnd="@dimen/cu2">
+            <ImageView android:layout_width="@dimen/ctv" android:layout_height="@dimen/ctv" android:src="@drawable/ao7" />
+            <TextView android:textSize="@dimen/cys" android:textColor="@color/axs" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cxs" android:text="@string/aik" android:maxLines="2" android:layout_marginStart="@dimen/cxs" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

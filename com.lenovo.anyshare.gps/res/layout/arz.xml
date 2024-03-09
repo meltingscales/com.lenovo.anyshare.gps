@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.cleanit.local.ContentPagersTitleBar2 android:id="@id/dqh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/aod" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/csn">
+        <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@id/cit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/apq" android:layout_width="@dimen/cx3" android:layout_height="@dimen/cwh" />
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/bb7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

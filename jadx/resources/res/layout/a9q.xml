@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/axg" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.filemanager.content.file.FilesView android:id="@+id/axi" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ListView android:id="@+id/axk" android:visibility="gone" android:scrollbars="none" style="@style/rc"/>
+    <com.ushareit.widget.PinnedExpandableListView android:id="@+id/axh" android:background="@color/bi0" android:visibility="visible" android:scrollbars="none" style="@style/qo"/>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/axl" android:background="@drawable/bru" android:padding="@dimen/bmf" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bqj"/>
+    <include android:id="@+id/axj" layout="@layout/a9e"/>
+</FrameLayout>

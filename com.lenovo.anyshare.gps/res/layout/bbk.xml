@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bae" />
+    <LinearLayout android:orientation="vertical" android:id="@id/deu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/bqn" android:layout_below="@id/e26" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true">
+        <include layout="@layout/bb2" />
+        <include layout="@layout/bb6" />
+        <include layout="@layout/bb5" />
+        <include layout="@layout/bb0" />
+    </LinearLayout>
+</RelativeLayout>

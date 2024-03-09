@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bmz" android:layout_width="@dimen/br0" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:layout_marginBottom="@dimen/bm3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:id="@id/bs_" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:layout_centerHorizontal="true" app:a_7="@dimen/brt">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/bsa" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a76="@color/w4" />
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/bsc" android:background="@drawable/c5w" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a7_="@color/w4" />
+        <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/bsb" android:visibility="gone" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" app:a6i="@color/bj1" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@id/bs7" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:src="@drawable/c5z" app:a7_="@color/w4" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/bs6" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bm3" android:layout_marginLeft="@dimen/bq4" android:layout_marginTop="@dimen/bpe" android:src="@drawable/as5" android:layout_marginStart="@dimen/bq4" app:a7_="@color/w4" />
+    <TextView android:textSize="@dimen/bst" android:textColor="@color/wu" android:ellipsize="end" android:layout_gravity="center" android:id="@id/bs3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:maxWidth="@dimen/bqj" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/bs_" android:layout_centerHorizontal="true" />
+</RelativeLayout>

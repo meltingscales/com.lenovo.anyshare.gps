@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center_vertical" android:id="@id/cuo" android:background="@color/w7" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:layout_marginHorizontal="@dimen/bmm" app:a_j="0.56">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center_vertical" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_j="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/cun" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+</FrameLayout>

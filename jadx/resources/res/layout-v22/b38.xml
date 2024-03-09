@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <LinearLayout android:background="@drawable/axj" android:paddingTop="@dimen/bkq" style="@style/q1">
+        <com.ushareit.widget.RoundFrameLayout android:id="@+id/drj" android:layout_width="match_parent" android:layout_height="122dp" app:topLeftRadius="@dimen/bmm" app:topRightRadius="@dimen/bmm">
+            <com.ushareit.theme.night.view.NightImageView android:id="@+id/dri" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/d0u" android:scaleType="centerCrop" app:night_alpha="@dimen/db2"/>
+        </com.ushareit.widget.RoundFrameLayout>
+        <TextView android:id="@+id/title_text_res_0x7f090ec1" android:layout_marginTop="@dimen/bo3" android:layout_marginBottom="@dimen/bkq" android:text="@string/cea" style="@style/q7"/>
+        <TextView android:id="@+id/cl9" android:layout_marginTop="@dimen/bm3" android:layout_marginBottom="@dimen/bqf" android:text="@string/ce_" style="@style/pr"/>
+        <com.ushareit.theme.night.view.NightImageView android:id="@+id/b1l" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/by7" android:src="@drawable/d0u" android:scaleType="fitCenter" android:maxHeight="@dimen/bnf" android:layout_marginHorizontal="@dimen/by7" app:night_alpha="@dimen/db2"/>
+        <com.ushareit.widget.UpperCaseButton android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@+id/d0j" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bo8" android:text="@string/ce9"/>
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:id="@+id/d0e" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bl2" android:text="@string/ar5"/>
+    </LinearLayout>
+</LinearLayout>

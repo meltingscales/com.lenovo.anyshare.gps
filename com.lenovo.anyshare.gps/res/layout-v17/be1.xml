@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:background="@color/biq" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightLinearLayout android:orientation="horizontal" android:id="@id/ccb" android:background="@drawable/dtd" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="#ff202020">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dvm" android:layout_height="@dimen/dvm" android:layout_marginLeft="@dimen/dvj" android:src="@drawable/du7" android:layout_marginStart="@dimen/dvj" app:a75="0.66" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dux" android:layout_marginRight="@dimen/duz" android:layout_weight="1.0" android:layout_marginStart="@dimen/dux" android:layout_marginEnd="@dimen/duz">
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dw9" android:textColor="@color/bik" android:id="@id/c_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bm6" android:maxLines="1" android:lineSpacingExtra="@dimen/dvl" app:a7i="@color/bik" />
+        </LinearLayout>
+        <com.ushareit.theme.night.view.NightImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/e3u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dvb" android:src="@drawable/du6" android:layout_marginEnd="@dimen/dvb" app:a76="@color/bik" />
+    </com.ushareit.theme.night.view.NightLinearLayout>
+    <FrameLayout android:id="@id/bb6" android:background="@color/biq" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.ushareit.theme.night.view.NightLinearLayout>

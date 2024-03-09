@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <rotate android:drawable="@drawable/cra" android:fromDegrees="0" android:toDegrees="90"/>
+    </item>
+    <item android:id="@android:id/progress">
+        <selector>
+            <item android:state_enabled="false">
+                <clip>
+                    <shape>
+                        <stroke android:width="@dimen/bnc" android:color="@android:color/transparent"/>
+                        <solid android:color="@color/ad5"/>
+                        <corners android:radius="@dimen/bkr"/>
+                    </shape>
+                </clip>
+            </item>
+            <item>
+                <clip>
+                    <shape>
+                        <stroke android:width="@dimen/bnc" android:color="@android:color/transparent"/>
+                        <solid android:color="#2f9cf6"/>
+                        <corners android:radius="@dimen/bkr"/>
+                    </shape>
+                </clip>
+            </item>
+        </selector>
+    </item>
+</layer-list>

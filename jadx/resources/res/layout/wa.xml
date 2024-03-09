@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cxp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5dp">
+    <RelativeLayout android:gravity="center" android:id="@+id/bkj" android:paddingBottom="@dimen/brl" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/brl" android:layout_marginRight="@dimen/bp0" app:layout_constraintBottom_toBottomOf="@+id/au8" app:layout_constraintEnd_toEndOf="0" app:layout_constraintLeft_toLeftOf="@+id/au8" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="@+id/au8" app:layout_constraintTop_toTopOf="@+id/au8">
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:radius="@dimen/blk">
+            <View android:id="@+id/bkl" android:background="@drawable/ag4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bp0" android:layout_marginBottom="@dimen/bp0" android:layout_alignParentRight="true"/>
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/bqv" android:layout_alignParentRight="true" app:radius="@dimen/blk">
+            <View android:id="@+id/bkk" android:background="@drawable/ag3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bnc" android:layout_marginBottom="@dimen/bnc"/>
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+    </RelativeLayout>
+    <com.ushareit.ads.ui.widget.RoundRelativeLayout android:id="@+id/au8" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:radius="@dimen/bnj">
+        <com.ushareit.ads.ui.widget.CustomViewpager2 android:id="@+id/au_" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/br9"/>
+    </com.ushareit.ads.ui.widget.RoundRelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dfw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bp7" android:layout_marginBottom="@dimen/br9" app:layout_constraintBottom_toBottomOf="@+id/au8" app:layout_constraintEnd_toEndOf="@+id/au8" app:layout_constraintRight_toRightOf="@+id/au8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

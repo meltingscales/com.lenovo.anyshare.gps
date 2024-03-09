@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/ar9">
+    <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:id="@+id/acj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/and" android:layout_marginStart="@dimen/aon"/>
+    <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:id="@+id/aci" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aq2" android:layout_marginStart="@dimen/aon"/>
+    <ImageButton android:layout_gravity="end|center_vertical" android:id="@+id/ve" android:background="@drawable/yz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ao5" android:layout_marginEnd="@dimen/ao5"/>
+</FrameLayout>

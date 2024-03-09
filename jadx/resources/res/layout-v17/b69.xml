@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_vertical" android:id="@+id/cal" android:layout_width="@dimen/df7" android:layout_height="@dimen/df3" android:layout_marginLeft="@dimen/dfy" android:layout_marginRight="@dimen/dfg" android:layout_marginStart="@dimen/dfy" android:layout_marginEnd="@dimen/dfg"/>
+    <TextView android:textSize="@dimen/dh5" android:textStyle="bold" android:textColor="@color/b36" android:layout_gravity="center_vertical" android:id="@+id/can" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dfg" android:layout_marginRight="@dimen/dga" android:layout_marginBottom="@dimen/dfg" android:text="@string/dql" android:layout_marginEnd="@dimen/dga"/>
+</merge>

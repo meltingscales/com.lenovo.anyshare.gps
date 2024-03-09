@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/c9d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginRight="@dimen/ctn" android:layout_marginBottom="@dimen/csw"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.cleanit.analyze.widget.AnalyzeSummaryView android:id="@id/blb" android:layout_width="fill_parent" android:layout_height="@dimen/csc" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="@dimen/cuz" android:layout_marginRight="@dimen/ctn" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bl_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/csd" android:layout_marginRight="@dimen/csd" android:layout_marginBottom="@dimen/cse">
+        <include android:id="@id/bl4" layout="@layout/aqe" />
+        <include android:id="@id/bl5" layout="@layout/aqe" />
+        <include android:id="@id/bl6" layout="@layout/aqe" />
+        <include android:id="@id/bl7" layout="@layout/aqe" />
+        <include android:id="@id/bl8" layout="@layout/aqe" />
+    </LinearLayout>
+</LinearLayout>

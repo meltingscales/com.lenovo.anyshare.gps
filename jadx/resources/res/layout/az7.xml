@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/blr" android:layout_margin="@dimen/bm3" app:radius="@dimen/bl2" app:rect_radio="0">
+    <View android:background="#e3f0ff" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bmm">
+            <ImageView android:id="@+id/c5_" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/au4"/>
+            <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/wu" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/e09" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/br9" android:maxLines="1" android:layout_weight="1"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cbu" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/as6" android:maxLines="1"/>
+                <ImageView android:background="@drawable/cnk" android:padding="2.5dp" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:src="@drawable/diq" android:rotation="90"/>
+                <ImageView android:visibility="gone" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:src="@drawable/cn_"/>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/d7r" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginTop="@dimen/bmm"/>
+    </LinearLayout>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

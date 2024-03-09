@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lenovo.anyshare.safebox.pwd.PasswordView android:id="@id/ct3" android:background="@color/bel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.lenovo.anyshare.safebox.pwd.PinPasswordView android:id="@id/ct4" android:background="@color/bel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

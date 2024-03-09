@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/c98" android:background="@color/ab6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.downloader.web.main.urlparse.base.WebParseView android:id="@+id/e68" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.ushareit.downloader.web.main.urlparse.widget.ParseDialogLoadingView android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/csr" android:background="@drawable/b3s" android:visibility="gone" android:layout_width="@dimen/c1h" android:layout_height="wrap_content"/>
+    <com.ushareit.downloader.web.main.urlparse.widget.ParseDialogDataView android:layout_gravity="bottom" android:id="@+id/csp" android:background="@drawable/ay3" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

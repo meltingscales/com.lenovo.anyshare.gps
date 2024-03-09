@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d6c" android:background="@color/a4z" android:visibility="visible" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/byc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8">
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dxj" android:background="@drawable/byd" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginRight="@dimen/brt" android:text="1"/>
+            <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/w4" android:id="@+id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Obb Permission"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/xl" android:id="@+id/dwx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:text="@string/bq1"/>
+        <FrameLayout android:background="@drawable/aso" android:layout_width="match_parent" android:layout_height="@dimen/brf" android:layout_marginTop="@dimen/bnj">
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center" android:id="@+id/ctu" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bpv" android:layout_marginRight="@dimen/bpv" android:text="USE THIS FOLDER"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/cf4" android:layout_width="@dimen/brh" android:layout_height="@dimen/bqq" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:lottie_loop="false"/>
+</RelativeLayout>

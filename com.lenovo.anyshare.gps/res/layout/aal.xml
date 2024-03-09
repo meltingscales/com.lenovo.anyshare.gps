@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/aoe" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_margin="5.0dip" android:src="@drawable/bbe" />
+</merge>

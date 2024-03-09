@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/bmi" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:layout_marginBottom="@dimen/bm3" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/bm3" app:radius="@dimen/bl2">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/c6x" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <View android:background="@drawable/bq2" android:layout_width="match_parent" android:layout_height="@dimen/br2" app:layout_constraintBottom_toBottomOf="0"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/bj1" android:ellipsize="end" android:id="@+id/e04" android:paddingLeft="@dimen/bl2" android:paddingRight="@dimen/bl2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bp0" android:maxLines="1" android:paddingStart="@dimen/bl2" android:paddingEnd="@dimen/bl2" app:layout_constraintBottom_toTopOf="@+id/dyo" app:layout_constraintStart_toStartOf="@+id/dyo"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:ellipsize="end" android:id="@+id/dyo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bs3" android:maxLines="3" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/bl2" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ushareit.widget.RoundFrameLayout>

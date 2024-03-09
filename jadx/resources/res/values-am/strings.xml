@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">አካል</string>
+    <string name="a98">ዋና ርዕስ</string>
+    <string name="a99">የሚዲያ እይታ</string>
+    <string name="a9_">ፍቀድ</string>
+    <string name="a9a">አትፍቀድ</string>
+    <string name="a9b">መተግበሪያ ማሳወቂያዎችን እንዲልክልዎ ይፈቀድ?</string>
+    <string name="a9c">ማስታወቂያን ለመክፈት መታ ያድርጉ</string>
+    <string name="a9d">ከመስመር ውጭ ሲሆኑ ያስቀመጡትን ማስታወቂያ ይመልከቱ</string>
+    <string name="a9e">እሺ</string>
+    <string name="a9f">ወደ መስመር ላይ ሲመለሱ ከአገናኙ ጋር አንድ ማሳወቂያ ይደርስዎታል</string>
+    <string name="a9g">አይ አመሰግናለሁ</string>
+    <string name="a9h">ወደ ማስታወቂያ አስነጋሪ ጣቢያው ከሚወስድ አገናኝ ጋር አንድ ማሳወቂያ እንልክልዎታለን።</string>
+    <string name="a9i">መስመር ላይ ሲመለሱ ማስታወቂያ ይክፈቱ።</string>
+    <string name="a9j">ምስል አስቀምጥ</string>
+    <string name="a9k">ማስታወቂያ ምስሉን በስዕል ማእከለ-ሥዕላት ውስጥ እንዲያከማች ይፈቀድለት?</string>
+    <string name="a9l">ተቀበል</string>
+    <string name="a9m">ውድቅ አድርግ</string>
+    <string name="a9n">የቀን መቁጠሪያ ክስተት ፍጠር</string>
+    <string name="a9o">ማስታወቂያ የቀን መቁጠሪያ ክስተት እንዲፈጥር ይፈቀድለት?</string>
+    <string name="a9p">የሙከራ ማስታወቂያ</string>
+    <string name="a9q">AdMob -</string>
+</resources>

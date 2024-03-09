@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_gravity="top" android:id="@id/aod" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/bkq">
+        <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@id/d82" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/a96" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/a4p" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/bww" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ProgressBar android:id="@id/bwt" android:layout_width="fill_parent" android:layout_height="@dimen/c0k" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/ay4" style="?android:progressBarStyleHorizontal" />
+        <com.ushareit.downloader.videobrowser.hybrid.CircleProgressView android:layout_gravity="center" android:id="@id/bwu" android:visibility="gone" android:layout_width="@dimen/c36" android:layout_height="@dimen/c36" />
+        <TextView android:textSize="@dimen/c13" android:textColor="@color/a9i" android:layout_gravity="center" android:id="@id/bwv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c36" android:text="@string/b0e" />
+        <include android:id="@id/bwo" layout="@layout/a3h" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bwq" android:background="@drawable/az2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/c2u" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/bwr" android:background="@drawable/ayw" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:layout_marginRight="@dimen/c2n" />
+        <ImageButton android:id="@id/bws" android:background="@drawable/ayz" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:layout_marginLeft="@dimen/c2n" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/bwn" android:background="@color/a9i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</merge>

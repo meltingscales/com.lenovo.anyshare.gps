@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bec" android:paddingLeft="@dimen/bqv" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bqv" android:paddingBottom="@dimen/bqv" android:layout_width="@dimen/bmk" android:layout_height="@dimen/bm5" android:paddingEnd="@dimen/bqv">
+    <com.ushareit.widget.RoundFrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/bmb" android:layout_height="@dimen/brn" app:topLeftRadius="@dimen/blk" app:topRightRadius="@dimen/blk">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cbn" android:layout_width="match_parent" android:layout_height="81dp">
+            <ImageView android:id="@+id/c4o" android:layout_width="0dp" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_weight="1"/>
+            <ImageView android:id="@+id/c4p" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bp0" android:scaleType="centerCrop" android:layout_weight="1" android:layout_marginStart="@dimen/bp0"/>
+        </LinearLayout>
+    </com.ushareit.widget.RoundFrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:layout_gravity="bottom" android:id="@+id/dw3" android:layout_width="@dimen/blp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginTop="@dimen/bq1" android:singleLine="true" android:layout_marginStart="@dimen/brl"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/x7" android:id="@+id/dw9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginTop="@dimen/bq1" android:layout_marginStart="@dimen/brl"/>
+    </LinearLayout>
+</LinearLayout>

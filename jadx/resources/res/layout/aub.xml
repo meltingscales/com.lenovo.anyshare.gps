@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cx4">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="top" android:id="@+id/drl" android:background="@color/av3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentTop="true"/>
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="bottom" android:id="@+id/awp" android:background="@color/av3" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/cy0" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:id="@+id/b_b" android:paddingTop="@dimen/csw" android:paddingBottom="@dimen/csw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d07" android:baselineAligned="false" android:layout_centerVertical="true">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center_vertical" android:id="@+id/b_a" android:padding="@dimen/cw2" android:visibility="gone" android:layout_width="@dimen/cx5" android:layout_height="@dimen/cx5" android:scaleType="fitXY"/>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center_vertical" android:background="@drawable/c_t" android:layout_width="@dimen/cx5" android:layout_height="@dimen/cx5" android:scaleType="centerCrop"/>
+    </FrameLayout>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/cyx" android:textStyle="bold" android:textColor="@color/auf" android:ellipsize="middle" android:gravity="start" android:id="@+id/bae" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d07" android:layout_marginRight="@dimen/d08" android:singleLine="true" android:layout_toRightOf="@+id/b_b" android:layout_centerVertical="true"/>
+    <FrameLayout android:id="@+id/cr4" android:paddingLeft="@dimen/ctv" android:paddingRight="@dimen/ctv" android:layout_width="wrap_content" android:layout_height="@dimen/cwp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center_vertical" android:id="@+id/bt7" android:visibility="gone" android:layout_width="@dimen/cu2" android:layout_height="@dimen/cu2" android:layout_marginRight="@dimen/cun" android:src="@drawable/c9_" app:night_bg_color_tint="@color/auf"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/cr5" android:paddingLeft="@dimen/ctv" android:paddingRight="@dimen/ctv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cwp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center_vertical" android:id="@+id/bt8" android:padding="@dimen/cya" android:layout_width="@dimen/cwp" android:layout_height="@dimen/cwp" android:src="@drawable/c7o" app:night_bg_color_tint="@color/auf"/>
+    </FrameLayout>
+</RelativeLayout>

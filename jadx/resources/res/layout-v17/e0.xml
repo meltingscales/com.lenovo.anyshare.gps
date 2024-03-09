@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:background="@null" style="@style/ps">
+            <FrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/boj" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/boj" android:layout_height="@dimen/iz" android:src="@drawable/h2" android:scaleType="centerCrop"/>
+                <TextView android:textSize="@dimen/bsx" android:textColor="#ffffffff" android:layout_gravity="bottom|center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:layout_marginBottom="@dimen/bn4" android:text="@string/k9"/>
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="bottom|center_horizontal" android:orientation="vertical" android:layout_width="@dimen/boj" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq4">
+                <Button android:textStyle="bold" android:textColor="@color/v9" android:layout_gravity="center_horizontal" android:id="@+id/k_" android:background="@drawable/hr" android:layout_height="@dimen/bq9" android:layout_marginLeft="@dimen/bkq" android:layout_marginRight="@dimen/bkq" android:layout_marginBottom="@dimen/bo8" android:text="@string/ard" android:layout_marginStart="@dimen/bkq" android:layout_marginEnd="@dimen/bkq" style="@style/w1"/>
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ef" android:layout_gravity="center_horizontal" android:id="@+id/j9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnj" android:text="@string/lb" android:textAllCaps="true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

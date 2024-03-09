@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.share.discover.page.DiscoverTitleLayout android:id="@id/b8q" android:background="@color/z6" android:layout_width="fill_parent" android:layout_height="@dimen/btl"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:a78="@color/w4" style="@style/aj7" />
+    <ViewStub android:layout_gravity="start|center" android:id="@id/b79" android:layout="@layout/yb" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/ait" />
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/tj" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DISCOVER" android:singleLine="true" android:drawablePadding="5.0dip" app:a7i="@color/w4" style="@style/alh" />
+    <com.ushareit.theme.night.view.NightButton android:textSize="@dimen/bts" android:textColor="@color/a7a" android:gravity="center" android:layout_gravity="end|center" android:id="@id/right_button" android:background="@color/bi0" android:visibility="gone" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" app:a78="@color/w4" style="@style/ahx" />
+    <ViewStub android:layout_gravity="end|center" android:id="@id/right_container" android:layout="@layout/yc" android:layout_width="@dimen/bso" android:layout_height="@dimen/bso" style="@style/ahx" />
+</com.lenovo.anyshare.share.discover.page.DiscoverTitleLayout>

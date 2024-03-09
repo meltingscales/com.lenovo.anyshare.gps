@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/bi0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:id="@id/cl5" android:background="@drawable/duj" android:padding="@dimen/dhs" android:visibility="gone" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" app:a0o="csi" app:a17="csi" app:a1a="csi" app:a1g="csi" />
+    <include android:id="@id/c9i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a0o="csi" app:a17="csi" app:a1a="csi" app:a1g="csi" layout="@layout/a05" />
+</androidx.constraintlayout.widget.ConstraintLayout>

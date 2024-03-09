@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:background="@color/atl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/d3m" android:background="@drawable/ca1" android:paddingTop="@dimen/cv_" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d10" android:layout_marginTop="@dimen/d11" android:layout_marginRight="@dimen/d10" android:layout_marginBottom="@dimen/d11" android:maxWidth="@dimen/d12">
+        <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d0z" android:layout_marginTop="@dimen/d13" android:layout_marginRight="@dimen/d0z">
+            <ImageView android:layout_gravity="start|bottom|center" android:layout_width="@dimen/cx2" android:layout_height="@dimen/cx2" android:src="@drawable/ccn" />
+            <TextView android:textSize="@dimen/d14" android:textColor="@color/auo" android:layout_gravity="center_vertical" android:id="@id/d3k" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cuu" android:text="@string/bo0" android:layout_marginStart="@dimen/cuu" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/b1z" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d0z" android:layout_marginTop="@dimen/cum" android:layout_marginRight="@dimen/d0z" android:layout_marginStart="@dimen/cvp">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/b26" android:layout_width="@dimen/d0y" android:layout_height="@dimen/d0y" android:layout_marginRight="@dimen/d0x" android:src="@drawable/c9v" android:layout_marginEnd="@dimen/d0x" />
+            <TextView android:textSize="@dimen/cyv" android:textColor="@color/aut" android:layout_gravity="center_vertical" android:id="@id/b2a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bn2" />
+        </LinearLayout>
+        <include layout="@layout/asc" />
+    </LinearLayout>
+</FrameLayout>

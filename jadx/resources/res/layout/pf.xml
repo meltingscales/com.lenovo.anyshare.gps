@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/u6" android:paddingLeft="@dimen/apb" android:paddingRight="@dimen/apb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj">
+    <FrameLayout android:layout_width="@dimen/apr" android:layout_height="wrap_content" android:minHeight="@dimen/ars">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/apr" android:layout_height="@dimen/apr" android:src="@drawable/a5g"/>
+        <TextView android:textSize="@dimen/asp" android:textStyle="bold" android:textColor="@color/l9" android:layout_gravity="center" android:id="@+id/adg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/am3" android:layout_marginRight="@dimen/am3" android:layout_weight="1">
+        <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:ellipsize="end" android:id="@+id/zr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/kx" android:ellipsize="end" android:gravity="center" android:id="@+id/z2" android:background="@drawable/pb" android:paddingLeft="@dimen/arr" android:paddingRight="@dimen/arr" android:paddingBottom="@dimen/alp" android:layout_width="wrap_content" android:layout_height="@dimen/ao_" android:layout_marginTop="@dimen/arr" android:text="@string/va" android:maxLines="1" android:drawableLeft="@drawable/a4y" android:drawablePadding="@dimen/aqj" android:drawableStart="@drawable/a4y"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/asv" android:textStyle="bold" android:textColor="@color/ij" android:id="@+id/zg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

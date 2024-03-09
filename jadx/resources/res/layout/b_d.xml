@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b1j" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bee" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <include layout="@layout/b_e"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bf7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/br3" android:layout_below="@+id/bee">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dmk" android:textColor="@color/bj1" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7v" android:maxLines="1" app:night_tv_text_color="@color/w4"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dmk" android:textColor="@color/xf" android:ellipsize="end" android:id="@+id/cgk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dmh" android:text="@string/d7s" android:maxLines="1"/>
+    </LinearLayout>
+</RelativeLayout>

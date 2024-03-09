@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="e">
+        <item>Sentiasa Mendoakan Anda Sepanjang Ramadan Ini</item>
+        <item>Semoga sentiasa dalam jagaan Allah SWT</item>
+        <item>Semoga Anda sentiasa dirahmati Allah di Bulan Suci Ini</item>
+        <item>Semoga anda mendapat segala kebaikan Ramadan ini</item>
+        <item>Semoga Bulan Suci Ini Membawa Berkah</item>
+        <item>Semoga bulan yang mulia ini membawa limpahan keberkatan</item>
+        <item>Semoga Ramadan membantu anda supaya lebih dekat ke Jannah</item>
+        <item>Memastikan anda sentiada bersolat bersama kami sepanjang Ramadan</item>
+        <item>Menyampaikan kasih sayang kepada keluarga anda pada bulan Ramadan ini.</item>
+        <item>Semoga Allah bersama anda sepanjang puasa anda.</item>
+        <item>Semoga Allah memberkati anda pada bulan yang suci ini.</item>
+        <item>Allah merahmati dan melindungi keluarga anda sepanjang Ramadan</item>
+        <item>Semoga Allah murahkan rezeki anda pada Ramadan ini</item>
+        <item>Selamat menyambut bulan yang penuh pencerahan dan kegembiraan.</item>
+        <item>Biar Allah memenuhi hidup anda di bulan yang mulia ini</item>
+        <item>Semoga anda sentiada dalam keadaan baik pada Ramadan ini.</item>
+        <item>Semoga puasa anda membawa ketenangan dan kegembiraan yang wujud.</item>
+    </array>
+    <array name="a">
+        <item>Pornografi Kesat</item>
+        <item>Jenayah</item>
+        <item>Sensitif Politik</item>
+        <item>Pemasaran Haram</item>
+        <item>Maklumat Palsu</item>
+        <item>Pelanggaran</item>
+    </array>
+    <array name="c">
+        <item>Kandungan yang tidak wajar</item>
+        <item>Pornografi</item>
+        <item>Kandungan ganas</item>
+        <item>Kandungan memudaratkan dan berbahaya</item>
+        <item>Tajuk/kulit tidak sepadan dengan kandungan</item>
+    </array>
+    <array name="s">
+        <item>Nama(A-Z)</item>
+        <item>Nama(Z-A)</item>
+        <item>Tarikh(mengikut tertib kronologi terbalik)</item>
+        <item>Tarikh(mengikut tertib kronologi)</item>
+    </array>
+    <array name="t">
+        <item>Itu bukannya pengalaman yang kami ingin anda miliki. Sila kongsikan maklum balas anda di bawah.</item>
+        <item>Uh oh! Boleh anda beritahu kami tentang apa yang kami boleh perbaiki?</item>
+        <item>Terima kasih atas maklum balas anda, adakah terdapat sesuatu khusus yang anda fikir kami boleh perbaiki?</item>
+        <item>Terima kasih! Maklum balas anda memberi kami ilham untuk memperbaiki. Bolehkah anda memberi 5?</item>
+        <item>Terima kasih! Maklum balas mengagumkan anda menggembirakan kami! Sila nilai kami di Play Store.</item>
+    </array>
+    <array name="v">
+        <item>%s aplikasi boleh dikemas kini tanpa menggunakan data</item>
+        <item>%s aplikasi yang anda terima belum dikemas kini</item>
+        <item>%s aplikasi yang dikongsi oleh rakan perlu dikemas kini</item>
+    </array>
+    <array name="w">
+        <item>%s aplikasi boleh dikemaskini tanpa menggunakan data</item>
+        <item>%s aplikasi belum dikemaskini</item>
+        <item>%s aplikasi yang dikongsi rakan dapat dikemaskini</item>
+    </array>
+    <array name="x">
+        <item>Fail audio besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="y">
+        <item>Fail audio besar telah mengambil %s storan</item>
+    </array>
+    <array name="z">
+        <item>Fail imej besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="a0">
+        <item>Fail imej besar telah mengambil %s storan</item>
+    </array>
+    <array name="a1">
+        <item>Fail besar telah memenuhi ruang %s</item>
+        <item>Sudah tiba masanya untuk membersihkan %s fail besar dalam storan</item>
+    </array>
+    <array name="a2">
+        <item>Bebaskan %s storan dengan membersihkan fail besar</item>
+        <item>Cepat bersihkan %s fail besar dalam telefon anda</item>
+    </array>
+    <array name="a3">
+        <item>Fail video besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="a4">
+        <item>Fail video besar telah mengambil %s storan</item>
+    </array>
+    <array name="a5">
+        <item>Menemui %s muzik pendua untuk dibersihkan</item>
+        <item>Bersihkan %s muzik pendua untuk mengosongkan ruang</item>
+    </array>
+    <array name="a6">
+        <item>%s muzik pendua dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s muzik pendua</item>
+    </array>
+    <array name="a7">
+        <item>Menemui foto pendua %s untuk dibersihkan</item>
+        <item>Ingat untuk membersihkan foto pendua %s untuk mengosongkan ruang</item>
+    </array>
+    <array name="a8">
+        <item>%s foto pendua dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s foto pendua</item>
+    </array>
+    <array name="a9">
+        <item>Menemui video pendua %s untuk dibersihkan</item>
+        <item>Ingat untuk membersihkan video pendua %s untuk mengosongkan ruang</item>
+    </array>
+    <array name="a_">
+        <item>%s video pendua dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s video pendua</item>
+    </array>
+    <array name="aa">
+        <item>%s fail sarap melambatkan sistem</item>
+        <item>%s fail sarap dikesan</item>
+    </array>
+    <array name="ab">
+        <item>Alert! %s fail sarap membebankan telefon</item>
+        <item>%s fail sarap dikesan</item>
+    </array>
+    <array name="ac">
+        <item>Sudah %s hari sejak anda membersihkan fail sarap</item>
+        <item>Fail sarap mudah alih belum dibersihkan selama lebih dari %s hari</item>
+    </array>
+    <array name="ad">
+        <item>Sudah %s hari sejak anda membersihkan telefon</item>
+        <item>Sudah %s hari fail sarap tidak dibersihkan</item>
+    </array>
+    <array name="ae">
+        <item>%s lagu yang dikongsi oleh rakan belum dimainkan</item>
+        <item>%s lagu baharu yang dikongsi oleh rakan belum dimainkan.</item>
+        <item>Adakah anda masih ingat lagu %s yang anda terima?</item>
+    </array>
+    <array name="af">
+        <item>%s lagu yang dikongsi rakan belum dimainkan</item>
+        <item>%s lagu baharu yang anda terima belum dimainkan</item>
+        <item>Adakah anda masih ingat %s lagu yang anda terima?</item>
+    </array>
+    <array name="ag">
+        <item>Menemui sarap sisa aplikasi yang dinyahpasang</item>
+    </array>
+    <array name="ah">
+        <item>Mengesan sisa sarap aplikasi yang dinyahpasang</item>
+    </array>
+    <array name="ai">
+        <item>Menemui fail tangkapan skrin %s untuk dibersihkan</item>
+        <item>Ingat untuk membersihkan fail tangkapan skrin %s</item>
+    </array>
+    <array name="aj">
+        <item>%s fail tangkapan skrin dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s tangkapan skrin</item>
+    </array>
+    <array name="ak">
+        <item>%s aplikasi yang tidak digunakan dikesan</item>
+    </array>
+    <array name="al">
+        <item>Video ini telah diambil oleh seseirang dengan telefon atau kamera</item>
+        <item>Ini adalah video awam</item>
+        <item>Sebab lain</item>
+    </array>
+    <array name="am">
+        <item>Apakah nombor bertuah anda?</item>
+        <item>Apakah impian anda?</item>
+        <item>Ke manakah anda mahu pergi?</item>
+        <item>Filem apakah kegemaran anda?</item>
+        <item>Kemahiran apakah anda ingin ambil?</item>
+        <item>Siapakah nama rakan baik anda?</item>
+        <item>Makanan apakah kegemaran anda?</item>
+    </array>
+    <array name="an">
+        <item>Apakah nombor bertuah anda?</item>
+        <item>Makanan apakah kegemaran anda?</item>
+        <item>Siapakah nama rakan baik anda?</item>
+        <item>Filem apakah kegemaran anda?</item>
+        <item>Apakah impian anda?</item>
+    </array>
+    <array name="ao">
+        <item>%s aplikasi boleh dikemas kini tanpa menggunakan data</item>
+        <item>%s aplikasi yang anda terima belum dikemas kini</item>
+        <item>%s aplikasi yang dikongsi oleh rakan perlu dikemas kini</item>
+    </array>
+    <array name="ap">
+        <item>Kemas Kini Tersedia untuk %s Aplikasi Dikongsi kepada anda</item>
+        <item>Kemas Kini Sekarang! %s Versi Aplikasi Baharu Tersedia</item>
+        <item>Ikuti perkembangan terkini dengan versi aplikasi terkini.</item>
+        <item>Temui perkara baharu! Kemas Kini Hari Ini!</item>
+    </array>
+    <array name="aq">
+        <item>Fail audio besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="ar">
+        <item>Fail audio besar telah mengambil %s storan</item>
+    </array>
+    <array name="as">
+        <item>Fail imej besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="at">
+        <item>Fail imej besar telah mengambil %s storan</item>
+    </array>
+    <array name="au">
+        <item>Fail besar telah memenuhi ruang %s</item>
+        <item>Sudah tiba masanya untuk membersihkan %s fail besar dalam storan</item>
+    </array>
+    <array name="av">
+        <item>Bebaskan %s storan dengan membersihkan fail besar</item>
+        <item>Cepat bersihkan %s fail besar dalam telefon anda</item>
+    </array>
+    <array name="aw">
+        <item>Fail video besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="ax">
+        <item>Fail video besar telah mengambil %s storan</item>
+    </array>
+    <array name="ay">
+        <item>Aplikasi ini melambatkan sistem, galakkan telefon anda sekarang</item>
+    </array>
+    <array name="az">
+        <item>Aplikasi-aplikasi ini sedang membebankan telefon</item>
+    </array>
+    <array name="b0">
+        <item>%s aplikasi melambatkan sistem, galakkan telefon anda sekarang</item>
+    </array>
+    <array name="b1">
+        <item>%s aplikasi sedang membebankan telefon</item>
+    </array>
+    <array name="b2">
+        <item>Klik untuk memecut kelajuan pengecasan sekarang</item>
+    </array>
+    <array name="b3">
+        <item>Klik &amp; percepatkan kelajuan pengecasan telefon</item>
+    </array>
+    <array name="b4">
+        <item>%s aplikasi memperlahankan kelajuan pengecasan anda</item>
+    </array>
+    <array name="b5">
+        <item>%s aplikasi memperlahankan kelajuan pengecasan telefon</item>
+    </array>
+    <array name="b6">
+        <item>Kehabisan storan, sambungkan kepada PC untuk mengosongkan ruang</item>
+        <item>Kehabisan storan, pindahkan fail besar kepada PC</item>
+    </array>
+    <array name="b7">
+        <item>Menemui %s muzik pendua untuk dibersihkan</item>
+        <item>Bersihkan %s muzik pendua untuk mengosongkan ruang</item>
+    </array>
+    <array name="b8">
+        <item>%s muzik pendua dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s muzik pendua</item>
+    </array>
+    <array name="b9">
+        <item>Menemui foto pendua %s untuk dibersihkan</item>
+        <item>Ingat untuk membersihkan foto pendua %s untuk mengosongkan ruang</item>
+    </array>
+    <array name="b_">
+        <item>%s foto pendua dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s foto pendua</item>
+    </array>
+    <array name="ba">
+        <item>Menemui video pendua %s untuk dibersihkan</item>
+        <item>Ingat untuk membersihkan video pendua %s untuk mengosongkan ruang</item>
+    </array>
+    <array name="bb">
+        <item>%s video pendua dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s video pendua</item>
+    </array>
+    <array name="bc">
+        <item>︎Pakai fon kepala</item>
+        <item>Masa untuk mendengar muzik︎</item>
+    </array>
+    <array name="bd">
+        <item>%s fail sarap melambatkan sistem</item>
+        <item>%s fail sarap dikesan</item>
+    </array>
+    <array name="be">
+        <item>Alert! %s fail sarap membebankan telefon</item>
+        <item>%s fail sarap dikesan</item>
+    </array>
+    <array name="bf">
+        <item>Sudah %s hari sejak anda membersihkan fail sarap</item>
+        <item>Fail sarap mudah alih belum dibersihkan selama lebih dari %s hari</item>
+    </array>
+    <array name="bg">
+        <item>Sudah %s hari sejak anda membersihkan telefon</item>
+        <item>Sudah %s hari fail sarap tidak dibersihkan</item>
+    </array>
+    <array name="bh">
+        <item>%s lagu yang dikongsi oleh rakan belum dimainkan</item>
+        <item>%s lagu baharu yang dikongsi oleh rakan belum dimainkan.</item>
+        <item>Adakah anda masih ingat lagu %s yang anda terima?</item>
+    </array>
+    <array name="bi">
+        <item>Terlepas lagu-lagu hebat? Sudah tiba masanya untuk memainkan dan terokai semula muzik kegemaran anda!</item>
+        <item>Rasa kekosongan? Naikkan kelantangan dan biarkan muzik mengisi hari-hari anda dengan kegembiraan.</item>
+        <item>Rindu rentak yang menggerakkan anda? Selami lagu kegemaran anda dan biarkan irama memacu hari anda.</item>
+    </array>
+    <array name="bk">
+        <item>Dengar senarai main anda❤</item>
+        <item>Dengar senarai main anda</item>
+    </array>
+    <array name="bl">
+        <item>Aplikasi-aplikasi ini dikesan menghabiskan bateri</item>
+    </array>
+    <array name="bm">
+        <item>%s aplikasi menggunakan bateri di latar belakang</item>
+    </array>
+    <array name="bn">
+        <item>%s aplikasi dikesan menghabiskan bateri</item>
+    </array>
+    <array name="bo">
+        <item>Fail baki aplikasi yang baru dipadam dikesan</item>
+        <item>Alih keluar Fail baki aplikasi yang baru dipadam</item>
+    </array>
+    <array name="bq">
+        <item>Menemui fail tangkapan skrin %s untuk dibersihkan</item>
+        <item>Ingat untuk membersihkan fail tangkapan skrin %s</item>
+    </array>
+    <array name="br">
+        <item>%s fail tangkapan skrin dikesan untuk dibersihkan</item>
+        <item>Jangan lupa untuk membersihkan %s tangkapan skrin</item>
+    </array>
+    <array name="bs">
+        <item>%s kenangan baharu untuk dikongsi dengan rakan dan orang tersayang</item>
+        <item>Kongsi %s foto baharu tanpa kehilangan kualiti</item>
+    </array>
+    <array name="bt">
+        <item>Klik untuk main</item>
+        <item>Masa untuk mendengar muzik</item>
+    </array>
+    <array name="bx">
+        <item>%s aplikasi yang tidak digunakan dikesan</item>
+    </array>
+    <array name="bz">
+        <item>%1$s dikesan dengan %2$s ancaman keselamatan</item>
+        <item>%1$s aplikasi dikesan dengan %2$s ancaman keselamatan</item>
+    </array>
+    <array name="c2">
+        <item>Aplikasi ini menggunakan bateri di latar belakang</item>
+    </array>
+    <array name="c3">
+        <item>Muncul terlalu kerap</item>
+        <item>Masa yang tidak sesuai</item>
+        <item>Kualiti Rendah</item>
+        <item>Iklan Menjengkelkan</item>
+        <item>Tidak berminat</item>
+    </array>
+    <array name="c4">
+        <item>Perkakasan</item>
+        <item>Perisian</item>
+    </array>
+    <array name="c5">
+        <item>Automain</item>
+        <item>Gelung</item>
+    </array>
+    <array name="c6">
+        <item>Fail yang tersalah padam</item>
+        <item>Tidak berfungsi</item>
+        <item>Tidak berfungsi sepenuhnya</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="c8">
+        <item>Tidak dapat sambung e iOS atau PC</item>
+        <item>Kandungan video tidak sesuai</item>
+        <item>Video lambat atau penimbal</item>
+        <item>Imej kualiti rendah</item>
+        <item>Pemuatan video perlahan</item>
+        <item>Diganggu oleh iklan</item>
+    </array>
+    <array name="c9">
+        <item>Tidak berfungsi</item>
+        <item>Tidak berfungsi sepenuhnya</item>
+        <item>Terlalu banyak pemberitahuan palsu</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="c_">
+        <item>Percubaan berbilang untuk memulakan hotspot Wi-Fi</item>
+        <item>Mengambil masa lama untuk memulakan hotspot Wi-Fi</item>
+        <item>Kemajuan perpindahan terhenti</item>
+        <item>Banyak percubaan untuk menyambung</item>
+    </array>
+    <array name="ca">
+        <item>Percubaan semula berbilang untuk mencari penerima</item>
+        <item>Kesukaran dengan memilih fail</item>
+        <item>Percubaan berbilang untuk menyambung</item>
+        <item>Memutuskan sambungan semasa pemindahan</item>
+    </array>
+    <array name="cb">
+        <item>Kelajuan pemindahan perlahan</item>
+        <item>Tidak berfungsi</item>
+        <item>Fail yang tersalah padam</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="cc">
+        <item>Telefon masih lembap</item>
+        <item>Tidak berfungsi</item>
+        <item>Tidak berfungsi sepenuhnya</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="cd">
+        <item>Kelajuan pemindahan perlahan</item>
+        <item>Proses pemindahan terlalu kompleks</item>
+        <item>Tidak dapat sambung dengan iOS atau PC</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="cf">
+        <item>Antara Muka Buruk</item>
+        <item>Fungsi Tidak Memuaskan</item>
+        <item>Kegigihan yang Mengganggu</item>
+    </array>
+    <array name="cg">
+        <item>Kandungan yang tidak wajar</item>
+        <item>Pornografi</item>
+        <item>Kandungan ganas</item>
+        <item>Kandungan memudaratkan dan berbahaya</item>
+        <item>Tajuk/kulit tidak sepadan dengan kandungan</item>
+    </array>
+    <array name="ch">
+        <item>Spam atau kandungan mengelirukan</item>
+        <item>Melanggar hak saya</item>
+        <item>Saya mahu lirik</item>
+        <item>Saya mahu berkongsi</item>
+        <item>Saya mahu banyak lagi lagu daripada artis ini</item>
+    </array>
+    <array name="ci">
+        <item>Masa ditambah</item>
+        <item>Tempoh Main</item>
+        <item>Tajuk</item>
+    </array>
+    <array name="cj">
+        <item>Selepas bermula, folder dan fail tersembunyi akan ditunjukkan</item>
+        <item>Fail yang disertakan dalam folder .nomedia tidak akan diimbas secara lalai</item>
+    </array>
+    <array name="ck">
+        <item>Tunjukkan fail dan folder tersembunyi</item>
+        <item>Imbas folder .nomedia</item>
+    </array>
+    <array name="cl">
+        <item>Penyahkod perisian</item>
+        <item>Penyahkod perkakasan</item>
+    </array>
+    <array name="cn">
+        <item>Muat terbaik</item>
+        <item>Isi</item>
+        <item>1 : 1</item>
+        <item>4 : 3</item>
+        <item>16 : 9</item>
+    </array>
+    <array name="u">
+        <item>Lintas bintang dan bulan untuk kenali diri anda dengan lebih baik.</item>
+        <item>Cuaca tiba-tiba menjadi dingin, jadi sudah tiba masanya untuk menukar cerita.</item>
+        <item>Impikan apa yang anda ingin impikan, jadilah seperti yang anda inginkan.</item>
+        <item>Kita dilahirkan penuh binasa dan hidup kita memperbaikinya.</item>
+        <item>Wain berasa lebih sedap selepas dimamah usia.</item>
+        <item>Kadang-kadang pernah, kadang-kadang tidak pernah.</item>
+        <item>Saya sentiasa bekerja keras untuk hidup.</item>
+        <item>Mungkin sudah tiba masanya untuk kita bertolak ansur.</item>
+        <item>Hari yang paling panjang telah berakhir.</item>
+        <item>Hidup terlalu singkat untuk dendam jangka panjang.</item>
+    </array>
+    <array name="bj">
+        <item>Lihat detik anda di %s</item>
+    </array>
+    <array name="p">
+        <item>Bagaimanakah untuk membuat lebih banyak wang?</item>
+        <item>Ajar saya cara memasak hidangan?</item>
+        <item>Beri saya nama untuk anak saya.</item>
+    </array>
+    <array name="bp">
+        <item>Padamkan fail sisa daripada aplikasi yang dinyahpasang untuk mengekalkan peranti yang kemas.</item>
+        <item>Alih keluar fail sisa daripada aplikasi yang dinyahpasang untuk kecekapan yang lebih baik.</item>
+        <item>Padamkan fail sisa daripada aplikasi yang dinyahpasang untuk telefon yang bebas kekusutan.</item>
+        <item>Menyahpasang aplikasi mungkin meninggalkan fail yang tidak digunakan. Alih keluar ia sekarang!</item>
+    </array>
+    <array name="bu">
+        <item>Kesenyapan bukan emas. Mainkan sedikit muzik!</item>
+        <item>Serlahkan pencinta muzik dalam diri anda. Tekan main sekarang!</item>
+        <item>Buang habuk pada fon kepala. Masa untuk muzik!</item>
+    </array>
+    <array name="by">
+        <item>Aplikasi yang tidak digunakan semakin bertimbun? Masa untuk pembersihan!</item>
+        <item>Aplikasi yang tidak digunakan memakan ruang? Masa untuk pembersihan?</item>
+        <item>Kosongkan ruang! Pertimbangkan untuk membersihkan aplikasi yang tidak digunakan.</item>
+    </array>
+    <array name="c0">
+        <item>��Berhati-hati agar tidak terlepas Status rakan anda, simpan ia sekarang!</item>
+    </array>
+    <array name="c1">
+        <item>Status baharu ditemui!</item>
+    </array>
+</resources>

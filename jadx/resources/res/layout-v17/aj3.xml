@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <LinearLayout android:gravity="center_horizontal" style="@style/q1">
+        <FrameLayout android:layout_width="@dimen/brh" android:layout_height="@dimen/brh" android:layout_marginTop="@dimen/bl2">
+            <ImageView android:id="@+id/b4_" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bx_" android:scaleType="fitXY"/>
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:src="@drawable/bx9"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/bq1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:layout_marginBottom="@dimen/bow">
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/xu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blm"/>
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/xu" android:id="@+id/bg_" android:layout_width="@dimen/bn4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp0" android:layout_marginStart="@dimen/bp0"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

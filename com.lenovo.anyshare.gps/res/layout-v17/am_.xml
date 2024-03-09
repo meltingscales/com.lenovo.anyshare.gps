@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bnj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginTop="@dimen/brl" android:layout_marginRight="@dimen/brl" android:layout_marginBottom="@dimen/br9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/e4i" android:background="@drawable/bxb" android:layout_width="0.0dip" android:layout_height="0.0dip" app:a0p="@id/e3r" app:a0u="csi" app:a17="csi" app:a1a="csi" app:a1c="csi" app:a1g="csi" />
+    <View android:id="@id/e3r" android:background="@drawable/bxa" android:layout_width="0.0dip" android:layout_height="@dimen/bpv" app:a0o="csi" app:a0u="csi" app:a17="csi" app:a1a="csi" app:a1c="csi" app:a1f="@id/e4i" />
+    <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bm3" android:text="LOCAL SERVICE" android:drawablePadding="@dimen/bl2" android:drawableEnd="@drawable/bvj" app:a17="csi" app:a1c="csi" app:a1g="csi" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_margin="5.0dip" android:src="@drawable/agp" app:a0o="csi" app:a0u="csi" app:a1a="csi" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/bt6" android:paddingLeft="@dimen/bl2" android:paddingRight="@dimen/bl2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" android:layout_marginBottom="@dimen/bmf" android:paddingStart="@dimen/bl2" android:paddingEnd="@dimen/bl2" app:a0o="csi" app:a0u="csi" app:a17="csi" app:a1a="csi" app:a1c="csi" app:a1f="@id/e09">
+        <FrameLayout android:id="@id/c0n" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/c0o" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/c0p" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/c0q" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

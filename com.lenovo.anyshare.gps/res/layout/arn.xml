@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/axg" android:background="@color/avb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.cleanit.local.FilesView android:id="@id/axi" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:layout_gravity="center" android:id="@id/axk" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <com.ushareit.widget.PinnedExpandableListView android:layout_gravity="center" android:id="@id/axh" android:visibility="visible" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:groupIndicator="@null" android:childDivider="@android:color/transparent" android:horizontalSpacing="0.0dip" android:divider="@null" android:dividerHeight="0.0dip" />
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/axl" android:background="@drawable/cf1" android:padding="@dimen/ctv" android:layout_width="@dimen/cx8" android:layout_height="@dimen/cx8" />
+    <include android:id="@id/axj" layout="@layout/arf" />
+</FrameLayout>

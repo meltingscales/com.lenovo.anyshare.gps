@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/fx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@+id/fk" android:background="@color/ah" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" app:rect_radio="0.5236">
+        <FrameLayout android:id="@+id/ax" android:background="@color/c4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/az" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    </com.ushareit.ads.ui.widget.RectFrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/f3" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/a" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/b7" android:src="@drawable/bw"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/cg" android:layout_width="@dimen/cx" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scaleType="fitXY"/>
+        <TextView android:textSize="@dimen/hp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/dz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/eq" android:layout_marginRight="@dimen/f9" android:maxLines="1" android:shadowColor="@color/c8" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="10" android:lineSpacingExtra="@dimen/eq"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@+id/eo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b7" android:layout_marginTop="@dimen/e4" android:layout_marginBottom="@dimen/bz">
+            <FrameLayout android:id="@+id/bz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fi">
+                <com.ushareit.ads.ui.widget.CircleImageView android:id="@+id/by" android:layout_width="@dimen/e4" android:layout_height="@dimen/e4" android:scaleType="centerCrop"/>
+                <ImageView android:id="@+id/cf" android:visibility="gone" android:layout_width="@dimen/cx" android:layout_height="@dimen/bh"/>
+            </FrameLayout>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c6" android:maxLines="2" android:layout_toLeftOf="@+id/a3" android:layout_toRightOf="@+id/bz" android:layout_centerVertical="true"/>
+            <com.san.ads.TextProgressView android:textColor="@color/e2" android:gravity="center" android:id="@+id/a3" android:background="@drawable/x" android:layout_width="wrap_content" android:layout_height="@dimen/dw" android:layout_marginRight="@dimen/c6" android:max="100" android:progress="100" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:progress_drawable="@drawable/a3" app:progress_style="?android:attr/progressBarStyleHorizontal" app:textSize="@dimen/hp" app:text_margin_left="@dimen/b7" app:text_margin_right="@dimen/b7"/>
+        </RelativeLayout>
+        <ProgressBar android:id="@+id/e0" android:layout_width="match_parent" android:layout_height="@dimen/dy" android:layout_marginLeft="@dimen/b7" android:layout_marginRight="@dimen/b7" android:layout_marginBottom="@dimen/cx" android:max="100" android:progress="0" android:progressDrawable="@drawable/a2" style="@android:style/Widget.ProgressBar.Horizontal"/>
+    </LinearLayout>
+</RelativeLayout>

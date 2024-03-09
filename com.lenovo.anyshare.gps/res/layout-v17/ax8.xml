@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/c2g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/brt" android:layout_marginEnd="@dimen/brt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/d6v" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnc" app:a_7="@dimen/blk">
+        <com.lenovo.anyshare.game.widget.MeTabAdsView android:id="@id/br6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/aso" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bmf" android:layout_marginRight="@dimen/brl" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/brl">
+        <ImageView android:id="@+id/cey" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:src="@drawable/buo"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bs3" android:layout_marginRight="@dimen/bs3" android:layout_weight="1">
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/c2q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bjw" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:id="@+id/c1i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bjv" android:maxLines="1"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/bva" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp0" android:layout_marginTop="@dimen/br2" android:layout_marginRight="@dimen/bp0">
+        <include android:id="@+id/c10" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/aie"/>
+        <include android:id="@+id/c11" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/aie"/>
+        <include android:id="@+id/c12" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/aie"/>
+        <include android:id="@+id/c13" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/aie"/>
+    </LinearLayout>
+</FrameLayout>

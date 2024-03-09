@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/jb" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aog" android:layout_marginTop="@dimen/anm" android:text="@string/a4s"/>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/u6" android:paddingTop="7dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginTop="@dimen/arj" android:layout_marginRight="@dimen/aqj">
+            <include android:id="@+id/a_p" layout="@layout/ix"/>
+            <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7"/>
+            <include android:id="@+id/a7n" layout="@layout/ix"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/u6" android:paddingTop="7dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj">
+            <include android:id="@+id/a9v" layout="@layout/ix"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aog" android:layout_marginTop="@dimen/amy" android:text="@string/a3i"/>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/u6" android:paddingTop="7dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginTop="@dimen/as1" android:layout_marginRight="@dimen/aqj">
+            <include android:id="@+id/a6d" layout="@layout/ix"/>
+            <View android:id="@+id/a2l" android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7"/>
+            <include android:id="@+id/a6o" layout="@layout/ix"/>
+            <View android:background="#33979797" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7"/>
+            <include android:id="@+id/uv" android:visibility="gone" layout="@layout/iy"/>
+            <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7"/>
+            <include android:id="@+id/a86" layout="@layout/iy"/>
+            <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7"/>
+            <include android:id="@+id/x5" layout="@layout/iy"/>
+        </LinearLayout>
+        <com.ushareit.muslim.settings.widget.SettingGroupView android:id="@+id/xb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ao5"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

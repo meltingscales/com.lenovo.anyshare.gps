@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d75">4dp</dimen>
+    <dimen name="d77">18dp</dimen>
+    <dimen name="d78">40dp</dimen>
+    <dimen name="d79">2dp</dimen>
+    <dimen name="d7a">2dp</dimen>
+    <dimen name="d7b">40dp</dimen>
+    <dimen name="d7c">20dp</dimen>
+    <dimen name="d7n">128dp</dimen>
+    <dimen name="d7p">4dp</dimen>
+</resources>

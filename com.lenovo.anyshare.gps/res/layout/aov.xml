@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alphagaming.mediation.widget.shape.layout.ShapeRelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/cgx" android:background="@drawable/c3k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/dfq" android:layout_alignRight="@id/dfq">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ag6" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.alphagaming.mediation.widget.shape.layout.ShapeLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/dfq" android:layout_width="@dimen/cnk" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cki" android:layout_centerInParent="true" app:aau="d2m" app:abj="@dimen/cqd" app:abk="#20000000" app:abp="#00000000">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/cgy" android:layout_width="@dimen/cnk" android:layout_height="@dimen/cj7" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/d8h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ag7" />
+        </RelativeLayout>
+        <com.alphagaming.mediation.widget.shape.layout.ShapeRelativeLayout android:id="@id/d6_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:aau="d2m" app:ab1="@dimen/cqd" app:ab2="@dimen/cqd" app:abp="@android:color/white" app:abt="@android:color/white">
+            <ImageView android:id="@id/c5y" android:layout_width="@dimen/cqs" android:layout_height="@dimen/cqs" android:layout_marginTop="@dimen/clp" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/cj_" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/dwm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cnj" android:layout_marginTop="@dimen/cj_" android:layout_marginRight="@dimen/cnj" android:maxLines="1" android:layout_below="@id/c5y" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/cj_" android:fontFamily="PingFang SC" />
+            <TextView android:textSize="@dimen/chs" android:textColor="#ff333333" android:ellipsize="end" android:gravity="center" android:id="@id/dwl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cma" android:layout_marginTop="@dimen/ciz" android:layout_marginRight="@dimen/cma" android:maxLines="2" android:layout_below="@id/dwm" android:layout_centerHorizontal="true" android:lineSpacingExtra="@dimen/chs" android:fontFamily="PingFang SC" />
+            <com.alphagaming.mediation.widget.shape.view.ShapeButton android:textSize="@dimen/cj_" android:textColor="@android:color/white" android:gravity="center" android:id="@id/d8i" android:visibility="invisible" android:clickable="true" android:layout_width="@dimen/cly" android:layout_height="@dimen/cpl" android:layout_marginTop="@dimen/cj_" android:layout_marginBottom="@dimen/cnj" android:text="Get for Free" android:layout_above="@id/d6_" android:layout_below="@id/dwl" android:layout_centerHorizontal="true" app:aau="d2m" app:abj="@dimen/cqd" app:abp="#ff329af9" app:abs="#ff329af9" />
+        </com.alphagaming.mediation.widget.shape.layout.ShapeRelativeLayout>
+    </com.alphagaming.mediation.widget.shape.layout.ShapeLinearLayout>
+</com.alphagaming.mediation.widget.shape.layout.ShapeRelativeLayout>

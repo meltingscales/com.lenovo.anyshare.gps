@@ -1,0 +1,63 @@
+.class public Lcom/ushareit/cleanit/local/EmptyViewHolder;
+.super Lcom/ushareit/cleanit/local/feed/BaseCardViewHolder;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/ushareit/cleanit/local/feed/BaseCardViewHolder;-><init>(Landroid/view/View;)V
+
+    return-void
+.end method
+
+.method public static a(Landroid/view/ViewGroup;)Landroid/view/View;
+    .locals 3
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object v0
+
+    const v1, 0x7f0c07c3
+
+    const/4 v2, 0x0
+
+    .line 2
+    invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public a(Lcom/lenovo/anyshare/eOf;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public bridge synthetic onBindViewHolder(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/lenovo/anyshare/eOf;
+
+    invoke-virtual {p0, p1}, Lcom/ushareit/cleanit/local/EmptyViewHolder;->a(Lcom/lenovo/anyshare/eOf;)V
+
+    return-void
+.end method
+
+.method public onUnbindViewHolder()V
+    .locals 0
+
+    return-void
+.end method

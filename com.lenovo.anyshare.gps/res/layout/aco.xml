@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lenovo.anyshare.content.music.IndexedStickyRecyclerView android:id="@id/baa" android:background="@color/bi0" android:clipToPadding="false" style="@style/qo" />
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/bak" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+    <include android:id="@id/b_c" layout="@layout/a9e" />
+</FrameLayout>

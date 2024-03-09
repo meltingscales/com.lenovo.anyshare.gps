@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@+id/ej" android:layout_width="@dimen/ga" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/ga" android:layout_height="match_parent">
+            <ImageView android:id="@+id/eh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c1" android:scaleType="centerCrop"/>
+            <TextView android:textSize="@dimen/ho" android:textColor="@color/bh" android:id="@+id/ei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dy" android:maxLines="1"/>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/em" android:layout_width="@dimen/ga" android:layout_height="match_parent">
+        <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/f1" android:scaleType="centerCrop"/>
+        <TextView android:textSize="@dimen/ho" android:textColor="@color/bl" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dy" android:text="@string/ej" android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/ec" android:layout_width="@dimen/ga" android:layout_height="match_parent">
+        <com.ushareit.listplayer.widget.DownloadImageView android:id="@+id/ee" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bx" android:scaleType="centerCrop"/>
+        <TextView android:textSize="@dimen/ho" android:textColor="@color/bl" android:id="@+id/ef" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dy" android:text="@string/e8" android:maxLines="1"/>
+    </LinearLayout>
+</merge>

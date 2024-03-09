@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/c9d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="0dp" android:layout_marginHorizontal="@dimen/cx6" app:night_bg_color_tint="@color/au7">
+    <com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:id="@+id/d6v" android:layout_width="match_parent" android:layout_height="wrap_content" app:night_bg_color_tint="@color/au7">
+        <include layout="@layout/asx"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="@dimen/ctv" android:layout_marginRight="@dimen/ctn" android:layout_marginBottom="@dimen/cuu" android:baselineAligned="false">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0u" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0v" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d1v" android:layout_weight="1" android:layout_marginStart="@dimen/d1v"/>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0w" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d1v" android:layout_weight="1" android:layout_marginStart="@dimen/d1v"/>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0x" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/d1v" android:layout_weight="1" android:layout_marginStart="@dimen/d1v"/>
+        </LinearLayout>
+    </com.ushareit.theme.night.view.NightLinearLayout>
+</com.ushareit.theme.night.view.NightFrameLayout>

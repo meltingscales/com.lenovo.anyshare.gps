@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/d7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d5" android:layout_width="match_parent" android:layout_height="@dimen/f3" app:layout_constraintTop_toTopOf="0">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7d0700f1" android:background="@drawable/avk" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/gf" app:night_btn_bg_color_tint="#99ffffff"/>
+        <TextView android:textSize="@dimen/hu" android:textStyle="bold" android:textColor="@color/c4" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/title_text_res_0x7d070124" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dw" android:layout_marginRight="@dimen/fi" android:text="@string/b0b" android:singleLine="true" android:layout_weight="1"/>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@+id/cn" android:visibility="gone" android:layout_width="@dimen/de" android:layout_height="@dimen/df" android:layout_marginRight="@dimen/bh" android:src="@drawable/bi"/>
+    </LinearLayout>
+    <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@+id/ij" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/gk" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.lenovo.anyshare.base.slider.SlidingTabLayout android:id="@+id/gj" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" app:indicatorWidth="@dimen/c" app:tabViewSelectedTextSize="@dimen/v" app:tabViewTextSize="@dimen/v"/>
+            <ViewStub android:id="@+id/dk" android:layout="@layout/cd" android:layout_width="match_parent" android:layout_height="@dimen/fe" android:layout_marginLeft="@dimen/bq" android:layout_marginTop="@dimen/au" android:layout_marginRight="@dimen/bq" android:layout_marginBottom="@dimen/au"/>
+        </LinearLayout>
+    </com.ushareit.listplayer.pager.ViewPagerForSlider>
+</LinearLayout>

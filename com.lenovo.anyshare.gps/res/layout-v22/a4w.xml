@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dgq" android:layout_width="@dimen/c3h" android:layout_height="@dimen/c3h" android:layout_marginLeft="@dimen/c35" android:layout_marginRight="@dimen/c35" android:src="@drawable/b77" android:scaleType="centerInside" android:layout_marginHorizontal="@dimen/c35" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/b7u" android:layout_width="@dimen/c3h" android:layout_height="@dimen/c3h" android:layout_marginLeft="@dimen/c35" android:layout_marginRight="@dimen/c35" android:scaleType="centerInside" android:layout_marginHorizontal="@dimen/c35" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/dct" android:layout_width="@dimen/c3h" android:layout_height="@dimen/c3h" android:layout_marginLeft="@dimen/c35" android:layout_marginRight="@dimen/c35" android:src="@drawable/b75" android:scaleType="centerInside" android:layout_marginHorizontal="@dimen/c35" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/bgj" android:layout_width="@dimen/c3h" android:layout_height="@dimen/c3h" android:layout_marginLeft="@dimen/c35" android:layout_marginRight="@dimen/c35" android:src="@drawable/b73" android:scaleType="centerInside" android:layout_marginHorizontal="@dimen/c35" />
+</merge>

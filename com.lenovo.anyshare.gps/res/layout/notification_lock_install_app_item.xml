@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/d6v" android:background="@drawable/b9i" android:layout_width="fill_parent" android:layout_height="@dimen/bra"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:id="@id/as7" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:a_7="@dimen/brt">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/as5" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:scaleType="centerCrop" />
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/as6" android:background="@drawable/d2f" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:scaleType="centerCrop" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:id="@id/as8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/as7" android:layout_centerVertical="true" />
+    <com.lenovo.anyshare.main.music.equalizer.SwitchButton android:id="@id/dlo" android:background="@drawable/btn" android:layout_width="34.0dip" android:layout_height="20.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:agv="@drawable/bta" />
+</RelativeLayout>

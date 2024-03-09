@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a52" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/c95" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/c3t" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bqd" android:layout_marginBottom="@dimen/bl2" android:src="@drawable/bwm" android:scaleType="fitCenter"/>
+            <TextView android:textSize="@dimen/btd" android:textStyle="bold" android:textColor="@color/bj1" android:layout_gravity="bottom|center_horizontal" android:id="@+id/du8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bok"/>
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/v3" android:layout_gravity="bottom|center_horizontal" android:id="@+id/du_" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/v0" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ays" android:background="@drawable/apm" android:paddingLeft="@dimen/bnb" android:paddingRight="@dimen/bnb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/bq9" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/boe" android:layout_marginRight="@dimen/bl2" android:text="@string/ann" android:maxLines="1" android:includeFontPadding="false"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/c49" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bno" android:src="@drawable/dai"/>
+    </LinearLayout>
+</FrameLayout>

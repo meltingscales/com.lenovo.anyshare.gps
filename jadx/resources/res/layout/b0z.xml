@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+    <View android:id="@+id/bug" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:orientation="horizontal" android:id="@+id/b8q" android:background="@color/bi0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/csw" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="@color/w4" style="@style/aj7"/>
+        <TextView android:textSize="@dimen/btv" android:textColor="#ffffff" android:gravity="start|center_vertical" android:layout_gravity="start" android:id="@+id/title_text_res_0x7f090ec1" android:paddingLeft="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/btu" android:layout_marginRight="@dimen/btu" android:singleLine="true"/>
+        <com.ushareit.theme.night.view.NightButton android:textSize="@dimen/bts" android:textColor="@color/a7a" android:gravity="center" android:layout_gravity="end|center_vertical" android:id="@+id/right_button_res_0x7f090bae" android:background="@drawable/csc" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" app:night_btn_bg_color_tint="@color/w4" style="@style/ai4"/>
+    </FrameLayout>
+</FrameLayout>

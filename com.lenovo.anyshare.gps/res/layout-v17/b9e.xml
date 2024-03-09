@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/bkv" android:fitsSystemWindows="true" style="@style/pi"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="#00000000" style="@style/ph">
+        <LinearLayout android:orientation="vertical" android:id="@id/ben" android:background="@drawable/b9q" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/dpx" android:paddingLeft="@dimen/bo8" android:paddingRight="@dimen/bql" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" android:text="@string/cwj" android:maxLines="5" android:layout_above="@id/dbk" android:paddingStart="@dimen/bo8" android:paddingEnd="@dimen/bql" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/dbk" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bmf" android:layout_marginRight="@dimen/bmm" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/bmm" />
+            <com.ushareit.widget.UpperCaseButton android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a4d" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/db7" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmw" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bnj" android:text="@string/cwi" android:singleLine="true" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bo8" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end" android:id="@id/c49" android:padding="@dimen/bqf" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:src="@drawable/dg2" android:layout_marginEnd="@dimen/bmm" />
+    </FrameLayout>
+</LinearLayout>

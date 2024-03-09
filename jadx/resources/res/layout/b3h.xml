@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/aor" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aox" android:background="@drawable/d3u" android:layout_width="match_parent" android:layout_height="@dimen/bqq">
+        <com.san.ads.MediaView android:id="@+id/bx9" android:layout_width="@dimen/bqq" android:layout_height="@dimen/bqq">
+            <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/a1w"/>
+        </com.san.ads.MediaView>
+        <RelativeLayout android:id="@+id/aog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginRight="@dimen/brt" android:layout_weight="1">
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bq1" android:singleLine="true"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/title">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aom" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bqv" android:src="@drawable/d3v" android:scaleType="fitXY"/>
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:layout_gravity="bottom" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/blk" style="@style/ag6">
+            <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:layout_width="@dimen/brj" android:layout_height="@dimen/bo8" android:max="100" android:progress="100" android:maxLines="1" android:maxEms="6" app:reset_drawable="false" app:textSize="@dimen/bsw" app:text_bold="true" app:text_default_color="@color/wh" app:text_margin_left="@dimen/brt" app:text_margin_right="@dimen/brt" app:text_max_length="@dimen/bre" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/d3t"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

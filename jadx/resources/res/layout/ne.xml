@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/iy" android:gravity="center" android:layout_gravity="center" android:id="@+id/adc" android:layout_width="@dimen/aon" android:layout_height="@dimen/aon"/>
+        <TextView android:gravity="center" android:id="@+id/abl" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+        <com.ushareit.muslim.prayerrecorder.widget.DateBgView android:id="@+id/aeh" android:visibility="invisible" android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:layout_margin="1dp"/>
+    </FrameLayout>
+</FrameLayout>

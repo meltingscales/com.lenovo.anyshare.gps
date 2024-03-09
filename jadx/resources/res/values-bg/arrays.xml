@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Вулгарна порнография</item>
+        <item>Престъпления</item>
+        <item>Политически чувствително</item>
+        <item>Незаконен маркетинг</item>
+        <item>Невярна информация</item>
+        <item>Посегателство</item>
+    </array>
+    <array name="c">
+        <item>Смущаващо съдържание</item>
+        <item>Порнография</item>
+        <item>Съдържа насилие</item>
+        <item>Вредно и опасно съдържание</item>
+        <item>Заглавието/корицата не съответства на съдържанието</item>
+    </array>
+</resources>

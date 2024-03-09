@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/bmf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:gravity="center" android:id="@+id/b04" android:layout_width="0dp" android:layout_height="wrap_content" android:text="submit" android:layout_weight="1"/>
+            <Button android:gravity="center" android:id="@+id/azm" android:layout_width="0dp" android:layout_height="wrap_content" android:text="reset" android:layout_weight="1"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/dbw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:textSize="@dimen/bt6" android:textStyle="normal" android:text="Use Midas1.0" style="@style/a78"/>
+            <include android:id="@+id/dbx" layout="@layout/bfs"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="brand Splash（Native）"/>
+            <EditText android:id="@+id/bjo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="homepage banner /native ad"/>
+            <EditText android:id="@+id/bjn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="homepage banner /native ad in stagger feed"/>
+            <EditText android:id="@+id/bjz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="homepage feed big picture 01"/>
+            <EditText android:id="@+id/bjr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="homepage feed big picture 01 in stagger feed"/>
+            <EditText android:id="@+id/bk0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="homepage pop-ups"/>
+            <EditText android:id="@+id/bjs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="send select app  banner"/>
+            <EditText android:id="@+id/bjh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="portal  banner/native ad"/>
+            <EditText android:id="@+id/bk3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="portal big picture "/>
+            <EditText android:id="@+id/bk4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="radar banner"/>
+            <EditText android:id="@+id/bk2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="other banner/ native  ad"/>
+            <EditText android:id="@+id/bjq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="Pull to Refresh ad"/>
+            <EditText android:id="@+id/bjw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="send transmission result"/>
+            <EditText android:id="@+id/bk1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="local head banner"/>
+            <EditText android:id="@+id/bjp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="game popuplar feedcard"/>
+            <EditText android:id="@+id/bjj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="app send select hotapp"/>
+            <EditText android:id="@+id/bjx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="home titlebar corner"/>
+            <EditText android:id="@+id/bjm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="local recent feedcard"/>
+            <EditText android:id="@+id/bjl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="send radar connecting"/>
+            <EditText android:id="@+id/bjy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:text="Immersive video detail page in stagger feed"/>
+            <EditText android:id="@+id/bjk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

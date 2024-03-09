@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tt_app_open_ad_no_animation" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/tt_animation</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+    <style name="jo" parent="@style/ma">
+    </style>
+    <style name="jv" parent="@style/mb">
+    </style>
+    <style name="lo" parent="@style/a3y">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/adm</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="DEF_STYLE_ATTR">@style/rq</item>
+        <item name="mi">@style/ade</item>
+        <item name="mj">@style/ade</item>
+        <item name="mk">@style/adf</item>
+        <item name="ml">@style/ade</item>
+        <item name="a3y">@style/rr</item>
+        <item name="a3z">@integer/au</item>
+    </style>
+    <style name="ma" parent="@style/m8">
+        <item name="sq">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="mb" parent="@style/m9">
+        <item name="sq">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="yw" parent="@style/x3">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/bry</item>
+        <item name="android:letterSpacing">0.0312</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="wj">@string/bry</item>
+        <item name="a2o">24sp</item>
+    </style>
+    <style name="yx" parent="@style/x2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/bry</item>
+        <item name="android:letterSpacing">0.0179</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="wj">@string/bry</item>
+        <item name="a2o">20sp</item>
+    </style>
+    <style name="yy" parent="@style/x5">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/bry</item>
+        <item name="android:letterSpacing">0.0333</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="wj">@string/bry</item>
+        <item name="a2o">16sp</item>
+    </style>
+    <style name="yz" parent="@style/x8">
+        <item name="android:textSize">57sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brw</item>
+        <item name="android:letterSpacing">-0.0044</item>
+        <item name="android:lineHeight">64sp</item>
+        <item name="wj">@string/brw</item>
+        <item name="a2o">64sp</item>
+    </style>
+    <style name="z0" parent="@style/x7">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brw</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">52sp</item>
+        <item name="wj">@string/brw</item>
+        <item name="a2o">52sp</item>
+    </style>
+    <style name="z1" parent="@style/x6">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brw</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">44sp</item>
+        <item name="wj">@string/brw</item>
+        <item name="a2o">44sp</item>
+    </style>
+    <style name="z2" parent="@style/x6">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brw</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">40sp</item>
+        <item name="wj">@string/brw</item>
+        <item name="a2o">40sp</item>
+    </style>
+    <style name="z3" parent="@style/x_">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brw</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">36sp</item>
+        <item name="wj">@string/brw</item>
+        <item name="a2o">36sp</item>
+    </style>
+    <style name="z4" parent="@style/xq">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brw</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">32sp</item>
+        <item name="wj">@string/brw</item>
+        <item name="a2o">32sp</item>
+    </style>
+    <style name="z5" parent="@style/x2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brx</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="wj">@string/brx</item>
+        <item name="a2o">20sp</item>
+    </style>
+    <style name="z6" parent="@style/x5">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brx</item>
+        <item name="android:letterSpacing">0.0417</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="wj">@string/brx</item>
+        <item name="a2o">16sp</item>
+    </style>
+    <style name="z7" parent="@style/x5">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brx</item>
+        <item name="android:letterSpacing">0.0455</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="wj">@string/brx</item>
+        <item name="a2o">16sp</item>
+    </style>
+    <style name="z8" parent="@style/xq">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brw</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">28sp</item>
+        <item name="wj">@string/brw</item>
+        <item name="a2o">28sp</item>
+    </style>
+    <style name="z9" parent="@style/xo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brx</item>
+        <item name="android:letterSpacing">0.0094</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="wj">@string/brx</item>
+        <item name="a2o">24sp</item>
+    </style>
+    <style name="z_" parent="@style/xo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/brx</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="wj">@string/brx</item>
+        <item name="a2o">20sp</item>
+    </style>
+    <style name="a_3" parent="@style/acw">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="a2j">true</item>
+    </style>
+    <style name="acl" parent="@style/a9m">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="qr">0dp</item>
+        <item name="agi">?attr/aix</item>
+        <item name="aki">?attr/aiw</item>
+    </style>
+</resources>

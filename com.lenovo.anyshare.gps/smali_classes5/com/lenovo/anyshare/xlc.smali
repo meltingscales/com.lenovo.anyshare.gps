@@ -1,0 +1,57 @@
+.class public Lcom/lenovo/anyshare/xlc;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/lenovo/anyshare/Ulc;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/lenovo/anyshare/Blc;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lcom/lenovo/anyshare/Rlc;)Lcom/lenovo/anyshare/cEc;
+    .locals 2
+
+    .line 1
+    new-instance p1, Lcom/reader/office/java/awt/geom/GeneralPath;
+
+    invoke-direct {p1}, Lcom/reader/office/java/awt/geom/GeneralPath;-><init>()V
+
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-virtual {p1, v0, v0}, Lcom/reader/office/java/awt/geom/Path2D$Float;->moveTo(FF)V
+
+    const v1, 0x46a8c000    # 21600.0f
+
+    .line 3
+    invoke-virtual {p1, v1, v1}, Lcom/reader/office/java/awt/geom/Path2D$Float;->lineTo(FF)V
+
+    .line 4
+    invoke-virtual {p1, v0, v1}, Lcom/reader/office/java/awt/geom/Path2D$Float;->lineTo(FF)V
+
+    .line 5
+    invoke-virtual {p1}, Lcom/reader/office/java/awt/geom/Path2D;->closePath()V
+
+    return-object p1
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/baa" android:background="@color/bi0" android:clipToPadding="false" style="@style/qo"/>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/bak" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv"/>
+    <include android:id="@+id/b_c" layout="@layout/afv"/>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bt6" android:textColor="@color/ty" android:gravity="center" android:layout_gravity="end|bottom" android:id="@+id/dsz" android:background="@drawable/bpo" android:visibility="gone" android:layout_width="@dimen/br0" android:layout_height="@dimen/br0" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bq4" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/bnj" app:night_tv_alpha="@dimen/db2"/>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/av9" android:padding="@dimen/blk" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c3r" android:tag="iv_banner_img" android:visibility="gone" android:layout_width="@dimen/bpz" android:layout_height="@dimen/bpz" android:layout_marginRight="@dimen/brt" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/blk" android:layout_toLeftOf="@id/azf" android:layout_toRightOf="@id/c3r" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a4h" android:ellipsize="end" android:id="@id/e09" android:tag="tv_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/xl" android:ellipsize="end" android:id="@id/dzx" android:tag="tv_sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnc" android:singleLine="true" />
+    </LinearLayout>
+    <com.ushareit.ads.sharemob.views.TextProgress android:textColor="@color/bj1" android:id="@id/azf" android:tag="btn_progress" android:layout_width="wrap_content" android:layout_height="@dimen/bok" android:max="100" android:progress="100" android:progressDrawable="@drawable/akc" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:ajb="@dimen/bsv" app:ajg="@dimen/bqv" app:ajh="@dimen/blk" app:aji="@dimen/blk" app:ajj="@dimen/bqv" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

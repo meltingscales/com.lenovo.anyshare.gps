@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/axj" android:paddingLeft="@dimen/bnj" android:paddingTop="@dimen/bo8" android:paddingRight="@dimen/bnj" android:paddingBottom="@dimen/bmm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2">
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cph" android:maxLines="2" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/d33" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:layout_below="@id/title_text" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:id="@id/dau" android:paddingLeft="@dimen/bmm" android:paddingRight="@dimen/bmm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/asu" android:layout_below="@id/d33" android:layout_alignRight="@id/d33" />
+    </RelativeLayout>
+</LinearLayout>

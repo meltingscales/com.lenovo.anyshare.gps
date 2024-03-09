@@ -1,0 +1,27 @@
+package com.lenovo.anyshare;
+
+/* renamed from: com.lenovo.anyshare.osc  reason: case insensitive filesystem */
+/* loaded from: classes6.dex */
+public final class C17627osc extends AbstractC2438Fsc {
+    public static final byte i = 7;
+    public static final AbstractC2438Fsc j = new C17627osc();
+
+    @Override // com.lenovo.anyshare.AbstractC15797lsc
+    public String a(String[] strArr) {
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append(strArr[0]);
+        stringBuffer.append("^");
+        stringBuffer.append(strArr[1]);
+        return stringBuffer.toString();
+    }
+
+    @Override // com.lenovo.anyshare.AbstractC15797lsc
+    public int m() {
+        return 2;
+    }
+
+    @Override // com.lenovo.anyshare.AbstractC2438Fsc
+    public byte n() {
+        return (byte) 7;
+    }
+}

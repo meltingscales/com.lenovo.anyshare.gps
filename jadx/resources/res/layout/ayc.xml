@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bej" android:background="@drawable/dew" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bym" android:layout_marginTop="@dimen/byn" android:layout_marginRight="@dimen/bym" android:layout_marginBottom="@dimen/byn" android:maxWidth="@dimen/byp">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:bottomLeftRadius="@dimen/bkq" app:bottomRightRadius="@dimen/bkq" app:rect_radio="0.35" app:topLeftRadius="@dimen/bmm" app:topRightRadius="@dimen/bmm">
+            <com.ushareit.theme.night.view.NightImageView android:id="@+id/b_a" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/d5r" android:scaleType="centerCrop" app:night_alpha="@dimen/db2"/>
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <TextView android:textStyle="bold" android:id="@+id/cl9" android:layout_marginTop="@dimen/bnj" android:text="@string/c6r" style="@style/q6"/>
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/xl" android:ellipsize="end" android:id="@+id/cts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:text="@string/c6s" style="@style/q5"/>
+        <TextView android:textStyle="bold" android:id="@+id/e76" android:layout_marginTop="@dimen/bo8" android:text="@string/c6q" style="@style/pz"/>
+        <TextView android:textStyle="bold" android:textColor="@color/v4" android:id="@+id/e75" android:background="@color/afs" android:layout_marginTop="@dimen/br9" android:layout_marginBottom="@dimen/bl2" android:text="@string/ah6" style="@style/pz"/>
+    </LinearLayout>
+</FrameLayout>

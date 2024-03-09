@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Հիմնական տեքստ</string>
+    <string name="a98">Վերնագիր</string>
+    <string name="a99">Մեդիա տեսք</string>
+    <string name="a9_">Թույլատրել</string>
+    <string name="a9a">Չթույլատրել</string>
+    <string name="a9b">Թույլատրե՞լ հավելվածին, որ ձեզ ծանուցումներ ուղարկի։</string>
+    <string name="a9c">Հպեք՝ հայտարարությունը բացելու համար</string>
+    <string name="a9d">Դիտեք հայտարարությունը, որը պահել եք անցանց ռեժիմում</string>
+    <string name="a9e">Եղավ</string>
+    <string name="a9f">Դուք կստանաք ծանուցում՝ գովազդատուի կայքի հղումով, երբ նորից միանաք ցանցին։</string>
+    <string name="a9g">Ոչ, շնորհակալություն</string>
+    <string name="a9h">Դուք կստանաք ծանուցում՝ գովազդատուի կայքի հղումով։</string>
+    <string name="a9i">Բացեք հայտարարությունը, երբ նորից միանաք ցանցին։</string>
+    <string name="a9j">Պահել պատկերը</string>
+    <string name="a9k">Թույլատրե՞լ Գովազդին պահել պատկերը Պատկերասրահում:</string>
+    <string name="a9l">Ընդունել</string>
+    <string name="a9m">Մերժել</string>
+    <string name="a9n">Ստեղծել օրացույցի միջոցառում</string>
+    <string name="a9o">Թույլատրե՞լ Գովազդին ստեղծել օրացույցի միջոցառում:</string>
+    <string name="a9p">Փորձարկել գովազդը</string>
+    <string name="a9q">AdMob –</string>
+</resources>

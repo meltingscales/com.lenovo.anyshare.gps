@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bik" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.ushareit.siplayer.component.view.ProviderLogoView android:layout_gravity="center|left|top" android:id="@id/bio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dga" app:sp="@dimen/df8" app:tv="@dimen/df8" style="@style/aoi" />
+    <View android:layout_gravity="bottom" android:id="@id/bit" android:background="@drawable/d8q" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dfz" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/biw" android:padding="@dimen/dga" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dg3">
+        <ImageView android:id="@id/biu" android:layout_width="@dimen/df8" android:layout_height="@dimen/df8" />
+        <TextView android:textSize="@dimen/dgu" android:textColor="@color/b3g" android:ellipsize="end" android:id="@id/biv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dga" android:layout_marginTop="@dimen/dfg" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dgu" android:textColor="@color/b3g" android:gravity="center_vertical" android:layout_gravity="end|bottom|center" android:id="@id/bir" android:background="@drawable/d8y" android:paddingLeft="@dimen/dga" android:paddingRight="@dimen/dga" android:paddingBottom="@dimen/dff" android:layout_width="wrap_content" android:layout_height="@dimen/df7" android:layout_margin="@dimen/dga" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/bil" android:background="@color/b2s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/bim" android:layout_width="@dimen/df8" android:layout_height="@dimen/df8" />
+        <TextView android:textSize="@dimen/dgw" android:textColor="@color/b3g" android:layout_gravity="center_vertical" android:id="@id/bin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dga" />
+    </LinearLayout>
+</merge>

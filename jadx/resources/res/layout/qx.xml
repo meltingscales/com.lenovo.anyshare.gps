@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/pp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.st.entertainment.core.view.RoundFrameLayout android:layout_gravity="center" android:layout_width="280dp" android:layout_height="wrap_content" app:radius="16dp">
+        <LinearLayout android:orientation="vertical" android:background="@color/pe" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/aih" android:layout_width="match_parent" android:layout_height="107dp" android:src="@drawable/ac9"/>
+            <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/pl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="19dp" android:layout_marginRight="24dp" android:text="@string/aal"/>
+            <TextView android:textSize="16sp" android:textColor="@color/pk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="14dp" android:layout_marginRight="24dp" android:text="@string/aak"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/q1" android:gravity="center" android:id="@+id/aio" android:background="@drawable/ac8" android:paddingTop="8.5dp" android:paddingBottom="8.5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="20dp" android:layout_marginRight="24dp" android:text="@string/aaj"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="@color/pj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/aie" android:paddingLeft="8.5dp" android:paddingTop="7dp" android:paddingRight="8.5dp" android:paddingBottom="7dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_marginBottom="9dp" android:text="@string/aai" android:textAllCaps="true"/>
+        </LinearLayout>
+    </com.st.entertainment.core.view.RoundFrameLayout>
+</FrameLayout>

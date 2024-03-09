@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="e">
+        <item>Semoga Allah Memberikan Berkah di Bulan Suci Ramadhan</item>
+        <item>Semoga Diberikan Kesehatan &amp; Kemakmuran di Ramadhan</item>
+        <item>Semoga Menjadi Bulan Suci Yang Berkah &amp; Mulia</item>
+        <item>Semoga Menjadi Ramadhan Yang Penuh Berkah</item>
+        <item>Semoga Bulan Suci Ini Membawa Berkah</item>
+        <item>Selalu Saling Mendoakan Selama Ramadhan</item>
+        <item>Kirimkan Cinta &amp; Kasih Sayang Keluarga Anda di Ramadhan</item>
+        <item>Semoga Allah Menyertai Anda Sepanjang Puasa Anda.</item>
+        <item>Semoga Allah Memberi Kebahagiaan Di Bulan Ini</item>
+    </array>
+    <array name="cp">
+        <item>Pengiriman Kilat</item>
+        <item>Kualitas Terbaik</item>
+        <item>Promo Besar</item>
+        <item>Up to 80% Off</item>
+    </array>
+    <array name="a">
+        <item>Pornografi Vulgar</item>
+        <item>Kejahatan</item>
+        <item>Sensitif Politik</item>
+        <item>Pemasaran Ilegal</item>
+        <item>Informasi Palsu</item>
+        <item>Pelanggaran</item>
+    </array>
+    <array name="c">
+        <item>Konten membuat tidak nyaman</item>
+        <item>Pornografi</item>
+        <item>Konten kekerasan</item>
+        <item>Konten merugikan dan berbahaya</item>
+        <item>Judul/gambar tidak sesuai dengan isi</item>
+    </array>
+    <array name="s">
+        <item>Nama (A-Z)</item>
+        <item>Tanggal (dalam urutan kronologis terbalik)</item>
+        <item>Tanggal (dalam urutan kronologis)</item>
+    </array>
+    <array name="t">
+        <item>Ini bukan pengalaman yang kami ingin anda dapatkan. Silakan bagikan masukan anda di bawah ini.</item>
+        <item>Uh oh! Dapatkah anda sampaikan kepada kami apa yang harus kami tingkatkan?</item>
+        <item>Terima kasih untuk masukan anda, apakah ada hal spesifik yang menurut anda dapat kami perbaiki?</item>
+        <item>Terima kasih! Masukan anda menginspirasi kami untuk menjadi lebih baik.</item>
+        <item>Terima kasih! Masukan luar biasa dari anda telah membuat hari kami menjadi lebih baik!</item>
+    </array>
+    <array name="v">
+        <item>%s aplikasi dapat diperabharui tanpa menghabiskan penggunaan data</item>
+        <item>%s aplikasi yang Anda terima belum diperbaharui</item>
+        <item>%s aplikasi yang dibagikan oleh teman perlu diperbaharui</item>
+    </array>
+    <array name="w">
+        <item>%s aplikasi dapat diperbarui tanpa data</item>
+        <item>%s aplikasi diterima belum diperbarui</item>
+        <item>%s aplikasi dibagikan teman harus diperbarui</item>
+    </array>
+    <array name="x">
+        <item>File audio besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="y">
+        <item>File audio besar telah memakai %s ruang</item>
+    </array>
+    <array name="z">
+        <item>File gambar besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="a0">
+        <item>File gambar besar telah memakai %s ruang</item>
+    </array>
+    <array name="a1">
+        <item>File besar menempati %s ruang</item>
+        <item>Sudah saatnya membersihkan %s file besar di penyimpanan</item>
+    </array>
+    <array name="a2">
+        <item>File besar menempati %s ruang</item>
+        <item>Sudah saatnya bersihkan %s file besar di penyimpanan</item>
+    </array>
+    <array name="a3">
+        <item>File video besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="a4">
+        <item>File video besar telah memakai %s ruang</item>
+    </array>
+    <array name="a5">
+        <item>Ditemukan %s musik duplikat untuk dibersihkan</item>
+        <item>Bersihkan %s musik duplikat untuk membebaskan ruang</item>
+    </array>
+    <array name="a6">
+        <item>Ditemukan %s musik berulang untuk dibersihkan</item>
+        <item>Bersihkan %s musik berulang untuk bebaskan ruang</item>
+    </array>
+    <array name="a7">
+        <item>Ditemukan %s foto duplikat untuk dibersihkan</item>
+        <item>Jangan lupa membersihkan %s foto duplikat untuk membebaskan ruang</item>
+    </array>
+    <array name="a8">
+        <item>Ditemukan %s foto berulang untuk dibersihkan</item>
+        <item>Jangan lupa bersihkan %s foto berulang untuk bebaskan ruang</item>
+    </array>
+    <array name="a9">
+        <item>Ditemukan %s video duplikat untuk dibersihkan</item>
+        <item>Jangan lupa membersihkan %s video duplikat untuk membebaskan ruang</item>
+    </array>
+    <array name="a_">
+        <item>Ditemukan %s video duplikat untuk dibersihkan</item>
+        <item>Jangan lupa bersihkan %s video berulang untuk bebaskan ruang</item>
+    </array>
+    <array name="aa">
+        <item>%s file sampah memperlambat sistem</item>
+        <item>%s file sampah terdeteksi</item>
+    </array>
+    <array name="ab">
+        <item>%s file sampah memperlambat sistem</item>
+        <item>terdeteksi %s file sampah</item>
+    </array>
+    <array name="ac">
+        <item>Sudah %s hari sejak Anda membersihkan file sampah</item>
+        <item>File sampah seluler belum dibersihkan selama lebih dari %s hari</item>
+    </array>
+    <array name="ad">
+        <item>Sudah %s hari belum bersihkan sampah file</item>
+        <item>Sampah hp kamu belum dibersihkan selama %s hari</item>
+    </array>
+    <array name="ae">
+        <item>%s lagu yang dibagikan oleh teman belum diputar</item>
+        <item>%s lagu baru yang dibagikan oleh teman belum diputar</item>
+        <item>Apakah Anda masih ingar %s lagu yang Anda terima?</item>
+    </array>
+    <array name="af">
+        <item>%s lagu dibagikan teman belum diputar</item>
+        <item>%s lagu baru dibagikan teman belum diputar</item>
+        <item>Ingat tak %s lagu yang kamu terima?</item>
+    </array>
+    <array name="ag">
+        <item>Sisa sampah dari aplikasi yang dihapus ditemukan</item>
+    </array>
+    <array name="ah">
+        <item>Ditemukan sisa sampah dari aplikasi yang dihapus</item>
+    </array>
+    <array name="ai">
+        <item>Ditemukan %s file tangkapan layar untuk dibersihkan</item>
+        <item>Jangan lupa membersihkan %s file tangkapan layar</item>
+    </array>
+    <array name="aj">
+        <item>Ditemukan %s file tangkapan layar untuk dibersihkan</item>
+        <item>Jangan lupa bersihkan %s file tangkapan layar</item>
+    </array>
+    <array name="ak">
+        <item>%s aplikasi tidak terpakai terdeteksi</item>
+    </array>
+    <array name="al">
+        <item>Video ini telah diambil oleh seseorang menggunakan ponsel atau kamera</item>
+        <item>Ini adalah video publik</item>
+        <item>Alasan lain</item>
+    </array>
+    <array name="am">
+        <item>Berapa angka keberuntungan Anda?</item>
+        <item>Apa impian Anda?</item>
+        <item>Ke mana Anda ingin pergi?</item>
+        <item>Apa film favorit Anda?</item>
+        <item>Skill apa yang ingin kamu kuasai?</item>
+        <item>Siapa nama sahabat Anda?</item>
+        <item>Apa makanan favorit Anda?</item>
+    </array>
+    <array name="an">
+        <item>Berapa nomor keberuntungan Anda?</item>
+        <item>Apa makanan favorit Anda?</item>
+        <item>Siapa nama sahabat Anda?</item>
+        <item>Apa film favorit Anda?</item>
+        <item>Apa impian Anda?</item>
+    </array>
+    <array name="ao">
+        <item>%s aplikasi dapat diperbarui tanpa menggunakan data internet</item>
+        <item>%s aplikasi yang Anda terima belum diperbarui</item>
+        <item>%s aplikasi yang dibagikan oleh teman Anda perlu diperbarui</item>
+    </array>
+    <array name="ap">
+        <item>Tersedia Pembaruan untuk %s Aplikasi yang Dibagikan kepada Anda</item>
+        <item>Perbarui Sekarang! Tersedia %s Versi Baru Aplikasi</item>
+        <item>Tetap up-to-date dengan versi aplikasi terbaru.</item>
+        <item>Lihat apa yang baru! Perbarui Selkarang!</item>
+    </array>
+    <array name="aq">
+        <item>File audio besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="ar">
+        <item>File audio besar telah memakai %s ruang</item>
+    </array>
+    <array name="as">
+        <item>File gambar besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="at">
+        <item>File gambar besar telah memakai %s ruang</item>
+    </array>
+    <array name="au">
+        <item>File besar menempati %s ruang</item>
+        <item>Sudah saatnya membersihkan %s file besar di penyimpanan</item>
+    </array>
+    <array name="av">
+        <item>File besar menempati %s ruang</item>
+        <item>Sudah saatnya bersihkan %s file besar di penyimpanan</item>
+    </array>
+    <array name="aw">
+        <item>File video besar telah menggunakan %s ruang</item>
+    </array>
+    <array name="ax">
+        <item>File video besar telah memakai %s ruang</item>
+    </array>
+    <array name="ay">
+        <item>Aplikasi ini memperlambat sistem, pacu ponsel Anda sekarang</item>
+    </array>
+    <array name="az">
+        <item>Aplikasi ini memperlambat sistem, pacu ponsel Anda sekarang</item>
+    </array>
+    <array name="b0">
+        <item>%s aplikasi memperlambat sistem, pacu ponsel Anda sekarang</item>
+    </array>
+    <array name="b1">
+        <item>%s aplikasi memperlambat sistem, pacu ponsel Anda sekarang</item>
+    </array>
+    <array name="b2">
+        <item>Klik untuk mempercepat pengisian daya sekarang</item>
+    </array>
+    <array name="b3">
+        <item>Klik untuk mempercepat pengisian daya sekarang</item>
+    </array>
+    <array name="b4">
+        <item>%s aplikasi memperlambat kecepatan pengisian daya</item>
+    </array>
+    <array name="b5">
+        <item>%s aplikasi memperlambat kecepatan pengisian daya</item>
+    </array>
+    <array name="b6">
+        <item>Penyimpanan habis, hubungkan ke PC untuk membebaskan ruang</item>
+        <item>Penyimpanan habis, transfer file besar ke PC</item>
+    </array>
+    <array name="b7">
+        <item>Ditemukan %s musik duplikat untuk dibersihkan</item>
+        <item>Bersihkan %s musik duplikat untuk membebaskan ruang</item>
+    </array>
+    <array name="b8">
+        <item>Ditemukan %s musik berulang untuk dibersihkan</item>
+        <item>Bersihkan %s musik berulang untuk bebaskan ruang</item>
+    </array>
+    <array name="b9">
+        <item>Ditemukan %s foto duplikat untuk dibersihkan</item>
+        <item>Jangan lupa membersihkan %s foto duplikat untuk membebaskan ruang</item>
+    </array>
+    <array name="b_">
+        <item>Ditemukan %s foto berulang untuk dibersihkan</item>
+        <item>Jangan lupa bersihkan %s foto berulang untuk bebaskan ruang</item>
+    </array>
+    <array name="ba">
+        <item>Ditemukan %s video duplikat untuk dibersihkan</item>
+        <item>Jangan lupa membersihkan %s video duplikat untuk membebaskan ruang</item>
+    </array>
+    <array name="bb">
+        <item>Ditemukan %s video duplikat untuk dibersihkan</item>
+        <item>Jangan lupa bersihkan %s video berulang untuk bebaskan ruang</item>
+    </array>
+    <array name="bc">
+        <item>︎Pasang headphone</item>
+        <item>Waktunya mendengarkan musik</item>
+    </array>
+    <array name="bd">
+        <item>%s file sampah memperlambat sistem</item>
+        <item>%s file sampah terdeteksi</item>
+    </array>
+    <array name="be">
+        <item>%s file sampah memperlambat sistem</item>
+        <item>terdeteksi %s file sampah</item>
+    </array>
+    <array name="bf">
+        <item>Sudah %s hari sejak Anda membersihkan file sampah</item>
+        <item>File sampah seluler belum dibersihkan selama lebih dari %s hari</item>
+    </array>
+    <array name="bg">
+        <item>Sudah %s hari belum bersihkan sampah file</item>
+        <item>Sampah hp kamu belum dibersihkan selama %s hari</item>
+    </array>
+    <array name="bh">
+        <item>%s lagu yang dibagikan oleh teman belum diputar</item>
+        <item>%s lagu baru yang dibagikan oleh teman belum diputar</item>
+        <item>Apakah Anda masih ingar %s lagu yang Anda terima?</item>
+    </array>
+    <array name="bi">
+        <item>Merindukan lagu-lagu yang bagus? Saatnya untuk menekan tombol putar dan menemukan kembali musik favorit Anda!</item>
+        <item>Merasa kurang bersemangat? Naikkan volume dan biarkan musik mengisi hari-hari Anda dengan gembira.</item>
+        <item>Merindukan ketukan yang membangkitkan semangat? Nikmati lagu-lagu favorit Anda dan biarkan irama musik mencerahkan hari Anda.</item>
+    </array>
+    <array name="bk">
+        <item>Dengarkan playlist❤ Anda</item>
+        <item>Dengarkan playlist Anda</item>
+    </array>
+    <array name="bl">
+        <item>Aplikasi ini memakai baterai di latar belakang</item>
+    </array>
+    <array name="bm">
+        <item>%s aplikasi menggunakan baterai di latar belakang</item>
+    </array>
+    <array name="bn">
+        <item>%s aplikasi memakai baterai di latar belakang</item>
+    </array>
+    <array name="bo">
+        <item>File sisa dari aplikasi yang baru dihapus terdeteksi</item>
+        <item>Hapus file sisa dari aplikasi yang baru dihapus</item>
+    </array>
+    <array name="bq">
+        <item>Ditemukan %s file tangkapan layar untuk dibersihkan</item>
+        <item>Jangan lupa membersihkan %s file tangkapan layar</item>
+    </array>
+    <array name="br">
+        <item>Ditemukan %s file tangkapan layar untuk dibersihkan</item>
+        <item>Jangan lupa bersihkan %s file tangkapan layar</item>
+    </array>
+    <array name="bs">
+        <item>%s kenangan baru untuk dibagikan dengan teman dan orang tercinta</item>
+        <item>Bagikan %s foto baru tanpa kehilangan kualitas</item>
+    </array>
+    <array name="bt">
+        <item>Klik untuk bermain</item>
+        <item>Waktunya mendengarkan musik</item>
+    </array>
+    <array name="bx">
+        <item>%s aplikasi tidak terpakai terdeteksi</item>
+    </array>
+    <array name="bz">
+        <item>%1$s terdeteksi dengan %2$s ancaman keamanan</item>
+        <item>%1$s aplikasi terdeteksi dengan %2$s ancaman keamanan</item>
+    </array>
+    <array name="c2">
+        <item>Aplikasi ini menggunakan baterai di latar belakang</item>
+    </array>
+    <array name="c3">
+        <item>Terlalu sering muncul</item>
+        <item>Waktu tidak tepat</item>
+        <item>Kualitas Rendah</item>
+        <item>Iklan Menyebalkan</item>
+        <item>Tidak Tertarik</item>
+    </array>
+    <array name="c4">
+        <item>Perangkat Keras</item>
+        <item>Perangkat Lunak</item>
+    </array>
+    <array name="c5">
+        <item>Putar otomatis</item>
+        <item>Putar terus</item>
+    </array>
+    <array name="c6">
+        <item>File salah hapus</item>
+        <item>Tidak bekerja</item>
+        <item>Tidak sepenuhnya berfungsi</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="c8">
+        <item>Tidak bisa tersambung ke iOS atau PC</item>
+        <item>Konten video tidak pantas</item>
+        <item>Video lag atau buffer</item>
+        <item>Kualitas gambar rendah</item>
+        <item>Pemuatan video lamban</item>
+        <item>Terganggu oleh iklan</item>
+    </array>
+    <array name="c9">
+        <item>Tidak bekerja</item>
+        <item>Tidak sepenuhnya berfungsi</item>
+        <item>Terlalu banyak notifikasi palsu</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="c_">
+        <item>Harus mencoba beberapa kali untuk memulai hotspot Wi-Fi</item>
+        <item>Perlu waktu lama untuk memulai hotspot Wi-Fi</item>
+        <item>Laju transfer macet</item>
+        <item>Harus mencoba berkali-kali agar tersambung</item>
+    </array>
+    <array name="ca">
+        <item>Harus mencoba beberapa kali untuk mencari penerima</item>
+        <item>Kesulitan dalam memilih file</item>
+        <item>Harus mencoba beberapa kali agar tersambung</item>
+        <item>Terputus saat mentransfer</item>
+    </array>
+    <array name="cb">
+        <item>Kecepatan transfer lambat</item>
+        <item>Tidak bekerja</item>
+        <item>File salah hapus</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="cc">
+        <item>Ponsel masih lambat</item>
+        <item>Tidak bekerja</item>
+        <item>Tidak sepenuhnya berfungsi</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="cd">
+        <item>Kecepatan transfer lambat</item>
+        <item>Proses transfer terlalu rumit</item>
+        <item>Tidak bisa terhubung dengan iOS atau PC</item>
+        <item>Terlalu banyak iklan</item>
+    </array>
+    <array name="cf">
+        <item>Antarmuka Buruk</item>
+        <item>Fungsi Tidak Memuaskan</item>
+        <item>Gangguan Persisten</item>
+    </array>
+    <array name="cg">
+        <item>Konten mengganggu</item>
+        <item>Pornografi</item>
+        <item>Konten kekerasan</item>
+        <item>Konten merugikan dan berbahaya</item>
+        <item>Judul/sampul tidak sesuai kontennya</item>
+    </array>
+    <array name="ch">
+        <item>Konten spam atau menyesatkan</item>
+        <item>Melanggar hak saya</item>
+        <item>Saya menginginkan lirik</item>
+        <item>Saya mau berbagi</item>
+        <item>Saya menginginkan lebih banyak lagu dari artis ini</item>
+    </array>
+    <array name="ci">
+        <item>Waktu yang ditambahkan</item>
+        <item>Durasi Putar</item>
+        <item>Judul</item>
+    </array>
+    <array name="cj">
+        <item>Setelah memulai, folder dan file tersembunyi akan ditampilkan</item>
+        <item>File yang termasuk dalam folder .nomedia tidak akan dipindai berdasarkan default</item>
+    </array>
+    <array name="ck">
+        <item>Tampilkan file dan folder tersembunyi</item>
+        <item>Pindai folder .nomedia</item>
+    </array>
+    <array name="cl">
+        <item>Dekoder perangkat lunak</item>
+        <item>Dekoder perangkat keras</item>
+    </array>
+    <array name="cn">
+        <item>Kesesuian terbaik</item>
+        <item>Isi Penuh</item>
+        <item>1 : 1</item>
+        <item>4 : 3</item>
+        <item>16 : 9</item>
+    </array>
+    <array name="u">
+        <item>Seberangi bintang dan bulan untuk menemukan dirimu lebih baik.</item>
+        <item>Cuaca tiba-tiba sejuk, jadi sudah waktunya untuk membalik kisah.</item>
+        <item>Impikan apa yang ingin kamu impikan, jadilah orang yang kamu inginkan.</item>
+        <item>Kita dilahirkan rusak dan diperbaiki dengan menjalani hidup.</item>
+        <item>Anggur akan terasa lebih baik setelah waktu menyaksikan.</item>
+        <item>Terkadang pernah, terkadang tidak pernah.</item>
+        <item>Saya selalu bekerja keras untuk hidup.</item>
+        <item>Mungkin sudah waktunya bagi kita untuk toleran.</item>
+        <item>Hari terpanjang memiliki akhir.</item>
+        <item>Hidup terlalu pendek untuk dendam jangka panjang.</item>
+    </array>
+    <array name="bj">
+        <item>Cek momen Anda di %s</item>
+    </array>
+    <array name="p">
+        <item>Bagaimana menghasilkan lebih banyak uang?</item>
+        <item>Ajari aku cara memasak hidangan?</item>
+        <item>Berikan aku nama untuk anakku.</item>
+    </array>
+    <array name="bp">
+        <item>Hapus file sampah dari aplikasi yang instalasinya dicopot agar perangkat tetap rapi.</item>
+        <item>Hapus file sisa aplikasi yang dicopot agar kerja perangkat lebih efisien.</item>
+        <item>Menghapus file sampah dari aplikasi yang dicopot agar ponsel berjalan mulus.</item>
+        <item>Mencopot instalan aplikasi akan meninggalkan file yang tidak terpakai. Hapus file tersebut sekarang!</item>
+    </array>
+    <array name="bu">
+        <item>Diam bukanlah emas. Putar musik!</item>
+        <item>Bebaskan minat musik dalam diri Anda. Tekan putar sekarang!</item>
+        <item>Bersihkan debu di headphone. Saatnya menikmati musik!</item>
+    </array>
+    <array name="by">
+        <item>Aplikasi yang tidak terpakai menumpuk? Saatnya bersih-bersih!</item>
+        <item>Aplikasi yang tidak terpakai menghabiskan ruang? Saatnya untuk bersih-bersih?</item>
+        <item>Tambah ruang kosong: Pertimbangkan untuk membersihkan aplikasi yang tidak terpakai.</item>
+    </array>
+    <array name="c0">
+        <item>��Berhati-hatilah jangan sampai melewatkan Status teman Anda, simpan sekarang!</item>
+    </array>
+    <array name="c1">
+        <item>Status baru ditemukan!</item>
+    </array>
+</resources>

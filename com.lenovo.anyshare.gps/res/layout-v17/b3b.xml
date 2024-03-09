@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/buq" android:paddingLeft="@dimen/bnv" android:paddingTop="@dimen/bo3" android:paddingRight="@dimen/bnv" android:paddingBottom="@dimen/bow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/bnv" android:paddingEnd="@dimen/bnv">
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cin" android:paddingLeft="@dimen/bqf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/bqf">
+            <TextView android:textSize="@dimen/bt5" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dru" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:text="@string/cfs" android:maxLines="2" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chu" android:paddingLeft="@dimen/bqf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/bqf">
+            <TextView android:textSize="@dimen/bt5" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/dqp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:text="@string/cfr" android:maxLines="2" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cil" android:paddingLeft="@dimen/bqf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/bqf">
+            <TextView android:textSize="@dimen/bt5" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bd9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:text="@string/cf4" android:maxLines="2" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

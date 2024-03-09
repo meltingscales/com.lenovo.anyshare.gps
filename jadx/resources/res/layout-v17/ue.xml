@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="@dimen/bh9">
+    <com.san.ads.MediaView android:id="@+id/bx9" android:background="@color/so" android:layout_width="@dimen/bha" android:layout_height="@dimen/bha" android:layout_centerVertical="true" style="@style/ag7"/>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/bhb" android:layout_marginLeft="@dimen/bhc" android:layout_marginRight="@dimen/bhc" android:layout_toLeftOf="@+id/bo8" android:layout_toRightOf="@+id/bx9" android:layout_centerVertical="true" android:layout_toStartOf="@+id/bo8" android:layout_toEndOf="@+id/bx9">
+        <TextView android:textSize="@dimen/bhl" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/bho" android:textColor="@color/sg" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/ag6">
+        <com.san.ads.TextProgressView android:textSize="@dimen/bho" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="@dimen/bru" android:layout_height="@dimen/bh5" android:maxEms="6" style="@style/am6"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/b75" android:visibility="gone" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginTop="@dimen/br4" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ait" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aiu"/>
+</RelativeLayout>

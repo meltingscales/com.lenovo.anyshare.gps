@@ -1,0 +1,39 @@
+package com.lenovo.anyshare;
+
+import android.view.View;
+import com.ushareit.widget.slide.DotLineTabIndicator;
+import me.ele.lancet.base.Scope;
+
+/* renamed from: com.lenovo.anyshare.kwj  reason: case insensitive filesystem */
+/* loaded from: classes.dex */
+public class C15242kwj {
+    @Hrk(mayCreateSuper = true, value = "setOnClickListener")
+    @Krk(scope = Scope.LEAF, value = "android.widget.FrameLayout")
+    public static void a(DotLineTabIndicator dotLineTabIndicator, View.OnClickListener onClickListener) {
+        if ((onClickListener instanceof View$OnClickListenerC4863Odh) || !C1410Cdh.c()) {
+            b(dotLineTabIndicator, onClickListener);
+        } else {
+            b(dotLineTabIndicator, new View$OnClickListenerC4863Odh(onClickListener));
+        }
+    }
+
+    @Hrk(mayCreateSuper = true, value = "setOnClickListener")
+    @Krk(scope = Scope.LEAF, value = "android.view.ViewGroup")
+    public static void b(DotLineTabIndicator dotLineTabIndicator, View.OnClickListener onClickListener) {
+        if ((onClickListener instanceof View$OnClickListenerC4863Odh) || !C1410Cdh.c()) {
+            c(dotLineTabIndicator, onClickListener);
+        } else {
+            c(dotLineTabIndicator, new View$OnClickListenerC4863Odh(onClickListener));
+        }
+    }
+
+    @Hrk(mayCreateSuper = true, value = "setOnClickListener")
+    @Krk(scope = Scope.LEAF, value = "android.view.View")
+    public static void c(DotLineTabIndicator dotLineTabIndicator, View.OnClickListener onClickListener) {
+        if ((onClickListener instanceof View$OnClickListenerC4863Odh) || !C1410Cdh.c()) {
+            dotLineTabIndicator.setOnClickListener$___twin___(onClickListener);
+        } else {
+            dotLineTabIndicator.setOnClickListener$___twin___(new View$OnClickListenerC4863Odh(onClickListener));
+        }
+    }
+}

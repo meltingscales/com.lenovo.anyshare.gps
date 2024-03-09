@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bin">6.0dip</dimen>
+    <dimen name="bio">8.0dip</dimen>
+    <dimen name="bir">10.0dip</dimen>
+    <dimen name="bis">45.0dip</dimen>
+    <dimen name="c7i">20.0dip</dimen>
+    <dimen name="c7j">52.0dip</dimen>
+    <dimen name="c7k">12.0sp</dimen>
+    <dimen name="c7l">298.0dip</dimen>
+    <dimen name="c7m">18.0sp</dimen>
+    <dimen name="ce2">82.0dip</dimen>
+    <dimen name="de9">100.0dip</dimen>
+    <dimen name="dec">75.0dip</dimen>
+    <dimen name="dtl">10.0dip</dimen>
+    <dimen name="dtm">10.0dip</dimen>
+    <dimen name="dtn">30.0dip</dimen>
+    <dimen name="dtu">0.0dip</dimen>
+    <dimen name="dtw">20.0dip</dimen>
+    <dimen name="dbc">0.0dip</dimen>
+    <dimen name="db9">4.0dip</dimen>
+    <dimen name="db6">0.0dip</dimen>
+    <dimen name="dbd">16.0sp</dimen>
+    <dimen name="db8">20.0dip</dimen>
+    <dimen name="db_">12.0sp</dimen>
+    <dimen name="db7">11.0dip</dimen>
+    <dimen name="dbb">10.0sp</dimen>
+    <dimen name="db5">5.0dip</dimen>
+    <dimen name="dba">16.0dip</dimen>
+    <dimen name="d4y">15.0dip</dimen>
+</resources>

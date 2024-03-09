@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d6v" android:background="@color/tc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/btu" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:background="@drawable/btx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/c49" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bmf" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:src="@drawable/btw" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/sy" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bo8" android:text="@string/ad_offline_guide_network_dialog_title" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:id="@id/due" android:background="@drawable/btv" android:padding="@dimen/brt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/ad_offline_guide_network_dialog_connect" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/v4" android:layout_gravity="center_horizontal" android:id="@id/dyi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blm" android:layout_marginBottom="@dimen/boz" android:text="@string/ad_offline_guide_network_dialog_refresh" />
+    </LinearLayout>
+</RelativeLayout>

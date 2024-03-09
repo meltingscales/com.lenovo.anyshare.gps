@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/d0f" android:paddingBottom="@dimen/d0f" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/csw" android:layout_marginStart="@dimen/csw">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="start|center" android:layout_width="@dimen/d0c" android:layout_height="@dimen/d0c" android:layout_marginRight="@dimen/d03" android:layout_marginEnd="@dimen/d03" app:a_7="@dimen/cya" app:a_j="1.0">
+            <ImageView android:id="@id/b2o" android:background="@drawable/ccz" android:layout_width="@dimen/d0c" android:layout_height="@dimen/d0c" android:scaleType="centerCrop" />
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center|left|top" android:id="@id/c1o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aoe" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="@dimen/d04" android:layout_marginRight="@dimen/cxh" android:layout_weight="1.0" android:layout_marginEnd="@dimen/cxh">
+            <TextView android:textSize="@dimen/czj" android:textColor="@color/au1" android:gravity="start" android:layout_gravity="start|center" android:id="@id/b2w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:id="@id/b3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cxh">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/c51" android:visibility="gone" android:layout_width="@dimen/cta" android:layout_height="@dimen/cta" android:layout_marginRight="@dimen/cyj" android:src="@drawable/cck" android:layout_marginEnd="@dimen/cyj" />
+                <TextView android:textSize="@dimen/cyq" android:textColor="@color/aut" android:gravity="start" android:layout_gravity="start|center" android:id="@id/b39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cya" android:singleLine="true" android:layout_marginEnd="@dimen/cya" />
+                <TextView android:textSize="@dimen/cyq" android:textColor="@color/aut" android:gravity="start" android:layout_gravity="start|center" android:id="@id/b2l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center" android:id="@id/cvn" android:visibility="visible" android:layout_width="@dimen/cw5" android:layout_height="@dimen/cw5" android:layout_marginRight="@dimen/csw" android:layout_marginEnd="@dimen/csw" app:a0o="csi" app:a0u="csi" app:a1a="csi" app:a1g="csi" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/az8" android:padding="@dimen/cw2" android:layout_width="@dimen/cuu" android:layout_height="@dimen/cuu" android:layout_marginRight="@dimen/ctv" android:src="@drawable/cd9" android:layout_marginEnd="@dimen/ctv" app:a0o="csi" app:a0u="csi" app:a1a="csi" app:a1g="csi" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/b2j" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="@dimen/d0a" android:layout_height="@dimen/d0a" android:layout_marginRight="@dimen/csw" android:src="@drawable/c9_" android:layout_marginEnd="@dimen/csw" />
+    </LinearLayout>
+</FrameLayout>

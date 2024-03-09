@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/l9" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.muslim.main.home.widget.MainTransPushView android:id="@+id/a5s" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.recyclerview.widget.RecyclerView android:theme="@style/f9" android:id="@+id/a6k" android:background="@color/kl" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/alr" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/a5s"/>
+    <com.ushareit.muslim.allanname.widget.AllahNamePlayerView android:id="@+id/a5f" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0"/>
+    <include android:visibility="invisible" layout="@layout/kd"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

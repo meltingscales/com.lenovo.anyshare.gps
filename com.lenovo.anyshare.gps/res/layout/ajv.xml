@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bsw" android:textColor="@color/ye" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/dxy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:text="+300 Bubbles  by low-carbon behavior" android:maxLines="1" android:drawableLeft="@drawable/bwa" android:drawableRight="@drawable/bw_" android:drawablePadding="@dimen/bqf" />
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingLeft="@dimen/c6" android:paddingTop="@dimen/au" android:paddingRight="@dimen/au" android:paddingBottom="@dimen/au" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.widget.RoundFrameLayout android:layout_width="@dimen/fd" android:layout_height="@dimen/fz" app:radius="@dimen/gf">
+        <com.ushareit.widget.AnimImageView android:id="@+id/cy" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.ushareit.widget.RoundFrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/f5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/hs" android:textColor="@color/c4" android:ellipsize="end" android:id="@+id/hh" android:paddingLeft="@dimen/f5" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/f5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f5">
+            <ImageView android:id="@+id/d2" android:layout_width="@dimen/b7" android:layout_height="@dimen/b7" android:layout_marginRight="@dimen/fi"/>
+            <TextView android:textSize="@dimen/ho" android:textColor="@color/cd" android:id="@+id/hb" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d4" android:background="@drawable/a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f5">
+            <ImageView android:background="@drawable/cs" android:paddingLeft="@dimen/eq" android:paddingTop="@dimen/dy" android:paddingRight="@dimen/eq" android:paddingBottom="@dimen/dy" android:layout_width="@dimen/c6" android:layout_height="@dimen/bq" android:layout_marginLeft="@dimen/cr" android:layout_marginTop="@dimen/cr" android:layout_marginBottom="@dimen/cr" android:src="@drawable/be"/>
+            <TextView android:textSize="@dimen/hn" android:textColor="@color/d7" android:id="@+id/hl" android:background="@drawable/cr" android:paddingLeft="@dimen/fv" android:paddingRight="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

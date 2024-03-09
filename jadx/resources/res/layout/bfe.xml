@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingLeft="@dimen/bym" android:paddingRight="@dimen/bym" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/blk" android:minHeight="@dimen/br3">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/bns" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginRight="@dimen/blk" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:radius="@dimen/brt" app:rect_radio="1">
+        <ImageView android:id="@+id/c4l" android:padding="@dimen/bkq" android:scaleType="centerCrop" style="@style/pv"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp0" android:layout_toRightOf="@+id/bns" android:layout_centerVertical="true">
+        <TextView android:id="@+id/d13" android:layout_marginRight="@dimen/bqx" style="@style/pt"/>
+        <TextView android:textColor="@color/xu" android:id="@+id/d12" android:visibility="gone" android:layout_marginLeft="0dp" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bqx" android:layout_below="@+id/d13" android:layout_alignLeft="@+id/d13" style="@style/pm"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/d0w" android:layout_marginTop="@dimen/blk" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/pw"/>
+</RelativeLayout>

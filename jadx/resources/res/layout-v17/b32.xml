@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/ci_" android:background="@drawable/c2o" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:layout_marginBottom="@dimen/br9" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/bm3"/>

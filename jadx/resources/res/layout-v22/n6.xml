@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/l9" android:focusable="true" android:fitsSystemWindows="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blj" android:src="@drawable/r1"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/b3z" android:textColor="#6f7d91" android:id="@+id/uh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aq6" android:layout_marginRight="@dimen/aq6" android:text="@string/tt" android:lineSpacingExtra="@dimen/aq3" android:layout_marginHorizontal="@dimen/aq6"/>
+        <TextView android:textSize="@dimen/ast" android:textStyle="bold" android:textColor="@color/a7_" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ui" android:background="@drawable/tz" android:layout_width="match_parent" android:layout_height="@dimen/bkh" android:layout_marginLeft="@dimen/aq6" android:layout_marginTop="@dimen/aon" android:layout_marginRight="@dimen/aq6" android:layout_marginBottom="@dimen/ara" android:text="@string/tp" android:singleLine="true" android:layout_marginHorizontal="@dimen/aq6"/>
+    </LinearLayout>
+</FrameLayout>

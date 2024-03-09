@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/cwt" android:layout_width="fill_parent" android:layout_height="0.0dip" app:a0t="H,360:285" app:a1g="csi">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cwu" app:a17="csi" app:a1c="csi" app:a1g="csi" />
+        <com.san.ads.MediaView android:id="@id/bx9" android:layout_width="@dimen/brc" android:layout_height="@dimen/brc" android:layout_marginTop="@dimen/bqo" app:a0u="csi" app:a17="csi" app:a1a="csi" app:a1c="csi" app:a1g="csi">
+            <com.ushareit.widget.round.RoundImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/bp0" android:src="@color/a1w" android:scaleType="centerCrop" app:a_d="@dimen/bla" />
+        </com.san.ads.MediaView>
+        <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:singleLine="true" app:a0u="@id/bx9" app:a17="@id/bx9" app:a1a="@id/bx9" app:a1c="@id/bx9" app:a1f="@id/bx9" />
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brt" android:singleLine="true" app:a0u="@id/dpx" app:a17="@id/dpx" app:a1a="@id/dpx" app:a1c="@id/dpx" app:a1f="@id/dpx" />
+        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@id/b00" android:background="@drawable/cvg" android:layout_width="@dimen/bor" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bmm" android:max="100" android:progress="100" android:maxLines="1" app:a0u="@id/dpx" app:a17="@id/dpx" app:a1a="@id/dpx" app:a1c="@id/dpx" app:a1f="@id/ck2" app:a_s="false" app:ajb="@dimen/bsx" app:ajh="@dimen/brt" app:aji="@dimen/brt" app:ajk="@dimen/bre" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/akc" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

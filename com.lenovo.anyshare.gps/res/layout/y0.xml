@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bnq" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/c3p" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="@dimen/bmm" android:src="@drawable/agi" android:scaleType="fitXY" />
+</FrameLayout>

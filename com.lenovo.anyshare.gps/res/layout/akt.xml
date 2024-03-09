@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.widget.RectFrameLayout android:padding="@dimen/bqv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="@dimen/bqp" android:maxHeight="@dimen/bqp" android:layout_weight="1.0" app:a_j="1.0">
+        <ImageView android:id="@id/c1p" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/bst" android:textColor="@color/a3s" android:layout_gravity="end|bottom|center" android:id="@id/c1j" android:background="@drawable/by2" android:paddingLeft="@dimen/bqv" android:paddingTop="@dimen/bnc" android:paddingRight="@dimen/bqv" android:paddingBottom="@dimen/bnc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bq1" android:minWidth="@dimen/bo8" android:minHeight="@dimen/blk" />
+        <ImageView android:id="@id/as_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/by1" />
+    </com.lenovo.anyshare.widget.RectFrameLayout>
+</merge>

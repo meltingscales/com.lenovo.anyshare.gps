@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/dse" style="@style/q1">
+        <TextView android:textColor="@color/b3g" android:gravity="start" android:layout_gravity="start" android:id="@id/title_text" android:layout_width="wrap_content" style="@style/q7" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/byq" android:layout_weight="1.0">
+            <TextView android:textColor="#ffaaaaaa" android:layout_gravity="start|center|top" android:id="@id/b9q" android:layout_width="wrap_content" style="@style/pr" />
+        </ScrollView>
+        <LinearLayout android:id="@id/b1z" android:visibility="gone" style="@style/po">
+            <ImageView android:id="@id/b26" style="@style/pp" />
+            <TextView android:gravity="start" android:layout_gravity="start" android:id="@id/b2a" android:layout_width="wrap_content" android:text="@string/ats" style="@style/pn" />
+        </LinearLayout>
+        <LinearLayout style="@style/pl">
+            <TextView android:textColor="#ffbbbbbb" android:id="@id/d0e" android:background="@color/b3d" style="@style/pj" />
+            <TextView android:textColor="@android:color/white" android:id="@id/d0j" android:background="@color/b3d" style="@style/pk" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

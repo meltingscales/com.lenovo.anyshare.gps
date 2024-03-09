@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/bnj">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/bnj">
+        <Button android:id="@+id/axr" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog101"/>
+        <Button android:id="@+id/axs" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog102"/>
+        <Button android:id="@+id/axt" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog103"/>
+        <Button android:id="@+id/axu" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog104"/>
+        <Button android:id="@+id/axv" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog105"/>
+        <Button android:id="@+id/axw" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog106"/>
+        <Button android:id="@+id/axx" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog107"/>
+        <Button android:id="@+id/axy" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog108"/>
+        <Button android:id="@+id/axz" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog109"/>
+        <Button android:id="@+id/ay0" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog110"/>
+        <Button android:id="@+id/ay1" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog111"/>
+        <Button android:id="@+id/ay2" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog112"/>
+        <Button android:id="@+id/ay3" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bqx" android:text="dalog113"/>
+    </LinearLayout>
+</ScrollView>

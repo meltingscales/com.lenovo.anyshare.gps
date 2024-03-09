@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bb6" android:background="@color/a0l" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/b8q" android:layout_width="fill_parent" android:layout_height="@dimen/btl">
+        <Button android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/aj7" />
+        <ViewStub android:layout_gravity="start|center" android:id="@id/b79" android:layout="@layout/yb" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/ait" />
+        <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/tj" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btu" android:minWidth="@dimen/bm5" android:maxLines="1" android:drawablePadding="5.0dip" android:layout_marginStart="@dimen/btu" />
+        <Button android:textSize="@dimen/bts" android:textColor="@color/a7a" android:gravity="center" android:layout_gravity="end|center" android:id="@id/right_button" android:background="@color/bi0" android:visibility="gone" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" style="@style/ahx" />
+        <ViewStub android:layout_gravity="end|center" android:id="@id/right_container" android:layout="@layout/yc" android:layout_width="@dimen/bso" android:layout_height="@dimen/bso" style="@style/ahx" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="top" android:id="@id/d_6" android:paddingBottom="@dimen/bw0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bvz" style="@style/anz">
+        <ImageView android:layout_gravity="start|bottom|center" android:layout_width="@dimen/bvx" android:layout_height="@dimen/bvx" android:layout_marginBottom="@dimen/bvy" android:src="@drawable/aww" style="@style/aj7" />
+        <EditText android:textSize="@dimen/btn" android:textColor="@color/bj1" android:textColorHint="#ff7b9fdf" android:gravity="start|bottom|center" android:layout_gravity="bottom" android:id="@id/bav" android:background="@null" android:paddingBottom="@dimen/bvy" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bvw" android:layout_marginRight="@dimen/bw1" android:hint="@string/aus" android:singleLine="true" android:maxLength="20" android:inputType="text" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/ban" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avd" android:scaleType="center" style="@style/agu" />
+        <View android:layout_gravity="bottom" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/agu" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/cg9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/btl">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bqj" layout="@layout/a1n" />
+        <ViewStub android:id="@id/bax" android:layout="@layout/a22" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/alm" />
+    </FrameLayout>
+    <ViewStub android:id="@id/auv" android:layout="@layout/aks" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

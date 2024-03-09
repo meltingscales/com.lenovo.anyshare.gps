@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:id="@id/cbz" android:background="@drawable/am8" android:paddingLeft="@dimen/bnj" android:paddingTop="@dimen/bnj" android:paddingRight="@dimen/bnj" android:paddingBottom="@dimen/bo8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginRight="@dimen/brt" app:a76="@color/afs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@id/d7c" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/bmw">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/d1_" android:scaleType="fitXY" app:a75="@dimen/db2" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:text="@string/cer" />
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/ty" android:gravity="center" android:id="@id/dvq" android:background="@drawable/d3w" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bmm" android:text="@string/asb" />
+</com.ushareit.theme.night.view.NightLinearLayout>

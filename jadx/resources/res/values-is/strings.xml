@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Meginmál</string>
+    <string name="a98">Fyrirsögn</string>
+    <string name="a99">Myndskoðun</string>
+    <string name="a9_">Leyfa</string>
+    <string name="a9a">Ekki leyfa</string>
+    <string name="a9b">Leyfa forriti að senda þér tilkynningar?</string>
+    <string name="a9c">Pikkaðu til að opna auglýsingu</string>
+    <string name="a9d">Skoða auglýsinguna sem þú vistaðir án nettengingar</string>
+    <string name="a9e">Í lagi</string>
+    <string name="a9f">Þú færð tilkynningu með tengli þegar þú tengist netinu aftur.</string>
+    <string name="a9g">Nei, takk</string>
+    <string name="a9h">Við sendum þér tilkynningu með tengli á vefsvæði auglýsandans.</string>
+    <string name="a9i">Opna auglýsingu þegar þú tengist netinu aftur.</string>
+    <string name="a9j">Vista mynd</string>
+    <string name="a9k">Leyfa auglýsingu að vista mynd í myndasafninu?</string>
+    <string name="a9l">Samþykkja</string>
+    <string name="a9m">Hafna</string>
+    <string name="a9n">Búa til dagatalsviðburð</string>
+    <string name="a9o">Leyfa auglýsingu að búa til dagatalsviðburð?</string>
+    <string name="a9p">Prófa auglýsingu</string>
+    <string name="a9q">AdMob -</string>
+</resources>

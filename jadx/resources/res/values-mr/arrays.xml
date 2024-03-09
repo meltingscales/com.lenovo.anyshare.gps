@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>पोर्नोग्राफिक असभ्य</item>
+        <item>गुन्हेगारी</item>
+        <item>राजकीयदृष्ट्या संवेदनशील</item>
+        <item>बेकायदेशीर मार्केटिंग</item>
+        <item>खोटी माहिती</item>
+        <item>उल्लंघन</item>
+    </array>
+    <array name="c">
+        <item>असुविधाजनक सामग्री</item>
+        <item>अश्लील साहित्य</item>
+        <item>हिंसक सामग्री</item>
+        <item>हानिकारक आणि धोकादायक सामग्री</item>
+        <item>शीर्षक/कव्हर सामग्रीशी जुळत नाही</item>
+    </array>
+</resources>

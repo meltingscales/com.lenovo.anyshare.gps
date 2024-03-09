@@ -1,0 +1,86 @@
+package com.lenovo.anyshare;
+
+/* renamed from: com.lenovo.anyshare.ffa  reason: case insensitive filesystem */
+/* loaded from: classes5.dex */
+public class C11957ffa extends C3802Klf {
+    public static final int A = 28;
+    public static final int B = 29;
+    public static final int C = 30;
+    public static final int D = 31;
+    public static final int E = 36;
+    public static final int F = 37;
+    public static final int G = 39;
+    public static final int H = 40;
+    public static final int I = 41;
+    public static final int J = 46;
+    public static final int K = 47;
+    public static final int L = 48;
+    public static final int M = 49;
+    public static final int N = 51;
+    public static final int O = 52;
+    public static final int P = 103;
+    public static final int Q = 104;
+    public static final int R = 106;
+    public static final int S = 107;
+    public static final int T = 109;
+    public static final int U = 112;
+    public static final int V = 1;
+    public static final int W = 1;
+    public static final int X = 52;
+    public static final int Y = 2;
+    public static final int Z = 6;
+
+    /* renamed from: a  reason: collision with root package name */
+    public static final int f20838a = 102;
+    public static final int aa = 10;
+    public static final int b = 105;
+    public static final int ba = 11;
+    public static final int c = 1;
+    public static final int ca = 12;
+    public static final int d = 2;
+    public static final int da = 13;
+    public static final int e = 3;
+    public static final int ea = 15;
+    public static final int f = 4;
+    public static final int fa = 16;
+    public static final int g = 5;
+    public static final int ga = 39;
+    public static final int h = 7;
+    public static final int ha = 41;
+    public static final int i = 1001;
+    public static final int ia = 42;
+    public static final int j = 9;
+    public static final int ja = 50;
+    public static final int k = 8;
+    public static final int ka = 101;
+    public static final int l = 12;
+    public static final int la = 105;
+    public static final int m = 11;
+    public static final int ma = 1102;
+    public static final int n = 14;
+    public static final int na = 1;
+    public static final int o = 15;
+    public static final int oa = 2;
+    public static final int p = 10;
+    public static final int pa = 1;
+    public static final int q = 16;
+    public static final int qa = 2;
+    public static final int r = 17;
+    public static final String ra = "m_game_home";
+    public static final int s = 19;
+    public static final String sa = "POPULAR";
+    public static final int t = 20;
+    public static final String ta = "m_game_video";
+    public static final int u = 22;
+    public static final String ua = "m_game_h5";
+    public static final int v = 23;
+    public static final String va = "WEB GAME";
+    public static final int w = 24;
+    public static final int wa = 9999;
+    public static final int x = 25;
+    public static final String xa = "game_id";
+    public static final int y = 26;
+    public static final String ya = "portal";
+    public static final int z = 27;
+    public static final String za = "m_game_home_new";
+}

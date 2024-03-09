@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:paddingBottom="@dimen/cya" android:layout_width="fill_parent" android:layout_height="@dimen/cxi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/cyt" android:textColor="#ffbababa" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center" android:id="@id/bpk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/csw" android:layout_marginRight="@dimen/csw" android:maxWidth="@dimen/cvq" android:text="@string/atm" android:maxLines="2" android:drawablePadding="@dimen/cx6" />
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/cyw" android:padding="@dimen/d2v" android:layout_width="@dimen/d2y" android:layout_height="@dimen/d2y" app:rv="@dimen/cw2" />
+</FrameLayout>

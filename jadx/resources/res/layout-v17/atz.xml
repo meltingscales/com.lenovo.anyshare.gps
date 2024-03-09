@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/d77" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.cleanit.widget.TotalSizeBar android:layout_gravity="center_horizontal" android:id="@+id/b5y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cu2">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <TextView android:textSize="@dimen/czx" android:textColor="@color/axs" android:id="@+id/b69" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cya" android:layout_toRightOf="@+id/b69" android:layout_alignTop="@+id/b69" android:layout_alignBottom="@+id/b69" android:layout_marginStart="@dimen/cya" android:layout_toEndOf="@+id/b69">
+                    <TextView android:textSize="@dimen/d00" android:textColor="@color/axs" android:gravity="center_vertical" android:id="@+id/b6l" android:paddingTop="@dimen/czz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    <TextView android:textSize="@dimen/czw" android:textColor="@color/axs" android:gravity="center_vertical" android:id="@+id/b5k" android:paddingBottom="@dimen/czv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </com.ushareit.cleanit.widget.TotalSizeBar>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/cyt" android:textColor="@color/aw8" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cwc" android:text="@string/an3"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d2t" android:background="@color/avb" android:paddingTop="@dimen/cya" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

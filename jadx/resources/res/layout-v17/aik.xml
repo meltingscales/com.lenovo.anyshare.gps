@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:radius="@dimen/bqv" app:rect_radio="1.32">
+    <ImageView android:id="@+id/byc" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/bvc" android:layout_width="match_parent" android:layout_height="@dimen/bmw"/>
+    <TextView android:textSize="@dimen/bst" android:textColor="@color/a3s" android:layout_gravity="start|bottom" android:id="@+id/bh8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginBottom="@dimen/bqf" android:layout_marginStart="@dimen/bqf"/>
+    <ImageView android:layout_gravity="end|bottom" android:id="@+id/bgm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqf" android:layout_marginBottom="@dimen/bqf" android:src="@drawable/bvb" android:layout_marginEnd="@dimen/bqf"/>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

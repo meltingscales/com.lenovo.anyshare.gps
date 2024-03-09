@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/c98" android:paddingTop="@dimen/brt" android:paddingBottom="@dimen/brt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:layout_marginStart="@dimen/bqv" android:layout_marginEnd="@dimen/bqv"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

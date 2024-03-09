@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a3s" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.base.widget.pulltorefresh.ActionPullToRefreshRecyclerView android:id="@+id/cz0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/dq1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/avj" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="#99ffffff" style="@style/aj7"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="5dp" app:night_tv_text_color="#99ffffff" style="@style/alh"/>
+    </FrameLayout>
+</FrameLayout>

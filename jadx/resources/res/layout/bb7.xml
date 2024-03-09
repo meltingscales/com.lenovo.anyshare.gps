@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/df7" android:background="@drawable/djk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/a0t" android:layout_width="match_parent" android:layout_height="@dimen/bnc" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" android:layout_marginBottom="@dimen/brt" android:text="@string/bpf"/>
+    </LinearLayout>
+    <ViewStub android:id="@+id/b2g" android:layout="@layout/ba6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/a3f" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@+id/a1g" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@+id/w0" android:background="@drawable/z8" android:layout_width="@dimen/ap0" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/a4c" android:layout_width="@dimen/ann" android:layout_height="@dimen/am4" android:layout_marginTop="@dimen/aqq" android:src="@drawable/a4m" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/apb" android:paddingRight="@dimen/apb" android:paddingBottom="24dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxWidth="@dimen/ap0" android:maxHeight="@dimen/arg" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_weight="1" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/a4c">
+                    <TextView android:textSize="@dimen/ast" android:textColor="@color/iy" android:ellipsize="end" android:gravity="center" android:id="@+id/a4d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <TextView android:textSize="@dimen/asr" android:textColor="@color/ij" android:ellipsize="end" android:gravity="center" android:id="@+id/a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqw" android:maxLines="2"/>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView android:layout_gravity="start|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/ar7" android:src="@drawable/zh"/>
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/a7o" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/arr"/>
+</LinearLayout>

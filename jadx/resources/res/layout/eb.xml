@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqb" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bqb" android:layout_marginBottom="@dimen/bpe">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:layout_width="@dimen/boq" android:layout_height="@dimen/boq" app:radius="@dimen/iv" app:rect_radio="1">
+        <ImageView android:id="@+id/jr" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/ef" android:layout_gravity="center" android:id="@+id/js" android:paddingLeft="@dimen/bn4" android:paddingRight="@dimen/bn4" android:layout_width="268dp" android:layout_height="wrap_content" android:text="prayer content"/>
+</FrameLayout>

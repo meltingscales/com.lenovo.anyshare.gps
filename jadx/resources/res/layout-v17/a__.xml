@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.photo.ads.AdPhotoPlayer android:id="@+id/cua" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="top" android:id="@+id/cu5" android:background="@color/bj1" android:fitsSystemWindows="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/bqn" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+            <Button android:layout_gravity="start|center_vertical" android:id="@+id/atx" android:background="@drawable/be1" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/brt" android:layout_marginStart="@dimen/brt"/>
+            <TextView android:textSize="@dimen/bmw" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/cuc" android:layout_width="0dp" android:layout_height="@dimen/bqd" android:layout_marginLeft="@dimen/bpv" android:layout_marginRight="@dimen/bl2" android:singleLine="true" android:layout_weight="1" android:layout_marginStart="@dimen/bpv" android:layout_marginEnd="@dimen/bl2"/>
+            <FrameLayout android:id="@+id/d4z" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/b22" android:background="@drawable/bd1" android:clickable="true" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginRight="@dimen/bmf" android:layout_marginEnd="@dimen/bmf"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/cue" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bvp" android:src="@drawable/bpl" android:layout_marginEnd="@dimen/bvp"/>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/awm" android:background="@color/bj1" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.filemanager.player.photo.thumblist.ThumbListView android:gravity="center" android:layout_gravity="bottom" android:id="@+id/dow" android:layout_width="match_parent" android:layout_height="@dimen/bvs"/>
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/azs" android:layout_width="match_parent" android:layout_height="@dimen/bqe">
+            <TextView android:textStyle="bold" android:textColor="@color/a7_" android:gravity="center" android:layout_gravity="center" android:id="@+id/azr" android:background="@drawable/arm" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:text="@string/cta" android:textAllCaps="true" android:layout_marginStart="@dimen/bnj" android:layout_marginEnd="@dimen/bnj"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/cu_" android:background="@drawable/bru" android:padding="@dimen/dhs" android:layout_width="@dimen/dhs" android:layout_height="@dimen/dhs"/>
+    <include android:id="@+id/cu8" layout="@layout/a9e"/>
+</FrameLayout>

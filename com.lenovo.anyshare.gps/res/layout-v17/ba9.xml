@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:paddingLeft="@dimen/bo8" android:paddingTop="@dimen/bop" android:paddingRight="@dimen/bnj" android:paddingBottom="@dimen/bo8" android:paddingStart="@dimen/bo8" android:paddingEnd="@dimen/bnj" style="@style/ps">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/bku" android:layout_height="@dimen/bpz" android:src="@drawable/d4c" app:a75="@dimen/db2" />
+        <RelativeLayout android:id="@id/cs9" android:paddingTop="@dimen/bmf" android:paddingBottom="@dimen/bqv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/bqx" android:layout_height="@dimen/brr" android:src="@drawable/d4_" android:layout_alignBottom="@id/cs6" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:a75="@dimen/db2" />
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/cs6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bsy" android:textColor="@color/xl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ch1" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/xl" android:paddingTop="@dimen/brt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ch2" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/xl" android:paddingTop="@dimen/brt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ch3" android:drawableLeft="@drawable/d49" android:drawablePadding="@dimen/bqv" android:drawableStart="@drawable/d49" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/xl" android:paddingTop="@dimen/brt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ch4" android:drawableLeft="@drawable/d49" android:drawablePadding="@dimen/bqv" android:drawableStart="@drawable/d49" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/xl" android:paddingTop="@dimen/brt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ch5" android:drawableLeft="@drawable/d49" android:drawablePadding="@dimen/bqv" android:drawableStart="@drawable/d49" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:textColorHighlight="@color/a61" android:id="@id/cs_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brl" android:text="@string/ch6" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wg" android:layout_gravity="end" android:id="@id/az_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bow" android:text="@string/cge" />
+    </LinearLayout>
+</LinearLayout>

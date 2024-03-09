@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/b9k" android:background="@drawable/ah9" android:paddingLeft="@dimen/bnj" android:paddingTop="@dimen/bio" android:paddingRight="@dimen/bnj" android:paddingBottom="@dimen/bin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/bhl" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bip" android:singleLine="true" android:layout_alignParentTop="true" style="@style/agr" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/dpx" android:layout_alignWithParentIfMissing="true" android:lineSpacingExtra="@dimen/bhn" />
+    </RelativeLayout>
+    <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@id/d2i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bil" android:src="@color/sp">
+        <ImageView android:id="@id/bcd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <com.san.ads.MediaView android:id="@id/bc_" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <include layout="@layout/uo" />
+    </com.ushareit.ads.ui.widget.RectFrameLayout>
+    <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@id/b00" android:background="@drawable/ahb" android:layout_width="fill_parent" android:layout_height="@dimen/bhp" android:layout_marginTop="@dimen/bl2" android:max="100" android:progress="100" android:minHeight="@dimen/bhk" app:ajb="@dimen/bhr" app:ajd="true" app:ajf="@color/sk" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/akc" />
+</LinearLayout>

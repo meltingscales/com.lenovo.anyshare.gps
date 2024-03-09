@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/c9d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="0dp" android:layout_marginHorizontal="@dimen/cx6" app:night_bg_color_tint="@color/au7">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dqf" android:background="@drawable/cau" android:paddingLeft="@dimen/cxh" android:paddingTop="@dimen/cxh" android:paddingRight="@dimen/cxh" android:paddingBottom="@dimen/cxh" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cxh" android:paddingEnd="@dimen/cxh">
+        <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@+id/cit" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.ushareit.theme.night.view.NightFrameLayout>

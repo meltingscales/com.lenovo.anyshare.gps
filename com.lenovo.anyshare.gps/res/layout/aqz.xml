@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/cen" android:paddingTop="@dimen/cxs" android:paddingBottom="@dimen/cxs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/cxk" android:layout_weight="1.0" app:a76="@color/au7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/c5l" android:layout_width="@dimen/cvz" android:layout_height="@dimen/cvz" android:layout_marginLeft="@dimen/ctn" android:src="@drawable/c7z" app:a75="@dimen/db2" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cyj" android:layout_marginRight="@dimen/ctn" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/cyt" android:textColor="@color/auo" android:ellipsize="end" android:id="@id/dw8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2" />
+        <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/auf" android:id="@id/dw3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</com.ushareit.theme.night.view.NightLinearLayout>

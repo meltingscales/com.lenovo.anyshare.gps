@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bkv" android:paddingTop="@dimen/dk0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/b7_" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/bfb" android:text="@string/cvk" style="@style/ug"/>
+            <ImageView style="@style/ua"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/b1b" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/bf_" android:text="@string/cvj" style="@style/ug"/>
+            <ImageView style="@style/ua"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/dlp" android:text="@string/czv" style="@style/ug"/>
+            <TextView android:id="@+id/dlq" style="@style/ub"/>
+            <ImageView android:id="@+id/b0a" style="@style/ua"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/dba" android:text="@string/cvc" style="@style/ug"/>
+            <TextView android:id="@+id/dbb" style="@style/ub"/>
+            <ImageView style="@style/ua"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/brw" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/brv" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dhn" android:hint="lat" android:layout_weight="1" android:inputType="numberDecimal"/>
+            <EditText android:id="@+id/brx" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dhn" android:hint="lng" android:layout_weight="1" android:inputType="numberDecimal"/>
+            <include android:id="@+id/bru" layout="@layout/a0f"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/dbh" android:text="@string/cx4" style="@style/ug"/>
+            <TextView android:id="@+id/dbi" style="@style/ub"/>
+            <ImageView style="@style/ua"/>
+        </FrameLayout>
+        <View style="@style/ud"/>
+        <LinearLayout android:id="@+id/e65" style="@style/uc">
+            <EditText android:textSize="@dimen/dhr" android:id="@+id/e6b" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/d0q" android:layout_weight="1" android:inputType="textUri"/>
+            <TextView android:id="@+id/e64" android:text="@string/asa" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout style="@style/uc">
+            <EditText android:textSize="@dimen/dhr" android:id="@+id/e2n" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Video Push Item ID" android:layout_weight="1" android:inputType="text"/>
+            <TextView android:id="@+id/e2m" android:text="@string/asa" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout style="@style/uc">
+            <EditText android:textSize="@dimen/dhr" android:id="@+id/cnn" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="News Item ID" android:layout_weight="1" android:inputType="text"/>
+            <TextView android:id="@+id/cnm" android:text="@string/asa" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout style="@style/uc">
+            <EditText android:textSize="@dimen/dhr" android:id="@+id/cs4" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="APK Absolute Path" android:layout_weight="1" android:inputType="text"/>
+            <TextView android:id="@+id/cs3" android:text="@string/asa" style="@style/uf"/>
+        </LinearLayout>
+        <View style="@style/ud"/>
+        <FrameLayout android:id="@+id/dc8" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/d0m" style="@style/ug"/>
+            <include android:id="@+id/dco" layout="@layout/bfs"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/dbc" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/cvg" style="@style/ug"/>
+            <include android:id="@+id/dcj" layout="@layout/bfs"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/dc6" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="Test Stats" style="@style/ug"/>
+            <include android:id="@+id/dcn" layout="@layout/bfs"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/dbn" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/cxa" style="@style/ug"/>
+            <include android:id="@+id/dci" layout="@layout/bfs"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/dcf" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/cz_" style="@style/ug"/>
+            <include android:id="@+id/dbs" layout="@layout/bfs"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/e1v" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:text="Use IjkPlayer" style="@style/ug"/>
+            <include android:id="@+id/dc_" layout="@layout/bfs"/>
+        </FrameLayout>
+        <TextView android:id="@+id/dbr" android:visibility="gone" android:text="@string/cz9" style="@style/a78"/>
+        <TextView android:id="@+id/bpd" android:text="Float Log" style="@style/ug"/>
+        <View style="@style/ud"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ckf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/djz" android:layout_marginRight="@dimen/djz">
+            <Spinner android:id="@+id/ckg" android:background="@drawable/cmh" android:layout_width="match_parent" android:layout_height="@dimen/bok" android:layout_marginRight="@dimen/bqf" android:popupBackground="@drawable/d9a" android:layout_weight="1" android:spinnerMode="dropdown"/>
+            <Spinner android:id="@+id/cke" android:background="@drawable/cmh" android:layout_width="match_parent" android:layout_height="@dimen/bok" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:popupBackground="@drawable/d9a" android:layout_weight="1" android:spinnerMode="dropdown"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cpx" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/cpw" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="input notify file path" android:layout_weight="1" android:inputType="textUri"/>
+            <include android:id="@+id/cpv" layout="@layout/a0f"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/bhp" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="input ongoing notify biz_id" android:layout_weight="1" android:inputType="text"/>
+            <include android:id="@+id/b0h" layout="@layout/a0f"/>
+        </LinearLayout>
+        <TextView android:id="@+id/b91" android:layout_marginBottom="@dimen/dhp" android:text="@string/cvb" style="@style/vz"/>
+        <LinearLayout style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfa" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bbs" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfl" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bc2" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfc" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bbt" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bf9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bbr" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/bql" style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfe" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bbv" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dqt" style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfk" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bc1" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/bl1" style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfd" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bbu" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/bwi" style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bbw" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ck8" style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfg" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bby" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/cr6" style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfh" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:id="@+id/bbz" android:text="@string/are" style="@style/uf"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/cya" style="@style/uc">
+            <TextView android:textSize="@dimen/dhr" android:id="@+id/bfi" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+        <View style="@style/ud"/>
+        <TextView android:id="@+id/bfj" android:visibility="gone" android:text="@string/cvm" style="@style/a79"/>
+        <TextView android:id="@+id/dn8" android:visibility="gone" android:text="shareit id: " style="@style/a79"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:layout_width="@dimen/dhn" android:layout_height="match_parent"/>
+            <TextView android:id="@+id/bpn" android:text="force upload token" style="@style/ue"/>
+            <View android:layout_width="@dimen/dhn" android:layout_height="match_parent"/>
+            <TextView android:id="@+id/d3_" android:text="RESET ID &amp; LOGIN (Beyla and sharezone)" style="@style/ue"/>
+            <View android:layout_width="@dimen/dhn" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dhp" android:layout_marginBottom="@dimen/dhp">
+            <View android:layout_width="@dimen/dhn" android:layout_height="match_parent"/>
+            <TextView android:id="@+id/dn1" android:text="Test Crash" style="@style/ue"/>
+            <View android:layout_width="@dimen/dhn" android:layout_height="match_parent"/>
+            <TextView android:id="@+id/ctp" android:text="Performance Float" style="@style/ue"/>
+            <View android:layout_width="@dimen/dhn" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <View style="@style/ud"/>
+        <EditText android:id="@+id/bjg" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Business Type"/>
+        <EditText android:id="@+id/bjv" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Pkg ID"/>
+        <TextView android:id="@+id/b96" android:layout_marginBottom="@dimen/dhp" android:text="Try Pull Pkg" style="@style/vz"/>
+        <TextView android:id="@+id/b92" android:layout_marginBottom="@dimen/dhp" android:text="Get Pkg Cache" style="@style/vz"/>
+        <TextView android:id="@+id/b93" android:layout_marginBottom="@dimen/dhp" android:text="Restore By Backup" style="@style/vz"/>
+        <TextView android:id="@+id/b90" android:layout_marginBottom="@dimen/dhp" android:text="MCDS" style="@style/vz"/>
+    </LinearLayout>
+</ScrollView>

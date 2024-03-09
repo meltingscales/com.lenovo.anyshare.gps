@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/c1y">
+        <ImageView android:layout_gravity="center" android:id="@id/doh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        <TextView android:textSize="@dimen/c47" android:textColor="@color/aaz" android:layout_gravity="start|center|top" android:id="@id/dpx" android:background="@drawable/b1e" android:paddingLeft="@dimen/c13" android:paddingTop="@dimen/c3j" android:paddingRight="@dimen/c13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/c2q" android:maxLines="2" />
+        <ImageView android:layout_gravity="center" android:id="@id/cvm" android:layout_width="@dimen/c2u" android:layout_height="@dimen/c2u" android:src="@drawable/b3i" />
+        <View android:layout_gravity="bottom" android:id="@id/bz4" android:background="@drawable/b1d" android:layout_width="fill_parent" android:layout_height="@dimen/c2x" />
+        <TextView android:textSize="@dimen/c48" android:textColor="@color/aaz" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/bh8" android:padding="@dimen/c3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--:--" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/c4b" android:textStyle="bold" android:textColor="@color/a__" android:gravity="start" android:id="@id/bb3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/c23" android:text="@string/bsu" />
+    <TextView android:textSize="@dimen/c49" android:textColor="@color/a_l" android:gravity="start" android:id="@id/bab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginTop="@dimen/c1f" android:layout_marginRight="@dimen/c23" android:text="@string/bss" />
+</LinearLayout>

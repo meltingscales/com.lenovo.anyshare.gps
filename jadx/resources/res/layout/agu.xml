@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bof" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/bov" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqj" android:src="@drawable/bsc" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <FrameLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="@dimen/bp7" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintBottom_toTopOf="@+id/bov" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <RelativeLayout android:id="@+id/boo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/boy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/bp4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.lenovo.anyshare.flash.widget.FlashSkipView android:id="@+id/bp3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/bz5" android:layout_marginLeft="@dimen/bl2" app:layout_constraintBottom_toBottomOf="@+id/bp3" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/bp3" layout="@layout/wf"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

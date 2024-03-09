@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/d_6" android:background="@color/v7" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/btl">
+        <Button android:layout_gravity="start|center" android:id="@id/d_b" android:background="@drawable/be1" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsm" style="@style/aj2" />
+        <FrameLayout android:layout_gravity="center_vertical" android:background="@drawable/bok" android:layout_width="fill_parent" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bmm" android:layout_marginStart="@dimen/bqd" android:layout_marginEnd="@dimen/bmm">
+            <EditText android:textSize="@dimen/bsx" android:textColor="@color/w4" android:textColorHint="@color/ye" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/bav" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/bq4" android:minHeight="@dimen/bp7" android:hint="@string/bn7" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" android:textCursorDrawable="@drawable/bqe" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/bq4" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/ban" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bqf" android:scaleType="center" app:a7_="@color/w4" style="@style/ahn" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.ushareit.widget.CommonContentPagesSwitchBar android:id="@id/dm4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnc" android:layout_marginStart="@dimen/bnc" />
+</merge>

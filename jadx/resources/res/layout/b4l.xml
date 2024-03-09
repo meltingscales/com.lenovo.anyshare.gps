@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center_vertical" android:id="@+id/cv5" android:background="?attr/aap" android:padding="@dimen/den" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/d_g" android:contentDescription="@string/cn6"/>
+    <EditText android:textSize="20sp" android:textColor="@color/b2g" android:textColorHint="@color/b2f" android:id="@+id/cvf" android:background="@android:color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:hint="@string/cn5" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_weight="1" android:inputType="textNoSuggestions" android:imeOptions="flagNoExtractUi|actionSearch" android:textCursorDrawable="@null"/>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@+id/cv6" android:background="?attr/aap" android:padding="@dimen/den" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d_h" android:contentDescription="@string/cn2"/>
+</merge>

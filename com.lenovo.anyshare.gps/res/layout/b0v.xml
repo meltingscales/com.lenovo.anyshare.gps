@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/b9k" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@id/d2i" android:background="@color/s3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:m4="@dimen/bkq" app:m5="@dimen/bkq" app:a_j="0.52356" app:al8="@dimen/bl2" app:al9="@dimen/bl2">
+        <ImageView android:id="@id/avo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/bcd" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bo9" android:scaleType="centerCrop" />
+        <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+        <com.san.ads.MediaView android:id="@id/bc_" android:background="@color/sh" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    <ImageView android:id="@id/aom" android:visibility="invisible" android:layout_width="@dimen/bnj" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/bl2" android:layout_marginBottom="@dimen/bl2" android:src="@drawable/agp" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,322 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title id="title">group</title>
+    <style>
+        html,
+        body,
+        div,
+        head,
+        header,
+        section,
+        ul,
+        li,
+        p,
+        img {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif
+        }
+
+        .con_warp {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 720px;
+            padding-bottom: 60px;
+        }
+
+        section {
+            margin-top: 1em;
+            width: 46%;
+            color: #666;
+            font-size: 16px
+        }
+
+        #left {
+            float: left
+        }
+
+        #right {
+            float: right
+        }
+
+        ul li {
+            margin-bottom: 1.3em
+        }
+
+        .img_li {
+            width: 100%;
+            margin-top: .5em
+        }
+
+        .img_li img {
+            width: 100%;
+            display: block
+        }
+
+        .text_li {
+            line-height: 1.2em;
+            font-size: .9em
+        }
+
+        .text_li>span {
+            display: inline-block;
+            height: 16px;
+            width: 16px;
+            border-radius: 8px;
+            background: #247FFF;
+            text-align: center;
+            color: #fff;
+            margin-left: -5px
+        }
+
+        .zs {
+            background: #943caa!important
+        }
+
+        @media(min-width:1000px) {
+            .con_warp {
+                width: 720px
+            }
+        }
+
+        #btn {
+            margin-top: 30px;
+            padding-bottom: 20px;
+            width: 100%;
+            height: 34px;
+            clear: both
+        }
+
+        #btn .btn {
+            color: #444;
+            height: 34px;
+            float: left;
+            width: 30%;
+            overflow: hidden;
+            padding-right: 4%;
+            padding-left: 4%;
+            margin-left: 6.5%;
+            margin-right: 4.5%;
+            text-align: center;
+            font-size: 14px;
+            line-height: 20px;
+            border: 1px solid #acacac;
+            vertical-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 6px;
+        }
+
+        .btn span {
+            float: left;
+            margin-left: 4px;
+            /* margin-top: 8px; */
+            display: block
+        }
+
+        .btn img {
+            float: left;
+            /* margin-top: 9px; */
+            height: 16px;
+            width: 16px
+        }
+
+        .click {
+            background-color: #d1d1d1
+        }
+
+        #feadback_title {
+            color: #757575;
+            font-size: 14px;
+            clear: both;
+            background: #eee;
+            line-height: 2em;
+            margin-bottom: 0;
+            padding-left: 7%
+        }
+
+        #other {
+            width: 100%;
+            background: #fff;
+            padding: 10px 7%;
+            box-sizing: border-box;
+            position: fixed;
+            bottom: 0;
+            border-top: 1px solid rgba(151,151,151,0.20);
+        }
+        #other a {
+            font-size: 14px;
+            display: block;
+            color: #444;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ececec;
+            text-decoration: none;
+        }
+        #other #feadback_btn {
+            border-radius:6px;
+            background: #247FFF;
+            color: #fff;
+            text-align: center;
+        }
+        .details {
+            clear: both;
+            width: 100%;
+            height: 100%
+        }
+
+        .tips {
+            clear: both;
+            color: #979595;
+            font-size: 16px
+        }
+
+        .tips #tip_t {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: 18px
+        }
+
+        .tips p {
+            line-height: 22px
+        }
+
+        #hr {
+            position: absolute;
+            width: 1px;
+            left: 49.9%;
+            height: 85%;
+            background: #eee
+        }
+
+        #left_title,
+        #right_title {
+            text-align: center
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con_warp">
+        <div class="details">
+            <section id="left">
+                <ul>
+                    <li>
+                        <div class="text_li" id="left_title">How to create a group?</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enl1.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text_li" id="left_li_1">
+                            <span>1</span> Create a Group</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enl2.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text_li" id="left_li_2">
+                            <span>2</span> Waiting for others to join</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enl3.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text_li" id="left_li_3">
+                            <span>3</span> Group created</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enl4.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="hr"></section>
+            <section id="right">
+                <ul>
+                    <li>
+                        <div class="text_li" id="right_title">How to join a group?</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enr1.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text_li" id="right_li_1">
+                            <span class="zs">1</span> Join a Group</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enr2.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text_li" id="right_li_2">
+                            <span class="zs">2</span> Tap avatar to join a group</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enr3.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text_li" id="right_li_3">
+                            <span class="zs">3</span> Joined successfully</div>
+                        <div class="img_li">
+                            <img src="http://cdn.ushareit.com/s/a/group/img/enr4.png" alt="" onerror="imgError(this)">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="tips">
+            <p id="tip_t">Tips:</p>
+            <p id="tip_1">1. Group Creator can remove group members from the group.</p>
+            <p id="tip_2">2. Transfer speed mostly depends on Group Creator's mobile model.</p>
+        </div>
+        <div id="btn">
+            <a class="btn" id="shareit_group_click_helpful" onclick="collect('shareit_group_click_helpful',true);">
+                <img src="http://cdn.ushareit.com/s/a/group/img/like.png" width="100%" alt="">
+                <span id="done">Solved</span>
+            </a>
+            <a class="btn" id="shareit_group_click_unhelpful" onclick="collect('shareit_group_click_unhelpful',false);">
+                <img src="http://cdn.ushareit.com/s/a/group/img/dislike.png" width="100%" alt="">
+                <span id="undone">Unsolved</span>
+            </a>
+        </div>
+    </div>
+    <!-- <h3 id="feadback_title">Have any other questions</h3> -->
+    <div id="other">
+        <a id="feadback_btn" class="mail" href="javascript:void(0);" onclick="goFeadback()">Feedback</a>
+    </div>
+    <script>
+        function imgError(b) { var c = b; c.style.display = "none"; var d = c.parentNode; d.style.height = "100px"; d.style.background = "#eee" } function collect(b, a) { "shareit_group_click_helpful" == b ? ($("shareit_group_click_helpful").className = "btn click", $("shareit_group_click_unhelpful").className = "btn unclick", $("shareit_group_click_unhelpful").removeAttribute("onclick")) : ($("shareit_group_click_unhelpful").className = "btn click", $("shareit_group_click_helpful").className = "btn unclick", $("shareit_group_click_helpful").removeAttribute("onclick")); try { client; if ("shareit_group_click_helpful" == b) { client.analyticsEvent("UF_WHUseful", "ht_group") } else { client.analyticsEvent("UF_WHNoUseful", "ht_group") } } catch (b) { console.log(b) } } function $(a) { return document.getElementById(a) };
+        feedbackParams = {
+            "inner_func_type": "41",
+            "email": "feedback_android@ushareit.com",
+            "category_id": "help_trans",
+            "portal": "help_feedback_common",
+            "page_url":"/feedback/activity/chat"
+        };
+
+        function goFeadback() {
+            try {
+                client;
+                var i = client.getDeviceInfo();
+                var oi = JSON.parse(i);
+                var title = "Help from Feedback";
+                if ((oi.app_id == "com.lenovo.anyshare.gps" && parseInt(oi.app_ver) >= 4030500) || (oi.app_id == "com.ushareit.daily") ||  (oi.app_id == "com.shareit.mod") ||  (oi.app_id == "shareit.lite")) {
+                client.handleAction(title, 60, JSON.stringify(feedbackParams))
+
+                }
+            } catch (e) {
+                $("feadback_btn").removeAttribute("onclick");
+                $("feadback_btn").setAttribute("href", "https://www.facebook.com/bestSHAREit");
+                console.log(e)
+            }
+        };
+
+    </script>
+</body>
+
+</html>

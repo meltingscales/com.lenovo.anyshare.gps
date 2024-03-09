@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <RelativeLayout android:layout_gravity="center" android:id="@+id/a70" android:paddingLeft="@dimen/aon" android:paddingRight="@dimen/aon" android:paddingBottom="@dimen/ans" android:layout_height="@dimen/ap0" android:paddingHorizontal="@dimen/aon" style="@style/ps">
+        <TextView android:textSize="@dimen/asu" android:textStyle="bold" android:textColor="@color/ij" android:gravity="start|center_vertical" android:id="@+id/ado" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ap4" android:layout_marginBottom="@dimen/ans" android:text="@string/a0v" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/jp" android:gravity="end|center_vertical" android:id="@+id/aa4" android:paddingLeft="@dimen/aog" android:paddingTop="@dimen/arr" android:paddingRight="@dimen/amf" android:paddingBottom="@dimen/arr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/aqx" android:text="@string/ah5" android:layout_toLeftOf="@+id/ac1" android:layout_alignParentBottom="true" android:textAllCaps="true" android:paddingStart="@dimen/aog" android:paddingEnd="@dimen/amf" android:layout_toStartOf="@+id/ac1"/>
+        <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/jp" android:gravity="end|center_vertical" android:id="@+id/ac1" android:paddingLeft="@dimen/am3" android:paddingTop="@dimen/arr" android:paddingRight="@dimen/ao5" android:paddingBottom="@dimen/arr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/aqx" android:text="@string/wj" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:textAllCaps="true" android:paddingEnd="@dimen/ao5" android:layout_alignParentEnd="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/ac1" android:layout_below="@+id/ado">
+            <include android:id="@+id/a1z" layout="@layout/jw"/>
+            <include android:id="@+id/a2a" layout="@layout/jw"/>
+            <include android:id="@+id/a2b" layout="@layout/jw"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

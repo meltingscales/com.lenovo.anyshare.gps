@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/aog" android:background="@drawable/ah6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bhm" android:paddingTop="@dimen/bmf" android:paddingRight="@dimen/bhm" android:paddingBottom="@dimen/bmf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/bx9" android:layout_width="@dimen/bqt" android:layout_height="@dimen/bqt" android:layout_alignParentTop="true" style="@style/am8">
+                <ImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/am9">
+                <TextView android:textSize="@dimen/bhl" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bhs" android:singleLine="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <include android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" layout="@layout/uo" />
+                    <TextView android:textSize="@dimen/bho" android:textColor="@color/sg" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="72" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags" />
+        </RelativeLayout>
+        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@id/b00" android:background="@drawable/aho" android:layout_width="fill_parent" android:layout_height="@dimen/bhp" android:layout_marginTop="@dimen/bl2" android:max="100" android:progress="100" app:ajb="@dimen/bsy" app:ajd="true" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/akc" />
+    </LinearLayout>
+</FrameLayout>

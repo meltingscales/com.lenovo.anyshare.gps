@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.downloader.search.widget.TitlebarSearchHotScrollView android:layout_gravity="start|center_vertical" android:id="@+id/bw6" android:layout_width="match_parent" android:layout_height="@dimen/c2j" android:layout_marginLeft="@dimen/c0x" android:layout_marginRight="@dimen/c2n"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/d9z" android:background="@drawable/b71" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c35"/>
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/q1">
+        <TextView android:id="@id/csz" android:text="@string/cz8" style="@style/q7" />
+        <TextView android:gravity="start" android:id="@id/csy" android:paddingTop="0.0dip" android:text="@string/cz7" style="@style/pr" />
+        <LinearLayout android:orientation="vertical" android:layout_marginTop="@dimen/blk" style="@style/pr">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/dfb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="@dimen/btn" android:textColorHint="#ffaaaaaa" android:id="@id/csx" android:background="@null" android:layout_width="0.0dip" android:layout_height="@dimen/dbx" android:hint="@string/cz6" android:singleLine="true" android:maxLength="63" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="flagForceAscii" style="@style/aj0" />
+                <ImageView android:id="@id/csw" android:padding="@dimen/dby" android:layout_width="@dimen/dbx" android:layout_height="@dimen/dbx" android:src="@drawable/dfc" />
+            </LinearLayout>
+            <TextView android:id="@id/cst" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/czi" style="@style/q5" />
+            <TextView android:id="@id/csu" android:visibility="gone" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" style="@style/q5" />
+        </LinearLayout>
+        <include layout="@layout/a30" />
+    </LinearLayout>
+</ScrollView>

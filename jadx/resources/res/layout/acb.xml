@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bb6" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/btl"/>
+    <include layout="@layout/a9h"/>
+    <include layout="@layout/ac0"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/cdg" android:layout="@layout/a9e" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

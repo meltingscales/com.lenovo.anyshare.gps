@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightFrameLayout android:id="@id/bm9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" app:a76="@color/afs">
+        <include layout="@layout/axu" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bow" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bow" android:layout_marginBottom="@dimen/brt">
+            <include android:gravity="center_vertical" android:id="@id/arc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blv" android:layout_marginBottom="@dimen/blv" layout="@layout/a0t" />
+            <FrameLayout android:id="@id/bnp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/arc">
+                <ListView android:id="@id/bmb" android:paddingBottom="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/rc" />
+                <com.lenovo.anyshare.widget.recyclerview_adapter.sticky_recyclerview.StickyRecyclerView android:id="@id/d7p" android:background="@color/bi0" android:paddingBottom="@dimen/bnj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/rc" />
+            </FrameLayout>
+        </RelativeLayout>
+    </com.ushareit.theme.night.view.NightFrameLayout>
+    <include android:id="@id/bmc" layout="@layout/axy" />
+    <include android:id="@id/d7q" layout="@layout/axy" />
+</FrameLayout>

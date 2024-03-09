@@ -1,0 +1,43 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
+
+/* loaded from: classes4.dex */
+public final class zzfws extends zzfwp implements ScheduledExecutorService, zzfwn {
+    public final ScheduledExecutorService zza;
+
+    public zzfws(ScheduledExecutorService scheduledExecutorService) {
+        super(scheduledExecutorService);
+        if (scheduledExecutorService == null) {
+            throw null;
+        }
+        this.zza = scheduledExecutorService;
+    }
+
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture schedule(Runnable runnable, long j, TimeUnit timeUnit) {
+        zzfxc zzf = zzfxc.zzf(runnable, null);
+        return new zzfwq(zzf, this.zza.schedule(zzf, j, timeUnit));
+    }
+
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture scheduleAtFixedRate(Runnable runnable, long j, long j2, TimeUnit timeUnit) {
+        zzfwr zzfwrVar = new zzfwr(runnable);
+        return new zzfwq(zzfwrVar, this.zza.scheduleAtFixedRate(zzfwrVar, j, j2, timeUnit));
+    }
+
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture scheduleWithFixedDelay(Runnable runnable, long j, long j2, TimeUnit timeUnit) {
+        zzfwr zzfwrVar = new zzfwr(runnable);
+        return new zzfwq(zzfwrVar, this.zza.scheduleWithFixedDelay(zzfwrVar, j, j2, timeUnit));
+    }
+
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture schedule(Callable callable, long j, TimeUnit timeUnit) {
+        zzfxc zzfxcVar = new zzfxc(callable);
+        return new zzfwq(zzfxcVar, this.zza.schedule(zzfxcVar, j, timeUnit));
+    }
+}

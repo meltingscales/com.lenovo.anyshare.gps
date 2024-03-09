@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingLeft="@dimen/br9" android:paddingRight="@dimen/br9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/bqf" app:a_j="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/c1p" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/a4p" android:scaleType="fitXY" app:a75="@dimen/db2" />
+            <TextView android:textSize="@dimen/btj" android:textColor="@color/ty" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/c1j" android:layout_width="wrap_content" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/bqf" android:layout_marginBottom="@dimen/bp0" android:minWidth="@dimen/bpr" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@id/cvm" android:background="@drawable/brm" android:visibility="gone" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center|top" android:id="@id/b25" android:padding="@dimen/bqf" android:visibility="gone" android:layout_width="@dimen/bok" android:layout_height="@dimen/bok" app:a75="@dimen/db2" />
+    </FrameLayout>
+</merge>

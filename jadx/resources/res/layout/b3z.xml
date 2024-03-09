@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.filepreview.pdf.view.ZoomRecyclerView android:id="@+id/d2t" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    <FrameLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="horizontal" android:id="@+id/b8m" android:background="@drawable/av9" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="@color/tj" style="@style/aj7"/>
+        <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:layout_gravity="start" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/btu" android:layout_marginRight="@dimen/bkw" android:maxLines="1"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/bsz" android:textColor="@color/b27" android:gravity="center" android:id="@+id/ctg" android:background="@drawable/d59" android:paddingLeft="@dimen/bl2" android:paddingRight="@dimen/bl2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/boe" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bry" android:minWidth="@dimen/bqn"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/e4_" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/e3w" android:background="@color/bj1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bqe">
+            <com.filepreview.pdf.view.EffectClickTextView android:textSize="@dimen/bst" android:textColor="@color/wu" android:gravity="center" android:id="@+id/dxr" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clu" android:drawablePadding="@dimen/bnc" android:layout_weight="1" app:drawableTopCompat="@drawable/d53"/>
+            <com.filepreview.pdf.view.EffectClickTextView android:textSize="@dimen/bst" android:textColor="@color/wu" android:gravity="center" android:id="@+id/dxq" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/clt" android:drawablePadding="@dimen/bnc" android:layout_weight="1" app:drawableTopCompat="@drawable/d52"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

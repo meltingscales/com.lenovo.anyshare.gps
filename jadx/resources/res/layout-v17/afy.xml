@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnb">
+    <TextView android:textSize="@dimen/bsu" android:textColor="@color/w4" android:id="@+id/d21" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:text="@string/cpe" android:layout_marginStart="@dimen/bqf"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/d26" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginTop="@dimen/blv" android:layout_marginStart="@dimen/br9">
+        <include layout="@layout/acv"/>
+        <include layout="@layout/acv"/>
+        <include layout="@layout/acv"/>
+        <include layout="@layout/acv"/>
+        <include layout="@layout/acv"/>
+        <include layout="@layout/acv"/>
+        <include layout="@layout/acy"/>
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:textColor="@color/wg" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/b0_" android:background="@drawable/bab" android:layout_width="match_parent" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/br9" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/br9" android:layout_marginBottom="@dimen/bqv" android:text="@string/asf" android:textAllCaps="true" android:layout_marginStart="@dimen/br9" android:layout_marginEnd="@dimen/br9"/>
+</LinearLayout>

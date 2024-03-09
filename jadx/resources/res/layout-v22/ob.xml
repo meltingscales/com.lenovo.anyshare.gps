@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/u6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/arv" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj" android:layout_marginHorizontal="@dimen/aqj">
+    <ImageView android:layout_width="@dimen/aqa" android:layout_height="@dimen/aqa" android:layout_marginLeft="@dimen/an7" android:layout_marginRight="@dimen/am3" android:src="@drawable/a3p" android:layout_marginStart="@dimen/an7" android:layout_marginEnd="@dimen/am3"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/z1"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/j2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/z0"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="start|center_vertical" android:background="@drawable/u7" android:layout_width="wrap_content" android:layout_height="80dp" android:src="@drawable/rm" android:scaleType="centerInside"/>
+</LinearLayout>

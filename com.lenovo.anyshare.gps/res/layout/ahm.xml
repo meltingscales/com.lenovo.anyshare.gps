@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cfu" android:background="@color/aea" android:paddingLeft="@dimen/bmm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bpz">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/bty" app:a75="@dimen/db2" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:gravity="center_vertical" android:id="@id/cft" android:layout_width="fill_parent" android:layout_height="@dimen/bqj" android:text="@string/bet" />
+    </LinearLayout>
+    <com.lenovo.anyshare.view.PtrClassicFrameLayout android:id="@id/dn6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/buw" cube_ptr:a9v="200" cube_ptr:a9w="700" cube_ptr:a9y="true" cube_ptr:a9z="false" cube_ptr:a_0="1.2" cube_ptr:a_1="1.8" xmlns:cube_ptr="http://schemas.android.com/apk/res-auto">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/d2t" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cfu" android:overScrollMode="never" />
+    </com.lenovo.anyshare.view.PtrClassicFrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/cfq" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginTop="@dimen/byv" android:layout_marginBottom="@dimen/byv" android:indeterminateDrawable="@drawable/aul" android:layout_below="@id/cfu" android:layout_centerHorizontal="true" />
+    <include android:id="@id/buw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/ahh" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:calendarview="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/sg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqw" android:layout_marginStart="@dimen/aqj" android:layout_marginEnd="@dimen/aqw">
+    <com.ushareit.muslim.islam.calendar.widget.WeekView android:id="@+id/aes" android:layout_width="match_parent" android:layout_height="@dimen/apu" calendarview:week_size="14"/>
+    <com.ushareit.muslim.islam.calendar.widget.CalendarView android:id="@+id/vg" android:layout_width="match_parent" android:layout_height="@dimen/ao2" calendarview:choose_type="0" calendarview:show_holiday="true" calendarview:show_last_next="false" calendarview:show_lunar="false" calendarview:show_term="true" calendarview:switch_choose="false"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/bra"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:layout_marginStart="@dimen/bl2" app:a_7="@dimen/brt">
+        <ImageView android:id="@id/as0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/blk" android:layout_weight="1.0" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/blk">
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/asa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br9" android:maxLines="1" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="start" android:id="@id/ase" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/avo" />
+</LinearLayout>

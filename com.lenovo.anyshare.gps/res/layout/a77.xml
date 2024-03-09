@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/csn" android:background="@color/a9o" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/axj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1t" android:layout_marginRight="@dimen/c1t">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start" android:id="@id/e7l" android:paddingLeft="@dimen/c23" android:paddingRight="@dimen/c23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c23" android:src="@drawable/azu" app:a7_="@color/tj" />
+        <TextView android:textSize="@dimen/c49" android:textColor="@color/a_l" android:gravity="start" android:id="@id/bdv" android:paddingLeft="@dimen/c23" android:paddingRight="@dimen/c23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c1b" android:text="@string/dua" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/d2e" android:background="@color/aai" android:paddingLeft="@dimen/c1f" android:paddingTop="@dimen/c1t" android:paddingRight="@dimen/c1f" android:paddingBottom="@dimen/c0r" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c1t" android:overScrollMode="never" />
+        <TextView android:layout_gravity="end" android:id="@id/d0j" android:layout_marginLeft="@dimen/c3j" android:layout_marginTop="@dimen/c2e" android:layout_marginRight="@dimen/c3j" android:layout_marginBottom="@dimen/c3j" android:text="@string/as_" style="@style/pk" />
+    </LinearLayout>
+</FrameLayout>

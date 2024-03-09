@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:background="#fff" android:layout_width="match_parent" android:layout_height="55dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/qb" android:tag="@string/n7" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="40dp" android:layout_height="24dp" android:src="@drawable/lg" android:scaleType="fitXY"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/qc" android:tag="@string/n8" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="40dp" android:layout_height="24dp" android:src="@drawable/li" android:scaleType="fitXY"/>
+        <TextView android:textSize="20sp" android:textColor="#333333" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/qf" android:tag="@string/n_" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/qd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:id="@+id/qe" android:tag="@string/n9" android:padding="0dp" android:layout_width="match_parent" android:layout_height="5dp" android:max="100" android:alpha="0" style="?android:attr/progressBarStyleHorizontal"/>
+    </FrameLayout>
+</LinearLayout>

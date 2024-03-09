@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.filemanager.main.music.view.MusicCardWidgetView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/cmc" android:paddingLeft="@dimen/brt" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/brt" android:layout_width="match_parent" android:layout_height="wrap_content"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/d6n" android:padding="@dimen/dfh" android:layout_width="@dimen/dfd" android:layout_height="@dimen/dey" android:layout_marginLeft="@dimen/dga" android:layout_marginRight="@dimen/dga" android:layout_marginBottom="@dimen/dfe"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.siplayer.component.adapter.PlayerEpisodeItemView android:id="@id/bis" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/bii" android:layout_width="fill_parent" android:layout_height="@dimen/dgo" android:src="@drawable/d6q" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/dgx" android:textColor="@color/b3g" android:id="@id/bij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dgn" android:maxLines="2" />
+</FrameLayout>

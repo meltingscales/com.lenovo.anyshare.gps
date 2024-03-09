@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqw" android:layout_marginBottom="@dimen/bs3">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:radius="@dimen/iv" app:rect_radio="0.54">
+        <ImageView android:id="@+id/kv" android:background="@drawable/hx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/bt6" android:textStyle="bold" android:textColor="@color/ef" android:ellipsize="end" android:id="@+id/tv_content_res_0x7005007e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:text="Great is our load,and great ie his power,and of His Wisdom there is no number" android:maxLines="3" android:layout_marginHorizontal="@dimen/bnj"/>
+        <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/ef" android:ellipsize="end" android:gravity="end" android:layout_gravity="end" android:id="@+id/l6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/bo8" android:text="2:11" android:maxLines="3" android:layout_marginHorizontal="@dimen/bo8"/>
+    </LinearLayout>
+</RelativeLayout>

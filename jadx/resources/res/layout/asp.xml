@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/c9d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="0dp" app:night_bg_color_tint="@color/au7">
+    <LinearLayout android:orientation="vertical" android:id="@+id/d6v" android:background="@drawable/cau" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/aso"/>
+        <include layout="@layout/asn"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d1e" android:layout_marginTop="@dimen/d1d" android:layout_marginRight="@dimen/d1e" android:baselineAligned="false">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0u" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0v" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d1v" android:layout_weight="1"/>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0w" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d1v" android:layout_weight="1"/>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c0x" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d1v" android:layout_weight="1"/>
+        </LinearLayout>
+        <include layout="@layout/asm"/>
+    </LinearLayout>
+</com.ushareit.theme.night.view.NightFrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/aog" android:background="@drawable/ah8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-2dp" app:bottom_left_corner="@dimen/bkq" app:bottom_right_corner="@dimen/bkq" app:top_left_corner="@dimen/bl2" app:top_right_corner="@dimen/bl2">
+        <com.san.ads.MediaView android:id="@+id/bc_" android:background="@color/sh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aiu"/>
+    </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    <RelativeLayout android:id="@+id/bl3" android:layout_width="match_parent" android:layout_height="@dimen/bqj">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/ux"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

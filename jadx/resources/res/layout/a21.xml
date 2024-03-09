@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/bvj">
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/bap" app:night_alpha="@dimen/db2" style="@style/r6"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/bmm" android:layout_weight="1">
+                <TextView android:id="@+id/baq" style="@style/r9"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@+id/baw" android:layout_width="wrap_content" android:layout_height="wrap_content" app:night_alpha="@dimen/db2"/>
+                    <TextView android:layout_gravity="center_vertical" android:id="@+id/bar" style="@style/alt"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@+id/bao" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:layout_marginRight="@dimen/bm3" app:night_alpha="@dimen/db2"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

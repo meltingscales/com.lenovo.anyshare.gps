@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/c1f" android:layout_width="fill_parent" android:layout_height="@dimen/bqd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center" android:id="@id/cju" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bmf" app:a0o="csi" app:a17="csi" app:a1c="csi" app:a1g="csi" app:a7_="@color/w4" />
+    <TextView android:textSize="@dimen/bsz" android:textColor="@color/aep" android:layout_gravity="start|center" android:id="@id/cjx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" app:a0o="csi" app:a18="@id/cju" app:a1b="@id/cju" app:a1g="csi" />
+    <View android:layout_gravity="center_vertical" android:id="@id/cjy" android:background="@drawable/bkp" android:visibility="gone" android:layout_width="@dimen/brl" android:layout_height="@dimen/brl" android:layout_marginLeft="@dimen/bmf" app:a0o="csi" app:a18="@id/cjx" app:a1b="@id/cjx" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

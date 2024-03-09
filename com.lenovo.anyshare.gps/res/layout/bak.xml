@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RectFrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/dd7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/crt" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/crs" android:visibility="visible" android:layout_width="@dimen/buz" android:layout_height="@dimen/buz" android:layout_marginLeft="18.0dip" android:layout_marginTop="@dimen/bpo" android:src="@drawable/as4" />
+    <TextView android:textSize="@dimen/bsw" android:textColor="@color/xu" android:layout_gravity="center_horizontal" android:id="@id/cru" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqq" android:singleLine="true" />
+</com.lenovo.anyshare.widget.RectFrameLayout>

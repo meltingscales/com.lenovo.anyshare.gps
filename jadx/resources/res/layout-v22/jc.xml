@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#fff6f4f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/x1" android:layout_width="match_parent" android:layout_height="300dp">
+        <com.san.ads.MediaView android:id="@+id/a80" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/a07" android:background="@drawable/a5u" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:layout_gravity="bottom" android:background="@drawable/a5r" android:visibility="gone" android:layout_width="match_parent" android:layout_height="150dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/wl" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="22dp" android:layout_marginTop="42dp" android:layout_alignParentTop="true" android:paddingHorizontal="9dp">
+        <ImageView android:layout_gravity="start" android:id="@+id/zy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yp"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end" android:id="@+id/a_u" android:background="@drawable/a5w" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="wrap_content" android:layout_height="22dp" android:paddingHorizontal="9dp"/>
+    </FrameLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wl" layout="@layout/jb"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_below="@+id/x1" android:layout_alignParentBottom="true" android:layout_marginHorizontal="40dp">
+        <com.san.ads.MediaView android:id="@+id/zx" android:layout_width="60dp" android:layout_height="60dp"/>
+        <TextView android:textSize="@dimen/asx" android:textColor="#ff191919" android:ellipsize="end" android:id="@+id/a_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="#777777" android:id="@+id/a_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <TextView android:textSize="@dimen/asv" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/a_s" android:background="@drawable/a5s" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="24dp" android:textAllCaps="true"/>
+    </LinearLayout>
+</RelativeLayout>

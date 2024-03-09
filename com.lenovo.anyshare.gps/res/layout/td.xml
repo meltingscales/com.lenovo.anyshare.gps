@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d77" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/dq1" android:layout_width="fill_parent" android:layout_height="@dimen/btl">
+        <Button android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/aj7" />
+        <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bn6" android:text="@string/bh0" android:singleLine="true" android:drawablePadding="5.0dip" style="@style/alh" />
+        <Button android:textSize="@dimen/bts" android:textColor="@color/a7a" android:gravity="center" android:layout_gravity="end|center" android:id="@id/right_button" android:background="@drawable/doo" android:visibility="visible" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" style="@style/ahx" />
+    </FrameLayout>
+    <com.lenovo.anyshare.widget.ItemEditToolbar android:id="@id/bhm" android:background="@color/bj1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.lenovo.anyshare.content.ContentPagersTitleBar android:id="@id/dm2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dq1" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/e48" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dm2" />
+</RelativeLayout>

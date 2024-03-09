@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bky" android:background="@color/ae9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/d6w" android:background="@color/ae9" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/b8q" android:background="@color/bi0" android:layout_width="fill_parent" android:layout_height="@dimen/btl">
+            <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:a78="@color/w4" style="@style/aj7" />
+            <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bn6" android:text="@string/bgn" android:singleLine="true" android:drawablePadding="5.0dip" style="@style/alh" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/ck4" android:background="@color/ae9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/b8q" />
+    </RelativeLayout>
+</RelativeLayout>

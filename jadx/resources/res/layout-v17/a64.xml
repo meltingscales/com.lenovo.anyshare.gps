@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/b04" android:layout_width="match_parent" android:layout_height="@dimen/c2p">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@+id/bxn" android:padding="@dimen/c2w" android:layout_width="@dimen/c2e" android:layout_height="@dimen/c2e" android:layout_marginLeft="@dimen/c0r" android:src="@drawable/axx" android:layout_marginStart="@dimen/c0r"/>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c47" android:textColor="@color/a__" android:layout_gravity="center_vertical" android:id="@+id/bvh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2x" android:layout_marginStart="@dimen/c2x"/>
+</FrameLayout>

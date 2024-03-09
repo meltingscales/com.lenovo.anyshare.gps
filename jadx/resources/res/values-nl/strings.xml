@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nu">Ga naar &lt;b&gt;facebook.com/device&lt;/b&gt; en voer de bovenstaande code in.</string>
+    <string name="nv">Onverwachte fout bij downloaden van afbeelding.</string>
+    <string name="nw">Voor WebView-aanmelding is INTERNET-toestemming vereist</string>
+    <string name="nx">AndroidManifest-fout</string>
+    <string name="ny">Vind ik leuk</string>
+    <string name="nz">Vind ik leuk</string>
+    <string name="o0">Laden…</string>
+    <string name="o1">Annuleren</string>
+    <string name="o2">Aanmelden</string>
+    <string name="o3">Doorgaan met Facebook</string>
+    <string name="o4">Aanmelden met Facebook</string>
+    <string name="o5">Afmelden</string>
+    <string name="o6">Afmelden</string>
+    <string name="o7">Aangemeld als: %1$s</string>
+    <string name="o8">Aangemeld via Facebook</string>
+    <string name="o9">Verzenden</string>
+    <string name="o_">Delen</string>
+    <string name="oa">Als je je account wilt koppelen, open je de Facebook-app op je mobiele apparaat en controleer je je meldingen.</string>
+    <string name="ob">- OF -</string>
+    <string name="oc">Ben jij dit niet?</string>
+    <string name="od">Doorgaan als %1$s</string>
+    <string name="oe">Aanmelding bevestigen</string>
+    <string name="of">Jij hebt de controle: bepaal welke informatie je met apps wilt delen.</string>
+    <string name="a97">Tekstgedeelte</string>
+    <string name="a98">Kop</string>
+    <string name="a99">Mediacontent</string>
+    <string name="a9_">Toestaan</string>
+    <string name="a9a">Niet toestaan</string>
+    <string name="a9b">App toestaan om je meldingen te sturen?</string>
+    <string name="a9c">Tik om advertentie te openen</string>
+    <string name="a9d">De advertentie bekijken die je hebt opgeslagen toen je offline was</string>
+    <string name="a9e">OK</string>
+    <string name="a9f">Je krijgt een melding met de link als je weer online bent</string>
+    <string name="a9g">Nee, bedankt</string>
+    <string name="a9h">We sturen je een melding met een link naar de site van de adverteerder.</string>
+    <string name="a9i">Advertentie openen als je weer online bent</string>
+    <string name="a9j">Afbeelding opslaan</string>
+    <string name="a9k">Advertentie toestaan om afbeelding op te slaan in fotogalerij?</string>
+    <string name="a9l">Accepteren</string>
+    <string name="a9m">Weigeren</string>
+    <string name="a9n">Agenda-afspraak maken</string>
+    <string name="a9o">Advertentie toestaan om een agenda-afspraak te maken?</string>
+    <string name="a9p">Testadvertentie</string>
+    <string name="a9q">AdMob -</string>
+</resources>

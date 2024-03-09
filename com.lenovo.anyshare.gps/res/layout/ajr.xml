@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/c3s" android:background="@drawable/aqw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <RelativeLayout android:id="@id/c_e" android:background="@drawable/aqx" android:layout_width="fill_parent" android:layout_height="@dimen/bqc" android:layout_marginLeft="@dimen/brl" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/brl">
+        <ImageView android:id="@id/c82" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/bq3" android:src="@drawable/icon_widget_gold" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/bsu" android:textStyle="bold" android:textColor="@color/zs" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq1" android:layout_marginTop="@dimen/brl" android:text="@string/cdu" android:includeFontPadding="false" android:layout_toRightOf="@id/c82" />
+        <com.ushareit.coin.widget.CoinTextView android:textSize="@dimen/bt1" android:textColor="@color/a28" android:id="@id/du8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqv" android:text="-----" android:includeFontPadding="false" android:layout_alignLeft="@id/e09" android:layout_alignParentBottom="true" />
+        <ImageView android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/brl" android:src="@drawable/bwr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/bst" android:textColor="@color/zs" android:ellipsize="end" android:gravity="center" android:id="@id/e07" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bm3" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/c_e" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/c18" android:paddingBottom="@dimen/c1d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/byr" android:paddingRight="@dimen/c2m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c3b" android:src="@drawable/b5b" app:a0o="csi" app:a14="csb" app:a17="csi" app:a1_="@id/e09" app:a1g="csi" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/c47" android:textStyle="bold" android:textColor="@color/a__" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c3b" android:maxWidth="@dimen/c1u" android:maxLines="2" app:a0o="csi" app:a18="@id/byr" app:a1a="csi" app:a1g="csi" />
+    <View android:id="@id/ckj" android:background="@color/aac" android:layout_width="@dimen/c2n" android:layout_height="@dimen/c0q" android:layout_marginLeft="@dimen/c1b" android:layout_marginRight="@dimen/c1d" android:layout_centerInParent="true" app:a0o="csi" app:a18="@id/e09" app:a1g="csi" />
+    <View android:id="@id/cki" android:background="@color/aac" android:layout_width="@dimen/c2n" android:layout_height="@dimen/c0q" android:layout_marginLeft="@dimen/c1b" android:layout_marginRight="@dimen/c1d" android:layout_centerInParent="true" app:a0o="csi" app:a1_="@id/byr" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

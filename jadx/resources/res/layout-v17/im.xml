@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a_c" android:background="@color/l8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/u6" android:paddingLeft="@dimen/amf" android:paddingTop="@dimen/amf" android:paddingRight="@dimen/amf" android:paddingBottom="@dimen/an7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqw" android:layout_marginRight="@dimen/aqw" android:minHeight="@dimen/ann" android:layout_weight="1" android:paddingStart="@dimen/amf" android:paddingEnd="@dimen/amf">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aqj" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ze" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/rr"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/zj" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/zg" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/rs"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/a0w" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/yk" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/ro"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/sz" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/yw" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/rp"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/xj" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/zm" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/rt"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/a4m" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/yc" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/v3"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/r8" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/z9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/rq"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/a4b" android:maxLines="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/yh" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:layout_width="@dimen/aqc" android:layout_height="@dimen/aqc" android:src="@drawable/rn"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/rh" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

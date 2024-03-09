@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bvq" android:background="@drawable/aso" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginHorizontal="@dimen/bqf"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/bm3" android:text="@string/bjc" android:layout_marginStart="@dimen/bl2" />
+    <ImageView android:layout_gravity="end|center|top" android:background="@drawable/bva" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/brl" android:layout_marginEnd="@dimen/brl" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/bq9" android:layout_marginRight="@dimen/bl2" android:layout_marginBottom="@dimen/bmw">
+        <include android:id="@id/c0z" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/aik" />
+        <include android:id="@id/c10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_weight="1.0" android:layout_marginStart="@dimen/bl2" layout="@layout/aik" />
+        <include android:id="@id/c11" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_weight="1.0" android:layout_marginStart="@dimen/bl2" layout="@layout/aik" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/avu" android:background="@drawable/bc2" android:paddingLeft="@dimen/boe" android:paddingRight="@dimen/boe" android:layout_width="fill_parent" android:layout_height="@dimen/bqp">
+        <com.ushareit.theme.night.view.NightButton android:textSize="@dimen/bsz" android:textColor="@color/a7_" android:layout_gravity="center" android:id="@id/ay5" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" app:a79="@color/ty" />
+    </LinearLayout>
+</merge>

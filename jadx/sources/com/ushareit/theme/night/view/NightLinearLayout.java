@@ -1,0 +1,101 @@
+package com.ushareit.theme.night.view;
+
+import android.content.Context;
+import android.content.res.ColorStateList;
+import android.content.res.TypedArray;
+import android.graphics.Canvas;
+import android.os.Build;
+import android.util.AttributeSet;
+import android.view.View;
+import android.widget.LinearLayout;
+import com.lenovo.anyshare.C1075Baj;
+import com.lenovo.anyshare.C3109Iaj;
+import com.lenovo.anyshare.InterfaceC24132zaj;
+import com.lenovo.anyshare.gps.R;
+
+/* loaded from: classes8.dex */
+public class NightLinearLayout extends LinearLayout implements InterfaceC24132zaj.b {
+
+    /* renamed from: a  reason: collision with root package name */
+    public ColorStateList f32355a;
+    public float b;
+    public boolean c;
+
+    public NightLinearLayout(Context context) {
+        super(context);
+        this.c = false;
+    }
+
+    private void a(Context context, AttributeSet attributeSet, int i) {
+        TypedArray obtainStyledAttributes;
+        if (context instanceof InterfaceC24132zaj.a) {
+            this.c = ((InterfaceC24132zaj.a) context).cb();
+        }
+        if (this.c && (obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, new int[]{R.attr.a75, R.attr.a76})) != null) {
+            this.f32355a = obtainStyledAttributes.getColorStateList(1);
+            this.b = obtainStyledAttributes.getFloat(0, -1.0f);
+            obtainStyledAttributes.recycle();
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public void setOnClickListener$___twin___(View.OnClickListener onClickListener) {
+        super.setOnClickListener(onClickListener);
+    }
+
+    @Override // android.view.ViewGroup, android.view.View
+    public void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        if (this.c) {
+            C1075Baj.d().b(this);
+        }
+    }
+
+    @Override // android.view.ViewGroup, android.view.View
+    public void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        if (this.c) {
+            C1075Baj.d().a(this);
+        }
+    }
+
+    @Override // android.widget.LinearLayout, android.view.View
+    public void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        if (!C1075Baj.d().a()) {
+        }
+    }
+
+    @Override // android.view.View
+    public void setOnClickListener(View.OnClickListener onClickListener) {
+        C3109Iaj.a(this, onClickListener);
+    }
+
+    public NightLinearLayout(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        this.c = false;
+        a(context, attributeSet, -1);
+    }
+
+    public NightLinearLayout(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        this.c = false;
+        a(context, attributeSet, i);
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC24132zaj.b
+    public void a(boolean z) {
+        if (C1075Baj.d().a()) {
+            ColorStateList colorStateList = this.f32355a;
+            if (colorStateList != null && Build.VERSION.SDK_INT >= 21) {
+                setBackgroundTintList(colorStateList);
+            }
+            float f = this.b;
+            if (f >= 0.0f) {
+                setAlpha(f);
+            } else {
+                invalidate();
+            }
+        }
+    }
+}

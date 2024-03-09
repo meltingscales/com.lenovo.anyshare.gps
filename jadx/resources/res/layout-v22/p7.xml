@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/aqe">
+    <FrameLayout android:id="@+id/wo" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/ij" android:gravity="end|center_vertical" android:id="@+id/ac0" android:layout_width="@dimen/aqq" android:layout_height="match_parent"/>
+        <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:gravity="start|center_vertical" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/ar9" android:layout_marginStart="@dimen/ar9"/>
+    </FrameLayout>
+    <ImageView android:textColor="@color/ij" android:id="@+id/zz" android:visibility="invisible" android:layout_width="@dimen/aon" android:layout_height="@dimen/aon" android:src="@drawable/yh" android:layout_toRightOf="@+id/wo" android:layout_centerVertical="true" android:layout_toEndOf="@+id/wo"/>
+    <View android:id="@+id/v_" android:background="@color/wn" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/ao0" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7" android:layout_alignParentBottom="true" android:layout_marginHorizontal="@dimen/ar7"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.main.CustomCoordinatorLayout android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/bqe" app:a0o="csi" app:a1f="@id/dq1" app:a1j="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.main.CustomAppBarLayout android:orientation="vertical" android:id="@id/asf" android:background="@color/a5n" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a29="d9a">
+            <FrameLayout android:id="@id/e6f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/au6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/dfz" android:paddingTop="@dimen/bqv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <com.ushareit.widget.slide.DotLineTabIndicator android:id="@id/dfy" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" app:yf="@dimen/bmf" app:ahe="@dimen/bqv" app:ahf="@dimen/bqv" app:ahp="@dimen/bsx" app:ahr="@dimen/bsx" />
+        </LinearLayout>
+    </com.lenovo.anyshare.main.CustomAppBarLayout>
+    <com.lenovo.anyshare.main.CustomViewPagerForSlider android:id="@id/e48" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.lenovo.anyshare.main.CustomCoordinatorLayout>

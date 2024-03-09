@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:id="@id/bcy" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/brt" app:a_j="0.67"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.base.widget.cyclic.CyclicViewPager android:id="@id/bcz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.ushareit.base.widget.cyclic.CirclePageIndicator android:layout_gravity="end|bottom|center" android:id="@id/bzs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/blk" android:layout_marginHorizontal="@dimen/brt" app:yg="@drawable/bun" app:yh="@dimen/bqf" app:yj="@dimen/br9" app:yk="@dimen/bqf" />
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

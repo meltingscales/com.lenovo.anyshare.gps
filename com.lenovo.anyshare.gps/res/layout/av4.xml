@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/d95" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/b55" android:layout_width="@dimen/ctr" android:layout_height="@dimen/ctr" android:src="@drawable/c8m" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/dij" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/cza" android:textStyle="bold" android:textColor="@color/axv" android:id="@id/dik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx6" android:layout_marginBottom="@dimen/cx6" android:maxWidth="@dimen/ctt" />
+                <TextView android:textSize="@dimen/cyt" android:textColor="@color/axv" android:id="@id/din" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginTop="@dimen/cx6" android:layout_marginBottom="@dimen/cx6" android:maxWidth="@dimen/ctt" android:text="%" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/cyt" android:textColor="@color/axv" android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ctt" android:text="@string/amq" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

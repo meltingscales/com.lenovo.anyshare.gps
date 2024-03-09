@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/e5x" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cmk" android:background="@drawable/cm8" android:layout_width="wrap_content" android:layout_height="@dimen/d5l" android:layout_marginLeft="@dimen/d5o" android:layout_marginTop="@dimen/d5i" android:layout_marginRight="@dimen/d5o" app:a0u="csi" app:a13="0.5" app:a1c="csi" app:a1g="csi">
+            <ImageView android:layout_width="@dimen/d57" android:layout_height="@dimen/d57" android:layout_marginLeft="@dimen/d56" android:layout_marginRight="@dimen/d5v" android:src="@drawable/db8" />
+            <TextView android:textSize="@dimen/d51" android:textColor="@color/aya" android:ellipsize="end" android:gravity="center|left" android:id="@id/cmm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d5b" android:maxLines="1" android:layout_weight="1.0" />
+            <ImageView android:layout_width="1.0px" android:layout_height="@dimen/d56" android:layout_marginLeft="@dimen/d5_" android:layout_marginRight="@dimen/d5c" android:src="@color/ay9" />
+            <ImageView android:layout_width="@dimen/d56" android:layout_height="@dimen/d56" android:layout_marginRight="@dimen/d5c" android:src="@drawable/db5" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/d51" android:textColor="@color/ayc" android:gravity="center" android:id="@id/d5d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d5o" android:layout_marginTop="@dimen/d5_" android:layout_marginRight="@dimen/d5o" android:text="@string/c5u" app:a0u="csi" app:a13="0.5" app:a1c="csi" app:a1f="@id/cmk" />
+        <com.ushareit.ringtone.waveform.WaveformCutView android:id="@id/e60" android:paddingTop="@dimen/d5_" android:paddingBottom="@dimen/d5f" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/d5a" app:a0o="csi" app:a12="0.35" app:a1g="csi" app:a1h="0.35" app:anf="@dimen/d5e" app:an7="@dimen/d5d" />
+        <TextView android:textSize="@dimen/d51" android:textColor="@color/w4" android:id="@id/bha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d5o" android:layout_marginRight="@dimen/d5o" app:a0u="csi" app:a13="0.5" app:a1c="csi" app:a1f="@id/e60" />
+        <ImageView android:id="@id/cvv" android:layout_width="@dimen/d5p" android:layout_height="@dimen/d5p" android:layout_marginTop="@dimen/d5c" android:src="@drawable/dba" app:a0u="csi" app:a13="0.5" app:a1c="csi" app:a1f="@id/bha" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ckk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d5i" android:layout_marginRight="@dimen/d5i" android:layout_marginBottom="@dimen/d5j" app:a0o="csi">
+            <TextView android:textSize="@dimen/d52" android:textStyle="bold" android:textColor="@color/ayb" android:gravity="center" android:id="@id/d8e" android:background="@drawable/aru" android:layout_width="0.0dip" android:layout_height="@dimen/d5m" android:layout_marginRight="@dimen/d56" android:minWidth="@dimen/bm5" android:text="@string/c5q" android:layout_weight="1.0" android:textAllCaps="true" />
+            <TextView android:textSize="@dimen/d52" android:textStyle="bold" android:textColor="@color/ayi" android:gravity="center" android:id="@id/db0" android:background="@drawable/aro" android:layout_width="0.0dip" android:layout_height="@dimen/d5m" android:minWidth="@dimen/bm5" android:text="@string/c5t" android:layout_weight="1.0" android:textAllCaps="true" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/bak" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+    <include android:id="@id/b_c" layout="@layout/axg" />
+</FrameLayout>

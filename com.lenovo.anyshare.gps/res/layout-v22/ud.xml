@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/d6v" android:background="@color/bi0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginBottom="@dimen/bkq" android:layout_marginHorizontal="@dimen/bqf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.view.NativeIconAdView android:id="@id/cn2" android:background="@drawable/dpp" android:padding="@dimen/bqf" android:paddingLeft="@dimen/bqf" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/bqf" android:paddingBottom="@dimen/brt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="@dimen/bp0" android:layout_marginRight="@dimen/bqf" android:layout_marginBottom="@dimen/bp0" app:ji="@color/bi0" app:xy="0" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/a9o" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/ayp" android:layout_width="fill_parent" android:layout_height="@dimen/c0t" android:layout_marginStart="@dimen/c1t" android:layout_marginEnd="@dimen/c1t" app:a0o="csi" app:a1g="csi">
+        <ProgressBar android:id="@id/cd2" android:layout_width="0.0dip" android:layout_height="@dimen/c2b" android:layout_marginBottom="@dimen/c23" android:max="100" android:secondaryProgress="100" android:progressDrawable="@drawable/azv" android:layout_marginStart="@dimen/c23" android:layout_marginEnd="@dimen/c23" app:a0o="csi" app:a0u="csi" app:a1c="csi" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:textSize="@dimen/c49" android:textColor="@color/abx" android:id="@id/e17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c23" android:text="@string/b3j" android:layout_marginStart="@dimen/c23" app:a1c="csi" app:a1g="csi" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:textSize="@dimen/c49" android:textColor="@color/abx" android:id="@id/dnn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c23" android:text="@string/b3k" android:layout_marginEnd="@dimen/c23" app:a0u="csi" app:a1g="csi" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

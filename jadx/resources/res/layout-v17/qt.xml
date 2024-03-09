@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/abq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/bce" android:textStyle="bold" android:textColor="@color/md" android:id="@+id/ali" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7n" android:text="@string/a_j" android:layout_marginStart="@dimen/b7n" android:layout_marginEnd="@dimen/b7n"/>
+    <TextView android:textSize="@dimen/bca" android:textColor="@color/m4" android:ellipsize="end" android:id="@+id/ais" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b9x" android:layout_marginBottom="@dimen/ba5" android:text="@string/a_i" android:maxLines="1" android:layout_marginStart="@dimen/b7w" android:layout_marginEnd="@dimen/b7w"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="9.5dp" android:layout_marginStart="13.5dp" android:layout_marginEnd="10dp">
+        <com.lenovo.anyshare.bizentertainment.magnet.view.ZAItemLayout android:id="@+id/aix" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <com.lenovo.anyshare.bizentertainment.magnet.view.ZAItemLayout android:id="@+id/akt" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7.5dp" android:layout_weight="1"/>
+        <com.lenovo.anyshare.bizentertainment.magnet.view.ZAItemLayout android:id="@+id/al7" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7.5dp" android:layout_weight="1"/>
+        <com.lenovo.anyshare.bizentertainment.magnet.view.ZAItemLayout android:id="@+id/aj5" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7.5dp" android:layout_weight="1"/>
+        <com.lenovo.anyshare.bizentertainment.magnet.view.ZAItemLayout android:id="@+id/aiw" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="7.5dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

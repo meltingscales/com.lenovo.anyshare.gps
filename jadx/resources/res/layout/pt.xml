@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.applovin.exoplayer2.ui.AspectRatioFrameLayout android:layout_gravity="center" android:id="@+id/af8" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/ag1" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/af2" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <com.applovin.exoplayer2.ui.SubtitleView android:id="@+id/ag3" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/af6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true"/>
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/afc" android:background="@color/ld" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.applovin.exoplayer2.ui.AspectRatioFrameLayout>
+    <FrameLayout android:id="@+id/af1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/afn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/af_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

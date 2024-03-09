@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/ps">
+        <TextView android:id="@id/title_text" android:visibility="gone" style="@style/q7" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/b75" android:padding="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bqv" android:src="@drawable/cqs" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:layout_gravity="top" android:id="@id/b9q" style="@style/pr" />
+        </ScrollView>
+        <LinearLayout android:id="@id/b1z" android:visibility="gone" style="@style/po">
+            <ImageView android:id="@id/b26" style="@style/pp" />
+            <TextView android:id="@id/b2a" android:text="@string/ats" style="@style/pn" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bp7" android:layout_marginBottom="@dimen/bp7">
+            <TextView android:id="@id/d0e" android:visibility="gone" style="@style/pj" />
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/bj1" android:id="@id/d0j" android:background="@drawable/d4b" android:paddingLeft="@dimen/bnj" android:paddingTop="@dimen/brl" android:paddingRight="@dimen/bnj" android:paddingBottom="@dimen/brl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cgr" android:paddingStart="@dimen/bnj" android:paddingEnd="@dimen/bnj" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d6v" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bkq"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/br9" android:layout_marginBottom="@dimen/br9" app:a_7="@dimen/blk">
+        <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@id/d2i" android:background="@drawable/ag3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:m4="@dimen/bkq" app:m5="@dimen/bkq" app:al8="@dimen/blk" app:al9="@dimen/blk">
+            <ImageView android:layout_gravity="start|bottom|center" android:id="@id/bl2" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_marginLeft="@dimen/br9" android:layout_marginBottom="@dimen/br9" android:src="@drawable/agp" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="#ff006fa4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/blk" android:text="RECOMMEND" />
+                <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/a3s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/blk" android:text="RECOMMEND" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bqd" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bnj" />
+                <LinearLayout android:orientation="vertical" android:id="@id/aou" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bq7" android:layout_marginBottom="@dimen/bl2">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/bm3" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aos" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bow" android:layout_marginTop="@dimen/bqf" android:layout_weight="1.0" />
+                    <com.ushareit.ads.ui.view.AutoPollRecyclerView android:id="@id/ap6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <com.ushareit.ads.ui.view.AutoPollRecyclerView android:orientation="horizontal" android:id="@id/ap5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bqf" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</LinearLayout>

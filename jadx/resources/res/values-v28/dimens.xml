@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cdc">0.16</dimen>
+    <dimen name="cdd">0.2</dimen>
+    <dimen name="cde">0.4</dimen>
+    <dimen name="cdf">0.12</dimen>
+    <dimen name="d92">0.24</dimen>
+    <dimen name="d93">0.4</dimen>
+    <dimen name="d94">0.4</dimen>
+    <dimen name="d95">0.24</dimen>
+    <dimen name="d97">0.12</dimen>
+    <dimen name="d98">0.2</dimen>
+    <dimen name="d99">0.2</dimen>
+    <dimen name="d9_">0.12</dimen>
+</resources>

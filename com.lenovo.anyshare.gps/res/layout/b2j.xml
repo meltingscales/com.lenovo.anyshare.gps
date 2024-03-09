@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/brc" android:layout_margin="@dimen/da5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ast" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/d09" android:scaleType="fitXY" />
+    <ImageView android:id="@id/asg" android:layout_width="@dimen/br3" android:layout_height="@dimen/br3" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/blk" android:src="@drawable/czp" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <TextView android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/asm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bpo" android:text="@string/aff" android:singleLine="true" android:layout_toRightOf="@id/asg" />
+    <ImageView android:id="@id/ash" android:paddingLeft="@dimen/bq1" android:paddingRight="@dimen/bq1" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bp7" android:src="@drawable/czv" android:layout_alignParentRight="true" />
+    <ProgressBar android:id="@id/ass" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/bp0" android:layout_marginTop="@dimen/bpe" android:layout_marginRight="@dimen/blk" android:progressDrawable="@drawable/d01" android:layout_toRightOf="@id/asg" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/asg" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/ask" android:src="@drawable/czz" android:layout_weight="1.0" style="@style/anu" />
+        <ImageView android:id="@id/asq" android:src="@drawable/czy" android:layout_weight="1.0" style="@style/anu" />
+        <ImageView android:id="@id/asp" android:src="@drawable/d00" android:layout_weight="1.0" style="@style/anu" />
+        <ImageView android:id="@id/asr" android:src="@drawable/d02" android:layout_weight="1.0" style="@style/anu" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d04" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

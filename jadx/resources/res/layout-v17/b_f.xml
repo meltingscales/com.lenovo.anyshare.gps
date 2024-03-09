@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/avt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/bos" android:paddingStart="@dimen/bmf" android:paddingEnd="@dimen/bmf">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@+id/cyh" android:background="@drawable/dgv" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bmf"/>
+        <com.lenovo.anyshare.widget.GradientCircleProgress android:id="@+id/cye" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" app:end_color="#ff29d359" app:middle_color="#33ffffff" app:ring_width="4dp" app:start_color="#33ffffff"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginStart="@dimen/bl2">
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/bj1" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bp0" android:text="@string/d38" android:lines="1"/>
+        <TextView android:textSize="@dimen/bsx" android:textColor="#a4ccff" android:gravity="center_vertical" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d37" android:lines="1"/>
+    </LinearLayout>
+</LinearLayout>

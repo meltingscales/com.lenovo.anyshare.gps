@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.muslim.main.home.widget.QuranReadView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a61" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp"/>

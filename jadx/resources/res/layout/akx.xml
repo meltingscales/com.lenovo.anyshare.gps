@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a4z" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dev" android:padding="@dimen/bo8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/w4" android:id="@+id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Permission"/>
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/xl" android:id="@+id/dwx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:text="Due to Android 11 and above system restrictions.You need to authorize ShAREit to access files in the Android/data directory"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center" android:id="@+id/dzg" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bok" android:text="SET PERMISSION"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:layout_gravity="center" android:id="@+id/dtw" android:paddingTop="@dimen/bqv" android:paddingBottom="@dimen/bqv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:text="@string/ar6"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b8m" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/be1" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="@color/aee" style="@style/aj7"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsp" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bnj" android:maxLines="1" app:night_tv_text_color="@color/aee" style="@style/alg"/>
+    </FrameLayout>
+    <include android:id="@+id/b_c" layout="@layout/a9e"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d7v" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bqd"/>
+</FrameLayout>

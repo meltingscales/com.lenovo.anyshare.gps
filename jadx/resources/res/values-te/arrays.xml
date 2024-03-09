@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>అశ్లీల అసభ్యకరమైన</item>
+        <item>నేరం</item>
+        <item>రాజకీయంగా సెన్సిటివ్</item>
+        <item>చట్టవిరుద్ధమైన మార్కెటింగ్</item>
+        <item>తప్పుడు సమాచారం</item>
+        <item>ఉల్లంఘన</item>
+    </array>
+    <array name="c">
+        <item>అసౌకర్య కంటెంట్</item>
+        <item>అశ్లీలత</item>
+        <item>హింసాత్మక కంటెంట్</item>
+        <item>హానికరమైన మరియు ప్రమాదకరమైన కంటెంట్</item>
+        <item>శీర్షిక/కవర్ కంటెంట్‌తో సరిపోలడం లేదు</item>
+    </array>
+</resources>

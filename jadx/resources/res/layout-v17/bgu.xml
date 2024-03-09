@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bko" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:background="@color/bko" android:layout_width="match_parent" android:layout_height="@dimen/e4c">
+            <ImageView android:id="@+id/e93" android:layout_width="@dimen/e3q" android:layout_height="@dimen/e3q" android:layout_marginLeft="@dimen/e5m" android:src="@drawable/dwi" android:layout_centerVertical="true" android:layout_marginStart="@dimen/e5m"/>
+            <TextView android:textSize="@dimen/e6v" android:textStyle="bold" android:textColor="@color/bkb" android:gravity="center" android:id="@+id/e_z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dzm" android:layout_marginRight="@dimen/dzm" android:minWidth="@dimen/e4j" android:text="@string/dy9" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+            <EditText android:textSize="@dimen/bsx" android:textColor="@color/bkl" android:textColorHint="@color/bjo" android:ellipsize="end" android:id="@+id/e84" android:background="@drawable/dwk" android:paddingLeft="@dimen/e02" android:paddingRight="@dimen/e02" android:layout_width="match_parent" android:layout_height="@dimen/e3d" android:singleLine="true" android:layout_toLeftOf="@+id/e_z" android:layout_toRightOf="@+id/e93" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:layout_toStartOf="@+id/e_z" android:layout_toEndOf="@+id/e93"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/e_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/e6v" android:textColor="@color/bjk" android:id="@+id/e_u" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e0w" android:layout_marginTop="@dimen/e14" android:layout_marginRight="@dimen/e0w" android:layout_marginBottom="@dimen/e02"/>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/e_u">
+                <com.ushareit.base.widget.pulltorefresh.ActionPullToRefreshRecyclerView android:id="@+id/e9t" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <include android:id="@+id/e7v" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/bgf"/>
+                <ViewStub android:id="@+id/e7u" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ViewStub android:id="@+id/e7t" android:layout="@layout/bga" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <ImageView android:layout_gravity="end|bottom" android:id="@+id/e9i" android:background="@drawable/dx0" android:visibility="gone" android:layout_width="@dimen/e4l" android:layout_height="@dimen/e4l" android:layout_marginRight="@dimen/dzm" android:layout_marginBottom="@dimen/e3w" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/dzm" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <com.ushareit.shop.ad.widget.ShopSearchMiddleView android:id="@+id/e_h" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

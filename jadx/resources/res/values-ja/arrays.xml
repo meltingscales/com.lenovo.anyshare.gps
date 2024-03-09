@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>ポルノ的な下品さ</item>
+        <item>犯罪</item>
+        <item>政治的な機密事項</item>
+        <item>違法なマーケティング</item>
+        <item>虚偽の情報</item>
+        <item>権利侵害</item>
+    </array>
+    <array name="c">
+        <item>不快なコンテンツ</item>
+        <item>ポルノ</item>
+        <item>暴力的なコンテンツ</item>
+        <item>有害または危険なコンテンツ</item>
+        <item>コンテンツと一致しないタイトル/カバー</item>
+    </array>
+</resources>

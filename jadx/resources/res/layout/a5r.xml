@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c1f" android:layout_width="match_parent" android:layout_height="@dimen/c2d">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bjf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b6b"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c52" android:textColor="@color/a_k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c1d" android:text="@string/b06"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c52" android:textColor="@color/ab_" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/aza" android:background="@drawable/b1k" android:layout_width="wrap_content" android:layout_height="@dimen/c2j" android:layout_marginLeft="@dimen/c2x" android:layout_marginTop="@dimen/c23" android:layout_marginRight="@dimen/c2x" android:minWidth="@dimen/c1w" android:singleLine="true" app:night_tv_text_color="@color/aaz"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RectFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/cdw" android:paddingBottom="@dimen/cx6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@+id/c1u" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/c9n" android:scaleType="centerCrop"/>
+    <com.ushareit.theme.night.view.NightImageView android:gravity="end" android:layout_gravity="end|top" android:id="@+id/c1b" android:visibility="gone" android:layout_width="@dimen/d05" android:layout_height="@dimen/d05" android:layout_marginTop="@dimen/d0g" android:layout_marginRight="@dimen/cwu" android:layout_marginBottom="@dimen/d0g" android:src="@drawable/c9_"/>
+    <View android:id="@+id/bc7" android:background="#b3ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.lenovo.anyshare.widget.RectFrameLayout>

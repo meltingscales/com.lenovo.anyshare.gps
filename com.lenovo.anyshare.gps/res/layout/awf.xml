@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/bsn"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/d4r" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" style="@style/ahx" />
+    <com.ushareit.theme.night.view.NightButton android:id="@id/d4w" android:background="@color/bi0" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" app:a77="@dimen/db2" style="@style/ahx" />
+</LinearLayout>

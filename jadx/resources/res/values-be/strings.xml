@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Тэкст паведамлення</string>
+    <string name="a98">Загаловак</string>
+    <string name="a99">Цэнтр мультымедыя</string>
+    <string name="a9_">Дазволіць</string>
+    <string name="a9a">Не дазваляць</string>
+    <string name="a9b">Дазволіць праграме адпраўляць вам паведамленні?</string>
+    <string name="a9c">Націсніце, каб адкрыць рэкламу</string>
+    <string name="a9d">Праглядзіце рэкламу, захаваную вамі, калі вы былі па-за сеткай</string>
+    <string name="a9e">ОК</string>
+    <string name="a9f">Вы атрымаеце апавяшчэнне са спасылкай, калі зноў падключыцеся да інтэрнэту</string>
+    <string name="a9g">Не, дзякуй</string>
+    <string name="a9h">Мы адправім вам апавяшчэнне са спасылкай на сайт рэкламадаўцы.</string>
+    <string name="a9i">Адкрыйце рэкламу, калі зноў падключыцеся да інтэрнэту.</string>
+    <string name="a9j">Захаваць відарыс</string>
+    <string name="a9k">Дазволіць рэкламе захоўваць відарыс у Галерэі відарысаў?</string>
+    <string name="a9l">Прыняць</string>
+    <string name="a9m">Адхіліць</string>
+    <string name="a9n">Стварыць падзею календара</string>
+    <string name="a9o">Дазволіць рэкламе стварыць падзею календара?</string>
+    <string name="a9p">Тэставая рэклама</string>
+    <string name="a9q">AdMob -</string>
+</resources>

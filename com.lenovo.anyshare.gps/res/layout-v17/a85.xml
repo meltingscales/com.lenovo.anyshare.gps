@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:background="@drawable/b3u" android:paddingTop="@dimen/c1f" android:paddingBottom="@dimen/c3p" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/a93"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingLeft="@dimen/c1f" android:paddingRight="@dimen/c13" android:layout_width="fill_parent" android:layout_height="@dimen/c2n" android:paddingStart="@dimen/c1f" android:paddingEnd="@dimen/c13">
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c48" android:textStyle="bold" android:textColor="@color/a__" android:layout_gravity="center_vertical" android:id="@id/btj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/ckx" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/c47" android:textColor="@color/a_o" android:id="@id/cl2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@id/ckv" android:padding="@dimen/c2m" android:layout_width="@dimen/c1t" android:layout_height="@dimen/c1t" android:layout_marginLeft="@dimen/c2b" android:layout_marginTop="@dimen/c0q" android:src="@drawable/b6o" android:layout_marginStart="@dimen/c2b" app:a7_="@color/a__" />
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/bvy" android:paddingLeft="@dimen/c13" android:paddingRight="@dimen/c13" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.ushareit.theme.night.view.NightLinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.lenovo.anyshare.content.ContentPagersTitleBar2 android:id="@id/dqh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/aod" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/bkq">
+            <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@id/cit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2">
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/bcs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:visibility="gone" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" android:layout_margin="5.0dip" android:src="@drawable/bbe" />
+            </FrameLayout>
+            <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/a96" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/bb7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/bo_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bpj">
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/c7k" android:layout_width="@dimen/brj" android:layout_height="@dimen/brj" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/blk" android:src="@drawable/bye" app:a75="@dimen/db2" />
+        <TextView android:textSize="@dimen/brt" android:textColor="@color/bd3" android:gravity="center" android:layout_gravity="end" android:id="@id/e06" android:background="@drawable/bf9" android:paddingBottom="@dimen/bq1" android:visibility="gone" android:layout_width="@dimen/bow" android:layout_height="@dimen/bnb" android:layout_marginRight="@dimen/bo3" android:text="NEW" />
+    </FrameLayout>
+</FrameLayout>

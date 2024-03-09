@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cp4" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="centerCrop" />
+    <ImageView android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/b30" android:layout_width="fill_parent" android:layout_height="85.0dip" />
+    <ImageView android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/cw0" android:background="@drawable/b5r" android:layout_width="@dimen/bqq" android:layout_height="@dimen/bqq" android:layout_marginBottom="12.0dip" />
+    <LinearLayout android:gravity="start" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/br4" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/blk" android:layout_marginBottom="@dimen/bq1">
+        <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/bmm" android:src="@drawable/b5o" android:scaleType="fitStart" />
+        <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center_vertical" android:id="@id/cpn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/cos" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:alpha="0.8" />
+    </LinearLayout>
+</FrameLayout>

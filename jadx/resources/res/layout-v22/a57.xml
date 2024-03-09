@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/axz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0x" android:layout_marginRight="@dimen/c0x" android:layout_marginHorizontal="@dimen/c0x">
+    <com.ushareit.downloader.widget.RoundFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:bottomLeftRadius="@dimen/c13" app:bottomRightRadius="@dimen/c13">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c98" android:paddingLeft="@dimen/c3j" android:paddingRight="@dimen/c3j" android:paddingBottom="@dimen/c3j" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/c3j">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c9r" android:background="@drawable/b82" android:paddingTop="@dimen/c3c" android:paddingRight="@dimen/c13" android:paddingBottom="@dimen/c1d" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/c13">
+                <include layout="@layout/a56"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ushareit.downloader.widget.RoundFrameLayout>
+</LinearLayout>

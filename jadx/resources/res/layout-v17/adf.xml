@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/ddx" android:layout_width="match_parent" android:layout_height="@dimen/bo4">
+    <TextView android:id="@+id/bc8" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bpb">
+        <com.ushareit.widget.RoundFrameLayout android:layout_gravity="start|bottom" android:id="@+id/d4k" android:layout_width="@dimen/bru" android:layout_height="@dimen/bru" android:layout_marginLeft="@dimen/bpr" android:layout_marginStart="@dimen/bpr" app:radius="@dimen/bqa">
+            <TextView android:textSize="@dimen/btd" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/bcb" android:layout_width="@dimen/bru" android:layout_height="@dimen/bru"/>
+        </com.ushareit.widget.RoundFrameLayout>
+        <TextView android:textSize="@dimen/bt1" android:textColor="@color/a69" android:id="@+id/dxa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:text="playlist" android:layout_marginStart="@dimen/bmf"/>
+    </LinearLayout>
+</FrameLayout>

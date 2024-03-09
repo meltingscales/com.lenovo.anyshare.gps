@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/cmi" android:paddingLeft="@dimen/bmm" android:paddingTop="@dimen/bm3" android:paddingRight="@dimen/bmm" android:paddingBottom="@dimen/bm3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bo8" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bo8">
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:id="@id/bth" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:id="@id/btg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.lenovo.anyshare.main.music.equalizer.SwitchButton android:layout_gravity="end|center" android:id="@id/btf" android:background="@drawable/btn" android:layout_width="@dimen/bpo" android:layout_height="@dimen/bnj" android:layout_centerVertical="true" custom:agv="@drawable/bta" />
+</androidx.appcompat.widget.LinearLayoutCompat>

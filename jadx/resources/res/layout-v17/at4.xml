@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/cu2" android:paddingRight="@dimen/cu2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cuu" android:paddingStart="@dimen/cu2" android:paddingEnd="@dimen/cu2">
+    <com.ushareit.widget.RoundFrameLayout android:id="@+id/bx9" android:layout_width="@dimen/cwn" android:layout_height="@dimen/cwn" app:radius="@dimen/cx6">
+        <com.ushareit.theme.night.view.NightImageView android:id="@+id/c1p" android:layout_width="match_parent" android:layout_height="match_parent" app:night_alpha="@dimen/db2"/>
+        <TextView android:textSize="@dimen/czg" android:textColor="@color/axv" android:gravity="center" android:layout_gravity="end|bottom" android:id="@+id/c1j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/cta" android:layout_margin="@dimen/cwu" android:minWidth="@dimen/cw5"/>
+    </com.ushareit.widget.RoundFrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cta" android:layout_marginRight="@dimen/cya" android:layout_weight="1" android:layout_marginStart="@dimen/cta" android:layout_marginEnd="@dimen/cya">
+        <TextView android:textSize="@dimen/cyw" android:textColor="@color/auf" android:ellipsize="end" android:id="@+id/c26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/cyu" android:textColor="@color/aut" android:ellipsize="end" android:id="@+id/c2_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cxh" android:singleLine="true"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/cyt" android:textColor="@color/axr" android:layout_gravity="center_vertical" android:id="@+id/c2g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cw2" android:layout_marginRight="@dimen/cxs" android:singleLine="true" android:layout_marginEnd="@dimen/cxs"/>
+</LinearLayout>

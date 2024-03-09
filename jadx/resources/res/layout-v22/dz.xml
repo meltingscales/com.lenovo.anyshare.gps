@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/h0" android:scaleType="centerCrop"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bow" android:src="@drawable/gz" android:layout_marginStart="@dimen/bow"/>
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/axv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bow" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bow" android:text="@string/k9" android:layout_marginHorizontal="@dimen/bow"/>
+        <LinearLayout android:layout_gravity="bottom|center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bow" android:layout_marginTop="@dimen/bra" android:layout_marginRight="@dimen/bow" android:layout_marginHorizontal="@dimen/bow">
+            <Button android:textStyle="bold" android:textColor="@color/eb" android:layout_gravity="center_horizontal" android:id="@+id/k_" android:background="@drawable/hr" android:layout_height="@dimen/bq9" android:layout_marginLeft="@dimen/bkq" android:layout_marginRight="@dimen/bkq" android:layout_marginBottom="@dimen/bo8" android:text="@string/ard" android:layout_marginStart="@dimen/bkq" android:layout_marginEnd="@dimen/bkq" style="@style/w1"/>
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ef" android:layout_gravity="center_horizontal" android:id="@+id/j9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bq4" android:text="@string/lb" android:textAllCaps="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

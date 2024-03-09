@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ao_" android:background="#b3000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:background="@drawable/dg7" android:clickable="false" android:layout_width="@dimen/bpc" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.ushareit.feedback.AdsFeedbackRecyclerView android:id="@+id/d2v" android:layout_width="match_parent" android:layout_height="wrap_content" app:limit_maxHeight="400dp"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:paddingLeft="@dimen/bs3" android:paddingRight="@dimen/bs3" android:layout_width="wrap_content" android:layout_height="@dimen/bno" android:layout_marginLeft="@dimen/bn4" android:layout_marginTop="@dimen/bpr" android:layout_marginBottom="@dimen/bn4" android:layout_marginStart="@dimen/bn4" layout="@layout/wg"/>
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bpr" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bn4" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/bo8" android:layout_alignParentEnd="true">
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:id="@+id/b0q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ads_feedback_cancel"/>
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@drawable/ahz" android:id="@+id/dla" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:text="@string/ads_feedback_submit" android:layout_marginStart="@dimen/bo8"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

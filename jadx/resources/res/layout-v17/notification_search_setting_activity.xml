@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/d_6" android:background="@color/v7" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/d_b" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsm" style="@style/aj2"/>
+        <FrameLayout android:layout_gravity="center_vertical" android:background="@drawable/d2g" android:layout_width="match_parent" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bmm" android:layout_marginStart="@dimen/bqd" android:layout_marginEnd="@dimen/bmm">
+            <EditText android:textSize="@dimen/bsx" android:textColor="@color/w4" android:textColorHint="@color/ye" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/bav" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/bq4" android:minHeight="@dimen/bp7" android:hint="@string/cf1" android:singleLine="true" android:layout_weight="1" android:inputType="text" android:textCursorDrawable="@drawable/d2q" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/bq4"/>
+            <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/ban" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d2r" android:scaleType="center" app:night_color_tint="@color/w4" style="@style/ahn"/>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/as9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" android:layout_below="@+id/d_6"/>
+    <ViewStub android:id="@+id/bi0" android:layout="@layout/notification_lock_empty_info_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:id="@+id/cys" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/bqj" android:layout_below="@+id/d_6" android:layout_centerInParent="true">
+        <include layout="@layout/notification_lock_common_progress_view"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

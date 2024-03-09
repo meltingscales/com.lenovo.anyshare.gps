@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RectFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_j="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightRelativeLayout android:background="@drawable/bj7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginBottom="@dimen/bqf" app:a76="@color/afs">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@id/ara" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/bl2" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/cr4" android:paddingLeft="@dimen/bv_" android:layout_width="wrap_content" android:layout_height="@dimen/bv9" android:layout_marginRight="@dimen/bs3" android:layout_alignParentRight="true">
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center" android:id="@id/ar7" android:visibility="gone" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:src="@drawable/bd0" app:a75="@dimen/db2" />
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@id/cl0" android:padding="@dimen/bs3" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5.0dip" android:src="@drawable/bet" app:a7_="@color/w4" />
+        </FrameLayout>
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/ar8" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_centerInParent="true" app:a75="@dimen/db2" style="@style/r6" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/c51" android:visibility="gone" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/bs3" android:src="@drawable/bl8" />
+            <TextView android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:id="@id/ar_" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/r9" />
+        </LinearLayout>
+    </com.ushareit.theme.night.view.NightRelativeLayout>
+</com.lenovo.anyshare.widget.RectFrameLayout>

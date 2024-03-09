@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Үндсэн хэсэг</string>
+    <string name="a98">Толгой гарчиг</string>
+    <string name="a99">Медиа Харагдац</string>
+    <string name="a9_">Зөвшөөрөх</string>
+    <string name="a9a">Бүү зөвшөөр</string>
+    <string name="a9b">Аппад танд мэдэгдэл илгээхийг зөвшөөрөх үү?</string>
+    <string name="a9c">Зарыг нээхийн тулд товшино уу</string>
+    <string name="a9d">Та офлайн байхдаа хадгалсан зараа үзэх</string>
+    <string name="a9e">ОК</string>
+    <string name="a9f">Та буцаад онлайн болохдоо холбоос бүхий мэдэгдэл авна</string>
+    <string name="a9g">Үгүй</string>
+    <string name="a9h">Бид сурталчлагчийн сайтын холбоос бүхий мэдэгдлийг тан руу илгээх болно.</string>
+    <string name="a9i">Та буцаад онлайн болохдоо зарыг нээнэ үү.</string>
+    <string name="a9j">Зураг хадгалах</string>
+    <string name="a9k">Зарыг Зургийн цомогт зураг хадгалахыг зөвшөөрөх үү?</string>
+    <string name="a9l">Зөвшөөрөх</string>
+    <string name="a9m">Татгалзах</string>
+    <string name="a9n">Календарийн үйл явдал үүсгэх</string>
+    <string name="a9o">Зарыг календарийн үйл явдал үүсгэхийг зөвшөөрөх үү?</string>
+    <string name="a9p">Тест зар</string>
+    <string name="a9q">AdMob -</string>
+</resources>

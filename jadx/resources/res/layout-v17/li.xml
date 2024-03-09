@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/u6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as1">
+    <FrameLayout android:id="@+id/up" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/ar9">
+        <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:id="@+id/uo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/and" android:text="@string/r3" android:layout_marginStart="@dimen/aon"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:id="@+id/uq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aq2" android:layout_marginStart="@dimen/aon"/>
+        <ImageButton android:layout_gravity="end|center_vertical" android:background="@drawable/yz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ao5" android:layout_marginEnd="@dimen/ao5"/>
+    </FrameLayout>
+    <View android:background="@color/a1_" android:layout_width="match_parent" android:layout_height="@dimen/alp" android:layout_marginLeft="@dimen/am3" android:layout_marginRight="@dimen/am3" android:layout_marginStart="@dimen/am3" android:layout_marginEnd="@dimen/am3"/>
+    <FrameLayout android:id="@+id/a5y" android:layout_width="match_parent" android:layout_height="@dimen/ar9">
+        <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:id="@+id/a5z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/and" android:text="@string/a08" android:layout_marginStart="@dimen/aon"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:id="@+id/a60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aq2" android:layout_marginStart="@dimen/aon"/>
+        <ImageButton android:layout_gravity="end|center_vertical" android:background="@drawable/yz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ao5" android:layout_marginEnd="@dimen/ao5"/>
+    </FrameLayout>
+    <View android:background="@color/a1_" android:layout_width="match_parent" android:layout_height="@dimen/alp" android:layout_marginLeft="@dimen/am3" android:layout_marginRight="@dimen/am3" android:layout_marginStart="@dimen/am3" android:layout_marginEnd="@dimen/am3"/>
+    <FrameLayout android:id="@+id/w5" android:layout_width="match_parent" android:layout_height="@dimen/ar9">
+        <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:id="@+id/w6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/and" android:text="@string/tb" android:layout_marginStart="@dimen/aon"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:id="@+id/w7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aq2" android:layout_marginStart="@dimen/aon"/>
+        <ImageButton android:layout_gravity="end|center_vertical" android:background="@drawable/yz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ao5" android:layout_marginEnd="@dimen/ao5"/>
+    </FrameLayout>
+</LinearLayout>

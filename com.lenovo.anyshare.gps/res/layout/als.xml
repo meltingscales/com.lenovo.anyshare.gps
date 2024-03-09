@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/b0c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" style="?mm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.ButtonBarLayout android:gravity="bottom" android:orientation="horizontal" android:paddingLeft="?sr" android:paddingTop="@dimen/c_9" android:paddingRight="?sr" android:paddingBottom="@dimen/c_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@android:id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?mk" />
+        <android.widget.Space android:id="@id/dhg" android:visibility="?a3z" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?mj" />
+        <Button android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?ml" />
+    </androidx.appcompat.widget.ButtonBarLayout>
+</ScrollView>

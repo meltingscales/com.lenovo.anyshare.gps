@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/i0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/aqe" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/a_4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aog" android:layout_marginTop="@dimen/aog" android:layout_marginRight="@dimen/aog" android:layout_marginBottom="@dimen/aqw" android:minHeight="@dimen/aq6">
+            <TextView android:textSize="@dimen/asr" android:textColor="@color/kl" android:background="@drawable/qg" android:paddingTop="@dimen/am3" android:paddingBottom="@dimen/am3" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/aq6" android:text="@string/w1" android:paddingStart="@dimen/amy" android:paddingEnd="@dimen/amy"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/a_i" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom|center_horizontal" android:id="@+id/a0c" android:layout_width="@dimen/apa" android:layout_height="@dimen/apa" android:src="@drawable/qe"/>
+            <ImageView android:layout_gravity="bottom|center_horizontal" android:id="@+id/a0d" android:layout_width="wrap_content" android:layout_height="@dimen/apa" android:src="@drawable/qf"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/at5" android:textStyle="bold" android:textColor="@color/kl" android:id="@+id/aai" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqm" android:layout_marginBottom="@dimen/ar7"/>
+        <TextView android:textSize="@dimen/ast" android:textColor="@color/kl" android:id="@+id/abv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kaabah" android:singleLine="true"/>
+    </LinearLayout>
+    <com.ushareit.muslim.compass.CompassNotAccurateView android:id="@+id/vx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

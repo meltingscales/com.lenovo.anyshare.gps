@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/d6v" android:background="@drawable/ah5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-2dp">
+            <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="match_parent" android:layout_height="wrap_content" app:bottom_left_corner="@dimen/bkq" app:bottom_right_corner="@dimen/bkq" app:top_left_corner="@dimen/bl2" app:top_right_corner="@dimen/bl2">
+                <ImageView android:id="@+id/b8a" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/avq" android:background="@color/a4n" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <RelativeLayout android:layout_gravity="center_vertical" android:id="@+id/bc_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/bca" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <ImageView android:id="@+id/bl2" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_marginTop="@dimen/br9" android:src="@drawable/agp" android:layout_marginStart="@dimen/br9"/>
+            </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/awm" android:background="@drawable/agu" android:paddingLeft="@dimen/bp0" android:layout_width="match_parent" android:layout_height="@dimen/boe" android:layout_alignBottom="@+id/d2i">
+                <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/bx9" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bm3" android:layout_marginLeft="@dimen/brl" app:radius="@dimen/bqf">
+                    <ImageView android:id="@+id/icon" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bm3" android:scaleType="centerCrop"/>
+                </com.ushareit.ads.ui.widget.RoundFrameLayout>
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:id="@+id/e09" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqv" android:text="@string/ads_recommended_info" android:maxLines="1" android:layout_weight="1" android:lineSpacingExtra="@dimen/bhn" android:layout_marginStart="@dimen/bqf" android:layout_marginEnd="@dimen/bqv"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <FrameLayout android:paddingTop="@dimen/bl2" android:layout_width="match_parent" android:layout_height="@dimen/bql">
+            <TextView android:textSize="@dimen/byy" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/dwn" android:paddingLeft="@dimen/bqf" android:paddingRight="@dimen/bqf" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ads_recommended_info" android:maxLines="2" android:layout_marginStart="@dimen/brt" android:layout_marginEnd="@dimen/bpr" android:paddingHorizontal="@dimen/bqf" android:lineHeight="@dimen/bmf"/>
+            <ImageView android:layout_gravity="end" android:id="@+id/c64" android:layout_width="@dimen/bno" android:layout_height="@dimen/bno" android:src="@drawable/agf" android:layout_marginEnd="@dimen/brt"/>
+            <TextView android:textSize="@dimen/bth" android:textStyle="bold" android:textColor="#999990" android:gravity="center" android:layout_gravity="end" android:id="@+id/c65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:minWidth="@dimen/bno" android:text="GET" android:layout_marginEnd="@dimen/brt"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

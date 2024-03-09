@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d6v" android:paddingLeft="@dimen/brl" android:paddingTop="@dimen/brl" android:paddingRight="@dimen/brl" android:paddingBottom="@dimen/brl" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:paddingHorizontal="@dimen/brl" android:paddingVertical="@dimen/brl"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

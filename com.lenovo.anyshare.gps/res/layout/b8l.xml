@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bel" android:paddingLeft="@dimen/dit" android:paddingRight="@dimen/dit" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dix">
+        <com.ushareit.theme.night.view.NightEditText android:textSize="@dimen/bsz" android:textColor="@color/bds" android:textColorHint="@color/bdy" android:id="@id/c04" android:background="@drawable/dcs" android:layout_width="fill_parent" android:layout_height="@dimen/dj0" android:hint="@string/csh" android:singleLine="true" android:maxLength="16" android:drawableLeft="@drawable/dd_" android:drawablePadding="@dimen/dje" android:inputType="textPassword" android:imeOptions="flagForceAscii" android:textCursorDrawable="@drawable/dd8" app:a7a="@dimen/db2" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center" android:id="@id/dqr" android:padding="@dimen/djd" android:layout_width="@dimen/diw" android:layout_height="@dimen/diw" android:src="@drawable/ddm" app:a7_="@color/w4" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/be6" android:id="@id/bjd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dj7" />
+    <com.ushareit.theme.night.view.NightButton android:enabled="false" android:textSize="@dimen/bsz" android:textColor="@drawable/dbj" android:layout_gravity="center_horizontal" android:id="@id/az9" android:background="@drawable/dbs" android:layout_width="fill_parent" android:layout_height="@dimen/diy" android:layout_marginTop="@dimen/dix" android:text="@string/as9" app:a79="@color/bdw" />
+</LinearLayout>

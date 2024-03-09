@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/brl" android:paddingRight="@dimen/brl" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:background="@drawable/bjw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" app:a75="@dimen/db2" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" app:n6="@dimen/bl2" app:n7="0.0dip">
+        <com.ushareit.listplayer.widget.RatioByWidthImageView android:id="@id/c1u" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:a75="@dimen/db2" app:ank="1.0" />
+        <ImageView android:gravity="end" android:layout_gravity="end|center|top" android:id="@id/c1b" android:visibility="gone" android:layout_width="@dimen/buz" android:layout_height="@dimen/buz" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/br9" android:src="@drawable/bd0" app:a75="@dimen/db2" />
+    </androidx.cardview.widget.CardView>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/aee" android:ellipsize="end" android:id="@id/c26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:maxLines="1" />
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsw" android:textColor="#ff5b5b5b" android:ellipsize="end" android:id="@id/c1h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:maxLines="1" />
+</LinearLayout>

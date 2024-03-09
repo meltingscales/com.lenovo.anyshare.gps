@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingLeft="@dimen/c1f" android:paddingTop="@dimen/c0r" android:paddingRight="@dimen/c0r" android:paddingBottom="@dimen/c0r" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/c1f" android:paddingEnd="@dimen/c0r" android:paddingVertical="@dimen/c0r">
+    <com.ushareit.downloader.widget.RoundFrameLayout android:layout_width="@dimen/c31" android:layout_height="@dimen/c3f" app:radius="@dimen/c3j">
+        <ImageView android:id="@+id/c7l" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.ushareit.downloader.widget.RoundFrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/c3j" android:paddingRight="@dimen/c2m" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="@dimen/c3j" android:paddingEnd="@dimen/c2m">
+        <TextView android:textSize="@dimen/c49" android:textColor="@color/a__" android:ellipsize="end" android:id="@+id/dxa" android:paddingLeft="@dimen/c2m" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/c2m"/>
+        <TextView android:textSize="@dimen/c45" android:textColor="@color/a_l" android:id="@+id/dv_" android:paddingLeft="@dimen/c2m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2m" android:paddingStart="@dimen/c2m"/>
+        <TextView android:textSize="@dimen/c45" android:textColor="@color/a_l" android:id="@+id/dxv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2m" android:drawableLeft="@drawable/aze" android:drawablePadding="@dimen/c0q" android:drawableStart="@drawable/aze"/>
+    </LinearLayout>
+</LinearLayout>

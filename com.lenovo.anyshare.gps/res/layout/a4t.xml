@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/c1f" android:paddingTop="@dimen/c0r" android:paddingRight="@dimen/c0r" android:paddingBottom="@dimen/c0r" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.downloader.widget.RoundFrameLayout android:layout_width="@dimen/c0u" android:layout_height="@dimen/c36" app:a_7="@dimen/c3j">
+        <ImageView android:id="@id/c7l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:layout_gravity="bottom" android:background="@drawable/ay2" android:layout_width="fill_parent" android:layout_height="@dimen/c1t" />
+        <TextView android:textSize="@dimen/c45" android:textColor="@color/aaz" android:layout_gravity="end|bottom|center" android:id="@id/dv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c35" android:layout_marginBottom="@dimen/c2w" android:lines="1" />
+    </com.ushareit.downloader.widget.RoundFrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/c13" android:paddingRight="@dimen/c13" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/c48" android:textColor="@color/a__" android:ellipsize="end" android:id="@id/dxa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="@dimen/c45" android:textColor="@color/a_o" android:id="@id/duo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2v" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/c7c" android:padding="@dimen/c2m" android:visibility="invisible" android:layout_width="@dimen/c29" android:layout_height="@dimen/c29" />
+</LinearLayout>

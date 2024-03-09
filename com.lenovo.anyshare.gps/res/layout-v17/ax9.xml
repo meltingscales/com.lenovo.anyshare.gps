@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/c2g" android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/brt" android:layout_marginEnd="@dimen/brt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/topon_banner_container" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnc" app:a_7="@dimen/blk" />
+    <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_margin="5.0dip" android:src="@drawable/bbe" />
+</FrameLayout>

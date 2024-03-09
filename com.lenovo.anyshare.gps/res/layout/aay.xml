@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#b3000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/axj" android:paddingLeft="@dimen/bo8" android:paddingRight="@dimen/bo8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj">
+        <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/xl" android:id="@id/bdu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmf" android:includeFontPadding="false" />
+        <com.ushareit.filemanager.view.RoundImageView android:id="@id/c56" android:layout_width="fill_parent" android:layout_height="@dimen/blc" android:layout_marginTop="@dimen/bmm" android:src="@color/a1f" android:scaleType="centerCrop" apps:a_d="@dimen/bmm" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:id="@id/aya" android:background="@drawable/ba8" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bo8" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:layout_gravity="center_horizontal" android:id="@id/ay7" android:padding="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:layout_marginBottom="@dimen/bl2" android:includeFontPadding="false" />
+    </LinearLayout>
+</FrameLayout>

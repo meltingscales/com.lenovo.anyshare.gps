@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/pi">
+    <ScrollView android:layout_gravity="bottom" android:background="@drawable/an4" style="@style/ph">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo3">
+                <TextView android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/br3" android:text="@string/d2y" style="@style/q7"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqf">
+                    <TextView android:textSize="@dimen/bsu" android:textColor="@color/ty" android:id="@+id/dzu" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/blv" android:text="1" style="@style/su"/>
+                    <TextView android:textSize="@dimen/bsz" android:textStyle="normal" android:textColor="@color/xu" android:layout_marginLeft="@dimen/brt" android:text="@string/d34" android:layout_toRightOf="@+id/dzu" style="@style/q0"/>
+                </RelativeLayout>
+                <com.lenovo.anyshare.widget.RectFrameLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bm3" app:rect_radio="0.391">
+                    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/dgw" app:night_alpha="@dimen/db2"/>
+                </com.lenovo.anyshare.widget.RectFrameLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/bsu" android:textColor="@color/ty" android:id="@+id/dzv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/blv" android:text="2" style="@style/su"/>
+                    <TextView android:textSize="@dimen/bsz" android:textStyle="normal" android:textColor="@color/xu" android:id="@+id/aty" android:layout_marginLeft="@dimen/brt" android:text="@string/d35" android:layout_toRightOf="@+id/dzv" style="@style/q0"/>
+                </RelativeLayout>
+                <com.lenovo.anyshare.widget.RectFrameLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bo8" app:rect_radio="0.391">
+                    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/dgx" app:night_alpha="@dimen/db2"/>
+                </com.lenovo.anyshare.widget.RectFrameLayout>
+                <View android:background="@color/a40" android:layout_width="match_parent" android:layout_height="1px"/>
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@+id/b74" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/by7" android:layout_marginBottom="@dimen/bl2" android:text="@string/bhp" android:lines="1"/>
+            </LinearLayout>
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|top" android:id="@+id/c49" android:padding="@dimen/bqf" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_margin="@dimen/bmm" android:src="@drawable/cn7" app:night_alpha="@dimen/db2"/>
+        </FrameLayout>
+    </ScrollView>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/bp5" android:layout_height="@dimen/bqo">
+    <FrameLayout android:layout_width="@dimen/boq" android:layout_height="@dimen/bq9" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/bl2" android:layout_alignParentStart="true">
+        <FrameLayout android:id="@+id/aoc" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="end|bottom" android:id="@+id/aom" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_marginRight="@dimen/bqv" android:layout_marginBottom="@dimen/bqv" android:src="@drawable/d3v" android:scaleType="fitXY" android:layout_alignRight="@+id/aoc" android:layout_alignBottom="@+id/aoc" android:layout_marginEnd="@dimen/bqv"/>
+    </FrameLayout>
+    <ImageView android:id="@+id/c4a" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:src="@drawable/d3n" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

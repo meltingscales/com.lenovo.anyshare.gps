@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Corpo</string>
+    <string name="a98">Título</string>
+    <string name="a99">Controis multimedia</string>
+    <string name="a9_">Permitir</string>
+    <string name="a9a">Non permitir</string>
+    <string name="a9b">Queres permitir que a aplicación che envíe notificacións?</string>
+    <string name="a9c">Toca para abrir o anuncio</string>
+    <string name="a9d">Mira o anuncio que gardaches cando estabas sen conexión</string>
+    <string name="a9e">Si</string>
+    <string name="a9f">Recibirás unha notificación coa ligazón cando volvas estar en liña</string>
+    <string name="a9g">Non</string>
+    <string name="a9h">Enviarémosche unha notificación cunha ligazón ao sitio do anunciante.</string>
+    <string name="a9i">Abrir o anuncio cando volvas estar en liña.</string>
+    <string name="a9j">Gardar imaxe</string>
+    <string name="a9k">Queres permitir que o anuncio almacene imaxes na galería de imaxes?</string>
+    <string name="a9l">Aceptar</string>
+    <string name="a9m">Rexeitar</string>
+    <string name="a9n">Crear evento do calendario</string>
+    <string name="a9o">Queres permitir que o anuncio cree un evento do calendario?</string>
+    <string name="a9p">Probar anuncio</string>
+    <string name="a9q">AdMob:</string>
+</resources>

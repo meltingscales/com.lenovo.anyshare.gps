@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/q9" android:id="@+id/a88" android:title="@string/s2" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="collapseActionView|ifRoom"/>
+    <item android:icon="@drawable/q6" android:id="@+id/vq" android:title="@string/ro" app:showAsAction="always"/>
+    <item android:id="@+id/vb" android:visible="false" android:title="@string/rn" app:showAsAction="never"/>
+</menu>

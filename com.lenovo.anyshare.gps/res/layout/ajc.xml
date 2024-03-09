@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:background="@drawable/apt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqm" android:layout_marginRight="@dimen/bqm" app:a_7="@dimen/bqf">
+        <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="@dimen/bqa" android:src="@drawable/ap8" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bkc">
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/uy" android:layout_gravity="center_vertical" android:id="@id/e07" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk" android:layout_marginBottom="@dimen/blk" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/bsu" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/du7" android:background="@drawable/aqn" android:paddingLeft="@dimen/bl2" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bl2" android:paddingBottom="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="@dimen/bnv" android:layout_marginLeft="@dimen/br9" android:minWidth="@dimen/bqn" android:text="@string/bcf" android:includeFontPadding="false" />
+        </LinearLayout>
+    </com.ushareit.widget.RoundFrameLayout>
+</merge>

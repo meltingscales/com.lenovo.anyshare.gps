@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/brm"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bam" android:background="@drawable/d_f" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/b75" android:paddingLeft="@dimen/brt" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/brt" android:layout_width="@dimen/bpb" android:layout_height="@dimen/bo3" android:src="@drawable/dqp" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:id="@id/b57" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/d6k" android:layout_below="@id/b75" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/dhf" android:layout_width="fill_parent" android:layout_height="@dimen/brh" android:layout_marginLeft="@dimen/bnv" android:layout_marginTop="@dimen/bmw" android:layout_marginRight="@dimen/bnv" android:layout_marginBottom="@dimen/bmw" android:layout_below="@id/b57">
+            <RelativeLayout android:id="@id/dh3" android:background="@drawable/dgj" android:paddingLeft="@dimen/blk" android:paddingTop="@dimen/bl2" android:paddingRight="@dimen/blk" android:paddingBottom="@dimen/bl2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:id="@id/dh2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d6h" android:singleLine="true" />
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/v9" android:id="@id/dgz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/dh2" />
+                <ImageView android:id="@id/dh0" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bnv" android:layout_marginBottom="@dimen/bp0" android:src="@drawable/dgk" android:layout_alignBottom="@id/dgz" android:layout_alignParentRight="true" />
+                <ProgressBar android:id="@id/dh1" android:layout_width="fill_parent" android:layout_height="@dimen/bqf" android:layout_marginTop="@dimen/bqv" android:max="100" android:progress="10" android:progressDrawable="@drawable/dgm" android:layout_below="@id/dgz" style="?android:progressBarStyleHorizontal" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/dh_" android:background="@drawable/dgj" android:paddingLeft="@dimen/blk" android:paddingTop="@dimen/bl2" android:paddingRight="@dimen/blk" android:paddingBottom="@dimen/bl2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bl2" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:id="@id/dh9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d6h" android:singleLine="true" />
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/v9" android:id="@id/dh6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/dh9" />
+                <ImageView android:id="@id/dh7" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bnv" android:layout_marginBottom="@dimen/bp0" android:src="@drawable/dgl" android:layout_alignBottom="@id/dh6" android:layout_alignParentRight="true" />
+                <ProgressBar android:id="@id/dh8" android:layout_width="fill_parent" android:layout_height="@dimen/bqf" android:layout_marginTop="@dimen/bqv" android:max="100" android:progress="10" android:progressDrawable="@drawable/dgm" android:layout_below="@id/dh6" style="?android:progressBarStyleHorizontal" />
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/ba_" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bh3" android:layout_below="@id/dhf">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/c8i" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8">
+                <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center_horizontal" android:id="@id/cyc" android:background="@drawable/duj" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+                <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/d6o" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/d2u" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.lenovo.anyshare.content.ContentPagersTitleBar2 android:id="@id/e2d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" />
+                <androidx.viewpager.widget.ViewPager android:id="@id/e58" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </FrameLayout>
+        <include android:id="@id/bh3" android:background="#7ee7e7e7" android:layout_width="fill_parent" android:layout_height="@dimen/bv0" android:layout_above="@id/awm" layout="@layout/a09" />
+        <FrameLayout android:gravity="center" android:id="@id/awm" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="@dimen/bqd" android:layout_alignParentBottom="true">
+            <TextView android:enabled="true" android:textSize="@dimen/bsx" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/b97" android:background="@drawable/arm" android:layout_width="fill_parent" android:layout_height="@dimen/drv" android:layout_marginLeft="@dimen/drw" android:layout_marginRight="@dimen/drw" android:text="@string/d6m" android:lines="1" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

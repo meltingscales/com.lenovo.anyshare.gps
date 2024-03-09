@@ -1,0 +1,115 @@
+package com.lenovo.anyshare;
+
+import com.lenovo.anyshare.gps.R;
+import java.util.HashMap;
+
+/* loaded from: classes7.dex */
+public class ARe {
+
+    /* renamed from: a  reason: collision with root package name */
+    public static HashMap<String, Integer> f6476a = new HashMap<>();
+
+    static {
+        HashMap<String, Integer> hashMap = f6476a;
+        Integer valueOf = Integer.valueOf((int) R.string.ama);
+        hashMap.put(".ai", valueOf);
+        f6476a.put(".eps", valueOf);
+        f6476a.put(C4593Nfc.c, valueOf);
+        f6476a.put(C4593Nfc.d, valueOf);
+        f6476a.put(C4593Nfc.f12408a, valueOf);
+        f6476a.put(C4593Nfc.b, valueOf);
+        f6476a.put(C4593Nfc.e, valueOf);
+        f6476a.put(C4593Nfc.f, valueOf);
+        f6476a.put(".pps", valueOf);
+        f6476a.put(C4593Nfc.g, valueOf);
+        f6476a.put(".xml", valueOf);
+        f6476a.put(".odt", valueOf);
+        HashMap<String, Integer> hashMap2 = f6476a;
+        Integer valueOf2 = Integer.valueOf((int) R.string.amc);
+        hashMap2.put(".gz", valueOf2);
+        f6476a.put(".tgz", valueOf2);
+        f6476a.put(".bz", valueOf2);
+        f6476a.put(".bz2", valueOf2);
+        f6476a.put(".tbz", valueOf2);
+        f6476a.put(C12519gba.b, valueOf2);
+        f6476a.put(".rar", valueOf2);
+        f6476a.put(".tar", valueOf2);
+        f6476a.put(".7z", valueOf2);
+        f6476a.put(".gho", valueOf2);
+        f6476a.put(".iso", valueOf2);
+        HashMap<String, Integer> hashMap3 = f6476a;
+        Integer valueOf3 = Integer.valueOf((int) R.string.amd);
+        hashMap3.put(".txt", valueOf3);
+        f6476a.put(".php", valueOf3);
+        f6476a.put(".html", valueOf3);
+        f6476a.put(".htm", valueOf3);
+        f6476a.put(".js", valueOf3);
+        f6476a.put(".css", valueOf3);
+        f6476a.put(".rtf", valueOf3);
+        f6476a.put(".rtfd", valueOf3);
+        f6476a.put(".py", valueOf3);
+        f6476a.put(".java", valueOf3);
+        f6476a.put(".rb", valueOf3);
+        f6476a.put(".sh", valueOf3);
+        f6476a.put(".pl", valueOf3);
+        f6476a.put(".sql", valueOf3);
+        HashMap<String, Integer> hashMap4 = f6476a;
+        Integer valueOf4 = Integer.valueOf((int) R.string.amb);
+        hashMap4.put(".bmp", valueOf4);
+        f6476a.put(".jpg", valueOf4);
+        f6476a.put(".jpeg", valueOf4);
+        f6476a.put(".gif", valueOf4);
+        f6476a.put(".png", valueOf4);
+        f6476a.put(".tif", valueOf4);
+        f6476a.put(".tiff", valueOf4);
+        f6476a.put(".tga", valueOf4);
+        f6476a.put(".psd", valueOf4);
+        f6476a.put(".j2k", valueOf4);
+        f6476a.put(".jpe", valueOf4);
+        f6476a.put(".jpz", valueOf4);
+        f6476a.put(".pbm", valueOf4);
+        f6476a.put(".ppm", valueOf4);
+        f6476a.put(".xpm", valueOf4);
+        f6476a.put(".pnm", valueOf4);
+        HashMap<String, Integer> hashMap5 = f6476a;
+        Integer valueOf5 = Integer.valueOf((int) R.string.am_);
+        hashMap5.put(".mp3", valueOf5);
+        f6476a.put(".mid", valueOf5);
+        f6476a.put(".ogg", valueOf5);
+        f6476a.put(".mp4a", valueOf5);
+        f6476a.put(".wav", valueOf5);
+        f6476a.put(".wma", valueOf5);
+        f6476a.put(".ape", valueOf5);
+        f6476a.put(".flac", valueOf5);
+        HashMap<String, Integer> hashMap6 = f6476a;
+        Integer valueOf6 = Integer.valueOf((int) R.string.ame);
+        hashMap6.put(".avi", valueOf6);
+        f6476a.put(".dv", valueOf6);
+        f6476a.put(C12519gba.g, valueOf6);
+        f6476a.put(".mpe", valueOf6);
+        f6476a.put(".mpeg", valueOf6);
+        f6476a.put(".mpg", valueOf6);
+        f6476a.put(".mov", valueOf6);
+        f6476a.put(".wm", valueOf6);
+        f6476a.put(".flv", valueOf6);
+        f6476a.put(".m4v", valueOf6);
+        f6476a.put(".m4u", valueOf6);
+        f6476a.put(".3gp", valueOf6);
+        f6476a.put(".rm", valueOf6);
+        f6476a.put(".rmvb", valueOf6);
+        f6476a.put(".qt", valueOf6);
+        f6476a.put(".movie", valueOf6);
+        f6476a.put(".wmv", valueOf6);
+        f6476a.put(".asf", valueOf6);
+        f6476a.put(".3gpp", valueOf6);
+        f6476a.put(".asx", valueOf6);
+        f6476a.put(".letv", valueOf6);
+        f6476a.put(".exe", Integer.valueOf((int) R.string.amf));
+        HashMap<String, Integer> hashMap7 = f6476a;
+        Integer valueOf7 = Integer.valueOf((int) R.string.am9);
+        hashMap7.put(".apk", valueOf7);
+        f6476a.put(".ttf", valueOf7);
+        f6476a.put(".bak", valueOf7);
+        f6476a.put(".irf", valueOf7);
+    }
+}

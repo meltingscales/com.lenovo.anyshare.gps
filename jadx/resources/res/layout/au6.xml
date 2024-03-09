@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/ddx" android:background="@color/axv" android:paddingTop="@dimen/cxs" android:layout_width="match_parent" android:layout_height="@dimen/cx_">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ddy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/cwn" android:layout_height="@dimen/cwn" android:src="@drawable/ccm"/>
+        <TextView android:textSize="@dimen/cyw" android:textColor="@color/au1" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cya" android:text="@string/cdh"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/cyt" android:textColor="@color/aut" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/dgd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cxh"/>
+    <TextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="@dimen/csw" android:layout_weight="1"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/ca7" android:padding="@dimen/cxh" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cd0"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/ca9" android:padding="@dimen/cxs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/csw" android:src="@drawable/cd3"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/ca4" android:padding="@dimen/cxs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/csw" android:src="@drawable/ccv"/>
+    <TextView android:textSize="@dimen/cyt" android:textColor="@color/auf" android:gravity="center_vertical" android:layout_gravity="end|center_vertical" android:id="@+id/bgh" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/csw" android:text="@string/caq"/>
+</LinearLayout>

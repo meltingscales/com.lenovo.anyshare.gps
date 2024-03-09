@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornografija, vulgarus turinys</item>
+        <item>Nusikaltimas</item>
+        <item>Politiniu požiūriu jautri informacija</item>
+        <item>Neteisėta rinkodara</item>
+        <item>Klaidinga informacija</item>
+        <item>Įstatymo pažeidimas</item>
+    </array>
+    <array name="c">
+        <item>Trikdantis turinys</item>
+        <item>Pornografija</item>
+        <item>Smurtas</item>
+        <item>Kenksmingas ir pavojingas turinys</item>
+        <item>Antraštė / viršelis neatitinka turinio</item>
+    </array>
+</resources>

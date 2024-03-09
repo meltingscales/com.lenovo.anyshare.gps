@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:background="@color/a4r" android:layout_width="fill_parent" android:layout_height="@dimen/cnk" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/topon_banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/cnk" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:layout_width="@dimen/bnj" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/br9" android:layout_marginBottom="@dimen/br9" android:src="@drawable/agp" android:scaleType="fitXY" />
+</FrameLayout>

@@ -1,0 +1,30 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Map;
+
+/* loaded from: classes4.dex */
+public final class zzbik implements zzbij {
+    public final zzbil zza;
+
+    public zzbik(zzbil zzbilVar) {
+        this.zza = zzbilVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbij
+    public final /* bridge */ /* synthetic */ void zza(Object obj, Map map) {
+        zzcez zzcezVar = (zzcez) obj;
+        boolean equals = "1".equals(map.get("transparentBackground"));
+        boolean equals2 = "1".equals(map.get("blur"));
+        float f = 0.0f;
+        try {
+            if (map.get("blurRadius") != null) {
+                f = Float.parseFloat((String) map.get("blurRadius"));
+            }
+        } catch (NumberFormatException e) {
+            zzbzr.zzh("Fail to parse float", e);
+        }
+        this.zza.zzc(equals);
+        this.zza.zzb(equals2, f);
+        zzcezVar.zzat(equals);
+    }
+}

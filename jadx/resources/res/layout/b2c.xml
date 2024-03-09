@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.main.music.equalizer.SwitchButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:layout_gravity="end|center_vertical" android:id="@+id/dlr" android:background="@drawable/csm" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bok" android:layout_centerVertical="true" custom:switchThumb="@drawable/csl" style="@style/ant"/>

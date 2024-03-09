@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.ads.sharemob.views.AdRevealView android:id="@+id/ap7" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/aoo" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.ushareit.ads.sharemob.views.AdRevealView>
+    <com.ushareit.ads.sharemob.views.AdRevealView android:id="@+id/ap8" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/aop" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.ushareit.ads.sharemob.views.AdRevealView>
+</merge>

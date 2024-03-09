@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/d77" android:background="#b3000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/dev" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a0o="csi" app:a1g="csi">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dsu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" />
+        <GridView android:id="@id/bua" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" app:a0u="csi" app:a1c="csi" />
+        <include layout="@layout/a30" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/d8k" android:background="@color/axv" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ushareit.bst.speed.widget.SpeedHeaderView android:id="@id/buf" android:background="@color/auj" android:layout_width="fill_parent" android:layout_height="@dimen/cus" android:layout_marginBottom="@dimen/cx6" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/as4" android:background="@drawable/c9d" android:paddingTop="@dimen/ctn" android:paddingBottom="@dimen/ctn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cx6" android:layout_marginTop="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="@dimen/cxi" android:layout_below="@id/buf" />
+        <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/b65" android:background="@drawable/c9c" android:layout_width="fill_parent" android:layout_height="@dimen/cxn" android:layout_alignParentBottom="true">
+            <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/aw3" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/b64" android:background="@drawable/c92" android:layout_width="fill_parent" android:layout_height="@dimen/cws" android:layout_marginLeft="@dimen/cvp" android:layout_marginTop="@dimen/ct3" android:layout_marginRight="@dimen/cvp" android:layout_marginBottom="@dimen/ct3" android:minWidth="@dimen/cui" android:text="@string/amn" android:singleLine="true" android:layout_marginHorizontal="@dimen/cvp" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/d6v" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#faf4f4f4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/by8" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bnj" android:src="@drawable/bwv" app:a1a="csi" app:a1g="csi" />
+    <ImageView android:id="@id/bym" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brn" android:src="@drawable/bx4" app:a17="csi" app:a1a="csi" app:a1g="csi" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@android:color/black" android:id="@id/c0i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" android:text="@string/bm4" android:layout_centerHorizontal="true" app:a17="csi" app:a1a="csi" app:a1f="@id/bym" />
+    <Button android:textColor="@android:color/white" android:id="@id/b0f" android:background="@drawable/aro" android:layout_width="@dimen/bm5" android:layout_height="@dimen/bp7" android:layout_marginTop="@dimen/boe" android:text="@string/bgr" android:layout_below="@id/c0i" android:layout_centerHorizontal="true" app:a17="csi" app:a1a="csi" app:a1f="@id/c0i" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/d2r" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br8" android:overScrollMode="never" app:a0o="csi" app:a1f="@id/b0f" app:a1h="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

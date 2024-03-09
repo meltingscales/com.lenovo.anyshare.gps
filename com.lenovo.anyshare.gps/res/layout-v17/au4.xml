@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/c1f" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="center_vertical" android:id="@id/bxw" android:layout_width="@dimen/cx4" android:layout_height="@dimen/cx4" android:layout_marginLeft="@dimen/cu2" android:layout_marginTop="@dimen/ct3" android:layout_marginBottom="@dimen/ct3" android:src="@drawable/cd_" android:layout_marginStart="@dimen/cu2" app:a0o="csi" app:a17="csi" app:a1c="csi" app:a1g="csi" />
+    <TextView android:textSize="@dimen/cyw" android:textColor="@color/au1" android:ellipsize="end" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/csw" android:layout_marginTop="@dimen/cwu" android:layout_marginRight="@dimen/csw" android:text="@string/ccd" android:maxLines="1" android:layout_marginStart="@dimen/csw" android:layout_marginEnd="@dimen/csw" app:a18="@id/bxw" app:a1b="@id/bxw" app:a1g="@id/bxw" />
+    <TextView android:textSize="@dimen/cyt" android:textColor="@color/aut" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cwu" android:text="@string/ccc" android:maxLines="1" app:a0o="@id/bxw" app:a17="@id/dpx" app:a1c="@id/dpx" />
+</androidx.constraintlayout.widget.ConstraintLayout>

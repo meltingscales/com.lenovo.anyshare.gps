@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/fx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/fl" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@+id/fk" android:background="@color/ah" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" app:rect_radio="0.5236">
+            <FrameLayout android:id="@+id/ax" android:background="@color/cy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/az" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.ushareit.ads.ui.widget.RectFrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="500dp">
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/da" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk">
+                <TextView android:textSize="@dimen/ht" android:textColor="#ffffff" android:ellipsize="end" android:gravity="left" android:layout_gravity="center" android:id="@+id/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginTop="@dimen/au" android:layout_marginRight="@dimen/au" android:singleLine="true"/>
+                <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginTop="@dimen/au" android:layout_marginBottom="@dimen/b7">
+                    <ImageView android:id="@+id/cg" android:layout_width="@dimen/cx" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f5" android:scaleType="fitXY" android:layout_alignParentLeft="true"/>
+                    <TextView android:textSize="@dimen/hr" android:textColor="#ffffff" android:ellipsize="end" android:gravity="left" android:id="@+id/dz" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="@dimen/eq"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/eo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/au" android:layout_marginBottom="@dimen/c6">
+                    <com.san.ads.TextProgressView android:textColor="@color/e2" android:gravity="center" android:id="@+id/a3" android:layout_width="match_parent" android:layout_height="@dimen/e4" android:layout_marginLeft="@dimen/c6" android:max="100" android:progress="100" android:singleLine="true" android:layout_alignParentRight="true" app:progress_drawable="@drawable/a3" app:progress_style="?android:attr/progressBarStyleHorizontal" app:textSize="@dimen/hp" app:text_margin_left="@dimen/b7" app:text_margin_right="@dimen/b7"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <include layout="@layout/k"/>
+        </FrameLayout>
+        <ProgressBar android:id="@+id/e0" android:layout_width="match_parent" android:layout_height="@dimen/cr" android:max="100" android:progress="0" android:progressDrawable="@drawable/a2" style="@android:style/Widget.ProgressBar.Horizontal"/>
+        <View android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/f9"/>
+    </LinearLayout>
+    <com.ushareit.minivideo.widget.DetailHonorCardView android:id="@+id/fu" android:background="@drawable/cl" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/b1" android:layout_marginLeft="@dimen/b7" android:layout_marginRight="@dimen/gj" android:layout_marginBottom="@dimen/ft" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:id="@+id/d7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

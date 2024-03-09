@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/b9d" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:background="@drawable/aw6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf">
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:layout_gravity="start|bottom" android:paddingBottom="@dimen/br9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:text="@string/ap5"/>
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:layout_gravity="start|bottom" android:id="@+id/b9j" android:paddingBottom="@dimen/br9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf"/>
+            <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <ImageView android:layout_gravity="end|bottom" android:id="@+id/b9i" android:paddingLeft="@dimen/bo8" android:paddingTop="@dimen/bok" android:paddingRight="@dimen/bo8" android:paddingBottom="@dimen/br9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/as1"/>
+        </LinearLayout>
+        <com.lenovo.anyshare.content.music.IndexedStickyRecyclerView android:id="@+id/b9e" android:background="@color/bi0" android:paddingBottom="@dimen/bn4" android:clipToPadding="false" style="@style/qo"/>
+    </LinearLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/b9g" android:background="@drawable/duj" android:padding="@dimen/dhs" android:paddingBottom="100dp" android:clipToPadding="false" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/b9f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awb"/>
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpz" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bpz" android:layout_marginBottom="@dimen/bnj" android:text="@string/d1r" android:layout_marginHorizontal="@dimen/bpz"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a79" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d36" android:background="@drawable/aru" android:layout_width="@dimen/bn6" android:layout_height="@dimen/bpv" android:text="@string/cm3"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/b9c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awo"/>
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpz" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bpz" android:layout_marginBottom="@dimen/bnj" android:text="@string/d1n" android:layout_marginHorizontal="@dimen/bpz"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="@dimen/bl2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/dbt" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/c8h" android:background="@color/a4v" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:padding="@dimen/brt" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" app:mpb_indeterminateTint="@color/v4"/>
+    </FrameLayout>
+</FrameLayout>

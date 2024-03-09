@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@+id/b8q" android:layout_width="match_parent" android:layout_height="@dimen/btl" app:layout_constraintTop_toTopOf="0">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/avj" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_alpha="@dimen/db2" style="@style/aj2"/>
+        <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btu" android:layout_marginRight="@dimen/btu" android:text="@string/cit" android:singleLine="true" android:drawablePadding="5dp"/>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center_vertical" android:id="@+id/right_button_res_0x7f090bae" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/d4r" app:night_alpha="@dimen/db2" style="@style/agw"/>
+    </FrameLayout>
+</merge>

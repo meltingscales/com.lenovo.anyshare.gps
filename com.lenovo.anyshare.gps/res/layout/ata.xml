@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.cleanit.diskclean.widget.CleanStateView android:id="@id/b5g" android:background="@color/auj" android:layout_width="fill_parent" android:layout_height="@dimen/cux"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/z6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/dq2" layout="@layout/b_t" />
+    <include android:id="@id/bvf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dq2" layout="@layout/b_h" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/dln" android:paddingLeft="@dimen/dl8" android:paddingRight="@dimen/dl8" android:paddingBottom="@dimen/dl8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dl7" android:layout_alignParentBottom="true">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btk" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/b06" android:paddingBottom="@dimen/dmw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dmu" android:text="@string/d3f" app:a7i="@color/w4" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btk" android:textColor="@color/wh" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/b05" android:background="@drawable/bvl" android:paddingLeft="@dimen/brs" android:paddingRight="@dimen/brs" android:layout_width="wrap_content" android:layout_height="@dimen/dmu" android:layout_marginBottom="@dimen/bq4" android:text="@string/d3e" android:singleLine="true" app:a7g="@color/w4" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/bvg" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/b_i" />
+        </FrameLayout>
+    </LinearLayout>
+    <ScrollView android:gravity="center_horizontal" android:id="@id/d8l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/dln" android:layout_below="@id/bvf">
+        <FrameLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center" android:id="@id/dii" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/e5y" android:layout_width="@dimen/bp6" android:layout_height="@dimen/bp6" />
+                <FrameLayout android:layout_gravity="center" android:id="@id/d43" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.ushareit.theme.night.view.NightImageView android:id="@id/d3z" android:layout_width="@dimen/brh" android:layout_height="@dimen/brh" android:src="@drawable/dhe" app:a76="@color/w4" />
+                </FrameLayout>
+                <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@id/bed" android:background="@drawable/dgz" android:padding="@dimen/bnc" android:layout_width="@dimen/brh" android:layout_height="@dimen/brh" android:src="@drawable/axb" app:a76="@color/w4" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/bo1" android:layout_width="fill_parent" android:layout_height="600.0dip">
+                <include layout="@layout/b_d" />
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

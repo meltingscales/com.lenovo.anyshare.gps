@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/abo" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/bce" android:textStyle="bold" android:textColor="@color/md" android:id="@+id/ali" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b6x" android:text="@string/a_j"/>
+    <TextView android:textSize="@dimen/bca" android:textColor="@color/m4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b9x" android:text="@string/a_g" android:maxLines="1"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/b6r" android:layout_marginBottom="@dimen/b7n">
+        <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/ajl" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/b8s" android:src="@color/nl" android:scaleType="centerCrop" android:layout_weight="1" app:rsi_radius="@dimen/bas"/>
+        <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/ajm" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/b8s" android:layout_marginRight="@dimen/b8s" android:src="@color/nl" android:scaleType="centerCrop" android:layout_weight="1" app:rsi_radius="@dimen/bas"/>
+        <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/ajn" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/b8s" android:src="@color/nl" android:scaleType="centerCrop" android:layout_weight="1" app:rsi_radius="@dimen/bas"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/e77" android:layout_width="fill_parent" android:layout_height="@dimen/cyb"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.cleanit.mainhome.holder.clean.HomeSmallCleanView android:id="@id/b4q" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.ushareit.cleanit.mainhome.holder.clean.HomeSmallCleanView2 android:id="@id/b4r" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

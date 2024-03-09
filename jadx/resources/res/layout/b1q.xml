@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dh4" style="@style/q3">
+    <LinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/bo8" style="@style/q1">
+        <TextView android:id="@+id/title_text_res_0x7f090ec1" android:text="@string/cba" style="@style/q7"/>
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/xl" android:id="@+id/cl7" android:layout_marginBottom="@dimen/bkq" android:text="@string/cb7" style="@style/pr"/>
+        <FrameLayout android:id="@+id/aqm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bld" android:layout_marginTop="@dimen/bmm">
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/bum" android:background="@drawable/cy6" android:layout_width="match_parent" android:layout_height="@dimen/bld" android:scaleType="centerCrop"/>
+            <View android:background="@drawable/cqf" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <com.ushareit.widget.RoundFrameLayout android:id="@+id/com" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bld" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" app:radius="@dimen/bl2">
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/cuo" android:scaleType="centerCrop"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cpx" android:background="@drawable/cuq" android:paddingLeft="@dimen/bm3" android:paddingRight="@dimen/bm3" android:layout_width="match_parent" android:layout_height="@dimen/bqx" android:layout_marginLeft="@dimen/bno" android:layout_marginTop="@dimen/bq4" android:layout_marginRight="@dimen/bno">
+                <com.ushareit.widget.RoundFrameLayout android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" app:radius="@dimen/bqv">
+                    <ImageView android:id="@+id/aq5" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:src="@drawable/cw_" android:scaleType="centerCrop"/>
+                </com.ushareit.widget.RoundFrameLayout>
+                <LinearLayout android:layout_gravity="start|center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/anp">
+                    <TextView android:textSize="@dimen/bsu" android:textColor="@color/a3s" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/dgg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bq1" android:singleLine="true"/>
+                    <TextView android:textSize="@dimen/bst" android:textColor="@color/a7k" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/atd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                </LinearLayout>
+                <ImageView android:layout_gravity="end|center_vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/bok" android:layout_marginLeft="@dimen/brt" android:src="@drawable/cup"/>
+            </LinearLayout>
+        </com.ushareit.widget.RoundFrameLayout>
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/bn4"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@+id/d0j" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bo8" android:text="@string/cb_" android:textAllCaps="true"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:id="@+id/d0e" android:background="@color/a5n" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bo8" android:text="@string/ar5" android:textAllCaps="true"/>
+        <Space android:layout_width="match_parent" android:layout_height="@dimen/bl2"/>
+    </LinearLayout>
+</LinearLayout>

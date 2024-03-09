@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/e77" android:background="@drawable/cc0" android:paddingLeft="@dimen/cu2" android:paddingRight="@dimen/ctv" android:layout_width="fill_parent" android:layout_height="@dimen/cyb" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.cleanit.widget.CircleProgressBar android:layout_gravity="center_vertical" android:id="@id/cyj" android:layout_width="@dimen/cww" android:layout_height="@dimen/cww" app:rt="@dimen/cua" app:rw="@dimen/cxs" app:ry="@dimen/cyr" app:rz="@dimen/czd" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cxs" android:layout_marginRight="@dimen/cxs" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/cyr" android:textColor="@color/auo" android:id="@id/c_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmw" android:singleLine="true" android:lineSpacingExtra="@dimen/cw2" />
+        <TextView android:textSize="@dimen/cys" android:textStyle="bold" android:textColor="@color/auf" android:id="@id/drv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx6" android:text="@string/bv8" android:maxLines="2" android:lineSpacingExtra="@dimen/cw2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="100">
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ushareit.login.ui.view.EmailInputBar android:id="@+id/rj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ah2" android:layout_marginTop="@dimen/ah2" android:layout_marginRight="@dimen/ah2"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/aj9" android:textColor="@color/ge" android:id="@+id/tb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ah2" android:layout_marginTop="@dimen/ad3" android:text="@string/ov" android:singleLine="true" android:layout_below="@+id/rj"/>
+            <Button android:textColor="@color/hn" android:id="@+id/r9" android:layout_marginLeft="@dimen/ah2" android:layout_marginTop="@dimen/ah7" android:layout_marginRight="@dimen/ah2" android:text="@string/ard" android:layout_below="@+id/rj" style="@style/w1"/>
+        </RelativeLayout>
+    </ScrollView>
+    <HorizontalScrollView android:id="@+id/rl" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ail">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@+id/rk" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:layout_marginLeft="@dimen/ail" android:text="@gmail.com" style="@style/e9"/>
+            <androidx.appcompat.widget.AppCompatTextView android:layout_marginLeft="@dimen/ail" android:text="@hotmail.com" style="@style/e9"/>
+            <androidx.appcompat.widget.AppCompatTextView android:layout_marginLeft="@dimen/ail" android:text="@outlook.com" style="@style/e9"/>
+            <androidx.appcompat.widget.AppCompatTextView android:layout_marginLeft="@dimen/ail" android:text="@icloud.com" style="@style/e9"/>
+            <androidx.appcompat.widget.AppCompatTextView android:layout_marginLeft="@dimen/ail" android:layout_marginRight="@dimen/ail" android:text="@yahoo.com" style="@style/e9"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </HorizontalScrollView>
+    <include layout="@layout/gx"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/ay1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c48" android:textStyle="bold" android:textColor="@color/a__" android:id="@id/e09" android:paddingLeft="@dimen/c1t" android:paddingTop="@dimen/c18" android:paddingRight="@dimen/c1t" android:paddingBottom="@dimen/c0q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b2v" android:paddingHorizontal="@dimen/c1t" app:a17="csi" app:a1c="csi" app:a1g="csi" />
+    <com.ushareit.widget.CommonContentPagesSwitchBar android:id="@id/dqi" android:paddingTop="@dimen/bs3" android:paddingBottom="@dimen/bs3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a1f="@id/e09" />
+    <Space android:id="@id/dgx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/c2m" app:a1f="@id/e09" />
+</androidx.constraintlayout.widget.ConstraintLayout>

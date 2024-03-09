@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/cuj" android:layout_width="match_parent" android:layout_height="@dimen/br5" style="@style/anb">
+        <com.ushareit.widget.RoundFrameLayout android:layout_gravity="start|center_vertical" android:layout_width="@dimen/bvg" android:layout_height="@dimen/bvg" app:radius="@dimen/brt" style="@style/anc">
+            <ImageView android:id="@+id/b2o" android:layout_width="@dimen/bvg" android:layout_height="@dimen/bvg" android:scaleType="centerCrop"/>
+        </com.ushareit.widget.RoundFrameLayout>
+        <LinearLayout android:layout_gravity="start|center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/a6s" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/bsw" android:textColor="@color/a5x" android:ellipsize="end" android:layout_gravity="start|center_vertical" android:id="@+id/dkv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/cxc" android:visibility="gone" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" style="@style/agu"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/bdr" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:src="@drawable/ct1" style="@style/agz"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/bh2" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/ct8" style="@style/agu"/>
+    </LinearLayout>
+    <View android:layout_gravity="start|bottom" android:background="@color/b0j" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginBottom="1px" style="@style/aiy"/>
+</FrameLayout>

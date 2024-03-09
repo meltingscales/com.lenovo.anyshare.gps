@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/b9k" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bp7" android:layout_marginRight="@dimen/bp7" android:layout_marginStart="@dimen/bp7" android:layout_marginEnd="@dimen/bp7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@id/d2i" android:background="@color/s3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:m4="@dimen/bkq" app:m5="@dimen/bkq" app:a_j="0.52356" app:al8="@dimen/bl2" app:al9="@dimen/bl2">
+        <ImageView android:id="@id/bcd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+        <com.san.ads.MediaView android:id="@id/bc_" android:background="@color/sh" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:visibility="gone" android:layout_width="@dimen/bnj" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/br9" android:layout_marginBottom="@dimen/br9" android:src="@drawable/agp" android:scaleType="fitXY" android:layout_marginEnd="@dimen/br9" />
+    </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    <FrameLayout android:id="@id/c89" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center" android:id="@id/ap2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/dqf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/blk" layout="@layout/vw" />
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/brt" android:layout_below="@id/dqf" android:layout_alignParentLeft="true" android:layout_marginStart="@dimen/bmf" android:layout_marginEnd="@dimen/brt" android:layout_alignParentStart="true" layout="@layout/un" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/a7j"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/a7i">
+        <include android:id="@id/cl9" layout="@layout/bf0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bnv" android:layout_marginRight="@dimen/bo8">
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/cye" android:layout_width="0.0dip" android:layout_height="@dimen/bq1" android:layout_marginRight="@dimen/bmm" android:max="100" android:secondaryProgress="0" android:progressDrawable="@drawable/dso" android:layout_weight="1.0" android:layout_marginEnd="@dimen/bmm" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textSize="@dimen/bsv" android:textColor="#ff247fff" android:layout_gravity="end|center" android:id="@id/cyf" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/cr3" style="@style/a7g">
+            <com.ushareit.widget.UpperCaseButton android:id="@id/d0e" style="@style/a7e" />
+            <com.ushareit.widget.UpperCaseButton android:id="@id/d0j" style="@style/a7f" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/c6e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsu" android:scaleType="fitCenter" android:layout_alignRight="@+id/bys"/>
+    <FrameLayout android:id="@+id/bnz" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignRight="@+id/bys"/>
+    <ImageView android:id="@+id/c6d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsr" android:scaleType="fitCenter"/>
+    <FrameLayout android:id="@+id/bny" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp"/>
+    <FrameLayout android:id="@+id/bys" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/byr" android:visibility="gone" android:layout_width="@dimen/ch4" android:layout_height="@dimen/ch4" android:layout_marginTop="@dimen/bya" android:scaleType="fitCenter"/>
+        <ViewStub android:id="@+id/cf0" android:layout="@layout/anv" android:layout_width="@dimen/ch4" android:layout_height="@dimen/ch4" android:layout_marginTop="@dimen/bya"/>
+        <ViewStub android:layout_gravity="end|bottom" android:id="@+id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgh" android:layout_height="@dimen/cgc"/>
+    </FrameLayout>
+</com.ushareit.mcds.ui.view.McdsRelativeLayout>

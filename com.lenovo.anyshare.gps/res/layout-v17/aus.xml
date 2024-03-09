@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/b9k" android:background="@color/axe" android:paddingBottom="@dimen/d1a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/csw" android:minHeight="@dimen/cy5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/d6v" android:background="@drawable/cau" android:paddingBottom="@dimen/cy4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d1k" android:layout_marginRight="@dimen/d1k">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@id/bwy" android:layout_width="@dimen/cxb" android:layout_height="@dimen/cxb" android:layout_marginLeft="@dimen/cwh" android:layout_marginRight="@dimen/ctv" android:scaleType="fitCenter" android:layout_marginStart="@dimen/cwh" android:layout_marginEnd="@dimen/ctv" app:a75="@dimen/db2" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cuh" android:layout_marginEnd="@dimen/cuh">
+            <TextView android:textSize="@dimen/cyv" android:textColor="@color/axs" android:ellipsize="end" android:gravity="start|center" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" />
+            <TextView android:textSize="@dimen/cyv" android:textColor="@color/axs" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d2k" android:maxLines="3" android:lineSpacingExtra="@dimen/d1l" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

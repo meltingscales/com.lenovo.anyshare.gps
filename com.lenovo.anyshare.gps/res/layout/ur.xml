@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d6x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/d6v" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/bl2" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_margin="5.0dip" android:src="@drawable/aiu" />
+</FrameLayout>

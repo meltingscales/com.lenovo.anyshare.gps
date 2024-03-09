@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:background="@drawable/cmo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2">
+            <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cph" android:adjustViewBounds="true"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:minHeight="@dimen/bra">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/bq1">
+                    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@+id/c7m" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:src="@drawable/cpg" app:night_bg_color_tint="@color/w4"/>
+                </FrameLayout>
+                <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:layout_marginBottom="@dimen/bmm" android:text="@string/c_9" android:layout_weight="1"/>
+                <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/a78" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dxn" android:background="@drawable/cn4" android:layout_width="@dimen/brc" android:layout_height="@dimen/bok" android:text="@string/dol" android:maxLines="1"/>
+            </LinearLayout>
+        </FrameLayout>
+        <View android:layout_gravity="bottom" android:id="@+id/e2a" android:background="@drawable/cpf" android:visibility="gone" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bla"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end" android:id="@+id/e2b" android:padding="@dimen/bq1" android:visibility="gone" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bmf" android:layout_marginTop="5dp" android:layout_marginRight="@dimen/bmm" android:src="@drawable/co7"/>
+</FrameLayout>

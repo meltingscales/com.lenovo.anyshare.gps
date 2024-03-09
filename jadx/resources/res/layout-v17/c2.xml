@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/fy" android:background="@drawable/ds" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.widget.RoundFrameLayout android:id="@+id/gx" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/au">
+        <com.ushareit.widget.AnimImageView android:id="@+id/gw" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|top" android:id="@+id/eu" android:background="@drawable/fw" android:visibility="visible" android:layout_width="@dimen/d8" android:layout_height="@dimen/d8" android:layout_margin="@dimen/fv"/>
+        <View android:layout_gravity="bottom" android:id="@+id/hy" android:background="@drawable/e7" android:layout_width="match_parent" android:layout_height="@dimen/dk" app:layout_constraintBottom_toBottomOf="@+id/gx"/>
+        <TextView android:textSize="@dimen/hn" android:textColor="@color/d7" android:layout_gravity="start|bottom" android:id="@+id/i6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fv"/>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|bottom" android:id="@+id/b5" android:layout_width="@dimen/d2" android:layout_height="@dimen/d2" android:layout_marginRight="@dimen/fi" android:layout_marginBottom="@dimen/f5" android:src="@drawable/h" android:layout_marginEnd="@dimen/fi" app:night_color_tint="@color/c1"/>
+    </com.ushareit.widget.RoundFrameLayout>
+</FrameLayout>

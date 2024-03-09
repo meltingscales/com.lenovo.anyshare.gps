@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bb6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lenovo.anyshare.main.media.widget.PinnedRecycleView android:id="@id/d2r" android:background="@color/a3s" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/dj4" layout="@layout/a_4" />
+</FrameLayout>

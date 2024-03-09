@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/b8p" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/b8s" android:background="@color/a1f" android:layout_width="fill_parent" android:layout_height="@dimen/bsg" android:layout_marginLeft="@dimen/bnb" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bnb" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do2" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/do3" android:layout_marginBottom="@dimen/br9">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center" android:id="@id/b8o" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/bq1" android:src="@drawable/dkz" app:a7_="@color/w4" />
+        <TextView android:textSize="@dimen/do4" android:textColor="@color/w4" android:layout_gravity="start|center" android:id="@id/b8l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apps" android:singleLine="true" />
+        <TextView android:textSize="@dimen/do6" android:textColor="@color/xu" android:layout_gravity="start|center" android:id="@id/b8u" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do5" android:text="(2/2)" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="start|center" android:id="@id/b8n" android:visibility="gone" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/br9" android:src="@drawable/dps" />
+    </LinearLayout>
+    <include layout="@layout/ayu" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/aal" android:layout_width="0.0dip" android:layout_height="@dimen/c35" android:layout_marginTop="@dimen/c1f" app:a0o="csi" app:a0u="csi" app:a1c="csi" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

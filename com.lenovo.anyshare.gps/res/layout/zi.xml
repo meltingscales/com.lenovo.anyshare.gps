@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ce_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cuu" android:layout_marginRight="@dimen/cuu">
+        <TextView android:textSize="@dimen/cyx" android:textColor="@color/aup" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cvc" android:layout_marginTop="@dimen/cvc" android:layout_marginRight="@dimen/cvc" android:text="@string/ai8" android:maxLines="10" />
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/axv" android:gravity="center" android:id="@id/dxm" android:background="@drawable/c81" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cvc" android:layout_marginTop="@dimen/cvc" android:layout_marginRight="@dimen/cvc" android:minHeight="@dimen/cwc" android:text="@string/ai9" />
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/auj" android:gravity="center" android:id="@id/c49" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cvc" android:layout_marginTop="@dimen/cxs" android:layout_marginRight="@dimen/cvc" android:minHeight="@dimen/cwc" android:text="@string/ai7" />
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/csw" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/c4_" android:padding="@dimen/csw" android:visibility="gone" android:layout_width="@dimen/cwc" android:layout_height="@dimen/cwc" android:layout_marginRight="@dimen/cuu" android:src="@drawable/caa" android:layout_alignParentRight="true" />
+</RelativeLayout>

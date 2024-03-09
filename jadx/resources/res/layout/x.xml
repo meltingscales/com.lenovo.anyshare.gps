@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ao" android:background="#1668d0" android:layout_width="match_parent" android:layout_height="@dimen/f3">
+    <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7d0700f1" android:background="@drawable/ar" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/gf"/>
+    <ViewStub android:layout_gravity="start|center_vertical" android:id="@+id/a8" android:layout="@layout/p" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/en"/>
+    <TextView android:textSize="@dimen/ht" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/title_text_res_0x7d070124" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fy" android:layout_marginRight="@dimen/ew" android:singleLine="true" android:drawablePadding="5dp"/>
+    <Button android:textSize="@dimen/hs" android:textColor="@color/bf" android:gravity="center" android:layout_gravity="end|center_vertical" android:id="@+id/right_button_res_0x7d0700f2" android:background="@color/dj" android:visibility="gone" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginRight="@dimen/gf"/>
+    <ViewStub android:layout_gravity="end|center_vertical" android:id="@+id/right_container_res_0x7d0700f3" android:layout="@layout/q" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginRight="@dimen/gf"/>
+</FrameLayout>

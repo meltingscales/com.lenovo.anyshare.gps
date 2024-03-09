@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bzl" android:paddingLeft="@dimen/by7" android:paddingTop="@dimen/byv" android:paddingRight="@dimen/by7" android:paddingBottom="@dimen/byv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bym" android:layout_marginRight="@dimen/bym">
+        <TextView android:textSize="@dimen/byw" android:textColor="#ff191919" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cmw" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/byq">
+            <ProgressBar android:id="@id/cug" android:layout_width="fill_parent" android:layout_height="@dimen/bq1" android:progressDrawable="@drawable/asj" android:layout_toLeftOf="@id/cuh" android:layout_centerInParent="true" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textSize="@dimen/by4" android:textColor="@color/b3t" android:gravity="end" android:id="@id/cuh" android:layout_width="@dimen/bpv" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/by4" android:textColor="@color/a69" android:layout_gravity="right" android:id="@id/cuf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/byq" android:text="@string/ar6" />
+    </LinearLayout>
+</FrameLayout>

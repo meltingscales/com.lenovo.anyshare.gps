@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/bqd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c49" android:layout_width="wrap_content" android:layout_height="@dimen/btl" android:layout_marginLeft="@dimen/brt" android:src="@drawable/ave" android:layout_centerVertical="true" android:layout_marginStart="@dimen/brt" />
+    <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bgw" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/brc" android:layout_marginEnd="@dimen/brc" />
+    <CheckBox android:id="@id/b26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bmm" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/bmm" android:layout_alignParentEnd="true" style="@style/pd" />
+</merge>

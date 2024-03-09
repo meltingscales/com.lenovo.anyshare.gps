@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/a9h"/>
+        <FrameLayout android:id="@+id/bb6" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <include layout="@layout/ac1"/>
+        <com.ushareit.filemanager.main.music.BottomPlayerView android:layout_gravity="bottom" android:id="@+id/cwf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bqq"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/awe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bqj"/>
+    <ViewStub android:id="@+id/auv" android:layout="@layout/a_t" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

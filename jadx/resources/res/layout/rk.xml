@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ako" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/ajw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ack"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.5dp">
+            <View android:id="@+id/aif" android:layout_width="match_parent" android:layout_height="94dp" android:layout_marginTop="17.5dp"/>
+            <View android:layout_gravity="bottom" android:background="@drawable/abu" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="-22dp" android:layout_marginBottom="4dp"/>
+            <View android:layout_gravity="end|bottom" android:background="@drawable/abu" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="-22dp" android:layout_marginBottom="31dp"/>
+            <com.st.entertainment.core.view.RoundStrokeImageView android:layout_gravity="center_horizontal" android:id="@+id/ajv" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="centerCrop" app:rsi_radius="8dp" app:rsi_strokeWidth="1dp"/>
+            <TextView android:textSize="13sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/ali" android:layout_width="match_parent" android:layout_height="42dp" android:layout_marginLeft="11dp" android:layout_marginRight="11dp" android:layout_marginBottom="5dp" android:maxLines="2"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

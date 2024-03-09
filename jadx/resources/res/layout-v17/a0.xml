@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/af" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx" android:layout_marginRight="@dimen/cx">
+        <TextView android:textSize="@dimen/hq" android:textColor="@color/c4" android:id="@+id/hq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df" android:layout_marginTop="@dimen/g" android:text="@string/en" android:layout_alignTop="@+id/cm" android:layout_marginStart="@dimen/g"/>
+        <ProgressBar android:id="@+id/fd" android:layout_width="match_parent" android:layout_height="@dimen/dy" android:layout_marginLeft="@dimen/df" android:layout_marginTop="@dimen/cx" android:layout_marginRight="@dimen/df" android:progressDrawable="@drawable/g4" android:layout_below="@+id/hq" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Horizontal"/>
+        <TextView android:textSize="@dimen/hq" android:textColor="@color/ce" android:id="@+id/hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ce" android:layout_marginBottom="@dimen/dk" android:layout_below="@+id/fd" android:layout_alignLeft="@+id/hq" android:layout_alignStart="@+id/hq"/>
+        <TextView android:textSize="@dimen/hs" android:textStyle="bold" android:textColor="@color/c9" android:id="@+id/hs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:text="0%" android:layout_below="@+id/fd" android:layout_alignRight="@+id/fd"/>
+        <ImageView android:id="@+id/d0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7" android:layout_marginRight="@dimen/bq" android:src="@drawable/bq" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</FrameLayout>

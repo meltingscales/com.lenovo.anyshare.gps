@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/s0" android:layout_width="match_parent" android:layout_height="@dimen/ah4">
+        <ImageView android:id="@+id/s3" android:padding="@dimen/aid" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/agj" android:layout_height="@dimen/agj" android:src="@drawable/c19" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        <EditText android:textSize="@dimen/ajc" android:textColor="@color/g1" android:textColorHint="@color/g6" android:gravity="start|center_vertical" android:id="@+id/rm" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/p_" android:lines="1" android:layout_toLeftOf="@+id/s3" android:inputType="textEmailAddress" android:textCursorDrawable="@drawable/nb">
+            <requestFocus/>
+        </EditText>
+        <View android:background="@color/g8" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignLeft="@+id/rm" android:layout_alignParentBottom="true" android:layout_alignStart="@+id/rm"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

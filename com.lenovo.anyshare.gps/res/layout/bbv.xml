@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/dkf" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" android:layout_below="@id/djg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/dk9" android:background="@drawable/dml" android:layout_width="fill_parent" android:layout_height="@dimen/bqd">
+            <TextView android:id="@id/dk8" android:text="@string/dhb" style="@style/wh" />
+            <TextView android:id="@id/dk6" android:text="@string/dh9" style="@style/apb" />
+            <TextView android:id="@id/dk5" android:layout_toLeftOf="@id/dk6" style="@style/apa" />
+            <ImageView android:id="@id/dk7" android:src="@drawable/dn2" style="@style/apc" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/dl8" android:background="@drawable/dmk" android:layout_width="fill_parent" android:layout_height="@dimen/bqd" android:layout_marginTop="@dimen/bnj">
+            <TextView android:textColor="#ffffe8c1" android:id="@id/dl7" android:text="@string/dhb" style="@style/wh" />
+            <TextView android:textColor="#ffffe8c1" android:id="@id/dl5" android:text="@string/di_" style="@style/apb" />
+            <TextView android:id="@id/dl4" android:layout_marginRight="11.0dip" android:layout_toLeftOf="@id/dl5" style="@style/apa" />
+            <ImageView android:id="@id/dl6" android:src="@drawable/dn2" style="@style/apc" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

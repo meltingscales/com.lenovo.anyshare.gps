@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/dev" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bks" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bks">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" android:text="@string/c9_" android:maxLines="1" style="@style/q7" />
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:ellipsize="end" android:id="@id/dur" android:layout_width="fill_parent" android:layout_marginTop="@dimen/blk" android:text="@string/c99" style="@style/pr" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/d7r" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/blk" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@id/dtr" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/by7" android:layout_marginRight="@dimen/by7" android:text="@string/c9a" android:maxLines="1" />
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:id="@id/dts" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/by7" android:layout_marginBottom="@dimen/brt" android:text="@string/c9c" android:maxLines="1" android:textAllCaps="true" />
+        </LinearLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center|top" android:id="@id/c49" android:padding="@dimen/bl2" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_margin="@dimen/bl2" android:src="@drawable/cn7" app:a75="@dimen/db2" />
+    </FrameLayout>
+</LinearLayout>

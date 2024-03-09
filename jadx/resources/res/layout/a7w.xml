@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/c0r" android:paddingBottom="@dimen/c3j" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/aac" android:layout_width="@dimen/c2n" android:layout_height="@dimen/c0q"/>
+    <ImageView android:layout_width="@dimen/c1d" android:layout_height="@dimen/c1m" android:layout_marginLeft="@dimen/c1d" android:src="@drawable/b5b" android:scaleType="fitXY"/>
+    <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c52" android:textStyle="bold" android:textColor="@color/a__" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2m" android:text="@string/axk"/>
+    <View android:background="@color/aac" android:layout_width="@dimen/c2n" android:layout_height="@dimen/c0q" android:layout_marginLeft="@dimen/c1d"/>
+</LinearLayout>

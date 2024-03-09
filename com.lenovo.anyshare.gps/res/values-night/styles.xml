@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a0i" parent="@style/a0g" />
+    <style name="a0j" parent="@style/a0g" />
+    <style name="a0k" parent="@style/a0p" />
+    <style name="a0l" parent="@style/a0q" />
+    <style name="a0m" parent="@style/a0r" />
+    <style name="a0n" parent="@style/a0s" />
+    <style name="a0o" parent="@style/a11" />
+    <style name="a1v" parent="@style/a1o" />
+    <style name="a1w" parent="@style/a1p" />
+    <style name="a1x" parent="@style/a1q" />
+    <style name="a1y" parent="@style/a1r" />
+    <style name="a1z" parent="@style/a1s" />
+    <style name="a20" parent="@style/a1t" />
+    <style name="a21" parent="@style/a1u" />
+    <style name="a23" parent="@style/a22" />
+    <style name="a2f" parent="@style/a2b" />
+    <style name="a2g" parent="@style/a2c" />
+    <style name="a2h" parent="@style/a2d" />
+    <style name="a2i" parent="@style/a2b" />
+    <style name="a2j" parent="@style/a2d" />
+    <style name="a2k" parent="@style/a2v" />
+    <style name="a2l" parent="@style/a2w" />
+    <style name="a2m" parent="@style/a2x" />
+    <style name="a2n" parent="@style/a2y" />
+    <style name="a2o" parent="@style/a2z" />
+    <style name="a2p" parent="@style/a30" />
+    <style name="a2q" parent="@style/a31" />
+    <style name="a2r" parent="@style/a32" />
+    <style name="a2s" parent="@style/a33" />
+    <style name="a2t" parent="@style/a3l" />
+    <style name="a2u" parent="@style/a3m" />
+    <style name="a3v" parent="@style/a3t" />
+    <style name="a4n" parent="@style/a4m" />
+    <style name="acq" parent="@style/acs" />
+    <style name="acv" parent="@style/acw" />
+    <style name="ad4" parent="@style/ad2" />
+    <style name="ad7" parent="@style/ad5" />
+    <style name="aex" parent="@style/aet" />
+    <style name="afa" parent="@style/af9" />
+    <style name="ag0" parent="@style/ag1" />
+</resources>

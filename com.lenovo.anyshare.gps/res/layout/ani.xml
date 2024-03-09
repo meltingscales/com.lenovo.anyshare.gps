@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.RatioByWidthLottieAnimationView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/at9" android:scaleType="fitCenter" android:adjustViewBounds="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

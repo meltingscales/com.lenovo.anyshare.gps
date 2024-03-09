@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/yl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7" android:minHeight="@dimen/aon">
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/z_" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/yq" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/yy" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/zl" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/yu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/yb" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/z7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/atd" android:textColor="@color/ij" android:gravity="center" android:id="@+id/z0" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

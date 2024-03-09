@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/bgc" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:layout_marginRight="@dimen/c35">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@id/bgm" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:src="@drawable/b16" android:scaleType="centerInside" app:a7_="@color/a__" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c4f" android:textColor="@color/ac_" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/bgr" android:background="@drawable/b7m" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2b" android:layout_marginRight="@dimen/c2b" android:minWidth="@dimen/c18" android:minHeight="@dimen/c18" app:a7_="@color/a__" app:a7i="@color/a__" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/bvb" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:layout_marginRight="@dimen/brt">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bkq" android:layout_marginRight="@dimen/br9" android:src="@drawable/ayq" android:scaleType="centerInside" app:a7_="@color/a__" />
+        <TextView android:textSize="@dimen/c4f" android:textColor="@color/ac_" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/bv_" android:background="@drawable/b7m" android:visibility="gone" android:layout_width="@dimen/brt" android:layout_height="@dimen/brt" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/c3c" app:a7_="@color/a__" app:a7i="@color/a__" />
+    </FrameLayout>
+</LinearLayout>

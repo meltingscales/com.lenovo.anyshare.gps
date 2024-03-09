@@ -1,0 +1,2384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="h8">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">end|center</item>
+        <item name="android:layout_width">@dimen/bsr</item>
+        <item name="android:layout_height">@dimen/bsr</item>
+        <item name="android:layout_marginRight">@dimen/bsq</item>
+        <item name="android:src">@drawable/ata</item>
+        <item name="android:layout_marginEnd">@dimen/bsq</item>
+    </style>
+    <style name="ha">
+        <item name="android:padding">@dimen/bq1</item>
+        <item name="android:layout_width">@dimen/bo8</item>
+        <item name="android:layout_height">@dimen/bo8</item>
+        <item name="android:layout_marginTop">@dimen/bm3</item>
+        <item name="android:layout_marginRight">@dimen/bo8</item>
+        <item name="android:src">@drawable/aum</item>
+        <item name="android:layout_marginEnd">@dimen/bo8</item>
+    </style>
+    <style name="hb">
+        <item name="android:textSize">@dimen/bsz</item>
+        <item name="android:textColor">@color/w4</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/bqj</item>
+        <item name="android:layout_marginTop">@dimen/bm3</item>
+        <item name="android:layout_marginStart">@dimen/bqj</item>
+    </style>
+    <style name="hs" parent="@style/a34">
+        <item name="android:textViewStyle">@style/a0e</item>
+        <item name="tz">@style/EditTextStyle.Alignment</item>
+    </style>
+    <style name="hw">
+        <item name="android:padding">@dimen/bqf</item>
+        <item name="android:layout_width">@dimen/bpz</item>
+        <item name="android:layout_height">@dimen/bpz</item>
+        <item name="android:layout_marginRight">@dimen/bnj</item>
+        <item name="android:layout_marginEnd">@dimen/bnj</item>
+    </style>
+    <style name="hx">
+        <item name="android:padding">@dimen/br9</item>
+        <item name="android:layout_width">@dimen/bq7</item>
+        <item name="android:layout_height">@dimen/bq7</item>
+        <item name="android:layout_marginRight">@dimen/bkq</item>
+        <item name="android:layout_marginEnd">@dimen/bkq</item>
+    </style>
+    <style name="hy">
+        <item name="android:padding">@dimen/bl2</item>
+        <item name="android:layout_width">@dimen/bqj</item>
+        <item name="android:layout_height">@dimen/bqj</item>
+        <item name="android:layout_marginLeft">@dimen/br9</item>
+        <item name="android:layout_marginRight">@dimen/br9</item>
+        <item name="android:layout_marginStart">@dimen/br9</item>
+        <item name="android:layout_marginEnd">@dimen/br9</item>
+    </style>
+    <style name="lo" parent="@style/a3y">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/adm</item>
+        <item name="ju">@style/rq</item>
+        <item name="mi">@style/ade</item>
+        <item name="mj">@style/ade</item>
+        <item name="mk">@style/adf</item>
+        <item name="ml">@style/ade</item>
+        <item name="a3y">@style/rr</item>
+        <item name="a3z">@integer/au</item>
+    </style>
+    <style name="mj" parent="@android:style/Widget">
+        <item name="android:paddingLeft">@dimen/bds</item>
+        <item name="android:paddingRight">@dimen/bdr</item>
+        <item name="android:minHeight">?ic</item>
+        <item name="android:paddingStart">@dimen/bds</item>
+        <item name="android:paddingEnd">@dimen/bdr</item>
+        <item name="mo">dr8</item>
+        <item name="oy">@string/acg</item>
+        <item name="oz">?xl</item>
+        <item name="qq">16.0dip</item>
+        <item name="qr">@dimen/bdp</item>
+        <item name="a51">@dimen/bdq</item>
+        <item name="agi">@style/a0c</item>
+        <item name="akb">4.0dip</item>
+        <item name="aki">@style/a0d</item>
+    </style>
+    <style name="ms">
+        <item name="android:paddingLeft">@dimen/bds</item>
+        <item name="android:paddingRight">@dimen/bdr</item>
+        <item name="android:minHeight">?ic</item>
+        <item name="android:paddingStart">@dimen/bds</item>
+        <item name="android:paddingEnd">@dimen/bdr</item>
+        <item name="ko">?ip</item>
+        <item name="kv">?j0</item>
+        <item name="mo">dr8</item>
+        <item name="ow">@layout/s1</item>
+        <item name="qq">16.0dip</item>
+        <item name="qr">@dimen/bdp</item>
+        <item name="x8">?ic</item>
+        <item name="a51">@dimen/bdq</item>
+        <item name="agk">@style/xy</item>
+        <item name="akb">4.0dip</item>
+        <item name="akk">@style/y0</item>
+    </style>
+    <style name="oe" parent="@style/od">
+        <item name="android:paddingLeft">@dimen/cba</item>
+        <item name="android:paddingTop">@dimen/cbb</item>
+        <item name="android:paddingRight">@dimen/cb8</item>
+        <item name="android:paddingBottom">@dimen/cb7</item>
+        <item name="android:paddingStart">@dimen/cba</item>
+        <item name="android:paddingEnd">@dimen/cb8</item>
+        <item name="xt">@dimen/cb9</item>
+    </style>
+    <style name="on" parent="@style/a7z">
+        <item name="android:textAppearance">?aiu</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">17.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">17.0dip</item>
+        <item name="android:dropDownVerticalOffset">@dimen/d8f</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="ud">true</item>
+        <item name="ue">true</item>
+    </style>
+    <style name="oy" parent="@style/a9z">
+        <item name="android:textAppearance">?aiu</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">17.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">17.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="ud">true</item>
+        <item name="ue">true</item>
+        <item name="aj6">true</item>
+    </style>
+    <style name="pj">
+        <item name="android:textSize">@dimen/by4</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/aes</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bem</item>
+        <item name="android:paddingLeft">@dimen/by3</item>
+        <item name="android:paddingRight">@dimen/by3</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bxx</item>
+        <item name="android:layout_marginRight">@dimen/bxy</item>
+        <item name="android:minWidth">@dimen/by2</item>
+        <item name="android:text">@string/ar6</item>
+        <item name="android:layout_marginEnd">@dimen/bxy</item>
+    </style>
+    <style name="pl">
+        <item name="android:gravity">end</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/by1</item>
+        <item name="android:layout_marginRight">@dimen/by0</item>
+        <item name="android:layout_marginBottom">@dimen/bxz</item>
+        <item name="android:layout_marginEnd">@dimen/by0</item>
+    </style>
+    <style name="po">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/by7</item>
+        <item name="android:layout_marginTop">@dimen/bmm</item>
+        <item name="android:layout_marginRight">@dimen/by7</item>
+        <item name="android:layout_marginStart">@dimen/by7</item>
+        <item name="android:layout_marginEnd">@dimen/by7</item>
+    </style>
+    <style name="pp">
+        <item name="android:textColor">#ff757575</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">@dimen/by6</item>
+        <item name="android:layout_height">@dimen/by6</item>
+        <item name="android:layout_marginRight">@dimen/by5</item>
+        <item name="android:src">@drawable/bdn</item>
+        <item name="android:layout_marginEnd">@dimen/by5</item>
+    </style>
+    <style name="pu">
+        <item name="android:padding">@dimen/bq1</item>
+        <item name="android:layout_width">@dimen/bo8</item>
+        <item name="android:layout_height">@dimen/bo8</item>
+        <item name="android:layout_marginTop">@dimen/bm3</item>
+        <item name="android:layout_marginRight">@dimen/bo8</item>
+        <item name="android:src">@drawable/bdi</item>
+        <item name="android:layout_marginEnd">@dimen/bo8</item>
+    </style>
+    <style name="pv">
+        <item name="android:padding">@dimen/bq1</item>
+        <item name="android:layout_width">@dimen/bqd</item>
+        <item name="android:layout_height">@dimen/bqd</item>
+        <item name="android:layout_marginRight">@dimen/bo8</item>
+        <item name="android:layout_marginEnd">@dimen/bo8</item>
+    </style>
+    <style name="px">
+        <item name="android:textSize">@dimen/byr</item>
+        <item name="android:textColor">@color/w4</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/bqj</item>
+        <item name="android:layout_marginTop">@dimen/bm3</item>
+        <item name="android:layout_marginStart">@dimen/bqj</item>
+    </style>
+    <style name="q8">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/by7</item>
+        <item name="android:layout_marginTop">@dimen/bmm</item>
+        <item name="android:layout_marginRight">@dimen/by7</item>
+        <item name="android:layout_marginStart">@dimen/by7</item>
+        <item name="android:layout_marginEnd">@dimen/by7</item>
+    </style>
+    <style name="qm" parent="@android:style/Widget.SeekBar">
+        <item name="android:paddingLeft">@dimen/blk</item>
+        <item name="android:paddingRight">@dimen/blk</item>
+        <item name="android:layout_marginLeft">@dimen/bqv</item>
+        <item name="android:maxHeight">@dimen/bqf</item>
+        <item name="android:progressDrawable">@drawable/crb</item>
+        <item name="android:minHeight">@dimen/bqf</item>
+        <item name="android:thumb">@drawable/crc</item>
+        <item name="android:layout_marginStart">@dimen/bqv</item>
+    </style>
+    <style name="qp">
+        <item name="android:textSize">@dimen/bsx</item>
+        <item name="android:textColor">@color/bh5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bik</item>
+        <item name="android:paddingLeft">@dimen/bmm</item>
+        <item name="android:paddingTop">@dimen/brl</item>
+        <item name="android:paddingRight">@dimen/bmm</item>
+        <item name="android:paddingBottom">@dimen/brl</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/bmm</item>
+        <item name="android:layout_marginBottom">@dimen/bmm</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingStart">@dimen/bmm</item>
+        <item name="android:paddingEnd">@dimen/bmm</item>
+    </style>
+    <style name="r6" parent="@style/r3">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:layout_width">@dimen/bvg</item>
+        <item name="android:layout_height">@dimen/bvg</item>
+        <item name="android:layout_marginLeft">@dimen/bvh</item>
+        <item name="android:layout_marginTop">@dimen/bvi</item>
+        <item name="android:layout_marginRight">@dimen/bvh</item>
+        <item name="android:layout_marginBottom">@dimen/bvi</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginStart">@dimen/bvh</item>
+        <item name="android:layout_marginEnd">@dimen/bvh</item>
+    </style>
+    <style name="r_">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">end|center</item>
+        <item name="android:background">@drawable/ata</item>
+        <item name="android:layout_width">@dimen/bsr</item>
+        <item name="android:layout_height">@dimen/bsr</item>
+        <item name="android:layout_marginRight">@dimen/bsq</item>
+        <item name="android:layout_marginEnd">@dimen/bsq</item>
+    </style>
+    <style name="rg" parent="@style/rf">
+        <item name="android:background">@drawable/c1f</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">@dimen/cf2</item>
+        <item name="android:layout_height">@dimen/cf1</item>
+        <item name="android:layout_marginLeft">@dimen/bow</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginStart">@dimen/bow</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="rj" parent="@style/ri">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="rk" parent="@style/ru">
+        <item name="android:theme">@style/a5b</item>
+        <item name="android:layout_width">@dimen/c_c</item>
+        <item name="android:layout_height">@dimen/c_c</item>
+        <item name="android:layout_marginRight">@dimen/c_b</item>
+        <item name="android:layout_marginEnd">@dimen/c_b</item>
+    </style>
+    <style name="rl" parent="@style/rk">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginBottom">@dimen/c_b</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="rp" parent="@style/ro">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="ru" parent="@style/i7">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+    <style name="ry" parent="@style/i9">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="rz" parent="@style/i9">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="s1" parent="@style/s0">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/aso</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cry</item>
+        <item name="android:layout_marginTop">@dimen/crz</item>
+        <item name="android:layout_marginRight">@dimen/cry</item>
+        <item name="android:layout_marginStart">@dimen/cry</item>
+        <item name="android:layout_marginEnd">@dimen/cry</item>
+    </style>
+    <style name="s2" parent="@style/s0">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cs0</item>
+        <item name="android:layout_marginRight">@dimen/cs0</item>
+        <item name="android:layout_marginStart">@dimen/cs0</item>
+        <item name="android:layout_marginEnd">@dimen/cs0</item>
+    </style>
+    <style name="s4" parent="@style/s0">
+        <item name="android:textSize">@dimen/cs7</item>
+        <item name="android:textColor">#ff757575</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cs0</item>
+        <item name="android:layout_marginRight">@dimen/cs0</item>
+        <item name="android:layout_marginStart">@dimen/cs0</item>
+        <item name="android:layout_marginEnd">@dimen/cs0</item>
+    </style>
+    <style name="s5" parent="@style/s0">
+        <item name="android:textSize">@dimen/cs9</item>
+        <item name="android:textColor">#ff191919</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cs8</item>
+        <item name="android:layout_marginLeft">@dimen/cs0</item>
+        <item name="android:layout_marginRight">@dimen/cs0</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/cs0</item>
+        <item name="android:layout_marginEnd">@dimen/cs0</item>
+    </style>
+    <style name="s9">
+        <item name="android:layout_toLeftOf">@id/dla</item>
+        <item name="android:layout_toStartOf">@id/dla</item>
+    </style>
+    <style name="sb" parent="@style/sa">
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:layout_width">@dimen/cey</item>
+        <item name="android:layout_height">@dimen/cew</item>
+        <item name="android:layout_marginLeft">@dimen/cex</item>
+        <item name="android:layout_marginStart">@dimen/cex</item>
+    </style>
+    <style name="sc" parent="@style/sa">
+        <item name="android:textSize">@dimen/cf0</item>
+        <item name="android:textColor">#ff4d4d4d</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/cez</item>
+        <item name="android:layout_marginLeft">@dimen/bqj</item>
+        <item name="android:layout_marginRight">@dimen/bqj</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:layout_marginStart">@dimen/bqj</item>
+        <item name="android:layout_marginEnd">@dimen/bqj</item>
+    </style>
+    <style name="sk">
+        <item name="android:textSize">@dimen/bsw</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">end|center</item>
+        <item name="android:paddingLeft">@dimen/blk</item>
+        <item name="android:paddingRight">@dimen/blk</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bp7</item>
+        <item name="android:minWidth">@dimen/bra</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="so">
+        <item name="android:layout_marginBottom">@dimen/bo3</item>
+        <item name="android:layout_marginStart">@dimen/bno</item>
+    </style>
+    <style name="sp">
+        <item name="android:layout_marginBottom">@dimen/bmf</item>
+        <item name="android:layout_marginStart">@dimen/blk</item>
+    </style>
+    <style name="t0" parent="@android:style/Theme.Holo">
+        <item name="android:colorForeground">@color/aff</item>
+        <item name="android:colorBackground">@color/th</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/beq</item>
+        <item name="android:textAppearance">@style/x1</item>
+        <item name="android:textAppearanceInverse">@style/xa</item>
+        <item name="android:textColorPrimary">@color/r5</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/r3</item>
+        <item name="android:textColorSecondary">@color/ra</item>
+        <item name="android:textColorPrimaryInverse">@color/r6</item>
+        <item name="android:textColorSecondaryInverse">@color/rb</item>
+        <item name="android:textColorHintInverse">@color/r2</item>
+        <item name="android:textAppearanceLarge">@style/xb</item>
+        <item name="android:textAppearanceMedium">@style/xh</item>
+        <item name="android:textAppearanceSmall">@style/xm</item>
+        <item name="android:textAppearanceLargeInverse">@style/xc</item>
+        <item name="android:textAppearanceMediumInverse">@style/xi</item>
+        <item name="android:textAppearanceSmallInverse">@style/xn</item>
+        <item name="android:listPreferredItemHeight">@dimen/bf0</item>
+        <item name="android:windowBackground">@color/th</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">@color/afl</item>
+        <item name="android:textColorHint">@color/r1</item>
+        <item name="android:textColorLink">?pb</item>
+        <item name="android:colorForegroundInverse">@color/afg</item>
+        <item name="android:textColorTertiary">@color/ra</item>
+        <item name="android:textColorTertiaryInverse">@color/rb</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/ad_</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/ad4</item>
+        <item name="android:colorBackgroundCacheHint">@color/qu</item>
+        <item name="android:textSelectHandleLeft">@drawable/aex</item>
+        <item name="android:textSelectHandleRight">@drawable/aez</item>
+        <item name="android:textSelectHandle">@drawable/aey</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorAlertDialogListItem">@color/r5</item>
+        <item name="android:actionModeCutDrawable">?iu</item>
+        <item name="android:actionModeCopyDrawable">?it</item>
+        <item name="android:actionModePasteDrawable">?iw</item>
+        <item name="android:borderlessButtonStyle">?lw</item>
+        <item name="android:buttonBarStyle">?mm</item>
+        <item name="android:buttonBarButtonStyle">?mi</item>
+        <item name="android:textColorHighlightInverse">@color/afm</item>
+        <item name="android:textColorLinkInverse">?pb</item>
+        <item name="android:actionModeSelectAllDrawable">?iy</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/bez</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/bf1</item>
+        <item name="android:textAppearanceListItem">@style/xo</item>
+        <item name="android:textAppearanceListItemSmall">@style/xo</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/bf2</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/bf2</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/bf2</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/bf2</item>
+        <item name="a2s">@drawable/ad5</item>
+        <item name="a2t">@drawable/ada</item>
+    </style>
+    <style name="t1" parent="@android:style/Theme.Holo.Light">
+        <item name="android:colorForeground">@color/afg</item>
+        <item name="android:colorBackground">@color/ti</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/ber</item>
+        <item name="android:textAppearance">@style/x1</item>
+        <item name="android:textAppearanceInverse">@style/xa</item>
+        <item name="android:textColorPrimary">@color/r6</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/r4</item>
+        <item name="android:textColorSecondary">@color/rb</item>
+        <item name="android:textColorPrimaryInverse">@color/r5</item>
+        <item name="android:textColorSecondaryInverse">@color/ra</item>
+        <item name="android:textColorHintInverse">@color/r1</item>
+        <item name="android:textAppearanceLarge">@style/xb</item>
+        <item name="android:textAppearanceMedium">@style/xh</item>
+        <item name="android:textAppearanceSmall">@style/xm</item>
+        <item name="android:textAppearanceLargeInverse">@style/xc</item>
+        <item name="android:textAppearanceMediumInverse">@style/xi</item>
+        <item name="android:textAppearanceSmallInverse">@style/xn</item>
+        <item name="android:listPreferredItemHeight">@dimen/bf0</item>
+        <item name="android:windowBackground">@color/ti</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">@color/afm</item>
+        <item name="android:textColorHint">@color/r2</item>
+        <item name="android:textColorLink">?pb</item>
+        <item name="android:colorForegroundInverse">@color/aff</item>
+        <item name="android:textColorTertiary">@color/rb</item>
+        <item name="android:textColorTertiaryInverse">@color/ra</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/ad_</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/ad4</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/r3</item>
+        <item name="android:colorBackgroundCacheHint">@color/qv</item>
+        <item name="android:textSelectHandleLeft">@drawable/aex</item>
+        <item name="android:textSelectHandleRight">@drawable/aez</item>
+        <item name="android:textSelectHandle">@drawable/aey</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorAlertDialogListItem">@color/r6</item>
+        <item name="android:actionModeCutDrawable">?iu</item>
+        <item name="android:actionModeCopyDrawable">?it</item>
+        <item name="android:actionModePasteDrawable">?iw</item>
+        <item name="android:borderlessButtonStyle">?lw</item>
+        <item name="android:buttonBarStyle">?mm</item>
+        <item name="android:buttonBarButtonStyle">?mi</item>
+        <item name="android:textColorHighlightInverse">@color/afl</item>
+        <item name="android:textColorLinkInverse">?pb</item>
+        <item name="android:actionModeSelectAllDrawable">?iy</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/bez</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/bf1</item>
+        <item name="android:textAppearanceListItem">@style/xo</item>
+        <item name="android:textAppearanceListItemSmall">@style/xo</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/bf2</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/bf2</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/bf2</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/bf2</item>
+        <item name="a2s">@drawable/ad5</item>
+        <item name="a2t">@drawable/ada</item>
+    </style>
+    <style name="tj" parent="@style/i5">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="tk" parent="@android:style/Widget">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="tl" parent="@android:style/Widget">
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+    <style name="tm" parent="@android:style/Widget">
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="tn" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="to" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="tp" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">8.0dip</item>
+    </style>
+    <style name="tq" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="tr" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="ts" parent="@android:style/Widget">
+        <item name="android:paddingStart">@dimen/bet</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="tt" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="tu" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/bhl</item>
+    </style>
+    <style name="tv" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="tw" parent="@style/n8">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="tx" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">@dimen/bet</item>
+    </style>
+    <style name="ty" parent="@android:style/Widget">
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="tz" parent="@style/mp">
+        <item name="android:paddingStart">@dimen/bdw</item>
+        <item name="android:paddingEnd">@dimen/bdv</item>
+    </style>
+    <style name="w2" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/bsz</item>
+        <item name="android:textColor">@color/bg8</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dsu</item>
+        <item name="android:paddingTop">@dimen/bmf</item>
+        <item name="android:paddingBottom">@dimen/bmf</item>
+        <item name="android:paddingStart">@dimen/dsu</item>
+    </style>
+    <style name="w3" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/bsz</item>
+        <item name="android:textColor">@color/bg8</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dsu</item>
+        <item name="android:paddingTop">@dimen/blk</item>
+        <item name="android:paddingBottom">@dimen/blk</item>
+        <item name="android:paddingStart">@dimen/dsu</item>
+    </style>
+    <style name="w6" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/bsz</item>
+        <item name="android:textColor">@color/bgh</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dsu</item>
+        <item name="android:paddingTop">@dimen/blk</item>
+        <item name="android:paddingBottom">@dimen/blk</item>
+        <item name="android:paddingStart">@dimen/dsu</item>
+    </style>
+    <style name="w7">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bgg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/bgf</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/br7</item>
+        <item name="android:layout_marginLeft">@dimen/blk</item>
+        <item name="android:layout_marginRight">@dimen/blk</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:layout_marginStart">@dimen/blk</item>
+        <item name="android:layout_marginEnd">@dimen/blk</item>
+    </style>
+    <style name="w8">
+        <item name="android:textSize">@dimen/bl2</item>
+        <item name="android:textColor">@color/bgg</item>
+        <item name="android:paddingRight">@dimen/brl</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/brl</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:paddingEnd">@dimen/brl</item>
+        <item name="android:layout_marginStart">@dimen/brl</item>
+    </style>
+    <style name="w9">
+        <item name="android:textSize">@dimen/bl2</item>
+        <item name="android:textColor">@color/bgg</item>
+        <item name="android:paddingRight">@dimen/brl</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/brl</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:paddingEnd">@dimen/brl</item>
+        <item name="android:layout_marginStart">@dimen/brl</item>
+    </style>
+    <style name="wa">
+        <item name="android:layout_width">@dimen/bpv</item>
+        <item name="android:layout_height">@dimen/bpv</item>
+        <item name="android:layout_marginLeft">@dimen/bm3</item>
+        <item name="android:layout_marginStart">@dimen/bm3</item>
+    </style>
+    <style name="we" parent="@style/w9">
+        <item name="android:textSize">@dimen/btj</item>
+        <item name="android:textColor">#ff6b3f00</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/bi0</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">@dimen/bla</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+    </style>
+    <style name="wh">
+        <item name="android:textSize">@dimen/bsx</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bgk</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/bnj</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/bnj</item>
+    </style>
+    <style name="wj" parent="@style/w8">
+        <item name="android:textSize">@dimen/btj</item>
+        <item name="android:textColor">#ff6b3f00</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/bi0</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">@dimen/bla</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+    </style>
+    <style name="a4x" parent="@style/a5w">
+        <item name="android:checkedTextViewStyle">@style/a_w</item>
+        <item name="ju">@style/rh</item>
+        <item name="mi">@style/a_l</item>
+        <item name="mj">@style/a_l</item>
+        <item name="mk">@style/a_m</item>
+        <item name="ml">@style/a_l</item>
+        <item name="a3y">@style/ri</item>
+        <item name="a41">@style/rk</item>
+        <item name="a42">@style/rm</item>
+        <item name="a43">@style/ro</item>
+    </style>
+    <style name="a6k" parent="@style/a6h">
+        <item name="android:textSize">@dimen/bsv</item>
+        <item name="android:textColor">@color/bj1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">11.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:minWidth">@dimen/bn4</item>
+        <item name="android:minHeight">@dimen/bn4</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">11.0dip</item>
+    </style>
+    <style name="a6l" parent="@style/a6h">
+        <item name="android:textSize">@dimen/btj</item>
+        <item name="android:textColor">@color/bj1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">@dimen/bpb</item>
+        <item name="android:layout_height">@dimen/bm3</item>
+        <item name="android:layout_marginLeft">@dimen/bmm</item>
+        <item name="android:layout_marginBottom">@dimen/bm3</item>
+        <item name="android:text">@string/atp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/bmm</item>
+    </style>
+    <style name="a6o" parent="@style/a6n">
+        <item name="android:textSize">@dimen/bsw</item>
+        <item name="android:textColor">@color/a76</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/ary</item>
+        <item name="android:paddingLeft">@dimen/brt</item>
+        <item name="android:paddingRight">@dimen/brt</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bok</item>
+        <item name="android:minWidth">@dimen/bri</item>
+        <item name="android:lines">1</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="a72" parent="@style/a71">
+        <item name="android:textSize">@dimen/bsz</item>
+        <item name="android:textColor">@color/ag6</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/dg3</item>
+        <item name="android:layout_width">@dimen/brb</item>
+        <item name="android:layout_height">@dimen/bpv</item>
+        <item name="android:layout_marginLeft">@dimen/brt</item>
+        <item name="android:layout_marginTop">@dimen/bmm</item>
+        <item name="android:layout_marginRight">@dimen/brt</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_marginStart">@dimen/brt</item>
+        <item name="android:layout_marginEnd">@dimen/brt</item>
+    </style>
+    <style name="a74" parent="@style/a73">
+        <item name="android:textSize">@dimen/bfx</item>
+        <item name="android:textColor">#ff191919</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/btl</item>
+        <item name="android:layout_marginLeft">@dimen/bfv</item>
+        <item name="android:layout_marginRight">@dimen/bfw</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/bfv</item>
+        <item name="android:layout_marginEnd">@dimen/bfw</item>
+    </style>
+    <style name="a75" parent="@style/a73">
+        <item name="android:textSize">@dimen/bg0</item>
+        <item name="android:textColor">#ff191919</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/btl</item>
+        <item name="android:layout_marginLeft">@dimen/bfy</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">@dimen/bfy</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="a78" parent="@style/a77">
+        <item name="android:textColor">@color/ag4</item>
+        <item name="android:layout_marginLeft">@dimen/djz</item>
+        <item name="android:layout_marginStart">@dimen/djz</item>
+    </style>
+    <style name="a7_" parent="@style/a73">
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/djw</item>
+        <item name="android:paddingBottom">@dimen/djw</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/bmm</item>
+        <item name="android:layout_marginRight">@dimen/dk3</item>
+        <item name="android:minHeight">@dimen/dju</item>
+        <item name="android:layout_marginStart">@dimen/bmm</item>
+        <item name="android:layout_marginEnd">@dimen/dk3</item>
+    </style>
+    <style name="a7d" parent="@style/a7c">
+        <item name="android:textSize">@dimen/dgw</item>
+        <item name="android:textColor">@color/b3m</item>
+        <item name="android:gravity">start</item>
+        <item name="android:paddingTop">@dimen/dgd</item>
+        <item name="android:paddingBottom">@dimen/dgd</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/by7</item>
+        <item name="android:layout_marginRight">@dimen/by7</item>
+        <item name="android:layout_marginStart">@dimen/by7</item>
+        <item name="android:layout_marginEnd">@dimen/by7</item>
+    </style>
+    <style name="a7k">
+        <item name="android:textSize">@dimen/byr</item>
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:background">@drawable/bdi</item>
+        <item name="android:paddingLeft">@dimen/byt</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/bys</item>
+        <item name="android:paddingStart">@dimen/byt</item>
+    </style>
+    <style name="a_l" parent="@style/a_k">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginLeft">@dimen/ca4</item>
+        <item name="android:minWidth">@dimen/ca3</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/ca4</item>
+    </style>
+    <style name="a_m" parent="@style/a_l">
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+    </style>
+    <style name="abt" parent="@style/acb">
+        <item name="android:textAppearance">?aif</item>
+        <item name="android:textSize">56.0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:minEms">2</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="ade" parent="@style/add">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginLeft">@dimen/d6y</item>
+        <item name="android:minWidth">@dimen/d6f</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/d6y</item>
+    </style>
+    <style name="adf" parent="@style/ade">
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+    </style>
+    <style name="ae0" parent="@style/ad_">
+        <item name="android:textColor">@color/azg</item>
+        <item name="android:paddingLeft">@dimen/d8s</item>
+        <item name="android:paddingTop">@dimen/d8u</item>
+        <item name="android:paddingRight">@dimen/d8m</item>
+        <item name="android:paddingBottom">@dimen/d8h</item>
+        <item name="android:minWidth">@dimen/d8r</item>
+        <item name="android:minHeight">@dimen/d8q</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:insetTop">0.0dip</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="android:paddingStart">@dimen/d8s</item>
+        <item name="android:paddingEnd">@dimen/d8m</item>
+        <item name="kx">@color/azf</item>
+        <item name="p1">@dimen/bx5</item>
+        <item name="u0">@dimen/d8l</item>
+        <item name="xt">@dimen/d8p</item>
+        <item name="xu">@dimen/d8o</item>
+        <item name="xw">@color/azg</item>
+        <item name="aa7">@color/azh</item>
+        <item name="aay">@style/vm</item>
+    </style>
+    <style name="ae1" parent="@style/ae0">
+        <item name="android:gravity">start|center</item>
+        <item name="android:paddingLeft">@dimen/d8t</item>
+        <item name="android:paddingRight">@dimen/d8n</item>
+        <item name="android:paddingStart">@dimen/d8t</item>
+        <item name="android:paddingEnd">@dimen/d8n</item>
+    </style>
+    <style name="af8" parent="@style/a9k">
+        <item name="android:textAppearance">?ai0</item>
+        <item name="android:textColor">?q9</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingTop">@dimen/bxo</item>
+        <item name="android:paddingBottom">@dimen/bxo</item>
+        <item name="android:layout_marginLeft">@dimen/d_m</item>
+        <item name="android:layout_marginRight">@dimen/d_m</item>
+        <item name="android:maxLines">@integer/k</item>
+        <item name="android:alpha">@dimen/cfp</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="afp" parent="@style/adb">
+        <item name="android:textAppearance">?aiv</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:insetTop">0.0dip</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="android:textAlignment">center</item>
+        <item name="kx">@color/asx</item>
+        <item name="ag8">@color/asy</item>
+        <item name="ag9">@dimen/d6w</item>
+    </style>
+    <style name="afr" parent="@style/ado">
+        <item name="android:textAppearance">?aia</item>
+        <item name="android:textSize">56.0dip</item>
+        <item name="android:textAlignment">center</item>
+        <item name="uf">false</item>
+        <item name="a4u">@style/a6a</item>
+        <item name="aay">?aax</item>
+    </style>
+    <style name="afu" parent="@style/afd">
+        <item name="android:textAppearance">?aia</item>
+        <item name="android:textSize">56.0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:minEms">2</item>
+        <item name="android:maxLength">2</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="ag4" parent="@style/r_">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="ag5" parent="@style/ra">
+        <item name="android:layout_marginLeft">@dimen/bmm</item>
+        <item name="android:layout_marginRight">@dimen/bpy</item>
+        <item name="android:layout_toRightOf">@id/dpx</item>
+        <item name="android:layout_marginStart">@dimen/bmm</item>
+        <item name="android:layout_marginEnd">@dimen/bpy</item>
+        <item name="android:layout_toEndOf">@id/dpx</item>
+    </style>
+    <style name="ag6" parent="@style/ags">
+        <item name="android:layout_marginRight">@dimen/bh6</item>
+        <item name="android:layout_marginEnd">@dimen/bh6</item>
+    </style>
+    <style name="ag7" parent="@style/agr">
+        <item name="android:layout_marginLeft">@dimen/bh_</item>
+        <item name="android:layout_marginStart">@dimen/bh_</item>
+    </style>
+    <style name="ag9">
+        <item name="android:layout_marginRight">@dimen/blv</item>
+        <item name="android:layout_marginEnd">@dimen/blv</item>
+    </style>
+    <style name="agc" parent="@style/r5">
+        <item name="android:layout_marginLeft">@dimen/bqf</item>
+        <item name="android:layout_marginStart">@dimen/bqf</item>
+    </style>
+    <style name="agd">
+        <item name="android:layout_toRightOf">@id/bwy</item>
+        <item name="android:layout_alignLeft">@id/bwy</item>
+        <item name="android:layout_toEndOf">@id/bwy</item>
+        <item name="android:layout_alignStart">@id/bwy</item>
+    </style>
+    <style name="age" parent="@style/aiu">
+        <item name="android:layout_toRightOf">@id/bwy</item>
+        <item name="android:layout_toEndOf">@id/bwy</item>
+    </style>
+    <style name="agf" parent="@style/q7">
+        <item name="android:layout_marginLeft">@dimen/bmf</item>
+        <item name="android:layout_marginStart">@dimen/bmf</item>
+    </style>
+    <style name="agg" parent="@style/q7">
+        <item name="android:layout_marginLeft">@dimen/bmf</item>
+        <item name="android:layout_marginRight">@dimen/bkq</item>
+        <item name="android:layout_marginStart">@dimen/bmf</item>
+        <item name="android:layout_marginEnd">@dimen/bkq</item>
+    </style>
+    <style name="agh" parent="@style/agr">
+        <item name="android:layout_marginLeft">@dimen/br7</item>
+        <item name="android:layout_marginStart">@dimen/br7</item>
+    </style>
+    <style name="agi">
+        <item name="android:layout_marginLeft">@dimen/bk7</item>
+        <item name="android:layout_marginStart">@dimen/bk7</item>
+    </style>
+    <style name="agp">
+        <item name="android:layout_marginLeft">@dimen/bs3</item>
+        <item name="android:layout_marginRight">@dimen/bs3</item>
+        <item name="android:layout_marginStart">@dimen/bs3</item>
+        <item name="android:layout_marginEnd">@dimen/bs3</item>
+    </style>
+    <style name="agr">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="ags">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="agt">
+        <item name="android:layout_marginRight">@dimen/bnc</item>
+        <item name="android:layout_marginEnd">@dimen/bnc</item>
+    </style>
+    <style name="agu">
+        <item name="android:layout_marginRight">@dimen/bl2</item>
+        <item name="android:layout_marginEnd">@dimen/bl2</item>
+    </style>
+    <style name="agv">
+        <item name="android:layout_marginRight">@dimen/bla</item>
+        <item name="android:layout_marginEnd">@dimen/bla</item>
+    </style>
+    <style name="agw">
+        <item name="android:layout_marginRight">@dimen/blk</item>
+        <item name="android:layout_marginEnd">@dimen/blk</item>
+    </style>
+    <style name="agx">
+        <item name="android:layout_marginRight">@dimen/blv</item>
+        <item name="android:layout_marginEnd">@dimen/blv</item>
+    </style>
+    <style name="agy">
+        <item name="android:layout_marginRight">@dimen/bm3</item>
+        <item name="android:layout_marginEnd">@dimen/bm3</item>
+    </style>
+    <style name="agz">
+        <item name="android:layout_marginRight">@dimen/bmf</item>
+        <item name="android:layout_marginEnd">@dimen/bmf</item>
+    </style>
+    <style name="ah0">
+        <item name="android:layout_marginRight">@dimen/bmm</item>
+        <item name="android:layout_marginEnd">@dimen/bmm</item>
+    </style>
+    <style name="ah1">
+        <item name="android:layout_marginRight">@dimen/bmw</item>
+        <item name="android:layout_marginEnd">@dimen/bmw</item>
+    </style>
+    <style name="ah2">
+        <item name="android:layout_marginRight">@dimen/bn4</item>
+        <item name="android:layout_marginEnd">@dimen/bn4</item>
+    </style>
+    <style name="ah3">
+        <item name="android:layout_marginRight">@dimen/bnb</item>
+        <item name="android:layout_marginEnd">@dimen/bnb</item>
+    </style>
+    <style name="ah4">
+        <item name="android:layout_marginRight">@dimen/bp0</item>
+        <item name="android:layout_marginEnd">@dimen/bp0</item>
+    </style>
+    <style name="ah5">
+        <item name="android:layout_marginRight">@dimen/bnj</item>
+        <item name="android:layout_marginEnd">@dimen/bnj</item>
+    </style>
+    <style name="ah6">
+        <item name="android:layout_marginRight">@dimen/bno</item>
+        <item name="android:layout_marginEnd">@dimen/bno</item>
+    </style>
+    <style name="ah7">
+        <item name="android:layout_marginRight">@dimen/bnv</item>
+        <item name="android:layout_marginEnd">@dimen/bnv</item>
+    </style>
+    <style name="ah8">
+        <item name="android:layout_marginRight">@dimen/bo3</item>
+        <item name="android:layout_marginEnd">@dimen/bo3</item>
+    </style>
+    <style name="ah9">
+        <item name="android:layout_marginRight">@dimen/bo8</item>
+        <item name="android:layout_marginEnd">@dimen/bo8</item>
+    </style>
+    <style name="ah_">
+        <item name="android:layout_marginRight">@dimen/boe</item>
+        <item name="android:layout_marginEnd">@dimen/boe</item>
+    </style>
+    <style name="aha">
+        <item name="android:layout_marginRight">@dimen/bok</item>
+        <item name="android:layout_marginEnd">@dimen/bok</item>
+    </style>
+    <style name="ahb">
+        <item name="android:layout_marginRight">@dimen/bop</item>
+        <item name="android:layout_marginEnd">@dimen/bop</item>
+    </style>
+    <style name="ahc">
+        <item name="android:layout_marginRight">@dimen/bow</item>
+        <item name="android:layout_marginEnd">@dimen/bow</item>
+    </style>
+    <style name="ahd">
+        <item name="android:layout_marginRight">@dimen/boz</item>
+        <item name="android:layout_marginEnd">@dimen/boz</item>
+    </style>
+    <style name="ahe">
+        <item name="android:layout_marginRight">@dimen/bq1</item>
+        <item name="android:layout_marginEnd">@dimen/bq1</item>
+    </style>
+    <style name="ahf">
+        <item name="android:layout_marginRight">@dimen/bp7</item>
+        <item name="android:layout_marginEnd">@dimen/bp7</item>
+    </style>
+    <style name="ahg">
+        <item name="android:layout_marginRight">@dimen/bpb</item>
+        <item name="android:layout_marginEnd">@dimen/bpb</item>
+    </style>
+    <style name="ahh">
+        <item name="android:layout_marginRight">@dimen/bpe</item>
+        <item name="android:layout_marginEnd">@dimen/bpe</item>
+    </style>
+    <style name="ahi">
+        <item name="android:layout_marginRight">@dimen/bpj</item>
+        <item name="android:layout_marginEnd">@dimen/bpj</item>
+    </style>
+    <style name="ahj">
+        <item name="android:layout_marginRight">@dimen/bpo</item>
+        <item name="android:layout_marginEnd">@dimen/bpo</item>
+    </style>
+    <style name="ahk">
+        <item name="android:layout_marginRight">@dimen/bpr</item>
+        <item name="android:layout_marginEnd">@dimen/bpr</item>
+    </style>
+    <style name="ahl">
+        <item name="android:layout_marginRight">@dimen/bpv</item>
+        <item name="android:layout_marginEnd">@dimen/bpv</item>
+    </style>
+    <style name="ahm">
+        <item name="android:layout_marginRight">@dimen/bpy</item>
+        <item name="android:layout_marginEnd">@dimen/bpy</item>
+    </style>
+    <style name="ahn">
+        <item name="android:layout_marginRight">@dimen/bqf</item>
+        <item name="android:layout_marginEnd">@dimen/bqf</item>
+    </style>
+    <style name="aho">
+        <item name="android:layout_marginRight">@dimen/bq4</item>
+        <item name="android:layout_marginEnd">@dimen/bq4</item>
+    </style>
+    <style name="ahp">
+        <item name="android:layout_marginRight">@dimen/bqd</item>
+        <item name="android:layout_marginEnd">@dimen/bqd</item>
+    </style>
+    <style name="ahq">
+        <item name="android:layout_marginRight">@dimen/bqv</item>
+        <item name="android:layout_marginEnd">@dimen/bqv</item>
+    </style>
+    <style name="ahr">
+        <item name="android:layout_marginRight">@dimen/bqj</item>
+        <item name="android:layout_marginEnd">@dimen/bqj</item>
+    </style>
+    <style name="ahs">
+        <item name="android:layout_marginRight">@dimen/bqo</item>
+        <item name="android:layout_marginEnd">@dimen/bqo</item>
+    </style>
+    <style name="aht">
+        <item name="android:layout_marginRight">@dimen/bqp</item>
+        <item name="android:layout_marginEnd">@dimen/bqp</item>
+    </style>
+    <style name="ahu">
+        <item name="android:layout_marginRight">@dimen/br9</item>
+        <item name="android:layout_marginEnd">@dimen/br9</item>
+    </style>
+    <style name="ahv">
+        <item name="android:layout_marginRight">@dimen/br7</item>
+        <item name="android:layout_marginEnd">@dimen/br7</item>
+    </style>
+    <style name="ahw">
+        <item name="android:layout_marginRight">@dimen/brl</item>
+        <item name="android:layout_marginEnd">@dimen/brl</item>
+    </style>
+    <style name="ahx">
+        <item name="android:layout_marginRight">@dimen/brt</item>
+        <item name="android:layout_marginEnd">@dimen/brt</item>
+    </style>
+    <style name="ahy">
+        <item name="android:layout_marginRight">@dimen/brs</item>
+        <item name="android:layout_marginEnd">@dimen/brs</item>
+    </style>
+    <style name="ahz">
+        <item name="android:layout_marginRight">@dimen/bs3</item>
+        <item name="android:layout_marginEnd">@dimen/bs3</item>
+    </style>
+    <style name="ai0">
+        <item name="android:layout_marginLeft">@dimen/bnc</item>
+        <item name="android:layout_marginStart">@dimen/bnc</item>
+    </style>
+    <style name="ai1">
+        <item name="android:layout_marginLeft">@dimen/bl2</item>
+        <item name="android:layout_marginStart">@dimen/bl2</item>
+    </style>
+    <style name="ai2">
+        <item name="android:layout_marginLeft">@dimen/bla</item>
+        <item name="android:layout_marginStart">@dimen/bla</item>
+    </style>
+    <style name="ai3">
+        <item name="android:layout_marginLeft">@dimen/blk</item>
+        <item name="android:layout_marginStart">@dimen/blk</item>
+    </style>
+    <style name="ai4">
+        <item name="android:layout_marginLeft">@dimen/blv</item>
+        <item name="android:layout_marginStart">@dimen/blv</item>
+    </style>
+    <style name="ai5">
+        <item name="android:layout_marginLeft">@dimen/bm3</item>
+        <item name="android:layout_marginStart">@dimen/bm3</item>
+    </style>
+    <style name="ai6">
+        <item name="android:layout_marginLeft">@dimen/bmf</item>
+        <item name="android:layout_marginStart">@dimen/bmf</item>
+    </style>
+    <style name="ai7">
+        <item name="android:layout_marginLeft">@dimen/bmm</item>
+        <item name="android:layout_marginStart">@dimen/bmm</item>
+    </style>
+    <style name="ai8">
+        <item name="android:layout_marginLeft">@dimen/bmw</item>
+        <item name="android:layout_marginStart">@dimen/bmw</item>
+    </style>
+    <style name="ai9">
+        <item name="android:layout_marginLeft">@dimen/bn4</item>
+        <item name="android:layout_marginStart">@dimen/bn4</item>
+    </style>
+    <style name="ai_">
+        <item name="android:layout_marginLeft">@dimen/bnb</item>
+        <item name="android:layout_marginStart">@dimen/bnb</item>
+    </style>
+    <style name="aia">
+        <item name="android:layout_marginLeft">@dimen/bp0</item>
+        <item name="android:layout_marginStart">@dimen/bp0</item>
+    </style>
+    <style name="aib">
+        <item name="android:layout_marginLeft">@dimen/bnj</item>
+        <item name="android:layout_marginStart">@dimen/bnj</item>
+    </style>
+    <style name="aic">
+        <item name="android:layout_marginLeft">@dimen/bno</item>
+        <item name="android:layout_marginStart">@dimen/bno</item>
+    </style>
+    <style name="aid">
+        <item name="android:layout_marginLeft">@dimen/bnv</item>
+        <item name="android:layout_marginStart">@dimen/bnv</item>
+    </style>
+    <style name="aie">
+        <item name="android:layout_marginLeft">@dimen/bo3</item>
+        <item name="android:layout_marginStart">@dimen/bo3</item>
+    </style>
+    <style name="aif">
+        <item name="android:layout_marginLeft">@dimen/bo8</item>
+        <item name="android:layout_marginStart">@dimen/bo8</item>
+    </style>
+    <style name="aig">
+        <item name="android:layout_marginLeft">@dimen/boe</item>
+        <item name="android:layout_marginStart">@dimen/boe</item>
+    </style>
+    <style name="aih">
+        <item name="android:layout_marginLeft">@dimen/bok</item>
+        <item name="android:layout_marginStart">@dimen/bok</item>
+    </style>
+    <style name="aii">
+        <item name="android:layout_marginLeft">@dimen/bop</item>
+        <item name="android:layout_marginStart">@dimen/bop</item>
+    </style>
+    <style name="aij">
+        <item name="android:layout_marginLeft">@dimen/bow</item>
+        <item name="android:layout_marginStart">@dimen/bow</item>
+    </style>
+    <style name="aik">
+        <item name="android:layout_marginLeft">@dimen/boz</item>
+        <item name="android:layout_marginStart">@dimen/boz</item>
+    </style>
+    <style name="ail">
+        <item name="android:layout_marginLeft">@dimen/bq1</item>
+        <item name="android:layout_marginStart">@dimen/bq1</item>
+    </style>
+    <style name="aim">
+        <item name="android:layout_marginLeft">@dimen/bp7</item>
+        <item name="android:layout_marginStart">@dimen/bp7</item>
+    </style>
+    <style name="ain">
+        <item name="android:layout_marginLeft">@dimen/bpb</item>
+        <item name="android:layout_marginStart">@dimen/bpb</item>
+    </style>
+    <style name="aio">
+        <item name="android:layout_marginLeft">@dimen/bpe</item>
+        <item name="android:layout_marginStart">@dimen/bpe</item>
+    </style>
+    <style name="aip">
+        <item name="android:layout_marginLeft">@dimen/bpj</item>
+        <item name="android:layout_marginStart">@dimen/bpj</item>
+    </style>
+    <style name="aiq">
+        <item name="android:layout_marginLeft">@dimen/bpo</item>
+        <item name="android:layout_marginStart">@dimen/bpo</item>
+    </style>
+    <style name="air">
+        <item name="android:layout_marginLeft">@dimen/bpr</item>
+        <item name="android:layout_marginStart">@dimen/bpr</item>
+    </style>
+    <style name="ais">
+        <item name="android:layout_marginLeft">@dimen/bpv</item>
+        <item name="android:layout_marginStart">@dimen/bpv</item>
+    </style>
+    <style name="ait">
+        <item name="android:layout_marginLeft">@dimen/bpy</item>
+        <item name="android:layout_marginStart">@dimen/bpy</item>
+    </style>
+    <style name="aiu">
+        <item name="android:layout_marginLeft">@dimen/bqf</item>
+        <item name="android:layout_marginStart">@dimen/bqf</item>
+    </style>
+    <style name="aiv">
+        <item name="android:layout_marginLeft">@dimen/bq7</item>
+        <item name="android:layout_marginStart">@dimen/bq7</item>
+    </style>
+    <style name="aiw">
+        <item name="android:layout_marginLeft">@dimen/bqd</item>
+        <item name="android:layout_marginStart">@dimen/bqd</item>
+    </style>
+    <style name="aix">
+        <item name="android:layout_marginLeft">@dimen/bqv</item>
+        <item name="android:layout_marginStart">@dimen/bqv</item>
+    </style>
+    <style name="aiy">
+        <item name="android:layout_marginLeft">@dimen/bqj</item>
+        <item name="android:layout_marginStart">@dimen/bqj</item>
+    </style>
+    <style name="aiz">
+        <item name="android:layout_marginLeft">@dimen/bqp</item>
+        <item name="android:layout_marginStart">@dimen/bqp</item>
+    </style>
+    <style name="aj0">
+        <item name="android:layout_marginLeft">@dimen/br9</item>
+        <item name="android:layout_marginStart">@dimen/br9</item>
+    </style>
+    <style name="aj1">
+        <item name="android:layout_marginLeft">@dimen/br5</item>
+        <item name="android:layout_marginStart">@dimen/br5</item>
+    </style>
+    <style name="aj2">
+        <item name="android:layout_marginLeft">@dimen/brl</item>
+        <item name="android:layout_marginStart">@dimen/brl</item>
+    </style>
+    <style name="aj3">
+        <item name="android:layout_marginLeft">@dimen/brc</item>
+        <item name="android:layout_marginStart">@dimen/brc</item>
+    </style>
+    <style name="aj4">
+        <item name="android:layout_marginLeft">@dimen/brd</item>
+        <item name="android:layout_marginStart">@dimen/brd</item>
+    </style>
+    <style name="aj5">
+        <item name="android:layout_marginLeft">@dimen/brh</item>
+        <item name="android:layout_marginStart">@dimen/brh</item>
+    </style>
+    <style name="aj6">
+        <item name="android:layout_marginLeft">@dimen/bri</item>
+        <item name="android:layout_marginStart">@dimen/bri</item>
+    </style>
+    <style name="aj7">
+        <item name="android:layout_marginLeft">@dimen/brt</item>
+        <item name="android:layout_marginStart">@dimen/brt</item>
+    </style>
+    <style name="aj8">
+        <item name="android:layout_marginLeft">@dimen/bs3</item>
+        <item name="android:layout_marginStart">@dimen/bs3</item>
+    </style>
+    <style name="aj9">
+        <item name="android:paddingRight">@dimen/bnc</item>
+        <item name="android:paddingEnd">@dimen/bnc</item>
+    </style>
+    <style name="aj_">
+        <item name="android:paddingRight">@dimen/bl2</item>
+        <item name="android:paddingEnd">@dimen/bl2</item>
+    </style>
+    <style name="aja">
+        <item name="android:paddingRight">@dimen/bla</item>
+        <item name="android:paddingEnd">@dimen/bla</item>
+    </style>
+    <style name="ajb">
+        <item name="android:paddingRight">@dimen/blk</item>
+        <item name="android:paddingEnd">@dimen/blk</item>
+    </style>
+    <style name="ajc">
+        <item name="android:paddingRight">@dimen/blv</item>
+        <item name="android:paddingEnd">@dimen/blv</item>
+    </style>
+    <style name="ajd">
+        <item name="android:paddingRight">@dimen/bm3</item>
+        <item name="android:paddingEnd">@dimen/bm3</item>
+    </style>
+    <style name="aje">
+        <item name="android:paddingRight">@dimen/bmf</item>
+        <item name="android:paddingEnd">@dimen/bmf</item>
+    </style>
+    <style name="ajf">
+        <item name="android:paddingRight">@dimen/bmm</item>
+        <item name="android:paddingEnd">@dimen/bmm</item>
+    </style>
+    <style name="ajg">
+        <item name="android:paddingRight">@dimen/bmw</item>
+        <item name="android:paddingEnd">@dimen/bmw</item>
+    </style>
+    <style name="ajh">
+        <item name="android:paddingRight">@dimen/bn4</item>
+        <item name="android:paddingEnd">@dimen/bn4</item>
+    </style>
+    <style name="aji">
+        <item name="android:paddingRight">@dimen/bnb</item>
+        <item name="android:paddingEnd">@dimen/bnb</item>
+    </style>
+    <style name="ajj">
+        <item name="android:paddingRight">@dimen/bp0</item>
+        <item name="android:paddingEnd">@dimen/bp0</item>
+    </style>
+    <style name="ajk">
+        <item name="android:paddingRight">@dimen/bnj</item>
+        <item name="android:paddingEnd">@dimen/bnj</item>
+    </style>
+    <style name="ajl">
+        <item name="android:paddingRight">@dimen/bnv</item>
+        <item name="android:paddingEnd">@dimen/bnv</item>
+    </style>
+    <style name="ajm">
+        <item name="android:paddingRight">@dimen/bnv</item>
+        <item name="android:paddingEnd">@dimen/bnv</item>
+    </style>
+    <style name="ajn">
+        <item name="android:paddingRight">@dimen/bo3</item>
+        <item name="android:paddingEnd">@dimen/bo3</item>
+    </style>
+    <style name="ajo">
+        <item name="android:paddingRight">@dimen/bo8</item>
+        <item name="android:paddingEnd">@dimen/bo8</item>
+    </style>
+    <style name="ajp">
+        <item name="android:paddingRight">@dimen/boe</item>
+        <item name="android:paddingEnd">@dimen/boe</item>
+    </style>
+    <style name="ajq">
+        <item name="android:paddingRight">@dimen/bok</item>
+        <item name="android:paddingEnd">@dimen/bok</item>
+    </style>
+    <style name="ajr">
+        <item name="android:paddingRight">@dimen/bop</item>
+        <item name="android:paddingEnd">@dimen/bop</item>
+    </style>
+    <style name="ajs">
+        <item name="android:paddingRight">@dimen/bow</item>
+        <item name="android:paddingEnd">@dimen/bow</item>
+    </style>
+    <style name="ajt">
+        <item name="android:paddingRight">@dimen/boz</item>
+        <item name="android:paddingEnd">@dimen/boz</item>
+    </style>
+    <style name="aju">
+        <item name="android:paddingRight">@dimen/bq1</item>
+        <item name="android:paddingEnd">@dimen/bq1</item>
+    </style>
+    <style name="ajv">
+        <item name="android:paddingRight">@dimen/bp7</item>
+        <item name="android:paddingEnd">@dimen/bp7</item>
+    </style>
+    <style name="ajw">
+        <item name="android:paddingRight">@dimen/bpb</item>
+        <item name="android:paddingEnd">@dimen/bpb</item>
+    </style>
+    <style name="ajx">
+        <item name="android:paddingRight">@dimen/bpe</item>
+        <item name="android:paddingEnd">@dimen/bpe</item>
+    </style>
+    <style name="ajy">
+        <item name="android:paddingRight">@dimen/bpj</item>
+        <item name="android:paddingEnd">@dimen/bpj</item>
+    </style>
+    <style name="ajz">
+        <item name="android:paddingRight">@dimen/bpo</item>
+        <item name="android:paddingEnd">@dimen/bpo</item>
+    </style>
+    <style name="ak0">
+        <item name="android:paddingRight">@dimen/bpr</item>
+        <item name="android:paddingEnd">@dimen/bpr</item>
+    </style>
+    <style name="ak1">
+        <item name="android:paddingRight">@dimen/bpv</item>
+        <item name="android:paddingEnd">@dimen/bpv</item>
+    </style>
+    <style name="ak2">
+        <item name="android:paddingRight">@dimen/bpy</item>
+        <item name="android:paddingEnd">@dimen/bpy</item>
+    </style>
+    <style name="ak3">
+        <item name="android:paddingRight">@dimen/bqf</item>
+        <item name="android:paddingEnd">@dimen/bqf</item>
+    </style>
+    <style name="ak4">
+        <item name="android:paddingRight">@dimen/bqv</item>
+        <item name="android:paddingEnd">@dimen/bqv</item>
+    </style>
+    <style name="ak5">
+        <item name="android:paddingRight">@dimen/br9</item>
+        <item name="android:paddingEnd">@dimen/br9</item>
+    </style>
+    <style name="ak6">
+        <item name="android:paddingRight">@dimen/brl</item>
+        <item name="android:paddingEnd">@dimen/brl</item>
+    </style>
+    <style name="ak7">
+        <item name="android:paddingRight">@dimen/brt</item>
+        <item name="android:paddingEnd">@dimen/brt</item>
+    </style>
+    <style name="ak8">
+        <item name="android:paddingRight">@dimen/bs3</item>
+        <item name="android:paddingEnd">@dimen/bs3</item>
+    </style>
+    <style name="ak9">
+        <item name="android:paddingLeft">@dimen/bnc</item>
+        <item name="android:paddingStart">@dimen/bnc</item>
+    </style>
+    <style name="ak_">
+        <item name="android:paddingLeft">@dimen/bl2</item>
+        <item name="android:paddingStart">@dimen/bl2</item>
+    </style>
+    <style name="aka">
+        <item name="android:paddingLeft">@dimen/bla</item>
+        <item name="android:paddingStart">@dimen/bla</item>
+    </style>
+    <style name="akb">
+        <item name="android:paddingLeft">@dimen/blk</item>
+        <item name="android:paddingStart">@dimen/blk</item>
+    </style>
+    <style name="akc">
+        <item name="android:paddingLeft">@dimen/blv</item>
+        <item name="android:paddingStart">@dimen/blv</item>
+    </style>
+    <style name="akd">
+        <item name="android:paddingLeft">@dimen/bm3</item>
+        <item name="android:paddingStart">@dimen/bm3</item>
+    </style>
+    <style name="ake">
+        <item name="android:paddingLeft">@dimen/bmf</item>
+        <item name="android:paddingStart">@dimen/bmf</item>
+    </style>
+    <style name="akf">
+        <item name="android:paddingLeft">@dimen/bmm</item>
+        <item name="android:paddingStart">@dimen/bmm</item>
+    </style>
+    <style name="akg">
+        <item name="android:paddingLeft">@dimen/bmw</item>
+        <item name="android:paddingStart">@dimen/bmw</item>
+    </style>
+    <style name="akh">
+        <item name="android:paddingLeft">@dimen/bn4</item>
+        <item name="android:paddingStart">@dimen/bn4</item>
+    </style>
+    <style name="aki">
+        <item name="android:paddingLeft">@dimen/bnb</item>
+        <item name="android:paddingStart">@dimen/bnb</item>
+    </style>
+    <style name="akj">
+        <item name="android:paddingLeft">@dimen/bp0</item>
+        <item name="android:paddingStart">@dimen/bp0</item>
+    </style>
+    <style name="akk">
+        <item name="android:paddingLeft">@dimen/bnj</item>
+        <item name="android:paddingStart">@dimen/bnj</item>
+    </style>
+    <style name="akl">
+        <item name="android:paddingLeft">@dimen/bnv</item>
+        <item name="android:paddingStart">@dimen/bnv</item>
+    </style>
+    <style name="akm">
+        <item name="android:paddingLeft">@dimen/bnv</item>
+        <item name="android:paddingStart">@dimen/bnv</item>
+    </style>
+    <style name="akn">
+        <item name="android:paddingLeft">@dimen/bo3</item>
+        <item name="android:paddingStart">@dimen/bo3</item>
+    </style>
+    <style name="ako">
+        <item name="android:paddingLeft">@dimen/bo8</item>
+        <item name="android:paddingStart">@dimen/bo8</item>
+    </style>
+    <style name="akp">
+        <item name="android:paddingLeft">@dimen/boe</item>
+        <item name="android:paddingStart">@dimen/boe</item>
+    </style>
+    <style name="akq">
+        <item name="android:paddingLeft">@dimen/bok</item>
+        <item name="android:paddingStart">@dimen/bok</item>
+    </style>
+    <style name="akr">
+        <item name="android:paddingLeft">@dimen/bop</item>
+        <item name="android:paddingStart">@dimen/bop</item>
+    </style>
+    <style name="aks">
+        <item name="android:paddingLeft">@dimen/bow</item>
+        <item name="android:paddingStart">@dimen/bow</item>
+    </style>
+    <style name="akt">
+        <item name="android:paddingLeft">@dimen/boz</item>
+        <item name="android:paddingStart">@dimen/boz</item>
+    </style>
+    <style name="aku">
+        <item name="android:paddingLeft">@dimen/bq1</item>
+        <item name="android:paddingStart">@dimen/bq1</item>
+    </style>
+    <style name="akv">
+        <item name="android:paddingLeft">@dimen/bp7</item>
+        <item name="android:paddingStart">@dimen/bp7</item>
+    </style>
+    <style name="akw">
+        <item name="android:paddingLeft">@dimen/bpb</item>
+        <item name="android:paddingStart">@dimen/bpb</item>
+    </style>
+    <style name="akx">
+        <item name="android:paddingLeft">@dimen/bpe</item>
+        <item name="android:paddingStart">@dimen/bpe</item>
+    </style>
+    <style name="aky">
+        <item name="android:paddingLeft">@dimen/bpj</item>
+        <item name="android:paddingStart">@dimen/bpj</item>
+    </style>
+    <style name="akz">
+        <item name="android:paddingLeft">@dimen/bpo</item>
+        <item name="android:paddingStart">@dimen/bpo</item>
+    </style>
+    <style name="al0">
+        <item name="android:paddingLeft">@dimen/bpr</item>
+        <item name="android:paddingStart">@dimen/bpr</item>
+    </style>
+    <style name="al1">
+        <item name="android:paddingLeft">@dimen/bpv</item>
+        <item name="android:paddingStart">@dimen/bpv</item>
+    </style>
+    <style name="al2">
+        <item name="android:paddingLeft">@dimen/bpy</item>
+        <item name="android:paddingStart">@dimen/bpy</item>
+    </style>
+    <style name="al3">
+        <item name="android:paddingLeft">@dimen/bqf</item>
+        <item name="android:paddingStart">@dimen/bqf</item>
+    </style>
+    <style name="al4">
+        <item name="android:paddingLeft">@dimen/bqv</item>
+        <item name="android:paddingStart">@dimen/bqv</item>
+    </style>
+    <style name="al5">
+        <item name="android:paddingLeft">@dimen/br9</item>
+        <item name="android:paddingStart">@dimen/br9</item>
+    </style>
+    <style name="al6">
+        <item name="android:paddingLeft">@dimen/brl</item>
+        <item name="android:paddingStart">@dimen/brl</item>
+    </style>
+    <style name="al7">
+        <item name="android:paddingLeft">@dimen/brt</item>
+        <item name="android:paddingStart">@dimen/brt</item>
+    </style>
+    <style name="al8">
+        <item name="android:paddingLeft">@dimen/bs3</item>
+        <item name="android:paddingStart">@dimen/bs3</item>
+    </style>
+    <style name="alg">
+        <item name="android:layout_marginLeft">@dimen/btu</item>
+        <item name="android:layout_marginRight">@dimen/bkw</item>
+        <item name="android:layout_marginStart">@dimen/btu</item>
+        <item name="android:layout_marginEnd">@dimen/bkw</item>
+    </style>
+    <style name="alh">
+        <item name="android:layout_marginLeft">@dimen/btu</item>
+        <item name="android:layout_marginRight">@dimen/bq7</item>
+        <item name="android:layout_marginStart">@dimen/btu</item>
+        <item name="android:layout_marginEnd">@dimen/bq7</item>
+    </style>
+    <style name="alj">
+        <item name="android:layout_marginLeft">@dimen/bsh</item>
+        <item name="android:layout_marginStart">@dimen/bsh</item>
+    </style>
+    <style name="alk">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="all" parent="@style/agu">
+        <item name="android:layout_marginLeft">@dimen/bm3</item>
+        <item name="android:layout_marginStart">@dimen/bm3</item>
+    </style>
+    <style name="alm">
+        <item name="android:layout_marginLeft">@dimen/bv7</item>
+        <item name="android:layout_marginStart">@dimen/bv7</item>
+    </style>
+    <style name="aln">
+        <item name="android:layout_marginLeft">@dimen/bv7</item>
+        <item name="android:layout_marginRight">@dimen/bv8</item>
+        <item name="android:layout_toRightOf">@id/b_b</item>
+        <item name="android:layout_marginStart">@dimen/bv7</item>
+        <item name="android:layout_marginEnd">@dimen/bv8</item>
+        <item name="android:layout_toEndOf">@id/b_b</item>
+    </style>
+    <style name="alo">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="alp">
+        <item name="android:layout_marginLeft">@dimen/bsh</item>
+        <item name="android:layout_marginStart">@dimen/bsh</item>
+    </style>
+    <style name="alq">
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="alr" parent="@style/ai5">
+        <item name="android:layout_marginRight">@dimen/bkq</item>
+        <item name="android:layout_marginEnd">@dimen/bkq</item>
+    </style>
+    <style name="als">
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="alt" parent="@style/r5">
+        <item name="android:layout_marginLeft">@dimen/bqf</item>
+        <item name="android:layout_marginStart">@dimen/bqf</item>
+    </style>
+    <style name="alu">
+        <item name="android:layout_marginLeft">@dimen/bqv</item>
+        <item name="android:layout_marginRight">@dimen/bm3</item>
+        <item name="android:layout_marginStart">@dimen/bqv</item>
+        <item name="android:layout_marginEnd">@dimen/bm3</item>
+    </style>
+    <style name="alv">
+        <item name="android:layout_marginLeft">@dimen/bv7</item>
+        <item name="android:layout_marginRight">@dimen/bqb</item>
+        <item name="android:layout_toRightOf">@id/b_b</item>
+        <item name="android:layout_marginStart">@dimen/bv7</item>
+        <item name="android:layout_marginEnd">@dimen/bqb</item>
+        <item name="android:layout_toEndOf">@id/b_b</item>
+    </style>
+    <style name="alw">
+        <item name="android:layout_marginLeft">@dimen/bv7</item>
+        <item name="android:layout_marginStart">@dimen/bv7</item>
+    </style>
+    <style name="am5">
+        <item name="android:layout_marginRight">@dimen/c5a</item>
+        <item name="android:layout_marginEnd">@dimen/c5a</item>
+    </style>
+    <style name="am6">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bj1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/brt</item>
+        <item name="android:paddingRight">@dimen/brt</item>
+        <item name="android:minWidth">@dimen/brc</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxEms">6</item>
+        <item name="android:paddingStart">@dimen/brt</item>
+        <item name="android:paddingEnd">@dimen/brt</item>
+    </style>
+    <style name="am7">
+        <item name="android:layout_toRightOf">@id/bx9</item>
+        <item name="android:layout_toEndOf">@id/bx9</item>
+    </style>
+    <style name="am8" parent="@style/agr">
+        <item name="android:layout_marginRight">@dimen/bl2</item>
+        <item name="android:layout_marginEnd">@dimen/bl2</item>
+    </style>
+    <style name="am9" parent="@style/ah5">
+        <item name="android:layout_toRightOf">@id/bx9</item>
+        <item name="android:layout_toEndOf">@id/bx9</item>
+    </style>
+    <style name="ama">
+        <item name="android:layout_marginLeft">@dimen/blk</item>
+        <item name="android:layout_marginStart">@dimen/blk</item>
+    </style>
+    <style name="amb">
+        <item name="android:layout_marginRight">@dimen/c6r</item>
+        <item name="android:layout_marginEnd">@dimen/c6r</item>
+    </style>
+    <style name="amc">
+        <item name="android:layout_marginLeft">@dimen/c6r</item>
+        <item name="android:layout_marginRight">@dimen/c6s</item>
+        <item name="android:layout_marginStart">@dimen/c6r</item>
+        <item name="android:layout_marginEnd">@dimen/c6s</item>
+    </style>
+    <style name="amd" parent="@style/r_">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="ame" parent="@style/agr">
+        <item name="android:layout_marginLeft">@dimen/bmm</item>
+        <item name="android:layout_marginRight">@dimen/bqj</item>
+        <item name="android:layout_marginStart">@dimen/bmm</item>
+        <item name="android:layout_marginEnd">@dimen/bqj</item>
+    </style>
+    <style name="amf" parent="@style/ai5">
+        <item name="android:layout_marginRight">@dimen/bqb</item>
+        <item name="android:layout_marginEnd">@dimen/bqb</item>
+    </style>
+    <style name="amh" parent="@style/aj0">
+        <item name="android:layout_toRightOf">@id/ckr</item>
+        <item name="android:layout_toEndOf">@id/ckr</item>
+    </style>
+    <style name="ami" parent="@style/ai7">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="amj" parent="@style/ags">
+        <item name="android:layout_marginRight">@dimen/brl</item>
+        <item name="android:layout_marginEnd">@dimen/brl</item>
+    </style>
+    <style name="amk" parent="@style/ra">
+        <item name="android:layout_marginRight">@dimen/bpj</item>
+        <item name="android:layout_marginEnd">@dimen/bpj</item>
+    </style>
+    <style name="aml" parent="@style/ai6">
+        <item name="android:layout_marginRight">@dimen/blk</item>
+        <item name="android:layout_marginEnd">@dimen/blk</item>
+    </style>
+    <style name="amn">
+        <item name="android:layout_marginRight">@dimen/cs4</item>
+        <item name="android:layout_marginEnd">@dimen/cs4</item>
+    </style>
+    <style name="amp" parent="@style/ags">
+        <item name="android:layout_marginLeft">@dimen/bqv</item>
+        <item name="android:layout_marginStart">@dimen/bqv</item>
+    </style>
+    <style name="amq" parent="@style/q7">
+        <item name="android:layout_marginLeft">@dimen/bl2</item>
+        <item name="android:layout_marginStart">@dimen/bl2</item>
+    </style>
+    <style name="amr">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="ams">
+        <item name="android:layout_toRightOf">@id/aq5</item>
+        <item name="android:layout_toEndOf">@id/aq5</item>
+    </style>
+    <style name="amt" parent="@style/ai3">
+        <item name="android:layout_marginRight">@dimen/bq4</item>
+        <item name="android:layout_toRightOf">@id/aq5</item>
+        <item name="android:layout_marginEnd">@dimen/bq4</item>
+        <item name="android:layout_toEndOf">@id/aq5</item>
+    </style>
+    <style name="amu" parent="@style/ahe">
+        <item name="android:layout_marginLeft">@dimen/bmf</item>
+        <item name="android:layout_marginStart">@dimen/bmf</item>
+    </style>
+    <style name="amv">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="amx" parent="@style/ah5">
+        <item name="android:layout_marginLeft">@dimen/bl2</item>
+        <item name="android:layout_marginStart">@dimen/bl2</item>
+    </style>
+    <style name="amy" parent="@style/agu">
+        <item name="android:layout_marginLeft">@dimen/bqf</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginStart">@dimen/bqf</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="amz">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="an0" parent="@style/aj7">
+        <item name="android:layout_marginRight">@dimen/bkq</item>
+        <item name="android:layout_marginEnd">@dimen/bkq</item>
+    </style>
+    <style name="an1">
+        <item name="android:layout_marginLeft">@dimen/bl2</item>
+        <item name="android:layout_marginRight">@dimen/blk</item>
+        <item name="android:layout_marginStart">@dimen/bl2</item>
+        <item name="android:layout_marginEnd">@dimen/blk</item>
+    </style>
+    <style name="an2">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="an3" parent="@style/ags">
+        <item name="android:layout_marginLeft">@dimen/bo8</item>
+        <item name="android:layout_marginRight">@dimen/bmm</item>
+        <item name="android:layout_marginStart">@dimen/bo8</item>
+        <item name="android:layout_marginEnd">@dimen/bmm</item>
+    </style>
+    <style name="an4" parent="@android:style/Widget.SeekBar">
+        <item name="android:paddingLeft">@dimen/blk</item>
+        <item name="android:paddingRight">@dimen/blk</item>
+        <item name="android:layout_marginLeft">@dimen/bqv</item>
+        <item name="android:maxHeight">@dimen/bqf</item>
+        <item name="android:progressDrawable">@drawable/cu2</item>
+        <item name="android:minHeight">@dimen/bqf</item>
+        <item name="android:thumb">@drawable/cu3</item>
+        <item name="android:layout_marginStart">@dimen/bqv</item>
+    </style>
+    <style name="an8" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/bsz</item>
+        <item name="android:textColor">@color/b1r</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dsu</item>
+        <item name="android:paddingTop">@dimen/bmf</item>
+        <item name="android:paddingBottom">@dimen/bmf</item>
+        <item name="android:paddingStart">@dimen/dsu</item>
+    </style>
+    <style name="an9" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/bsz</item>
+        <item name="android:textColor">@color/b1r</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dsu</item>
+        <item name="android:paddingTop">@dimen/blk</item>
+        <item name="android:paddingBottom">@dimen/blk</item>
+        <item name="android:paddingStart">@dimen/dsu</item>
+    </style>
+    <style name="an_">
+        <item name="android:layout_toRightOf">@id/aq5</item>
+        <item name="android:layout_toEndOf">@id/aq5</item>
+    </style>
+    <style name="ana" parent="@style/ai3">
+        <item name="android:layout_marginRight">@dimen/bq4</item>
+        <item name="android:layout_toRightOf">@id/aq5</item>
+        <item name="android:layout_marginEnd">@dimen/bq4</item>
+        <item name="android:layout_toEndOf">@id/aq5</item>
+    </style>
+    <style name="anb" parent="@style/ahe">
+        <item name="android:layout_marginLeft">@dimen/bmf</item>
+        <item name="android:layout_marginStart">@dimen/bmf</item>
+    </style>
+    <style name="anc">
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="and">
+        <item name="android:layout_toLeftOf">@id/dla</item>
+        <item name="android:layout_toStartOf">@id/dla</item>
+    </style>
+    <style name="anf">
+        <item name="android:layout_toRightOf">@id/d47</item>
+        <item name="android:layout_toEndOf">@id/d47</item>
+    </style>
+    <style name="ang">
+        <item name="android:textDirection">ltr</item>
+    </style>
+    <style name="anh" parent="@style/an5">
+        <item name="android:textDirection">ltr</item>
+    </style>
+    <style name="ani" parent="@style/an4">
+        <item name="android:layout_marginLeft">@dimen/bqv</item>
+        <item name="android:layout_marginStart">@dimen/bqv</item>
+    </style>
+    <style name="anj" parent="@style/ahf">
+        <item name="android:layout_marginLeft">@dimen/bmf</item>
+        <item name="android:layout_marginStart">@dimen/bmf</item>
+    </style>
+    <style name="ank" parent="@style/ah5">
+        <item name="android:layout_marginLeft">@dimen/bl2</item>
+        <item name="android:layout_marginStart">@dimen/bl2</item>
+    </style>
+    <style name="anl" parent="@style/agu">
+        <item name="android:layout_marginLeft">@dimen/bqf</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginStart">@dimen/bqf</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="anm">
+        <item name="android:layout_toLeftOf">@id/cfk</item>
+        <item name="android:layout_toRightOf">@id/cfj</item>
+        <item name="android:layout_toStartOf">@id/cfk</item>
+        <item name="android:layout_toEndOf">@id/cfj</item>
+    </style>
+    <style name="ann">
+        <item name="android:layout_alignLeft">@id/bcl</item>
+        <item name="android:layout_alignBottom">@id/bcl</item>
+        <item name="android:layout_alignStart">@id/bcl</item>
+    </style>
+    <style name="ano">
+        <item name="android:layout_alignLeft">@id/cnr</item>
+        <item name="android:layout_alignBottom">@id/cnr</item>
+        <item name="android:layout_alignStart">@id/cnr</item>
+    </style>
+    <style name="anp" parent="@style/aj7">
+        <item name="android:layout_marginRight">@dimen/bkq</item>
+        <item name="android:layout_marginEnd">@dimen/bkq</item>
+    </style>
+    <style name="anr">
+        <item name="android:layout_toLeftOf">@id/cen</item>
+        <item name="android:layout_toStartOf">@id/cen</item>
+    </style>
+    <style name="ans">
+        <item name="android:layout_toLeftOf">@id/dft</item>
+        <item name="android:layout_toStartOf">@id/dft</item>
+    </style>
+    <style name="ant" parent="@style/ags">
+        <item name="android:layout_marginLeft">@dimen/bo8</item>
+        <item name="android:layout_marginRight">@dimen/bmm</item>
+        <item name="android:layout_marginStart">@dimen/bo8</item>
+        <item name="android:layout_marginEnd">@dimen/bmm</item>
+    </style>
+    <style name="anu">
+        <item name="android:padding">@dimen/bqf</item>
+        <item name="android:layout_width">@dimen/bpz</item>
+        <item name="android:layout_height">@dimen/bpz</item>
+        <item name="android:layout_marginRight">@dimen/bnj</item>
+        <item name="android:layout_marginEnd">@dimen/bnj</item>
+    </style>
+    <style name="anv">
+        <item name="android:padding">@dimen/br9</item>
+        <item name="android:layout_width">@dimen/bq7</item>
+        <item name="android:layout_height">@dimen/bq7</item>
+        <item name="android:layout_marginRight">@dimen/bkq</item>
+        <item name="android:layout_marginEnd">@dimen/bkq</item>
+    </style>
+    <style name="anw">
+        <item name="android:padding">@dimen/bl2</item>
+        <item name="android:layout_width">@dimen/bqj</item>
+        <item name="android:layout_height">@dimen/bqj</item>
+        <item name="android:layout_marginLeft">@dimen/br9</item>
+        <item name="android:layout_marginRight">@dimen/br9</item>
+        <item name="android:layout_marginStart">@dimen/br9</item>
+        <item name="android:layout_marginEnd">@dimen/br9</item>
+    </style>
+    <style name="any">
+        <item name="android:textSize">@dimen/btj</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:paddingLeft">@dimen/bqf</item>
+        <item name="android:paddingTop">@dimen/bp0</item>
+        <item name="android:paddingRight">@dimen/bqf</item>
+        <item name="android:paddingBottom">@dimen/bp0</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_marginTop">@dimen/bqf</item>
+        <item name="android:layout_marginRight">@dimen/bqf</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginEnd">@dimen/bqf</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="anz" parent="@style/agu">
+        <item name="android:layout_marginLeft">@dimen/bqt</item>
+        <item name="android:layout_marginStart">@dimen/bqt</item>
+    </style>
+    <style name="ao0" parent="@style/agr">
+        <item name="android:layout_marginLeft">@dimen/dd_</item>
+        <item name="android:layout_marginStart">@dimen/dd_</item>
+    </style>
+    <style name="ao1" parent="@style/ags">
+        <item name="android:layout_marginRight">@dimen/bmf</item>
+        <item name="android:layout_marginEnd">@dimen/bmf</item>
+    </style>
+    <style name="ao3">
+        <item name="android:layout_marginRight">@dimen/dew</item>
+        <item name="android:layout_marginEnd">@dimen/dew</item>
+    </style>
+    <style name="ao4">
+        <item name="android:layout_marginRight">@dimen/df8</item>
+        <item name="android:layout_marginEnd">@dimen/df8</item>
+    </style>
+    <style name="ao5">
+        <item name="android:layout_marginRight">@dimen/dfb</item>
+        <item name="android:layout_marginEnd">@dimen/dfb</item>
+    </style>
+    <style name="ao6">
+        <item name="android:layout_marginRight">@dimen/dfj</item>
+        <item name="android:layout_marginEnd">@dimen/dfj</item>
+    </style>
+    <style name="ao7">
+        <item name="android:layout_marginRight">@dimen/dfp</item>
+        <item name="android:layout_marginEnd">@dimen/dfp</item>
+    </style>
+    <style name="ao8">
+        <item name="android:layout_marginRight">@dimen/dg2</item>
+        <item name="android:layout_marginEnd">@dimen/dg2</item>
+    </style>
+    <style name="ao9">
+        <item name="android:layout_marginRight">@dimen/dga</item>
+        <item name="android:layout_marginEnd">@dimen/dga</item>
+    </style>
+    <style name="ao_">
+        <item name="android:layout_marginRight">@dimen/dgd</item>
+        <item name="android:layout_marginEnd">@dimen/dgd</item>
+    </style>
+    <style name="aoa">
+        <item name="android:layout_marginRight">@dimen/dgn</item>
+        <item name="android:layout_marginEnd">@dimen/dgn</item>
+    </style>
+    <style name="aob">
+        <item name="android:layout_marginLeft">@dimen/dew</item>
+        <item name="android:layout_marginStart">@dimen/dew</item>
+    </style>
+    <style name="aoc">
+        <item name="android:layout_marginLeft">@dimen/dez</item>
+        <item name="android:layout_marginStart">@dimen/dez</item>
+    </style>
+    <style name="aod">
+        <item name="android:layout_marginLeft">@dimen/dez</item>
+        <item name="android:layout_marginStart">@dimen/dez</item>
+    </style>
+    <style name="aoe">
+        <item name="android:layout_marginLeft">@dimen/df7</item>
+        <item name="android:layout_marginStart">@dimen/df7</item>
+    </style>
+    <style name="aof">
+        <item name="android:layout_marginLeft">@dimen/df8</item>
+        <item name="android:layout_marginStart">@dimen/df8</item>
+    </style>
+    <style name="aog">
+        <item name="android:layout_marginLeft">@dimen/dfy</item>
+        <item name="android:layout_marginStart">@dimen/dfy</item>
+    </style>
+    <style name="aoh">
+        <item name="android:layout_marginLeft">@dimen/dfj</item>
+        <item name="android:layout_marginStart">@dimen/dfj</item>
+    </style>
+    <style name="aoi">
+        <item name="android:layout_marginLeft">@dimen/dga</item>
+        <item name="android:layout_marginStart">@dimen/dga</item>
+    </style>
+    <style name="aoj">
+        <item name="android:layout_marginLeft">@dimen/dgh</item>
+        <item name="android:layout_marginStart">@dimen/dgh</item>
+    </style>
+    <style name="aok">
+        <item name="android:layout_marginLeft">@dimen/dgl</item>
+        <item name="android:layout_marginStart">@dimen/dgl</item>
+    </style>
+    <style name="aol">
+        <item name="android:layout_marginLeft">@dimen/dgn</item>
+        <item name="android:layout_marginStart">@dimen/dgn</item>
+    </style>
+    <style name="aom">
+        <item name="android:paddingLeft">@dimen/dew</item>
+        <item name="android:paddingStart">@dimen/dew</item>
+    </style>
+    <style name="aon" parent="@style/ao3">
+        <item name="android:layout_marginLeft">@dimen/dfj</item>
+        <item name="android:layout_marginStart">@dimen/dfj</item>
+    </style>
+    <style name="aoo" parent="@style/ao5">
+        <item name="android:layout_marginLeft">@dimen/dfj</item>
+        <item name="android:layout_marginStart">@dimen/dfj</item>
+    </style>
+    <style name="aop" parent="@style/ao5">
+        <item name="android:layout_marginLeft">@dimen/dfj</item>
+        <item name="android:layout_marginStart">@dimen/dfj</item>
+    </style>
+    <style name="aor" parent="@style/ags">
+        <item name="android:layout_marginRight">@dimen/bl2</item>
+        <item name="android:layout_marginEnd">@dimen/bl2</item>
+    </style>
+    <style name="aoz">
+        <item name="android:layout_toLeftOf">@id/d5h</item>
+        <item name="android:layout_toRightOf">@id/d5i</item>
+        <item name="android:layout_toStartOf">@id/d5h</item>
+        <item name="android:layout_toEndOf">@id/d5i</item>
+    </style>
+    <style name="ap0">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="ap1">
+        <item name="android:layout_marginRight">@dimen/dje</item>
+        <item name="android:layout_marginEnd">@dimen/dje</item>
+    </style>
+    <style name="ap2">
+        <item name="android:layout_marginLeft">@dimen/bv7</item>
+        <item name="android:layout_marginStart">@dimen/bv7</item>
+    </style>
+    <style name="ap3">
+        <item name="android:layout_marginLeft">@dimen/bv7</item>
+        <item name="android:layout_marginRight">@dimen/bv8</item>
+        <item name="android:layout_toRightOf">@id/b_b</item>
+        <item name="android:layout_marginStart">@dimen/bv7</item>
+        <item name="android:layout_marginEnd">@dimen/bv8</item>
+        <item name="android:layout_toEndOf">@id/b_b</item>
+    </style>
+    <style name="ap4" parent="@style/ags">
+        <item name="android:layout_marginRight">@dimen/bmm</item>
+        <item name="android:layout_marginEnd">@dimen/bmm</item>
+    </style>
+    <style name="ap5" parent="@style/agr">
+        <item name="android:layout_marginLeft">@dimen/blk</item>
+        <item name="android:layout_marginRight">@dimen/bl2</item>
+        <item name="android:layout_marginStart">@dimen/blk</item>
+        <item name="android:layout_marginEnd">@dimen/bl2</item>
+    </style>
+    <style name="ap6">
+        <item name="android:layout_marginRight">@dimen/djo</item>
+        <item name="android:layout_toRightOf">@id/d_2</item>
+        <item name="android:layout_marginEnd">@dimen/djo</item>
+        <item name="android:layout_toEndOf">@id/d_2</item>
+    </style>
+    <style name="ap7">
+        <item name="android:layout_marginLeft">@dimen/bq1</item>
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginStart">@dimen/bq1</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="ap8">
+        <item name="android:layout_marginLeft">@dimen/bl2</item>
+        <item name="android:layout_marginRight">@dimen/bu6</item>
+        <item name="android:layout_marginStart">@dimen/bl2</item>
+        <item name="android:layout_marginEnd">@dimen/bu6</item>
+    </style>
+    <style name="ap9" parent="@style/ahx">
+        <item name="android:layout_marginLeft">@dimen/bl2</item>
+        <item name="android:layout_marginStart">@dimen/bl2</item>
+    </style>
+    <style name="ap_" parent="@style/ahx">
+        <item name="android:layout_marginLeft">@dimen/brl</item>
+        <item name="android:layout_marginStart">@dimen/brl</item>
+    </style>
+    <style name="apa">
+        <item name="android:textSize">@dimen/bsv</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/dn1</item>
+        <item name="android:paddingLeft">@dimen/brt</item>
+        <item name="android:paddingRight">@dimen/brt</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bnj</item>
+        <item name="android:layout_marginRight">@dimen/bl2</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">@dimen/bl2</item>
+    </style>
+    <style name="apb">
+        <item name="android:textSize">@dimen/bsx</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bgk</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/bo3</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">@dimen/bo3</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="apc">
+        <item name="android:layout_width">@dimen/bnj</item>
+        <item name="android:layout_height">@dimen/bnj</item>
+        <item name="android:layout_marginTop">@dimen/bp0</item>
+        <item name="android:layout_marginRight">@dimen/bp0</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginEnd">@dimen/bp0</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="apd" parent="@style/ags">
+        <item name="android:layout_marginStart">@dimen/bpe</item>
+        <item name="android:layout_marginEnd">@dimen/bpe</item>
+    </style>
+    <style name="ape" parent="@style/agr">
+        <item name="android:layout_marginLeft">@dimen/bqm</item>
+        <item name="android:layout_marginStart">@dimen/bqm</item>
+    </style>
+    <style name="aph" parent="@style/aix">
+        <item name="android:layout_marginRight">@dimen/blv</item>
+        <item name="android:layout_marginEnd">@dimen/blv</item>
+    </style>
+    <style name="api" parent="@style/ai3">
+        <item name="android:layout_marginRight">@dimen/bq4</item>
+        <item name="android:layout_toRightOf">@id/aq5</item>
+        <item name="android:layout_marginEnd">@dimen/bq4</item>
+        <item name="android:layout_toEndOf">@id/aq5</item>
+    </style>
+    <style name="apj" parent="@style/pk">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="apk" parent="@style/ah0">
+        <item name="android:layout_marginLeft">@dimen/bqv</item>
+        <item name="android:layout_marginStart">@dimen/bqv</item>
+    </style>
+    <style name="apl" parent="@style/wn">
+        <item name="android:layout_marginLeft">@dimen/dgq</item>
+        <item name="android:layout_marginStart">@dimen/dgq</item>
+    </style>
+    <style name="apn">
+        <item name="android:layout_marginLeft">@dimen/bmm</item>
+        <item name="android:layout_marginRight">@dimen/bl2</item>
+        <item name="android:layout_marginStart">@dimen/bmm</item>
+        <item name="android:layout_marginEnd">@dimen/bl2</item>
+    </style>
+    <style name="app">
+        <item name="android:layout_marginRight">@dimen/c9g</item>
+        <item name="android:layout_marginEnd">@dimen/c9g</item>
+    </style>
+    <style name="apq">
+        <item name="android:layout_marginLeft">@dimen/c9g</item>
+        <item name="android:layout_marginRight">@dimen/c9h</item>
+        <item name="android:layout_marginStart">@dimen/c9g</item>
+        <item name="android:layout_marginEnd">@dimen/c9h</item>
+    </style>
+    <style name="apt">
+        <item name="android:textSize">@dimen/bt1</item>
+        <item name="android:textColor">@color/wh</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/brt</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginStart">@dimen/brt</item>
+    </style>
+    <style name="apv" parent="@style/ags">
+        <item name="android:layout_marginLeft">@dimen/bo8</item>
+        <item name="android:layout_marginRight">@dimen/bmm</item>
+        <item name="android:layout_marginStart">@dimen/bo8</item>
+        <item name="android:layout_marginEnd">@dimen/bmm</item>
+    </style>
+    <style name="apw" parent="@style/q3">
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="am4">
+        <item name="android:layout_marginLeft">@dimen/c54</item>
+        <item name="android:layout_marginRight">@dimen/c2o</item>
+        <item name="android:layout_marginStart">@dimen/c54</item>
+        <item name="android:layout_marginEnd">@dimen/c2o</item>
+    </style>
+    <style name="am2">
+        <item name="android:layout_marginLeft">@dimen/c2k</item>
+        <item name="android:layout_marginStart">@dimen/c2k</item>
+    </style>
+    <style name="am1">
+        <item name="android:layout_marginRight">@dimen/c3j</item>
+        <item name="android:layout_marginEnd">@dimen/c3j</item>
+    </style>
+    <style name="a7n">
+        <item name="android:layout_marginRight">@dimen/dw1</item>
+        <item name="android:layout_marginEnd">@dimen/dw1</item>
+    </style>
+    <style name="a7g">
+        <item name="android:gravity">end</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/bpe</item>
+        <item name="android:layout_marginRight">@dimen/brt</item>
+        <item name="android:layout_marginBottom">@dimen/brt</item>
+        <item name="android:layout_marginEnd">@dimen/brt</item>
+    </style>
+    <style name="a7e">
+        <item name="android:textSize">@dimen/bsx</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bih</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/axl</item>
+        <item name="android:paddingLeft">@dimen/brt</item>
+        <item name="android:paddingRight">@dimen/brt</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bpv</item>
+        <item name="android:layout_marginRight">@dimen/brt</item>
+        <item name="android:minWidth">@dimen/br3</item>
+        <item name="android:layout_marginEnd">@dimen/brt</item>
+    </style>
+    <style name="am3">
+        <item name="android:layout_marginLeft">@dimen/c3j</item>
+        <item name="android:layout_marginStart">@dimen/c3j</item>
+    </style>
+    <style name="am0">
+        <item name="android:layout_marginLeft">@dimen/bmm</item>
+        <item name="android:layout_marginStart">@dimen/bmm</item>
+    </style>
+    <style name="sg">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/bnj</item>
+        <item name="android:layout_marginRight">@dimen/bnj</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginStart">@dimen/bnj</item>
+        <item name="android:layout_marginEnd">@dimen/bnj</item>
+    </style>
+    <style name="a6y">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/bo8</item>
+        <item name="android:paddingRight">@dimen/bo8</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">@dimen/byp</item>
+        <item name="android:paddingStart">@dimen/bo8</item>
+        <item name="android:paddingEnd">@dimen/bo8</item>
+    </style>
+    <style name="EditTextStyle.Alignment" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">start</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="a0e" parent="@android:style/Widget.TextView">
+        <item name="android:textDirection">locale</item>
+    </style>
+</resources>

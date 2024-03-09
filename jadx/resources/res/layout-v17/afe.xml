@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/bra">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bev" android:layout_width="match_parent" android:layout_height="@dimen/bra">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/c92" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginLeft="@dimen/bmm" android:layout_marginStart="@dimen/bmm" app:radius="@dimen/brt" app:rect_radio="1">
+            <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/b2h" android:background="@drawable/bn4" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bvg" android:scaleType="centerCrop" app:night_alpha="@dimen/db2"/>
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/c93" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginLeft="@dimen/bmm" android:layout_marginStart="@dimen/bmm" app:radius="@dimen/brt" app:rect_radio="1">
+            <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/b2o" android:layout_width="@dimen/bvg" android:layout_height="@dimen/bvg" android:scaleType="centerCrop" app:night_alpha="@dimen/db2"/>
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <LinearLayout android:gravity="start|center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="@dimen/bu7" android:layout_marginLeft="@dimen/bl2" android:layout_weight="1" android:layout_marginStart="@dimen/bl2" style="@style/ahq">
+            <TextView android:textSize="@dimen/btn" android:textColor="@color/v9" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/b2w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <LinearLayout android:layout_gravity="start|bottom" android:orientation="horizontal" android:id="@+id/b3c" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/b2l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/cvn" android:visibility="gone" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" style="@style/agu"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/cl0" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bmf" android:src="@drawable/bns" android:layout_marginEnd="@dimen/bmf"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/awp" android:background="@color/bi0" android:layout_width="match_parent" android:layout_height="1px" style="@style/aj3"/>
+</FrameLayout>

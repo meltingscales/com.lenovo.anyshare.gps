@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d77" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:background="@drawable/bkk" android:paddingTop="0.0dip" android:paddingBottom="@dimen/bm3" android:layout_marginLeft="@dimen/bkq" android:layout_marginRight="@dimen/bkq" android:layout_marginBottom="@dimen/bkq" style="@style/q1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/c_c" android:layout_width="fill_parent" android:layout_height="@dimen/bqq" android:layout_marginTop="@dimen/bm3">
+            <ImageView android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/bov" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bmm" android:text="@string/bag" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/c_d" android:layout_width="fill_parent" android:layout_height="@dimen/bqq" android:layout_marginTop="@dimen/bra">
+            <ImageView android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/bow" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bmm" android:text="@string/baf" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/c49" android:padding="@dimen/bmf" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:src="@drawable/bk4" />
+    </FrameLayout>
+</FrameLayout>

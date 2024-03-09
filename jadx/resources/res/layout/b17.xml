@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <ScrollView style="@style/ps">
+        <LinearLayout android:layout_gravity="top|center_horizontal" android:orientation="vertical" android:background="@drawable/cth" android:paddingTop="@dimen/bmm" android:paddingBottom="@dimen/bmm" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj">
+            <TextView android:textSize="@dimen/bt3" android:textColor="@color/b0y" android:paddingLeft="@dimen/bmm" android:paddingRight="@dimen/bmm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/bnj" android:text="@string/b54"/>
+            <GridView android:layout_gravity="top|center_horizontal" android:id="@+id/bsm" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:horizontalSpacing="@dimen/bs3" android:verticalSpacing="@dimen/bnj" android:numColumns="3"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

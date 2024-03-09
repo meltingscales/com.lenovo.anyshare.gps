@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/c3s" android:background="@drawable/aqw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cfd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3">
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_weight="1" android:textAllCaps="true"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/c66" android:visibility="invisible" android:layout_width="@dimen/blb" android:layout_height="@dimen/blb" android:layout_marginLeft="@dimen/bl2" android:src="@drawable/aqb"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cfb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/bm3" android:layout_below="@+id/cfd">
+            <include android:id="@+id/bd2" layout="@layout/awc"/>
+            <include android:id="@+id/dhp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/awd"/>
+            <include android:id="@+id/bd3" layout="@layout/awc"/>
+            <include android:id="@+id/dhq" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/awd"/>
+            <include android:id="@+id/bd4" layout="@layout/awc"/>
+            <include android:id="@+id/dhr" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/awd"/>
+            <include android:id="@+id/bd5" layout="@layout/awc"/>
+            <include android:id="@+id/dhs" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/awd"/>
+            <include android:id="@+id/bd6" layout="@layout/awc"/>
+            <include android:id="@+id/dht" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/awd"/>
+            <include android:id="@+id/bd7" layout="@layout/awc"/>
+            <include android:id="@+id/dhu" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/awd"/>
+            <include android:id="@+id/bd8" layout="@layout/awc"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cfc" android:background="@drawable/aq9" android:layout_width="match_parent" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:layout_below="@+id/cfb">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/dmq" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_margin="@dimen/br9"/>
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/a06" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/dmr" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/a38" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dmp" android:background="@drawable/aps" android:layout_width="@dimen/brh" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:textAllCaps="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="c">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">Элементы: %1$d</item>
+        <item quantity="zero">%1$d элементов</item>
+        <item quantity="one">%1$d элемент</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%1$d файлов, всего %2$s</item>
+        <item quantity="zero">%1$d файлов, всего %2$s</item>
+        <item quantity="one">%1$d файл, всего %2$s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/ps"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/a4h" android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bno" android:layout_marginRight="@dimen/bo8" android:text="@string/ad9" />
+        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/xl" android:layout_gravity="center_horizontal" android:id="@id/apw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bla" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bl4" android:text="@string/bba" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textStyle="bold" android:textColor="@color/a3s" android:layout_gravity="center_horizontal" android:id="@id/bb9" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bm3" android:text="@string/ad6" style="@style/w1" />
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wg" android:layout_gravity="center_horizontal" android:id="@id/b0q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnj" android:text="@string/dgv" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

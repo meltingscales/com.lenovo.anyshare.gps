@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/c3q" android:layout_width="fill_parent" android:layout_height="@dimen/br7" android:src="@drawable/ah3" android:scaleType="fitXY" app:a1g="csi" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/c4k" android:padding="@dimen/bqv" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:src="@drawable/afd" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/blk" app:a0o="@id/c3q" app:a0u="@id/dui" app:a1g="@id/c3q" />
+    <EditText android:textSize="@dimen/bsz" android:textColor="@color/w4" android:textColorHint="@color/zw" android:gravity="center_vertical" android:id="@id/bjt" android:background="@null" android:layout_width="0.0dip" android:layout_height="0.0dip" android:hint="@string/cmb" android:singleLine="true" android:inputType="text" android:layout_marginStart="@dimen/bo8" app:a0o="@id/c3q" app:a0v="@id/c4k" app:a1c="@id/c3q" app:a1g="@id/c3q" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/bsx" android:textColor="@color/zw" android:id="@id/dui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqf" android:layout_marginEnd="@dimen/bl2" app:a0u="@id/c3q" app:a1f="@id/c3q" />
+</androidx.constraintlayout.widget.ConstraintLayout>

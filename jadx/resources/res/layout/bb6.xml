@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/der" android:background="@drawable/djk" android:paddingTop="@dimen/brl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-1dp">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/v9" android:ellipsize="end" android:id="@+id/deq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:maxLines="3"/>
+        <View android:background="#4d979797" android:layout_width="match_parent" android:layout_height="@dimen/bko" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bmm"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmw" android:layout_marginBottom="@dimen/blk">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/bq7" android:layout_marginLeft="@dimen/bn4">
+                <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:id="@+id/dex" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" app:radius="@dimen/brt" app:rect_radio="1">
+                    <ImageView android:layout_gravity="center" android:id="@+id/dej" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/au3" android:scaleType="centerCrop"/>
+                </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_weight="1">
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/wu" android:ellipsize="end" android:id="@+id/del" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textSize="@dimen/doh" android:textColor="@color/ye" android:id="@+id/deh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bm3">
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/a0j" android:gravity="center" android:layout_gravity="center" android:id="@+id/bw9" android:background="@drawable/agv" android:layout_width="@dimen/bl9" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginRight="@dimen/brl" android:minHeight="@dimen/bow" android:text="@string/dff" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:layout_gravity="center" android:id="@+id/bw8" android:background="@drawable/agy" android:layout_width="@dimen/bl9" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginRight="@dimen/bn4" android:minHeight="@dimen/bow" android:text="@string/asy" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

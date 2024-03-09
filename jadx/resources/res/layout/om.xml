@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a87" android:visibility="invisible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="@dimen/aqh">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+        <View android:layout_gravity="bottom" android:id="@+id/um" android:background="@drawable/a4n" android:visibility="visible" android:layout_width="@dimen/ats" android:layout_height="@dimen/bw3" android:layout_marginBottom="@dimen/arj"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/a__" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/aq3" style="@style/als"/>
+    </FrameLayout>
+</HorizontalScrollView>

@@ -1,0 +1,24 @@
+package com.lenovo.anyshare;
+
+import com.lenovo.anyshare.OUi;
+import java.util.HashMap;
+
+/* renamed from: com.lenovo.anyshare.rWi  reason: case insensitive filesystem */
+/* loaded from: classes8.dex */
+public class C19191rWi implements OUi.a {
+
+    /* renamed from: a  reason: collision with root package name */
+    public final /* synthetic */ HashMap f26126a;
+    public final /* synthetic */ C22856xWi b;
+
+    public C19191rWi(C22856xWi c22856xWi, HashMap hashMap) {
+        this.b = c22856xWi;
+        this.f26126a = hashMap;
+    }
+
+    @Override // com.lenovo.anyshare.OUi.a
+    public boolean a(int i, String str) {
+        this.f26126a.put(String.format("trace%d", Integer.valueOf(i)), str);
+        return i < 1;
+    }
+}

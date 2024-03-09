@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.listplayer.widget.RatioByWidthImageView android:id="@+id/aw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/gp" android:padding="@dimen/e4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/db" android:scaleType="fitCenter"/>
+</merge>

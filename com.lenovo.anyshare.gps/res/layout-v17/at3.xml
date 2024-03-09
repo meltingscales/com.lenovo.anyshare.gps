@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/c9d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/d6v" android:background="@drawable/cau" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/aso" />
+        <TextView android:textSize="@dimen/cyv" android:textColor="@color/auo" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center" android:id="@id/ck2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx_" android:layout_marginRight="@dimen/ctn" android:layout_marginBottom="@dimen/cv3" android:maxLines="4" android:layout_marginStart="@dimen/cx_" android:layout_marginEnd="@dimen/ctn" />
+        <include android:id="@id/b_e" android:visibility="gone" layout="@layout/at4" />
+        <include android:id="@id/b_f" android:visibility="gone" layout="@layout/at4" />
+        <include android:layout_marginTop="@dimen/cuu" layout="@layout/asm" />
+    </LinearLayout>
+</FrameLayout>

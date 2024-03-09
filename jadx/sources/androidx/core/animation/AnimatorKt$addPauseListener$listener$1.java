@@ -1,0 +1,32 @@
+package androidx.core.animation;
+
+import android.animation.Animator;
+import com.lenovo.anyshare.C11440emk;
+import com.lenovo.anyshare.InterfaceC16940nlk;
+import com.lenovo.anyshare.Kfk;
+import com.lenovo.anyshare.Rek;
+
+@Rek(d1 = {"\u0000\u0019\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002*\u0001\u0000\b\n\u0018\u00002\u00020\u0001J\u0010\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H\u0016J\u0010\u0010\u0006\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H\u0016¨\u0006\u0007"}, d2 = {"androidx/core/animation/AnimatorKt$addPauseListener$listener$1", "Landroid/animation/Animator$AnimatorPauseListener;", "onAnimationPause", "", "animator", "Landroid/animation/Animator;", "onAnimationResume", "core-ktx_release"}, k = 1, mv = {1, 5, 1}, xi = 48)
+/* loaded from: classes.dex */
+public final class AnimatorKt$addPauseListener$listener$1 implements Animator.AnimatorPauseListener {
+    public final /* synthetic */ InterfaceC16940nlk<Animator, Kfk> $onPause;
+    public final /* synthetic */ InterfaceC16940nlk<Animator, Kfk> $onResume;
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public AnimatorKt$addPauseListener$listener$1(InterfaceC16940nlk<? super Animator, Kfk> interfaceC16940nlk, InterfaceC16940nlk<? super Animator, Kfk> interfaceC16940nlk2) {
+        this.$onPause = interfaceC16940nlk;
+        this.$onResume = interfaceC16940nlk2;
+    }
+
+    @Override // android.animation.Animator.AnimatorPauseListener
+    public void onAnimationPause(Animator animator) {
+        C11440emk.e(animator, "animator");
+        this.$onPause.invoke(animator);
+    }
+
+    @Override // android.animation.Animator.AnimatorPauseListener
+    public void onAnimationResume(Animator animator) {
+        C11440emk.e(animator, "animator");
+        this.$onResume.invoke(animator);
+    }
+}

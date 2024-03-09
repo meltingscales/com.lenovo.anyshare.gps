@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/c98" android:background="@drawable/c25" android:paddingLeft="@dimen/cgj" android:paddingTop="@dimen/cgj" android:paddingRight="@dimen/cgk" android:paddingBottom="@dimen/cgj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ch0" android:layout_marginRight="@dimen/ch0"/>
+</com.ushareit.mcds.ui.view.McdsFrameLayout>

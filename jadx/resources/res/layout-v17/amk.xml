@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@+id/d6b" android:layout_width="match_parent" android:layout_height="@dimen/bqd">
+        <RelativeLayout android:id="@+id/d6o" android:background="@drawable/c2z" android:layout_width="wrap_content" android:layout_height="@dimen/bok" android:layout_marginLeft="@dimen/bm3" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bm3">
+            <ImageView android:id="@+id/cio" android:layout_width="@dimen/bok" android:layout_height="@dimen/bok" android:src="@drawable/au4"/>
+            <TextView android:textSize="@dimen/bsx" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/cir" android:paddingLeft="@dimen/brl" android:paddingRight="@dimen/brl" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bp0" android:layout_marginRight="@dimen/bqv" android:maxWidth="@dimen/bpk" android:text="HI Friends" android:maxEms="10" android:singleLine="true" android:layout_toRightOf="@+id/cio" android:layout_centerVertical="true" android:paddingStart="@dimen/brl" android:paddingEnd="@dimen/brl" android:layout_marginStart="@dimen/bp0" android:layout_marginEnd="@dimen/bqv" android:layout_toEndOf="@+id/cio"/>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <ImageView android:id="@+id/cib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginRight="@dimen/brt" android:src="@drawable/c2v" android:layout_marginStart="@dimen/brt" android:layout_marginEnd="@dimen/brt"/>
+            <ImageView android:layout_gravity="end" android:id="@+id/c7v" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/brt" android:src="@drawable/d0v" android:layout_marginEnd="@dimen/brt"/>
+            <TextView android:layout_gravity="end" android:id="@+id/dyg" android:background="@drawable/amp" android:visibility="gone" android:layout_width="@dimen/brt" android:layout_height="@dimen/brt" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/brt" android:layout_marginEnd="@dimen/brt"/>
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

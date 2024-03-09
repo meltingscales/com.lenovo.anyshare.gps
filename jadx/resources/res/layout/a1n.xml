@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.lenovo.anyshare.content.ContentPagersTitleBar android:id="@+id/dqh" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/aod" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/bkq">
+            <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@+id/cit" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:layout_gravity="end" android:id="@+id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj"/>
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@+id/bb7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/b3u" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/a93"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/b23" android:paddingTop="@dimen/c1b" android:paddingBottom="@dimen/c1b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ushareit.downloader.search.widget.DownloaderSearchView android:id="@id/bgt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1b" android:layout_marginRight="@dimen/c1b" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/d_9" android:paddingLeft="@dimen/c0r" android:paddingRight="@dimen/c0r" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c13" />
+    </LinearLayout>
+</FrameLayout>

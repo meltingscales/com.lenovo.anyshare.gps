@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/bx9" android:padding="@dimen/cgu" android:layout_width="@dimen/cgy" android:layout_height="@dimen/cgy" android:layout_marginTop="@dimen/cgh" android:layout_centerHorizontal="true">
+        <com.ushareit.widget.RoundFrameLayout android:layout_width="@dimen/cgx" android:layout_height="@dimen/cgx" app:a_7="@dimen/br9">
+            <ImageView android:id="@id/bwy" android:layout_width="@dimen/cgx" android:layout_height="@dimen/cgx" android:scaleType="fitXY" />
+        </com.ushareit.widget.RoundFrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/aom" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_marginBottom="@dimen/bq1" android:src="@drawable/agp" android:layout_alignBottom="@id/bx9" android:layout_marginEnd="@dimen/bq1" android:layout_alignEnd="@id/bx9" />
+    <TextView android:textSize="@dimen/chb" android:textColor="@color/at4" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cgd" android:maxWidth="@dimen/ch8" android:text="title" android:maxLines="1" android:layout_below="@id/bx9" android:layout_centerHorizontal="true" />
+</RelativeLayout>

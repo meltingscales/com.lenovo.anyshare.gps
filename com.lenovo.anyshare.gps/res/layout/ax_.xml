@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/d77" android:layout_width="fill_parent" android:layout_height="256.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/ic_launcher" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginLeft="@dimen/blv" android:layout_marginTop="@dimen/bm3" />
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpv" android:layout_marginTop="@dimen/blv" android:text="@string/c5c" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/dce" android:padding="@dimen/bqv" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_margin="@dimen/bqv" android:src="@drawable/d1o" />
+    <ImageView android:background="@drawable/d1n" android:layout_width="fill_parent" android:layout_height="@dimen/bro" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bqd" android:layout_marginRight="@dimen/bm3" />
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="143.0dip" android:layout_marginRight="@dimen/bm3" android:text="@string/c5a" android:maxLines="2" />
+    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bm3" android:layout_marginBottom="@dimen/bnj">
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ye" android:id="@id/b0t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c5_" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:id="@id/cqf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:text="@string/c5b" />
+    </LinearLayout>
+</FrameLayout>

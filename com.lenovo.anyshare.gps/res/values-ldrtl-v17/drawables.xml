@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="c1x">@drawable/c1w</item>
+    <item type="drawable" name="c1y">@drawable/c1z</item>
+</resources>

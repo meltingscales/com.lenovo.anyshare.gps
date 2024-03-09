@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/z3" android:background="@color/l9" android:paddingTop="@dimen/an7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="@dimen/ao5" android:paddingRight="@dimen/ao5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/atd" android:textStyle="bold" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/adg" android:background="@drawable/a5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aq3" android:layout_marginRight="@dimen/aq3"/>
+        <com.ushareit.muslim.quran.widget.CustomTextView android:textSize="@dimen/at2" android:textStyle="bold" android:textColor="@color/ij" android:gravity="center_vertical" android:id="@+id/adq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/aoa" android:textIsSelectable="true"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/ass" android:textColor="@color/iy" android:id="@+id/adp" android:paddingLeft="@dimen/ao5" android:paddingRight="@dimen/ao5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aq3" android:textIsSelectable="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="end|fill_vertical" android:id="@+id/a11" android:paddingTop="@dimen/arr" android:paddingBottom="@dimen/arr" android:layout_width="@dimen/aqa" android:layout_height="@dimen/aqa" android:layout_marginRight="@dimen/aon" android:src="@drawable/a4u"/>
+        <ImageView android:layout_gravity="end|fill_vertical" android:id="@+id/a1f" android:paddingTop="@dimen/arr" android:paddingBottom="@dimen/arr" android:layout_width="@dimen/aqa" android:layout_height="@dimen/aqa" android:layout_marginRight="@dimen/ard" android:src="@drawable/u_"/>
+    </FrameLayout>
+    <View android:id="@+id/ael" android:background="#66979797" android:layout_width="wrap_content" android:layout_height="@dimen/ao0" android:layout_marginTop="@dimen/arr" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/zv"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/coy" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" android:src="@drawable/dqi" android:scaleType="centerCrop" app:a0o="csi" app:a1c="csi" app:a1g="csi" />
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/dxg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/brt" android:maxLines="2" android:layout_marginStart="@dimen/br9" android:layout_marginEnd="@dimen/brt" app:a0o="csi" app:a0v="@id/b0_" app:a1b="@id/coy" app:a1g="csi" app:a1s="@dimen/bkq" app:a1u="@dimen/bkq" />
+    <TextView android:textStyle="bold" android:textColor="@color/a7_" android:gravity="center" android:id="@id/b0_" android:background="@drawable/arm" android:layout_width="@dimen/brf" android:layout_height="@dimen/bpe" android:text="@string/asf" android:textAllCaps="true" app:a0o="csi" app:a0u="csi" app:a1b="@id/dxg" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

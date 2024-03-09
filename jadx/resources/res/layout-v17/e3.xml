@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/brm" android:layout_marginTop="@dimen/iv" android:layout_marginBottom="@dimen/iv">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ky" android:background="@drawable/gj" android:layout_width="match_parent" android:layout_height="@dimen/brm" android:layout_toLeftOf="@+id/mi" android:layout_toStartOf="@+id/mi">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bqj" android:layout_marginLeft="@dimen/bmf" android:src="@drawable/hd" android:layout_marginStart="@dimen/bmf"/>
+        <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/ef" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/iv" android:text="@string/jv" android:layout_marginStart="@dimen/iv"/>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:id="@+id/mi" android:layout_width="@dimen/iv" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/l2" android:background="@drawable/gj" android:layout_width="match_parent" android:layout_height="@dimen/brm" android:layout_toRightOf="@+id/mi" android:layout_toEndOf="@+id/mi">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bqj" android:layout_marginLeft="@dimen/bmf" android:src="@drawable/hf" android:layout_marginStart="@dimen/bmf"/>
+        <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/ef" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/iv" android:text="@string/l2" android:layout_marginStart="@dimen/iv"/>
+    </LinearLayout>
+</RelativeLayout>

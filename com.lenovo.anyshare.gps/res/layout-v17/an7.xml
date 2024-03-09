@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButtonToggleGroup android:orientation="vertical" android:id="@id/cgw" android:visibility="gone" android:layout_width="@dimen/cfh" android:layout_height="@dimen/cff" android:contentDescription="@string/bvg" android:layout_marginStart="@dimen/cfg" app:ni="@id/cgu" app:a1b="@id/cgr" app:a1g="csi" app:aas="true" app:adn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/cgu" android:layout_width="wrap_content" android:text="@string/bvs" android:insetTop="8.0dip" app:aay="?aax" style="?a44" />
+    <com.google.android.material.button.MaterialButton android:id="@id/cgv" android:layout_width="wrap_content" android:text="@string/bvw" android:insetBottom="8.0dip" app:aay="?aax" style="?a44" />
+</com.google.android.material.button.MaterialButtonToggleGroup>

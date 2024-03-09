@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="@dimen/bqf" android:paddingRight="@dimen/bqf" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.theme.night.view.NightLinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/aw5" android:paddingLeft="@dimen/bno" android:paddingTop="@dimen/br9" android:paddingRight="@dimen/bno" android:paddingBottom="@dimen/brt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/brp" app:night_bg_color_tint="@color/afs">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@+id/ar1" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:src="@drawable/aw3" app:night_alpha="@dimen/db2" style="@style/ahx"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bsw" android:textColor="@color/w4" android:gravity="start|center_vertical" android:id="@+id/ar2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/buv" android:layout_weight="1"/>
+                <TextView android:textSize="@dimen/bsw" android:textColor="@color/ag3" android:gravity="end|center_vertical" android:id="@+id/ar0" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/ar3" android:layout_width="match_parent" android:layout_height="@dimen/buw" android:layout_marginBottom="@dimen/bux" android:max="100" android:progress="50" android:progressDrawable="@drawable/aw2" style="?android:attr/progressBarStyleHorizontal"/>
+        </LinearLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avz" app:night_color_tint="@color/w4" style="@style/aii"/>
+    </com.ushareit.theme.night.view.NightLinearLayout>
+</LinearLayout>

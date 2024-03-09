@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/e77" android:background="@drawable/buq" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="match_parent" android:layout_height="@dimen/brx">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/bx9" android:layout_width="@dimen/cdz" android:layout_height="@dimen/cdz" android:layout_centerVertical="true" app:radius="@dimen/cdq" app:rect_radio="1">
+        <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bup" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/bxr" android:visibility="gone" android:layout_width="@dimen/bo3" android:layout_height="@dimen/bok" android:src="@drawable/bus"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/bkq" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_weight="1">
+        <TextView android:textSize="@dimen/cdw" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/xl" android:ellipsize="end" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:maxLines="1"/>
+    </LinearLayout>
+    <com.ushareit.widget.RoundFrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:radius="@dimen/br9">
+        <TextView android:textSize="@dimen/cdn" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:id="@+id/axp" android:background="@drawable/ary" android:paddingLeft="@dimen/bqf" android:paddingRight="@dimen/bqf" android:layout_width="wrap_content" android:layout_height="@dimen/bp7" android:minWidth="@dimen/brh"/>
+    </com.ushareit.widget.RoundFrameLayout>
+</LinearLayout>

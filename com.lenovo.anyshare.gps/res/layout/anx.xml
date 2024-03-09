@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsFrameLayout android:id="@id/d6v" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.mcds.ui.view.gallery.GalleryRoundFrameLayout android:id="@id/bcy" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/ch3">
+        <com.ushareit.mcds.ui.view.gallery.CyclicViewPager android:id="@id/bcz" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.ushareit.mcds.ui.view.gallery.CirclePageIndicator android:layout_gravity="bottom|center" android:id="@id/bzs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cgw" app:yg="@drawable/c24" app:yh="@dimen/cgw" app:yj="@dimen/cgu" app:yk="@dimen/cgw" />
+    </com.ushareit.mcds.ui.view.gallery.GalleryRoundFrameLayout>
+</com.ushareit.mcds.ui.view.McdsFrameLayout>

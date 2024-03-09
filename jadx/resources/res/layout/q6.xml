@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="50dp">
+    <include android:id="@+id/agh" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/agf" layout="@layout/q5"/>
+    <Button android:textSize="15sp" android:id="@+id/agf" android:layout_width="74dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gr"/>
+</RelativeLayout>

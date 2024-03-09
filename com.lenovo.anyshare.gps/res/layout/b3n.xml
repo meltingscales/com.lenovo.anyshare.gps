@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/d3y" android:paddingTop="@dimen/bnj" android:paddingBottom="@dimen/bok" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/cqs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:text="@string/c2u" />
+    <ImageView android:id="@id/b75" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bn4" android:src="@drawable/d3z" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@id/d2d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginTop="@dimen/bnv" android:text="@string/c2t" android:layout_below="@id/cqs" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/d2c" android:background="@drawable/d41" android:padding="@dimen/blk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bn4" android:layout_below="@id/d2d">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@id/c_9" android:layout_width="@dimen/bqm" android:layout_height="@dimen/bqm" app:a_7="@dimen/blk" app:a_j="1.0">
+            <ImageView android:id="@id/dgs" android:layout_width="@dimen/bqm" android:layout_height="@dimen/bqm" android:src="@drawable/ar8" android:scaleType="centerCrop" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <TextView android:textStyle="bold" android:textColor="@color/a5o" android:gravity="center" android:id="@id/dgt" android:background="@drawable/aro" android:layout_width="@dimen/br7" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/blk" android:text="@string/asb" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/bsy" android:textColor="#ff191919" android:id="@id/dgu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:singleLine="true" android:layout_toLeftOf="@id/dgt" android:layout_toRightOf="@id/c_9" android:layout_alignTop="@id/c_9" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:id="@id/dgr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:maxLines="2" android:layout_toLeftOf="@id/dgt" android:layout_toRightOf="@id/c_9" android:layout_below="@id/dgu" android:layout_alignLeft="@id/dgu" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@id/crd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginTop="@dimen/bnv" android:text="@string/c2s" android:layout_below="@id/d2c" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/crc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/blk" android:layout_below="@id/crd">
+        <include android:id="@id/c0z" android:visibility="invisible" layout="@layout/b3o" />
+        <include android:id="@id/c10" android:visibility="invisible" layout="@layout/b3o" />
+        <include android:id="@id/c11" android:visibility="invisible" layout="@layout/b3o" />
+        <include android:id="@id/c12" android:visibility="invisible" layout="@layout/b3o" />
+    </LinearLayout>
+</RelativeLayout>

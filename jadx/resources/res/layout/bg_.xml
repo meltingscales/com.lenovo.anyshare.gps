@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/e9p" android:background="@color/tc" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@+id/e8_" android:background="@drawable/an4" android:paddingBottom="@dimen/e1v" android:layout_width="match_parent" android:layout_height="400dp">
+        <TextView android:textSize="@dimen/e6z" android:textStyle="bold" android:textColor="#0f0f0f" android:id="@+id/e8k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e14" android:layout_marginTop="@dimen/e3a" android:text="@string/dwj" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ImageView android:id="@+id/e88" android:padding="@dimen/df5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dvw" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <androidx.core.widget.NestedScrollView android:paddingBottom="@dimen/dzm" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="@dimen/e14" android:layout_marginTop="@dimen/e2p" android:layout_marginRight="@dimen/e14" app:layout_constraintBottom_toTopOf="@+id/e8f" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/e8k">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ushareit.shop.ad.widget.PriceFilterView android:id="@+id/e9r" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/e8g" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bok">
+                    <TextView android:textSize="@dimen/e6t" android:textColor="@color/bj_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dwp"/>
+                    <com.ushareit.widget.flowlayout.TagFlowLayout android:id="@+id/e8h" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e02" app:height_space="@dimen/e02" app:width_space="@dimen/e14"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/e8i" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bok">
+                    <TextView android:textSize="@dimen/e6t" android:textColor="@color/bj_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dwk"/>
+                    <com.ushareit.widget.flowlayout.TagFlowLayout android:id="@+id/e8j" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e1i" app:height_space="@dimen/e02" app:width_space="@dimen/e14"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <TextView android:textColor="@color/bkb" android:gravity="center" android:id="@+id/e8f" android:background="@drawable/dvk" android:layout_width="@dimen/dz_" android:layout_height="@dimen/e3q" android:layout_marginLeft="@dimen/e14" android:text="@string/dwn" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/e89" app:layout_constraintStart_toStartOf="0"/>
+        <TextView android:textColor="@color/bkz" android:gravity="center" android:id="@+id/e89" android:background="@drawable/dvh" android:layout_width="0dp" android:layout_height="@dimen/e3q" android:layout_marginLeft="@dimen/e14" android:layout_marginRight="@dimen/e14" android:text="@string/dwj" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/e8f"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

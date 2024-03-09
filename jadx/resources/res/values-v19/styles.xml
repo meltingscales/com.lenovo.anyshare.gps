@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f6" parent="@style/a3j">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="anm">false</item>
+        <item name="anv">true</item>
+    </style>
+    <style name="anythink_myoffer_half_screen" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="anythink_transparent_theme" parent="@style/anythink_reward_theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="tt_full_screen" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/tt_black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="tt_full_screen_interaction" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/tt_full_interaction_dialog_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="tt_full_screen_new" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/tt_full_interaction_dialog_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="tt_landing_page" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/tt_white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="a12" parent="@style/a10">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dropDownListViewStyle">@style/qk</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:listPopupWindowStyle">@style/rb</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="a1_" parent="@style/a16">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="a1c" parent="@style/a14">
+        <item name="android:windowBackground">@color/bj1</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="a6g" parent="@style/a10">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dropDownListViewStyle">@style/qk</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:listPopupWindowStyle">@style/rb</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="a6t" parent="@style/a15">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="a6v" parent="@style/a10">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

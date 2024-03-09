@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Əsas</string>
+    <string name="a98">Başlıq</string>
+    <string name="a99">Media Paneli</string>
+    <string name="a9_">İcazə verin</string>
+    <string name="a9a">İcazə verməyin</string>
+    <string name="a9b">Tətbiqə sizə bildirişlər göndərmək icazəsi verilsin?</string>
+    <string name="a9c">Reklamı açmaq üçün toxunun</string>
+    <string name="a9d">Oflayn olduqda yadda saxladığınız reklama baxın</string>
+    <string name="a9e">OK</string>
+    <string name="a9f">Yenidən onlayn olduqda keçid olan bildiriş alacaqsınız</string>
+    <string name="a9g">Xeyr, təşəkkür</string>
+    <string name="a9h">Sizə reklamçının saytına keçid olan bildiriş göndərəcəyik.</string>
+    <string name="a9i">Yenidən onlayn olduqda reklamı açın.</string>
+    <string name="a9j">Şəkli yadda saxlayın</string>
+    <string name="a9k">Reklama təsvirləri Şəkil qalereyasında saxlamağa icazə verilsin?</string>
+    <string name="a9l">Qəbul edin</string>
+    <string name="a9m">Rədd edin</string>
+    <string name="a9n">Təqvim tədbiri yaradın</string>
+    <string name="a9o">Təqvim tədbiri yaratmaq üçün Reklama icazə verilsin?</string>
+    <string name="a9p">Test Reklamı</string>
+    <string name="a9q">AdMob -</string>
+</resources>

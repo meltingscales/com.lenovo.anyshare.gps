@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/ag9"/>
+        <FrameLayout android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.ushareit.filemanager.zipexplorer.page.LocalZipPage android:id="@+id/bb6" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ViewStub android:layout_gravity="end|top" android:id="@+id/bn3" android:fitsSystemWindows="true" android:layout="@layout/agc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo3" android:layoutDirection="ltr"/>
+        </FrameLayout>
+        <com.ushareit.filemanager.zipexplorer.widget.ZipFileBottomMenuView android:id="@+id/bm5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ViewStub android:id="@+id/auv" android:layout="@layout/a_t" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

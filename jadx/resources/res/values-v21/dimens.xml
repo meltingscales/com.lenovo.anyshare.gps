@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cdc">0.32</dimen>
+    <dimen name="cdd">0.24</dimen>
+    <dimen name="cde">0.16</dimen>
+    <dimen name="cdf">0.24</dimen>
+    <dimen name="d7u">0dp</dimen>
+    <dimen name="d8f">1dp</dimen>
+    <dimen name="d92">0.48</dimen>
+    <dimen name="d93">0.48</dimen>
+    <dimen name="d94">0.16</dimen>
+    <dimen name="d95">0.48</dimen>
+    <dimen name="d97">0.24</dimen>
+    <dimen name="d98">0.24</dimen>
+    <dimen name="d99">0.08</dimen>
+    <dimen name="d9_">0.24</dimen>
+    <dimen name="dbh">0dp</dimen>
+    <dimen name="dbk">0dp</dimen>
+    <dimen name="dbl">12dp</dimen>
+</resources>

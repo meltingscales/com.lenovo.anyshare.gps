@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cb8" android:background="@color/a2b" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bhx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bzy">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cia" app:a75="@dimen/db2" />
+        <TextView android:textSize="@dimen/btn" android:textColor="@color/xl" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bhz" android:paddingLeft="@dimen/bzq" android:paddingRight="@dimen/bzq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bzp" android:text="@string/awm" />
+    </LinearLayout>
+    <com.ushareit.widget.CommonContentPagesSwitchBar android:id="@id/dqj" android:paddingTop="@dimen/bs3" android:paddingBottom="@dimen/bs3" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:gravity="center_horizontal" android:id="@id/aod" android:background="@drawable/cg_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/bl2">
+        <com.lenovo.anyshare.download.ui.view.RoundFrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/bl2">
+            <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@id/cit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.lenovo.anyshare.download.ui.view.RoundFrameLayout>
+        <FrameLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bcs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/aom" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_margin="5.0dip" android:src="@drawable/bbe" />
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/e59" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:visibility="gone" layout="@layout/awi" />
+    <ViewStub android:id="@id/auv" android:layout="@layout/awu" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

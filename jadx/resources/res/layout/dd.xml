@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/j5" android:layout_width="match_parent" android:layout_height="@dimen/j1">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/j3" android:background="@drawable/gv" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="#99ffffff" style="@style/aj7"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/ep" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bn6" android:singleLine="true" android:drawablePadding="5dp" app:night_tv_text_color="#99ffffff" style="@style/alh"/>
+    </FrameLayout>
+    <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@+id/j7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/j5"/>
+    <ImageView android:id="@+id/j2" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:layout_marginLeft="@dimen/bow" android:layout_marginBottom="@dimen/bow" android:src="@drawable/gm" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/j1" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:layout_marginRight="@dimen/bow" android:layout_marginBottom="@dimen/bow" android:src="@drawable/gk" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

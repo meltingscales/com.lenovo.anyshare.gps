@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@+id/ceu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bl2" android:text="@string/cfm" android:layout_toLeftOf="@+id/d_u" android:layout_below="@+id/b8q" android:layout_centerVertical="true"/>

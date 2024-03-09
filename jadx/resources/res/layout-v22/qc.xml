@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@android:color/white" android:layout_width="320dp" android:layout_height="50dp">
+    <RelativeLayout android:id="@+id/agl" android:layout_width="50dp" android:layout_height="320dp" android:transformPivotX="25dp" android:transformPivotY="25dp" android:rotation="270">
+        <LinearLayout android:orientation="vertical" android:id="@+id/agk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <FrameLayout android:id="@+id/ago" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/agj" style="@style/gf">
+                <ImageView android:id="@+id/agi" style="@style/gf"/>
+            </FrameLayout>
+            <TextView android:layout_margin="2dp" style="@style/h1"/>
+            <TextView android:gravity="center" android:id="@+id/agq" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="2dp" style="@style/h5"/>
+            <TextView android:gravity="center" android:id="@+id/agc" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="2dp" style="@style/h4"/>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@+id/age" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="2dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/agf" android:layout_below="@+id/agk" android:paddingHorizontal="2dp" android:paddingVertical="2dp" style="@style/h4"/>
+        <Button android:textSize="12sp" android:id="@+id/agf" android:padding="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginRight="1dp" android:layout_marginBottom="3dp" android:minWidth="0dp" android:minHeight="0dp" android:singleLine="false" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:layout_marginHorizontal="1dp" style="@style/gr"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/afs">
+        <View android:id="@id/e2k" android:layout_width="fill_parent" android:layout_height="@dimen/blk" />
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/de1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bq4" android:layout_marginBottom="@dimen/bm3" android:text="Today(10)" android:maxLines="1" android:layout_below="@id/e2k" android:layout_marginEnd="@dimen/bq4" />
+        <FrameLayout android:id="@id/de3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqf" android:layout_centerVertical="true" style="@style/ags">
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/de0" android:paddingLeft="@dimen/bl2" android:paddingTop="@dimen/bl2" android:paddingBottom="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" android:src="@drawable/as1" android:paddingStart="@dimen/bl2" app:a7f="@dimen/db2" />
+        </FrameLayout>
+    </com.ushareit.theme.night.view.NightRelativeLayout>
+</FrameLayout>

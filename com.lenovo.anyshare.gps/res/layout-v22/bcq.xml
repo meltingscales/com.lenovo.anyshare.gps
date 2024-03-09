@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dev" android:paddingTop="@dimen/bo8" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/q1">
+        <TextView android:ellipsize="end" android:id="@id/title_text" android:layout_marginBottom="@dimen/bkq" android:text="@string/dnb" android:maxLines="2" style="@style/q7" />
+        <TextView android:ellipsize="end" android:id="@id/cl9" android:layout_marginTop="@dimen/bmm" android:text="@string/dna" android:maxLines="4" style="@style/pr" />
+        <com.ushareit.widget.RoundFrameLayout android:id="@id/b1m" android:layout_width="fill_parent" android:layout_height="@dimen/bld" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bo8" android:layout_marginHorizontal="@dimen/bo8" app:a_7="@dimen/bl2">
+            <ImageView android:layout_gravity="center" android:id="@id/b1l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/b1i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+        </com.ushareit.widget.RoundFrameLayout>
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@id/d0j" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/dnc" />
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:id="@id/d0i" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bl2" android:text="@string/arp" />
+    </LinearLayout>
+</LinearLayout>

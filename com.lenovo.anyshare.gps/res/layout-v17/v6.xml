@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/d6v" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/cxi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <View android:id="@id/dr8" android:layout_width="@dimen/bnc" android:layout_height="@dimen/bpr" />
+        <View android:id="@id/asy" android:background="@drawable/ahd" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginRight="@dimen/boz" android:layout_below="@id/dr8" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/boz" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/bsw" android:textColor="#ffffffff" android:gravity="left" android:id="@id/bld" android:background="@drawable/ahe" android:padding="@dimen/bm3" android:paddingTop="@dimen/bl2" android:layout_width="183.0dip" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:text="@string/ads_feedback_guide" android:layout_below="@id/asy" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

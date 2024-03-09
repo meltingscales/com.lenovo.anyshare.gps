@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/do5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/bc9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="#ffeaeaea" android:scaleType="fitCenter" />
+    <include layout="@layout/wr" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/cyc" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" style="@style/ag_" />
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/cka" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/akz" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/bzg" android:padding="6.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/al2" />
+    <FrameLayout android:id="@id/bng" android:background="#b2000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/dub" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/akv" android:drawablePadding="6.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="start|bottom|center" android:id="@id/dyq" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adshonor_common_operate_replay" android:drawableLeft="@drawable/akx" android:drawablePadding="6.0dip" android:drawableStart="@drawable/akx" />
+        <ImageView android:layout_gravity="center" android:id="@id/c6z" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aky" />
+    </FrameLayout>
+    <include layout="@layout/xv" />
+</FrameLayout>

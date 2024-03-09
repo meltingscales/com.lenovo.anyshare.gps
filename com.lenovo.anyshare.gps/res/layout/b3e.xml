@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end" android:id="@id/c49" android:layout_width="@dimen/bop" android:layout_height="@dimen/bpy" android:layout_marginRight="@dimen/brt" android:src="@drawable/d3b" android:scaleType="fitXY" />
+    <RelativeLayout android:layout_gravity="end" android:id="@id/d66" android:background="@drawable/d3_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blv">
+        <com.ushareit.ads.ui.view.circlepager.CyclicViewPager android:id="@id/bcz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpr" android:layout_alignParentRight="true" />
+        <com.ushareit.ads.ui.view.circlepager.CirclePageIndicator android:layout_gravity="center_horizontal" android:id="@id/bzs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqv" android:layout_alignBottom="@id/bcz" android:layout_centerHorizontal="true" app:yg="@drawable/ao5" app:yh="@dimen/bq1" app:yj="@dimen/br9" app:yk="@dimen/bq1" />
+        <ImageView android:id="@id/c5j" android:layout_width="@dimen/bqp" android:layout_height="@dimen/bqp" android:layout_marginLeft="@dimen/bl2" android:scaleType="fitXY" android:layout_toRightOf="@id/c54" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/c54" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_marginLeft="@dimen/bs3" android:src="@drawable/d3d" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

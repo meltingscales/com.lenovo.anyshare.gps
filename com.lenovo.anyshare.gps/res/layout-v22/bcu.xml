@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="vertical" android:id="@id/dpw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginBottom="@dimen/br0" android:layout_marginStart="@dimen/bm3">
+        <com.ushareit.theme.night.view.NightRelativeLayout android:gravity="center_vertical" android:background="@drawable/dpy" android:layout_width="@dimen/bnq" android:layout_height="wrap_content" app:a76="@color/w4">
+            <ImageView android:id="@id/c58" android:layout_width="@dimen/bn6" android:layout_height="@dimen/bks" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:src="@drawable/dpj" android:layout_marginHorizontal="@dimen/bmm" />
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textColor="@color/a3s" android:gravity="start|center" android:id="@id/dpt" android:layout_width="@dimen/bn6" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bmm" android:text="@string/d61" android:layout_below="@id/c58" android:layout_marginHorizontal="@dimen/bmm" app:a7i="@color/w4" />
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/c57" android:paddingLeft="@dimen/bmm" android:paddingTop="@dimen/bqf" android:paddingRight="@dimen/bqf" android:paddingBottom="@dimen/bmm" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:src="@drawable/dpg" android:layout_alignParentRight="true" android:paddingStart="@dimen/bmm" android:paddingEnd="@dimen/bqf" android:layout_alignParentEnd="true" app:a7_="@color/w4" />
+        </com.ushareit.theme.night.view.NightRelativeLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_horizontal" android:id="@id/dpr" android:background="@drawable/bz_" android:layout_width="@dimen/bmf" android:layout_height="@dimen/blk" app:a76="@color/w4" />
+    </LinearLayout>
+</FrameLayout>

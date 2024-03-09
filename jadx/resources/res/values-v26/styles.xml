@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="jo" parent="@style/m8">
+    </style>
+    <style name="jv" parent="@style/m9">
+    </style>
+    <style name="m8" parent="@style/m2">
+        <item name="pi">?android:attr/colorError</item>
+    </style>
+    <style name="m9" parent="@style/m3">
+        <item name="pi">?android:attr/colorError</item>
+    </style>
+    <style name="m_" parent="@style/mj">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="o3" parent="@style/m_">
+    </style>
+    <style name="a9q" parent="@android:style/Widget">
+        <item name="android:background">?attr/pz</item>
+        <item name="android:stateListAnimator">@animator/g</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

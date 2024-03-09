@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.muslim.quran.widget.QuranTouchLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/a7i" android:background="@color/i0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.muslim.quran.widget.QuranContentPagersTitleBar android:id="@+id/a_9" android:background="@drawable/p7" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@+id/aem" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/aqh" android:layout_marginBottom="@dimen/arf"/>
+    <com.ushareit.muslim.athkar.widget.AthkarPlayerView android:layout_gravity="bottom" android:id="@+id/a5t" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/arf" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/ua" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</com.ushareit.muslim.quran.widget.QuranTouchLayout>

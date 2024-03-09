@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/tc" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/bej" android:background="@drawable/dew" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bym" android:layout_marginTop="@dimen/byn" android:layout_marginRight="@dimen/bym" android:layout_marginBottom="@dimen/byn" android:maxWidth="@dimen/byp">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:lz="@dimen/bkq" app:m1="@dimen/bkq" app:a_j="0.35" app:al6="@dimen/bmm" app:al7="@dimen/bmm">
+            <ImageView android:id="@id/b_a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <TextView android:textStyle="bold" android:id="@id/cl9" android:layout_marginTop="@dimen/bnj" style="@style/q6" />
+        <LinearLayout android:orientation="vertical" android:id="@id/b9p" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/bp0" android:layout_marginRight="@dimen/by7" android:layout_weight="1.0" />
+        <TextView android:textStyle="bold" android:id="@id/e74" android:layout_marginTop="@dimen/bo8" android:layout_marginBottom="@dimen/br9" android:textAllCaps="true" style="@style/pz" />
+        <TextView android:textStyle="bold" android:textColor="@color/wh" android:id="@id/d0e" android:background="@drawable/alf" android:layout_marginBottom="@dimen/bl2" android:text="@string/ar5" android:textAllCaps="true" style="@style/pz" />
+    </LinearLayout>
+</FrameLayout>

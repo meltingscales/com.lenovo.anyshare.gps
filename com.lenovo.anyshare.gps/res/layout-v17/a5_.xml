@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginRight="@dimen/c1f" android:layout_marginStart="@dimen/c23" android:layout_marginEnd="@dimen/c1f">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c4b" android:textStyle="bold" android:textColor="@color/a__" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c23" android:text="@string/chp" />
+        <com.ushareit.theme.night.view.NightTextView android:id="@id/b0s" android:background="@drawable/b56" android:layout_width="@dimen/c1t" android:layout_height="@dimen/c1t" android:layout_marginTop="@dimen/c18" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginTop="@dimen/c1o" android:layout_marginRight="@dimen/c23">
+        <com.lenovo.anyshare.widget.CircleImageView android:id="@id/atu" android:layout_width="@dimen/c2e" android:layout_height="@dimen/c2e" android:scaleType="centerCrop" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c47" android:textColor="@color/a__" android:gravity="start" android:id="@id/e26" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c0r" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="@dimen/c0r" android:layout_marginEnd="@dimen/c0r" />
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/aq_" android:layout_width="@dimen/c23" android:layout_height="@dimen/c23" android:src="@drawable/b2z" />
+    </LinearLayout>
+    <com.ushareit.downloader.web.main.urlparse.widget.MaxHeightRecyclerView android:id="@id/d2t" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginTop="@dimen/c13" android:layout_marginRight="@dimen/c23" android:overScrollMode="never" />
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c47" android:textColor="@color/abz" android:gravity="center" android:id="@id/bgi" android:background="@drawable/b1k" android:layout_width="fill_parent" android:layout_height="@dimen/c2j" android:layout_marginLeft="@dimen/c1b" android:layout_marginTop="@dimen/c1m" android:layout_marginRight="@dimen/c1b" android:layout_marginBottom="@dimen/c1d" android:text="@string/chy" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ats" android:layout_width="@dimen/c2t" android:layout_height="@dimen/c2t" android:layout_marginTop="@dimen/c3j" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:night_alpha="@dimen/db2"/>
+    <Space android:id="@+id/bds" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginLeft="@dimen/c2b" android:layout_marginBottom="@dimen/c2b" app:layout_constraintBottom_toTopOf="@+id/ats" app:layout_constraintLeft_toRightOf="@+id/ats" app:layout_constraintStart_toEndOf="@+id/ats"/>
+    <RelativeLayout android:id="@+id/c9b" android:background="@drawable/b28" android:visibility="gone" android:layout_width="@dimen/c1o" android:layout_height="@dimen/c1o" app:layout_constraintEnd_toEndOf="@+id/bds" app:layout_constraintRight_toRightOf="@+id/bds" app:layout_constraintTop_toTopOf="@+id/bds">
+        <View android:background="@color/aaz" android:layout_width="7.87dp" android:layout_height="1.36dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/c45" android:textColor="@color/a_g" android:ellipsize="end" android:gravity="center" android:id="@+id/cmy" android:paddingLeft="@dimen/c1r" android:paddingTop="@dimen/c2m" android:paddingRight="@dimen/c1r" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/ats"/>
+</merge>

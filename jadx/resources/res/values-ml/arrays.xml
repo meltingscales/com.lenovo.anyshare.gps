@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>പോണോഗ്രഫിയുള്ള അശ്ലീലം</item>
+        <item>കുറ്റകൃത്യം</item>
+        <item>രാഷ്ട്രീയമായി സെൻസിറ്റീവ്</item>
+        <item>നിയമവിരുദ്ധമായ മാർക്കറ്റിംഗ്</item>
+        <item>വ്യാജ വിവരങ്ങൾ</item>
+        <item>ലംഘനം</item>
+    </array>
+    <array name="c">
+        <item>അസുഖകരമായ ഉള്ളടക്കം</item>
+        <item>അശ്ലീലസാഹിത്യം</item>
+        <item>അക്രമോത്സുകമായ ഉള്ളടക്കം</item>
+        <item>അപായകരവും അപകടകരവുമായ ഉള്ളടക്കം</item>
+        <item>ഉള്ളടക്കവുമായി ടൈറ്റിൽ/കവർ പൊരുത്തപ്പെടുന്നില്ല</item>
+    </array>
+</resources>

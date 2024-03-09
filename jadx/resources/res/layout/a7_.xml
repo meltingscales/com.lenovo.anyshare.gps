@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/c6j" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:night_alpha="@dimen/db2"/>
+    <ImageView android:layout_gravity="end|top" android:id="@+id/bxh" android:visibility="visible" android:layout_width="@dimen/c1m" android:layout_height="@dimen/c1m" android:layout_margin="@dimen/c3c" android:src="@drawable/b59"/>
+    <ImageView android:layout_gravity="end|top" android:id="@+id/bxv" android:visibility="gone" android:layout_width="@dimen/c1o" android:layout_height="@dimen/c1o" android:layout_margin="@dimen/c2w" android:src="@drawable/b0y"/>
+    <TextView android:layout_gravity="bottom" android:background="@drawable/b3j" android:layout_width="match_parent" android:layout_height="@dimen/c25"/>
+    <TextView android:textSize="@dimen/c43" android:textStyle="bold" android:textColor="@color/aaz" android:layout_gravity="start|bottom" android:id="@+id/dv3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/c35"/>
+    <ImageView android:layout_gravity="end|bottom" android:id="@+id/c4r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/c2m" android:src="@drawable/b58"/>
+</merge>

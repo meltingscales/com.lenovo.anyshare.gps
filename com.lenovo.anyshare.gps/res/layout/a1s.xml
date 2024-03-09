@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:padding="@dimen/bp0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@id/d7b" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/br9" app:a_j="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/c1u" android:padding="@dimen/bnd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/cn6" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <ImageView android:gravity="end" android:layout_gravity="end|center|top" android:id="@id/c1b" android:visibility="gone" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:layout_marginTop="@dimen/bvm" android:src="@drawable/as4" style="@style/ahn" />
+    </FrameLayout>
+</merge>

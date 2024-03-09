@@ -1,0 +1,10 @@
+package com.lenovo.anyshare;
+
+/* renamed from: com.lenovo.anyshare.ipc  reason: case insensitive filesystem */
+/* loaded from: classes5.dex */
+public class C13932ipc extends AbstractC15151kpc {
+    @Override // com.lenovo.anyshare.AbstractC15151kpc
+    public double a(double d, double d2, double d3, double d4, boolean z) {
+        return C15761lpc.c(d, d2, d3, d4, z);
+    }
+}

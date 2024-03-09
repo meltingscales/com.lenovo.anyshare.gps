@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/c2q" android:layout_height="@dimen/c2q" android:src="@drawable/b5q" android:scaleType="fitXY" />
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c44" android:textColor="@color/a_l" android:paddingLeft="@dimen/c3p" android:paddingRight="@dimen/c3p" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b1o" android:layout_weight="1.0" />
+    <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c46" android:textStyle="bold" android:textColor="@color/ac_" android:id="@id/e0_" android:background="@drawable/b1k" android:paddingLeft="@dimen/c1f" android:paddingTop="@dimen/c3j" android:paddingRight="@dimen/c1f" android:paddingBottom="@dimen/c3j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b38" />
+</merge>

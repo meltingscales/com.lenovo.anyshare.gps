@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/auj" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/bu9" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a0y="0.25" />
+    <com.ushareit.theme.night.view.NightLottieAnimationView android:id="@id/d93" android:layout_width="@dimen/cvj" android:layout_height="@dimen/cu9" android:layout_marginBottom="@dimen/cuu" app:a0u="csi" app:a1c="csi" app:a1f="@id/bu9" app:a3c="true" app:a3h="clean/whatsapp/data.json" app:a3j="clean/whatsapp/images" app:a3k="true" app:a75="@dimen/db2" />
+    <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/axs" android:id="@id/dz6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cuu" app:a0u="csi" app:a1c="csi" app:a1f="@id/d93" />
+</androidx.constraintlayout.widget.ConstraintLayout>

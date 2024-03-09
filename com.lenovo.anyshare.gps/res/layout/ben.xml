@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:focusable="true" android:focusableInTouchMode="true" style="@style/q1">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/title_text" style="@style/q7" />
+        <EditText android:id="@id/e2v" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_marginTop="@dimen/bl2" style="@style/pl">
+            <TextView android:id="@id/d0e" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" style="@style/pj" />
+            <TextView android:id="@id/d0j" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" style="@style/pk" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

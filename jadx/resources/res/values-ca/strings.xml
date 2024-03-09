@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Cos</string>
+    <string name="a98">Títol</string>
+    <string name="a99">Visualització del contingut multimèdia</string>
+    <string name="a9_">Permet</string>
+    <string name="a9a">No permetis</string>
+    <string name="a9b">Vols permetre que l\'aplicació t\'enviï notificacions?</string>
+    <string name="a9c">Toca per obrir l\'anunci</string>
+    <string name="a9d">Mira l\'anunci que has desat sense connexió</string>
+    <string name="a9e">D\'acord</string>
+    <string name="a9f">Rebràs una notificació amb l\'enllaç quan tornis a tenir connexió</string>
+    <string name="a9g">No, gràcies</string>
+    <string name="a9h">T\'enviarem una notificació amb un enllaç al lloc web de l\'anunciant.</string>
+    <string name="a9i">Obre l\'anunci quan tornis a tenir connexió.</string>
+    <string name="a9j">Desa la imatge</string>
+    <string name="a9k">Vols permetre que l\'anunci desi imatges a la galeria d\'imatges?</string>
+    <string name="a9l">Accepta</string>
+    <string name="a9m">Rebutja</string>
+    <string name="a9n">Crea un esdeveniment de calendari</string>
+    <string name="a9o">Vols permetre que l\'anunci creï un esdeveniment de calendari?</string>
+    <string name="a9p">Anunci de prova</string>
+    <string name="a9q">AdMob -</string>
+</resources>

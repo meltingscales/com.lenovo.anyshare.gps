@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cg9" style="@style/q3">
+    <FrameLayout android:background="@drawable/dev" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" style="@style/ps">
+        <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bo8">
+            <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:id="@+id/dzd" android:paddingLeft="@dimen/bo8" android:paddingRight="@dimen/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bd5"/>
+            <RadioGroup android:orientation="vertical" android:id="@+id/d4m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="@dimen/bm3">
+                <RadioButton android:textColor="@color/wu" android:id="@+id/bm0" android:paddingTop="@dimen/bm3" android:layout_width="@dimen/bks" android:layout_height="@dimen/bpo" android:button="@null" android:text="@string/b8p" android:drawableLeft="@drawable/aum" android:drawablePadding="@dimen/bo8" android:drawableStart="@drawable/aum"/>
+                <RadioButton android:textColor="@color/wu" android:id="@+id/cgg" android:paddingTop="@dimen/bm3" android:layout_width="@dimen/bks" android:layout_height="@dimen/bpo" android:layout_marginTop="@dimen/brt" android:button="@null" android:text="@string/bvd" android:drawableLeft="@drawable/aum" android:drawablePadding="@dimen/bo8" android:drawableStart="@drawable/aum"/>
+            </RadioGroup>
+            <include layout="@layout/a30"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

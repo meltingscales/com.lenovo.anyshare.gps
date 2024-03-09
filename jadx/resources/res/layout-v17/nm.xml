@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/jb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/a21" android:layout_width="match_parent" android:layout_height="159dp" android:layout_alignParentTop="true"/>
+    <TextView android:textSize="@dimen/at4" android:textStyle="bold" android:textColor="@color/k1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqy" android:text="@string/yi" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ScrollView android:background="@drawable/q3" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="118dp" android:fillViewport="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/a7o" android:paddingTop="@dimen/amy" android:paddingBottom="@dimen/amy" android:focusableInTouchMode="false" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj" android:layout_marginStart="@dimen/aqj" android:layout_marginEnd="@dimen/aqj"/>
+            <RelativeLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/and" android:layout_marginBottom="@dimen/apk" android:layout_below="@+id/a7o">
+                <View android:id="@+id/ae6" android:background="@drawable/a29" android:layout_width="@dimen/apk" android:layout_height="@dimen/aqw" android:layout_marginLeft="@dimen/aqh" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/aqh" android:layout_alignParentStart="true"/>
+                <View android:id="@+id/aed" android:background="@drawable/a2_" android:layout_width="@dimen/apk" android:layout_height="@dimen/aqw" android:layout_marginRight="@dimen/aqh" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/aqh" android:layout_alignParentEnd="true"/>
+                <TextView android:textSize="@dimen/asn" android:textColor="@color/j9" android:gravity="center" android:paddingLeft="@dimen/am3" android:paddingRight="@dimen/am3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/aed" android:layout_toRightOf="@+id/ae6" android:layout_toStartOf="@+id/aed" android:layout_toEndOf="@+id/ae6"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <com.ushareit.muslim.prayerrecorder.widget.RecorderMetalTitleView android:id="@+id/aep" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

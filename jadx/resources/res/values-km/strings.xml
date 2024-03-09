@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">តួ​អត្ថបទ</string>
+    <string name="a98">ចំណង​ជើង</string>
+    <string name="a99">ទិដ្ឋភាពមេឌៀ</string>
+    <string name="a9_">អនុញ្ញាត</string>
+    <string name="a9a">កុំអនុញ្ញាត</string>
+    <string name="a9b">អនុញ្ញាតឱ្យកម្មវិធីផ្ញើការ​ជូនដំណឹងឱ្យអ្នកឬ?</string>
+    <string name="a9c">ចុចដើម្បីបើក​ការផ្សាយពាណិជ្ជកម្ម</string>
+    <string name="a9d">មើល​ការផ្សាយពាណិជ្ជកម្ម​ដែលអ្នកបានរក្សាទុក នៅពេលអ្នកគ្មានអ៊ីនធឺណិត</string>
+    <string name="a9e">យល់ព្រម</string>
+    <string name="a9f">អ្នកនឹងទទួលបាន​ការជូនដំណឹងដែលមានតំណ នៅពេលអ្នកមាន​ការតភ្ជាប់អ៊ីនធឺណិតវិញ</string>
+    <string name="a9g">ទេ អរគុណ</string>
+    <string name="a9h">យើងនឹងផ្ញើ​ការជូនដំណឹង​ដែលមាន​តំណ​ទៅកាន់​គេហទំព័ររបស់​អ្នកផ្សាយពាណិជ្ជកម្មដល់អ្នក។</string>
+    <string name="a9i">បើក​ការផ្សាយពាណិជ្ជកម្ម នៅពេលអ្នក​មាន​ការតភ្ជាប់​អ៊ីនធឺណិតវិញ។</string>
+    <string name="a9j">រក្សាទុក​រូបភាព</string>
+    <string name="a9k">អនុញ្ញាត​ឲ្យ​ពាណិជ្ជកម្ម​ផ្ទុក​រូបភាព​នៅក្នុង​វិចិត្រសាល​រូបភាព​ដែរទេ?</string>
+    <string name="a9l">យល់ព្រម</string>
+    <string name="a9m">បដិសេធ</string>
+    <string name="a9n">បង្កើត​ព្រឹត្តិការណ៍​ក្នុង​ប្រតិទិន</string>
+    <string name="a9o">អនុញ្ញាត​ឲ្យ​ពាណិជ្ជកម្ម​បង្កើត​ព្រឹត្តិការណ៍​ក្នុង​ប្រតិទិន​ដែរទេ?</string>
+    <string name="a9p">ពាណិជ្ជកម្ម​សាកល្បង</string>
+    <string name="a9q">AdMob -</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/blx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <EditText android:textSize="@dimen/bsx" android:textColor="@color/w4" android:textColorHint="@color/w7" android:gravity="start|center|top" android:id="@id/blq" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/bs0" android:layout_margin="@dimen/bmm" android:minLines="3" android:lineSpacingExtra="@dimen/bp0" />
+        <TextView android:textColor="@color/w7" android:id="@id/blr" android:paddingLeft="@dimen/bmm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bly" android:layout_width="fill_parent" android:layout_height="@dimen/bra" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/brl" android:layout_marginBottom="@dimen/bmm" android:layout_below="@id/blx" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/brl">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/afk" android:id="@id/blt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+        <com.lenovo.anyshare.help.feedback.submit.view.ImageAttachLayout android:gravity="start" android:orientation="horizontal" android:id="@id/bls" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_marginStart="0.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ViewSwitcher android:id="@id/bln" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bly">
+        <View android:background="#fff6f8fa" android:layout_width="fill_parent" android:layout_height="@dimen/bl2" />
+        <View android:background="#ffe7e7e7" android:layout_width="fill_parent" android:layout_height="@dimen/bnd" />
+    </ViewSwitcher>
+    <LinearLayout android:orientation="vertical" android:id="@id/blo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:layout_below="@id/bln">
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnb" android:layout_marginBottom="@dimen/bla" android:text="@string/be8" />
+        <EditText android:textSize="@dimen/bsx" android:textColor="@color/w4" android:textColorHint="@color/w7" android:id="@id/blp" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bl2" android:minHeight="@dimen/bok" android:hint="@string/be_" android:maxLength="20" android:inputType="number" />
+        <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ya" android:gravity="center_vertical" android:background="@drawable/b__" android:paddingLeft="@dimen/bl2" android:paddingRight="@dimen/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bnv" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bl2" android:minHeight="@dimen/bpe" android:text="@string/be9" android:singleLine="true" android:drawableLeft="@drawable/b9x" android:drawablePadding="@dimen/br9" android:layout_below="@id/blo" android:drawableStart="@drawable/b9x" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:gravity="center" android:id="@id/bll" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/br4" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bl2" android:text="@string/bex" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="center" android:id="@id/dld" android:layout="@layout/a8l" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.PinnedExpandableListView android:id="@id/cms" android:background="@color/bi0" style="@style/qo" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/c9i" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/boe" />
+        <TextView android:textSize="@dimen/bz2" android:textColor="@color/ye" android:gravity="center" android:id="@id/dx_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brt" android:maxWidth="@dimen/bo9" android:text="@string/apn" />
+        <TextView android:textSize="@dimen/bz2" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:id="@id/duw" android:background="@drawable/aro" android:paddingLeft="@dimen/bl2" android:paddingRight="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bmw" android:minWidth="@dimen/bn6" android:text="@string/bn3" />
+        <View android:layout_width="wrap_content" android:layout_height="@dimen/bqj" />
+    </LinearLayout>
+</FrameLayout>

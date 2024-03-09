@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/bnv" android:layout_marginRight="@dimen/blk">
+        <com.lenovo.anyshare.widget.CircleImageView android:id="@id/atu" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:scaleType="centerCrop" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:gravity="start" android:id="@id/e26" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bl2" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/bl2" />
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/aq_" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/b2y" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/d2t" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bmf" android:layout_marginBottom="@dimen/bmf" android:overScrollMode="never" />
+</LinearLayout>

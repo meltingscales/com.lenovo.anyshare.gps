@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/asz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dnn" app:a0p="@id/b7p" app:a17="csi" app:a1c="csi" />
+    <View android:id="@id/b7p" android:background="@drawable/aqs" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/bl2" app:a0o="@id/b7q" app:a17="@id/b7q" app:a1a="@id/d4x" app:a1g="@id/b7q" />
+    <ImageView android:id="@id/b7q" android:layout_width="wrap_content" android:layout_height="@dimen/br2" android:src="@drawable/aqk" android:scaleType="fitCenter" android:adjustViewBounds="true" app:a17="csi" app:a1g="csi" />
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/a4d" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/bb2" android:paddingLeft="@dimen/brt" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/bla" android:paddingBottom="@dimen/brt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="@dimen/bnf" android:maxLines="2" app:a0o="@id/b7p" app:a18="@id/b7q" app:a1g="@id/b7p" />
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/a2s" android:id="@id/ayx" android:background="@drawable/aps" android:paddingLeft="@dimen/bnv" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bnv" android:paddingBottom="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/art" app:a0o="@id/bb2" app:a18="@id/bb2" app:a1g="@id/bb2" />
+    <View android:id="@id/d4x" android:layout_width="@dimen/brt" android:layout_height="1.0px" app:a18="@id/ayx" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

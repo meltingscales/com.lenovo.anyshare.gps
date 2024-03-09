@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/bqf" android:layout_marginEnd="@dimen/bqf" app:a0u="csi" app:a1g="csi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/b7l" android:visibility="gone" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop" />
+    <ImageView android:id="@id/dl2" android:visibility="gone" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop" android:src="@drawable/dnc" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/bod" android:visibility="gone" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop">
+        <ImageView android:layout_gravity="center" android:id="@id/e6p" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop" android:src="@drawable/icon_down_icon_whatsapp" android:adjustViewBounds="true" />
+        <TextView android:textColor="@color/bj1" android:gravity="center" android:id="@id/e6q" android:background="@drawable/amp" android:paddingLeft="@dimen/bq1" android:paddingRight="@dimen/bqv" android:visibility="visible" android:layout_width="@dimen/brt" android:layout_height="@dimen/brt" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bq1" android:singleLine="true" android:layout_marginStart="@dimen/bmm" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/bqp" android:visibility="gone" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop" />
+    <RelativeLayout android:id="@id/ddn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/b7f" android:visibility="gone" android:layout="@layout/t3" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop" />
+    <ViewStub android:id="@id/b7g" android:visibility="gone" android:layout="@layout/t3" android:layout_width="@dimen/bop" android:layout_height="@dimen/bop" />
+</FrameLayout>

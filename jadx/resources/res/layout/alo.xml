@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cg9" style="@style/q3">
+    <FrameLayout android:layout_width="@dimen/bpc" android:layout_height="wrap_content" style="@style/ps">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bo8">
+            <TextView android:textSize="@dimen/bt3" android:textColor="@color/w4" android:id="@+id/dzd" android:paddingLeft="@dimen/bo8" android:paddingRight="@dimen/bo8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bcn"/>
+            <com.ushareit.accountsetting.base.ui.view.NestedGridView android:id="@+id/apv" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:listSelector="@null" android:drawSelectorOnTop="false"/>
+            <include layout="@layout/a30"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

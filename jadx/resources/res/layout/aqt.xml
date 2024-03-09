@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/csw">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@+id/bx3" android:paddingLeft="@dimen/cti" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ushareit.widget.RoundFrameLayout android:id="@+id/bx9" android:layout_width="@dimen/cx4" android:layout_height="@dimen/cx4" android:layout_marginTop="@dimen/cti" android:layout_marginRight="@dimen/cti" app:radius="@dimen/cxh">
+            <com.ushareit.theme.night.view.NightImageView android:id="@+id/c1p" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:night_alpha="@dimen/db2"/>
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|top" android:id="@+id/c1t" android:layout_width="@dimen/cum" android:layout_height="@dimen/cum" android:src="@drawable/ao9" app:night_alpha="@dimen/db2"/>
+        </com.ushareit.widget.RoundFrameLayout>
+    </RelativeLayout>
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_horizontal" android:id="@+id/c2c" android:visibility="gone" android:layout_width="@dimen/cu2" android:layout_height="@dimen/cu2" android:layout_marginLeft="@dimen/cv3" android:layout_marginTop="@dimen/cxs" android:src="@drawable/cf2" app:night_alpha="@dimen/db2"/>
+    <TextView android:textSize="@dimen/cyt" android:textColor="@color/auf" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/c26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cxq" android:maxWidth="@dimen/csr" android:maxLines="2"/>
+</FrameLayout>

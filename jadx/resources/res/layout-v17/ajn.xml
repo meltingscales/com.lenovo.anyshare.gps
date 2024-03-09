@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@drawable/aqf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginTop="@dimen/bmf" android:layout_marginRight="@dimen/bqd" android:minHeight="@dimen/bqj">
+        <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bwo"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="-10dp" android:src="@drawable/bwp" android:layout_marginStart="@dimen/bqf"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/uy" android:gravity="center_vertical" android:id="@+id/e07" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bla" android:layout_marginBottom="@dimen/bla" android:includeFontPadding="false" android:layout_weight="1" android:layout_marginStart="@dimen/bm3"/>
+            <TextView android:textSize="@dimen/bsu" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/du7" android:background="@drawable/aqn" android:paddingLeft="@dimen/bl2" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bl2" android:paddingBottom="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="@dimen/bnv" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bla" android:text="@string/dq7" android:includeFontPadding="false" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/bla"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="center" android:id="@id/c2d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.mcds.ui.view.RatioByWidthImageView android:id="@id/c5_" android:visibility="invisible" android:layout_width="@dimen/cgy" android:layout_height="@dimen/cgy" android:layout_marginTop="@dimen/cgd" android:scaleType="centerCrop" app:a17="csi" app:a1a="csi" app:a1g="csi" />
+    <com.ushareit.mcds.ui.view.RatioByWidthImageView android:id="@id/c4g" android:visibility="invisible" android:layout_width="@dimen/cgo" android:layout_height="@dimen/cgf" android:layout_marginLeft="@dimen/cgs" android:scaleType="centerCrop" android:elevation="@dimen/ch7" app:a17="@id/c5_" app:a1g="@id/c5_" />
+    <ViewStub android:id="@id/cf0" android:visibility="invisible" android:layout="@layout/ao1" android:layout_width="@dimen/cgy" android:layout_height="@dimen/cgy" android:layout_marginTop="@dimen/cgh" android:scaleType="centerCrop" app:a17="csi" app:a1a="csi" app:a1g="csi" />
+    <ViewStub android:id="@id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgh" android:layout_height="@dimen/cgc" app:a0o="@id/c5_" app:a0u="@id/c5_" app:a1a="@id/c5_" />
+    <TextView android:textSize="@dimen/chb" android:textColor="@color/at4" android:gravity="center" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ch_" android:layout_marginBottom="@dimen/ch_" android:maxWidth="@dimen/ch8" android:text="title" android:maxLines="1" app:a0o="csi" app:a17="csi" app:a1a="csi" app:a1f="@id/c5_" />
+</merge>

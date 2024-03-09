@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/blk">
+        <LinearLayout android:orientation="vertical" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="match_parent" android:layout_height="wrap_content" app:bottom_left_corner="@dimen/bkq" app:bottom_right_corner="@dimen/bkq" app:top_left_corner="@dimen/blk" app:top_right_corner="@dimen/blk">
+                <FrameLayout android:id="@+id/bc_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/bca" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <ImageView android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/blg" android:background="@drawable/ahx" android:paddingLeft="@dimen/br9" android:paddingRight="@dimen/br9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bla" android:layout_marginEnd="@dimen/bla">
+                    <ImageView android:layout_gravity="top|right" android:id="@+id/bli" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:src="@drawable/ajs"/>
+                    <View android:id="@+id/ble" android:background="@color/bj1" android:visibility="gone" android:layout_width="@dimen/bko" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bq1" android:layout_marginRight="@dimen/bq1"/>
+                    <ImageView android:id="@+id/blf" android:padding="@dimen/bq1" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_marginLeft="@dimen/bq1" android:src="@drawable/ahh"/>
+                </LinearLayout>
+            </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+            <RelativeLayout android:layout_gravity="bottom" android:id="@+id/bl3" android:paddingBottom="@dimen/blk" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ushareit.ads.ui.widget.RoundFrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bx9" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/blk" android:layout_marginBottom="@dimen/brt" android:layout_centerVertical="true" app:radius="@dimen/brt">
+                    <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                </com.ushareit.ads.ui.widget.RoundFrameLayout>
+                <RelativeLayout android:id="@+id/az6" android:layout_width="@dimen/bru" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginRight="@dimen/blk" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/brt" android:layout_marginEnd="@dimen/blk" android:layout_alignParentEnd="true">
+                    <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="match_parent" android:layout_height="@dimen/bok" android:max="100" android:progress="100" android:singleLine="true" android:layout_centerHorizontal="true" app:textSize="@dimen/bsv" app:text_margin_left="@dimen/blk" app:text_margin_right="@dimen/blk" app:text_max_length="@dimen/brc" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akf"/>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/apr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:layout_toLeftOf="@+id/az6" android:layout_toRightOf="@+id/bx9" android:layout_centerVertical="true" android:layout_toStartOf="@+id/az6" android:layout_toEndOf="@+id/bx9">
+                    <TextView android:textSize="@dimen/bih" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/bl2" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" android:src="@drawable/agp" android:layout_marginEnd="@dimen/bqf"/>
+                        <TextView android:textSize="@dimen/btj" android:textColor="@color/ye" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/b1c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/blv" android:layout_marginTop="@dimen/bp0">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@+id/d16" android:background="@drawable/aln" android:layout_width="@dimen/bqn" android:layout_height="@dimen/bs3"/>
+                        <View android:layout_gravity="center_vertical" android:background="@color/a0t" android:layout_width="@dimen/bko" android:layout_height="@dimen/brl" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bqf"/>
+                        <TextView android:textSize="@dimen/btj" android:textColor="@color/ye" android:id="@+id/b11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                        <View android:layout_gravity="center_vertical" android:background="@color/a0t" android:layout_width="@dimen/bko" android:layout_height="@dimen/brl" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bqf"/>
+                        <TextView android:textSize="@dimen/btj" android:textColor="@color/ye" android:gravity="center_vertical" android:id="@+id/bgu" android:padding="@dimen/bnc" android:layout_width="wrap_content" android:layout_height="@dimen/blv" android:maxLines="1"/>
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/brt" android:layout_height="@dimen/brt" android:layout_marginLeft="@dimen/bnc" android:src="@drawable/b1w" android:layout_marginStart="@dimen/bnc"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/cez" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a3h="video_guide_lottie/data.json" app:a3j="video_guide_lottie/images" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:text="@string/dr5" />
+</merge>

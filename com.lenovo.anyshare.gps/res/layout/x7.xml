@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cay" android:background="@color/w4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c3q" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <ImageView android:id="@id/c60" android:background="@color/a7j" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/bnq" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/c34" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bmm" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/bo8" android:src="@drawable/ajq" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ap0" android:background="@drawable/db2" android:paddingLeft="@dimen/br9" android:paddingRight="@dimen/br9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/blk">
+        <ImageView android:layout_gravity="center|right" android:id="@id/c7i" android:padding="@dimen/bq1" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/bno" android:layout_height="@dimen/bno" android:src="@drawable/akr" />
+        <View android:id="@id/ble" android:background="#80ffffff" android:visibility="visible" android:layout_width="@dimen/bko" android:layout_height="@dimen/blk" android:layout_marginLeft="@dimen/bq1" android:layout_marginRight="@dimen/bq1" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/c49" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/bno" android:layout_height="@dimen/bno" android:src="@drawable/ajw" />
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/bj1" android:layout_gravity="center" android:id="@id/dui" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/brc" android:layout_marginBottom="@dimen/bow" android:layout_alignParentBottom="true" layout="@layout/x3" />
+</RelativeLayout>

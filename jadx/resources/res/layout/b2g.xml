@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/aq5" android:layout_width="@dimen/br3" android:layout_height="@dimen/br3" android:scaleType="centerCrop"/>
+    <LinearLayout android:layout_gravity="start|center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/anp">
+        <TextView android:textAppearance="@style/sf" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/dgg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqv" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/se" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/atd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/cw7" android:padding="@dimen/bqv" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/cvm" android:padding="@dimen/bqv" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/cw6" android:padding="@dimen/bqv" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/b73" android:padding="@dimen/bkq" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bnv"/>
+</LinearLayout>

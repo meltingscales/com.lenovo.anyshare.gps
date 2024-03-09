@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.downloader.web.main.urlparse.base.WebParseView android:id="@+id/e68" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/dlm" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/d2t" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

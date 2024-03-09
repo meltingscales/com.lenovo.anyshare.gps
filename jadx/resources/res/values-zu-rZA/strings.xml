@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dup">Hlulekile ukufaka okwengeziwe, sicela ubheke inethiweki bese uzama kamuva.</string>
+    <string name="dwg">Isiphetho</string>
+    <string name="dwi">Hlulekile ukufaka. Sicela uzame kamuva.</string>
+    <string name="dwj">Hlunga</string>
+    <string name="dwk">I-Hot Tag</string>
+    <string name="dwl">Inani</string>
+    <string name="dwm">Inani elikhulu kumelwe libe ngaphezu kwenani eliphansi.</string>
+    <string name="dwn">Risetha</string>
+    <string name="dwo">Hlungiwe</string>
+    <string name="dwp">Umthombo Womkhiqizo</string>
+    <string name="dwu">Ukudlulela ku- %s…</string>
+    <string name="dww">Inani Eliphansi Kakhulu</string>
+    <string name="dwx">inani eliphansi</string>
+    <string name="dx0">Ukhetha Kabanzi</string>
+    <string name="dx1">Yonga imali</string>
+    <string name="dx2">Iqinisa i-AI</string>
+    <string name="dx3">Lena ithuluzi elisha lokuthenga nge-SHAREit</string>
+    <string name="dx4">OKULANDELAYO</string>
+    <string name="dx5">Qala ukonga imali</string>
+    <string name="dx6">Ungaqathanisa amanani futhi uthole izinhlamvu zegolide!</string>
+    <string name="dxb">VULA</string>
+    <string name="dxl">Ngikhumbuze lapho inani lihla ngaphansi kwaleli</string>
+    <string name="dxm">Ngaphansi kuka- %s</string>
+    <string name="dxq">Okwengeziwe</string>
+    <string name="dxu">inani elihlile</string>
+    <string name="dxv">Ukwehliswa Kwenani</string>
+    <string name="dxw">Bhalisela Ukukhunjuzwa Ngenani</string>
+    <string name="dxx">Faka inani</string>
+    <string name="dxy">Thumela Ukubhalisa</string>
+    <string name="dxz">Ukubhalisa kuhlulukile! Sicela uzame futhi!</string>
+    <string name="dy0">Inani elilendelekile eligcwalisiwe kumelwe libe ngaphansi kwenani lamanje</string>
+    <string name="dy1">UBHALISE NGOKUPHUMELELAYO! Lindela isaziso lapho inani lentengo lehla!</string>
+    <string name="dy6">Sesha</string>
+    <string name="dy7" />
+    <string name="dy8">izinto otholelwe zona</string>
+    <string name="dy9">HAMBA</string>
+    <string name="dy_">i-hijab yobusulumani</string>
+    <string name="dya">Sesha Umlando</string>
+    <string name="dyi">MAHALA</string>
+    <string name="dyy">I-discount</string>
+    <string name="dz0">Price</string>
+    <string name="dz1">Trending</string>
+    <string name="dz8">ZAMA FUTHI</string>
+    <string name="dz9">Bheka</string>
+</resources>

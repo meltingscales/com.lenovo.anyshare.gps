@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/bqp">
+    <com.ushareit.widget.RoundFrameLayout android:layout_width="@dimen/bpr" android:layout_height="@dimen/bpr" android:layout_marginRight="@dimen/bl2" app:radius="@dimen/bqv">
+        <com.san.ads.MediaView android:id="@+id/bx9" android:layout_width="@dimen/bpr" android:layout_height="@dimen/bpr">
+            <com.ushareit.widget.round.RoundImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="@dimen/bpr" android:layout_height="@dimen/bpr" android:scaleType="fitXY" app:radius="@dimen/bqv"/>
+        </com.san.ads.MediaView>
+    </com.ushareit.widget.RoundFrameLayout>
+    <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/br9" android:maxLines="2" android:layout_weight="1"/>
+    <TextView android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/b00" android:background="@drawable/cvg" android:layout_width="@dimen/brj" android:layout_height="@dimen/bow" android:maxLines="1" android:singleLine="true" android:maxLength="7" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/max_media_view_container"/>
+</LinearLayout>

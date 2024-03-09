@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">মূল অংশ</string>
+    <string name="a98">শিৰোনাম</string>
+    <string name="a99">মিডিয়া ভিউ</string>
+    <string name="a9_">অনুমতি দিয়ক</string>
+    <string name="a9a">অনুমতি নিদিব</string>
+    <string name="a9b">এপক আপোনালৈ জাননী পঠিয়াবলৈ অনুমতি দিবনে?</string>
+    <string name="a9c">বিজ্ঞাপন খুলিবলৈ টিপক</string>
+    <string name="a9d">আপুনি অফলাইন হৈ থাকোঁতে ছেভ কৰা বিজ্ঞাপনটো চাওক</string>
+    <string name="a9e">ঠিক আছে</string>
+    <string name="a9f">আপুনি পুনৰাই অনলাইন হ’লে লিংকটোৰ সৈতে এটা জাননী পাব</string>
+    <string name="a9g">নালাগে দিয়ক</string>
+    <string name="a9h">বিজ্ঞাপনদাতাৰ ছাইটৰ এটা লিংকৰ সৈতে আমি আপোনালৈ এটা জাননী পঠিয়াম।</string>
+    <string name="a9i">আপুনি পুনৰাই অনলাইন হ’লে বিজ্ঞাপন খোলে।</string>
+    <string name="a9j">ছবি ছেভ কৰক</string>
+    <string name="a9k">বিজ্ঞাপনক চিত্ৰৰ গেলাৰীত ছবি ষ্ট’ৰ কৰিবলৈ অনুমতি দিবনে?</string>
+    <string name="a9l">স্বীকাৰ কৰক</string>
+    <string name="a9m">প্ৰত্যাখ্যান কৰক</string>
+    <string name="a9n">কেলেণ্ডাৰৰ কাৰ্যক্ৰম সৃষ্টি কৰক</string>
+    <string name="a9o">বিজ্ঞাপনক কোনো কেলেণ্ডাৰৰ কাৰ্যক্ৰম সৃষ্টি কৰিবলৈ অনুমতি দিবনে?</string>
+    <string name="a9p">পৰীক্ষণ বিজ্ঞাপন</string>
+    <string name="a9q">AdMob -</string>
+</resources>

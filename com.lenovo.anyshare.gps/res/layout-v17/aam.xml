@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/b0v" android:background="@drawable/buq" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bnc" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bnc" android:layout_marginBottom="@dimen/bp0" app:a76="@color/afs" />
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="right" android:id="@id/drc" android:background="@drawable/bc4" android:layout_width="@dimen/bn4" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/bqz" app:a76="@color/afs" />
+    <LinearLayout android:orientation="vertical" android:id="@id/b_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bmm" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/bmm">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:text="@string/bnz" android:layout_marginStart="@dimen/bqf" />
+            <LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/ckx" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="center" android:id="@id/dwu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqv" android:text="@string/c_a" android:layout_marginEnd="@dimen/bqv" />
+                <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:layout_marginTop="@dimen/bne" android:src="@drawable/bpy" app:a7_="@color/ye" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

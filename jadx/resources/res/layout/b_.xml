@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/g_">
+    <FrameLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/e_" android:background="@drawable/au" android:paddingLeft="@dimen/c6" android:paddingRight="@dimen/c6" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/fl">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/e9" android:layout_width="@dimen/g9" android:layout_height="@dimen/f0" android:scaleType="centerCrop"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/ea" android:layout_width="@dimen/do" android:layout_height="@dimen/do" android:layout_marginLeft="@dimen/dr" android:src="@drawable/dg"/>
+        <TextView android:textSize="@dimen/hp" android:textColor="@color/d7" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/eb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ge" android:maxLines="2"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="top|center_horizontal" android:orientation="horizontal" android:id="@+id/bt" android:background="@drawable/at" android:paddingLeft="@dimen/gf" android:paddingRight="@dimen/gf" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@dimen/d8" android:layout_marginTop="@dimen/fi">
+        <TextView android:textSize="@dimen/hp" android:textColor="@color/d7" android:id="@+id/bs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iz"/>
+        <ImageView android:id="@+id/br" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f5" android:src="@drawable/c_"/>
+    </LinearLayout>
+</FrameLayout>

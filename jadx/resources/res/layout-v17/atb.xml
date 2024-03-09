@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/d77" android:background="@color/avb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/atg"/>
+    <androidx.core.widget.NestedScrollView android:id="@+id/d9e" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/cud">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/atv"/>
+            <TextView android:textSize="@dimen/cyx" android:textStyle="bold" android:textColor="@color/auf" android:ellipsize="end" android:gravity="start" android:id="@+id/d3y" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="@dimen/cya" android:layout_marginRight="@dimen/ctn" android:layout_marginBottom="@dimen/cx6" android:text="@string/c2k" android:lines="1" android:textAlignment="viewStart"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/d3v" android:background="@drawable/c9d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6"/>
+            <ViewStub android:id="@+id/cdg" android:layout="@layout/atx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/cws"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include layout="@layout/aty"/>
+</FrameLayout>

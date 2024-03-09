@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <FrameLayout android:background="@drawable/dev" android:paddingTop="@dimen/bkq" android:paddingBottom="@dimen/bkq" style="@style/q1">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:bottomLeftRadius="@dimen/bkq" app:bottomRightRadius="@dimen/bkq" app:rect_radio="0" app:topLeftRadius="@dimen/bmm" app:topRightRadius="@dimen/bmm">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/cpc" android:adjustViewBounds="true"/>
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brs">
+            <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/c9i" android:maxLines="2" style="@style/q7"/>
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:text="@string/c9f" android:maxLines="4" style="@style/pr"/>
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:text="@string/c9g" android:maxLines="4" style="@style/pr"/>
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:layout_marginBottom="@dimen/bpe" android:text="@string/c9h" android:maxLines="4" style="@style/pr"/>
+        </LinearLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|top" android:id="@+id/c49" android:padding="@dimen/bl2" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_margin="@dimen/bl2" android:src="@drawable/cn7" app:night_alpha="@dimen/db2"/>
+    </FrameLayout>
+</FrameLayout>

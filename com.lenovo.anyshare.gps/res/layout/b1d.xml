@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/d77" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/cfe" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:fastScrollEnabled="false" />
+    <RelativeLayout android:id="@id/d7i" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/bp7" android:layout_centerVertical="true">
+        <ImageView android:id="@id/cfj" android:layout_width="@dimen/blk" android:layout_height="@dimen/bmm" android:src="@drawable/cvf" android:layout_centerVertical="true" style="@style/ank" />
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/a7_" android:id="@id/cfk" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/anl" />
+        <View android:layout_gravity="center_vertical" android:background="@color/agy" android:layout_width="fill_parent" android:layout_height="@dimen/bnd" android:layout_centerVertical="true" style="@style/anm" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/bt1" android:textColor="@color/a7_" android:gravity="center" android:id="@id/cff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/brs" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cfi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/bt1" android:textColor="@color/a7_" android:gravity="center" android:layout_gravity="center|top" android:id="@id/cfh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brt" />
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/a77" android:gravity="center" android:layout_gravity="center|top" android:id="@id/cfg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:text="@string/bru" />
+    </LinearLayout>
+</RelativeLayout>

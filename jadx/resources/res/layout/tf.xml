@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lenovo.anyshare.qrcode.QRScanView android:layout_gravity="center" android:id="@+id/d05" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/ay0"/>
+    <FrameLayout android:id="@+id/b8q" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/avj" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/aj2"/>
+        <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btu" android:layout_marginRight="@dimen/btu" android:singleLine="true" android:drawablePadding="5dp"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/right_button_res_0x7f090bae" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/dpa" style="@style/agw"/>
+    </FrameLayout>
+</FrameLayout>

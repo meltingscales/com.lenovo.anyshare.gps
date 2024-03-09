@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.widget.HorizontalListView android:gravity="center" android:layout_gravity="bottom" android:id="@id/doq" android:layout_width="fill_parent" android:layout_height="@dimen/bra" android:cacheColorHint="#00000000" android:divider="@null" />
+</FrameLayout>

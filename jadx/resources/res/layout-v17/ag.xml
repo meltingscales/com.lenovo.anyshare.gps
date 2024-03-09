@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/al" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/bh" android:layout_width="@dimen/e0" android:layout_height="@dimen/br" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <TextView android:textSize="@dimen/hs" android:textColor="@color/e2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a7" android:layout_marginStart="@dimen/f9" android:layout_marginEnd="@dimen/f9" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/bh"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

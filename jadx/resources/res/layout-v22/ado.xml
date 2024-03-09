@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a2b" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/cye" android:background="@drawable/duj" android:padding="@dimen/dht" android:layout_width="@dimen/dhw" android:layout_height="@dimen/dhw" android:layout_centerInParent="true" app:mpb_strokeWidth="@dimen/bq1"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d2t" android:paddingTop="@dimen/blk" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bjf" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/c5_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/boo"/>
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:gravity="center" android:id="@+id/dur" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginTop="@dimen/blv" android:layout_marginRight="@dimen/bqd" android:text="@string/cq0" android:layout_marginHorizontal="@dimen/bqd"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center" android:id="@+id/ayz" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/brd" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/brd" android:text="@string/aqw" android:layout_marginHorizontal="@dimen/brd"/>
+    </LinearLayout>
+</FrameLayout>

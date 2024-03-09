@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/ai2"/>
+    <include layout="@layout/ai3"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/aso" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/bup" android:layout_width="match_parent" android:layout_height="@dimen/bks">
+            <include android:id="@+id/buu" layout="@layout/ai1"/>
+            <View android:id="@+id/b12" android:background="#e7e7e7" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/bnj"/>
+            <include android:id="@+id/bva" layout="@layout/ai1"/>
+        </LinearLayout>
+        <View android:id="@+id/buy" android:background="#e7e7e7" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/buq" android:layout_width="match_parent" android:layout_height="@dimen/bks" android:baselineAligned="false">
+            <include android:id="@+id/bv9" layout="@layout/ai1"/>
+            <View android:id="@+id/b13" android:background="#e7e7e7" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginBottom="@dimen/bnj"/>
+            <include android:id="@+id/buv" layout="@layout/ai1"/>
+        </LinearLayout>
+        <View android:id="@+id/buz" android:background="#e7e7e7" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bur" android:layout_width="match_parent" android:layout_height="@dimen/bks" android:baselineAligned="false">
+            <include android:id="@+id/but" layout="@layout/ai1"/>
+            <View android:id="@+id/b14" android:background="#e7e7e7" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginBottom="@dimen/bnj"/>
+            <include android:id="@+id/bv8" layout="@layout/ai1"/>
+        </LinearLayout>
+        <View android:id="@+id/bv0" android:background="#e7e7e7" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bus" android:layout_width="match_parent" android:layout_height="@dimen/bks" android:baselineAligned="false">
+            <include android:id="@+id/bv7" layout="@layout/ai1"/>
+            <View android:id="@+id/b15" android:background="#e7e7e7" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginBottom="@dimen/bnj"/>
+            <include android:id="@+id/bv6" layout="@layout/ai1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/w4" android:gravity="start|center_vertical" android:id="@+id/bux" android:background="@drawable/bu2" android:paddingLeft="@dimen/bok" android:paddingTop="@dimen/bnj" android:paddingRight="@dimen/bok" android:paddingBottom="@dimen/br9" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bdt"/>
+</LinearLayout>

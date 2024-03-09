@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingBottom="@dimen/bqx" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/bom" android:layout_width="@dimen/boq" android:layout_height="@dimen/bls"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/c53" android:visibility="gone" android:layout_width="@dimen/boq" android:layout_height="@dimen/bls" android:adjustViewBounds="true"/>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/bot" android:layout_width="@dimen/boq" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bok"/>
+    <TextView android:textSize="@dimen/bz3" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bou" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp7" android:layout_marginTop="@dimen/brt" android:layout_marginRight="@dimen/bp7" android:text="@string/bc2" android:layout_marginHorizontal="@dimen/bp7"/>
+</LinearLayout>

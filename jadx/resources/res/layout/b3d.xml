@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" style="@style/pi">
+    <FrameLayout android:background="#00000000" style="@style/ph">
+        <FrameLayout android:background="@drawable/d32" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ushareit.widget.RoundFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:topLeftRadius="@dimen/bmm" app:topRightRadius="@dimen/bmm">
+                <ImageView android:background="@drawable/d_n" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.ushareit.widget.RoundFrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/cby" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <include android:layout_gravity="right" android:id="@+id/c49" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/b3c"/>
+    </FrameLayout>
+</LinearLayout>

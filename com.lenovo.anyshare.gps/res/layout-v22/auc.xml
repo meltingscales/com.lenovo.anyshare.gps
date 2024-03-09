@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cxs" android:layout_marginRight="@dimen/cxs" android:layout_marginBottom="0.0dip" android:layout_marginHorizontal="@dimen/cxs" app:a_7="@dimen/cxs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/c1u" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+    <ImageView android:id="@id/c20" android:background="@drawable/cb9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/cyx" android:textColor="@color/axv" android:gravity="center" android:layout_gravity="center" android:id="@id/c2m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:background="@drawable/cb8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.ushareit.widget.RoundFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cps" android:layout_width="match_parent" android:layout_height="70dp">
+    <ImageView android:id="@+id/byc" android:background="@drawable/ic_launcher" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bqj" android:layout_marginLeft="@dimen/brt" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/bj1" android:gravity="center" android:id="@+id/du0" android:background="@drawable/aij" android:layout_width="@dimen/br4" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/bt1" android:text="CHECK" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/br9" android:text="Download will start 24 hours later.Download will start 24 hours later" android:maxLines="2" android:layout_toLeftOf="@+id/du0" android:layout_toRightOf="@+id/byc" android:layout_centerVertical="true"/>
+</RelativeLayout>

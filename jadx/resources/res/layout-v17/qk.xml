@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/lt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/agr" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:id="@+id/af0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <FrameLayout android:id="@+id/ahi" android:background="@android:color/white" android:layout_width="@dimen/b5z" android:layout_height="@dimen/b5y" android:layout_centerInParent="true"/>
+            <FrameLayout android:id="@+id/ahf" android:background="@android:color/white" android:layout_width="@dimen/b5z" android:layout_height="@dimen/b5y" android:layout_centerInParent="true"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/af0" android:layout_alignParentBottom="true">
+            <Button android:id="@+id/ahv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MREC"/>
+            <Button android:id="@+id/ahw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Native"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/aey" android:background="@android:color/white" android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/agt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@+id/ags" android:layout_width="@dimen/b5u" android:layout_height="@dimen/b5t"/>
+            <TextView android:id="@+id/agu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="Banner" android:layout_toRightOf="@+id/ags" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ags"/>
+            <Switch android:id="@+id/ahj" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/aai" android:text="Test Native" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:track="@drawable/aaj" android:switchPadding="8dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/ahh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@+id/ahg" android:layout_width="@dimen/b5u" android:layout_height="@dimen/b5t"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="MREC" android:layout_toRightOf="@+id/ahg" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ahg"/>
+            <Switch android:id="@+id/ahm" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/aai" android:text="Test Native" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:track="@drawable/aaj" android:switchPadding="8dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/ahc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@+id/ahb" android:layout_width="@dimen/b5u" android:layout_height="@dimen/b5t"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="Interstitial" android:layout_toRightOf="@+id/ahb" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ahb"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/ag9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@+id/ag8" android:layout_width="@dimen/b5u" android:layout_height="@dimen/b5t"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="App Open" android:layout_toRightOf="@+id/ag8" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ag8"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/ahu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@+id/aht" android:layout_width="@dimen/b5u" android:layout_height="@dimen/b5t"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="Rewarded Interstitial" android:layout_toRightOf="@+id/aht" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/aht"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/ahs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@+id/ahr" android:layout_width="@dimen/b5u" android:layout_height="@dimen/b5t"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="Rewarded" android:layout_toRightOf="@+id/ahr" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ahr"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/ahl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton android:id="@+id/ahk" android:layout_width="@dimen/b5u" android:layout_height="@dimen/b5t"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="Native" android:layout_toRightOf="@+id/ahk" android:layout_centerInParent="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ahk"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

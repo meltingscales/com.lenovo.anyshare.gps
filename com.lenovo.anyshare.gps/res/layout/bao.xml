@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/brt"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bad" />
+    <LinearLayout android:orientation="vertical" android:id="@id/deu" android:background="@drawable/dk3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqn" android:layout_marginRight="@dimen/br9" android:layout_below="@id/e26" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true">
+        <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/tj" android:id="@id/e09" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bmm" android:text="@string/d99" />
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/ye" android:id="@id/dzx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/bmm" android:text="@string/d98" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/d7r" android:paddingLeft="@dimen/br9" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:id="@id/cb3" android:layout_width="fill_parent" android:layout_height="@dimen/bow" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bmm">
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/a0j" android:ellipsize="end" android:gravity="center" android:id="@id/dtx" android:background="@drawable/art" android:layout_width="0.0dip" android:layout_height="@dimen/bow" android:layout_marginRight="@dimen/bn4" android:text="@string/d92" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/bfq" android:ellipsize="end" android:gravity="center" android:id="@id/dvz" android:background="@drawable/c5x" android:layout_width="0.0dip" android:layout_height="@dimen/bow" android:text="@string/d94" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ccw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/blk">
+            <View android:background="@color/a13" android:layout_width="fill_parent" android:layout_height="@dimen/bko" />
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:gravity="center" android:id="@id/e0x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk" android:text="@string/d9a" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bst" android:textColor="@color/a35" android:ellipsize="end" android:gravity="center" android:id="@id/dyk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bn4" android:text="@string/d97" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

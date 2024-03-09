@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/c1f" android:background="@drawable/bks" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bs3" android:paddingBottom="@dimen/bs3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ai7">
+        <androidx.cardview.widget.CardView android:layout_gravity="start" android:id="@id/e3f" android:layout_width="@dimen/bkw" android:layout_height="@dimen/bqx" app:n6="@dimen/bqv">
+            <ImageView android:layout_gravity="center" android:id="@id/bsa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/be2" android:scaleType="centerCrop" />
+            <TextView android:textSize="@dimen/bsu" android:textColor="#ffffffff" android:gravity="end|center" android:layout_gravity="bottom" android:id="@id/bsl" android:background="@drawable/bkf" android:paddingLeft="@dimen/bqf" android:paddingRight="@dimen/bqf" android:paddingBottom="1.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/bnj" />
+            <ImageView android:layout_gravity="start|bottom|center" android:id="@id/c51" android:visibility="gone" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/bs3" android:layout_marginBottom="@dimen/bqf" android:src="@drawable/bkj" />
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:gravity="start|center" android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/br9" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bwb" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/bsh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/br9" android:maxLines="2" android:drawablePadding="@dimen/bqv" />
+            <RelativeLayout android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:id="@id/bsk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:gravity="start" android:id="@id/bsj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" style="@style/ahx" />
+                <TextView android:textSize="@dimen/bss" android:textColor="@color/xu" android:gravity="start" android:id="@id/bsf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/bsj" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/bsu" android:textColor="@color/w4" android:gravity="center" android:id="@id/bse" android:background="@drawable/beu" android:visibility="gone" android:layout_width="@dimen/bln" android:layout_height="@dimen/bok" android:text="@string/dbm" android:maxLines="1" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center" android:id="@id/bs6" android:visibility="gone" android:layout_width="@dimen/buz" android:layout_height="@dimen/buz" android:layout_marginRight="@dimen/bmm" android:src="@drawable/bd0" app:a75="@dimen/db2" />
+        <ImageView android:layout_gravity="top" android:id="@id/cl0" android:padding="@dimen/bs3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bns" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/avt" android:background="@color/bi0" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/bw7" android:layout_marginBottom="1.0dip" />
+        <View android:id="@id/awp" android:background="@color/bi0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bw7" />
+    </LinearLayout>
+</LinearLayout>

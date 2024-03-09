@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f8" parent="@style/a2i">
+        <item name="po">@color/hp</item>
+        <item name="pr">@color/hp</item>
+        <item name="pz">@color/l1</item>
+        <item name="q4">@color/l3</item>
+        <item name="q6">@color/l5</item>
+        <item name="q8">@color/l5</item>
+    </style>
+    <style name="a0i" parent="@style/a0g">
+    </style>
+    <style name="a0j" parent="@style/a0g">
+    </style>
+    <style name="a0k" parent="@style/a0p">
+    </style>
+    <style name="a0l" parent="@style/a0q">
+    </style>
+    <style name="a0m" parent="@style/a0r">
+    </style>
+    <style name="a0n" parent="@style/a0s">
+    </style>
+    <style name="a0o" parent="@style/a11">
+    </style>
+    <style name="a1v" parent="@style/a1o">
+    </style>
+    <style name="a1w" parent="@style/a1p">
+    </style>
+    <style name="a1x" parent="@style/a1q">
+    </style>
+    <style name="a1y" parent="@style/a1r">
+    </style>
+    <style name="a1z" parent="@style/a1s">
+    </style>
+    <style name="a20" parent="@style/a1t">
+    </style>
+    <style name="a21" parent="@style/a1u">
+    </style>
+    <style name="a23" parent="@style/a22">
+    </style>
+    <style name="a2f" parent="@style/a2b">
+    </style>
+    <style name="a2g" parent="@style/a2c">
+    </style>
+    <style name="a2h" parent="@style/a2d">
+    </style>
+    <style name="a2i" parent="@style/a2b">
+    </style>
+    <style name="a2j" parent="@style/a2d">
+    </style>
+    <style name="a2k" parent="@style/a2v">
+    </style>
+    <style name="a2l" parent="@style/a2w">
+    </style>
+    <style name="a2m" parent="@style/a2x">
+    </style>
+    <style name="a2n" parent="@style/a2y">
+    </style>
+    <style name="a2o" parent="@style/a2z">
+    </style>
+    <style name="a2p" parent="@style/a30">
+    </style>
+    <style name="a2q" parent="@style/a31">
+    </style>
+    <style name="a2r" parent="@style/a32">
+    </style>
+    <style name="a2s" parent="@style/a33">
+    </style>
+    <style name="a2t" parent="@style/a3l">
+    </style>
+    <style name="a2u" parent="@style/a3m">
+    </style>
+    <style name="a3v" parent="@style/a3t">
+    </style>
+    <style name="a4n" parent="@style/a4m">
+    </style>
+    <style name="acq" parent="@style/acs">
+    </style>
+    <style name="acv" parent="@style/acw">
+    </style>
+    <style name="ad4" parent="@style/ad2">
+    </style>
+    <style name="ad7" parent="@style/ad5">
+    </style>
+    <style name="aex" parent="@style/aet">
+    </style>
+    <style name="afa" parent="@style/af9">
+    </style>
+    <style name="ag0" parent="@style/ag1">
+    </style>
+</resources>

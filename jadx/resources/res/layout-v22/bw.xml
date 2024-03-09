@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/en"/>
+    <TextView android:textSize="@dimen/hq" android:textColor="@color/ce" android:gravity="center" android:id="@+id/hb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f3" android:layout_marginTop="@dimen/b9" android:layout_marginRight="@dimen/f3" android:text="@string/de" android:layout_marginHorizontal="@dimen/f3"/>
+    <TextView android:textSize="@dimen/hq" android:textStyle="bold" android:textColor="@color/d7" android:gravity="center" android:id="@+id/z" android:background="@drawable/e0" android:layout_width="match_parent" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/fz" android:layout_marginTop="@dimen/df" android:layout_marginRight="@dimen/fz" android:text="@string/df" android:layout_marginHorizontal="@dimen/fz"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+</LinearLayout>

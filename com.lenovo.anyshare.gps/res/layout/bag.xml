@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:padding="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/bqf" app:a_j="1.0">
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@id/b2o" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+            <com.lenovo.anyshare.widget.MaskProgressBar android:layout_gravity="center" android:id="@id/b33" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|bottom|center" android:id="@id/b2m" android:background="@drawable/dbc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:a75="@dimen/db2" style="@style/ah4" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="bottom|center|left" android:id="@id/b36" android:background="@drawable/dbc" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+    </FrameLayout>
+</merge>

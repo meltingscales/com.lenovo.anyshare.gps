@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.ui.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d6v" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/bl2" style="@style/agp">
+    <com.ushareit.ads.ui.view.NativeNormalAdView android:layout_width="match_parent" android:layout_height="wrap_content" app:bottom_left_corner="0dp" app:bottom_right_corner="0dp" app:is_waterfall="true" app:rect_radio="0" app:top_left_corner="@dimen/bl2" app:top_right_corner="@dimen/bl2"/>
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/bz5" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="@dimen/bl2" android:layout_marginStart="@dimen/brt" layout="@layout/wf"/>
+</com.ushareit.ads.ui.widget.RoundFrameLayout>

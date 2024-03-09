@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextureView android:id="@+id/do5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/bc9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="#eaeaea" android:scaleType="fitCenter"/>
+    <include layout="@layout/wr"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/cyc" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp" style="@style/ag_"/>
+    <ProgressBar android:layout_gravity="bottom" android:id="@+id/cka" android:layout_width="match_parent" android:layout_height="2dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/akz" style="@android:style/Widget.ProgressBar.Horizontal"/>
+    <ImageView android:layout_gravity="top|right" android:id="@+id/bzg" android:padding="6dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/al2"/>
+    <FrameLayout android:id="@+id/bng" android:background="#b2000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="14sp" android:textColor="#ffffff" android:layout_gravity="center" android:id="@+id/dub" android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/akv" android:drawablePadding="6dp"/>
+        <TextView android:textSize="12sp" android:textColor="#ffffff" android:layout_gravity="start|bottom" android:id="@+id/dyq" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adshonor_common_operate_replay" android:drawableLeft="@drawable/akx" android:drawablePadding="6dp" android:drawableStart="@drawable/akx"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/c6z" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aky"/>
+    </FrameLayout>
+    <include layout="@layout/xv"/>
+</FrameLayout>

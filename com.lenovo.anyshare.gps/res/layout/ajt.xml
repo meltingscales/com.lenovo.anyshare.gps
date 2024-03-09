@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightRelativeLayout android:id="@id/e4a" android:fitsSystemWindows="true" style="@style/pi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:id="@id/c__" android:background="@drawable/bom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:a76="@color/afs" style="@style/p1">
+        <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bqx" android:maxLines="2" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/d1b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bnj" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@id/dzy" android:background="@drawable/bes" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bo8" android:text="@string/de9" />
+    </com.ushareit.theme.night.view.NightLinearLayout>
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/c3p" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:src="@drawable/bwq" android:layout_alignTop="@id/c__" android:layout_alignParentRight="true" app:a7_="@color/w4" />
+</com.ushareit.theme.night.view.NightRelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bx6" android:layout_width="50.0dip" android:layout_height="50.0dip" app:a1c="csi" app:a1g="csi" />
+    <TextView android:textAppearance="@style/x3" android:textColor="@android:color/white" android:id="@id/dny" android:background="@android:color/holo_green_dark" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Ad" android:layout_marginStart="8.0dip" app:a0o="@id/dqd" app:a1b="@id/bx6" app:a1g="@id/dqd" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/cr9" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginBottom="8.0dip" app:a0p="@id/apu" app:a0u="csi" app:a13="1.0" app:a1b="@id/dqd" app:a1g="@id/bx6" />
+    <TextView android:textAppearance="@style/xq" android:id="@id/dqd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip" app:a1b="@id/dny" app:a1g="csi" />
+    <TextView android:textAppearance="@style/x2" android:textSize="12.0sp" android:id="@id/apu" android:layout_width="wrap_content" android:layout_height="8.0dip" android:layout_marginStart="8.0dip" app:a0o="@id/bx6" app:a0u="csi" app:a13="0.0" app:a1b="@id/bx6" app:a1f="@id/dqd" app:a1h="1.0" />
+    <FrameLayout android:id="@id/di9" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" app:a0p="@id/apu" app:a1c="@id/dny" app:a1f="@id/dny" />
+    <TextView android:textAppearance="@style/x2" android:id="@id/avr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:a0u="csi" app:a1c="csi" app:a1f="@id/bx6" />
+    <FrameLayout android:id="@id/cj4" android:layout_width="0.0dip" android:layout_height="150.0dip" android:layout_marginTop="4.0dip" android:maxHeight="150.0dip" app:a0t="W,16:9" app:a0u="csi" app:a1c="csi" app:a1f="@id/avr" />
+    <Button android:textColor="@android:color/white" android:id="@id/bcg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:a0o="csi" app:a1f="@id/cj4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

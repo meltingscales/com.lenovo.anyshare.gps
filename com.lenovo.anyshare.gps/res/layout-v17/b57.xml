@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/a4v" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/apg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/api" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/aob" android:layout_alignParentBottom="true" android:layout_toStartOf="@id/aob" />
+        <ImageView android:id="@id/aoa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d67" android:layout_alignTop="@id/api" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aob" android:paddingTop="@dimen/bqf" android:paddingRight="@dimen/bqf" android:paddingBottom="@dimen/bqf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:paddingEnd="@dimen/bqf" android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="@dimen/bqf" android:layout_height="@dimen/bko" android:src="@color/a7i" />
+            <ImageView android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:src="@drawable/d68" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/ar1">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <EditText android:textColor="#484848" android:id="@+id/wd" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/a0p" android:inputType="number"/>
+    </LinearLayout>
+    <View android:id="@+id/aef" android:background="@color/wn" android:layout_width="match_parent" android:layout_height="@dimen/ao0" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

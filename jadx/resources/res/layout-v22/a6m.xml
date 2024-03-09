@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2m" android:layout_marginRight="@dimen/c2m" android:layout_marginHorizontal="@dimen/c2m">
+    <com.ushareit.downloader.widget.HomeSearchKeywordView android:id="@+id/bw7" android:layout_width="@dimen/c38" android:layout_height="wrap_content" app:radius="@dimen/c3j"/>
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/cgp" android:visibility="gone" android:layout_width="@dimen/c38" android:layout_height="wrap_content" app:radius="@dimen/c3j" app:rect_radio="1.325">
+        <View android:background="@color/a9o" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="@dimen/c51" android:textColor="@color/aaz" android:layout_gravity="center" android:id="@+id/ckr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b0z" android:singleLine="true" android:drawableRight="@drawable/b8c"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+</FrameLayout>

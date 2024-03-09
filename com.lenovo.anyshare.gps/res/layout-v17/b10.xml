@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@drawable/czc" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/bm3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/dpx" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bn4" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/bn4" android:layout_marginEnd="@dimen/bn4" />
+        <ImageView android:id="@id/cw5" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bnj" android:layout_marginEnd="@dimen/bnj" />
+        <ImageView android:id="@id/apm" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bn4" android:src="@drawable/csy" android:layout_marginEnd="@dimen/bn4" />
+    </LinearLayout>
+    <com.ushareit.musicplayer.view.sort.DragSortListView android:gravity="center" android:id="@id/cab" android:paddingTop="@dimen/bqf" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="0.0px" android:choiceMode="none" dslv:p5="1.0px" dslv:t_="true" dslv:ta="@id/bh2" dslv:tb="0.33" dslv:tc="cqh" dslv:vn="0.6" dslv:vo="@color/a5x" xmlns:dslv="http://schemas.android.com/apk/res-auto" />
+</LinearLayout>

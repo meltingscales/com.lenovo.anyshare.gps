@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/vw" android:layout_width="match_parent" android:layout_height="@dimen/atf">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x710701d8" android:background="@drawable/ue" android:layout_width="@dimen/asg" android:layout_height="@dimen/asf" style="@style/aj7"/>
+        <TextView android:textSize="@dimen/asu" android:textStyle="bold" android:textColor="@color/l9" android:layout_gravity="start|center_vertical" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/alh"/>
+    </FrameLayout>
+</merge>

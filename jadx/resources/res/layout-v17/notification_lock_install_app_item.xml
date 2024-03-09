@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/d6v" android:background="@drawable/b9i" android:layout_width="match_parent" android:layout_height="@dimen/bra">
+    <com.ushareit.widget.RoundFrameLayout android:id="@+id/as7" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/bmm" android:layout_alignParentStart="true" app:radius="@dimen/brt">
+        <com.ushareit.theme.night.view.NightImageView android:id="@+id/as5" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:scaleType="centerCrop"/>
+        <com.ushareit.theme.night.view.NightImageView android:id="@+id/as6" android:background="@drawable/d2f" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:scaleType="centerCrop"/>
+    </com.ushareit.widget.RoundFrameLayout>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:id="@+id/as8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/as7" android:layout_centerVertical="true" android:layout_toEndOf="@+id/as7"/>
+    <com.lenovo.anyshare.main.music.equalizer.SwitchButton android:id="@+id/dlo" android:background="@drawable/btn" android:layout_width="34dp" android:layout_height="20dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" app:switchThumb="@drawable/bta"/>
+</RelativeLayout>

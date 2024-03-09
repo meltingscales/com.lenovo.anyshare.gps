@@ -1,0 +1,165 @@
+{
+    "version" : "0.0.9",
+    "name" : "GuErBangJie",
+    "audio" : "GuErBangJie32.mp3",
+    "width" : 720,
+    "height" : 1280,
+    "fps" : 25.0,
+    "numberOfFrames" : 935,
+    "numberOfPhotos" : 12,
+    "numberOfParts" : 35,
+    "parts" : [
+         {
+             "partIndex" : 0,"frames" : 38,"from" : 0,"to" : 37,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [0],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 1,"frames" : 37,"from" : 38,"to" : 74,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [0]}]
+         },
+         
+         {
+             "partIndex" : 2,"frames" : 24,"from" : 75,"to" : 98,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [0, 1],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 3,"frames" : 12,"from" : 99,"to" : 110,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [1],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 4,"frames" : 37,"from" : 111,"to" : 147,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [1]}]
+         },
+         
+         {
+             "partIndex" : 5,"frames" : 24,"from" : 148,"to" : 171,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [1, 2],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 6,"frames" : 12,"from" : 172,"to" : 183,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [2],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 7,"frames" : 37,"from" : 184,"to" : 220,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [2]}]
+         },
+         
+         {
+             "partIndex" : 8,"frames" : 25,"from" : 221,"to" : 235,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [2, 3],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 9,"frames" : 12,"from" : 236,"to" : 257,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [3],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 10,"frames" : 36,"from" : 258,"to" : 293,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [3]}]
+         },
+         
+         {
+             "partIndex" : 11,"frames" : 24,"from" : 294,"to" : 317,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [3, 4],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 12,"frames" : 12,"from" : 318,"to" : 331,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [4],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 13,"frames" : 35,"from" : 332,"to" : 366,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [4]}]
+         },
+         
+         {
+             "partIndex" : 14,"frames" : 25,"from" : 367,"to" : 391,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [4, 5],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 15,"frames" : 12,"from" : 392,"to" : 403,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [5],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 16,"frames" : 37,"from" : 404,"to" : 440,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [5]}]
+         },
+         
+         {
+             "partIndex" : 17,"frames" : 24,"from" : 441,"to" : 464,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [5, 6],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 18,"frames" : 11,"from" : 465,"to" : 475,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [6],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 19,"frames" : 37,"from" : 476,"to" : 513,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [6]}]
+         },
+         
+         {
+             "partIndex" : 20,"frames" : 24,"from" : 514,"to" : 537,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [6, 7],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 21,"frames" : 12,"from" : 538,"to" : 549,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [7],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 22,"frames" : 36,"from" : 550,"to" : 585,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [7]}]
+         },
+         
+         {
+             "partIndex" : 23,"frames" : 24,"from" : 586,"to" : 609,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [7, 8],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 24,"frames" : 12,"from" : 610,"to" : 621,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [8],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 25,"frames" : 37,"from" : 622,"to" : 658,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [8]}]
+         },
+         
+         {
+             "partIndex" : 26,"frames" : 24,"from" : 659,"to" : 682,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [8, 9],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 27,"frames" : 12,"from" : 683,"to" : 694,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [9],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 28,"frames" : 37,"from" : 695,"to" : 731,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [9]}]
+         },
+         
+         {
+             "partIndex" : 29,"frames" : 24,"from" : 732,"to" : 755,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [9, 10],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 30,"frames" : 12,"from" : 756,"to" : 767,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [10],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 31,"frames" : 37,"from" : 768,"to" : 804,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [10]}]
+         },
+         
+         {
+             "partIndex" : 32,"frames" : 25,"from" : 805,"to" : 829,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [10, 11],"designedPhoto" : "unnamed.png","transition" : "FadeMaskA"}]
+         },
+         {
+             "partIndex" : 33,"frames" : 12,"from" : 830,"to" : 841,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [11],"mask" : [{"maskPhoto" : "unnamed.png","maskMode" : "FadeInM2P"}]}]
+         },
+         {
+             "partIndex" : 34,"frames" : 93,"from" : 842,"to" : 934,
+             "layers" : [{"layerIndex" : 0,"photoIndex" : [11]}]
+         }
+     ]
+  }
+  

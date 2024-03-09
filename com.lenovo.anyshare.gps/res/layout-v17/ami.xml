@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lenovo.anyshare.main.me.widget.SIScrollview android:id="@id/bqc" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:orientation="vertical" android:id="@id/bnh" android:paddingTop="@dimen/bru" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/bq4" android:src="@drawable/c2y" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+                    <FrameLayout android:id="@id/bnv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <FrameLayout android:id="@id/bo9" android:background="@drawable/c2o" android:layout_width="fill_parent" android:layout_height="@dimen/bqx" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bm3" android:layout_above="@id/avc" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/bm3" />
+                    <View android:id="@id/avc" android:background="@drawable/amd" android:layout_width="fill_parent" android:layout_height="@dimen/bn4" android:layout_marginTop="@dimen/bs4" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/d7s" android:background="@drawable/c2s" android:paddingTop="@dimen/bmf" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bs5" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.lenovo.anyshare.main.me.widget.SIScrollview>
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/cgc" android:layout_width="@dimen/bru" android:layout_height="@dimen/bru" android:layout_marginBottom="145.0dip" />
+    <com.lenovo.anyshare.main.widget.MainMeTopView android:id="@id/cgf" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

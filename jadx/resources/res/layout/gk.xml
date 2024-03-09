@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/hn" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lenovo.anyshare.base.slider.SlidingTabLayout android:id="@+id/t7" android:layout_width="match_parent" android:layout_height="@dimen/agu" app:indicatorColor="@color/fy" app:indicatorMarginBottom="@dimen/ahq" app:tabViewSelectedTextSize="@dimen/aja" app:tabViewTextColorList="@color/hk" app:tabViewTextSize="@dimen/aja" app:viewPagerScrollWithAnimation="true"/>
+    <View android:id="@+id/t6" android:background="@color/yr" android:layout_width="match_parent" android:layout_height="@dimen/acp"/>
+    <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@+id/u2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

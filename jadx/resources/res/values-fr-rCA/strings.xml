@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nu">Consultez &lt;b&gt;facebook.com/device&lt;/b&gt; et entrez le code affiché ci-dessus.</string>
+    <string name="nv">Une erreur inattendue s’est produite pendant le téléchargement d’une image.</string>
+    <string name="nw">La connexion à WebView nécessite une autorisation d’accès à INTERNET</string>
+    <string name="nx">Erreur AndroidManifest</string>
+    <string name="ny">J’aime déjà</string>
+    <string name="nz">J’aime</string>
+    <string name="o0">Chargement…</string>
+    <string name="o1">Annuler</string>
+    <string name="o2">Connectez-vous</string>
+    <string name="o3">Continuer avec Facebook</string>
+    <string name="o4">Se connecter avec Facebook</string>
+    <string name="o5">Se déconnecter</string>
+    <string name="o6">Se déconnecter</string>
+    <string name="o7">Connecté en tant que : %1$s</string>
+    <string name="o8">Connecté avec Facebook</string>
+    <string name="o9">Envoyer</string>
+    <string name="o_">Partager</string>
+    <string name="oa">Pour associer votre compte, ouvrez l’application Facebook sur votre appareil mobile et consultez les notifications.</string>
+    <string name="ob">– OU –</string>
+    <string name="oc">Ce n’est pas vous ?</string>
+    <string name="od">Continuer en tant que %1$s</string>
+    <string name="oe">Confirmer la connexion</string>
+    <string name="of">Vous avez le contrôle : choisissez quels renseignements vous voulez partager avec les applications.</string>
+    <string name="a97">Corps</string>
+    <string name="a98">Titre</string>
+    <string name="a99">Affichage multimédia</string>
+    <string name="a9_">Autoriser</string>
+    <string name="a9a">Ne pas autoriser</string>
+    <string name="a9b">Autoriser l\'application à vous envoyer des notifications?</string>
+    <string name="a9c">Toucher pour ouvrir l\'annonce</string>
+    <string name="a9d">Voir l\'annonce que vous avez enregistrée lorsque vous étiez en ligne</string>
+    <string name="a9e">OK</string>
+    <string name="a9f">Vous verrez une notification contenant le lien lorsque vous serez en ligne.</string>
+    <string name="a9g">Non merci</string>
+    <string name="a9h">Nous vous enverrons une notification contenant un lien vers le site de l\'annonceur.</string>
+    <string name="a9i">Ouvrir l\'annonce lorsque vous serez en ligne.</string>
+    <string name="a9j">Enregistrer l\'image</string>
+    <string name="a9k">Autoriser l\'annonce à stocker l\'image dans la galerie d\'images?</string>
+    <string name="a9l">Accepter</string>
+    <string name="a9m">Refuser</string>
+    <string name="a9n">Créer un événement dans l\'agenda</string>
+    <string name="a9o">Autoriser l\'annonce à créer un événement dans l\'agenda?</string>
+    <string name="a9p">Annonce test</string>
+    <string name="a9q">AdMob -</string>
+</resources>

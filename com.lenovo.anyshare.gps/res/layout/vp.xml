@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.sharemob.views.TextProgress android:textColor="@color/bj1" android:gravity="center" android:id="@id/b03" android:visibility="gone" android:layout_width="@dimen/bm5" android:layout_height="@dimen/bqj" android:max="100" android:progress="100" android:progressDrawable="@drawable/akc" app:ajb="@dimen/bsy" app:ajd="true" app:k1="false" style="?android:progressBarStyleHorizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

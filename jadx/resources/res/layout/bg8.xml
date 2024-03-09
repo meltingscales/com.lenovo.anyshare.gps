@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/bk8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/e2e" android:layout_marginBottom="@dimen/dzm">
+        <TextView android:textSize="@dimen/e6t" android:textStyle="bold" android:textColor="@color/bj_" android:ellipsize="end" android:gravity="center" android:id="@+id/eac" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/dz1" android:maxLines="1" android:layout_weight="1"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/e_a" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/e6t" android:textColor="@color/bjo" android:ellipsize="end" android:gravity="center" android:id="@+id/e_w" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/dyy" android:maxLines="1" android:drawableRight="@drawable/dwy"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@+id/e_b" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/e6t" android:textColor="@color/bjo" android:ellipsize="end" android:gravity="center" android:id="@+id/ea8" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/dz0" android:maxLines="1" android:drawableRight="@drawable/dwy"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:background="@color/bju" android:layout_width="@dimen/dz8" android:layout_height="@dimen/e02"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/e_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/e6t" android:textColor="@color/bjo" android:ellipsize="end" android:gravity="center" android:id="@+id/e_y" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/dwj" android:maxLines="1" android:drawableRight="@drawable/dvt" android:drawablePadding="@dimen/e4e"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.ushareit.shop.ad.widget.ShopTagFlowLayout android:id="@+id/e9u" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dzm" app:height_space="@dimen/e5m" app:width_space="@dimen/e5m"/>
+</LinearLayout>

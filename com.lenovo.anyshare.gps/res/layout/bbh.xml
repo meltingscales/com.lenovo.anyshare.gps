@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/dj0" android:paddingLeft="@dimen/dn_" android:paddingTop="@dimen/do3" android:paddingRight="@dimen/dn_" android:paddingBottom="@dimen/dna" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dom" android:textColor="@color/bj1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/are" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/dnb" />
+</FrameLayout>

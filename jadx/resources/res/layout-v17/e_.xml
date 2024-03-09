@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bm3">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/iv" app:rect_radio="1">
+            <ImageView android:id="@+id/kt" android:background="@drawable/hx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <FrameLayout android:layout_gravity="end" android:id="@+id/kj" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginTop="@dimen/blb" android:layout_marginRight="@dimen/blb">
+            <ImageView android:layout_gravity="end|top" android:background="@drawable/gf" android:layout_width="@dimen/bmf" android:layout_height="@dimen/bmf"/>
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@+id/lm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8">
+            <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/ef" android:ellipsize="end" android:id="@+id/k9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqv" android:maxLines="4" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/ef" android:gravity="center" android:id="@+id/l6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bow" android:text="luke 11:10" android:layout_below="@+id/k9" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/j8" android:background="@drawable/hr" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bqj">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/hh"/>
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/v9" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/mb" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bqv" android:text="@string/la" android:layout_marginStart="@dimen/bqv"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

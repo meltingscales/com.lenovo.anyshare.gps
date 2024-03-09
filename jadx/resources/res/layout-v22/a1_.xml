@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.theme.night.view.NightFrameLayout android:id="@+id/bm9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginVertical="8dp" app:night_bg_color_tint="@color/afs">
+        <include layout="@layout/axu"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bow" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bow" android:layout_marginBottom="@dimen/brt" android:layout_marginHorizontal="@dimen/bow">
+            <include android:gravity="center_vertical" android:id="@+id/arc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blv" android:layout_marginBottom="@dimen/blv" android:layout_marginVertical="@dimen/blv" layout="@layout/a0t"/>
+            <FrameLayout android:id="@+id/bnp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/arc">
+                <ListView android:id="@+id/bmb" android:paddingBottom="@dimen/bnj" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/rc"/>
+                <com.lenovo.anyshare.widget.recyclerview_adapter.sticky_recyclerview.StickyRecyclerView android:id="@+id/d7p" android:background="@color/bi0" android:paddingBottom="@dimen/bnj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="1dp" style="@style/rc"/>
+            </FrameLayout>
+        </RelativeLayout>
+    </com.ushareit.theme.night.view.NightFrameLayout>
+    <include android:id="@+id/bmc" layout="@layout/axy"/>
+    <include android:id="@+id/d7q" android:elevation="1dp" layout="@layout/axy"/>
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bin">13dp</dimen>
+    <dimen name="bio">16dp</dimen>
+    <dimen name="bkh">38dp</dimen>
+    <dimen name="c7i">30dp</dimen>
+    <dimen name="c7j">50dp</dimen>
+    <dimen name="c7k">13sp</dimen>
+    <dimen name="c7l">355dp</dimen>
+    <dimen name="c7m">20sp</dimen>
+    <dimen name="ce2">98dp</dimen>
+    <dimen name="de9">120dp</dimen>
+    <dimen name="dec">100dp</dimen>
+    <dimen name="dtl">30dp</dimen>
+    <dimen name="dtm">30dp</dimen>
+    <dimen name="dtn">30dp</dimen>
+    <dimen name="dtu">10dp</dimen>
+    <dimen name="dtw">45dp</dimen>
+    <dimen name="dbc">4dp</dimen>
+    <dimen name="db9">9dp</dimen>
+    <dimen name="db6">30dp</dimen>
+    <dimen name="dbd">20sp</dimen>
+    <dimen name="db8">30dp</dimen>
+    <dimen name="db_">14sp</dimen>
+    <dimen name="db7">26dp</dimen>
+    <dimen name="dbb">11sp</dimen>
+    <dimen name="db5">10dp</dimen>
+    <dimen name="dba">33dp</dimen>
+    <dimen name="d4y">0dp</dimen>
+</resources>

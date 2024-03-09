@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/jt" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/jy" android:layout_width="match_parent" android:layout_height="@dimen/j1">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/jv" android:background="@drawable/gv" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="#99ffffff" style="@style/aj7"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/ep" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/jx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bn6" android:singleLine="true" android:drawablePadding="5dp" app:night_tv_text_color="#99ffffff" style="@style/alh"/>
+    </FrameLayout>
+    <TextView android:textStyle="bold" android:textColor="@color/e3" android:gravity="center" android:id="@+id/jn" android:background="@drawable/hn" android:layout_width="match_parent" android:layout_height="@dimen/bq7" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bmf" android:layout_marginBottom="@dimen/bok" android:text="@string/jz" android:layout_alignParentBottom="true"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/lf" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/jn" android:layout_below="@+id/jy" android:overScrollMode="never"/>
+</RelativeLayout>

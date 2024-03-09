@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/aq" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/d8" android:layout_width="match_parent" android:layout_height="@dimen/gc"/>
+        <RelativeLayout android:background="@drawable/dw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eg" android:layout_marginBottom="@dimen/ai">
+            <ImageView android:id="@+id/cm" android:layout_width="@dimen/gg" android:layout_height="@dimen/fk" android:layout_marginLeft="@dimen/cx" android:layout_marginTop="@dimen/cx" android:layout_marginBottom="@dimen/cx" android:scaleType="centerCrop"/>
+            <TextView android:textSize="@dimen/hq" android:textColor="@color/c4" android:id="@+id/hq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq" android:text="@string/d9" android:layout_toRightOf="@+id/cm" android:layout_alignTop="@+id/cm"/>
+            <ProgressBar android:id="@+id/fd" android:layout_width="match_parent" android:layout_height="@dimen/dy" android:layout_marginRight="@dimen/cx" android:progressDrawable="@drawable/g4" android:layout_alignLeft="@+id/hq" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Horizontal"/>
+            <TextView android:textSize="@dimen/ho" android:id="@+id/hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dy" android:layout_alignLeft="@+id/hq" android:layout_alignBottom="@+id/cm"/>
+            <TextView android:textSize="@dimen/ho" android:textStyle="bold" android:textColor="@color/c9" android:id="@+id/hs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dy" android:layout_alignRight="@+id/fd" android:layout_alignBottom="@+id/hr"/>
+            <ImageView android:id="@+id/d0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7" android:layout_marginRight="@dimen/bq" android:src="@drawable/bq" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

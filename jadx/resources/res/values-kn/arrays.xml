@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>ಅಶ್ಲೀಲ ಲೈಂಗಿಕತೆ</item>
+        <item>ಅಪರಾಧ</item>
+        <item>ರಾಜಕೀಯವಾಗಿ ಸೂಕ್ಷ್ಮ ವಿಚಾರ</item>
+        <item>ಕಾನೂನುಬಾಹಿರ ಮಾರಾಟ</item>
+        <item>ತಪ್ಪು ಮಾಹಿತಿ</item>
+        <item>ಉಲ್ಲಂಘನೆ</item>
+    </array>
+    <array name="c">
+        <item>ಅಹಿತಕರ ವಿಷಯ</item>
+        <item>ಅಶ್ಲೀಲ</item>
+        <item>ಹಿಂಸಾತ್ಮಕ ವಿಷಯ</item>
+        <item>ಹಾನಿಕಾರಕ ಮತ್ತು ಅಪಾಯಕಾರಿ ವಿಷಯ</item>
+        <item>ಶೀರ್ಷಿಕೆ/ಮುಖಪುಟ ವಿಷಯಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ</item>
+    </array>
+</resources>

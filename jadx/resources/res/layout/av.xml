@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/el">
+    <ImageView android:layout_gravity="top" android:id="@+id/h6" android:background="#e7e7e7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentTop="true"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/r" android:background="#e7e7e7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true" style="@style/bq"/>
+    <TextView android:textSize="@dimen/hs" android:textStyle="bold" android:textColor="@color/c4" android:ellipsize="middle" android:gravity="start" android:layout_gravity="start" android:id="@+id/as" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginRight="@dimen/f1" android:singleLine="true" android:layout_centerVertical="true"/>
+    <FrameLayout android:id="@+id/a7" android:paddingLeft="@dimen/c6" android:paddingRight="@dimen/c6" android:layout_width="wrap_content" android:layout_height="@dimen/el" android:layout_centerVertical="true" style="@style/e">
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/bp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/e2"/>
+    </FrameLayout>
+</RelativeLayout>

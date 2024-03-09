@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cb8" android:background="@color/atu" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cvp">
+            <com.ushareit.bst.power.widget.BatteryView android:id="@+id/av7" android:layout_width="@dimen/csp" android:layout_height="@dimen/cu3"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/cx0" android:layout_marginStart="@dimen/cx0">
+                <include android:id="@+id/bzw" layout="@layout/aqr"/>
+                <include android:id="@+id/bzx" layout="@layout/aqr"/>
+                <include android:id="@+id/bzy" layout="@layout/aqr"/>
+                <include android:id="@+id/bzz" layout="@layout/aqr"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/cyv" android:textColor="@color/axs" android:gravity="center" android:id="@+id/dz7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cw5" android:layout_marginTop="@dimen/cvp" android:layout_marginRight="@dimen/cw5" android:layout_marginStart="@dimen/cw5" android:layout_marginEnd="@dimen/cw5"/>
+        <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/auj" android:gravity="center" android:id="@+id/dti" android:background="@drawable/c96" android:layout_width="match_parent" android:layout_height="@dimen/cwk" android:layout_marginLeft="@dimen/cvp" android:layout_marginTop="@dimen/cta" android:layout_marginRight="@dimen/cvp" android:layout_marginBottom="@dimen/cwc" android:text="@string/ak_" android:layout_marginStart="@dimen/cvp" android:layout_marginEnd="@dimen/cvp"/>
+    </LinearLayout>
+</merge>

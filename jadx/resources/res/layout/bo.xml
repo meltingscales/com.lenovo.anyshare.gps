@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/fx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.base.widget.cyclic.CyclicViewPager android:id="@+id/b0" android:paddingLeft="@dimen/c6" android:paddingRight="@dimen/c6" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    <com.ushareit.base.widget.cyclic.CirclePageIndicator android:layout_gravity="bottom|right" android:id="@+id/c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/df" android:layout_marginBottom="@dimen/b7" app:indicator_bg="@drawable/ai" app:indicator_height="@dimen/f5" app:indicator_spacing="@dimen/f5" app:indicator_width="@dimen/gf"/>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/c1f" android:background="@drawable/d7c" android:paddingLeft="@dimen/df8" android:paddingTop="@dimen/dgq" android:paddingRight="@dimen/df8" android:paddingBottom="@dimen/dgq" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.siplayer.component.view.RoundFrameLayout android:layout_gravity="start|center" android:id="@id/e3f" android:layout_width="@dimen/dev" android:layout_height="@dimen/dge" app:a_7="@dimen/dgd">
+        <ImageView android:layout_gravity="center" android:id="@id/cgb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/dfj" android:src="@drawable/byh" />
+        <TextView android:textSize="@dimen/dgv" android:textColor="@color/b3g" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/e35" android:padding="@dimen/dga" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.ushareit.siplayer.component.view.RoundFrameLayout>
+    <TextView android:textSize="@dimen/dgy" android:textColor="@color/b3g" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/dpx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dew" android:maxLines="2" />
+</androidx.appcompat.widget.LinearLayoutCompat>

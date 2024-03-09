@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornografia e volgarità</item>
+        <item>Crimine</item>
+        <item>Contenuto politico</item>
+        <item>Marketing illegare</item>
+        <item>Informazioni false</item>
+        <item>Violazioni</item>
+    </array>
+    <array name="c">
+        <item>Contenuti scomodi</item>
+        <item>Pornografia</item>
+        <item>Contenuti violenti</item>
+        <item>Contenuti nocivi e pericolosi</item>
+        <item>Il titolo/la copertina non corrisponde al contenuto</item>
+    </array>
+</resources>

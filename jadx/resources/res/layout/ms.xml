@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/vp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/a3i" android:layout_width="@dimen/b1p" android:layout_height="wrap_content" android:layout_above="@+id/a53" android:layout_centerHorizontal="true" app:layout_constraintBottom_toTopOf="@+id/a53" app:layout_constraintEnd_toEndOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.ushareit.widget.RoundFrameLayout android:layout_gravity="center" android:id="@+id/a7j" android:layout_width="@dimen/awz" android:layout_height="@dimen/b1p" app:radius="@dimen/amf">
+            <FrameLayout android:layout_gravity="center" android:id="@+id/a3f" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/a1g" android:visibility="visible" android:layout_width="@dimen/awz" android:layout_height="@dimen/b1p" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+                <com.ushareit.muslim.share.widget.ShareTextBorderView android:id="@+id/a9s" android:layout_width="match_parent" android:layout_height="@dimen/b1p"/>
+            </FrameLayout>
+            <ImageView android:layout_gravity="end" android:id="@+id/y0" android:background="@drawable/vw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am3" android:layout_marginRight="@dimen/am3"/>
+        </com.ushareit.widget.RoundFrameLayout>
+        <ImageView android:background="@drawable/zb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/aqo"/>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@+id/a53" android:background="@color/l9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/atv" layout="@layout/mz"/>
+            <com.ushareit.muslim.share.widget.ShareTextSizeView android:id="@+id/a9w" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="@dimen/alp"/>
+            <com.ushareit.muslim.share.widget.ShareTextFontView android:id="@+id/a9u" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="@dimen/alp"/>
+            <com.ushareit.muslim.share.widget.ShareTextColorView android:id="@+id/a9t" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:background="#33979797" android:layout_width="match_parent" android:layout_height="@dimen/alp"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/ar1" android:weightSum="3">
+                <ImageView android:id="@+id/a1i" android:paddingTop="@dimen/ao_" android:paddingBottom="@dimen/ao_" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/zi" android:adjustViewBounds="true" android:layout_weight="1"/>
+                <ImageView android:id="@+id/a1j" android:paddingTop="@dimen/ao_" android:paddingBottom="@dimen/ao_" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/zp" android:adjustViewBounds="true" android:layout_weight="1"/>
+                <ImageView android:id="@+id/a1k" android:paddingTop="@dimen/ao_" android:paddingBottom="@dimen/ao_" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/zr" android:adjustViewBounds="true" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

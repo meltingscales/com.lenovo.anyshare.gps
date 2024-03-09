@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/brt" app:a_j="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/d7o" android:background="@color/w_" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bst" android:textStyle="bold" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="center" android:id="@id/dvc" android:paddingLeft="@dimen/bow" android:paddingRight="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/c84" android:maxLines="1" android:layout_centerHorizontal="true" app:a75="@dimen/db2" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/bmm" android:layout_height="fill_parent" android:layout_marginRight="-24.0dip" android:src="@drawable/col" android:adjustViewBounds="true" android:layout_toLeftOf="@id/dvc" app:a76="@color/w4" />
+    </RelativeLayout>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/ee" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.widget.SIScrollview android:id="@+id/l_" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/lk" android:layout_width="match_parent" android:layout_height="580dp" android:scaleType="centerCrop"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/lo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bm3" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/bm3"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/jm" android:background="@color/eo" android:layout_width="match_parent" android:layout_height="@dimen/j1">
+                <com.ushareit.theme.night.view.NightButton android:layout_gravity="end|center_vertical" android:id="@+id/ll" android:background="@drawable/hi" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="#99ffffff" style="@style/ahx"/>
+            </FrameLayout>
+        </FrameLayout>
+    </com.ushareit.widget.SIScrollview>
+    <FrameLayout android:id="@+id/ip" android:layout_width="match_parent" android:layout_height="@dimen/j1">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/iq" android:background="@drawable/avj" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/aj2"/>
+        <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/is" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btu" android:layout_marginRight="@dimen/btu" android:singleLine="true" android:drawablePadding="5dp"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/ir" android:background="@drawable/hi" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/agw"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/u6" android:paddingLeft="@dimen/apb" android:paddingRight="@dimen/apb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj">
+    <FrameLayout android:layout_width="@dimen/apr" android:layout_height="wrap_content" android:minHeight="@dimen/ark">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/apr" android:layout_height="@dimen/apr" android:src="@drawable/a5f"/>
+        <TextView android:textSize="@dimen/asp" android:textStyle="bold" android:textColor="@color/i6" android:layout_gravity="center" android:id="@+id/adg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:gravity="start|center_vertical" android:id="@+id/tv_content_res_0x71070285" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/am3" android:layout_marginRight="@dimen/am3" android:maxLines="2" android:textDirection="locale" android:layout_marginHorizontal="@dimen/am3"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="start|center|top" android:id="@id/b9k" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/cab" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/rc" />
+        <ViewStub android:id="@id/aus" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ViewStub android:id="@id/aur" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/co0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bt1" android:textColor="@color/a6s" android:ellipsize="end" android:gravity="center" android:id="@id/co3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bqj" android:layout_marginRight="@dimen/bnj" android:text="@string/cch" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/a5x" android:ellipsize="end" android:gravity="center" android:id="@id/co2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:text="@string/ccg" android:layout_below="@id/co3" android:layout_centerHorizontal="true" />
+            <Button android:textSize="@dimen/bsx" android:textColor="@color/aew" android:id="@id/co1" android:background="@drawable/bo4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/boe" android:minWidth="@dimen/bnm" android:minHeight="@dimen/bpr" android:text="@string/ccf" android:layout_below="@id/co2" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/bkq" android:background="@color/z6" android:layout_width="fill_parent" android:layout_height="@dimen/bmf" />
+        <include layout="@layout/adv" />
+    </LinearLayout>
+    <include android:id="@id/axl" layout="@layout/a9j" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/a52" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/d51" android:paddingLeft="@dimen/blk" android:paddingTop="@dimen/brl" android:paddingRight="@dimen/blk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqx">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/bqm">
+            <ImageView android:layout_gravity="center|right" android:id="@id/brk" style="@style/r7" />
+            <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/brm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4" android:layout_marginLeft="@dimen/bm3" android:src="@drawable/bxt" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqs" android:minHeight="@dimen/dkb">
+            <ListView android:id="@id/brl" style="@style/rc" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ax6" android:paddingLeft="@dimen/blk" android:paddingTop="@dimen/brl" android:paddingRight="@dimen/blk" android:layout_width="fill_parent" android:layout_height="@dimen/bqs" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/xu" android:ellipsize="end" android:gravity="center|left" android:id="@id/b0g" android:layout_width="0.0dip" android:layout_marginLeft="@dimen/bm3" android:maxLines="2" android:singleLine="false" android:drawablePadding="@dimen/bl2" android:layout_weight="1.0" style="@style/sh" />
+        <TextView android:textStyle="bold" android:textColor="@color/a3s" android:id="@id/b0i" android:background="@drawable/auw" android:layout_width="0.0dip" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bm3" android:text="@string/asu" android:maxLines="1" android:layout_weight="1.0" style="@style/sh" />
+    </LinearLayout>
+</FrameLayout>

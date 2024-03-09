@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d6v" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/ax6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:paddingTop="@dimen/brt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/c5e" android:textColor="@color/w4" android:gravity="center_vertical" android:id="@id/dpx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:minHeight="@dimen/bpo" android:layout_marginStart="@dimen/bmm" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/a3s" android:paddingTop="@dimen/bqv" android:paddingBottom="@dimen/bqv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:minHeight="@dimen/brd" android:layout_marginStart="@dimen/brl" android:layout_marginEnd="@dimen/brt">
+                <ImageView android:id="@id/cex" android:layout_width="@dimen/bqa" android:layout_height="@dimen/bqa" android:layout_marginLeft="@dimen/bs3" android:layout_marginStart="@dimen/bs3" />
+                <TextView android:textSize="@dimen/c5e" android:textColor="@color/xl" android:id="@id/b9q" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/br4" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/br4" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/aqr" android:layout_width="fill_parent" android:layout_height="290.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

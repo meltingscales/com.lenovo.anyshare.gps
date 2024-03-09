@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:padding="@dimen/bp0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/br9" app:a_j="1.0">
+            <ImageView android:id="@id/c1u" android:padding="@dimen/bnd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <View android:layout_gravity="bottom" android:id="@id/c1k" android:background="@drawable/cn8" android:layout_width="fill_parent" android:layout_height="@dimen/bo3" />
+            <TextView android:textSize="@dimen/bsu" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/c1j" android:layout_width="wrap_content" android:layout_height="@dimen/bmm" android:layout_margin="@dimen/bq1" android:minWidth="@dimen/bpr" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <ImageView android:gravity="end" android:layout_gravity="end|center|top" android:id="@id/c1b" android:visibility="gone" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:layout_marginTop="@dimen/bvm" android:src="@drawable/as4" style="@style/ahn" />
+    </FrameLayout>
+</merge>

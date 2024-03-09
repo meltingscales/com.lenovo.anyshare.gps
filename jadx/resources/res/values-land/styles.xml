@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="q1" parent="">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/axj</item>
+        <item name="android:paddingTop">@dimen/bo3</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/bli</item>
+        <item name="android:layout_marginTop">@dimen/bl2</item>
+        <item name="android:layout_marginRight">@dimen/bli</item>
+        <item name="android:layout_marginBottom">@dimen/bl2</item>
+        <item name="android:maxWidth">@dimen/byp</item>
+    </style>
+    <style name="a9y" parent="@style/o5">
+        <item name="agy">center</item>
+        <item name="aha">bn_</item>
+    </style>
+    <style name="aeh" parent="@style/a9k">
+        <item name="android:textAppearance">?attr/aid</item>
+        <item name="android:textColor">?attr/po</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/an</item>
+    </style>
+    <style name="aek" parent="@style/oq">
+        <item name="android:layout_gravity">start|bottom</item>
+    </style>
+</resources>

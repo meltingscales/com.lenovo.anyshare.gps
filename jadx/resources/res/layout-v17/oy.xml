@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/uj" android:layout_width="@dimen/aqh" android:layout_height="@dimen/aqh" android:layout_marginLeft="@dimen/arr" android:src="@drawable/ww" android:scaleType="centerCrop" android:layout_marginStart="@dimen/arr"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/ar1" android:layout_weight="1" style="@style/fe">
+        <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/ij" android:ellipsize="end" android:gravity="start|center_vertical" android:id="@+id/a8v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aqj" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/j2" android:ellipsize="end" android:gravity="start|center_vertical" android:id="@+id/a8u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/a5d" android:padding="@dimen/as1" android:layout_width="@dimen/aqa" android:layout_height="@dimen/aqa"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/a5a" android:padding="@dimen/as1" android:layout_width="@dimen/aqa" android:layout_height="@dimen/aqa"/>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/a5c" android:padding="@dimen/as1" android:layout_width="@dimen/aqa" android:layout_height="@dimen/aqa" android:layout_marginRight="@dimen/arj" android:layout_marginEnd="@dimen/arj"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/vs" android:paddingRight="@dimen/as1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/as1">
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/vr" android:padding="@dimen/aqw" android:layout_width="@dimen/aog" android:layout_height="@dimen/aog"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/yl" android:paddingLeft="@dimen/and" android:paddingRight="@dimen/and" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/amy" android:paddingBottom="@dimen/amy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/amy" android:layout_marginRight="@dimen/amy" android:minHeight="@dimen/aqx">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:id="@+id/zr" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqj">
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/iy" android:id="@+id/zu" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/asp" android:textColor="@color/kx" android:ellipsize="end" android:gravity="center" android:id="@+id/z2" android:background="@drawable/pb" android:paddingLeft="@dimen/arr" android:paddingRight="@dimen/arr" android:paddingBottom="@dimen/alp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ao_" android:layout_marginLeft="@dimen/arr" android:text="@string/va" android:maxLines="1" android:drawableLeft="@drawable/a4y" android:drawablePadding="@dimen/aqj" android:drawableStart="@drawable/a4y" android:layout_marginStart="@dimen/arr"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.ushareit.muslim.quran.widget.CustomTextView android:textSize="@dimen/asv" android:textColor="@color/ij" android:id="@+id/zg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/am3" android:layout_marginStart="@dimen/am3"/>
+    </LinearLayout>
+    <View android:id="@+id/v_" android:background="@color/wn" android:layout_width="match_parent" android:layout_height="@dimen/ao0" android:layout_marginLeft="@dimen/ar7" android:layout_marginRight="@dimen/ar7"/>
+</LinearLayout>

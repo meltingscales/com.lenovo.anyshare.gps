@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bqa" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d7m" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/bqe">
+        <View android:background="@color/a6_" android:layout_width="match_parent" android:layout_height="@dimen/bnd"/>
+        <TextView android:textStyle="bold" android:textColor="@color/a7_" android:gravity="center" android:layout_gravity="center" android:id="@+id/azr" android:background="@drawable/arm" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:text="@string/cta" android:textAllCaps="true" android:layout_marginStart="@dimen/bnj" android:layout_marginEnd="@dimen/bnj"/>
+    </FrameLayout>
+</FrameLayout>

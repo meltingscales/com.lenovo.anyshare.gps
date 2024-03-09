@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_vertical" android:id="@+id/eg" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@dimen/ev">
+    <com.ushareit.listplayer.widget.PraiseImageView android:id="@+id/dx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bh" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:normal_src="@drawable/c2" app:select_src="@drawable/c3"/>
+    <TextView android:textSize="@dimen/hn" android:textColor="@color/bh" android:id="@+id/dw" android:paddingLeft="@dimen/f5" android:paddingRight="@dimen/dy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/do" android:maxLines="1" android:layout_toRightOf="@+id/dx" android:layout_alignTop="@+id/dx"/>
+</RelativeLayout>

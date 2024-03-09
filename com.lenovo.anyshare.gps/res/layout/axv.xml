@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ax6" android:background="@drawable/bxi" android:paddingLeft="@dimen/blk" android:paddingTop="@dimen/brl" android:paddingRight="@dimen/blk" android:layout_width="fill_parent" android:layout_height="@dimen/bqx" android:layout_marginLeft="@dimen/bsd" android:layout_marginRight="@dimen/bsd" app:a76="@color/afs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

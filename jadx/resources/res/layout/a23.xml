@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/bas" android:background="@color/a0l" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dk8">
+        <TextView android:textSize="@dimen/btn" android:textColor="@color/ag4" android:layout_gravity="center_horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bw2" android:text="@string/d20"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="@color/a0l" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dk8">
+        <com.ushareit.theme.night.view.NightFrameLayout android:id="@+id/b_6" android:background="@drawable/aw5" android:paddingLeft="@dimen/brl" android:paddingTop="@dimen/brl" android:paddingRight="@dimen/brl" android:paddingBottom="@dimen/brl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/brl" android:layout_marginBottom="@dimen/bm3" app:night_bg_color_tint="@color/afs">
+            <ListView android:id="@+id/bau" android:scrollbars="none" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bla" android:layout_marginBottom="@dimen/bla" style="@style/rc"/>
+        </com.ushareit.theme.night.view.NightFrameLayout>
+    </FrameLayout>
+</FrameLayout>

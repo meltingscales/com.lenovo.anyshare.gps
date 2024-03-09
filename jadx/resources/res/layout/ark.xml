@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/b5v" android:background="@color/auj" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="219dp">
+        <com.ushareit.theme.night.view.NightImageView android:id="@+id/b5u" android:layout_width="@dimen/czq" android:layout_height="@dimen/czp" android:src="@drawable/c_h" android:layout_centerInParent="true" app:night_alpha="@dimen/db2"/>
+        <com.ushareit.theme.night.view.NightImageView android:id="@+id/b5w" android:layout_width="@dimen/czs" android:layout_height="@dimen/czr" android:layout_centerInParent="true" app:night_alpha="@dimen/db2"/>
+    </RelativeLayout>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/d01" android:textColor="@color/axs" android:gravity="center" android:id="@+id/b5x" android:layout_width="match_parent" android:layout_height="wrap_content" app:night_tv_alpha="@dimen/db2"/>
+    <com.ushareit.cleanit.widget.TotalSizeBar android:layout_gravity="center_horizontal" android:id="@+id/b5y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cta">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/czx" android:textColor="@color/axs" android:id="@+id/b69" android:layout_width="wrap_content" android:layout_height="wrap_content" app:night_tv_alpha="@dimen/db2"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cwu" android:layout_toRightOf="@+id/b69" android:layout_alignTop="@+id/b69" android:layout_alignBottom="@+id/b69">
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/d00" android:textColor="@color/axs" android:gravity="center_vertical" android:id="@+id/b6l" android:paddingTop="@dimen/czz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" app:night_tv_alpha="@dimen/db2"/>
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/czw" android:textColor="@color/axs" android:gravity="center_vertical" android:id="@+id/b5k" android:paddingBottom="@dimen/czv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" app:night_tv_alpha="@dimen/db2"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.ushareit.cleanit.widget.TotalSizeBar>
+    <ViewStub android:id="@+id/e1t" android:layout="@layout/atw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

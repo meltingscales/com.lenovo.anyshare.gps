@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Tekst</string>
+    <string name="a98">Naslov</string>
+    <string name="a99">Prikaz medija</string>
+    <string name="a9_">Dozvoli</string>
+    <string name="a9a">Nemoj dozvoliti</string>
+    <string name="a9b">Dozvoliti aplikaciji da vam šalje obavještenja?</string>
+    <string name="a9c">Dodirnite da otvorite oglas</string>
+    <string name="a9d">Pogledajte sačuvani oglas kada ponovo budete online</string>
+    <string name="a9e">UREDU</string>
+    <string name="a9f">Dobit ćete obavještenje s linkom kada ponovo budete online</string>
+    <string name="a9g">Ne, hvala</string>
+    <string name="a9h">Poslat ćemo vam obavještenje s linkom na web lokaciju oglašivača.</string>
+    <string name="a9i">Otvorite oglas kada ponovo budete online.</string>
+    <string name="a9j">Sačuvaj sliku</string>
+    <string name="a9k">Želite li dozvoliti oglasu da pohrani sliku u Galeriju slika?</string>
+    <string name="a9l">Prihvati</string>
+    <string name="a9m">Odbij</string>
+    <string name="a9n">Kreiranje događaja u kalendaru</string>
+    <string name="a9o">Želite li dozvoliti oglasu da kreira događaj u kalendaru?</string>
+    <string name="a9p">Probni oglas</string>
+    <string name="a9q">AdMob –</string>
+</resources>

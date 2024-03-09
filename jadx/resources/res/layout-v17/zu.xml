@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/bqd" android:layout_height="@dimen/br3">
+        <ImageView android:layout_gravity="center" android:id="@+id/coy" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_launcher"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bq4" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/bq4">
+            <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:id="@+id/cpn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/sf"/>
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:id="@+id/cos" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/se"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/d2x" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_margin="@dimen/br9" android:src="@drawable/d2_"/>
+        <ProgressBar android:layout_gravity="end|center_vertical" android:id="@+id/d2y" android:visibility="gone" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_margin="@dimen/br9" android:indeterminateDrawable="@drawable/d2a" style="?android:attr/progressBarStyleSmall"/>
+    </FrameLayout>
+</LinearLayout>

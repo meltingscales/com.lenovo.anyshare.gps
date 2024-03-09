@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/d5q" android:background="@drawable/b1_" android:paddingLeft="@dimen/c3p" android:paddingRight="@dimen/c3p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0r" android:layout_marginTop="@dimen/c0r" android:layout_marginRight="@dimen/c0r" android:layout_marginBottom="@dimen/c0r" app:a0u="csi" app:a1g="csi">
+        <TextView android:textSize="@dimen/c0x" android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center" android:id="@id/aoa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AD" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:layout_gravity="center" android:id="@id/dgv" android:background="#4dffffff" android:layout_width="@dimen/c0q" android:layout_height="@dimen/c13" android:layout_marginLeft="@dimen/c3p" android:layout_marginRight="@dimen/c3c" android:layout_toRightOf="@id/aoa" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/c41" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bok" android:layout_width="wrap_content" android:layout_height="@dimen/c40" android:layout_marginRight="@dimen/c1r" android:layout_toRightOf="@id/dgv" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/c41" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/boj" android:layout_width="wrap_content" android:layout_height="@dimen/c40" android:text="@string/b2w" android:layout_toRightOf="@id/bok" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

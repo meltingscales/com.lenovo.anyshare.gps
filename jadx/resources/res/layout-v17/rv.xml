@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/akz" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@+id/al0" android:layout_centerVertical="true" android:contentDescription="@android:string/untitled" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/al0"/>
+    <ImageView android:id="@+id/al1" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@+id/al0" android:layout_centerVertical="true" android:contentDescription="@android:string/untitled" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/al0"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/al0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="15sp" android:textColor="#666666" android:id="@+id/al2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abl" android:maxLines="1"/>
+        <TextView android:textSize="12sp" android:textColor="#7c7c7c" android:id="@+id/al3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abp" android:maxLines="1"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/ep" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/k6" android:layout_width="match_parent" android:layout_height="@dimen/j1">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/k4" android:background="@drawable/gv" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" app:night_btn_bg_color_tint="#99ffffff" style="@style/aj7"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/e5" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/k5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bn6" android:text="@string/kr" android:singleLine="true" android:drawablePadding="5dp" app:night_tv_text_color="#99ffffff" style="@style/alh"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/k3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/k6"/>
+</RelativeLayout>

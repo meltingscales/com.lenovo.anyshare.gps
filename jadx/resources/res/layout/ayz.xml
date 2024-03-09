@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:name="com.lenovo.anyshare.base.EmptyFragment" android:id="@+id/bnh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.lenovo.anyshare.widget.CommonTitleView android:id="@+id/e2t" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/axy"/>
+</FrameLayout>

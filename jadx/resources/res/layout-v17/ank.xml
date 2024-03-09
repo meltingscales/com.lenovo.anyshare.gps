@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c2d" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/chd" android:textStyle="bold" android:textColor="@color/w4" android:gravity="start" android:id="@+id/e09" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:textAlignment="viewStart" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.ushareit.mcds.ui.view.RoundFrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cgd" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/e09" app:radius="@dimen/c9k">
+        <com.ushareit.mcds.ui.view.RatioByWidthImageView android:id="@+id/byp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:whRatio="2.5"/>
+    </com.ushareit.mcds.ui.view.RoundFrameLayout>
+    <ViewStub android:id="@+id/cfa" android:visibility="visible" android:layout="@layout/anl" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cgc" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/e09"/>
+    <ViewStub android:id="@+id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgh" android:layout_height="@dimen/cgc" android:layout_margin="@dimen/ch3" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintRight_toRightOf="0"/>
+</com.ushareit.mcds.ui.view.McdsConstraintLayout>

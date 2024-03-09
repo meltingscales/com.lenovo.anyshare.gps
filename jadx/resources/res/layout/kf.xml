@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a5e" android:background="@color/l8" android:layout_width="match_parent" android:layout_height="@dimen/arb">
+    <RelativeLayout android:id="@+id/a6w" android:background="@color/jb" android:paddingBottom="@dimen/ar7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/aqj"/>
+    <SeekBar android:id="@+id/a83" android:background="@color/l8" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/am3" android:max="100" android:progress="0" android:layout_alignParentTop="true" style="@style/f5"/>
+    <TextView android:textSize="@dimen/asp" android:textColor="@color/a4i" android:gravity="center" android:id="@+id/aaq" android:layout_width="wrap_content" android:layout_height="@dimen/amy" android:layout_marginLeft="@dimen/am3" android:layout_below="@+id/a83"/>
+    <TextView android:textSize="@dimen/asp" android:textColor="@color/a4i" android:gravity="center" android:id="@+id/aap" android:layout_width="wrap_content" android:layout_height="@dimen/amy" android:layout_marginRight="@dimen/ar7" android:layout_below="@+id/a83" android:layout_alignParentRight="true"/>
+    <RelativeLayout android:id="@+id/a71" android:layout_width="@dimen/an1" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ap4" android:layout_below="@+id/aaq" android:layout_alignParentRight="true">
+        <ImageView android:id="@+id/a11" android:layout_width="@dimen/aq2" android:layout_height="@dimen/aq2" android:src="@drawable/su" android:layout_centerInParent="true" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/a14" android:padding="@dimen/am3" android:layout_width="@dimen/aqg" android:layout_height="@dimen/aqg" android:src="@drawable/sx" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/a13" android:padding="@dimen/am3" android:layout_width="@dimen/aqg" android:layout_height="@dimen/aqg" android:src="@drawable/ss" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/ij" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="@dimen/aq2" android:layout_marginLeft="@dimen/amy" android:singleLine="true" android:layout_toLeftOf="@+id/a71" android:layout_below="@+id/aaq" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

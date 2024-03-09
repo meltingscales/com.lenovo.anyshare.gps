@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/cop" android:padding="10dp" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:src="@drawable/deq" android:scaleType="centerCrop"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:layout_marginEnd="24dp">
+        <TextView android:textSize="16sp" android:textColor="#ff191919" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1"/>
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/cye" android:layout_width="match_parent" android:layout_height="2dp" android:max="100" android:progress="20" android:secondaryProgress="0" android:progressDrawable="@drawable/des" style="?android:attr/progressBarStyleHorizontal"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12sp" android:textColor="#ff2f9cf6" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/diq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ct9" android:lines="1" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textColor="#ff757575" android:gravity="end" android:layout_gravity="end|center_vertical" android:id="@+id/dfj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/0" android:lines="1" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

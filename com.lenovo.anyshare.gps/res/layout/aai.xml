@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-20.0dip" android:layout_above="@id/cnh">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/dlm" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/d2t" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/cyc" android:background="@drawable/bru" android:padding="@dimen/dhs" android:visibility="gone" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+        <FrameLayout android:id="@id/dpk" android:background="@color/a4v" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bpv">
+            <TextView android:textSize="@dimen/bsw" android:textColor="@color/bj1" android:layout_gravity="center" android:id="@id/e1k" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ViewStub android:layout_gravity="center" android:id="@id/bi0" android:layout="@layout/abl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/dqw" android:visibility="gone" android:layout="@layout/ach" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:id="@id/cnh" android:layout="@layout/a9c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

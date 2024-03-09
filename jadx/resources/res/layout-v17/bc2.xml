@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bgi" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/bnj" android:paddingEnd="@dimen/bnj">
+    <include android:id="@+id/dks" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/bc0"/>
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bqv" android:layout_below="@+id/dks">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/dkc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmf" android:layout_below="@+id/djd" layout="@layout/bc4"/>
+            <ImageView android:id="@+id/dke" android:layout_width="@dimen/bq9" android:layout_height="@dimen/bq9" android:layout_marginTop="@dimen/bnj" android:src="@drawable/dmz" android:layout_below="@+id/dkc" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="#f6ba6d" android:gravity="center_horizontal" android:id="@+id/dkv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk" android:text="@string/di0" android:layout_below="@+id/dke" android:layout_centerHorizontal="true" android:textDirection="locale"/>
+            <include layout="@layout/bbp"/>
+            <include layout="@layout/bbq"/>
+            <include layout="@layout/bbv"/>
+            <com.ushareit.subscription.view.ShimmerFrameLayout android:id="@+id/dkm" android:layout_width="match_parent" android:layout_height="@dimen/bq9" android:layout_marginTop="@dimen/bo8" android:layout_below="@+id/dkf">
+                <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/dmm" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="#ff040200" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dji" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/di1" android:layout_centerHorizontal="true"/>
+                    <TextView android:textColor="#ffd08421" android:layout_gravity="center_horizontal" android:id="@+id/djh" style="@style/wi"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.ushareit.subscription.view.ShimmerFrameLayout>
+            <TextView android:textSize="@dimen/bst" android:textStyle="bold" android:textColor="#ff5a5b5f" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/boe" android:text="@string/dhp" android:layout_below="@+id/dkm" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/btj" android:textColor="@color/bgm" android:layout_gravity="center_horizontal" android:id="@+id/djv" android:padding="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp7" android:layout_marginBottom="@dimen/bnj" android:text="@string/di5" android:layout_below="@+id/dki" android:layout_centerHorizontal="true" android:textAlignment="center"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

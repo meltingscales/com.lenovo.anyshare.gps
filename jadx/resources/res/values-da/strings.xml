@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nu">Besøg &lt;b&gt;facebook.com/device&lt;/b&gt;, og indtast koden ovenfor.</string>
+    <string name="nv">Uventet fejl under download af billede.</string>
+    <string name="nw">WebView-login kræver INTERNET-tilladelse</string>
+    <string name="nx">Fejl i AndroidManifest</string>
+    <string name="ny">Synes godt om</string>
+    <string name="nz">Synes godt om</string>
+    <string name="o0">Indlæser …</string>
+    <string name="o1">Annuller</string>
+    <string name="o2">Log på</string>
+    <string name="o3">Fortsæt med Facebook</string>
+    <string name="o4">Log på med Facebook</string>
+    <string name="o5">Log af</string>
+    <string name="o6">Log af</string>
+    <string name="o7">Logget på som %1$s</string>
+    <string name="o8">Logget på med Facebook</string>
+    <string name="o_">Del</string>
+    <string name="oa">For at tilslutte din konto skal du åbne Facebook-appen på din mobilenhed og se efter, om der er notifikationer.</string>
+    <string name="ob">- ELLER -</string>
+    <string name="oc">Ikke dig?</string>
+    <string name="od">Fortsæt som %1$s</string>
+    <string name="oe">Bekræft login</string>
+    <string name="of">Du har kontrollen – Vælg, hvilke informationer du vil dele med apps.</string>
+    <string name="a97">Brødtekst</string>
+    <string name="a98">Overskrift</string>
+    <string name="a99">Medievisning</string>
+    <string name="a9_">Tillad</string>
+    <string name="a9a">Tillad ikke</string>
+    <string name="a9b">Vil du tillade, at appen sender dig notifikationer?</string>
+    <string name="a9c">Tryk for at åbne annoncen</string>
+    <string name="a9d">Se den annonce, du gemte, mens du var offline</string>
+    <string name="a9e">OK</string>
+    <string name="a9f">Du får en notifikation med linket, når du er online igen</string>
+    <string name="a9g">Nej tak</string>
+    <string name="a9h">Vi sender dig en notifikation med et link til annoncørens website.</string>
+    <string name="a9i">Åbn annoncen, når du er online igen.</string>
+    <string name="a9j">Gem billede</string>
+    <string name="a9k">Vil du tillade, at annoncen gemmer billedet i Galleri?</string>
+    <string name="a9l">Acceptér</string>
+    <string name="a9m">Afvis</string>
+    <string name="a9n">Opret kalenderbegivenhed</string>
+    <string name="a9o">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
+    <string name="a9p">Testannonce</string>
+    <string name="a9q">AdMob –</string>
+</resources>

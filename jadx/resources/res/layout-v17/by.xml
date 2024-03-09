@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@+id/gs" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+        <com.ushareit.video.widget.SIRefreshHeader android:id="@+id/fp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <androidx.viewpager2.widget.ViewPager2 android:id="@+id/ij" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ushareit.video.widget.SILoadMoreFooter android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_gravity="top" android:background="@drawable/b_" android:layout_width="match_parent" android:layout_height="@dimen/ap"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/er" android:paddingTop="@dimen/b7" android:paddingBottom="@dimen/b7" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="start|center_vertical" android:id="@+id/i" android:background="@drawable/avj" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/gf" android:layout_marginStart="@dimen/gf"/>
+            <TextView android:textSize="@dimen/hu" android:textColor="@color/d7" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginRight="@dimen/cx" android:text="@string/im" android:singleLine="true" android:layout_weight="1" android:layout_marginStart="@dimen/c6" android:layout_marginEnd="@dimen/cx"/>
+            <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/e6" android:background="@drawable/de" android:visibility="gone" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginRight="@dimen/gf" android:layout_marginEnd="@dimen/gf"/>
+        </LinearLayout>
+        <com.ushareit.minivideo.widget.TrendingOperateView android:layout_gravity="end|bottom" android:id="@+id/eo" android:layout_width="@dimen/fw" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ar"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/df" android:background="@drawable/dv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f9" android:layout_marginRight="@dimen/f9" android:layout_marginBottom="@dimen/f9">
+            <ImageView android:id="@+id/d1" android:layout_width="@dimen/df" android:layout_height="@dimen/df" android:src="@drawable/ey" android:scaleType="fitXY"/>
+            <TextView android:textSize="@dimen/hq" android:textColor="@color/d7" android:gravity="center" android:id="@+id/hu" android:paddingLeft="@dimen/gf" android:paddingTop="@dimen/b0" android:paddingBottom="@dimen/b0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew"/>
+        </LinearLayout>
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/bv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/a9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c0s"/>
+</FrameLayout>

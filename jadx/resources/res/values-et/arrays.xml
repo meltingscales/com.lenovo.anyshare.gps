@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornograafiliselt vulgaarne</item>
+        <item>Kuritegevus</item>
+        <item>Poliitiliselt tundlik</item>
+        <item>Ebaseaduslik turundus</item>
+        <item>Valeteave</item>
+        <item>Rikkumine</item>
+    </array>
+    <array name="c">
+        <item>Ebamugavust tekitav sisu</item>
+        <item>Pornograafia</item>
+        <item>Vägivaldne sisu</item>
+        <item>Kahjulik ja ohtlik sisu</item>
+        <item>Pealkiri/kaas ei vasta sisule</item>
+    </array>
+</resources>

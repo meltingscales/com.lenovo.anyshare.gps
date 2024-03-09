@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/e77" android:background="@drawable/buq" android:layout_width="match_parent" android:layout_height="@dimen/bm0" app:radius="@dimen/blk">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cb8" android:background="@drawable/dup" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/amc"/>
+        <TextView android:textSize="@dimen/cdo" android:textColor="#ff666666" android:id="@+id/b8d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bm3"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ba1" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bm3" android:layout_marginBottom="@dimen/ce0">
+            <com.ushareit.widget.RoundFrameLayout android:id="@+id/b_y" android:layout_width="@dimen/bs1" android:layout_height="match_parent" app:radius="@dimen/cdq" app:rect_radio="0.67">
+                <ImageView android:id="@+id/b_v" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bup" android:scaleType="centerCrop"/>
+                <ImageView android:id="@+id/ba4" android:layout_width="@dimen/cdv" android:layout_height="@dimen/cdu" android:src="@drawable/bus"/>
+            </com.ushareit.widget.RoundFrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/br9" android:layout_weight="1">
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/v9" android:ellipsize="end" android:id="@+id/ba7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true"/>
+                <TextView android:textSize="@dimen/bsu" android:textColor="@color/xl" android:ellipsize="end" android:id="@+id/b_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:maxLines="1" android:singleLine="true"/>
+            </LinearLayout>
+            <com.ushareit.widget.RoundFrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" app:radius="@dimen/bqf">
+                <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/b_p" android:background="#1a247fff" android:layout_width="wrap_content" android:layout_height="@dimen/bp7" android:minWidth="@dimen/brh"/>
+            </com.ushareit.widget.RoundFrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.ushareit.widget.RoundFrameLayout>

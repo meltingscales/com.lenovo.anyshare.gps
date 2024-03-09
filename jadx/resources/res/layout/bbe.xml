@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp8" android:layout_marginRight="@dimen/dp8">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp9" android:layout_marginRight="@dimen/dp9">
+        <include android:id="@+id/dfa" layout="@layout/ban"/>
+    </LinearLayout>
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/b8t" android:background="@drawable/diz" android:paddingLeft="@dimen/dp9" android:paddingRight="@dimen/dp9" android:layout_width="match_parent" android:layout_height="@dimen/doq" app:night_bg_color_tint="@color/afs"/>
+    <com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:background="@drawable/dix" android:paddingLeft="@dimen/dp9" android:paddingRight="@dimen/dp9" android:layout_width="match_parent" android:layout_height="wrap_content" app:night_bg_color_tint="@color/afs">
+        <include layout="@layout/ayt"/>
+        <include android:id="@+id/df_" layout="@layout/bbd"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:gravity="center" android:id="@+id/dwk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/bpf"/>
+    </com.ushareit.theme.night.view.NightLinearLayout>
+    <include layout="@layout/bb8"/>
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/b8b" android:background="@drawable/diw" android:paddingLeft="@dimen/dp9" android:paddingRight="@dimen/dp9" android:layout_width="match_parent" android:layout_height="@dimen/dp6" app:night_bg_color_tint="@color/afs"/>
+</LinearLayout>

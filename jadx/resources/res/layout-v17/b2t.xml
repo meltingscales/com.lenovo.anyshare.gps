@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/blk">
+        <LinearLayout android:orientation="vertical" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="match_parent" android:layout_height="wrap_content" app:bottom_left_corner="@dimen/bkq" app:bottom_right_corner="@dimen/bkq" app:top_left_corner="@dimen/blk" app:top_right_corner="@dimen/blk">
+                <FrameLayout android:id="@+id/bc_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:id="@+id/bca" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <ImageView android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                <ImageView android:id="@+id/bl2" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bnv" android:layout_marginLeft="0.5dp" android:layout_marginTop="-0.5dp" android:src="@drawable/agp"/>
+                <ViewStub android:layout_gravity="end" android:id="@+id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj"/>
+            </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/awm" android:paddingLeft="@dimen/bm3" android:paddingRight="@dimen/bm3" android:paddingBottom="@dimen/bnj" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@+id/awn" android:background="#0d000000" android:layout_width="match_parent" android:layout_height="@dimen/bnd"/>
+                <RelativeLayout android:orientation="horizontal" android:id="@+id/apr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bs3" android:layout_marginBottom="@dimen/bs3" android:layout_marginStart="@dimen/bm3">
+                    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/dqb" android:lineSpacingExtra="@dimen/bhn"/>
+                    <FrameLayout android:id="@+id/dqb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="wrap_content" android:layout_height="@dimen/bok" android:max="100" android:progress="100" android:singleLine="true" app:textSize="@dimen/bsw" app:text_margin_left="@dimen/blk" app:text_margin_right="@dimen/blk" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akc"/>
+                    </FrameLayout>
+                </RelativeLayout>
+                <include android:id="@+id/dqf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/u8"/>
+            </LinearLayout>
+            <TextView android:textSize="15sp" android:textColor="#191919" android:id="@+id/d2f" android:paddingLeft="@dimen/blv" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/blk" android:paddingBottom="@dimen/bmf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ads_recommended_info" android:paddingStart="@dimen/blv" android:paddingEnd="@dimen/blk"/>
+        </LinearLayout>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</merge>

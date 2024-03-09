@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/coy" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingLeft="@dimen/bmf" android:paddingTop="@dimen/blk" android:paddingRight="@dimen/bl4" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingStart="@dimen/bmf" android:paddingEnd="@dimen/bl4">
+        <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/cpn" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/sf" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:ellipsize="marquee" android:id="@id/cos" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/se" />
+    </LinearLayout>
+</FrameLayout>

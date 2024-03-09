@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/b3u" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a76="@color/a93"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.downloader.search.widget.DownloaderSearchView android:id="@id/bgt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0r" android:layout_marginTop="@dimen/c0r" android:layout_marginRight="@dimen/c0r" android:layout_marginBottom="@dimen/bl2" />
+    <com.ushareit.downloader.web.main.widget.DownSearchHotwordsView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c0r" android:layout_marginRight="@dimen/c0r" android:layout_marginBottom="@dimen/c0r" />
+</LinearLayout>

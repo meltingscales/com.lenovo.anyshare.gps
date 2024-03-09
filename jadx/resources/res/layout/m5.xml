@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/jb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.muslim.main.home.widget.CustomCoordinatorLayout android:id="@+id/x7" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:background="#0f222d" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/y2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/aqm" android:scaleType="centerCrop" android:layout_alignParentBottom="true"/>
+            <ImageView android:background="@drawable/a45" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="302dp"/>
+        </FrameLayout>
+        <com.ushareit.muslim.main.home.widget.CustomAppBarLayout android:orientation="vertical" android:id="@+id/un" android:background="@color/l8" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+            <com.ushareit.muslim.main.widget.MuslimMainHomeTopView android:id="@+id/xg" android:layout_width="match_parent" android:layout_height="@dimen/aq8" android:minHeight="@dimen/aqx" app:layout_scrollFlags="0x3"/>
+        </com.ushareit.muslim.main.home.widget.CustomAppBarLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ushareit.muslim.settings.widget.TriangleView android:layout_gravity="start" android:id="@+id/aea" android:visibility="gone" android:layout_width="@dimen/amf" android:layout_height="@dimen/ar7" android:layout_marginLeft="@dimen/aqm" android:layout_marginTop="@dimen/ama" android:scaleType="centerCrop" app:fill_color="@color/kk"/>
+            <TextView android:textSize="@dimen/aso" android:textColor="@color/io" android:gravity="start|center_vertical" android:id="@+id/abk" android:background="@drawable/py" android:paddingLeft="@dimen/amy" android:paddingTop="@dimen/amf" android:paddingRight="@dimen/amy" android:paddingBottom="@dimen/amf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/and" android:layout_marginTop="@dimen/ame" android:layout_marginRight="@dimen/and" android:text="@string/vg" android:drawableLeft="@drawable/sp" android:drawablePadding="@dimen/arr" android:drawableStart="@drawable/sp"/>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/a7u" android:background="@drawable/a45" android:paddingBottom="@dimen/aqw" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+    </com.ushareit.muslim.main.home.widget.CustomCoordinatorLayout>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="bottom|right" android:id="@+id/a3w" android:visibility="gone" android:layout_width="@dimen/arc" android:layout_height="@dimen/arc" android:layout_marginRight="@dimen/arr" android:layout_marginBottom="@dimen/aow" app:lottie_autoPlay="true" app:lottie_fileName="robot/data.json" app:lottie_imageAssetsFolder="robot/images" app:lottie_loop="true"/>
+    <ImageView android:layout_gravity="bottom|right" android:id="@+id/a1c" android:padding="@dimen/aq3" android:visibility="gone" android:layout_width="@dimen/ao5" android:layout_height="@dimen/ao5" android:layout_marginRight="@dimen/aqw" android:layout_marginBottom="@dimen/alt" android:src="@drawable/yl"/>
+    <ImageView android:layout_gravity="end" android:id="@+id/xl" android:background="@drawable/icon_muslim_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b1o" android:layout_marginRight="@dimen/att"/>
+</FrameLayout>

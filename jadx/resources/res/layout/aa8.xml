@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/a3s" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.lenovo.anyshare.content.ContentPagersTitleBar2 android:id="@+id/dqk" android:paddingBottom="@dimen/bp0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <androidx.viewpager.widget.ViewPager android:id="@+id/e5_" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/d3x" android:background="@drawable/bru" android:padding="@dimen/dhs" android:visibility="gone" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv"/>
+</FrameLayout>

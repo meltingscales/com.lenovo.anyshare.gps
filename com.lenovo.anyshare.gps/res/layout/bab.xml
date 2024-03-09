@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:padding="@dimen/bp0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:a_7="@dimen/br9" app:a_j="1.0">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@id/b3l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:a7e="@color/bff" />
+        <ImageView android:layout_gravity="center" android:id="@id/b3m" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/cob" android:scaleType="centerCrop" />
+        <com.lenovo.anyshare.widget.MaskProgressBar android:layout_gravity="center" android:id="@id/b3n" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="bottom|center|right" android:id="@id/b2m" android:background="@drawable/dbc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/br9" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="bottom|center|right" android:id="@id/b36" android:background="@drawable/dbc" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:layout_margin="@dimen/br9" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+    <FrameLayout android:id="@id/cu1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/cp9" android:layout_width="fill_parent" android:layout_height="@dimen/bow" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center|right|top" android:id="@id/b3h" android:paddingTop="@dimen/bqf" android:paddingBottom="@dimen/brt" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:src="@drawable/cpa" app:a75="@dimen/db2" />
+    </FrameLayout>
+</FrameLayout>

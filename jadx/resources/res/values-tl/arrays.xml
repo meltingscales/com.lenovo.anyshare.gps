@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Hayagang Pornograpiko</item>
+        <item>Krimen</item>
+        <item>Politically Sensitive</item>
+        <item>Ilegal na Marketing</item>
+        <item>Maling Impormasyon</item>
+        <item>Paglabag</item>
+    </array>
+    <array name="c">
+        <item>Uncomfortable content</item>
+        <item>Pornography</item>
+        <item>Violent content</item>
+        <item>Harmful and dangerous content</item>
+        <item>Title/cover ay hindi match sa content</item>
+    </array>
+    <array name="s">
+        <item>Name(A-Z)</item>
+        <item>Name(Z-A)</item>
+        <item>Date(sa reverse chronological order)</item>
+        <item>Date(isa magkakasunod na pagkakasunud-sunod)</item>
+    </array>
+    <array name="t">
+        <item>Hindi iyon ang nais naming maranasan mo. Pakibahagi ang iyong feedback sa ibaba.</item>
+        <item>Uh oh! Pwede mo bang sabihin kung ano pa ang pwede naming ayusin?</item>
+        <item>Salamat sa iyong feedback, mayroon bang partikular na bagay na sa tingin mo ay pwede pa naming ayusin?</item>
+        <item>Salamat! Ang iyong feedback ay nagbibigay inspirasyon sa amin upang mas maging maayos.</item>
+        <item>Salamat! Pinasaya ng feedback mo ang araw namin!</item>
+    </array>
+    <array name="v">
+        <item>Maaaring i-update ang %s app nang hindi kumukonsumo ng paggamit ng data</item>
+        <item>%s sa iyong natanggap na mga app ang hindi pa na-update</item>
+        <item>%s mga app ang ibinahagi ng iyong mga kaibigan ang kailangang ma-update</item>
+    </array>
+    <array name="x">
+        <item>Gumamit ng %s na espasyo ang malalaking audio file</item>
+    </array>
+    <array name="z">
+        <item>Gumamit ng %s na espasyo ang malalaking larawan na file</item>
+    </array>
+    <array name="a1">
+        <item>Sinakop ng malalaking file ang %s na space</item>
+        <item>Oras na para linisin ang %s mga malalaking file sa storage</item>
+    </array>
+    <array name="a3">
+        <item>Gumamit ng %s na espasyo ang malalaking video file</item>
+    </array>
+    <array name="a5">
+        <item>Nakakita ng %s duplikado na musika na lilinisin</item>
+        <item>Linisin ang %s duplikado na musika upang magbakante ng space</item>
+    </array>
+    <array name="a7">
+        <item>Sinakop ng mga duplikado na larawan ang %s space</item>
+        <item>Linisin ang %s duplikado na larawan upang magbakante ng space</item>
+    </array>
+    <array name="a9">
+        <item>Sinakop ng mga duplikado na video ang %s space</item>
+        <item>Linisin ang %s na mga duplikado na video upang magbakante ng space</item>
+    </array>
+    <array name="aa">
+        <item>Pinapabagal ng %s mga junk file ang system</item>
+        <item>%s mga junk file ang nakita</item>
+    </array>
+    <array name="ac">
+        <item>%s na araw na simula nang linisin mo ang mga junk file</item>
+        <item>Ang mga mobile junk file ay hindi nililinis nang mahigit %s araw</item>
+    </array>
+    <array name="ae">
+        <item>%s mga kanta na ibinahagi ng mga kaibigan ay hindi pa nape-play</item>
+        <item>%s bagong mga kanta na ibinahagi ng mga kaibigan ay hindi pa nape-play.</item>
+        <item>Naaalala mo pa ba ang %s na mga kanta na iyong natanggap?</item>
+    </array>
+    <array name="ag">
+        <item>Nakakita ng residual junk ng naka-uninstalled na app</item>
+    </array>
+    <array name="ai">
+        <item>Sinakop ng mga screenshot ang %s na space</item>
+        <item>Linisin ang %s na mga screenshot upang magbakante ng space</item>
+    </array>
+    <array name="ak">
+        <item>%s nadetektang hindi nagamit na apps</item>
+    </array>
+    <array name="al">
+        <item>Ang video na ito ay kinunan ng isang tao na may telepono o camera</item>
+        <item>Ito ay isang pampublikong video</item>
+        <item>Iba pang mga dahilan</item>
+    </array>
+    <array name="am">
+        <item>Ano ang iyong lucky number?</item>
+        <item>Ano ang iyong pangarap?</item>
+        <item>Saan mo gusto pumunta?</item>
+        <item>Anong ang iyong ang favourite movie?</item>
+        <item>Anong skill ang gusto mong makuha?</item>
+        <item>Anong Panglan ng iyong matalik na kaibigan?</item>
+        <item>Ano ang iyong favourite food?</item>
+    </array>
+    <array name="an">
+        <item>Ano ang iyong masuwerteng numero?</item>
+        <item>Ano ang paborito mong pagkain?</item>
+        <item>Ano ang pangalan ng iyong matalik na kaibigan?</item>
+        <item>Ano ang paborito mong pelikula?</item>
+        <item>Ano ang iyong pangarap?</item>
+    </array>
+    <array name="ao">
+        <item>%s app ay pwedeng i-update nang hindi kumokonsumo ng data</item>
+        <item>%s apps na iyong natanggap ay hindi pa updated</item>
+        <item>%s apps na pinasa ng kaibigan ay kailangan i-update</item>
+    </array>
+    <array name="ap">
+        <item>Available ang mga update par asa %s na Mga App na Ibinihagi sa iyo</item>
+        <item>I-update Ngayon! Available ang %s na Bagong mga Bersyon ng App</item>
+        <item>Manatiling napapanahon sa pinakabagong bersyon ng app.</item>
+        <item>Tuklasin ang mga bago Mag-update Ngayon!</item>
+    </array>
+    <array name="aq">
+        <item>Gumamit ng %s na espasyo ang malalaking audio file</item>
+    </array>
+    <array name="as">
+        <item>Gumamit ng %s na espasyo ang malalaking larawan na file</item>
+    </array>
+    <array name="au">
+        <item>Sinakop ng malalaking file ang %s na space</item>
+        <item>Oras na para linisin ang %s mga malalaking file sa storage</item>
+    </array>
+    <array name="aw">
+        <item>Gumamit ng %s na espasyo ang malalaking video file</item>
+    </array>
+    <array name="ay">
+        <item>Ang mga app na ito ay nagpapabagal sa system, i-boost ang iyong telepono ngayon</item>
+    </array>
+    <array name="b0">
+        <item>Pinapabagal ng %s na mga app ang system, i-boost ang iyong telepono ngayon</item>
+    </array>
+    <array name="b2">
+        <item>I-click para i-accelerate ang bilis ng pag-charge ngayon</item>
+    </array>
+    <array name="b4">
+        <item>%s mga app ay pinapabagal ang bilis ng iyong pag-charge</item>
+    </array>
+    <array name="b6">
+        <item>Wala nang storage, ikonekta sa PC upang magbawas ng espasyo</item>
+        <item>Wala nang storage, ilipat ang malalaking file sa PC</item>
+    </array>
+    <array name="b7">
+        <item>Nakakita ng %s duplikado na musika na lilinisin</item>
+        <item>Linisin ang %s duplikado na musika upang magbakante ng space</item>
+    </array>
+    <array name="b9">
+        <item>Sinakop ng mga duplikado na larawan ang %s space</item>
+        <item>Linisin ang %s duplikado na larawan upang magbakante ng space</item>
+    </array>
+    <array name="ba">
+        <item>Sinakop ng mga duplikado na video ang %s space</item>
+        <item>Linisin ang %s na mga duplikado na video upang magbakante ng space</item>
+    </array>
+    <array name="bc">
+        <item>︎Isuot ang headphones</item>
+        <item>Oras na upang makinig ng musika</item>
+    </array>
+    <array name="bd">
+        <item>Pinapabagal ng %s mga junk file ang system</item>
+        <item>%s mga junk file ang nakita</item>
+    </array>
+    <array name="bf">
+        <item>%s na araw na simula nang linisin mo ang mga junk file</item>
+        <item>Ang mga mobile junk file ay hindi nililinis nang mahigit %s araw</item>
+    </array>
+    <array name="bh">
+        <item>%s mga kanta na ibinahagi ng mga kaibigan ay hindi pa nape-play</item>
+        <item>%s bagong mga kanta na ibinahagi ng mga kaibigan ay hindi pa nape-play.</item>
+        <item>Naaalala mo pa ba ang %s na mga kanta na iyong natanggap?</item>
+    </array>
+    <array name="bi">
+        <item>Nakaligtaan ang magagandang mga tunog? Oras na para magpatugtog at tuklasin ang paborito mong musika!</item>
+        <item>Pakiraman ng kawalan? Lakasan ang tunog at hayaang punuin ng musika ang iyong araw ng may saya.</item>
+        <item>Makaligtaan ang mga tiyempo na nagpapaindak sa iyo? Pakinggan ang mga paborito mong tugtog at hayaan gabayan ng ritmo ang iyong araw.</item>
+    </array>
+    <array name="bk">
+        <item>Makinig sa iyong playlist❤</item>
+        <item>Makinig sa iyong playlist</item>
+    </array>
+    <array name="bm">
+        <item>%s mga app ay gumagamit ng baterya sa background</item>
+    </array>
+    <array name="bo">
+        <item>Nadetekta ang mga residual file ng kaka-delete pa lang na app</item>
+        <item>Tinanggal ang Mga Residual file ng kaka-delete pa lang na app</item>
+    </array>
+    <array name="bq">
+        <item>Sinakop ng mga screenshot ang %s na space</item>
+        <item>Linisin ang %s na mga screenshot upang magbakante ng space</item>
+    </array>
+    <array name="bs">
+        <item>%s na bagong mga alaala na maibabahagi sa mga kaibigan at mga minamahal</item>
+        <item>Magbahagi ng %s na bagong mga larawan nang hindi nababawasan ang kalidad</item>
+    </array>
+    <array name="bt">
+        <item>I-click para i-play</item>
+        <item>Oras na upang makinig ng musika</item>
+    </array>
+    <array name="bx">
+        <item>%s nadetektang hindi nagamit na apps</item>
+    </array>
+    <array name="bz">
+        <item>Nadeteka ng %1$s na may %2$s na panganib sa seguridad</item>
+        <item>Nadeteka ng %1$s apps na may %2$s na panganib sa seguridad</item>
+    </array>
+    <array name="c2">
+        <item>Itong mga app ay gumagamit ng baterya sa background</item>
+    </array>
+    <array name="c3">
+        <item>Masyadong madalas lumitaw</item>
+        <item>Hindi magandang timing</item>
+        <item>Mababang Kalidad</item>
+        <item>Nakakainis na Ads</item>
+        <item>Hindi interesado</item>
+    </array>
+    <array name="c4">
+        <item>Hardware</item>
+        <item>Software</item>
+    </array>
+    <array name="c5">
+        <item>Autoplay</item>
+        <item>Loop</item>
+    </array>
+    <array name="c6">
+        <item>Maling na-delete na mga file</item>
+        <item>Hindi gumagana</item>
+        <item>Hindi pa talaga gumagana</item>
+        <item>Napakaraming ads</item>
+    </array>
+    <array name="c7">
+        <item>Pag-crash ng app</item>
+        <item>Tumitigil na video</item>
+        <item>Ang video ay hindi mapapanood</item>
+        <item>Mabagal ang paglo-load ng video</item>
+        <item>Pag-refresh ng nilalaman</item>
+    </array>
+    <array name="c8">
+        <item>Hindi makakonekta sa iOS o PC</item>
+        <item>Mga hindi naaangkop na nilalaman ng video</item>
+        <item>Lag o buffer ang mga video</item>
+        <item>Mababang kalidad ng imahe</item>
+        <item>Mabagal na pag-load ng video</item>
+        <item>Naaabala ng mga ad</item>
+    </array>
+    <array name="c9">
+        <item>Hindi gumagana</item>
+        <item>Hindi pa talaga gumagana</item>
+        <item>Napakaraming pekeng notification</item>
+        <item>Napakaraming ads</item>
+    </array>
+    <array name="c_">
+        <item>Maramihang muling pagsubok upang simulan ang Wi-Fi hotspot</item>
+        <item>Matagal bago simulan ang Wi-Fi hotspot</item>
+        <item>Ang pag-usad ng paglilipat ay nakabitin</item>
+        <item>Maraming mga pagtatangka upang kumonekta</item>
+    </array>
+    <array name="ca">
+        <item>Maramihang muling pagsubok upang mahanap ang receiver</item>
+        <item>Mga kahirapan sa pagpili ng mga file</item>
+        <item>Maramihang muling pagsubok para kumonekta</item>
+        <item>Nadidiskonekta habang naglilipat</item>
+    </array>
+    <array name="cb">
+        <item>Mabagal na paglilipat</item>
+        <item>Hindi gumagana</item>
+        <item>Maling na-delete na mga file</item>
+        <item>Napakaraming ads</item>
+    </array>
+    <array name="cc">
+        <item>Matamlay pa rin ang telepono</item>
+        <item>Hindi gumagana</item>
+        <item>Hindi pa talaga gumagana</item>
+        <item>Napakaraming ads</item>
+    </array>
+    <array name="cd">
+        <item>Mabagal na paglilipat</item>
+        <item>Napaka-complex ang proseso ng paglilipat</item>
+        <item>Hindi makakonekta sa iOS o PC</item>
+        <item>Napakaraming ads</item>
+    </array>
+    <array name="cf">
+        <item>Masamang Interface</item>
+        <item>Hindi kasiya-siyang Function</item>
+        <item>Nakagagambalang Pagtitiyaga</item>
+    </array>
+    <array name="ci">
+        <item>Nagdagdag ng oras</item>
+        <item>Tagal ng Paglalaro</item>
+        <item>Pamagat</item>
+    </array>
+    <array name="cj">
+        <item>Pagkatapos magsimula, ipapakita ang mga nakatagong folder at file</item>
+        <item>Ang mga file na kasama sa .nomedia folder ay hindi mai-scan bilang default</item>
+    </array>
+    <array name="ck">
+        <item>Ipakita ang mga nakatagong file at folder</item>
+        <item>I-scan ang .nomedia na folder</item>
+    </array>
+    <array name="u">
+        <item>Tawirin ang mga bituin at buwan upang mas makilala ang iyong sarili.</item>
+        <item>Biglang lumamig ang panahon, kaya oras nang ibahin ang kwento.</item>
+        <item>Tayo ay ipinanganak na basag at pinaghihilom ng buhay.</item>
+        <item>Mas sasarap ang alak pagkatapos masaksihan ang ilang panahon.</item>
+        <item>Minsan, oo, minsan, hindi.</item>
+        <item>Palagi akong nagsusumikap upang mabuhay.</item>
+        <item>Siguro ay oras na upang tayo&apos;y maging mapagparaya.</item>
+        <item>Ang pinakamahabang araw ay may katapusan.</item>
+        <item>Ang buhay ay masyadong maikli para sa pangmatagalang mga sama ng loob.</item>
+    </array>
+    <array name="bj">
+        <item>Tingnan ang iyong mga sandali sa %s</item>
+    </array>
+    <array name="p">
+        <item>Paano magkaroon ng maraming pera?</item>
+        <item>Turuan mo akong magluto ng ulam?</item>
+        <item>Bigyan mo ako ng pangalan para sa aking anak.</item>
+    </array>
+    <array name="bp">
+        <item>Tanggalin ang hindi magagandang file mula sa hindi naka-install na mga app upang mapanatili ang maayos na device.</item>
+        <item>Alisin ang mga tirang file mula sa hindi naka-install na mga app para sa kahusayan.</item>
+        <item>Tanggalin ang mga hindi magagandang file mula sa hindi naka-install na mga app para sa maayos na telepono.</item>
+        <item>Ang pag-uninstall ng mga app ay mag-iiwan ng mga hindi nagamit na mga file. Alisin ito ngayon!</item>
+    </array>
+    <array name="bu">
+        <item>Hindi ginto ang katahimikan. Magpatugtog ng musika!</item>
+        <item>Ilabas ang pagiging mahilig mo sa musika. Pindutin ang tumugtog ngayon!</item>
+        <item>Pagpagin iyong mga headphone. Oras ng musika!</item>
+    </array>
+    <array name="by">
+        <item>Natatambak ang mga hindi nagamit na app? Oras ng paglilinis!</item>
+        <item>Kumakin ng espasyo ang mga hindi nagamit na app? Oras na para linisin?</item>
+        <item>Maglibre ng espasyo! Ikonsiderang linisin ang mga hindi nagamit na app.</item>
+    </array>
+    <array name="c0">
+        <item>��Ingatang makaligtaan ang Status ng iyong mga kaibigan, i-save ito ngayon!</item>
+    </array>
+    <array name="c1">
+        <item>Nakitang bagong status!</item>
+    </array>
+</resources>

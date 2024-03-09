@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bi0" android:layout_width="match_parent" android:layout_height="@dimen/bqq">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/c4y" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginLeft="@dimen/brl" android:src="@drawable/apk" android:layout_marginStart="@dimen/brl"/>
+    <TextView android:textSize="@dimen/bsu" android:textColor="@color/bj1" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/dv9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br0" android:layout_marginRight="@dimen/bl4" android:maxLines="2" android:layout_marginStart="@dimen/br0" android:layout_marginEnd="@dimen/bkz"/>
+    <TextView android:textSize="@dimen/bst" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center" android:id="@+id/dvb" android:background="@drawable/apl" android:layout_width="@dimen/brd" android:layout_height="@dimen/boe" android:layout_marginRight="@dimen/bnb" android:text="@string/b47" android:layout_marginEnd="@dimen/bnb"/>
+</merge>

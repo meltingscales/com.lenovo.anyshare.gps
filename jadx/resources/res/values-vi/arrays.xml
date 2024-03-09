@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Khiêu dâm thô tục</item>
+        <item>Tội phạm</item>
+        <item>Nhạy cảm chính trị</item>
+        <item>Marketing bất hợp pháp</item>
+        <item>Thông tin sai lệch</item>
+        <item>Vi phạm</item>
+    </array>
+    <array name="c">
+        <item>Nội dung không thoải mái</item>
+        <item>Khiêu dâm</item>
+        <item>Nội dung bạo lực</item>
+        <item>Nội dung độc hại và nguy hiểm</item>
+        <item>Tiêu đề/ảnh bìa không phù hợp với nội dung</item>
+    </array>
+</resources>

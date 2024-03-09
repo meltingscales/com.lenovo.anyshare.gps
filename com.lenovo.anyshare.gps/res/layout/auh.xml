@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/cy7" android:background="@color/axe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:id="@id/d_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:a75="@dimen/db2">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cds" android:layout_centerHorizontal="true" />
+    </com.ushareit.theme.night.view.NightLinearLayout>
+    <com.ushareit.bst.power.widget.BatteryScanningView android:id="@id/d96" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.ushareit.bst.power.complete.scan.ScanSelectView android:id="@id/d8y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/aqm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ushareit.theme.night.view.NightLottieAnimationView android:id="@id/cf8" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/cwd" android:layout_marginTop="@dimen/cxt" android:layout_centerHorizontal="true" app:a3k="true" app:a75="@dimen/db2" />
+        <TextView android:textSize="@dimen/cza" android:textColor="@color/axs" android:gravity="center" android:id="@id/d94" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cww" android:layout_below="@id/cf8" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/ctn" android:textColor="@color/axs" android:gravity="center" android:id="@id/cr7" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cta" android:text="@string/c32" android:layout_below="@id/d94" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

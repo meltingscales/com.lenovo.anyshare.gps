@@ -1,0 +1,49 @@
+.class public final synthetic Lcom/google/android/gms/internal/ads/zzng;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzel;
+
+
+# instance fields
+.field public final synthetic zza:Lcom/google/android/gms/internal/ads/zzlt;
+
+.field public final synthetic zzb:Lcom/google/android/gms/internal/ads/zzam;
+
+.field public final synthetic zzc:Lcom/google/android/gms/internal/ads/zzia;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/android/gms/internal/ads/zzlt;Lcom/google/android/gms/internal/ads/zzam;Lcom/google/android/gms/internal/ads/zzia;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzng;->zza:Lcom/google/android/gms/internal/ads/zzlt;
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzng;->zzb:Lcom/google/android/gms/internal/ads/zzam;
+
+    iput-object p3, p0, Lcom/google/android/gms/internal/ads/zzng;->zzc:Lcom/google/android/gms/internal/ads/zzia;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza(Ljava/lang/Object;)V
+    .locals 3
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzng;->zza:Lcom/google/android/gms/internal/ads/zzlt;
+
+    iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzng;->zzb:Lcom/google/android/gms/internal/ads/zzam;
+
+    iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzng;->zzc:Lcom/google/android/gms/internal/ads/zzia;
+
+    check-cast p1, Lcom/google/android/gms/internal/ads/zzlv;
+
+    .line 1
+    invoke-interface {p1, v0, v1, v2}, Lcom/google/android/gms/internal/ads/zzlv;->zze(Lcom/google/android/gms/internal/ads/zzlt;Lcom/google/android/gms/internal/ads/zzam;Lcom/google/android/gms/internal/ads/zzia;)V
+
+    return-void
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.ui.widget.AdsHonorItemOperationsView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cqy" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/cj1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ak9" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/sn" android:id="@id/cj0" android:paddingLeft="@dimen/bqf" android:paddingRight="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/cj1" android:layout_alignTop="@id/cj1" android:layout_toEndOf="@id/cj1" />
+        <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="#ffeb3c3c" android:id="@id/cj2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_marginBottom="-2.0dip" android:layout_above="@id/cj1" android:layout_alignRight="@id/cj1" android:layout_alignEnd="@id/cj1" />
+    </RelativeLayout>
+    <ImageView android:id="@id/cr2" android:padding="@dimen/brt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bq1" android:src="@drawable/aif" />
+</com.ushareit.ads.ui.widget.AdsHonorItemOperationsView>

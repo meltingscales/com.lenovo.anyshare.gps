@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.FrameSwipeView android:background="#fff6f4f5" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c3v" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@color/a4q" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <eightbitlab.com.blurview.BlurView android:id="@id/do8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/boq" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.ushareit.ads.ui.widget.RectFrameLayout android:layout_gravity="bottom|center" android:id="@id/d2j" android:background="@drawable/ai7" android:padding="2.0dip" android:layout_width="307.0dip" android:layout_height="wrap_content" android:layout_marginBottom="44.0dip" android:rotation="2.0" app:a_j="0.52356">
+                    <com.ushareit.widget.ImageViewWatch android:id="@id/bce" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                </com.ushareit.ads.ui.widget.RectFrameLayout>
+                <com.ushareit.ads.ui.widget.RectFrameLayout android:layout_gravity="bottom|center" android:id="@id/d2i" android:background="@drawable/ai7" android:padding="2.0dip" android:layout_width="307.0dip" android:layout_height="wrap_content" android:layout_marginBottom="44.0dip" app:a_j="0.52356">
+                    <com.ushareit.widget.ImageViewWatch android:id="@id/bcd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <com.san.ads.MediaView android:id="@id/bc_" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </com.ushareit.ads.ui.widget.RectFrameLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bop" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <View android:layout_width="fill_parent" android:layout_height="@dimen/bmf" />
+                <FrameLayout android:id="@id/bx9" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bqx">
+                    <com.san.ads.MediaView android:id="@id/bxm" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </com.san.ads.MediaView>
+                </FrameLayout>
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#fffffbfb" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bi1" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bi1" android:singleLine="true" />
+                <TextView android:textSize="12.0sp" android:textColor="#fffffbfb" android:gravity="center_horizontal" android:id="@id/ck2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bi1" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bi1" android:maxLines="2" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ViewStub android:id="@id/b0l" android:layout="@layout/vf" android:inflatedId="@id/b00" android:layout_width="fill_parent" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/bqx" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bqx" />
+                    <ViewStub android:id="@id/dnp" android:layout="@layout/vp" android:inflatedId="@id/b03" android:layout_width="fill_parent" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/bqx" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bqx" />
+                </FrameLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/bnb" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/boz" android:layout_marginTop="@dimen/bq4" android:layout_marginRight="@dimen/boz" app:a1g="csi">
+                        <ViewStub android:id="@id/b0k" android:layout="@layout/ve" android:inflatedId="@id/b00" android:layout_width="fill_parent" android:layout_height="@dimen/bqp" />
+                        <ViewStub android:id="@id/dno" android:layout="@layout/vo" android:inflatedId="@id/b03" android:layout_width="fill_parent" android:layout_height="@dimen/bqp" />
+                    </FrameLayout>
+                    <ViewStub android:id="@id/bu4" android:layout="@layout/va" android:inflatedId="@id/cf_" android:layout_width="wrap_content" android:layout_height="wrap_content" app:a0p="@id/bnb" app:a17="@id/bnb" app:a1a="@id/bnb" />
+                    <ViewStub android:id="@id/bu2" android:layout="@layout/vd" android:inflatedId="@id/cf2" android:layout_width="@dimen/bqx" android:layout_height="@dimen/bqx" app:a1a="@id/bnb" app:a1g="@id/bnb" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </eightbitlab.com.blurview.BlurView>
+</com.ushareit.widget.FrameSwipeView>

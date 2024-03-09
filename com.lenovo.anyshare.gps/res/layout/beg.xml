@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/q1">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/bf2" />
+            <include layout="@layout/bf0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/dj7" android:layout_marginTop="0.0dip" style="@style/pr">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dxy">
+                    <ImageView android:layout_width="@dimen/dxu" android:layout_height="@dimen/dxt" android:src="@drawable/duk" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="@dimen/dxu" android:layout_height="@dimen/dxt" android:src="@drawable/dul" android:layout_weight="1.0" style="@style/ai1" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dxy" android:layout_marginBottom="@dimen/dxx">
+                    <ImageView android:layout_width="@dimen/dxw" android:layout_height="@dimen/dxv" android:src="@drawable/dum" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="@dimen/dxw" android:layout_height="@dimen/dxv" android:src="@drawable/dun" android:layout_weight="1.0" style="@style/aix" />
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/a30" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

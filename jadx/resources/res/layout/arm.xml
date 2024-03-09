@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@+id/baa" android:background="@color/axu" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:groupIndicator="@null" android:childDivider="@android:color/transparent" android:horizontalSpacing="0dp" android:verticalSpacing="0dp" android:divider="@null" android:dividerHeight="0dp"/>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/bak" android:padding="@dimen/d2t" android:layout_width="@dimen/d2w" android:layout_height="@dimen/d2w"/>
+    <include android:id="@+id/b_c" layout="@layout/arf"/>
+</FrameLayout>

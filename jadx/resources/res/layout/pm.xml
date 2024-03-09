@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/a3f" android:background="@drawable/a7p" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/asy" android:textStyle="bold" android:textColor="@color/ir" android:ellipsize="end" android:gravity="center" android:id="@+id/a4d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apr" android:text="@string/a38" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/asu" android:textStyle="bold" android:textColor="@color/ir" android:ellipsize="end" android:gravity="center" android:id="@+id/a4a" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_marginLeft="@dimen/aq6" android:layout_marginTop="@dimen/and" android:layout_marginRight="@dimen/aq6" android:layout_marginBottom="@dimen/amz" android:maxLines="6" android:layout_weight="1" android:lineSpacingExtra="@dimen/aqj"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/a3d" android:background="@drawable/pc" android:layout_width="match_parent" android:layout_height="@dimen/aqc" android:layout_marginLeft="@dimen/apk" android:layout_marginTop="@dimen/aon" android:layout_marginRight="@dimen/apk">
+        <TextView android:textSize="@dimen/asv" android:textColor="@color/a5o" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/so" android:drawableLeft="@drawable/a3o" android:drawableStart="@drawable/a3o"/>
+    </LinearLayout>
+</LinearLayout>

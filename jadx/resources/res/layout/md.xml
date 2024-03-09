@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <LinearLayout android:layout_gravity="center" android:id="@+id/a70" android:padding="@dimen/aon" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ps">
+        <TextView android:textSize="@dimen/asx" android:textColor="@color/ij" android:gravity="start" android:id="@+id/ado" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wc"/>
+        <TextView android:textSize="@dimen/ast" android:textColor="@color/iy" android:gravity="start" android:id="@+id/tv_content_res_0x71070285" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/and" android:text="@string/w_"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/l9" android:gravity="center" android:id="@+id/ac2" android:background="@drawable/tz" android:layout_width="match_parent" android:layout_height="@dimen/apx" android:layout_marginTop="@dimen/aow" android:text="@string/wb" android:textAllCaps="true"/>
+        <TextView android:textSize="@dimen/aso" android:textColor="@color/kz" android:layout_gravity="center_horizontal" android:id="@+id/aa4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/amf" android:text="@string/wa" android:textAllCaps="true"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/b9p" android:background="@color/aaz" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/b6n" android:layout_width="@dimen/c25" android:layout_height="@dimen/c25" android:layout_marginTop="@dimen/c1f" android:layout_marginRight="@dimen/c1f" android:src="@drawable/ayn" android:layout_marginEnd="@dimen/c1f" app:a0u="csi" app:a1g="csi" />
+    <TextView android:textSize="@dimen/c49" android:textStyle="bold" android:textColor="@color/ac0" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1f" android:layout_marginTop="@dimen/c1f" android:text="@string/b0b" android:drawableLeft="@drawable/b05" android:drawablePadding="@dimen/c3j" android:drawableStart="@drawable/b05" android:layout_marginStart="@dimen/c1f" app:a1c="csi" app:a1g="csi" />
+    <View android:id="@id/bfo" android:background="@color/aal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/c13" android:layout_marginTop="@dimen/c13" app:a1f="@id/dmo" />
+    <com.ushareit.downloader.web.search.widget.TagFlowLayout android:id="@id/dmo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c35" android:layout_marginStart="@dimen/c3j" android:layout_marginEnd="@dimen/c3j" app:a0u="csi" app:a1c="csi" app:a1f="@id/dpx" />
+</androidx.constraintlayout.widget.ConstraintLayout>

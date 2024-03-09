@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bnb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.lenovo.anyshare.content.download.DownloadButtons android:id="@id/e2e" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/bnb">
+        <FrameLayout android:id="@id/bgk" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.lenovo.anyshare.widget.recyclerview_adapter.sticky_recyclerview.StickyRecyclerView android:id="@id/c2x" android:background="@color/bi0" android:paddingBottom="@dimen/bmw" android:clipToPadding="false" style="@style/qo" />
+        </FrameLayout>
+        <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/bgp" android:background="@drawable/duj" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+        <include android:id="@id/bgn" layout="@layout/a05" />
+    </FrameLayout>
+</RelativeLayout>

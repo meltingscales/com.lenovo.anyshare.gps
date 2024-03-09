@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/awh" android:visibility="visible" android:clickable="false" android:layout_width="1.0px" android:layout_height="@dimen/blv" />
+    <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dnu" android:paddingLeft="@dimen/blv" android:paddingTop="@dimen/brt" android:paddingBottom="@dimen/brt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bms" />
+    <RelativeLayout android:id="@id/ap_" android:background="@drawable/bra" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="@dimen/bp0" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/bp0">
+        <com.ushareit.filemanager.widget.FileCenterListAdView android:id="@id/bm1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,102 @@
+{
+  "hasNext": false,
+  "globalPageNo": 0,
+  "cards": [
+    {
+      "id": "2019012415143186975458",
+      "title": "Daily New Trending",
+      "style": "GN2_1_H3",
+      "items": [
+        {
+          "item_type": "game",
+          "id": "y9y70",
+          "preset_game_type": "h5",
+          "name": "BeachKiss",
+          "url": "https://www.viyfun.com/viyaf/urloffline/BeachKiss/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/beachkiss_e3sY.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y6u",
+          "preset_game_type": "h5",
+          "name": "FishParking",
+          "url": "https://www.viyfun.com/viyaf/urloffline/FishParking/index.html?screen=horizontal",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/fishparking_cnvY.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y3E",
+          "preset_game_type": "h5",
+          "name": "SniperShot3D",
+          "url": "https://www.viyfun.com/viyaf/urloffline/SniperShot3D/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/snipershot3d_HXzi.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y3U",
+          "preset_game_type": "h5",
+          "name": "PrincessSummerSwimsuit",
+          "url": "https://www.viyfun.com/viyaf/urloffline/PrincessSummerSwimsuit/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/Princess-Summer-Swimsuit170_r_qzHn.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y38",
+          "preset_game_type": "h5",
+          "name": "Moto3DRacingChallenge",
+          "url": "https://www.viyfun.com/viyaf/urloffline/Moto3DRacingChallenge/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/moto3d_9P2S.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y4a",
+          "preset_game_type": "h5",
+          "name": "Demonsday98kk",
+          "url": "https://www.viyfun.com/viyaf/urloffline/Demonsday98k/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/demonsday98k_Xvsh.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y3o",
+          "preset_game_type": "h5",
+          "name": "MotoX3MSpookyLand",
+          "url": "https://www.viyfun.com/viyaf/urloffline/MotoX3MSpookyLand/index.html?screen=horizontal",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/motox3m_fxty.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y4q",
+          "preset_game_type": "h5",
+          "name": "LudoClassic3",
+          "url": "https://www.viyfun.com/viyaf/urloffline/LudoClassic3/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/ludoclassic3_VMWq.webp"
+        },
+        {
+          "item_type": "game",
+          "id": "y9y4G",
+          "preset_game_type": "h5",
+          "name": "MotoRacer",
+          "url": "https://www.viyfun.com/viyaf/urloffline/MotoRacer/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/MotoRacer170_r_fZZK.webp"
+        }
+      ]
+    },
+    {
+      "id": "2019012415143186975460",
+      "title": "",
+      "style": "GN1_W",
+      "bg_img": "",
+      "items": [
+        {
+          "item_type": "game",
+          "id": "y9y4W",
+          "preset_game_type": "h5",
+          "name": "CarRush2",
+          "title": "Drive carefully and defeat other divers",
+          "url": "https://www.viyfun.com/viyaf/urloffline/DuoCarRushPlus2/",
+          "player_icon": "http://rs.wshareit.com/wnik/tmWc/220406/b_carrush2_sWPz.webp"
+        }
+      ]
+    }
+  ]
+}

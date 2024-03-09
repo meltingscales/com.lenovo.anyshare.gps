@@ -1,0 +1,314 @@
+.class public Lcom/lenovo/anyshare/ueb;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/lenovo/anyshare/dxi;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->Ob()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+
+# direct methods
+.method public constructor <init>(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(ILjava/lang/Exception;)Landroid/view/View;
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public a()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->k(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Landroid/view/View;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/view/View;->isShown()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->p(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)V
+
+    goto :goto_0
+
+    .line 3
+    :cond_0
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->q(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public a(I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public a(Landroid/view/View;)Z
+    .locals 0
+
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public b(I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onPageSelected(I)V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->r(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/lenovo/anyshare/xqf;
+
+    iget-object v0, v0, Lcom/lenovo/anyshare/Aqf;->e:Ljava/lang/String;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/Rje;->b(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    const-string v0, ""
+
+    :cond_0
+    const-string v1, "%%"
+
+    .line 2
+    invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    .line 3
+    invoke-virtual {v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 4
+    array-length v2, v1
+
+    const/4 v3, 0x2
+
+    if-le v2, v3, :cond_1
+
+    .line 5
+    aget-object v0, v1, v3
+
+    .line 6
+    :cond_1
+    iget-object v1, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v1}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->s(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Landroid/widget/TextView;
+
+    move-result-object v1
+
+    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 7
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->t(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    .line 8
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->u(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Lcom/lenovo/anyshare/safebox/local/ThumbListView;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lcom/lenovo/anyshare/safebox/local/ThumbListView;->setSelection(I)V
+
+    .line 9
+    :cond_2
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->v(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)V
+
+    .line 10
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0, p1}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->a(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;I)V
+
+    .line 11
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->r(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    instance-of v0, v0, Lcom/lenovo/anyshare/Hxi$a;
+
+    const/16 v1, 0x8
+
+    if-eqz v0, :cond_3
+
+    .line 12
+    iget-object p1, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {p1}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->c(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Landroid/widget/ImageView;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v1}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    goto :goto_0
+
+    .line 13
+    :cond_3
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->c(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Landroid/widget/ImageView;
+
+    move-result-object v0
+
+    iget-object v2, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v2}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->d(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_4
+
+    iget-object v2, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v2}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->e(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    const/4 v1, 0x0
+
+    :cond_4
+    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    .line 14
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->f(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Lcom/lenovo/anyshare/wqf;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_5
+
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->f(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Lcom/lenovo/anyshare/wqf;
+
+    move-result-object v0
+
+    iget-object v0, v0, Lcom/lenovo/anyshare/wqf;->i:Ljava/util/List;
+
+    iget-object v1, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v1}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->r(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_5
+
+    .line 15
+    iget-object v0, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v0}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->f(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Lcom/lenovo/anyshare/wqf;
+
+    move-result-object v0
+
+    iget-object v0, v0, Lcom/lenovo/anyshare/wqf;->i:Ljava/util/List;
+
+    iget-object v1, p0, Lcom/lenovo/anyshare/ueb;->a:Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;
+
+    invoke-static {v1}, Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;->r(Lcom/lenovo/anyshare/safebox/local/PhotoViewerActivity;)Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-interface {v0, v1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
+
+    move-result v0
+
+    invoke-static {p1, v0}, Lcom/lenovo/anyshare/aQf;->a(II)V
+
+    goto :goto_0
+
+    :cond_5
+    const/4 v0, -0x1
+
+    .line 16
+    invoke-static {p1, v0}, Lcom/lenovo/anyshare/aQf;->a(II)V
+
+    :goto_0
+    return-void
+.end method

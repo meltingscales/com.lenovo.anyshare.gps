@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/a3s" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/d_6" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <com.ushareit.theme.night.view.NightButton android:layout_gravity="start|center_vertical" android:id="@+id/d_b" android:background="@drawable/be1" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsm" app:night_btn_bg_color_tint="@color/w4" style="@style/aj2"/>
+        <FrameLayout android:layout_gravity="center_vertical" android:background="@drawable/bij" android:layout_width="match_parent" android:layout_height="@dimen/bpe" android:layout_marginLeft="@dimen/bqd" android:layout_marginRight="@dimen/bmm">
+            <EditText android:textSize="@dimen/bsx" android:textColor="@color/w4" android:textColorHint="@color/ye" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/bav" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/bq4" android:minHeight="@dimen/bp7" android:hint="@string/b_s" android:singleLine="true" android:inputType="text" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/bqe" style="@style/ai7"/>
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center_vertical" android:id="@+id/ban" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bqf" android:scaleType="center" app:night_color_tint="@color/w4" style="@style/ahn"/>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bb6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bqd"/>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/d3x" android:background="@drawable/bru" android:padding="@dimen/dhs" android:visibility="gone" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/bi0" android:layout="@layout/abl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqd"/>
+</FrameLayout>

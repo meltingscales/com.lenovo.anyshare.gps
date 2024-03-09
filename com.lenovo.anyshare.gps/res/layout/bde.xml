@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/dfj" android:paddingRight="@dimen/dfj" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:background="@drawable/dse" android:layout_width="fill_parent" android:layout_marginTop="@dimen/dfj" android:layout_marginBottom="@dimen/dfj" style="@style/q1">
+        <TextView android:textStyle="bold" android:textColor="@color/b3g" android:layout_gravity="start" android:id="@id/title_text" android:layout_width="wrap_content" android:text="Details" style="@style/q7" />
+        <ScrollView android:padding="@dimen/dfj" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/aoh">
+                <TextView android:textSize="@dimen/dgz" android:textStyle="bold" android:textColor="@color/b3g" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dgd" android:text="@string/dpw" />
+                <TextView android:layout_gravity="start" android:id="@id/bmd" android:layout_width="wrap_content" android:text="@string/dpy" style="@style/a7d" />
+                <TextView android:layout_gravity="start" android:id="@id/bmg" android:layout_width="wrap_content" android:text="@string/dpz" style="@style/a7d" />
+                <TextView android:layout_gravity="start" android:id="@id/bmk" android:layout_width="wrap_content" android:text="@string/dq0" style="@style/a7d" />
+                <TextView android:layout_gravity="start" android:id="@id/bm_" android:layout_width="wrap_content" android:text="@string/dpx" style="@style/a7d" />
+                <TextView android:textSize="@dimen/dgz" android:textStyle="bold" android:textColor="@color/b3g" android:layout_gravity="start" android:paddingTop="@dimen/dgd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dgd" android:text="@string/dq2" />
+                <TextView android:layout_gravity="start" android:id="@id/cix" android:layout_width="wrap_content" android:text="@string/dq3" style="@style/a7d" />
+                <TextView android:layout_gravity="start" android:id="@id/ciy" android:layout_width="wrap_content" android:text="@string/dq4" style="@style/a7d" />
+                <TextView android:layout_gravity="start" android:id="@id/ciz" android:layout_width="wrap_content" android:text="@string/dq6" style="@style/a7d" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,78 @@
+package com.lenovo.anyshare;
+
+/* loaded from: classes8.dex */
+public class ZLi {
+    public static final String A = "original_price";
+    public static final String B = "alarm_price";
+    public static final String C = "click_id";
+    public static final String D = "action_type";
+    public static final String E = "fail_msg";
+    public static final String F = "result_msg";
+    public static final String G = "rrid";
+    public static final String H = "h5_link";
+    public static final String I = "deeplink";
+    public static final String J = "sts";
+    public static final String K = "request_type";
+    public static final String L = "shopit_times";
+    public static final String M = "st";
+    public static final String N = "et";
+    public static final String O = "duration";
+    public static final String P = "result";
+    public static final String Q = "request_page_id";
+    public static final String R = "actual_skunum";
+    public static final String S = "sellingPrice";
+    public static final String T = "originalPrice";
+    public static final String U = "click_type";
+    public static final String V = "filtered_selection";
+    public static final String W = "filtered_confirmed";
+    public static final String X = "filter_detail";
+    public static final String Y = "filter_id";
+    public static final String Z = "filtered_category";
+
+    /* renamed from: a  reason: collision with root package name */
+    public static final String f17504a = "AD_SkinShowShopit";
+    public static final String aa = "filtered_detail";
+    public static final String b = "AD_ShowShopit";
+    public static final String ba = "is_uncheck";
+    public static final String c = "AD_DefaultShowShopit";
+    public static final String ca = "detailed_filter";
+    public static final String d = "AD_ClickShopit";
+    public static final String da = "price_rank";
+    public static final String e = "AD_LoadFailClickShopit";
+    public static final String ea = "discount_rank";
+    public static final String f = "AD_ClickEXShopit";
+    public static final String fa = "smart_rank";
+    public static final String g = "AD_ClickFilterShopit";
+    public static final String ga = "manual_min_price";
+    public static final String h = "AD_RequestHandleShopit";
+    public static final String ha = "manual_max_price";
+    public static final String i = "AD_BannerShowShopit";
+    public static final String ia = "price_range";
+    public static final String j = "AD_BannerClickShopit";
+    public static final String ja = "hot_tag";
+    public static final String k = "AD_LoadFailShow";
+    public static final String ka = "sku_from";
+    public static final String l = "AD_LoadFailClick";
+    public static final String la = "is_under_default";
+    public static final String m = "banner_id";
+    public static final String ma = "request_shopit";
+    public static final String n = "action_url";
+    public static final String na = "show_shopit";
+    public static final String o = "ad_id";
+    public static final String oa = "click_shopit";
+    public static final String p = "sku_id";
+    public static final String pa = "pve_cur";
+    public static final String q = "rid";
+    public static final String qa = "portal";
+    public static final String r = "request_id";
+    public static final String ra = "pos_id";
+    public static final String s = "if_under_filter";
+    public static final String sa = "shopit_home/trending";
+    public static final String t = "position_id";
+    public static final String u = "current_filter_id";
+    public static final String v = "platform";
+    public static final String w = "price";
+    public static final String x = "currency";
+    public static final String y = "exfo";
+    public static final String z = "page_id";
+}

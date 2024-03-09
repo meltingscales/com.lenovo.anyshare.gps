@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bp0" android:paddingBottom="@dimen/bp0" android:layout_width="fill_parent" android:layout_height="@dimen/br0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start|center" android:layout_width="@dimen/bpz" android:layout_height="@dimen/bpz" android:layout_marginLeft="@dimen/bnv">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:background="@drawable/bxu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+        <ImageView android:layout_gravity="end|bottom|center" android:background="@drawable/bxm" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4" />
+        <FrameLayout android:layout_gravity="end|bottom|center" android:background="@drawable/bxm" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4">
+            <ImageView android:layout_gravity="center" android:id="@id/djl" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" style="@style/r6" />
+        </FrameLayout>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|bottom|center" android:id="@id/djj" android:background="@drawable/dbc" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+    </FrameLayout>
+    <LinearLayout android:gravity="start|center" android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/djn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="setup files" android:singleLine="true" />
+        <TextView android:textSize="@dimen/bsu" android:textColor="@color/ye" android:id="@id/djr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:text="0M/29MB" android:singleLine="true" />
+        <ProgressBar android:id="@id/djo" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/dpo" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/bmf" android:max="100" android:progress="0" android:progressDrawable="@drawable/dko" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="@dimen/bst" android:textColor="@color/ye" android:id="@id/djm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq1" android:text="import" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/djs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/blk" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/bmf" app:a3c="false" app:a3h="progress_line/data.json" app:a3k="true" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dog">
+        <TextView android:textSize="@dimen/doa" android:gravity="center" android:layout_gravity="end|center" android:id="@id/djk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/blc" android:minWidth="@dimen/doe" android:singleLine="true" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center" android:id="@id/djq" android:background="@drawable/djd" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" app:a7f="@dimen/db2" />
+        <Button android:id="@id/djp" style="@style/sn" />
+    </FrameLayout>
+</LinearLayout>

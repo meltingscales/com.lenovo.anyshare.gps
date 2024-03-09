@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/ai" android:drawable="@drawable/cm9" />
+    <item android:duration="@integer/ai" android:drawable="@drawable/cm_" />
+    <item android:duration="@integer/ai" android:drawable="@drawable/cma" />
+    <item android:duration="@integer/ai" android:drawable="@drawable/cmb" />
+    <item android:duration="@integer/ai" android:drawable="@drawable/cmc" />
+    <item android:duration="@integer/ai" android:drawable="@drawable/cmd" />
+    <item android:duration="@integer/ai" android:drawable="@drawable/cma" />
+    <item android:duration="@integer/ai" android:drawable="@drawable/cme" />
+</animation-list>

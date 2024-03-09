@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/bnj" android:paddingTop="@dimen/bo8" android:paddingRight="@dimen/bnj" android:paddingBottom="@dimen/bo8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/bnj" android:paddingVertical="@dimen/bo8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+    <ImageView android:layout_width="@dimen/blc" android:layout_height="@dimen/blc" android:src="@drawable/aov" />
+    <TextView android:textSize="@dimen/bt_" android:textColor="@color/w4" android:gravity="center" android:id="@id/b70" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmf" android:minHeight="@dimen/bq4" android:text="@string/c17" />
+    <com.ushareit.clone.result.widget.CloneSummaryView android:id="@id/b72" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center" android:id="@id/ayi" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bno" android:layout_marginTop="@dimen/brf" android:layout_marginRight="@dimen/bno" android:minHeight="@dimen/bpv" android:text="@string/arj" android:layout_marginHorizontal="@dimen/bno" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+</LinearLayout>

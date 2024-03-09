@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/bj1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/avi" android:paddingTop="@dimen/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/aum" android:layout_width="fill_parent" android:layout_height="wrap_content" app:zq="@drawable/bzq" app:zs="@string/cem" app:zv="@string/cmo" />
+        <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/aug" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" app:zq="@drawable/bzp" app:zs="@string/cem" app:zv="@string/b46" />
+        <View android:id="@id/c_x" android:background="@color/a16" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/bmf" android:layout_marginStart="@dimen/bn4" android:layout_marginEnd="@dimen/bn4" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/bsz" android:textColor="@color/zp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:text="@string/cgn" android:layout_marginStart="@dimen/bn4" />
+        <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/auh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" app:zq="@drawable/clo" app:zs="@string/cem" app:zv="@string/b5t" />
+        <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/auj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" app:zq="@drawable/clr" app:zs="@string/cem" app:zv="@string/bch" />
+        <View android:background="@color/a16" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/bmf" android:layout_marginStart="@dimen/bn4" android:layout_marginEnd="@dimen/bn4" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.ushareit.accountsetting.views.AccoutSettingItemBar android:id="@id/auf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmf" app:zt="@string/aw1" app:zv="@string/aci" />
+</androidx.appcompat.widget.LinearLayoutCompat>

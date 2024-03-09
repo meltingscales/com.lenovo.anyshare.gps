@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/c45" android:textStyle="bold" android:textColor="@color/a_x" android:gravity="center" android:id="@+id/dvr" android:layout_width="@dimen/c13" android:layout_height="@dimen/c1b"/>
+    <TextView android:textSize="@dimen/c45" android:textColor="@color/a__" android:ellipsize="end" android:id="@+id/e09" android:paddingLeft="@dimen/c2m" android:paddingRight="@dimen/c2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/c1t" android:lines="1" android:singleLine="true" android:paddingStart="@dimen/c2m" android:paddingEnd="@dimen/c2b"/>
+    <TextView android:textSize="@dimen/c4e" android:textStyle="bold" android:textColor="@color/aat" android:gravity="center" android:id="@+id/dzs" android:background="@drawable/b25" android:paddingLeft="@dimen/c2m" android:paddingRight="@dimen/c2m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/c0x" android:maxWidth="@dimen/c3d" android:lines="1"/>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/a21" android:background="@drawable/ug" android:paddingTop="@dimen/aq3" android:paddingBottom="@dimen/aq3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/aq3" android:paddingVertical="@dimen/aq3">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/a36" android:layout_width="match_parent" android:layout_height="@dimen/amc">
+        <ImageView android:id="@+id/a0j" android:layout_width="@dimen/aqf" android:layout_height="@dimen/aqf" android:src="@drawable/a4u"/>
+        <TextView android:textSize="@dimen/asq" android:textColor="@color/ij" android:gravity="top|center_horizontal" android:id="@+id/abo" android:paddingLeft="@dimen/am3" android:paddingRight="@dimen/am3" android:layout_width="wrap_content" android:layout_height="@dimen/apk" android:layout_marginTop="@dimen/arj" android:maxLines="2" android:paddingHorizontal="@dimen/am3"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/j2" android:id="@+id/aa_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqj" android:maxLines="1"/>
+    </LinearLayout>
+</FrameLayout>

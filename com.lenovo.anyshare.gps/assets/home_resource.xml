@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <language name="zh-cn" app_name="茄子快传" intro1="手机-平板-电脑" intro2="传文件，如此简单" download_text="立即下载" />
+    <language name="zh-tw" app_name="茄子快傳" intro1="手機-平板-電腦" intro2="傳文件，如此簡單" download_text="立即下載" />
+    <language name="zh-hk" app_name="茄子快傳" intro1="手機-平板-電腦" intro2="傳文件，如此簡單" download_text="立即下載" />
+    <language name="en-us" app_name="SHAREit" intro1="Phone-Pad-PC" intro2="Transfer files, so easy." download_text="Download" />
+</resources>

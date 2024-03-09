@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/ay1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c48" android:textStyle="bold" android:textColor="@color/a__" android:id="@id/e09" android:paddingLeft="@dimen/c1t" android:paddingTop="@dimen/c18" android:paddingRight="@dimen/c1t" android:paddingBottom="@dimen/c3j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b2u" app:a17="csi" app:a1c="csi" app:a1g="csi" />
+    <ImageView android:id="@id/c4u" android:visibility="gone" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:layout_marginTop="@dimen/c35" android:layout_marginRight="@dimen/c2m" android:layout_marginEnd="@dimen/c2m" app:a0u="csi" app:a1a="csi" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

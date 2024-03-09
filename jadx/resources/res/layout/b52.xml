@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bru" android:layout_marginBottom="@dimen/bqv" android:src="@drawable/d6a" android:layout_above="@+id/bmx" android:layout_alignParentRight="true"/>
+    <TextView android:textColor="@color/bj1" android:id="@+id/bmx" android:background="@drawable/d6_" android:paddingTop="@dimen/bnv" android:paddingBottom="@dimen/blk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bks" android:layout_marginBottom="@dimen/bq4" android:text="Double click to continue playing" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

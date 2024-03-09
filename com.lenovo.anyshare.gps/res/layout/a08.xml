@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:a_7="@dimen/br9" app:a_j="0.67"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c1u" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

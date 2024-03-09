@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="c">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="zero">%1$d butir</item>
+        <item quantity="one">%1$d butir</item>
+        <item quantity="other">%1$d butir</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="zero">%1$d file, total %2$s</item>
+        <item quantity="one">%1$d file, total %2$s</item>
+        <item quantity="other">%1$d files, total %2$s</item>
+    </plurals>
+</resources>

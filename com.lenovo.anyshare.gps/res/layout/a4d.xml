@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:id="@id/c5_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:a75="@dimen/db2" />
+    <TextView android:textSize="@dimen/c4f" android:textColor="@color/a__" android:id="@id/e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2b" />
+</merge>

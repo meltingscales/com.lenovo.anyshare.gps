@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/brv" android:layout_width="@dimen/bp2" android:layout_height="@dimen/bm5" style="@style/q3">
+        <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center_horizontal" android:id="@+id/cye" android:layout_width="@dimen/bno" android:layout_height="@dimen/bo3" android:layout_marginTop="@dimen/bqd" android:layout_marginBottom="@dimen/brj" app:mpb_indeterminateTint="@color/v4" app:mpb_indeterminateTintMode="9" app:mpb_strokeWidth="@dimen/bp0"/>
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/e07" android:paddingLeft="@dimen/bmf" android:paddingRight="@dimen/bmf" android:layout_width="wrap_content" android:layout_height="@dimen/bo3" android:layout_marginTop="@dimen/brv" android:layout_marginBottom="@dimen/bpo" android:text="@string/dum" android:maxLines="2"/>
+    </FrameLayout>
+</FrameLayout>

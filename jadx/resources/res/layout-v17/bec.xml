@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center_horizontal" android:background="@color/a20" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@+id/aqr" android:layout_width="@dimen/bnf" android:layout_height="@dimen/bnh" android:layout_marginTop="@dimen/bok"/>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq4" android:layout_marginRight="@dimen/bq4">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bpz">
+                        <com.ushareit.theme.night.view.NightTextView android:layout_marginLeft="@dimen/bkq" android:text="@string/dsy" android:layout_marginStart="@dimen/bkq" app:night_tv_text_color="#247fff" style="@style/apt"/>
+                    </LinearLayout>
+                    <TextView android:id="@+id/diz" style="@style/apr"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/d79" android:drawableLeft="@drawable/duh" android:drawablePadding="@dimen/bs3" android:drawableStart="@drawable/duh" style="@style/aps"/>
+                        <TextView android:textColor="@color/a6q" android:id="@+id/e6d" android:layout_marginLeft="@dimen/bqv" android:layout_marginStart="@dimen/bqv" style="@style/aps"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <Button android:gravity="center" android:id="@+id/are" android:visibility="gone" android:layout_marginTop="@dimen/bl2" android:layout_marginBottom="@dimen/bl2" android:text="@string/at7" style="@style/w0"/>
+</LinearLayout>

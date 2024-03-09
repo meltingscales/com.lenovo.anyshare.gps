@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/bz2" android:textStyle="bold" android:textColor="@color/w4" android:gravity="bottom" android:paddingBottom="@dimen/brt" android:layout_width="wrap_content" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/bmm" android:text="@string/bn3" android:layout_marginStart="@dimen/bmm"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c9c" android:background="@drawable/bad" android:layout_width="match_parent" android:layout_height="@dimen/br3" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bpv" android:layout_marginStart="@dimen/bmm" android:layout_marginEnd="@dimen/bmm">
+        <ImageView android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bmm" android:src="@drawable/bm5" android:layout_marginStart="@dimen/bmm"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:text="@string/bn4" android:maxLines="2" android:layout_weight="1" android:layout_marginStart="@dimen/blk"/>
+        <ImageView android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginLeft="@dimen/bq4" android:layout_marginRight="@dimen/blk" android:src="@drawable/bm4" android:layout_marginStart="@dimen/bq4" android:layout_marginEnd="@dimen/blk"/>
+    </LinearLayout>
+</merge>

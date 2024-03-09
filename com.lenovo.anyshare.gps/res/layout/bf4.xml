@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="@dimen/bqf" android:paddingBottom="@dimen/bqf" style="@style/q1">
+        <ImageView android:layout_gravity="end" android:id="@id/ay7" android:padding="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="@dimen/bo8" android:layout_marginRight="@dimen/bqf" android:src="@drawable/dqp" />
+        <include android:id="@id/title_text" layout="@layout/bf2" />
+        <include android:id="@id/cl9" layout="@layout/bf0" />
+        <FrameLayout android:id="@id/az0" android:background="@drawable/arn" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/by7" android:layout_marginRight="@dimen/by7" android:layout_marginBottom="@dimen/blk">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4" android:src="@drawable/bt8" />
+                <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a7_" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq1" android:text="@string/d9c" />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/a4i" android:layout_gravity="center_horizontal" android:id="@id/az2" android:padding="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq1" android:layout_marginBottom="@dimen/bo3" android:text="@string/cr2" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

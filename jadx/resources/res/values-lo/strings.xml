@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">ສ່ວນເນື້ອຫາ</string>
+    <string name="a98">ຫົວຂໍ້</string>
+    <string name="a99">ມຸມມອງມີເດຍ</string>
+    <string name="a9_">ອະນຸຍາດ</string>
+    <string name="a9a">ບໍ່ອະນຸຍາດ</string>
+    <string name="a9b">ອະນຸຍາດໃຫ້ແອັບສົ່ງການແຈ້ງເຕືອນໃຫ້ທ່ານບໍ?</string>
+    <string name="a9c">ແຕະເພື່ອເປີດໂຄສະນາ</string>
+    <string name="a9d">ເບິ່ງໂຄສະນາທີ່ທ່ານບັນທຶກໄວ້ຕອນທ່ານອອບລາຍ</string>
+    <string name="a9e">ຕົກລົງ</string>
+    <string name="a9f">ທ່ານຈະໄດ້ຮັບການແຈ້ງເຕືອນພ້ອມກັບລິ້ງເມື່ອທ່ານກັບມາອອນລາຍ</string>
+    <string name="a9g">ບໍ່, ຂອບໃຈ</string>
+    <string name="a9h">ພວກເຮົາຈະສົ່ງການແຈ້ງເຕືອນພ້ອມກັບລິ້ງຫາເວັບໄຊຜູ້ລົງໂຄສະນາໃຫ້ທ່ານ.</string>
+    <string name="a9i">ເປີດໂຄສະນາເມື່ອທ່ານກັບມາອອນລາຍ.</string>
+    <string name="a9j">ບັນທຶກຮູບພາບ</string>
+    <string name="a9k">ອະນຸຍາດໃຫ້ໂຄສະນາບັນທຶກຮູບພາບໃສ່ຫ້ອງສະໝຸດພາບໄດ້ບໍ່?</string>
+    <string name="a9l">ຍອມຮັບ</string>
+    <string name="a9m">ປະຕິເສດ</string>
+    <string name="a9n">ສ້າງນັດໝາຍປະຕິທິນ</string>
+    <string name="a9o">ອະນຸຍາດໃຫ້ໂຄສະນາສ້າງນັດໝາຍປະຕິທິນໄດ້ບໍ?</string>
+    <string name="a9p">ໂຄສະນາທົດສອບ</string>
+    <string name="a9q">AdMob -</string>
+</resources>

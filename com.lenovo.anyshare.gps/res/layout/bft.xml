@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/dpk" android:layout_width="fill_parent" android:layout_height="@dimen/bqq"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:id="@id/dpj" android:layout_width="@dimen/bok" android:layout_height="@dimen/bok" android:layout_marginLeft="@dimen/bmm" android:src="@drawable/atf" app:a75="@dimen/db2" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/wh" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/dph" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk" android:text="@string/ce_" android:maxLines="2" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/dpa" android:background="@drawable/arv" android:layout_width="wrap_content" android:layout_height="@dimen/bow" android:layout_marginRight="@dimen/bmm" android:minWidth="@dimen/bra" android:text="@string/asb" android:singleLine="true" android:textAllCaps="true" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/cxv" android:layout_width="@dimen/cgv" android:layout_height="@dimen/cgv" android:src="@drawable/d_4" android:scaleType="centerCrop" app:a0o="csi" app:a1c="csi" app:a1g="csi" />
+    <TextView android:textSize="@dimen/chb" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/cxu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ch3" android:layout_marginRight="@dimen/ch_" android:maxLines="2" android:layout_marginStart="@dimen/ch3" android:layout_marginEnd="@dimen/ch_" app:a0o="csi" app:a0v="@id/cxs" app:a1b="@id/cxv" app:a1g="csi" app:a1s="@dimen/cgb" app:a1u="@dimen/cgb" />
+    <TextView android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:id="@id/cxs" android:background="@drawable/d9v" android:layout_width="@dimen/ch5" android:layout_height="@dimen/cgr" android:textAllCaps="true" app:a0o="csi" app:a0u="csi" app:a1b="@id/cxu" app:a1g="csi" />
+</com.ushareit.mcds.ui.view.McdsConstraintLayout>

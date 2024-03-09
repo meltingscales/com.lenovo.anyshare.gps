@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dk0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/dcb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:text="Use Sales Version" style="@style/a78"/>
+                <include android:id="@+id/dcl" layout="@layout/bfs"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/bo5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:id="@+id/dz4" android:text="Sales Setting" style="@style/a78"/>
+                <ImageView android:layout_gravity="center" android:layout_width="@dimen/blk" android:layout_height="@dimen/bnj" android:src="@drawable/ais" android:scaleType="centerCrop" style="@style/apv"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/dca" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:text="Test OM SDK" style="@style/a78"/>
+                <include android:id="@+id/dbq" layout="@layout/bfs"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/dc9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:text="Use translucent for discover_ad" style="@style/a78"/>
+                <include android:id="@+id/dbd" layout="@layout/bfs"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/db9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:text="Clear config version" style="@style/a78"/>
+                <include android:id="@+id/db_" layout="@layout/bfs"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/dcc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <TextView android:text="Use AD Test Server" style="@style/a78"/>
+                <include android:id="@+id/dc5" layout="@layout/bfs"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bdj" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/bdn" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="shareits://..." android:layout_weight="1" android:inputType="textUri"/>
+                <include android:id="@+id/bdi" layout="@layout/a0f"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bdl" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/bdm" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Input pkg name to xiaomi phone" android:layout_weight="1" android:inputType="textUri"/>
+                <include android:id="@+id/bdk" layout="@layout/a0f"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <EditText android:id="@+id/bju" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="mb1_v5"/>
+                <Button android:id="@+id/azg" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="query"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <EditText android:id="@+id/dn3" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <Button android:id="@+id/dmy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="query"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <EditText android:id="@+id/dn2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <Button android:id="@+id/dmx" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Delete"/>
+            </LinearLayout>
+            <TextView android:id="@+id/d3p" android:textIsSelectable="true" style="@style/a78"/>
+            <LinearLayout android:id="@+id/bdb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                        <TextView android:text="显示AD标识" style="@style/a77"/>
+                        <include android:id="@+id/db2" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                        <TextView android:text="广告融于内容样式" style="@style/a77"/>
+                        <include android:id="@+id/db1" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                        <TextView android:text="广告来源禁用" style="@style/a77"/>
+                        <include android:id="@+id/db3" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <TextView android:text="分层" style="@style/a78"/>
+                        <include android:id="@+id/dbj" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <TextView android:text="Admob" style="@style/a78"/>
+                        <include android:id="@+id/db4" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <TextView android:text="Facebook" style="@style/a78"/>
+                        <include android:id="@+id/dbe" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <TextView android:text="Mopub" style="@style/a78"/>
+                        <include android:id="@+id/dbp" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <TextView android:text="ShareMob" style="@style/a78"/>
+                        <include android:id="@+id/dby" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <TextView android:text="Altamob" style="@style/a78"/>
+                        <include android:id="@+id/db5" layout="@layout/bfs"/>
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <Button android:id="@+id/c8b" android:layout_width="0dp" android:layout_height="wrap_content" android:text="startLandPage" android:layout_weight="1"/>
+                            <Button android:id="@+id/c8d" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Input Demo" android:layout_weight="1"/>
+                            <Button android:id="@+id/c8c" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Clear json" android:layout_weight="1"/>
+                        </LinearLayout>
+                        <EditText android:id="@+id/c8e" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Input landing page json"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/app" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/c0l" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="ad request ip" android:layout_weight="1" android:inputType="textUri"/>
+            <Button android:textSize="@dimen/bsz" android:gravity="center" android:id="@+id/c0m" android:padding="@dimen/bkq" android:layout_width="@dimen/blc" android:layout_height="wrap_content" android:text="Save"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/dbz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:text="Show PreInstall Read Dialog" style="@style/a78"/>
+            <include android:id="@+id/dc0" layout="@layout/bfs"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/dc2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:ellipsize="end" android:id="@+id/dc4" android:paddingRight="@dimen/bqx" android:maxLines="1" style="@style/a78"/>
+            <include android:id="@+id/dc3" layout="@layout/bfs"/>
+        </FrameLayout>
+        <Button android:id="@+id/dif" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start Reserve List"/>
+        <Button android:id="@+id/die" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start MAX Debugger"/>
+        <Button android:id="@+id/dig" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start Topon Debugger"/>
+        <FrameLayout android:id="@+id/topon_debug_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <TextView android:id="@+id/topon_debug_txt" android:text="TopOn debug: NONE" android:layout_weight="5" style="@style/a78"/>
+            <Spinner android:layout_gravity="end|center_vertical" android:id="@+id/topon_debug_list" android:background="@drawable/dg6" android:layout_width="@dimen/brm" android:layout_height="@dimen/bow" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bmm"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

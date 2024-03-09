@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="c1x">@drawable/c1z</item>
+    <item type="drawable" name="c1y">@drawable/c1w</item>
+    <item type="drawable" name="d1d">#3333b5e5</item>
+    <item type="drawable" name="d1e">#0cffffff</item>
+</resources>

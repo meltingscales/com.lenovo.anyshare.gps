@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:background="@drawable/bx5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_centerInParent="true" android:layout_marginStart="@dimen/bnj" android:layout_marginEnd="@dimen/bnj">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/b73" android:padding="@dimen/bqf" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:src="@drawable/bww" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/bmm" android:layout_alignParentEnd="true"/>
+            <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bpe" android:layout_marginRight="@dimen/bo8" android:text="@string/blt" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bo8"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/d07" android:layout_width="@dimen/bnf" android:layout_height="@dimen/bnf" android:layout_marginTop="@dimen/bnv"/>
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/ye" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bpy" android:text="@string/bls" android:layout_marginStart="@dimen/bo8" android:layout_marginEnd="@dimen/bo8"/>
+    </LinearLayout>
+</RelativeLayout>

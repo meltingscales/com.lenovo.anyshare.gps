@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/cyc" android:layout_width="@dimen/bvt" android:layout_height="@dimen/bvt" android:indeterminateDrawable="@drawable/bdh" android:layout_centerInParent="true"/>

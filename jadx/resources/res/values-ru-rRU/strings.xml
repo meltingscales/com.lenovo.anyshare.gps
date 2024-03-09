@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ad">Реклама</string>
+    <string name="mx">Скопировано</string>
+    <string name="my">Скопировать ID объявления</string>
+    <string name="mz">Скрыть рекламу</string>
+    <string name="n0">Пожаловаться на рекламу</string>
+    <string name="n1">Почему я вижу эту рекламу?</string>
+</resources>

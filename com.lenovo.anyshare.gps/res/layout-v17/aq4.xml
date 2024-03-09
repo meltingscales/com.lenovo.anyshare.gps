@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cxs" android:layout_marginTop="@dimen/cwu" android:layout_marginRight="@dimen/cxs" android:layout_marginBottom="@dimen/cya" android:layout_weight="1.0" android:layout_marginStart="@dimen/cxs" android:layout_marginEnd="@dimen/cxs">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cxs">
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@id/cr_" android:layout_width="@dimen/cv_" android:layout_height="@dimen/cv_" app:a75="@dimen/db2" />
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/czf" android:textColor="@color/axv" android:gravity="center" android:layout_gravity="center|top" android:id="@id/dpb" android:background="@drawable/c7v" android:paddingLeft="@dimen/cx6" android:paddingTop="@dimen/cw2" android:paddingRight="@dimen/cx6" android:paddingBottom="@dimen/cw2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="-8.0dip" android:minWidth="@dimen/cu2" android:minHeight="@dimen/cu2" android:text="NEW" android:paddingStart="@dimen/cx6" android:paddingEnd="@dimen/cx6" android:layout_marginStart="@dimen/ctn" />
+        </FrameLayout>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/cyt" android:textColor="@color/auf" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/cra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx6" android:singleLine="true" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/cyr" android:textColor="@color/aup" android:layout_gravity="center_horizontal" android:id="@id/crb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cwu" android:singleLine="true" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.main.media.widget.PinnedRecycleView android:id="@id/d2r" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/dj4" layout="@layout/a1d" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/awg" android:background="@color/bj1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bqd">
+        <include layout="@layout/a01" />
+        <LinearLayout android:textColor="@color/a77" android:gravity="center" android:orientation="vertical" android:id="@id/awv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/awl" android:duplicateParentState="true" android:layout_width="@dimen/bvv" android:layout_height="@dimen/bvv" android:src="@drawable/b_3" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bss" android:textColor="@color/a77" android:id="@id/ax3" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ast" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ViewStub android:layout_gravity="center" android:id="@id/cdg" android:layout="@layout/a05" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

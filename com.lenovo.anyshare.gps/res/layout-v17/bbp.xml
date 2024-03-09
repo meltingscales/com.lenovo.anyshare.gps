@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="horizontal" android:id="@id/djf" android:layout_width="fill_parent" android:layout_height="@dimen/br7" android:layout_marginTop="@dimen/boz" android:layout_below="@id/dkv"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" style="@style/w_">
+        <ImageView android:src="@drawable/dmf" style="@style/wa" />
+        <TextView android:id="@id/b0g" android:text="@string/dh0" style="@style/w8" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_marginLeft="@dimen/bm3" android:layout_marginStart="@dimen/bm3" style="@style/w_">
+        <ImageView android:src="@drawable/dmd" style="@style/wa" />
+        <TextView android:id="@id/b0g" android:text="@string/dgy" style="@style/w8" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

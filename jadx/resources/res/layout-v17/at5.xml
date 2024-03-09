@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/au8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_gravity="top" android:background="@color/auj" android:layout_width="match_parent" android:layout_height="@dimen/cx1"/>
+    <com.ushareit.theme.night.view.NightLinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@drawable/c9d" android:padding="@dimen/csw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6" android:layout_marginBottom="0dp" app:night_bg_color_tint="@color/avl">
+        <TextView android:textSize="@dimen/cyx" android:textStyle="bold" android:textColor="@color/awh" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cua" android:layout_marginTop="@dimen/cti" android:text="@string/b6y" android:maxLines="2" android:layout_weight="1" android:layout_marginStart="@dimen/cua"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/ctn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ctn">
+            <com.ushareit.cleanit.analyze.widget.AnnularSummaryView android:id="@+id/blb" android:layout_width="@dimen/cxw" android:layout_height="@dimen/cxw" android:layout_marginLeft="@dimen/cuu" android:layout_marginStart="@dimen/cuu"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cu2" android:layout_marginRight="@dimen/cu2" android:layout_marginStart="@dimen/cu2" android:layout_marginEnd="@dimen/cu2">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bl_" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@+id/bl4" layout="@layout/aqe"/>
+                    <include android:id="@+id/bl5" layout="@layout/aqe"/>
+                    <include android:id="@+id/bl6" layout="@layout/aqe"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bla" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@+id/bl7" layout="@layout/aqe"/>
+                    <include android:id="@+id/bl8" layout="@layout/aqe"/>
+                    <include android:id="@+id/bl9" layout="@layout/aqe"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ushareit.theme.night.view.NightLinearLayout>
+</FrameLayout>

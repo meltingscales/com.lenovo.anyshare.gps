@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/d81" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/bhx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/bnf" android:layout_height="@dimen/bln" android:src="@drawable/brl" android:scaleType="centerCrop" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:text="@string/avr" />
+        <TextView android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ayn" android:background="@drawable/aro" android:layout_width="@dimen/bnm" android:layout_height="@dimen/bpv" android:layout_marginTop="@dimen/bnj" android:text="@string/cb4" android:textAllCaps="true" />
+    </LinearLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/bak" android:padding="@dimen/dhs" android:visibility="gone" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/aw2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:duplicateParentState="true" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/dez" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bst" android:textColor="@color/wu" android:id="@id/duq" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnc" android:text="@string/arg" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/bt6" android:textColor="@color/bj1" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/dsz" android:background="@drawable/bpo" android:visibility="gone" android:layout_width="@dimen/br0" android:layout_height="@dimen/br0" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bq4" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</FrameLayout>

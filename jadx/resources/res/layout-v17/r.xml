@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/fx" android:paddingBottom="@dimen/cx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/bc" android:visibility="gone" android:layout_width="@dimen/dc" android:layout_height="@dimen/b2" android:scaleType="fitCenter"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/gt" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/hq" android:textColor="#666666" android:gravity="center" android:id="@+id/bd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fk" android:layout_marginTop="@dimen/bz" android:layout_marginRight="@dimen/fk" android:layout_below="@+id/bz" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/fk" android:layout_marginEnd="@dimen/fk"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/fq" android:background="@drawable/e0" android:layout_width="@dimen/cm" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/f9" android:layout_marginTop="@dimen/df" android:layout_marginRight="@dimen/f9" android:layout_below="@+id/bd" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/fr" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cj"/>
+        <TextView android:textSize="@dimen/hq" android:textColor="@color/d7" android:gravity="center" android:id="@+id/fs" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

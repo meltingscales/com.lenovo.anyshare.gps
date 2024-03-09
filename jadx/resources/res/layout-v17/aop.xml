@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/cio" android:layout_width="@dimen/bqp" android:layout_height="@dimen/bqp" android:src="@drawable/au4"/>
+        <ImageView android:layout_gravity="end|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c2r"/>
+    </FrameLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_weight="1">
+        <TextView android:textSize="@dimen/bt3" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/ciq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9">
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/cic" android:paddingRight="@dimen/bqv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="@dimen/bqv"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/ayc" android:layout_width="@dimen/blk" android:layout_height="@dimen/blk" android:src="@drawable/icon_copy_left_top"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/cip" android:background="@drawable/ax7" android:layout_width="@dimen/bre" android:layout_height="@dimen/bow" android:text="@string/bqh"/>
+</merge>

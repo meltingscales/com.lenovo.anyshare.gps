@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/b9k" android:background="@color/b0c" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:background="@color/b0c" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <ViewStub android:layout_gravity="end" android:id="@+id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj"/>
+        <com.san.ads.MediaView android:id="@+id/bc_" android:background="@color/b0c" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="end|bottom" android:id="@+id/aom" android:visibility="gone" android:layout_width="@dimen/bnj" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/br9" android:layout_marginBottom="@dimen/br9" android:src="@drawable/agp" android:scaleType="fitXY" android:layout_marginEnd="@dimen/br9"/>
+    </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+    <include android:id="@+id/dqf" android:background="@color/b0c" android:layout_width="match_parent" android:layout_height="@dimen/bqp" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="-1dp" android:layout_marginRight="@dimen/blk" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/blk" layout="@layout/b26"/>
+</LinearLayout>

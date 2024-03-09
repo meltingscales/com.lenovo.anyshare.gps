@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="c7i">30dp</dimen>
+    <dimen name="c7j">50dp</dimen>
+    <dimen name="c7k">13sp</dimen>
+    <dimen name="c7l">380dp</dimen>
+    <dimen name="c7m">20sp</dimen>
+    <dimen name="ce2">98dp</dimen>
+    <dimen name="dbc">4dp</dimen>
+    <dimen name="db9">9dp</dimen>
+    <dimen name="db6">30dp</dimen>
+    <dimen name="dbd">20sp</dimen>
+    <dimen name="db8">30dp</dimen>
+    <dimen name="db_">14sp</dimen>
+    <dimen name="db7">26dp</dimen>
+    <dimen name="dbb">11sp</dimen>
+    <dimen name="db5">10dp</dimen>
+    <dimen name="dba">33dp</dimen>
+</resources>

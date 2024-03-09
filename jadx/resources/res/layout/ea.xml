@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj">
+    <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/ef" android:id="@+id/le" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prayer comment title"/>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ej" android:id="@+id/ld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prayer comment excerpt"/>
+    <TextView android:textSize="@dimen/bsz" android:textColor="@color/ef" android:layout_gravity="center" android:id="@+id/lc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnv" android:layout_marginBottom="@dimen/bru" android:text="prayer comment content"/>
+</LinearLayout>

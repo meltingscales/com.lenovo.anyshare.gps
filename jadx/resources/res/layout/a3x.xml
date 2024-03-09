@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/aod" android:background="@drawable/b21" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c2m" android:layout_marginRight="@dimen/c2m">
+    <include layout="@layout/a3v"/>
+</LinearLayout>

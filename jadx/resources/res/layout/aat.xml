@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/be3" android:layout_width="match_parent" android:layout_height="@dimen/brc">
+    <com.ushareit.theme.night.view.NightFrameLayout android:id="@+id/bc_" android:layout_width="@dimen/brf" android:layout_height="@dimen/bqo" android:layout_marginLeft="@dimen/bmm" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:night_alpha="@dimen/db2">
+        <View android:layout_gravity="center_horizontal" android:background="@drawable/bjw" android:layout_width="@dimen/brm" android:layout_height="@dimen/br9"/>
+        <com.ushareit.filemanager.view.RoundImageView android:layout_gravity="bottom" android:id="@+id/bzd" android:layout_width="match_parent" android:layout_height="@dimen/bqd" android:src="@drawable/brn" android:scaleType="centerCrop" app:rd_radius="@dimen/brt"/>
+    </com.ushareit.theme.night.view.NightFrameLayout>
+    <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/tj" android:ellipsize="end" android:id="@+id/dxw" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/brt" android:singleLine="true" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/bc_" app:layout_constraintTop_toTopOf="@+id/bc_"/>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@+id/dxx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brl" app:layout_constraintStart_toStartOf="@+id/dxw" app:layout_constraintTop_toBottomOf="@+id/dxw"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.video.widget.MediaItemOperationsView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@dimen/et">
+    <include layout="@layout/b1"/>
+    <ImageView android:id="@+id/en" android:padding="@dimen/gf" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c7" android:layout_toRightOf="@+id/eg" android:layout_centerVertical="true"/>
+    <com.ushareit.listplayer.widget.DownloadImageView android:orientation="horizontal" android:id="@+id/ed" android:padding="@dimen/gf" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gf" android:src="@drawable/bx" android:layout_toRightOf="@+id/en" android:layout_centerVertical="true"/>
+</com.ushareit.video.widget.MediaItemOperationsView>

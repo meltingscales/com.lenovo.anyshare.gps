@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/be3" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/bve"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/b2o" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" android:layout_marginLeft="@dimen/bmm" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm" style="@style/alk" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/bu7" android:layout_toLeftOf="@id/b2j" android:layout_toRightOf="@id/b2o" android:layout_centerVertical="true" android:layout_toStartOf="@id/b2j" android:layout_toEndOf="@id/b2o" style="@style/ahq">
+        <TextView android:textSize="@dimen/btn" android:textColor="#ff444444" android:gravity="start" android:layout_gravity="start|center" android:id="@id/b2w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/bss" android:textColor="#ff757575" android:gravity="start" android:layout_gravity="start|center" android:id="@id/b39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/b2j" android:visibility="invisible" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:layout_marginLeft="@dimen/bu5" android:layout_marginRight="@dimen/bu5" android:src="@drawable/bd0" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/awp" android:background="#ffe7e7e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/bro" android:layout_alignParentBottom="true" />
+</RelativeLayout>

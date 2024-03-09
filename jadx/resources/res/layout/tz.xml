@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.ui.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d6v" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/bl2" style="@style/agp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aog" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/brq" android:layout_weight="1" app:bottom_left_corner="@dimen/bl2" app:bottom_right_corner="0dp" app:rect_radio="0.5236" app:top_left_corner="@dimen/bl2" app:top_right_corner="0dp">
+            <FrameLayout android:id="@+id/bc_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/bca" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+            <ImageView android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+            <ImageView android:id="@+id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agp"/>
+        </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+        <FrameLayout android:id="@+id/bl3" android:layout_width="0dp" android:layout_height="match_parent" android:minHeight="@dimen/brq" android:layout_weight="1">
+            <include android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/v4"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.ushareit.ads.ui.widget.RoundFrameLayout>

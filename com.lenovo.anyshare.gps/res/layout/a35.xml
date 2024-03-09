@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c16" android:background="@drawable/b8t" android:layout_width="@dimen/c2p" android:layout_height="@dimen/c2p" app:a0u="csi" app:a17="csi" app:a1a="csi" app:a1c="csi" app:a1g="csi" />
+    <ImageView android:id="@id/c0z" android:layout_width="@dimen/c1f" android:layout_height="@dimen/c1f" android:layout_marginTop="@dimen/c2w" app:a0v="@id/c10" app:a14="csb" app:a17="@id/c16" app:a1_="@id/c10" app:a1c="@id/c16" app:a1g="@id/c16" />
+    <ImageView android:id="@id/c10" android:layout_width="@dimen/c1f" android:layout_height="@dimen/c1f" android:layout_marginLeft="@dimen/c0q" app:a0u="@id/c16" app:a18="@id/c0z" app:a1a="@id/c16" app:a1b="@id/c0z" app:a1g="@id/c0z" />
+    <ImageView android:id="@id/c11" android:layout_width="@dimen/c1f" android:layout_height="@dimen/c1f" android:layout_marginTop="@dimen/c0q" app:a0v="@id/c12" app:a14="csb" app:a17="@id/c16" app:a1_="@id/c12" app:a1c="@id/c16" app:a1f="@id/c0z" />
+    <ImageView android:id="@id/c12" android:layout_width="@dimen/c1f" android:layout_height="@dimen/c1f" android:layout_marginLeft="@dimen/c0q" app:a0u="@id/c16" app:a18="@id/c11" app:a1a="@id/c16" app:a1b="@id/c11" app:a1g="@id/c11" />
+    <TextView android:textSize="@dimen/c45" android:textColor="@color/a_g" android:gravity="center" android:id="@id/c26" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c3c" android:text="@string/b0z" android:maxLines="1" app:a0o="csi" app:a1f="@id/c16" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/blk">
+        <LinearLayout android:orientation="vertical" android:id="@id/aog" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@id/d2i" android:layout_width="fill_parent" android:layout_height="wrap_content" app:m4="@dimen/bkq" app:m5="@dimen/bkq" app:al8="@dimen/blk" app:al9="@dimen/blk">
+                <FrameLayout android:id="@id/bc_" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/bca" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+                <ImageView android:id="@id/bcd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <RelativeLayout android:layout_gravity="bottom" android:id="@id/bl3" android:background="@drawable/aj5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.ushareit.ads.ui.widget.RoundFrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bx9" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_margin="@dimen/blk" android:layout_marginRight="@dimen/brt" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/brt" app:a_7="@dimen/brt">
+                        <ImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+                    <RelativeLayout android:id="@id/az6" android:layout_width="@dimen/bru" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginRight="@dimen/blk" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/brt" android:layout_marginEnd="@dimen/blk" android:layout_alignParentEnd="true">
+                        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@id/b00" android:background="@drawable/aho" android:layout_width="fill_parent" android:layout_height="@dimen/bok" android:max="100" android:progress="100" android:singleLine="true" android:layout_centerHorizontal="true" app:ajb="@dimen/bsv" app:ajh="@dimen/blk" app:aji="@dimen/blk" app:ajk="@dimen/brc" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/akf" />
+                    </RelativeLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/apr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:layout_toLeftOf="@id/az6" android:layout_toRightOf="@id/bx9" android:layout_centerVertical="true" android:layout_toStartOf="@id/az6" android:layout_toEndOf="@id/bx9">
+                        <TextView android:textSize="@dimen/bih" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/bl2" android:visibility="visible" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_marginRight="@dimen/bqf" android:src="@drawable/agp" android:layout_marginEnd="@dimen/bqf" />
+                            <TextView android:textSize="@dimen/btj" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+                <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+            </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+        </LinearLayout>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+</merge>

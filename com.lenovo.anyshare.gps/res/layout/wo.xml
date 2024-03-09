@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/aog" android:background="#ffedfdfe" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bhm" android:paddingTop="@dimen/bnj" android:paddingRight="@dimen/bhm" android:paddingBottom="@dimen/bmf" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/bxl" android:layout_width="@dimen/bqs" android:layout_height="@dimen/bqs" android:layout_alignParentTop="true" app:a_7="@dimen/bl2" style="@style/am8">
+                <com.san.ads.MediaView android:id="@id/bx9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+            </com.ushareit.ads.ui.widget.RoundFrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/bxl" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/bhl" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqf" android:singleLine="true" />
+                <TextView android:textSize="@dimen/bho" android:textColor="@color/sg" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:maxEms="72" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.san.ads.TextProgressView android:textSize="@dimen/bhr" android:layout_gravity="center_horizontal" android:id="@id/b00" android:background="@drawable/aho" android:layout_width="fill_parent" android:layout_height="@dimen/bhp" android:layout_marginTop="@dimen/bl2" style="@style/am6" />
+    </LinearLayout>
+    <ImageView android:id="@id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aiu" />
+</FrameLayout>

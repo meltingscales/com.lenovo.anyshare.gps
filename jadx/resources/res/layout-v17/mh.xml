@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/tc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/q3" android:padding="@dimen/ao5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/aon">
+            <TextView android:textSize="@dimen/ast" android:textStyle="bold" android:textColor="@color/ij" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a19"/>
+            <View android:layout_width="0dp" android:layout_height="@dimen/am3" android:layout_weight="1"/>
+            <ImageView android:id="@+id/a0b" android:padding="@dimen/ar7" android:layout_width="@dimen/aon" android:layout_height="@dimen/aon" android:src="@drawable/va"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aon">
+            <com.ushareit.muslim.rating.EmotionRatingBar android:layout_gravity="center_horizontal" android:id="@+id/a6c" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/ap4" android:layout_marginLeft="@dimen/ao5" android:layout_marginRight="@dimen/ao5" android:layout_marginBottom="@dimen/aon"/>
+            <com.airbnb.lottie.LottieAnimationView android:id="@+id/a3y" android:layout_width="match_parent" android:layout_height="@dimen/aqo" app:lottie_fileName="rating/data.json" app:lottie_imageAssetsFolder="rating/images"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/a3h" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/apk" android:layout_height="@dimen/apk" android:layout_marginRight="@dimen/amf" android:src="@drawable/tj" android:layout_marginEnd="@dimen/amf"/>
+            <ImageView android:layout_width="@dimen/am3" android:layout_height="@dimen/am3" android:layout_marginTop="@dimen/ans" android:src="@drawable/yd"/>
+            <TextView android:textSize="@dimen/asq" android:textColor="@color/io" android:gravity="start|center_vertical" android:background="@drawable/pv" android:padding="@dimen/amf" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a1_"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:gravity="center" android:id="@+id/ado" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a1h"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/a6k" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/amf"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/iy" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/aau" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/amf" android:text="@string/tg" android:drawableRight="@drawable/rm" android:drawableEnd="@drawable/rm"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/iy" android:gravity="center" android:id="@+id/adr" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a1a"/>
+        <TextView android:textSize="@dimen/asq" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/ac1" android:background="@drawable/yb" android:layout_width="match_parent" android:layout_height="@dimen/apx" android:layout_marginTop="@dimen/ao5" android:text="@string/as_"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="start|center_vertical" android:layout_width="match_parent" android:layout_height="128dp">
+    <ImageView android:id="@+id/uj" android:layout_width="@dimen/ame" android:layout_height="@dimen/ame" android:scaleType="centerCrop" android:layout_alignParentTop="true" style="@style/agr"/>
+    <ImageView android:id="@+id/vr" android:padding="@dimen/arj" android:layout_width="@dimen/apx" android:layout_height="@dimen/apx" android:layout_alignParentTop="true" style="@style/ags"/>
+    <TextView android:textAppearance="@style/f4" android:ellipsize="end" android:id="@+id/a8v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am9" android:singleLine="true" android:layout_alignParentTop="true" style="@style/fd"/>
+    <TextView android:textAppearance="@style/f3" android:ellipsize="end" android:id="@+id/ut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/a8v" style="@style/fd"/>
+    <LinearLayout android:gravity="start|bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ut" android:layout_alignParentBottom="true" style="@style/fc">
+        <ImageView android:id="@+id/a5d" android:padding="@dimen/aqw" android:layout_width="0dp" android:layout_height="@dimen/aqa" android:layout_weight="1"/>
+        <ImageView android:id="@+id/a5a" android:padding="@dimen/aqw" android:layout_width="0dp" android:layout_height="@dimen/aqa" android:layout_weight="1"/>
+        <ImageView android:id="@+id/a5c" android:padding="@dimen/aqw" android:layout_width="0dp" android:layout_height="@dimen/aqa" android:layout_weight="1"/>
+        <ImageView android:id="@+id/wg" android:padding="@dimen/aqw" android:layout_width="0dp" android:layout_height="@dimen/aqa" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

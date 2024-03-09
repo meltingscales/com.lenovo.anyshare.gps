@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@color/a16" android:layout_width="fill_parent" android:layout_height="@dimen/bko" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bqv"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" />

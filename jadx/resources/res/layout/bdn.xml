@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bbo" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="end|top" android:id="@+id/b78" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/br9" android:src="@drawable/dsm"/>
+        <ImageView android:layout_gravity="start|top" android:id="@+id/bqk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/br9" android:src="@drawable/dsn"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center_horizontal" android:orientation="horizontal" android:id="@+id/cvy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/brl">
+            <ImageButton android:id="@+id/bbh" android:background="@null" android:padding="@dimen/dgd" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d7m" android:scaleType="fitCenter"/>
+            <ImageButton android:id="@+id/bbe" android:background="@null" android:padding="@dimen/dgd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dez" android:layout_marginRight="@dimen/dez" android:src="@drawable/d7b" android:scaleType="fitCenter"/>
+            <ImageButton android:id="@+id/bbd" android:background="@null" android:padding="@dimen/dgd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/d79" android:scaleType="fitCenter"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.ushareit.videoplayer.floating.coverview.FloatingGestureCoverView android:id="@+id/brg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

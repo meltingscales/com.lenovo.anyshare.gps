@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/u9" android:background="@color/a4z" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a2s" android:background="@drawable/q2" android:layout_width="@dimen/ap8" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.ushareit.widget.RoundFrameLayout android:id="@+id/wj" android:layout_width="@dimen/ap8" android:layout_height="@dimen/an4" app:topLeftRadius="@dimen/am3" app:topRightRadius="@dimen/am3">
+            <com.san.ads.MediaView android:id="@+id/a80" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <ImageView android:id="@+id/zy" android:layout_width="@dimen/ans" android:layout_height="@dimen/amf" android:layout_margin="@dimen/arr" android:src="@drawable/yn" android:adjustViewBounds="true"/>
+        </com.ushareit.widget.RoundFrameLayout>
+        <com.ushareit.widget.RoundFrameLayout android:id="@+id/wk" android:layout_width="@dimen/aqx" android:layout_height="@dimen/aqx" android:layout_marginTop="@dimen/ao5" app:radius="@dimen/arr">
+            <com.san.ads.MediaView android:id="@+id/zx" android:layout_width="@dimen/aqx" android:layout_height="@dimen/aqx"/>
+        </com.ushareit.widget.RoundFrameLayout>
+        <TextView android:textSize="@dimen/ast" android:textColor="@color/ij" android:ellipsize="end" android:gravity="center" android:id="@+id/a_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aq6" android:layout_marginTop="@dimen/and" android:layout_marginRight="@dimen/aq6" android:singleLine="true" android:layout_marginHorizontal="@dimen/aq6"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/ij" android:ellipsize="end" android:gravity="center" android:id="@+id/a_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aq6" android:layout_marginTop="@dimen/arr" android:layout_marginRight="@dimen/aq6" android:maxLines="2" android:layout_marginHorizontal="@dimen/aq6"/>
+        <TextView android:textSize="@dimen/asp" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/a_s" android:background="@drawable/a5s" android:layout_width="@dimen/aoo" android:layout_height="@dimen/apk" android:layout_marginTop="@dimen/and" android:layout_marginBottom="@dimen/aon" android:textAllCaps="true"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/zw" android:layout_width="@dimen/aoz" android:layout_height="@dimen/aoz" android:layout_marginBottom="@dimen/amf" android:src="@drawable/sz" android:layout_above="@+id/a2s" android:layout_alignRight="@+id/a2s"/>
+</RelativeLayout>

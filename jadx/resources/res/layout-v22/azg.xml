@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dsh" android:background="@drawable/cn9" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.widget.RoundFrameLayout android:background="@drawable/cnu" android:layout_width="match_parent" android:layout_height="match_parent" app:radius="@dimen/blk">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center_vertical" android:id="@+id/e09" android:paddingLeft="@dimen/bm3" android:paddingRight="@dimen/bm3" android:layout_width="wrap_content" android:layout_height="@dimen/bn4" android:layout_marginTop="@dimen/bl2" android:text="@string/bjt" android:maxLines="1" android:paddingHorizontal="@dimen/bm3"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bm3" android:layout_marginHorizontal="@dimen/bm3">
+                <FrameLayout android:id="@+id/ds_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <com.lenovo.anyshare.web.holder.MiniProgramView android:id="@+id/dsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <TextView android:textSize="@dimen/btj" android:textStyle="bold" android:textColor="@color/tj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dsf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqf" android:maxLines="1"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/dsd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <com.lenovo.anyshare.web.holder.MiniProgramView android:id="@+id/dse" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <TextView android:textSize="@dimen/btj" android:textStyle="bold" android:textColor="@color/tj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqf" android:maxLines="1"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ushareit.widget.RoundFrameLayout>
+</FrameLayout>

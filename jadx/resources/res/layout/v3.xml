@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/bxc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:radius="@dimen/br9">
+        <com.san.ads.MediaView android:id="@+id/bx9" android:background="@drawable/ai_" android:padding="@dimen/bnd" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/brt" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/icon" android:background="@drawable/ai_" android:padding="@dimen/bnd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.san.ads.MediaView>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+    <TextView android:textSize="@dimen/bz0" android:textColor="#333333" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@+id/az6" android:layout_toRightOf="@+id/bxc" android:layout_centerVertical="true"/>
+    <RelativeLayout android:id="@+id/az6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.san.ads.TextProgressView android:gravity="center" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="@dimen/bru" android:layout_height="@dimen/bok" android:layout_marginRight="@dimen/bqf" android:max="100" android:progress="100" android:singleLine="true" app:textSize="@dimen/bsx" app:text_default_color="@color/bj1" app:text_max_length="@dimen/brj" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akc"/>
+    </RelativeLayout>
+</RelativeLayout>

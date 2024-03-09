@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:paddingTop="@dimen/brl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="start|top" android:id="@+id/bm9" android:background="@drawable/be9" android:paddingLeft="@dimen/brl" android:paddingTop="@dimen/br9" android:paddingRight="@dimen/brl" android:paddingBottom="@dimen/brt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginStart="@dimen/bqf" android:layout_marginEnd="@dimen/bqf">
+        <include android:gravity="center_vertical" android:id="@+id/arc" android:layout_width="match_parent" android:layout_height="@dimen/bv4" android:layout_marginLeft="@dimen/bq1" android:layout_marginRight="@dimen/bq1" android:layout_marginStart="@dimen/bq1" android:layout_marginEnd="@dimen/bq1" layout="@layout/a9t"/>
+        <ListView android:id="@+id/bmb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq1" android:layout_marginTop="@dimen/bv4" android:layout_marginRight="@dimen/bq1" android:layout_marginBottom="@dimen/bnj" android:layout_marginStart="@dimen/bq1" android:layout_marginEnd="@dimen/bq1" style="@style/rc"/>
+    </FrameLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/bmh" android:background="@drawable/bru" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv"/>
+    <include android:id="@+id/bma" layout="@layout/a9e"/>
+</FrameLayout>

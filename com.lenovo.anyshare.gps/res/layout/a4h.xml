@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/a_t" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/dro" android:layout_width="fill_parent" android:layout_height="0.0dip" app:a1g="csi" />
+    <com.ushareit.downloader.widget.DownloaderTopView android:id="@id/dql" android:layout_width="fill_parent" android:layout_height="@dimen/c2t" app:a1f="@id/dro" />
+    <FrameLayout android:id="@id/cnc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1b" android:layout_marginTop="@dimen/c1b" android:layout_marginRight="@dimen/c1b" android:layout_marginBottom="@dimen/c2m" app:a1f="@id/dql" />
+    <com.ushareit.component.resdownload.widget.ParentRefreshRecyclerView android:id="@id/d2z" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/c3p" android:layout_marginTop="@dimen/c0r" android:layout_marginRight="@dimen/c3p" app:a0o="csi" app:a1f="@id/cnc" />
+    <FrameLayout android:id="@id/b7n" android:layout_width="wrap_content" android:layout_height="wrap_content" app:a0o="csi" app:a17="csi" app:a1a="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

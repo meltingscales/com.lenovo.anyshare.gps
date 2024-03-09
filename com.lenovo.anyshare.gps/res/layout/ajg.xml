@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@drawable/apn" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brm" android:layout_marginTop="@dimen/bpr" android:src="@drawable/apr" />
+    <ImageView android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:src="@drawable/apq" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/c94" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bmw" android:layout_marginBottom="@dimen/bm3">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/bla" android:src="@drawable/ap1" />
+        <TextView android:textSize="@dimen/bsu" android:textStyle="bold" android:textColor="@color/v2" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/e07" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:minHeight="@dimen/boe" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/bsu" android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/du2" android:background="@drawable/apo" android:paddingLeft="@dimen/bmf" android:paddingRight="@dimen/bmf" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/boe" android:layout_marginLeft="@dimen/bmf" android:text="@string/b47" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

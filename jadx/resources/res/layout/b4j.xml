@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/deg">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dep" android:paddingRight="@dimen/dep" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/cvg" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/b4l"/>
+            </LinearLayout>
+            <View android:id="@+id/cvh" android:background="@color/b2h" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="2dp" android:layout_marginBottom="1dp"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/cv9" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="0dp" android:cacheColorHint="@android:color/white" android:layout_weight="1"/>
+            <include layout="@layout/b4h"/>
+            <include layout="@layout/b4k"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

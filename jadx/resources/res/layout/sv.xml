@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/z7" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.accountsetting.views.AccoutSettingIconGrid android:id="@+id/bs2" android:background="@drawable/aso" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" app:grid_title="@string/bk4" app:night_bg_color_tint="@color/afs"/>
+    <com.ushareit.accountsetting.views.AccoutSettingIconGrid android:id="@+id/bs1" android:background="@drawable/aso" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk" app:grid_title="@string/ah8" app:night_bg_color_tint="@color/afs"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/kl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/a4f" android:background="#3301865f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/aqs">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/aow" android:layout_height="@dimen/aow" android:layout_marginLeft="@dimen/and" android:src="@drawable/a4q"/>
+        <TextView android:textSize="@dimen/asq" android:textColor="@color/i0" android:ellipsize="end" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="@dimen/amf" android:text="@string/w6" android:maxLines="2" android:layout_weight="1"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/a6k" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/a4f"/>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:id="@+id/a5p" android:background="@drawable/duj" android:padding="@dimen/b4m" android:layout_width="@dimen/b4p" android:layout_height="@dimen/b4p" android:layout_centerInParent="true"/>
+    <ViewStub android:id="@+id/a3l" android:layout="@layout/a05" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/fx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@+id/fk" android:background="@color/ah" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" app:rect_radio="0.5236">
+        <FrameLayout android:id="@+id/ax" android:background="@color/cy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/az" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </com.ushareit.ads.ui.widget.RectFrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/br">
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/da" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginTop="@dimen/fi" android:layout_marginStart="@dimen/c6">
+                    <FrameLayout android:id="@+id/bz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fi" android:layout_marginEnd="@dimen/fi">
+                        <com.ushareit.ads.ui.widget.CircleImageView android:id="@+id/by" android:layout_width="@dimen/e4" android:layout_height="@dimen/e4" android:scaleType="centerCrop"/>
+                        <ImageView android:id="@+id/cf" android:visibility="gone" android:layout_width="@dimen/cx" android:layout_height="@dimen/bh"/>
+                    </FrameLayout>
+                    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/au" android:singleLine="true" android:layout_toRightOf="@+id/bz" android:layout_centerVertical="true" android:layout_toEndOf="@+id/bz"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="start|center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginTop="@dimen/b7" android:layout_marginBottom="@dimen/ck" android:layout_marginStart="@dimen/c6">
+                    <ImageView android:id="@+id/cg" android:layout_width="@dimen/cx" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eq" android:scaleType="fitXY"/>
+                    <TextView android:textSize="@dimen/hp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="start" android:id="@+id/dz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/eq" android:maxLines="2" android:lineSpacingExtra="@dimen/eq" android:layout_marginStart="@dimen/eq"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/eo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c6">
+                    <com.san.ads.TextProgressView android:textColor="@color/e2" android:gravity="center" android:id="@+id/a3" android:background="@drawable/x" android:layout_width="wrap_content" android:layout_height="@dimen/dw" android:layout_marginLeft="@dimen/b7" android:layout_marginRight="@dimen/b7" android:max="100" android:progress="100" android:singleLine="true" android:layout_alignParentRight="true" android:layout_marginStart="@dimen/b7" android:layout_marginEnd="@dimen/b7" android:layout_alignParentEnd="true" app:progress_drawable="@drawable/a3" app:progress_style="?android:attr/progressBarStyleHorizontal" app:textSize="@dimen/hp" app:text_margin_left="@dimen/b7" app:text_margin_right="@dimen/b7"/>
+                    <ImageView android:id="@+id/a0" android:layout_width="@dimen/eb" android:layout_height="@dimen/eb" android:layout_marginLeft="@dimen/au" android:src="@drawable/b6" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/au"/>
+                    <TextView android:textSize="@dimen/hn" android:textColor="@color/e2" android:id="@+id/hi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/a0" android:layout_centerVertical="true" android:layout_toEndOf="@+id/a0"/>
+                    <ImageView android:id="@+id/a2" android:layout_width="@dimen/eb" android:layout_height="@dimen/eb" android:layout_marginLeft="@dimen/en" android:src="@drawable/w" android:layout_toRightOf="@+id/a0" android:layout_centerVertical="true" android:layout_marginStart="@dimen/en" android:layout_toEndOf="@+id/a0"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <ProgressBar android:id="@+id/e0" android:layout_width="match_parent" android:layout_height="@dimen/cr" android:layout_marginLeft="@dimen/c6" android:layout_marginRight="@dimen/c6" android:layout_marginBottom="@dimen/dw" android:max="100" android:progress="0" android:progressDrawable="@drawable/a2" style="@android:style/Widget.ProgressBar.Horizontal"/>
+    </LinearLayout>
+    <com.ushareit.minivideo.widget.DetailHonorCardView android:id="@+id/fu" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/b3" android:layout_marginLeft="@dimen/c6" android:layout_marginRight="@dimen/c6" android:layout_marginBottom="@dimen/ev" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/cjl" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="@dimen/co_" android:layout_height="@dimen/cjl" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/cgy" android:layout_width="@dimen/co_" android:layout_height="@dimen/cjl" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        <RelativeLayout android:background="@drawable/c3n" android:padding="@dimen/crd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.alphagaming.mediation.widget.shape.view.ShapeButton android:textSize="@dimen/cj_" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/d8i" android:paddingLeft="@dimen/ci3" android:paddingRight="@dimen/ci3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/co5" android:text="Download" android:layout_centerVertical="true" app:shape="rectangle" app:shape_radius="@dimen/cqd" app:shape_solidColor="#f0ad19"/>
+            <RelativeLayout android:id="@+id/d6_" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/d8i" android:layout_alignParentRight="true">
+                <ImageView android:id="@+id/c5y" android:layout_width="@dimen/co5" android:layout_height="@dimen/co5" android:scaleType="fitXY" android:layout_alignParentRight="true"/>
+                <TextView android:textSize="@dimen/cio" android:textColor="#ffffffff" android:ellipsize="end" android:id="@+id/dwm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ciz" android:layout_marginRight="@dimen/cr3" android:maxLines="1" android:layout_toLeftOf="@+id/c5y" android:lineSpacingExtra="@dimen/cio" android:fontFamily="PingFang SC"/>
+                <TextView android:textSize="@dimen/chs" android:textColor="#ffffffff" android:ellipsize="end" android:id="@+id/dwl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ciz" android:layout_marginRight="@dimen/cr3" android:text="description description..." android:maxLines="1" android:layout_toLeftOf="@+id/c5y" android:layout_below="@+id/dwm" android:lineSpacingExtra="@dimen/chs" android:fontFamily="PingFang SC"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:id="@+id/d8h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ag7" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+</RelativeLayout>

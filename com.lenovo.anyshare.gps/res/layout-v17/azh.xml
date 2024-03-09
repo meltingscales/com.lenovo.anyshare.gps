@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqy" android:layoutDirection="ltr">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" app:a_7="@dimen/brt" app:a_j="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/ds7" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" android:src="@drawable/cnw" />
+            <ImageView android:layout_width="@dimen/bo3" android:layout_height="@dimen/bok" android:src="@drawable/cnz" />
+            <com.lenovo.anyshare.web.holder.HorRemoveProgressBar android:layout_gravity="center" android:id="@id/ds5" android:visibility="gone" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" />
+            <ImageView android:layout_gravity="center" android:id="@id/ds4" android:visibility="gone" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/cnv" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <ImageView android:layout_gravity="end" android:id="@id/ds9" android:background="@drawable/co0" android:padding="1.0px" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bm3" android:layout_marginTop="@dimen/bqc" android:layout_marginRight="@dimen/bm3" android:src="@drawable/aub" android:layout_marginEnd="@dimen/bm3" />
+        <ImageView android:id="@id/ds8" android:background="@drawable/co0" android:padding="1.0px" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bm3" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bqc" android:src="@drawable/au4" android:layout_marginStart="@dimen/bm3" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Текст</string>
+    <string name="a98">Башкы сап</string>
+    <string name="a99">Мультимедия борбору</string>
+    <string name="a9_">Уруксат берүү</string>
+    <string name="a9a">Тыюу салуу</string>
+    <string name="a9b">Колдонмого билдирмелерди жөнөтүүгө уруксат бересизби?</string>
+    <string name="a9c">Жарнаманы ачуу үчүн таптаңыз</string>
+    <string name="a9d">Оффлайн режиминде сактаган жарнамаңызды көрүңүз</string>
+    <string name="a9e">ЖАРАЙТ</string>
+    <string name="a9f">Онлайн режимине кайтып келгенде, шилтеме камтылган билдирме аласыз</string>
+    <string name="a9g">Жок, рахмат</string>
+    <string name="a9h">Сизге жарнамачынын сайтына шилтеме камтылган билдирме жөнөтөбүз.</string>
+    <string name="a9i">Жарнама сиз онлайн режимине кайтып келгенде ачылат.</string>
+    <string name="a9j">Сүрөттү сактоо</string>
+    <string name="a9k">Жарнамадан Сүрөт галереясына сүрөт сакталсынбы?</string>
+    <string name="a9l">Кабыл алуу</string>
+    <string name="a9m">Баш тартуу</string>
+    <string name="a9n">Жылнаама окуясын түзүү</string>
+    <string name="a9o">Жарнамада жылнаама окуясы түзүлсүнбү?</string>
+    <string name="a9p">Жарнаманы сынап көрүңүз</string>
+    <string name="a9q">AdMob -</string>
+</resources>

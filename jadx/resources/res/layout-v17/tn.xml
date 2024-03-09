@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b9k" android:background="@color/rz" android:paddingBottom="@dimen/bnj" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/bxd" android:layout_width="wrap_content" android:layout_height="@dimen/bqj" android:layout_marginTop="@dimen/bmm">
+        <FrameLayout android:id="@+id/bx9" android:layout_width="@dimen/bha" android:layout_height="@dimen/bha" style="@style/ag7">
+            <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/sp"/>
+            <ImageView android:layout_gravity="end|bottom" android:id="@+id/aom" android:visibility="gone" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" android:src="@drawable/agp"/>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bhc" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bhc" android:minHeight="@dimen/bqo" android:layout_toRightOf="@+id/bxd" android:layout_toEndOf="@+id/bxd">
+        <TextView android:textSize="@dimen/bhf" android:textColor="@color/s1" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/bhe" android:textColor="@color/ry" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bhd" android:maxLines="2"/>
+    </LinearLayout>
+    <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/agw" android:layout_width="match_parent" android:layout_height="@dimen/bp7" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/blk" android:max="100" android:progress="100" android:maxLines="1" android:layout_below="@+id/bxd" android:layout_centerHorizontal="true" app:textSize="@dimen/bsx" app:text_default_color="@color/rw" app:text_margin_left="@dimen/blv" app:text_margin_right="@dimen/blv" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akc"/>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags"/>
+    <RelativeLayout android:id="@+id/b75" android:visibility="gone" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginTop="@dimen/br4" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ait" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

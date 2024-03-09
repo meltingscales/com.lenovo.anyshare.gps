@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.st.entertainment.core.view.RoundStrokeImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ajv" android:layout_width="36dp" android:layout_height="36dp" android:scaleType="centerCrop" app:rsi_radius="5.5dp"/>

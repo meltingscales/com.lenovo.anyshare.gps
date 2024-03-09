@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsRelativeLayout style="@style/re"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/bes" android:background="@drawable/axj" style="@style/rd">
+        <TextView android:textSize="@dimen/byw" android:textColor="@color/at3" android:gravity="start" android:id="@id/bfz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/bye" android:layout_marginRight="@dimen/bye" android:layout_marginBottom="@dimen/byk" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/by8" android:textColor="@color/at5" android:id="@id/bfy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/byb" android:layout_marginRight="@dimen/bye" android:maxHeight="90.0dip" />
+            </LinearLayout>
+        </ScrollView>
+        <com.ushareit.mcds.ui.view.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/byb" android:layout_marginRight="@dimen/bye" app:lz="@dimen/bxw" app:m1="@dimen/bxw" app:al6="@dimen/bxw" app:al7="@dimen/bxw">
+            <ViewStub android:id="@id/byt" android:layout="@layout/ao5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/cf0" android:layout="@layout/ao7" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgm" android:layout_height="@dimen/cgf" android:layout_margin="@dimen/ch3" />
+        </com.ushareit.mcds.ui.view.RoundFrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/axk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/by4" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bfu" android:background="@drawable/axo" android:layout_width="fill_parent" android:layout_height="@dimen/bxx" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/bye" android:layout_marginRight="@dimen/bye" />
+            <TextView android:textSize="@dimen/by4" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:id="@id/bfx" android:layout_width="fill_parent" android:layout_height="@dimen/bxx" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/byj" android:layout_marginRight="@dimen/bye" android:layout_marginBottom="@dimen/byl" />
+        </LinearLayout>
+    </LinearLayout>
+</com.ushareit.mcds.ui.view.McdsRelativeLayout>

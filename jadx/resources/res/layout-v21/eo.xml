@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mj" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/mt" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="48dp">
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/mo" android:background="@drawable/j4" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/mv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:singleLine="true" android:drawablePadding="5dp"/>
+        <View android:layout_gravity="bottom" android:id="@+id/mu" android:background="#f4f4f4" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/mr" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:layout_width="35dp" android:layout_height="35dp" android:indeterminateTint="#2f9cf6"/>
+        <TextView android:textColor="#757575" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Loading"/>
+    </LinearLayout>
+    <View android:background="#e7e7e7" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="48dp"/>
+</FrameLayout>

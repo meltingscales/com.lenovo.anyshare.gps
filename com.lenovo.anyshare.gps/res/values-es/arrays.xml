@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="s">
+        <item>Nombre (A-Z)</item>
+        <item>Nombre (Z-A)</item>
+        <item>Fecha (en orden cronológico inverso)</item>
+        <item>Fecha (en orden cronológico)</item>
+    </string-array>
+    <string-array name="t">
+        <item>Esta no es la experiencia que nos gusta que tenga. Indíquenos sus comentarios a continuación.</item>
+        <item>¡Vaya! ¿No nos puede decir más sobre qué podemos mejorar?</item>
+        <item>Gracias por sus comentarios. ¿Hay algo específico que podamos mejorar?</item>
+        <item>¡Gracias! Sus comentarios nos motivan para mejorar. ¿Le importa darnos un 5?</item>
+        <item>¡Gracias! Sus fantásticos comentarios nos han ayudado mucho. Califíquenos en Play Store.</item>
+    </string-array>
+    <string-array name="v">
+        <item>%s apps se pueden actualizar sin consumir datos</item>
+        <item>%s apps que ha recibido aún no se han actualizado</item>
+        <item>%s apps compartidas por amigos deben actualizarse</item>
+    </string-array>
+    <string-array name="w">
+        <item>%s apps se pueden actualizar sin consumir datos</item>
+        <item>%s apps que ha recibido aún no se han actualizado</item>
+        <item>%s apps compartidas por amigos deben actualizarse</item>
+    </string-array>
+    <string-array name="x">
+        <item>Los archivos de audio grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="y">
+        <item>Los archivos de audio grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="z">
+        <item>Los archivos de imágenes grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="a0">
+        <item>Los archivos de imágenes grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="a1">
+        <item>Los archivos grandes ocupan %s de espacio</item>
+        <item>Es el momento de limpiar los %s de archivos grandes almacenados</item>
+    </string-array>
+    <string-array name="a2">
+        <item>Los archivos grandes ocupan %s de espacio</item>
+        <item>Es el momento de limpiar %s de archivos grandes ahora</item>
+    </string-array>
+    <string-array name="a3">
+        <item>Los archivos de vídeo grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="a4">
+        <item>Los archivos de vídeo grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="a5">
+        <item>Se ha encontrado %s música duplicada para limpiar</item>
+        <item>Limpiar %s música duplicada para liberar espacio</item>
+    </string-array>
+    <string-array name="a6">
+        <item>Se ha encontrado %s música duplicada en el almacenamiento interno</item>
+        <item>Descartar %s música duplicada para el almacenamiento extra</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Se han encontrado %s fotos duplicadas para limpiar</item>
+        <item>Recuerde limpiar %s fotos duplicadas para liberar espacio</item>
+    </string-array>
+    <string-array name="a8">
+        <item>Se han detectado %s fotos duplicadas en el móvil</item>
+        <item>Borrar %s fotos duplicados para liberar espacio</item>
+    </string-array>
+    <string-array name="a9">
+        <item>Se han encontrado %s vídeos duplicados para limpiar</item>
+        <item>Recuerde limpiar %s vídeos duplicados para liberar espacio</item>
+    </string-array>
+    <string-array name="a_">
+        <item>%s vídeos duplicados están ralentizando el sistema</item>
+        <item>Eliminar %s videos duplicados para liberar espacio</item>
+    </string-array>
+    <string-array name="aa">
+        <item>%s archivos basura están ralentizando el sistema</item>
+        <item>%s archivos basura detectados</item>
+    </string-array>
+    <string-array name="ab">
+        <item>%s archivos basura están ralentizando el sistema</item>
+        <item>%s archivos basura detectados</item>
+    </string-array>
+    <string-array name="ac">
+        <item>Ya hace %s días desde que limpió los archivos basura</item>
+        <item>Los archivos basura del móvil llevan sin limpiarse más de %s días</item>
+    </string-array>
+    <string-array name="ad">
+        <item>Han sido %s días sin limpiar la basura del móvil</item>
+        <item>%s archivos grandes para limpiar</item>
+    </string-array>
+    <string-array name="ae">
+        <item>%s canciones compartidas por amigos aún no se han reproducido</item>
+        <item>%s canciones nuevas compartidas por amigos aún no se han reproducido.</item>
+        <item>¿Aún recuerda %s canciones que ha recibido?</item>
+    </string-array>
+    <string-array name="af">
+        <item>No ha escuchado %s canciones compartidas por tus amigos</item>
+        <item>%s canciones nuevas que recibió y que aún no ha escuchado</item>
+        <item>¿Aún recuerda %s canciones que ha recibido?</item>
+    </string-array>
+    <string-array name="ag">
+        <item>Encontrado contenido no deseado residual de aplicaciones desinstaladas</item>
+    </string-array>
+    <string-array name="ah">
+        <item>Encontrado contenido no deseado residual de aplicaciones desinstaladas</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Se han encontrado %s archivos de captura de pantalla para limpiar</item>
+        <item>Recuerde limpiar %s archivos de captura de pantalla</item>
+    </string-array>
+    <string-array name="aj">
+        <item>Se han detectado un total de %s capturas de pantalla</item>
+        <item>Limpiar %s capturas de pantalla en el almacenamiento</item>
+    </string-array>
+    <string-array name="ak">
+        <item>Detectadas %s aplicaciones sin usar</item>
+    </string-array>
+    <string-array name="al">
+        <item>Este vídeo lo grabó alguien con un teléfono o una cámara</item>
+        <item>Esto es un vídeo público</item>
+        <item>Otros motivos</item>
+    </string-array>
+    <string-array name="am">
+        <item>¿Cuál es su número de la suerte?</item>
+        <item>¿Cuál es su sueño?</item>
+        <item>¿A dónde le gustaría ir?</item>
+        <item>¿Cuál es su película favorita?</item>
+        <item>¿Qué destreza le gustaría tener?</item>
+        <item>¿Cómo se llama su mejor amigo?</item>
+        <item>¿Cuál es su favorita?</item>
+    </string-array>
+    <string-array name="an">
+        <item>¿Cuál es su número de la suerte?</item>
+        <item>¿Cuál es su favorita?</item>
+        <item>¿Cómo se llama su mejor amigo?</item>
+        <item>¿Cuál es su película favorita?</item>
+        <item>¿Cuál es su sueño?</item>
+    </string-array>
+    <string-array name="ao">
+        <item>%s apps se pueden actualizar sin consumir datos</item>
+        <item>%s apps que ha recibido aún no se han actualizado</item>
+        <item>%s apps compartidas por amigos deben actualizarse</item>
+    </string-array>
+    <string-array name="ap">
+        <item>Hay actualizaciones disponibles para %s apps compartidas con usted</item>
+        <item>¡Actualice ahora! %s nuevas versiones de aplicaciones disponibles</item>
+        <item>Permanezca al tanto con la última versión de la aplicación.</item>
+        <item>¡Descubra las novedades! ¡Actualice hoy mismo!</item>
+    </string-array>
+    <string-array name="aq">
+        <item>Los archivos de audio grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="ar">
+        <item>Los archivos de audio grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="as">
+        <item>Los archivos de imágenes grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="at">
+        <item>Los archivos de imágenes grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="au">
+        <item>Los archivos grandes ocupan %s de espacio</item>
+        <item>Es el momento de limpiar los %s de archivos grandes almacenados</item>
+    </string-array>
+    <string-array name="av">
+        <item>Los archivos grandes ocupan %s de espacio</item>
+        <item>Es el momento de limpiar %s de archivos grandes ahora</item>
+    </string-array>
+    <string-array name="aw">
+        <item>Los archivos de vídeo grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="ax">
+        <item>Los archivos de vídeo grandes han usado %s de espacio</item>
+    </string-array>
+    <string-array name="ay">
+        <item>Estas aplicaciones están ralentizando el sistema; acelere su teléfono ahora</item>
+    </string-array>
+    <string-array name="az">
+        <item>Estas aplicaciones están ralentizando el sistema; acelere su teléfono ahora</item>
+    </string-array>
+    <string-array name="b0">
+        <item>%s aplicaciones están ralentizando el sistema; acelere su teléfono ahora</item>
+    </string-array>
+    <string-array name="b1">
+        <item>%s aplicaciones están causando fallos en el sistema; actualiza tu teléfono por favor</item>
+    </string-array>
+    <string-array name="b2">
+        <item>Haga clic para acelerar ahora la velocidad de carga</item>
+    </string-array>
+    <string-array name="b3">
+        <item>Acelerar la velocidad carga con un clic</item>
+    </string-array>
+    <string-array name="b4">
+        <item>%s aplicaciones están ralentizando la velocidad de carga</item>
+    </string-array>
+    <string-array name="b5">
+        <item>%s aplicaciones están ralentizando la velocidad de carga</item>
+    </string-array>
+    <string-array name="b6">
+        <item>Sin almacenamiento, conéctese al PC para liberar espacio</item>
+        <item>Sin almacenamiento, transfiera los archivos voluminosos al PC</item>
+    </string-array>
+    <string-array name="b7">
+        <item>Se ha encontrado %s música duplicada para limpiar</item>
+        <item>Limpiar %s música duplicada para liberar espacio</item>
+    </string-array>
+    <string-array name="b8">
+        <item>Se ha encontrado %s música duplicada en el almacenamiento interno</item>
+        <item>Descartar %s música duplicada para el almacenamiento extra</item>
+    </string-array>
+    <string-array name="b9">
+        <item>Se han encontrado %s fotos duplicadas para limpiar</item>
+        <item>Recuerde limpiar %s fotos duplicadas para liberar espacio</item>
+    </string-array>
+    <string-array name="b_">
+        <item>Se han detectado %s fotos duplicadas en el móvil</item>
+        <item>Borrar %s fotos duplicados para liberar espacio</item>
+    </string-array>
+    <string-array name="ba">
+        <item>Se han encontrado %s vídeos duplicados para limpiar</item>
+        <item>Recuerde limpiar %s vídeos duplicados para liberar espacio</item>
+    </string-array>
+    <string-array name="bb">
+        <item>%s vídeos duplicados están ralentizando el sistema</item>
+        <item>Eliminar %s videos duplicados para liberar espacio</item>
+    </string-array>
+    <string-array name="bc">
+        <item>︎Póngase los auriculares</item>
+        <item>Hora de escuchar música</item>
+    </string-array>
+    <string-array name="bd">
+        <item>%s archivos basura están ralentizando el sistema</item>
+        <item>%s archivos basura detectados</item>
+    </string-array>
+    <string-array name="be">
+        <item>%s archivos basura están ralentizando el sistema</item>
+        <item>%s archivos basura detectados</item>
+    </string-array>
+    <string-array name="bf">
+        <item>Ya hace %s días desde que limpió los archivos basura</item>
+        <item>Los archivos basura del móvil llevan sin limpiarse más de %s días</item>
+    </string-array>
+    <string-array name="bg">
+        <item>Han sido %s días sin limpiar la basura del móvil</item>
+        <item>%s archivos grandes para limpiar</item>
+    </string-array>
+    <string-array name="bh">
+        <item>%s canciones compartidas por amigos aún no se han reproducido</item>
+        <item>%s canciones nuevas compartidas por amigos aún no se han reproducido.</item>
+        <item>¿Aún recuerda %s canciones que ha recibido?</item>
+    </string-array>
+    <string-array name="bi">
+        <item>¿Se está perdiendo buenas canciones? ¡Es el momento de darle al Play y redescubrir su música preferida!</item>
+        <item>¿Nota el vacío? Suba el volumen y deje que la música llene de alegría su día.</item>
+        <item>¿Echa en falta la música que le conmueve? Explore su música preferida y deje que el ritmo le guíe en el día a día.</item>
+    </string-array>
+    <string-array name="bk">
+        <item>Escuche su lista de reproducción❤</item>
+        <item>Escuche su lista de reproducción</item>
+    </string-array>
+    <string-array name="bl">
+        <item>Aplicaciones detectadas que consumen la batería</item>
+    </string-array>
+    <string-array name="bm">
+        <item>%s aplicaciones están consumiendo batería en segundo plano</item>
+    </string-array>
+    <string-array name="bn">
+        <item>Se ejecutan %s aplicaciones que agotan la batería</item>
+    </string-array>
+    <string-array name="bo">
+        <item>Detectados archivos residuales de la aplicación recién eliminada</item>
+        <item>Eliminar archivos residuales de la aplicación recién eliminada</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Se han encontrado %s archivos de captura de pantalla para limpiar</item>
+        <item>Recuerde limpiar %s archivos de captura de pantalla</item>
+    </string-array>
+    <string-array name="br">
+        <item>Se han detectado un total de %s capturas de pantalla</item>
+        <item>Limpiar %s capturas de pantalla en el almacenamiento</item>
+    </string-array>
+    <string-array name="bs">
+        <item>%s nuevos recuerdos para compartir con amigos y seres queridos</item>
+        <item>Comparta %s nuevas fotos sin perder calidad</item>
+    </string-array>
+    <string-array name="bt">
+        <item>Haga clic para reproducir</item>
+        <item>Hora de escuchar música</item>
+    </string-array>
+    <string-array name="bx">
+        <item>Detectadas %s aplicaciones sin usar</item>
+    </string-array>
+    <string-array name="bz">
+        <item>Detectado %1$s con %2$s amenazas para la seguridad</item>
+        <item>%1$s aplicaciones detectadas con %2$s amenazas para la seguridad</item>
+    </string-array>
+    <string-array name="c2">
+        <item>Estas aplicaciones están consumiendo batería en segundo plano</item>
+    </string-array>
+    <string-array name="c3">
+        <item>Aparece con demasiada frecuencia</item>
+        <item>Momento inadecuado</item>
+        <item>Baja calidad</item>
+        <item>Anuncios molestos</item>
+        <item>No me interesa</item>
+    </string-array>
+    <string-array name="c4">
+        <item>Hardware</item>
+        <item>Software</item>
+    </string-array>
+    <string-array name="c5">
+        <item>Reproducción automática</item>
+        <item>Bucle</item>
+    </string-array>
+    <string-array name="c6">
+        <item>Archivos eliminados por error</item>
+        <item>No funciona</item>
+        <item>No es totalmente funcional</item>
+        <item>Demasiados anuncios</item>
+    </string-array>
+    <string-array name="c8">
+        <item>No se puede conectar a iOS o PC</item>
+        <item>Contenido de vídeo inapropiado</item>
+        <item>Los vídeos se ralentizan o se retrasan</item>
+        <item>Baja calidad de imagen</item>
+        <item>Carga lenta de los vídeos</item>
+        <item>Me molestan los anuncios</item>
+    </string-array>
+    <string-array name="c9">
+        <item>No funciona</item>
+        <item>No es totalmente funcional</item>
+        <item>Demasiadas notificaciones falsas</item>
+        <item>Demasiados anuncios</item>
+    </string-array>
+    <string-array name="c_">
+        <item>Múltiples reintentos para iniciar el punto de acceso Wi-Fi</item>
+        <item>Mucho tiempo para iniciar el punto de acceso Wi-Fi</item>
+        <item>El progreso de la transferencia se cuelga</item>
+        <item>Muchos intentos para conectar</item>
+    </string-array>
+    <string-array name="ca">
+        <item>Varios reintentos para buscar receptor</item>
+        <item>Dificultad a la hora de seleccionar los archivos</item>
+        <item>Múltiples reintentos para conectar</item>
+        <item>Se desconecta durante la transferencia</item>
+    </string-array>
+    <string-array name="cb">
+        <item>Velocidad de transferencia lenta</item>
+        <item>No funciona</item>
+        <item>Archivos eliminados por error</item>
+        <item>Demasiados anuncios</item>
+    </string-array>
+    <string-array name="cc">
+        <item>El teléfono sigue lento</item>
+        <item>No funciona</item>
+        <item>No es totalmente funcional</item>
+        <item>Demasiados anuncios</item>
+    </string-array>
+    <string-array name="cd">
+        <item>Velocidad de transferencia lenta</item>
+        <item>El proceso de transferencia es demasiado complejo</item>
+        <item>No se puede conectar con iOS o PC</item>
+        <item>Demasiados anuncios</item>
+    </string-array>
+    <string-array name="cf">
+        <item>Interfaz en mal estado</item>
+        <item>Función insatisfactoria</item>
+        <item>Persistencia molesta</item>
+    </string-array>
+    <string-array name="cg">
+        <item>Contenido molesto</item>
+        <item>Pornografía</item>
+        <item>Contenido violento</item>
+        <item>Contenido dañino y peligroso</item>
+        <item>El título o la portada no se corresponden con el contenido</item>
+    </string-array>
+    <string-array name="ch">
+        <item>Contenido no deseado o engañoso</item>
+        <item>Invade mis derechos</item>
+        <item>Deseo la letra</item>
+        <item>Deseo compartir</item>
+        <item>Deseo más canciones de este artista</item>
+    </string-array>
+    <string-array name="ci">
+        <item>Tiempo añadido</item>
+        <item>Duración de la reproducción</item>
+        <item>Título</item>
+    </string-array>
+    <string-array name="cj">
+        <item>Después de iniciar, se mostrarán los archivos y carpetas ocultos</item>
+        <item>De forma predeterminada, los archivos incluidos en la carpeta .nomedia no se analizarán</item>
+    </string-array>
+    <string-array name="ck">
+        <item>Mostrar archivos y carpetas ocultos</item>
+        <item>Analizar carpeta .nomedia</item>
+    </string-array>
+    <string-array name="cl">
+        <item>Descodificador de software</item>
+        <item>Descodificador de hardware</item>
+    </string-array>
+    <string-array name="cn">
+        <item>El mejor ajuste</item>
+        <item>Rellenar</item>
+        <item>1 : 1</item>
+        <item>4 : 3</item>
+        <item>16 : 9</item>
+    </string-array>
+    <string-array name="u">
+        <item>Cruza las estrellas y la luna para encontrarte mejor contigo mismo.</item>
+        <item>El tiempo se enfría de repente, así que es hora de cambiar la historia.</item>
+        <item>Sueña lo que quieras soñar, sé quien quieras ser.</item>
+        <item>Nacemos rotos y nos reparamos viviendo.</item>
+        <item>El vino sabrá mejor después de que el tiempo haya sido testigo.</item>
+        <item>A veces siempre, a veces nunca.</item>
+        <item>Siempre he estado trabajando duro para vivir.</item>
+        <item>Tal vez sea el momento de dejarnos ser tolerantes.</item>
+        <item>Hasta el día más largo tiene un final.</item>
+        <item>La vida es demasiado corta para rencores pasados.</item>
+    </string-array>
+    <string-array name="bj">
+        <item>Revise sus momentos en %s</item>
+    </string-array>
+    <string-array name="p">
+        <item>¿Cómo ganar más dinero?</item>
+        <item>Enséñame a preparar un plato.</item>
+        <item>Busca un nombre de bebé.</item>
+    </string-array>
+    <string-array name="bp">
+        <item>Elimine archivos residuales de aplicaciones desinstaladas para mantener su dispositivo organizado.</item>
+        <item>Elimine los archivos residuales de aplicaciones desinstaladas para aumentar la eficiencia.</item>
+        <item>Elimine archivos residuales de aplicaciones desinstaladas para eliminar la desorganización de su dispositivo.</item>
+        <item>Cuando se desinstalan aplicaciones se podrían dejar archivos sin usar. ¡Elimínelos ahora!</item>
+    </string-array>
+    <string-array name="bu">
+        <item>El silencio no es oro. ¡Reproduzca música!</item>
+        <item>Desate el amante de la música que tiene dentro. ¡Pulse Reproducir ahora!</item>
+        <item>Desempolve los auriculares. ¡Ha llegado el momento de la música!</item>
+    </string-array>
+    <string-array name="by">
+        <item>¿Se le acumulan aplicaciones que no usa? ¡Ha llegado el momento de hacer limpieza!</item>
+        <item>¿Le ocupan espacio las aplicaciones que no usa? ¿Ha llegado el momento de la limpieza?</item>
+        <item>¡Libere espacio! Considere limpiar las aplicaciones que no use.</item>
+    </string-array>
+    <string-array name="c0">
+        <item>💗Tenga cuidado de no perderse el Estado de su amigo; ¡guárdelo ahora!</item>
+    </string-array>
+    <string-array name="c1">
+        <item>¡Encontrado nuevo estado!</item>
+    </string-array>
+</resources>

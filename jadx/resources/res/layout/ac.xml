@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/fx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@+id/fk" android:background="@color/ah" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" app:rect_radio="0.5236">
+        <com.san.ads.MediaView android:id="@+id/ax" android:background="@color/cy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.ushareit.ads.ui.widget.RectFrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fk" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginTop="@dimen/fi" android:layout_marginRight="@dimen/c6">
+            <com.san.ads.MediaView android:id="@+id/bz" android:background="@drawable/a1" android:layout_width="@dimen/e4" android:layout_height="@dimen/e4" android:layout_marginRight="@dimen/fi" android:layout_centerVertical="true"/>
+            <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="9" android:singleLine="true" android:layout_toRightOf="@+id/bz" android:layout_centerVertical="true"/>
+            <com.san.ads.TextProgressView android:gravity="center" android:id="@+id/a3" android:background="@drawable/x" android:paddingLeft="@dimen/b7" android:paddingRight="@dimen/b7" android:layout_width="@dimen/gg" android:layout_height="@dimen/df" android:minWidth="@dimen/fy" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:textSize="12sp" app:text_default_color="@color/e2"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="start|center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginTop="@dimen/b7">
+            <ImageView android:id="@+id/ce" android:layout_width="@dimen/cx" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eq" android:src="@drawable/a0" android:scaleType="fitXY"/>
+            <TextView android:textSize="@dimen/hp" android:textColor="@color/e2" android:ellipsize="end" android:gravity="top" android:id="@+id/dz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/eq" android:maxLines="1" android:layout_toRightOf="@+id/ce"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/bqv" android:paddingTop="@dimen/bqv" android:paddingRight="@dimen/bqv" android:paddingBottom="@dimen/bl2" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/brt" app:n5="@color/v4" app:n6="@dimen/bqv" app:n7="@dimen/bqv" app:na="false">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/bnl" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/blv" android:layout_marginTop="@dimen/blv" android:layout_marginBottom="@dimen/blv" android:scaleType="fitCenter" app:a0o="csi" app:a0t="W,0.56" app:a0v="@id/dpx" app:a1c="csi" app:a1g="csi" app:a1n="0.33" />
+            <ImageView android:id="@id/cvv" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:src="@drawable/drh" app:a0o="@id/bnl" app:a0u="@id/bnl" app:a1c="@id/bnl" app:a1g="@id/bnl" />
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/bj1" android:ellipsize="end" android:id="@id/dpx" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/boe" android:maxLines="2" app:a0u="csi" app:a1b="@id/bnl" app:a1g="@id/bnl" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" app:a0o="@id/bnl" app:a0u="csi" app:a1b="@id/bnl" app:a1f="@id/dpx">
+                <TextView android:textSize="@dimen/bsu" android:textColor="#ccffffff" android:ellipsize="end" android:id="@id/bpg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/v4" android:id="@id/cvm" android:background="@drawable/amk" android:paddingLeft="20.0dip" android:paddingTop="3.0dip" android:paddingRight="20.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/asd" />
+            </LinearLayout>
+            <ImageView android:id="@id/b73" android:padding="@dimen/brt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_in_app_pop_close" app:a0u="csi" app:a1g="csi" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

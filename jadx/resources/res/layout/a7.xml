@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/fx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/fl" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@+id/fk" android:background="@color/ah" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" app:rect_radio="0.5236">
+            <FrameLayout android:id="@+id/ax" android:background="@color/cy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/az" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.ushareit.ads.ui.widget.RectFrameLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/u" android:layout_width="match_parent" android:layout_height="301dp" android:layout_alignParentBottom="true"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ushareit.minivideo.widget.DetailHonorCardViewNew android:layout_gravity="bottom" android:id="@+id/fu" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c6" android:layout_marginRight="@dimen/c6" android:layout_marginBottom="@dimen/cq" app:messageDrawable="@drawable/p" app:messageLeadingMargin="@dimen/db"/>
+            <RelativeLayout android:layout_gravity="bottom" android:id="@+id/eo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dw" android:layout_marginTop="@dimen/au" android:layout_marginRight="@dimen/dw" android:layout_marginBottom="@dimen/el">
+                <com.san.ads.TextProgressView android:textColor="@color/e2" android:gravity="center" android:id="@+id/a3" android:background="@drawable/x" android:layout_width="match_parent" android:layout_height="@dimen/eb" android:max="100" android:progress="100" android:singleLine="true" android:layout_alignParentRight="true" app:progress_drawable="@drawable/a3" app:progress_style="?android:attr/progressBarStyleHorizontal" app:textSize="@dimen/hp" app:text_margin_left="@dimen/b7" app:text_margin_right="@dimen/b7"/>
+            </RelativeLayout>
+            <include android:id="@+id/ft" layout="@layout/m"/>
+        </FrameLayout>
+        <ProgressBar android:id="@+id/e0" android:layout_width="match_parent" android:layout_height="@dimen/cr" android:layout_marginLeft="@dimen/c6" android:layout_marginRight="@dimen/c6" android:layout_marginBottom="@dimen/bh" android:max="100" android:progress="0" android:progressDrawable="@drawable/a2" style="@android:style/Widget.ProgressBar.Horizontal"/>
+        <ImageView android:layout_gravity="end|bottom" android:id="@+id/c" android:visibility="gone" android:layout_width="@dimen/d8" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l" android:layout_marginBottom="@dimen/fi" android:src="@drawable/p" android:scaleType="fitXY"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/d7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

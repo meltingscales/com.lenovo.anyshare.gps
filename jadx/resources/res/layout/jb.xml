@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@android:color/white" android:padding="2dp" android:layout_width="match_parent" android:layout_height="170dp" android:layout_margin="20dp">
+        <com.san.ads.MediaView android:id="@+id/a81" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </FrameLayout>
+    <FrameLayout android:background="@android:color/white" android:padding="2dp" android:layout_width="match_parent" android:layout_height="170dp" android:layout_margin="20dp" android:rotation="-2">
+        <com.san.ads.MediaView android:id="@+id/a82" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </FrameLayout>
+</FrameLayout>

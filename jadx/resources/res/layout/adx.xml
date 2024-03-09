@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/axg" android:background="@color/adh" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.filemanager.main.music.view.sort.DragSortListView android:id="@+id/axk" android:visibility="gone" dslv:collapsed_height="1px" dslv:drag_enabled="true" dslv:drag_handle_id="@+id/bh2" dslv:drag_scroll_start="0.33" dslv:drag_start_mode="0" dslv:float_alpha="0.6" dslv:float_background_color="@color/a5x" dslv:sort_enabled="true" style="@style/rc"/>
+    <include android:id="@+id/axl" layout="@layout/a9i"/>
+    <include android:id="@+id/axj" layout="@layout/a9e"/>
+</FrameLayout>

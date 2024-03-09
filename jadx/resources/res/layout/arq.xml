@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:paddingTop="@dimen/cy4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="start|top" android:id="@+id/bm9" android:background="@drawable/c_p" android:paddingLeft="@dimen/cy4" android:paddingTop="@dimen/cxs" android:paddingRight="@dimen/cy4" android:paddingBottom="@dimen/cya" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginRight="@dimen/cx6">
+        <include android:gravity="center_vertical" android:id="@+id/arc" android:layout_width="match_parent" android:layout_height="@dimen/d06" android:layout_marginLeft="@dimen/cwu" android:layout_marginRight="@dimen/cwu" layout="@layout/aro"/>
+        <ListView android:layout_gravity="center" android:id="@+id/bmb" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cwu" android:layout_marginTop="@dimen/d06" android:layout_marginRight="@dimen/cwu" android:layout_marginBottom="@dimen/cuu" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0dp"/>
+    </FrameLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@+id/bmh" android:background="@drawable/cf1" android:padding="@dimen/d2t" android:layout_width="@dimen/d2w" android:layout_height="@dimen/d2w"/>
+    <include android:id="@+id/bma" layout="@layout/arf"/>
+</FrameLayout>

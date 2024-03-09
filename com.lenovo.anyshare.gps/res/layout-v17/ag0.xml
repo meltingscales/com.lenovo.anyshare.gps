@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/bl7" android:layout_marginLeft="@dimen/blk" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/blk" android:layout_marginBottom="@dimen/bl2" android:layout_marginStart="@dimen/blk" android:layout_marginEnd="@dimen/blk" app:a_7="@dimen/bl2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/c6x" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:background="@drawable/baf" android:layout_width="fill_parent" android:layout_height="@dimen/br2" app:a0o="csi" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/bj1" android:ellipsize="end" android:id="@id/e04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bp0" android:singleLine="true" android:layout_marginStart="@dimen/bl2" android:layout_marginEnd="@dimen/bl2" app:a0p="@id/dyo" app:a1c="@id/dyo" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:ellipsize="end" android:id="@id/dyo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bs3" android:maxLines="3" android:layout_marginStart="@dimen/bl2" app:a0o="csi" app:a1c="csi" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/bj1" android:gravity="center" android:id="@id/dwu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bs3" android:text="@string/c_a" android:includeFontPadding="false" android:drawableRight="@drawable/biw" android:drawablePadding="@dimen/bqf" android:drawableEnd="@drawable/biw" android:layout_marginEnd="@dimen/brt" app:a0o="csi" app:a0u="csi" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ushareit.widget.RoundFrameLayout>

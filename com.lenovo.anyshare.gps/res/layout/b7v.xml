@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/dls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dip" android:layout_marginRight="@dimen/diq" android:minHeight="@dimen/dj_">
+        <com.lenovo.anyshare.safebox.pwd.widget.SwitchButton android:id="@id/dlo" android:background="@drawable/def" android:layout_width="@dimen/bpo" android:layout_height="@dimen/bnj" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:aab="@drawable/dee" />
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/c5_" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginLeft="@dimen/br9" android:src="@drawable/dea" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:a75="@dimen/db2" />
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq4" android:layout_marginRight="@dimen/bo8" android:text="@string/csy" android:maxLines="1" android:layout_toLeftOf="@id/dlo" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/a1b" android:layout_width="fill_parent" android:layout_height="@dimen/bnd" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bnc" android:layout_marginRight="@dimen/bm3" android:layout_below="@id/dls" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dip" android:layout_marginTop="@dimen/dil" android:layout_marginRight="@dimen/dip" android:text="@string/cs7" android:layout_below="@id/dls" />
+</RelativeLayout>

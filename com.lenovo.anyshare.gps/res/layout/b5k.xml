@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/d6m" android:paddingTop="@dimen/df1" android:paddingBottom="@dimen/df1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/c5w" android:layout_width="@dimen/dgn" android:layout_height="@dimen/df1" android:src="@drawable/dsj" android:alpha="0.0" style="@style/ao9" />
+        <ImageView android:id="@id/c5v" android:layout_width="@dimen/dgn" android:layout_height="@dimen/df1" android:src="@drawable/dsj" android:alpha="0.0" style="@style/ao9" />
+        <ImageView android:id="@id/c5u" android:layout_width="@dimen/dgn" android:layout_height="@dimen/df1" android:src="@drawable/dsj" android:alpha="0.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dgx" android:textColor="@color/b36" android:gravity="center" android:id="@id/e07" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dew" android:layout_marginRight="@dimen/dew" android:maxWidth="@dimen/dfl" android:text="@string/cnc" />
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/c77" android:layout_width="@dimen/dgn" android:layout_height="@dimen/df1" android:src="@drawable/dsk" android:alpha="0.0" />
+        <ImageView android:id="@id/c78" android:layout_width="@dimen/dgn" android:layout_height="@dimen/df1" android:src="@drawable/dsk" android:alpha="0.0" style="@style/aoi" />
+        <ImageView android:id="@id/c79" android:layout_width="@dimen/dgn" android:layout_height="@dimen/df1" android:src="@drawable/dsk" android:alpha="0.0" style="@style/aoi" />
+    </LinearLayout>
+</LinearLayout>

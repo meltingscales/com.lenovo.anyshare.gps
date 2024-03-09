@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightFrameLayout android:layout_gravity="top" android:background="@color/bee" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.lenovo.anyshare.safebox.local.SafeBoxBannerThirdAdView android:id="@id/aoc" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/d2t" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dj6" android:layout_below="@id/aoc" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/co5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bra">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bp0" android:src="@drawable/dd0" android:layout_marginStart="@dimen/bm3" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsv" android:textColor="#ff3183f6" android:layout_gravity="bottom" android:id="@id/e07" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dj2" android:layout_marginRight="@dimen/dip" android:text="@string/csp" android:layout_marginStart="@dimen/dj2" android:layout_marginEnd="@dimen/dip" />
+    </FrameLayout>
+    <include layout="@layout/b7h" />
+</com.ushareit.theme.night.view.NightFrameLayout>

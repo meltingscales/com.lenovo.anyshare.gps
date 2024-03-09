@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <LinearLayout style="@style/ps">
+        <TextView android:textSize="@dimen/asx" android:textStyle="bold" android:textColor="@color/a4h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aon" android:layout_marginRight="@dimen/aon" android:text="@string/tw"/>
+        <TextView android:textSize="@dimen/ast" android:textColor="@color/iy" android:layout_gravity="center_horizontal" android:id="@+id/tv_content_res_0x71070285" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/aon" android:layout_marginRight="@dimen/aon"/>
+        <LinearLayout android:gravity="end|center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/apx" android:layout_marginTop="@dimen/apk" android:layout_marginBottom="@dimen/arr">
+            <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/jp" android:gravity="center" android:id="@+id/aa4" android:paddingLeft="@dimen/ap6" android:paddingRight="@dimen/ap6" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/arr" android:layout_marginRight="@dimen/arr" android:minWidth="@dimen/ark" android:text="@string/ah5" android:textAllCaps="true"/>
+            <TextView android:textSize="@dimen/asr" android:textStyle="bold" android:textColor="@color/jp" android:gravity="center" android:id="@+id/ac1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/arr" android:layout_marginRight="@dimen/arr" android:minWidth="@dimen/ark" android:text="@string/wj" android:textAllCaps="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

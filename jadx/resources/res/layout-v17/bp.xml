@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@+id/dt" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.ushareit.video.widget.ProviderLogoView android:layout_gravity="top|left" android:id="@+id/ff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/f5" app:dh="@dimen/c6" app:dw="@dimen/c6" style="@style/bf"/>
+    <View android:layout_gravity="bottom" android:id="@+id/ie" android:background="@drawable/f7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/e4"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/ih" android:padding="@dimen/f5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/eo" android:layout_marginEnd="@dimen/eo">
+        <ImageView android:id="@+id/if" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6"/>
+        <TextView android:textSize="@dimen/hm" android:textColor="@color/e2" android:ellipsize="end" android:id="@+id/ig" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f5" android:layout_marginTop="@dimen/cr" android:maxLines="1"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/hm" android:textColor="@color/e2" android:gravity="center_vertical" android:layout_gravity="end|bottom" android:id="@+id/i6" android:background="@drawable/dl" android:paddingLeft="@dimen/f5" android:paddingRight="@dimen/f5" android:paddingBottom="@dimen/aj" android:layout_width="wrap_content" android:layout_height="@dimen/bz" android:layout_margin="@dimen/f5"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ev" android:background="@color/am" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/ew" android:layout_width="@dimen/c6" android:layout_height="@dimen/c6"/>
+        <TextView android:textSize="@dimen/ho" android:textColor="@color/e2" android:layout_gravity="center_vertical" android:id="@+id/f1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/f5" android:layout_marginStart="@dimen/f5"/>
+    </LinearLayout>
+</merge>

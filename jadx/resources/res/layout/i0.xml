@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/a3u" android:id="@+id/ur" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/a_d" android:background="?attr/pz" android:layout_width="match_parent" android:layout_height="?attr/ic" app:popupTheme="@style/a3z"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@+id/vy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

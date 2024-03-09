@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/dkf" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bo8" android:layout_below="@id/djg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/dk9" android:background="@drawable/dmj" android:layout_width="fill_parent" android:layout_height="@dimen/bqd">
+            <ImageView android:id="@id/dka" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:src="@drawable/dmt" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_toRightOf="@id/dka" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm" android:layout_toEndOf="@id/dka">
+                <TextView android:id="@id/dk8" android:text="@string/dhb" style="@style/wg" />
+                <TextView android:id="@id/dk_" android:layout_below="@id/dk8" style="@style/wi" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView android:id="@id/dk6" android:text="@string/dh9" style="@style/apb" />
+            <TextView android:id="@id/dk5" android:layout_toLeftOf="@id/dk6" android:layout_toStartOf="@id/dk6" style="@style/apa" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/dl8" android:background="@drawable/dmj" android:layout_width="fill_parent" android:layout_height="@dimen/bqd" android:layout_marginTop="@dimen/bnj">
+            <ImageView android:id="@id/dkb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:src="@drawable/dmu" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_toRightOf="@id/dkb" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bmm" android:layout_toEndOf="@id/dkb">
+                <TextView android:id="@id/dl7" android:text="@string/dhb" style="@style/wg" />
+                <TextView android:id="@id/dl9" android:layout_below="@id/dl7" style="@style/wi" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <TextView android:id="@id/dl5" android:text="@string/di_" style="@style/apb" />
+            <TextView android:id="@id/dl4" android:layout_marginRight="11.0dip" android:layout_toLeftOf="@id/dl5" android:layout_marginEnd="11.0dip" android:layout_toStartOf="@id/dl5" style="@style/apa" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nw">WebView login requires Internet permission</string>
+    <string name="nx">AndroidManifest error</string>
+    <string name="o4">Log In With Facebook</string>
+    <string name="of">You\'re in control – choose what information you want to share with apps.</string>
+    <string name="a97">Body</string>
+    <string name="a98">Headline</string>
+    <string name="a99">Media view</string>
+    <string name="a9_">Allow</string>
+    <string name="a9a">Don\'t allow</string>
+    <string name="a9b">Allow app to send you notifications?</string>
+    <string name="a9c">Tap to open ad</string>
+    <string name="a9d">View the ad you saved when you were offline</string>
+    <string name="a9e">OK</string>
+    <string name="a9f">You\'ll get a notification with the link when you\'re back online</string>
+    <string name="a9g">No, thanks</string>
+    <string name="a9h">We\'ll send you a notification with a link to the advertiser site.</string>
+    <string name="a9i">Open ad when you\'re back online.</string>
+    <string name="a9j">Save image</string>
+    <string name="a9k">Allow Ad to store image in Picture gallery?</string>
+    <string name="a9l">Accept</string>
+    <string name="a9m">Decline</string>
+    <string name="a9n">Create calendar event</string>
+    <string name="a9o">Allow Ad to create a calendar event?</string>
+    <string name="a9p">Test Ad</string>
+    <string name="a9q">AdMob –</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a97">Негізгі мәтіні</string>
+    <string name="a98">Тақырыбы</string>
+    <string name="a99">Медиа көрінісі</string>
+    <string name="a9_">Рұқсат беру</string>
+    <string name="a9a">Рұқсат бермеу</string>
+    <string name="a9b">Қолданбаның хабарландырулар жіберуіне рұқсат берілсін бе?</string>
+    <string name="a9c">Жарнаманы ашу үшін түртіңіз.</string>
+    <string name="a9d">Офлайн режимге өткенде, сақталған жарнамаңызды көріңіз</string>
+    <string name="a9e">Жарайды</string>
+    <string name="a9f">Онлайн режимге оралғанда, сілтемесі бар хабарландыру аласыз.</string>
+    <string name="a9g">Жоқ, рақмет</string>
+    <string name="a9h">Сізге жарнама беруші сайтына сілтемесі бар хабарландыру жібереміз.</string>
+    <string name="a9i">Онлайн режимге оралғанда, жарнаманы ашыңыз</string>
+    <string name="a9j">Кескінді сақтау</string>
+    <string name="a9k">Жарнамаға кескінді сурет галереясында сақтауға рұқсат берілсін бе?</string>
+    <string name="a9l">Қабылдау</string>
+    <string name="a9m">Қабылдамау</string>
+    <string name="a9n">Күнтізбе оқиғасын жасау</string>
+    <string name="a9o">Жарнамаға күнтізбе оқиғасын жасауға рұқсат берілсін бе?</string>
+    <string name="a9p">Сынақ жарнама</string>
+    <string name="a9q">AdMob –</string>
+</resources>

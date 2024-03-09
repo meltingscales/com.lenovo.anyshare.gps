@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d6v" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+    <com.lenovo.anyshare.widget.slidinguppanel.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/dfx" android:layout_width="fill_parent" android:layout_height="fill_parent" sothree:am6="@id/cmq" sothree:am9="bvc" sothree:ama="@dimen/bs2" sothree:ame="0.0dip">
+        <FrameLayout android:id="@id/dlz" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.ytb.ui.MusicPlayerView android:id="@id/cmq" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.lenovo.anyshare.widget.slidinguppanel.SlidingUpPanelLayout>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/cxy" android:layout="@layout/b6h" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqz" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/cxz" android:layout="@layout/b6i" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br3" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/cy0" android:layout="@layout/b6k" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/cy1" android:layout="@layout/b6l" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/cq6" android:layout="@layout/b3e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqz" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/bw4" android:layout="@layout/y5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqe" />
+    <ViewStub android:id="@id/apf" android:layout="@layout/tj" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/ars" android:layout="@layout/y5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqe" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/arr" android:layout="@layout/b6e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqe" />
+    <com.ushareit.widget.tabhost.SITabHost android:layout_gravity="bottom" android:id="@id/dm1" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" skin:enable="true">
+        <View android:layout_gravity="top" android:id="@id/bfo" android:background="@color/bhj" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.ushareit.widget.tabhost.SITabWidget android:orientation="horizontal" android:id="@android:id/tabs" android:background="@color/bi0" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/bqe" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" />
+        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </com.ushareit.widget.tabhost.SITabHost>
+    <FrameLayout android:layout_gravity="top" android:id="@id/dr8" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/dcw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/bzj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/e33" android:background="#ffff0000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/dja" android:layout="@layout/aka" android:inflatedId="@id/be3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="top" android:id="@id/bpc" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="@dimen/bra" />
+    <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/bpe" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginBottom="100.0dip" />
+    <View android:id="@id/drw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

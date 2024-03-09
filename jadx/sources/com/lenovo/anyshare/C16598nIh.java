@@ -1,0 +1,96 @@
+package com.lenovo.anyshare;
+
+import android.content.Context;
+import android.content.Intent;
+import android.widget.RemoteViews;
+import androidx.core.app.NotificationCompat;
+import com.lenovo.anyshare.InterfaceC14160jIh;
+import com.lenovo.anyshare.gps.R;
+import com.ushareit.muslim.dailypush.DailyPushType;
+import com.ushareit.muslim.quran.QuranFragmentActivity;
+import com.vungle.warren.log.LogEntry;
+import java.util.Calendar;
+
+/* renamed from: com.lenovo.anyshare.nIh  reason: case insensitive filesystem */
+/* loaded from: classes8.dex */
+public final class C16598nIh implements InterfaceC14160jIh {
+
+    /* renamed from: a  reason: collision with root package name */
+    public final DailyPushType f24231a = DailyPushType.READ_QURAN;
+
+    private final boolean d() {
+        return C20562tii.d(getType());
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC14160jIh
+    public int a() {
+        return R.drawable.a04;
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC14160jIh
+    public NotificationCompat.Builder a(NotificationCompat.Builder builder) {
+        C11440emk.e(builder, "$this$appendBuild");
+        InterfaceC14160jIh.a.a(this, builder);
+        return builder;
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC14160jIh
+    public boolean b(Context context) {
+        C11440emk.e(context, LogEntry.LOG_ITEM_CONTEXT);
+        return InterfaceC14160jIh.a.a(this, context);
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC14160jIh
+    public boolean c(Context context) {
+        C11440emk.e(context, LogEntry.LOG_ITEM_CONTEXT);
+        return b() && c() && !d();
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC14160jIh
+    public DailyPushType getType() {
+        return this.f24231a;
+    }
+
+    private final boolean b() {
+        return C20562tii.a(getType());
+    }
+
+    private final boolean c() {
+        Calendar calendar = Calendar.getInstance();
+        int i = calendar.get(11);
+        int i2 = calendar.get(12);
+        if (i > 21 || (i == 21 && i2 >= 30)) {
+            C11440emk.d(calendar, "calendar");
+            calendar.setTimeInMillis(C20562tii.G());
+            return C7489Xhi.h(calendar);
+        }
+        return false;
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC14160jIh
+    public RemoteViews a(Context context) {
+        C11440emk.e(context, LogEntry.LOG_ITEM_CONTEXT);
+        RemoteViews remoteViews = new RemoteViews(context.getPackageName(), C22395wii.c());
+        if (b(context)) {
+            remoteViews.setTextColor(R.id.ado, context.getResources().getColor(R.color.l9));
+            remoteViews.setTextColor(R.id.tv_content_res_0x71070285, context.getResources().getColor(R.color.l9));
+        }
+        remoteViews.setImageViewResource(R.id.a0j, R.drawable.ql);
+        remoteViews.setTextViewText(R.id.ado, context.getString(R.string.zx));
+        String string = context.getString(R.string.zw);
+        remoteViews.setTextViewText(R.id.tv_content_res_0x71070285, string + "👳🏾\u200d♀️❤️📔️️️");
+        remoteViews.setTextViewText(R.id.aa2, context.getString(R.string.zv));
+        return remoteViews;
+    }
+
+    @Override // com.lenovo.anyshare.InterfaceC14160jIh
+    public Intent d(Context context) {
+        C11440emk.e(context, LogEntry.LOG_ITEM_CONTEXT);
+        Intent a2 = QuranFragmentActivity.a(context, "dailyPush");
+        a2.putExtra("portal", "dailyPush");
+        a2.putExtra("push_type", "dailyPush");
+        a2.putExtra(C11086eIh.b, DailyPushType.READ_QURAN.toString());
+        C11440emk.d(a2, "intent");
+        return a2;
+    }
+}

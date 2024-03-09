@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/brl" android:text="@string/c33" />
+    <include layout="@layout/aby" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/de5" android:background="@drawable/bd6" android:paddingLeft="@dimen/bow" android:paddingTop="@dimen/blk" android:paddingRight="@dimen/bnv" android:paddingBottom="@dimen/bm3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:minHeight="@dimen/brx">
+        <ImageView android:id="@id/des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bie" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center|left" android:id="@id/df8" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqd" android:layout_marginTop="@dimen/blv" android:maxLines="1" android:layout_toLeftOf="@id/asz" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:gravity="center|left" android:id="@id/dec" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqj" android:layout_marginTop="@dimen/bqv" android:singleLine="true" android:layout_toLeftOf="@id/asz" android:layout_below="@id/df8" />
+        <ImageView android:id="@id/asz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bhg" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

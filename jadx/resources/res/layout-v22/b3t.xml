@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d77" android:background="@color/tc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/cb8" android:background="@drawable/d51" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bs1" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:text="@string/c6j" android:maxLines="2" android:layout_marginHorizontal="@dimen/bo8"/>
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end" android:id="@+id/b73" android:padding="@dimen/bl2" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:layout_margin="@dimen/bl2" android:src="@drawable/d4z" app:night_color_tint="@color/w4"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/avy" android:paddingLeft="@dimen/bn4" android:paddingTop="@dimen/blk" android:paddingRight="@dimen/bn4" android:paddingBottom="@dimen/blk" android:layout_width="match_parent" android:layout_height="@dimen/bqq" android:layout_marginTop="@dimen/br9" android:paddingHorizontal="@dimen/bn4" android:paddingVertical="@dimen/blk">
+            <TextView android:textSize="@dimen/buk" android:textStyle="bold" android:textColor="@color/agg" android:gravity="center" android:id="@+id/e02" android:background="@drawable/awr" android:focusable="false" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/c6h" android:layout_weight="1" android:textAllCaps="true"/>
+            <TextView android:textSize="@dimen/buk" android:textStyle="bold" android:textColor="@color/agg" android:gravity="center" android:id="@+id/e03" android:background="@drawable/awr" android:focusable="false" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/c6i" android:layout_weight="1" android:textAllCaps="true"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/d7z" android:background="@color/bj1" android:clipToPadding="false" style="@style/qo"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/d80" android:background="@color/bj1" android:visibility="gone" android:clipToPadding="false" style="@style/qo"/>
+        </FrameLayout>
+        <View android:background="@color/a40" android:layout_width="match_parent" android:layout_height="0.5dp" android:minHeight="1px"/>
+        <TextView android:textSize="@dimen/bm3" android:textColor="@color/a7_" android:gravity="center" android:id="@+id/ayy" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bl2" android:text="@string/cik" android:layout_marginHorizontal="@dimen/bo8" android:layout_marginVertical="@dimen/bl2"/>
+    </LinearLayout>
+</RelativeLayout>

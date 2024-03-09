@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/sm" style="@style/q3">
+    <FrameLayout android:layout_width="@dimen/agh" android:layout_height="wrap_content" style="@style/ps">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/af5" android:paddingBottom="@dimen/ad3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/ta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ad3" android:text="Set SHAREit ID" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <EditText android:id="@+id/rn" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ad3" android:hint="Set SHAREit ID" android:lines="1" android:maxLength="16" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="@+id/ta" app:layout_constraintTop_toBottomOf="@+id/ta"/>
+            <TextView android:id="@+id/tc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ad3" android:layout_marginTop="@dimen/ad3" android:text="每180天允许修改一次，请谨慎操作" app:layout_constraintStart_toStartOf="@+id/rn" app:layout_constraintTop_toBottomOf="@+id/rn"/>
+            <TextView android:id="@+id/te" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/af5" android:text="OK" app:layout_constraintEnd_toEndOf="@+id/rn" app:layout_constraintTop_toBottomOf="@+id/tc"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/af5" android:text="Cancel" app:layout_constraintBaseline_toBaselineOf="@+id/te" app:layout_constraintRight_toLeftOf="@+id/te"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</FrameLayout>

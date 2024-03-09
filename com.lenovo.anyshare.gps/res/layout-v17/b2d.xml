@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bq9" android:background="@color/tj" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/bq4" android:background="@drawable/cul" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bq0" android:padding="@dimen/br9" android:layout_width="@dimen/bpy" android:layout_height="@dimen/bpy" android:src="@drawable/cuy" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/bpz" android:padding="@dimen/br9" android:layout_width="@dimen/bpy" android:layout_height="@dimen/bpy" android:src="@drawable/cus" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bpy" android:background="@drawable/cuk" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/bq3" android:padding="@dimen/br9" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:src="@drawable/cv4" />
+        <ImageView android:id="@id/bq2" android:padding="@dimen/br9" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:src="@drawable/cux" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/bq1" android:padding="@dimen/br9" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:src="@drawable/cv1" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="end|center|top" android:orientation="horizontal" android:id="@id/bq5" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <ImageView android:id="@id/bpx" android:padding="@dimen/brt" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bq7" android:src="@drawable/cut" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/bnj" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/bq7" android:padding="@dimen/br9" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:layout_marginBottom="@dimen/bru" android:src="@drawable/cux" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/bq6" android:padding="@dimen/br9" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:layout_marginLeft="@dimen/bnj" android:src="@drawable/cv1" android:layout_toRightOf="@id/bq7" android:layout_alignTop="@id/bq7" android:layout_marginStart="@dimen/bnj" android:layout_toEndOf="@id/bq7" />
+        <ImageView android:id="@id/bq8" android:padding="@dimen/br9" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7" android:layout_marginRight="@dimen/bnj" android:src="@drawable/cv4" android:layout_toLeftOf="@id/bq7" android:layout_alignTop="@id/bq7" android:layout_marginEnd="@dimen/bnj" android:layout_toStartOf="@id/bq7" />
+        <ImageView android:id="@id/bpw" android:padding="@dimen/brt" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" android:layout_marginRight="@dimen/bp7" android:layout_marginBottom="@dimen/bru" android:src="@drawable/cuz" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/bp7" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</merge>

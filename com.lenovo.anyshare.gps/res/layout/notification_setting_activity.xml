@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/b8q" android:background="@drawable/av9" android:layout_width="fill_parent" android:layout_height="@dimen/btl">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center" android:id="@id/return_view" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" android:src="@drawable/avk" app:a7_="@color/w4" style="@style/aj7" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/brx" android:text="@string/cfk" android:singleLine="true" android:drawablePadding="5.0dip" app:a7i="@color/tj" style="@style/alh" />
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center" android:id="@id/d_i" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" android:src="@drawable/d0y" android:scaleType="center" app:a7_="@color/w4" style="@style/ahp" />
+        <com.ushareit.theme.night.view.NightImageView android:gravity="center" android:layout_gravity="end|center" android:id="@id/cl3" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" android:src="@drawable/d2y" app:a7_="@color/w4" style="@style/ahx" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/as9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/b8q" />
+    <include layout="@layout/notification_lock_common_progress_view" />
+</RelativeLayout>

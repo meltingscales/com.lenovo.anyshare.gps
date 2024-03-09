@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/max_container" android:background="@color/bi0" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/bo9">
+    <include android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:layout_alignParentBottom="true" layout="@layout/b1h"/>
+    <FrameLayout android:id="@+id/max_media_view_container" android:background="@color/b0c" android:layout_width="match_parent" android:layout_height="@dimen/bnf" android:layout_above="@+id/dqf" app:layout_constraintDimensionRatio="W,16:9" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <ImageView android:id="@+id/do9" android:layout_width="@dimen/bnj" android:layout_height="@dimen/blk" android:layout_marginRight="@dimen/bl2" android:layout_marginBottom="@dimen/bl2" android:src="@drawable/agp" android:scaleType="fitXY" android:layout_alignBottom="@+id/max_media_view_container" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/br9" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

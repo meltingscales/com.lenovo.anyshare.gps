@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.downloader.widget.RoundFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/c0r">
+        <com.ushareit.ads.ui.view.LocalBannerAdView android:id="@+id/cit" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.ushareit.downloader.widget.RoundFrameLayout>
+    <FrameLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/dqf" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:layout_gravity="end|bottom" android:id="@+id/aom" android:visibility="gone" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" android:layout_margin="5dp" android:src="@drawable/b22"/>
+</FrameLayout>

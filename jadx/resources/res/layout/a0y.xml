@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.lenovo.anyshare.content.photo.PhotoButtons android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ctz" android:background="@drawable/avy" android:paddingLeft="@dimen/bn4" android:paddingTop="@dimen/blk" android:paddingRight="@dimen/bn4" android:paddingBottom="@dimen/blk" android:layout_width="match_parent" android:layout_height="@dimen/bqq">
+        <com.lenovo.anyshare.content.widget.RedDotTabView android:id="@+id/e2q" android:background="@drawable/awr" android:focusable="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" app:lable="@string/c7r"/>
+        <TextView android:textSize="@dimen/buk" android:textColor="@color/agg" android:gravity="center" android:id="@+id/cu0" android:background="@drawable/awr" android:focusable="false" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/bon" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/buk" android:textColor="@color/agg" android:gravity="center" android:id="@+id/cty" android:background="@drawable/awr" android:focusable="false" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/boj" android:layout_weight="1"/>
+    </com.lenovo.anyshare.content.photo.PhotoButtons>
+</FrameLayout>

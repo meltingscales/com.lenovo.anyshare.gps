@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornografie</item>
+        <item>Infracțiuni</item>
+        <item>Sensibil din punct de vedere politic</item>
+        <item>Marketing ilegal</item>
+        <item>Informații false</item>
+        <item>Încălcare</item>
+    </array>
+    <array name="c">
+        <item>Conținut incomod</item>
+        <item>Pornografie</item>
+        <item>Conținut violent</item>
+        <item>Conținut periculos sau dăunător</item>
+        <item>Titlul/coperta nu corespunde cu conținutul</item>
+    </array>
+</resources>

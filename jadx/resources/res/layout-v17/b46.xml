@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/d77" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/cbr" android:background="@color/bj1" android:paddingBottom="@dimen/bqm" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq9" android:layout_marginTop="@dimen/bku" android:layout_marginRight="@dimen/bq9" android:src="@drawable/c16" android:layout_marginStart="@dimen/bq9" android:layout_marginEnd="@dimen/bq9"/>
+    </LinearLayout>
+    <View android:gravity="center" android:layout_gravity="center" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/content" android:background="@drawable/am_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqx" android:layout_marginBottom="@dimen/bp7">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/br9" android:paddingBottom="@dimen/bs3" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bqx">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo3" android:layout_marginTop="@dimen/bn4" android:layout_marginRight="@dimen/bo3" android:layout_marginBottom="@dimen/bmf" android:src="@drawable/d5i" android:layout_marginStart="@dimen/bo3" android:layout_marginEnd="@dimen/bo3"/>
+            <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo3" android:layout_marginTop="@dimen/br9" android:layout_marginRight="@dimen/bq4" android:layout_marginBottom="@dimen/bmf" android:text="@string/c_l" android:layout_marginStart="@dimen/bo3" android:layout_marginEnd="@dimen/bq4"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpr" android:layout_marginRight="@dimen/bpr" android:layout_marginBottom="@dimen/blk" android:layout_marginStart="@dimen/bpr" android:layout_marginEnd="@dimen/bpr">
+                <TextView android:textColor="@color/a77" android:gravity="center" android:id="@+id/b0s" android:layout_width="wrap_content" android:layout_height="@dimen/bqj" android:text="@string/ah6" android:layout_weight="1"/>
+                <TextView android:textColor="@color/a76" android:gravity="center" android:id="@+id/aqa" android:layout_width="wrap_content" android:layout_height="@dimen/bqj" android:text="@string/adq" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

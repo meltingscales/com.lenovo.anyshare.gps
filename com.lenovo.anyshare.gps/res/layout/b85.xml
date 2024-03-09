@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/c8u" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsz" android:textColor="@color/bdw" android:gravity="center" android:id="@id/e07" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/djf" android:text="@string/ct0" android:layout_centerHorizontal="true" />
+    <com.lenovo.anyshare.safebox.pwd.widget.PinLockWidget android:layout_gravity="center_horizontal" android:id="@id/cv2" android:layout_width="@dimen/bp8" android:layout_height="@dimen/bp8" android:layout_marginTop="@dimen/bl2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:paddingTop="@dimen/bnj" android:paddingBottom="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textColor="@color/bea" android:gravity="center" android:id="@id/dyu" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/bru" android:minHeight="@dimen/bpv" android:text="@string/cok" android:layout_centerHorizontal="true" />
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsz" android:textColor="@color/bee" android:gravity="center" android:id="@id/az9" android:background="@drawable/dbr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:minHeight="@dimen/bpv" android:text="@string/as9" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bea" android:gravity="center" android:id="@id/e01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bpv" android:text="@string/col" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bmw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dj7" android:layout_marginBottom="@dimen/bnv">
+        <com.lenovo.anyshare.safebox.fingerprint.FingerprintView android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/bmy" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</merge>

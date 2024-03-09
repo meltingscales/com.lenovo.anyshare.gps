@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/jb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/a1y" android:layout_width="match_parent" android:layout_height="@dimen/ani" android:layout_alignParentTop="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/amw">
+        <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp" android:fillViewport="true">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-20dp">
+                <FrameLayout android:id="@+id/x1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                    <com.ushareit.muslim.prayerrecorder.widget.RecorderCalendarView android:id="@+id/vk" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <com.ushareit.muslim.prayerrecorder.widget.RecorderSimpleCalendarView android:id="@+id/a8l" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </FrameLayout>
+                <RelativeLayout android:id="@+id/a74" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/x1">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/a7w" android:background="@drawable/u6" android:paddingTop="@dimen/amy" android:paddingBottom="@dimen/amy" android:focusableInTouchMode="false" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj"/>
+                </RelativeLayout>
+                <RelativeLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/and" android:layout_below="@+id/a74">
+                    <View android:id="@+id/ae6" android:background="@drawable/a29" android:layout_width="@dimen/apk" android:layout_height="@dimen/aqw" android:layout_marginLeft="@dimen/aqh" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                    <View android:id="@+id/aed" android:background="@drawable/a2_" android:layout_width="@dimen/apk" android:layout_height="@dimen/aqw" android:layout_marginRight="@dimen/aqh" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="@dimen/asn" android:textColor="@color/j9" android:gravity="center" android:paddingLeft="@dimen/am3" android:paddingRight="@dimen/am3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/aed" android:layout_toRightOf="@+id/ae6"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/a22" layout="@layout/ni"/>
+            <include android:id="@+id/a2h" layout="@layout/nq"/>
+        </FrameLayout>
+    </FrameLayout>
+    <com.ushareit.muslim.prayerrecorder.widget.RecorderTitleView android:id="@+id/aep" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.ushareit.muslim.prayerrecorder.widget.RecordeDayView android:id="@+id/aek" android:background="@color/l8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ar7" android:layout_below="@+id/aep"/>
+</RelativeLayout>

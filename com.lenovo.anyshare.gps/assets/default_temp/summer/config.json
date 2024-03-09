@@ -1,0 +1,109 @@
+{
+  "version" : "0.2.1",
+  "name" : "Summer",
+  "audio" : "Summer.mp3",
+  "width" : 720,
+  "height" : 1280,
+  "fps" : 25.0,
+  "numberOfFrames" : 600,
+  "numberOfPhotos" : 12,
+  "numberOfParts" : 12,
+  "parts" : [
+       {
+          "frames" : 50,"from" : 0,"to" : 49,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [0], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerANormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 50,"to" : 99,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [1], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerBNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 100,"to" : 149,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [2], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerCNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 150,"to" : 199,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [3], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerDNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 200,"to" : 249,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [4], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerENormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 250,"to" : 299,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [5], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerFNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 300,"to" : 349,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [6], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerGNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 350,"to" : 399,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [7], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerHNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 400,"to" : 449,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [8], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerINormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 450,"to" : 499,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [9], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerJNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 500,"to" : 549,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [10], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerKNormalB"}
+          ]
+       },
+       {
+          "frames" : 50,"from" : 550,"to" : 599,
+          "layers" : [
+              {"layerIndex" : 0, "photoIndex" : [11], "dynamicEffect" : "ZoomBlur"},
+              {"layerIndex" : 1, "designedPhoto" : "summer.png", "blendMode" : "NormalB"},
+              {"layerIndex" : 2, "designedPhoto" : "ship.png", "blendMode" : "SummerLNormalB"}
+          ]
+       }
+   ]
+}

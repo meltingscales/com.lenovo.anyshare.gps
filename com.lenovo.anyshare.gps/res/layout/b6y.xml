@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3s" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/btl" android:layout_marginTop="@dimen/btl">
+        <Button android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/aj7" />
+        <TextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="start|center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="5.0dip" style="@style/alh" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dhn" android:layout_marginRight="@dimen/dhn">
+        <TextView android:textSize="@dimen/dhr" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cve" />
+        <TextView android:textSize="@dimen/dhr" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/bck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cx2" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/beo" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/bl2" android:layout_weight="1.0" />
+    <TextView android:id="@id/cyb" android:layout_marginBottom="@dimen/dk0" android:text="@string/cv7" style="@style/vz" />
+</LinearLayout>

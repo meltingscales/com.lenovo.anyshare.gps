@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/blk" android:paddingRight="@dimen/blk" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/doh" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bq4" android:scaleType="centerCrop"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_weight="1" android:layout_marginStart="@dimen/blk">
+        <TextView android:textAppearance="@style/sf" android:ellipsize="end" android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br9" android:singleLine="true"/>
+        <LinearLayout android:gravity="start|center_vertical" android:layout_gravity="start|center_vertical" android:orientation="horizontal" android:id="@+id/as2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/byu" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginRight="@dimen/bqf" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/bqf"/>
+            <ImageView android:id="@+id/byv" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/byw" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/byx" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/byy" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/byz" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/bz0" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/bz1" android:layout_width="@dimen/bmw" android:layout_height="@dimen/bmw" android:layout_marginLeft="@dimen/bqf" android:adjustViewBounds="true" android:layout_marginStart="@dimen/bqf"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

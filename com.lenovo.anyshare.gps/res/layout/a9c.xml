@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/cnh" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/bc3" android:layout_width="fill_parent" android:layout_height="@dimen/bnj" />
+    <com.ushareit.filemanager.main.media.widget.BottomPinFileCenterBanner android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/baq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_marginRight="@dimen/bqv" android:layout_marginBottom="@dimen/bqv" />
+</LinearLayout>

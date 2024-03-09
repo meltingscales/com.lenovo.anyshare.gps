@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/b1z" style="@style/po"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/b26" style="@style/pp" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/b2a" android:text="@string/ats" style="@style/pn" />
+</LinearLayout>

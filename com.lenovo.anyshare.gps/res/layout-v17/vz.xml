@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/bi0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/d77" style="@style/h9">
+        <ImageView android:layout_gravity="end" android:id="@id/ap3" android:background="@drawable/aim" android:layout_width="@dimen/bib" android:layout_height="@dimen/bib" />
+        <View android:layout_gravity="end" android:background="@color/sr" android:layout_width="@dimen/bia" android:layout_height="@dimen/bi9" style="@style/ag9" />
+        <FrameLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/apq" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/apb" android:visibility="gone" android:layout_width="@dimen/bnv" android:layout_height="@dimen/bm3" android:layout_marginRight="@dimen/brt" android:layout_marginBottom="@dimen/brt" android:src="@drawable/agp" android:layout_marginEnd="@dimen/brt" />
+                <TextView android:textSize="@dimen/bst" android:textColor="@color/bj1" android:id="@id/apd" android:background="#6a000000" android:paddingLeft="@dimen/bqf" android:paddingTop="@dimen/bp0" android:paddingRight="@dimen/bqf" android:paddingBottom="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/bqf" android:paddingEnd="@dimen/bqf" />
+                <ViewStub android:layout_gravity="end" android:id="@id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj" />
+                <include android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="@dimen/bz5" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="@dimen/bl2" android:layout_marginStart="@dimen/brt" layout="@layout/wf" />
+            </com.ushareit.ads.ui.widget.RoundFrameLayout>
+        </FrameLayout>
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/bu3" android:layout="@layout/w0" android:layout_width="wrap_content" android:layout_height="@dimen/br3" android:layout_marginTop="@dimen/bnv" />
+    </LinearLayout>
+</FrameLayout>

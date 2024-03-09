@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/z7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bda" android:background="#eeeeee" android:padding="@dimen/blv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c7w">
+            <TextView android:textSize="@dimen/c7x" android:textColor="#444444" android:gravity="start|center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/be7" android:layout_weight="1" style="@style/aix"/>
+            <include android:id="@+id/b73" layout="@layout/bfs"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="#f6f8fa" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/c7x" android:textColor="#444444" android:gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bfg" style="@style/aix"/>
+            <TextView android:textSize="@dimen/c7x" android:textColor="@color/a6q" android:gravity="start|center_vertical" android:id="@+id/bve" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/aix"/>
+            <ImageView android:id="@+id/dat" android:background="#e1e1e1" android:padding="@dimen/c7w" android:layout_width="@dimen/c7v" android:layout_height="@dimen/c7u" android:src="@drawable/ask"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@+id/bv5" android:paddingTop="@dimen/br9" android:paddingBottom="@dimen/bl2" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_weight="1" android:layout_marginHorizontal="@dimen/bqf" style="@style/rc"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/a01"/>
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:id="@+id/cku" android:background="@drawable/aro" android:layout_width="match_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bl2" android:text="@string/beq" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

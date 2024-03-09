@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.muslim.audio.PlayerFloatContainerView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="start|center_vertical" android:id="@+id/a2z" android:background="@drawable/pg" android:layout_width="@dimen/amp" android:layout_height="@dimen/aq6" android:weightSum="3">
+    <FrameLayout android:layout_width="@dimen/aq6" android:layout_height="@dimen/aq6">
+        <com.ushareit.muslim.audio.RoundProgressView android:id="@+id/a7k" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/a0j" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/aq3" android:src="@drawable/rd"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/a14" android:padding="@dimen/arr" android:layout_width="wrap_content" android:layout_height="@dimen/ap4" android:src="@drawable/uw"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:layout_gravity="center" android:id="@+id/a11" android:padding="@dimen/arr" android:layout_width="wrap_content" android:layout_height="@dimen/ap4" android:src="@drawable/uu"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/a12" android:padding="@dimen/arr" android:layout_width="wrap_content" android:layout_height="@dimen/aow" android:src="@drawable/r9"/>
+    </FrameLayout>
+</com.ushareit.muslim.audio.PlayerFloatContainerView>

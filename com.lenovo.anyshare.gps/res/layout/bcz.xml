@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d77" android:background="@color/tc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/b9q" android:background="@drawable/axs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqx">
+        <FrameLayout android:paddingTop="@dimen/br9" android:paddingBottom="@dimen/bs3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bqx">
+            <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end" android:id="@id/b73" android:padding="@dimen/bqf" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/br9" android:src="@drawable/dib" app:a7_="@color/w4" />
+            <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/w4" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo3" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bq4" android:layout_marginBottom="@dimen/bmf" android:text="@string/ddb" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/bj1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/ctt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/blc" />
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/a3s" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/az9" android:background="@drawable/arp" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_margin="@dimen/bnj" android:layout_marginBottom="@dimen/bnj" android:text="@string/as9" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:id="@id/dp6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqj">
+                <include layout="@layout/bcv" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

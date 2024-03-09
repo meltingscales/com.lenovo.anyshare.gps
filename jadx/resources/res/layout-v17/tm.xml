@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/b9k" android:background="@color/rz" android:layout_width="match_parent" android:layout_height="@dimen/bh9" android:minHeight="@dimen/bh9">
+    <com.san.ads.MediaView android:id="@+id/bx9" android:layout_width="@dimen/bha" android:layout_height="@dimen/bha" android:layout_centerVertical="true" style="@style/ag7">
+        <ImageView android:id="@+id/icon" android:background="@drawable/ai_" android:padding="@dimen/bnd" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/sp"/>
+        <ImageView android:layout_gravity="end|bottom" android:id="@+id/aom" android:visibility="gone" android:layout_width="@dimen/bm3" android:layout_height="@dimen/bs3" android:src="@drawable/agp"/>
+    </com.san.ads.MediaView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="@dimen/bhb" android:layout_marginLeft="@dimen/bhc" android:layout_marginRight="@dimen/bhc" android:layout_toLeftOf="@+id/bo8" android:layout_toRightOf="@+id/bx9" android:layout_centerVertical="true" android:layout_toStartOf="@+id/bo8" android:layout_toEndOf="@+id/bx9">
+        <TextView android:textSize="@dimen/bhf" android:textColor="@color/s1" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/bhe" android:textColor="@color/ry" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bhd" android:singleLine="true"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/ag6">
+        <com.san.ads.TextProgressView android:gravity="center" android:id="@+id/b00" android:background="@drawable/agw" android:layout_width="wrap_content" android:layout_height="@dimen/bh5" android:max="100" android:progress="100" android:minWidth="@dimen/bqt" android:maxLines="1" app:textSize="@dimen/bh8" app:text_default_color="@color/rw" app:text_margin_left="@dimen/bh7" app:text_margin_right="@dimen/bh7" app:text_max_length="@dimen/brq" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akc"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags"/>
+    <RelativeLayout android:id="@+id/b75" android:visibility="gone" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginTop="@dimen/br4" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ait" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/bl2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aiu"/>
+</RelativeLayout>

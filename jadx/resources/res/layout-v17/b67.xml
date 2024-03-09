@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_gravity="start|center_vertical" android:orientation="vertical" android:id="@+id/e55" android:padding="@dimen/dew" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dfq" android:layout_marginLeft="@dimen/dfp" android:layout_marginStart="@dimen/dfp">
+    <ImageView android:layout_width="@dimen/df7" android:layout_height="@dimen/df7" android:src="@drawable/dsc"/>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/e56" android:layout_width="@dimen/dg4" android:layout_height="0dp" android:layout_marginTop="@dimen/df7" android:layout_marginBottom="@dimen/df7" android:progressDrawable="@drawable/drl" android:layout_weight="1" style="@android:style/Widget.ProgressBar.Horizontal"/>
+    <ImageView android:layout_width="@dimen/df7" android:layout_height="@dimen/df7" android:src="@drawable/dsd"/>
+</LinearLayout>

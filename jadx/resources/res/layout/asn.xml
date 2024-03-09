@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="@dimen/cyv" android:textColor="#666666" android:ellipsize="end" android:gravity="start" android:layout_gravity="start|center_vertical" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx_" android:layout_marginRight="@dimen/ctn" android:maxLines="4" app:night_tv_alpha="@dimen/db2"/>

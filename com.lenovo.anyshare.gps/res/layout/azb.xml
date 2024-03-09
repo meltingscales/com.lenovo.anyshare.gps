@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/de2" android:visibility="gone" layout="@layout/azc" />
+    <include android:id="@id/b8w" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" layout="@layout/a1g" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d6v" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:id="@+id/cye" android:background="@drawable/c7d" android:padding="@dimen/d2u" android:layout_width="@dimen/d2x" android:layout_height="@dimen/d2x" android:layout_centerInParent="true" app:mpb_strokeWidth="@dimen/cwu"/>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/cyv" android:textColor="@color/auf" android:id="@+id/cd9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cta" android:layout_below="@+id/cye" android:layout_centerHorizontal="true"/>
+    <View android:id="@+id/e3q" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

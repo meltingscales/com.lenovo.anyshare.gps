@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bm3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/c7w" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_marginLeft="@dimen/bmm" android:src="@drawable/c5k" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqo" android:layout_marginTop="@dimen/bp0" android:text="@string/adf" />
+    <FrameLayout android:gravity="center" android:background="@drawable/c4c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqo" android:layout_marginTop="@dimen/bo3" android:layout_marginRight="@dimen/bq9">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/cd_" android:layout_width="@dimen/boe" android:layout_height="@dimen/bqv" android:scaleType="centerInside" app:a3c="true" app:a3h="chat_loading/data.json" app:a3o="65536" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" app:radius="@dimen/brt" app:rect_radio="0">
+    <RelativeLayout android:id="@+id/d7o" android:background="@color/w_" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bst" android:textStyle="bold" android:textColor="@color/bj1" android:ellipsize="end" android:gravity="center" android:id="@+id/dvc" android:paddingLeft="@dimen/bow" android:paddingRight="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/c84" android:maxLines="1" android:layout_centerHorizontal="true" android:paddingStart="@dimen/bow" android:paddingEnd="@dimen/bl2" app:night_alpha="@dimen/db2"/>
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="@dimen/bmm" android:layout_height="match_parent" android:layout_marginRight="-24dp" android:src="@drawable/col" android:adjustViewBounds="true" android:layout_toLeftOf="@+id/dvc" android:layout_marginEnd="-24dp" android:layout_toStartOf="@+id/dvc" app:night_bg_color_tint="@color/w4"/>
+    </RelativeLayout>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

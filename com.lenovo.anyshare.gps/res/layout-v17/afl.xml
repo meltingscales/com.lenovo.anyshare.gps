@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/d77" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:background="@drawable/bam" android:paddingTop="0.0dip" android:paddingBottom="@dimen/bm3" android:layout_marginLeft="@dimen/bkq" android:layout_marginRight="@dimen/bkq" android:layout_marginBottom="@dimen/bkq" android:layout_marginStart="@dimen/bkq" android:layout_marginEnd="@dimen/bkq" style="@style/q1">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bn4" android:layout_marginTop="@dimen/bn4" android:text="@string/bse" android:layout_marginStart="@dimen/bn4" />
+            <ImageView android:id="@id/c49" android:padding="@dimen/bqf" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/bmm" android:layout_marginRight="@dimen/bmm" android:src="@drawable/biu" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/bmm" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/cnk" android:background="@drawable/bev" android:paddingLeft="@dimen/bn4" android:paddingTop="@dimen/bl2" android:paddingBottom="@dimen/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" android:paddingStart="@dimen/bn4">
+            <ImageView android:layout_gravity="start|center" android:layout_width="@dimen/brf" android:layout_height="@dimen/bqd" android:src="@drawable/bro" />
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/aeq" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:text="@string/bsd" android:layout_marginStart="@dimen/bm3" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/cab" style="@style/apo" />
+    </LinearLayout>
+</FrameLayout>

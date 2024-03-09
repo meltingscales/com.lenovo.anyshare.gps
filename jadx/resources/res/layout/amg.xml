@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/e77" android:background="@drawable/buq" android:layout_width="match_parent" android:layout_height="@dimen/bm0" app:radius="@dimen/cds">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cb8" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/blk">
+            <TextView android:textSize="@dimen/cdw" android:textStyle="bold" android:textColor="#ff191919" android:ellipsize="end" android:gravity="start|center_vertical" android:id="@+id/b8g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/brt" android:text="@string/dn_" android:maxLines="2"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/dqu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/cdy" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/cdy" android:layout_marginBottom="@dimen/bm3"/>
+    </LinearLayout>
+</com.ushareit.widget.RoundFrameLayout>

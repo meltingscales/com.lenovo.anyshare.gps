@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/bb6" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include layout="@layout/adl"/>
+        <include layout="@layout/ac1"/>
+        <com.ushareit.filemanager.main.music.BottomPlayerView android:layout_gravity="bottom" android:id="@+id/cwf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bqq"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/auv" android:layout="@layout/a_t" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bt6" android:textColor="@color/bj1" android:gravity="center" android:id="@+id/dsz" android:background="@drawable/bpo" android:layout_width="@dimen/br0" android:layout_height="@dimen/br0" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bqx" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/bnj" android:layout_alignParentEnd="true" app:night_tv_alpha="@dimen/db2"/>
+</RelativeLayout>

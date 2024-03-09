@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bof" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bov" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqj" android:src="@drawable/bsc" app:a0o="csi" app:a0u="csi" app:a17="csi" app:a1a="csi" app:a1c="csi" />
+    <FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/bp7" app:a0o="csi" app:a0p="@id/bov" app:a17="csi" app:a1a="csi" app:a1g="csi">
+        <RelativeLayout android:id="@id/boo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/boy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/bp4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.lenovo.anyshare.flash.widget.FlashSkipView android:id="@id/bp3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:a0u="csi" app:a1a="csi" app:a1g="csi" />
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/bz5" android:layout_marginLeft="@dimen/bl2" app:a0o="@id/bp3" app:a17="csi" app:a1c="csi" app:a1g="@id/bp3" layout="@layout/wf" />
+</androidx.constraintlayout.widget.ConstraintLayout>

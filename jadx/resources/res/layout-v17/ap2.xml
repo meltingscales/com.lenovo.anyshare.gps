@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginLeft="@dimen/bm3" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/bm3">
+    <com.ushareit.datausage.widget.ItemDataDisplayView android:id="@+id/c2v" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <View android:background="#ffd8d8d8" android:layout_width="@dimen/bnc" android:layout_height="20dp"/>
+    <com.ushareit.datausage.widget.ItemDataDisplayView android:id="@+id/c19" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <View android:background="#ffd8d8d8" android:layout_width="@dimen/bnc" android:layout_height="20dp"/>
+    <com.ushareit.datausage.widget.ItemDataDisplayView android:id="@+id/c2b" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+</LinearLayout>

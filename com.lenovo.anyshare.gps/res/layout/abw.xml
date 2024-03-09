@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightRelativeLayout android:background="@color/aeh" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/aee" android:ellipsize="end" android:id="@id/de1" android:paddingTop="@dimen/bmm" android:paddingBottom="@dimen/blk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bq4" android:maxLines="1" android:layout_centerVertical="true" />
+</com.ushareit.theme.night.view.NightRelativeLayout>

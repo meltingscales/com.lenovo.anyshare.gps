@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/c99" android:background="@drawable/aqe" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/q1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq8">
+            <TextView android:textSize="45.0sp" android:textStyle="bold" android:textColor="@color/a2u" android:id="@id/du6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/a2u" android:id="@id/du_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aoq" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bt1" android:textColor="@color/a3s" android:id="@id/e07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpe" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/bpe" />
+        <FrameLayout android:id="@id/azj" android:background="@drawable/aqj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" android:layout_marginBottom="@dimen/bmw">
+            <TextView android:textSize="@dimen/bt7" android:textStyle="bold" android:textColor="@color/zs" android:layout_gravity="center_horizontal" android:id="@id/dyh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:text="@string/cpi" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/bn6" android:layout_marginTop="-136.5dip" android:src="@drawable/aqh" android:layout_alignLeft="@id/c99" android:layout_alignTop="@id/c99" android:layout_alignRight="@id/c99" />
+    <ImageView android:id="@id/c49" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bm3" android:src="@drawable/ap7" android:layout_alignTop="@id/c99" android:layout_alignRight="@id/c99" />
+</RelativeLayout>

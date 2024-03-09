@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/re"/>
+    <com.st.entertainment.business.list.customview.RecyclerViewAtViewPager2 android:id="@+id/aki" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="16dp"/>
+</LinearLayout>

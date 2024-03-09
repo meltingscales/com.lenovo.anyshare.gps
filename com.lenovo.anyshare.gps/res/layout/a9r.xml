@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/axg" android:background="@color/a3s" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.filemanager.content.file.FilesView android:id="@id/axi" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/axk" android:visibility="gone" android:scrollbars="none" style="@style/rc" />
+    <com.ushareit.filemanager.content.browser2.PinnedListView android:id="@id/axh" android:background="@color/bi0" android:visibility="gone" android:scrollbars="none" style="@style/qo" />
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/axl" android:background="@drawable/bru" android:padding="@dimen/bmf" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bqj" />
+    <include android:id="@id/axj" layout="@layout/a9e" />
+</FrameLayout>

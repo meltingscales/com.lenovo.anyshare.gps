@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/b3u" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1b" android:layout_marginRight="@dimen/c1b"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1b" android:layout_marginTop="@dimen/c13" android:layout_marginRight="@dimen/c1b">
+        <TextView android:textSize="@dimen/c52" android:textStyle="bold" android:textColor="@color/a__" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b0o" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/cks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b7p" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/c45" android:textStyle="bold" android:textColor="@color/a_o" android:id="@id/ckr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c2w" android:text="@string/b0z" android:singleLine="true" android:layout_toLeftOf="@id/cks" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/c2w" android:layout_toStartOf="@id/cks" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/d_9" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c3p" android:layout_marginTop="@dimen/c3j" android:layout_marginRight="@dimen/c3p" android:layout_marginBottom="@dimen/c1b" />
+</LinearLayout>

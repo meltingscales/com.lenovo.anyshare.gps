@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cvg" android:background="?attr/pz" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/ic">
+        <include layout="@layout/b4l"/>
+    </LinearLayout>
+    <View android:background="@drawable/d60" android:layout_width="match_parent" android:layout_height="4dp"/>
+    <View android:id="@+id/cvh" android:layout_width="0dp" android:layout_height="0dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/cv9" android:layout_width="match_parent" android:layout_height="0dp" android:cacheColorHint="@android:color/white" android:layout_weight="1"/>
+    <include layout="@layout/b4h"/>
+    <include layout="@layout/b4k"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/bst" android:id="@+id/dto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/c3z" android:layout_width="@dimen/bpo" android:layout_height="@dimen/bo3" android:layout_below="@+id/dto" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/c3y" android:visibility="invisible" android:layout_width="@dimen/bpo" android:layout_height="@dimen/bo3" android:src="@drawable/aqa" android:layout_alignTop="@+id/c3z" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/bti" android:textColor="@color/w4" android:id="@+id/dtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/c3z" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/c3x" android:background="@drawable/apw" android:visibility="invisible" android:layout_width="@dimen/bkc" android:layout_height="@dimen/bqv" android:layout_marginTop="@dimen/bp0" android:layout_below="@+id/dtn" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

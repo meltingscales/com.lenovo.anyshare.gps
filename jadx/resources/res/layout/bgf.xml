@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/e_c" android:paddingTop="@dimen/dzc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:id="@+id/e9s" android:background="@drawable/duj" android:padding="@dimen/dyw" android:layout_width="@dimen/dyz" android:layout_height="@dimen/dyz" android:layout_centerHorizontal="true" app:mpb_indeterminateTint="@color/bjd" app:mpb_strokeWidth="@dimen/bq1"/>
+    <TextView android:textSize="14sp" android:textColor="#191919" android:id="@+id/e9n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_below="@+id/e9s" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

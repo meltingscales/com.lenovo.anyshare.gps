@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/ux" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/asp" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="end" android:id="@+id/adb" android:background="@drawable/up" android:paddingLeft="@dimen/as1" android:paddingRight="@dimen/as1" android:layout_width="wrap_content" android:layout_height="@dimen/aog" android:layout_marginTop="@dimen/b1o" android:layout_marginRight="@dimen/am3" android:text="@string/asz"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/az_" android:layout_marginTop="@dimen/b3g" android:layout_marginRight="@dimen/az_">
+        <TextView android:textSize="@dimen/at4" android:textStyle="bold" android:textColor="@color/l9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tl"/>
+        <TextView android:textSize="@dimen/asr" android:textColor="@color/l9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/atv" android:text="@string/tj" android:fontFamily="sans-serif-medium"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/b2f" android:layout_marginTop="@dimen/b1d">
+            <TextView android:textSize="@dimen/ast" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zc" android:drawableLeft="@drawable/rz" android:drawablePadding="@dimen/av3" android:drawableStart="@drawable/rz"/>
+            <com.ushareit.muslim.rule.view.SwitchButton android:layout_gravity="end|center_vertical" android:id="@+id/a9f" android:layout_width="@dimen/apx" android:layout_height="@dimen/ao5" app:backDrawable="@drawable/zy" app:thumbColor="@color/l9" app:thumbHeight="@dimen/anm" app:thumbWidth="@dimen/anm"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/b2f">
+            <TextView android:textSize="@dimen/ast" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zh" android:drawableLeft="@drawable/w1" android:drawablePadding="@dimen/av3" android:drawableStart="@drawable/w1"/>
+            <com.ushareit.muslim.rule.view.SwitchButton android:layout_gravity="end|center_vertical" android:id="@+id/a9i" android:layout_width="@dimen/apx" android:layout_height="@dimen/ao5" app:backDrawable="@drawable/zy" app:thumbColor="@color/l9" app:thumbHeight="@dimen/anm" app:thumbWidth="@dimen/anm"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/b2f">
+            <TextView android:textSize="@dimen/ast" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zb" android:drawableLeft="@drawable/ry" android:drawablePadding="@dimen/av3" android:drawableStart="@drawable/ry"/>
+            <com.ushareit.muslim.rule.view.SwitchButton android:layout_gravity="end|center_vertical" android:id="@+id/a9e" android:layout_width="@dimen/apx" android:layout_height="@dimen/ao5" app:backDrawable="@drawable/zy" app:thumbColor="@color/l9" app:thumbHeight="@dimen/anm" app:thumbWidth="@dimen/anm"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/b2f">
+            <TextView android:textSize="@dimen/ast" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/za" android:drawableLeft="@drawable/v8" android:drawablePadding="@dimen/av3" android:drawableStart="@drawable/v8"/>
+            <com.ushareit.muslim.rule.view.SwitchButton android:layout_gravity="end|center_vertical" android:id="@+id/a9d" android:layout_width="@dimen/apx" android:layout_height="@dimen/ao5" app:backDrawable="@drawable/zy" app:thumbColor="@color/l9" app:thumbHeight="@dimen/anm" app:thumbWidth="@dimen/anm"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/b2f">
+            <TextView android:textSize="@dimen/ast" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zf" android:drawableLeft="@drawable/vm" android:drawablePadding="@dimen/av3" android:drawableStart="@drawable/vm"/>
+            <com.ushareit.muslim.rule.view.SwitchButton android:layout_gravity="end|center_vertical" android:id="@+id/a9h" android:layout_width="@dimen/apx" android:layout_height="@dimen/ao5" app:backDrawable="@drawable/zy" app:thumbColor="@color/l9" app:thumbHeight="@dimen/anm" app:thumbWidth="@dimen/anm"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/b2f">
+            <TextView android:textSize="@dimen/ast" android:textColor="@color/l9" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ze" android:drawableLeft="@drawable/s3" android:drawablePadding="@dimen/av3" android:drawableStart="@drawable/s3"/>
+            <com.ushareit.muslim.rule.view.SwitchButton android:layout_gravity="end|center_vertical" android:id="@+id/a9g" android:layout_width="@dimen/apx" android:layout_height="@dimen/ao5" app:backDrawable="@drawable/zy" app:thumbColor="@color/l9" app:thumbHeight="@dimen/anm" app:thumbWidth="@dimen/anm"/>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/asq" android:textStyle="bold" android:textColor="@color/a7_" android:gravity="center" android:layout_gravity="bottom|center_horizontal" android:id="@+id/aaw" android:background="@drawable/tz" android:layout_width="match_parent" android:layout_height="@dimen/bkh" android:layout_marginLeft="@dimen/apk" android:layout_marginRight="@dimen/apk" android:layout_marginBottom="@dimen/aqh" android:text="@string/a3d" android:singleLine="true"/>
+</FrameLayout>

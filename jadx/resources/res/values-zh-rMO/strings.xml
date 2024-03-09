@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a86">如果您選擇開始使用我們的應用，請點擊\"繼續\"</string>
+    <string name="a87" />
+    <string name="a88">繼續</string>
+    <string name="a8b">使用%s之前, 您必須同意我们的服務條款，並確認您已經閱讀並知悉我們的隱私政策。</string>
+    <string name="a8c">使用%s之前, 您必須確認您已經閱讀並知悉我們的隱私政策.</string>
+    <string name="a8d">隱私政策</string>
+    <string name="a8e">服務條款</string>
+    <string name="a8f">使用條款</string>
+</resources>

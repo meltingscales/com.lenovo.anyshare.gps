@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsConstraintLayout android:id="@id/c2d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/chd" android:textStyle="bold" android:textColor="@color/w4" android:gravity="start" android:id="@id/e09" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="" android:textAlignment="viewStart" app:a0u="csi" app:a1c="csi" app:a1g="csi" />
+    <com.ushareit.mcds.ui.view.RoundFrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cgd" app:a0u="csi" app:a1c="csi" app:a1f="@id/e09" app:a_7="@dimen/c9k">
+        <com.ushareit.mcds.ui.view.RatioByWidthImageView android:id="@id/byp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ank="2.5" />
+    </com.ushareit.mcds.ui.view.RoundFrameLayout>
+    <ViewStub android:id="@id/cfa" android:visibility="visible" android:layout="@layout/anl" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cgc" app:a0u="csi" app:a1c="csi" app:a1f="@id/e09" />
+    <ViewStub android:id="@id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgh" android:layout_height="@dimen/cgc" android:layout_margin="@dimen/ch3" app:a0o="csi" app:a0u="csi" app:a1a="csi" />
+</com.ushareit.mcds.ui.view.McdsConstraintLayout>

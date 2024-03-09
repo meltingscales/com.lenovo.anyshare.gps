@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="@color/avb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/d8k" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/cti">
+        <TextView android:textSize="@dimen/cyx" android:textStyle="bold" android:textColor="@color/auf" android:id="@id/bdu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="@dimen/cta" android:layout_marginRight="@dimen/ctn" android:text="@string/agx" android:layout_marginStart="@dimen/ctn" android:layout_marginEnd="@dimen/ctn" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="@dimen/cta" android:layout_marginRight="@dimen/ctn" android:layout_marginStart="@dimen/ctn" android:layout_marginEnd="@dimen/ctn">
+            <include android:id="@id/c21" layout="@layout/aqz" />
+            <View android:layout_width="@dimen/ctn" android:layout_height="fill_parent" />
+            <include android:id="@id/c28" layout="@layout/aqz" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <com.ushareit.theme.night.view.NightLinearLayout android:orientation="vertical" android:id="@id/ca6" android:background="@drawable/c9d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx6" android:layout_marginTop="@dimen/cya" android:layout_marginRight="@dimen/cx6" android:layout_marginStart="@dimen/cx6" android:layout_marginEnd="@dimen/cx6" app:a76="@color/au7">
+            <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/auf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cuu" android:layout_marginTop="@dimen/cv3" android:text="@string/agp" android:layout_marginStart="@dimen/cuu" />
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/d2r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginRight="@dimen/ctn" android:layout_marginBottom="@dimen/cvc" android:layout_marginStart="@dimen/ctn" android:layout_marginEnd="@dimen/ctn" />
+            <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/cfq" android:background="@drawable/cf1" android:padding="@dimen/d2t" android:visibility="visible" android:layout_width="@dimen/d2w" android:layout_height="@dimen/d2w" />
+            <TextView android:textSize="@dimen/cyv" android:textColor="@color/axv" android:gravity="center" android:id="@id/dv7" android:background="@drawable/c81" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/cwp" android:layout_marginLeft="@dimen/cuu" android:layout_marginRight="@dimen/cuu" android:layout_marginBottom="@dimen/cvc" android:text="@string/agh" android:layout_marginStart="@dimen/cuu" android:layout_marginEnd="@dimen/cuu" />
+        </com.ushareit.theme.night.view.NightLinearLayout>
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="start|center" android:orientation="vertical" android:id="@id/c2e" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/d4a">
+            <include android:id="@id/c2f" layout="@layout/aqs" />
+            <include layout="@layout/aqu" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

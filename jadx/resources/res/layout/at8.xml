@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:id="@+id/cd_" android:layout_width="match_parent" android:layout_height="@dimen/cvx">
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:id="@+id/cye" android:background="@drawable/cf1" android:padding="@dimen/d2u" android:layout_width="@dimen/d2x" android:layout_height="@dimen/d2x" app:mpb_strokeWidth="@dimen/cwu"/>
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/cyx" android:textColor="@color/aut" android:id="@+id/cd9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctv" android:layout_marginTop="@dimen/cta" android:layout_marginRight="@dimen/ctv" android:text="@string/ahz"/>
+</LinearLayout>

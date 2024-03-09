@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="@dimen/bo8" android:paddingRight="@dimen/bo8" android:paddingBottom="@dimen/bo8" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/bo8">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/dzt" android:layout_marginTop="@dimen/bnc" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/su"/>
+        <TextView android:textSize="@dimen/bsz" android:textColor="@color/xl" android:id="@+id/dur" android:paddingLeft="@dimen/brt" android:paddingRight="@dimen/brt" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toRightOf="@+id/dzt" android:layout_toEndOf="@+id/dzt" android:paddingHorizontal="@dimen/brt"/>
+    </RelativeLayout>
+    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" app:radius="@dimen/brt" app:rect_radio="0">
+        <com.ushareit.theme.night.view.NightImageView android:id="@+id/c7j" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:night_tv_alpha="@dimen/db2"/>
+    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+</LinearLayout>

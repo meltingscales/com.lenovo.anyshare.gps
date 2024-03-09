@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/ai9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.st.entertainment.SdkLottieAnimationView android:id="@+id/ai8" android:layout_width="35dp" android:layout_height="35dp" app:lottie_autoPlay="false" app:lottie_fileName="gameSdkHeaderRefresh/data.json" app:lottie_loop="true"/>
+    </FrameLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/q7" android:id="@+id/al5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"/>
+</LinearLayout>

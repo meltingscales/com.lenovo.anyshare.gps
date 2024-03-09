@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/avb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@id/bqa" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/axe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cuq">
+                <com.ushareit.bst.power.widget.BatteryDialView android:id="@id/av4" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/d2r" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/csw" android:layout_marginBottom="@dimen/cta" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

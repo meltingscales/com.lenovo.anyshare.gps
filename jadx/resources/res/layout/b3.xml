@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@+id/gs" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+        <com.ushareit.video.widget.SIRefreshHeader android:id="@+id/fp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.ushareit.common.widget.VerticalViewPager android:id="@+id/ij" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ushareit.video.widget.SILoadMoreFooter android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    <com.ushareit.minivideo.widget.LikeAnimLayout android:id="@+id/d6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <FrameLayout android:layout_gravity="right" android:id="@+id/i5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g_"/>
+    <View android:id="@+id/ia" android:background="@drawable/b_" android:layout_width="match_parent" android:layout_height="@dimen/ap"/>
+    <FrameLayout android:id="@+id/h1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7d0700f1" android:background="@drawable/ar" android:visibility="gone" android:layout_width="@dimen/el" android:layout_height="@dimen/el" android:layout_marginTop="@dimen/fv" android:layout_marginBottom="@dimen/fv" style="@style/bs"/>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/g0" android:layout_width="match_parent" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/f9" android:layout_marginRight="@dimen/fd"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/e6" android:background="@drawable/de" android:visibility="gone" android:layout_width="@dimen/el" android:layout_height="@dimen/el" style="@style/aj"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/ap" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/dj3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/cyu" android:textStyle="bold" android:textColor="@color/awx" android:gravity="center" android:id="@id/b00" android:background="@drawable/caz" android:layout_width="fill_parent" android:layout_height="@dimen/cwc" android:layout_marginLeft="@dimen/d1q" android:layout_marginTop="@dimen/d1r" android:layout_marginRight="@dimen/d1q" android:layout_marginBottom="@dimen/cum" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/bp5" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d1r" android:minHeight="@dimen/d1b">
+        <View android:background="@color/awq" android:layout_width="fill_parent" android:layout_height="@dimen/d1j" android:layout_marginLeft="@dimen/d1q" android:layout_marginRight="@dimen/d1q" />
+        <TextView android:textSize="@dimen/d1h" android:textStyle="bold" android:textColor="@color/awk" android:gravity="center" android:id="@id/ayt" android:background="@drawable/cav" android:paddingTop="@dimen/d1g" android:paddingBottom="@dimen/d1f" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

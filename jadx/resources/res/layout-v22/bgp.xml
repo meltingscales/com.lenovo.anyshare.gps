@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/e8u" android:background="@color/bjr" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/e8v" android:layout_width="match_parent" android:layout_height="@dimen/e3d"/>
+        <ImageView android:background="@drawable/dv9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e0n" android:layout_marginRight="@dimen/e0n" android:layout_marginHorizontal="@dimen/e0n"/>
+        <TextView android:textSize="@dimen/e6v" android:textStyle="bold" android:textColor="@color/bko" android:layout_gravity="center_horizontal" android:id="@+id/e8w" android:background="@drawable/dv_" android:paddingLeft="@dimen/e2x" android:paddingTop="@dimen/e5y" android:paddingRight="@dimen/e2x" android:paddingBottom="@dimen/e5y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e3n" android:text="@string/dx5" android:paddingHorizontal="@dimen/e2x" android:paddingVertical="@dimen/e5y"/>
+    </LinearLayout>
+</RelativeLayout>

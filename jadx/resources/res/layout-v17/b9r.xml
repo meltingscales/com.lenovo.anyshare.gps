@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/bn4" android:paddingTop="@dimen/bm3" android:paddingRight="@dimen/bn4" android:paddingBottom="@dimen/bm3" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/bsz" android:textColor="@color/w4" android:layout_gravity="start|center_vertical" android:id="@+id/bt_" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <RadioButton android:layout_gravity="end|center_vertical" android:id="@+id/bt9" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:button="@drawable/aum" android:layout_marginStart="@dimen/bo8"/>
+</FrameLayout>

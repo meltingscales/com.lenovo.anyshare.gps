@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/re">
+    <ImageView android:layout_gravity="end" android:id="@+id/bfx" android:layout_width="@dimen/byf" android:layout_height="@dimen/byf" android:layout_marginTop="@dimen/byn" android:layout_marginRight="@dimen/byd" android:src="@drawable/axt" android:layout_above="@+id/bes" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/byd" android:layout_alignParentEnd="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bes" android:background="@android:color/transparent" android:layout_marginTop="@dimen/bxw" style="@style/rd">
+        <com.ushareit.mcds.ui.view.RoundFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:bottomLeftRadius="0dp" app:bottomRightRadius="0dp" app:topLeftRadius="@dimen/bxw" app:topRightRadius="@dimen/bxw">
+            <ViewStub android:id="@+id/byt" android:layout="@layout/ao5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/cf0" android:layout="@layout/ao7" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:layout_gravity="end|bottom" android:id="@+id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgm" android:layout_height="@dimen/cgf" android:layout_margin="@dimen/ch3"/>
+        </com.ushareit.mcds.ui.view.RoundFrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/axk" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/by8" android:textColor="@color/w4" android:id="@+id/bfy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/byb" android:layout_marginRight="@dimen/bye" android:maxHeight="90dp"/>
+                </LinearLayout>
+            </ScrollView>
+            <TextView android:textSize="@dimen/by4" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/bfu" android:background="@drawable/axo" android:layout_width="match_parent" android:layout_height="@dimen/bxx" android:layout_marginLeft="@dimen/bye" android:layout_marginTop="@dimen/bxw" android:layout_marginRight="@dimen/bye" android:layout_marginBottom="@dimen/bye"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.ushareit.mcds.ui.view.McdsRelativeLayout>

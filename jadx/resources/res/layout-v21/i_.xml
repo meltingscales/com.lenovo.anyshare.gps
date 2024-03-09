@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.muslim.main.home.widget.CustomCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/jb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.muslim.main.home.widget.CustomAppBarLayout android:orientation="vertical" android:id="@+id/un" android:background="@color/l8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:elevation="0dp">
+        <com.ushareit.muslim.islam.view.IslamTopView android:id="@+id/y7" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ar9" app:layout_scrollFlags="0x3"/>
+    </com.ushareit.muslim.main.home.widget.CustomAppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ushareit.muslim.islam.view.IslamCalendarView android:id="@+id/y8" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/a7b" android:background="@drawable/u6" android:focusableInTouchMode="false" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj" android:layout_marginStart="@dimen/aqj" android:layout_marginEnd="@dimen/aqj" android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.ushareit.muslim.main.home.widget.CustomCoordinatorLayout>

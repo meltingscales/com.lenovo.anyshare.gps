@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="@dimen/ct3" android:layout_marginRight="@dimen/cx6">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center_vertical" android:id="@+id/icon" android:layout_width="@dimen/d1u" android:layout_height="@dimen/d1u" android:layout_marginRight="@dimen/cya" android:scaleType="fitCenter" app:night_alpha="@dimen/db2"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/cyv" android:textStyle="bold" android:textColor="@color/auf" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/cys" android:textColor="@color/aut" android:ellipsize="end" android:gravity="start" android:id="@+id/d8f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="save" android:maxLines="1"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/cyu" android:textStyle="bold" android:textColor="@color/avl" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:background="@drawable/aro" android:layout_width="@dimen/brc" android:layout_height="@dimen/cvp" android:layout_marginTop="@dimen/cx6" android:layout_marginRight="@dimen/bl2" android:text="@string/ar7" android:maxLines="1"/>
+</LinearLayout>

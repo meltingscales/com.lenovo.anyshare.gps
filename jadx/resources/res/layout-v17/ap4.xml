@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a2p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/c5m" android:layout_width="match_parent" android:layout_height="@dimen/bmx"/>
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b8m" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <Button android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/avk" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" style="@style/aj7"/>
+        <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:layout_gravity="start" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/btu" android:layout_marginRight="@dimen/bkw" android:text="@string/adf" android:maxLines="1" android:layout_marginStart="@dimen/btu" android:layout_marginEnd="@dimen/bkw"/>
+        <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/c64" android:layout_width="@dimen/bpv" android:layout_height="@dimen/bpv" android:layout_marginRight="@dimen/brt" android:src="@drawable/c5d" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/brt"/>
+    </FrameLayout>
+    <com.ushareit.base.widget.pulltorefresh.ActionPullToRefreshRecyclerView android:id="@+id/d7k" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/e3p" android:layout_below="@+id/b8m"/>
+    <com.ushareit.aichat.view.AIChatInputBoxView android:id="@+id/e3p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <View android:id="@+id/e40" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/e3p" android:layout_below="@+id/b8m"/>
+</RelativeLayout>

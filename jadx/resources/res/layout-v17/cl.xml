@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/gm" android:background="#d5d5d5" android:layout_width="match_parent" android:layout_height="@dimen/cs" android:layout_above="@+id/ak"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ac" android:background="@drawable/bu" android:layout_width="match_parent" android:layout_height="@dimen/el" android:layout_marginLeft="@dimen/df" android:layout_marginRight="@dimen/df">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fi" android:src="@drawable/fb" android:layout_marginEnd="@dimen/fi"/>
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/hq" android:textStyle="bold" android:textColor="@color/di" android:gravity="center" android:layout_gravity="center" android:id="@+id/aa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e4"/>
+    </LinearLayout>
+</merge>

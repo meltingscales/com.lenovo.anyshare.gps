@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lenovo.anyshare.share.session.viewholder.AppDetectLayout android:orientation="vertical" android:id="@id/arv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/d5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do1" android:layout_marginStart="@dimen/do1">
+            <TextView android:textSize="@dimen/bsv" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/d5k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d8g" android:lines="1" />
+            <TextView android:textSize="@dimen/bst" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/anq" android:background="@drawable/aro" android:paddingLeft="@dimen/brl" android:paddingTop="@dimen/bnc" android:paddingRight="@dimen/brl" android:paddingBottom="@dimen/bnc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:text="@string/d8a" android:lines="1" android:drawableRight="@drawable/diq" android:drawablePadding="@dimen/bq1" android:drawableEnd="@drawable/diq" android:layout_marginStart="@dimen/brl" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/d5f" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@drawable/dir" android:layout_width="@dimen/brt" android:layout_height="@dimen/bqh" android:layout_marginLeft="@dimen/bp7" android:layout_marginTop="@dimen/bq1" android:layout_marginStart="@dimen/bp7" />
+            <View android:background="#ffe9e9e9" android:layout_width="fill_parent" android:layout_height="@dimen/bnc" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm" />
+            <TextView android:textSize="@dimen/bsy" android:textColor="#ff191919" android:gravity="center_vertical" android:id="@id/d5g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/blk" android:layout_marginRight="@dimen/bmm" android:layout_marginBottom="@dimen/bmm" android:text="@string/d8l" android:lines="1" />
+            <ListView android:id="@id/d3s" android:dividerHeight="@dimen/bla" style="@style/rc" />
+            <ViewStub android:id="@id/cy2" android:layout="@layout/b6o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/boe" />
+        </LinearLayout>
+    </com.lenovo.anyshare.share.session.viewholder.AppDetectLayout>
+</FrameLayout>

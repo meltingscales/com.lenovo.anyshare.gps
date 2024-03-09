@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="@color/a2b" android:layout_width="fill_parent" android:layout_height="wrap_content" app:u0="0.0dip">
+        <com.ushareit.cleanit.analyze.widget.CleanFileWithSizeHeaderView android:id="@id/drg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" app:a29="d9a" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.ushareit.cleanit.analyze.content.photocleanup.PhotoCleanupFeedView android:id="@id/cu2" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a0g="@string/afm" />
+    <ViewStub android:layout_gravity="center" android:id="@id/bi0" android:layout="@layout/atk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx4" />
+    <ViewStub android:id="@id/auv" android:layout="@layout/at6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

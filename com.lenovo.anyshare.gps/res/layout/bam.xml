@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/ba_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginRight="@dimen/brl">
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/d6v" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/bl2" />
+    </LinearLayout>
+</LinearLayout>

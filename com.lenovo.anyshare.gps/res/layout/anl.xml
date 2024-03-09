@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.RoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/c9k"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.mcds.ui.view.RatioByWidthLottieAnimationView android:id="@id/cfa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/at9" android:scaleType="fitCenter" android:adjustViewBounds="true" app:ank="2.5" />
+</com.ushareit.mcds.ui.view.RoundFrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.ui.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/d6v" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" app:radius="@dimen/bl2">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aog" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@+id/d2i" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/brq" android:layout_weight="1" app:bottom_left_corner="@dimen/bl2" app:bottom_right_corner="0dp" app:rect_radio="0.5236" app:top_left_corner="@dimen/bl2" app:top_right_corner="0dp">
+            <FrameLayout android:id="@+id/bc_" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/bca" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+            <ImageView android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+            <ImageView android:id="@+id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agp"/>
+        </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/bl3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bqv" android:minHeight="@dimen/brq" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.ushareit.ads.ui.widget.RoundFrameLayout android:gravity="center_vertical" android:id="@+id/bx9" android:background="@color/so" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/bqf" app:radius="@dimen/br9">
+                        <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+                    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/apr" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/bih" android:textColor="@color/sw" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+                        <TextView android:textSize="@dimen/bst" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnc" android:maxLines="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/az6" android:layout_width="match_parent" android:layout_height="@dimen/boe" android:layout_marginTop="@dimen/bs3">
+                    <com.san.ads.TextProgressView android:textStyle="bold" android:gravity="center" android:id="@+id/b02" android:background="@drawable/aho" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="100" android:singleLine="true" app:normal_finish_progress="100" app:textSize="@dimen/btj" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akf"/>
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="end" android:id="@+id/blj" android:layout="@layout/v7" android:layout_width="@dimen/bqc" android:layout_height="@dimen/bpj"/>
+</com.ushareit.ads.ui.widget.RoundFrameLayout>

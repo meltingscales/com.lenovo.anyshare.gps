@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="o">
+        <item>AD,376</item>
+        <item>AE,971</item>
+        <item>AF,93</item>
+        <item>AG,1268</item>
+        <item>AI,1264</item>
+        <item>AL,355</item>
+        <item>AM,374</item>
+        <item>AN,599</item>
+        <item>AO,244</item>
+        <item>AR,54</item>
+        <item>AS,1684</item>
+        <item>AT,43</item>
+        <item>AU,61</item>
+        <item>AW,297</item>
+        <item>AZ,994</item>
+        <item>BA,387</item>
+        <item>BB,1246</item>
+        <item>BD,880</item>
+        <item>BE,32</item>
+        <item>BF,226</item>
+        <item>BG,359</item>
+        <item>BH,973</item>
+        <item>BI,257</item>
+        <item>BJ,229</item>
+        <item>BM,1441</item>
+        <item>BN,673</item>
+        <item>BO,591</item>
+        <item>BR,55</item>
+        <item>BS,1242</item>
+        <item>BT,975</item>
+        <item>BW,267</item>
+        <item>BY,375</item>
+        <item>BZ,501</item>
+        <item>CA,1</item>
+        <item>CD,243</item>
+        <item>CF,236</item>
+        <item>CG,242</item>
+        <item>CH,41</item>
+        <item>CI,225</item>
+        <item>CK,682</item>
+        <item>CL,56</item>
+        <item>CM,237</item>
+        <item>CN,86</item>
+        <item>CO,57</item>
+        <item>CR,506</item>
+        <item>CU,53</item>
+        <item>CV,238</item>
+        <item>CY,357</item>
+        <item>CZ,420</item>
+        <item>DE,49</item>
+        <item>DJ,253</item>
+        <item>DK,45</item>
+        <item>DM,1</item>
+        <item>DO,1</item>
+        <item>DZ,213</item>
+        <item>EC,593</item>
+        <item>EE,372</item>
+        <item>EG,20</item>
+        <item>ES,34</item>
+        <item>ET,251</item>
+        <item>FI,358</item>
+        <item>FJ,679</item>
+        <item>FO,298</item>
+        <item>FR,33</item>
+        <item>GA,241</item>
+        <item>GB,44</item>
+        <item>GD,1</item>
+        <item>GE,995</item>
+        <item>GF,594</item>
+        <item>GH,233</item>
+        <item>GI,350</item>
+        <item>GL,299</item>
+        <item>GM,220</item>
+        <item>GN,224</item>
+        <item>GP,590</item>
+        <item>GQ,240</item>
+        <item>GR,30</item>
+        <item>GT,502</item>
+        <item>GU,1</item>
+        <item>GW,245</item>
+        <item>GY,592</item>
+        <item>HK,852</item>
+        <item>HN,504</item>
+        <item>HR,385</item>
+        <item>HT,509</item>
+        <item>HU,36</item>
+        <item>ID,62</item>
+        <item>IE,353</item>
+        <item>IL,972</item>
+        <item>IN,91</item>
+        <item>IS,354</item>
+        <item>IT,39</item>
+        <item>IQ,964</item>
+        <item>IR,98</item>
+        <item>JM,1</item>
+        <item>JO,962</item>
+        <item>JP,81</item>
+        <item>KE,254</item>
+        <item>KG,996</item>
+        <item>KH,855</item>
+        <item>KI,686</item>
+        <item>KM,269</item>
+        <item>KN,1</item>
+        <item>KP,850</item>
+        <item>KR,82</item>
+        <item>KW,965</item>
+        <item>KY,1345</item>
+        <item>KZ,7</item>
+        <item>LA,856</item>
+        <item>LB,961</item>
+        <item>LC,1</item>
+        <item>LI,423</item>
+        <item>LK,94</item>
+        <item>LR,231</item>
+        <item>LS,266</item>
+        <item>LT,370</item>
+        <item>LU,352</item>
+        <item>LV,371</item>
+        <item>LY,218</item>
+        <item>MA,212</item>
+        <item>MC,377</item>
+        <item>MD,373</item>
+        <item>ME,382</item>
+        <item>MG,261</item>
+        <item>MH,692</item>
+        <item>MK,389</item>
+        <item>ML,223</item>
+        <item>MM,95</item>
+        <item>MN,976</item>
+        <item>MO,853</item>
+        <item>MQ,596</item>
+        <item>MR,222</item>
+        <item>MS,1</item>
+        <item>MT,356</item>
+        <item>MU,230</item>
+        <item>MV,960</item>
+        <item>MW,265</item>
+        <item>MX,52</item>
+        <item>MY,60</item>
+        <item>ML,223</item>
+        <item>MZ,258</item>
+        <item>NA,264</item>
+        <item>NC,687</item>
+        <item>NE,227</item>
+        <item>NG,234</item>
+        <item>NI,505</item>
+        <item>NL,31</item>
+        <item>NO,47</item>
+        <item>NP,977</item>
+        <item>NZ,64</item>
+        <item>OM,968</item>
+        <item>PA,507</item>
+        <item>PE,51</item>
+        <item>PF,689</item>
+        <item>PG,675</item>
+        <item>PH,63</item>
+        <item>PL,48</item>
+        <item>PK,92</item>
+        <item>PR,1</item>
+        <item>PS,970</item>
+        <item>PT,351</item>
+        <item>PW,680</item>
+        <item>PY,595</item>
+        <item>QA,974</item>
+        <item>RE,262</item>
+        <item>RO,40</item>
+        <item>RS,381</item>
+        <item>RU,7</item>
+        <item>RW,250</item>
+        <item>SA,966</item>
+        <item>SB,677</item>
+        <item>SC,248</item>
+        <item>SD,249</item>
+        <item>SE,46</item>
+        <item>SG,65</item>
+        <item>SI,386</item>
+        <item>SK,421</item>
+        <item>SL,232</item>
+        <item>SN,221</item>
+        <item>SO,252</item>
+        <item>SR,597</item>
+        <item>SS,211</item>
+        <item>ST,239</item>
+        <item>SV,503</item>
+        <item>SY,963</item>
+        <item>SZ,268</item>
+        <item>TC,1</item>
+        <item>TD,235</item>
+        <item>TG,228</item>
+        <item>TH,66</item>
+        <item>TJ,992</item>
+        <item>TL,670</item>
+        <item>TM,993</item>
+        <item>TN,216</item>
+        <item>TO,676</item>
+        <item>TR,90</item>
+        <item>TT,1</item>
+        <item>TW,886</item>
+        <item>TZ,255</item>
+        <item>UA,380</item>
+        <item>UG,256</item>
+        <item>US,1</item>
+        <item>UY,598</item>
+        <item>UZ,998</item>
+        <item>VC,1</item>
+        <item>VE,58</item>
+        <item>VG,1</item>
+        <item>VI,1340</item>
+        <item>VN,84</item>
+        <item>VU,678</item>
+        <item>WS,685</item>
+        <item>XK,383</item>
+        <item>YE,967</item>
+        <item>ZA,27</item>
+        <item>ZM,260</item>
+        <item>ZW,263</item>
+    </string-array>
+    <string-array name="q">
+        <item>shareit</item>
+        <item>dbvh19g70uon7</item>
+        <item>dwza2b3cs63ny</item>
+        <item>shoplay</item>
+        <item>likeit</item>
+        <item>like-it</item>
+        <item>watch-it</item>
+        <item>jollymax</item>
+        <item>stimulate</item>
+        <item>gamerplayer17</item>
+        <item>dalyfeds</item>
+    </string-array>
+    <string-array name="r">
+        <item>*.wshareit.com</item>
+        <item>*.wshareit.com</item>
+    </string-array>
+    <string-array name="s">
+        <item>Name(A-Z)</item>
+        <item>Name(Z-A)</item>
+        <item>Date(in reverse chronological order)</item>
+        <item>Date(in chronological order)</item>
+    </string-array>
+    <string-array name="t">
+        <item>"That's not the experience we'd like you to have. Please share your feedback below."</item>
+        <item>Uh oh! Could you tell us more about what we could improve?</item>
+        <item>Thanks for your feedback, is there something specific that you think we could improve?</item>
+        <item>Thank you! Your feedback inspires us to improve.</item>
+        <item>Thank you! Your awesome feedback just made our day!</item>
+    </string-array>
+    <string-array name="v">
+        <item>%s apps can be updated without consuming data usage</item>
+        <item>%s apps you received have not been updated yet</item>
+        <item>%s apps shared by friends need to be updated</item>
+    </string-array>
+    <string-array name="w">
+        <item>%s New App Versions Available</item>
+        <item>%s Apps are Waiting to be Updated</item>
+        <item>Updates Available for %s Apps Shared to you</item>
+    </string-array>
+    <string-array name="x">
+        <item>Large audio files have used %s space</item>
+    </string-array>
+    <string-array name="y">
+        <item>Large Audio Files Have Used %s Storage</item>
+    </string-array>
+    <string-array name="z">
+        <item>Large image files have used %s space</item>
+    </string-array>
+    <string-array name="a0">
+        <item>Large Photo Files Have Used %s Internal Storage</item>
+    </string-array>
+    <string-array name="a1">
+        <item>Large files have occupied %s space</item>
+        <item>It’s time to clean up the %s large files in storage</item>
+    </string-array>
+    <string-array name="a2">
+        <item>Remove Large Files and Free up %s Space</item>
+        <item>Detected %s Large Files in your Internal Storage</item>
+    </string-array>
+    <string-array name="a3">
+        <item>Large video files have used %s space</item>
+    </string-array>
+    <string-array name="a4">
+        <item>Detected Large Video Files Taking Up %s Storage</item>
+    </string-array>
+    <string-array name="a5">
+        <item>Found %s duplicate music to be cleaned up</item>
+        <item>Clean up %s duplicate music to free up space</item>
+    </string-array>
+    <string-array name="a6">
+        <item>Found %s Duplicate Audio Files in Internal Storage</item>
+        <item>Discard %s Duplicate Music For Extra Storage</item>
+    </string-array>
+    <string-array name="a7">
+        <item>Duplicate photos have occupied %s space</item>
+        <item>Clean up %s duplicate photos to free up space</item>
+    </string-array>
+    <string-array name="a8">
+        <item>Detected %s Duplicate Photos in your Device</item>
+        <item>Discard %s Duplicate Photos For Extra Storage</item>
+    </string-array>
+    <string-array name="a9">
+        <item>Duplicate videos have occupied %s space</item>
+        <item>Clean up %s duplicate videos to free up space</item>
+    </string-array>
+    <string-array name="a_">
+        <item>%s Duplicate Videos are Slowing the System</item>
+        <item>Clean Up %s Duplicate Videos</item>
+    </string-array>
+    <string-array name="aa">
+        <item>%s junk files are slowing down the system</item>
+        <item>%s junk files detected</item>
+    </string-array>
+    <string-array name="ab">
+        <item>Alert! %s Junk Files are Making Your Phone Slower</item>
+        <item>%s Junk Files Has Been Detected</item>
+    </string-array>
+    <string-array name="ac">
+        <item>Already %s days since you cleaned up junk files</item>
+        <item>Mobile junk files have not been cleaned up for over %s days</item>
+    </string-array>
+    <string-array name="ad">
+        <item>%s Days Since Your Device Has Been Cleaned</item>
+        <item>More Junk Files Found Since %s Days Last Clean Up</item>
+    </string-array>
+    <string-array name="ae">
+        <item>%s songs shared by friends have not been played yet</item>
+        <item>"%s new songs shared by friends haven't been played yet."</item>
+        <item>Do you still remember %s songs you received?</item>
+    </string-array>
+    <string-array name="af">
+        <item>%s Audio Files Have Not Been Played in Months</item>
+        <item>You Have %s Unplayed MP3 in your Device</item>
+        <item>Review %s Unplayed MP3 File in Storage</item>
+    </string-array>
+    <string-array name="ag">
+        <item>Found residual junk of uninstalled app</item>
+    </string-array>
+    <string-array name="ah">
+        <item>Found Residual Junk Left by Uninstalled Apps</item>
+    </string-array>
+    <string-array name="ai">
+        <item>Screenshots have occupied %s space</item>
+        <item>Clean up %s screenshots to free up space</item>
+    </string-array>
+    <string-array name="aj">
+        <item>%s Screenshots Have Been Detected</item>
+        <item>Clean Up %s Screenshots in Storage</item>
+    </string-array>
+    <string-array name="ak">
+        <item>%s unused apps detected</item>
+    </string-array>
+    <string-array name="al">
+        <item>This video was taken by someone with a phone or camera</item>
+        <item>This is a public video</item>
+        <item>Other reasons</item>
+    </string-array>
+    <string-array name="am">
+        <item>What’s your lucky number?</item>
+        <item>What’s your dream?</item>
+        <item>Where would you like to go?</item>
+        <item>What’s your favourite movie?</item>
+        <item>What skill would you like to pick up?</item>
+        <item>What’s your best friend’s name?</item>
+        <item>What’s your favourite food?</item>
+    </string-array>
+    <string-array name="an">
+        <item>What’s your lucky number?</item>
+        <item>What’s your favourite food?</item>
+        <item>What’s your best friend’s name?</item>
+        <item>What’s your favourite movie?</item>
+        <item>What’s your dream?</item>
+    </string-array>
+    <string-array name="ao">
+        <item>%s apps can be updated without consuming data usage</item>
+        <item>%s apps you received have not been updated yet</item>
+        <item>%s apps shared by friends need to be updated</item>
+    </string-array>
+    <string-array name="ap">
+        <item>%s New App Versions Available</item>
+        <item>%s Apps are Waiting to be Updated</item>
+        <item>Updates Available for %s Apps Shared to you</item>
+        <item>Update Now! %s New App Versions Available</item>
+        <item>Stay up to date with the latest app version.</item>
+        <item>"Discover what's new! Update Today!"</item>
+    </string-array>
+    <string-array name="aq">
+        <item>Large audio files have used %s space</item>
+    </string-array>
+    <string-array name="ar">
+        <item>Large Audio Files Have Used %s Storage</item>
+    </string-array>
+    <string-array name="as">
+        <item>Large image files have used %s space</item>
+    </string-array>
+    <string-array name="at">
+        <item>Large Photo Files Have Used %s Internal Storage</item>
+    </string-array>
+    <string-array name="au">
+        <item>Large files have occupied %s space</item>
+        <item>It’s time to clean up the %s large files in storage</item>
+    </string-array>
+    <string-array name="av">
+        <item>Remove Large Files and Free up %s Space</item>
+        <item>Detected %s Large Files in your Internal Storage</item>
+        <item>Big files alert! Free up space by removing files over 100M on your phone</item>
+        <item>"Storage overload! Time to tackle those large files exceeding 100M and reclaim your phone's space."</item>
+        <item>Storage SOS! Your phone is burdened with large files over 100M. Clean up for a smoother experience.</item>
+    </string-array>
+    <string-array name="aw">
+        <item>Large video files have used %s space</item>
+    </string-array>
+    <string-array name="ax">
+        <item>Detected Large Video Files Taking Up %s Storage</item>
+    </string-array>
+    <string-array name="ay">
+        <item>These apps are slowing down the system, boost your phone now</item>
+    </string-array>
+    <string-array name="az">
+        <item>System Functions May be Unavailable Until Boost Your Device</item>
+    </string-array>
+    <string-array name="b0">
+        <item>%s apps are slowing down the system, boost your phone now</item>
+    </string-array>
+    <string-array name="b1">
+        <item>%s Apps are Causing System Failures, Boost Device</item>
+    </string-array>
+    <string-array name="b2">
+        <item>Click to accelerate the charging speed now</item>
+    </string-array>
+    <string-array name="b3">
+        <item>Tap to Speed up Device Charging Speed</item>
+        <item>Fasten your charging speed! Tap here to turbocharge your battery.</item>
+        <item>Click now for a faster power-up.</item>
+        <item>Tap here to accelerate your battery recharge.</item>
+    </string-array>
+    <string-array name="b4">
+        <item>%s apps are slowing down your charging speed</item>
+    </string-array>
+    <string-array name="b5">
+        <item>%s Apps are Affecting Device Charging Speed</item>
+        <item>Identify power-hungry apps and reclaim your charging speed!</item>
+        <item>Close battery-draining apps for faster charging.</item>
+        <item>Stop the drain, boost the charge! Identify and close apps that slow down your battery.</item>
+    </string-array>
+    <string-array name="b6">
+        <item>Out of storage, connect to PC to free up space</item>
+        <item>Out of storage, transfer big files to PC</item>
+    </string-array>
+    <string-array name="b7">
+        <item>Found %s duplicate music to be cleaned up</item>
+        <item>Clean up %s duplicate music to free up space</item>
+    </string-array>
+    <string-array name="b8">
+        <item>Found %s Duplicate Audio Files in Internal Storage</item>
+        <item>Discard %s Duplicate Music For Extra Storage</item>
+        <item>Duplicate songs? Clean up and reclaim space!</item>
+        <item>Double the tunes? Delete duplicates, free up storage!</item>
+        <item>Free up storage, remove duplicate songs!</item>
+    </string-array>
+    <string-array name="b9">
+        <item>Duplicate photos have occupied %s space</item>
+        <item>Clean up %s duplicate photos to free up space</item>
+    </string-array>
+    <string-array name="b_">
+        <item>Detected %s Duplicate Photos in your Device</item>
+        <item>Discard %s Duplicate Photos For Extra Storage</item>
+        <item>Duplicate photo overload! Remove copies, reclaim space!</item>
+        <item>Attention: Duplicate photo alert! Free up space on your phone!</item>
+        <item>Delete doubles, reclaim storage and optimize your device!</item>
+    </string-array>
+    <string-array name="ba">
+        <item>Duplicate videos have occupied %s space</item>
+        <item>Clean up %s duplicate videos to free up space</item>
+    </string-array>
+    <string-array name="bb">
+        <item>%s Duplicate Videos are Slowing the System</item>
+        <item>Clean Up %s Duplicate Videos</item>
+        <item>Duplicate video overload! Clean up and reclaim storage space on your phone!</item>
+        <item>"Attention: Duplicate video alert! It's time to tidy up and optimize your storage."</item>
+        <item>Duplicate video chaos? Reclaim space by deleting those extra copies.</item>
+    </string-array>
+    <string-array name="bc">
+        <item>🎧︎Put on headphones</item>
+        <item>Time to listen to music🎧︎</item>
+    </string-array>
+    <string-array name="bd">
+        <item>%s junk files are slowing down the system</item>
+        <item>%s junk files detected</item>
+    </string-array>
+    <string-array name="be">
+        <item>Alert! %s Junk Files are Making Your Phone Slower</item>
+        <item>%s Junk Files Has Been Detected</item>
+        <item>"Warning: Phone overload! Free up space now and reclaim your device's speed."</item>
+        <item>Storage emergency! Take action now to remove over 100M of junk from your phone.</item>
+        <item>Junk alert! Take control and free up over 100M of space on your phone.</item>
+    </string-array>
+    <string-array name="bf">
+        <item>Already %s days since you cleaned up junk files</item>
+        <item>Mobile junk files have not been cleaned up for over %s days</item>
+    </string-array>
+    <string-array name="bg">
+        <item>%s Days Since Your Device Has Been Cleaned</item>
+        <item>More Junk Files Found Since %s Days Last Clean Up</item>
+        <item>Free up space, Refresh your phone!</item>
+        <item>Time for a cleanup! Remove unwanted files and reclaim storage space on your phone.</item>
+        <item>Declutter your phone! Get rid of junk and enjoy a faster, smoother experience.</item>
+    </string-array>
+    <string-array name="bh">
+        <item>%s songs shared by friends have not been played yet</item>
+        <item>"%s new songs shared by friends haven't been played yet."</item>
+        <item>Do you still remember %s songs you received?</item>
+    </string-array>
+    <string-array name="bi">
+        <item>%s Audio Files Have Not Been Played in Months</item>
+        <item>You Have %s Unplayed MP3 in your Device</item>
+        <item>Review %s Unplayed MP3 File in Storage</item>
+        <item>"Missing out on great tunes? It's time to hit play and rediscover your favorite music!"</item>
+        <item>Feeling the void? Turn up the volume and let the music fill your days with joy.</item>
+        <item>Missing the beats that move you? Dive into your favorite tunes and let the rhythm guide your day.</item>
+    </string-array>
+    <string-array name="bk">
+        <item>Listen to your playlist❤</item>
+        <item>Listen to your playlist😊</item>
+    </string-array>
+    <string-array name="bl">
+        <item>Detected Battery Draining Apps</item>
+        <item>Power drain alert! Optimize battery usage by closing energy-hungry apps.</item>
+        <item>Energy vampires detected! Take control and close battery-draining apps.</item>
+        <item>Maximize battery, minimize drain! Identify and close power-hungry apps.</item>
+    </string-array>
+    <string-array name="bm">
+        <item>%s apps are consuming power in the background</item>
+    </string-array>
+    <string-array name="bn">
+        <item>%s Battery Draining Apps are Running</item>
+        <item>Save power, stay connected! Close battery-draining apps for longer usage.</item>
+        <item>Stop the power drain! Identify and close energy-draining apps now.</item>
+        <item>Conserve power, extend usage! Close battery-draining apps for a longer-lasting phone.</item>
+    </string-array>
+    <string-array name="bo">
+        <item>Residual files of the just-deleted app detected</item>
+        <item>Remove Residual files of the just-deleted app</item>
+    </string-array>
+    <string-array name="bq">
+        <item>Screenshots have occupied %s space</item>
+        <item>Clean up %s screenshots to free up space</item>
+    </string-array>
+    <string-array name="br">
+        <item>%s Screenshots Have Been Detected</item>
+        <item>Clean Up %s Screenshots in Storage</item>
+        <item>Delete excess screenshots and optimize storage.</item>
+        <item>Remove unnecessary screenshots and enjoy a lighter device.</item>
+        <item>Remove unwanted screenshots and free up space.</item>
+    </string-array>
+    <string-array name="bs">
+        <item>%s new memories to share with friends and loved ones</item>
+        <item>Share %s new photos without losing quality</item>
+    </string-array>
+    <string-array name="bt">
+        <item>Click to play🎵</item>
+        <item>Time to listen to music🎶</item>
+    </string-array>
+    <string-array name="bx">
+        <item>%s unused apps detected</item>
+    </string-array>
+    <string-array name="bz">
+        <item>%1$s detected with %2$s security threats</item>
+        <item>%1$s apps detected with %2$s security threats</item>
+    </string-array>
+    <string-array name="c2">
+        <item>These apps are consuming power in the background</item>
+    </string-array>
+    <string-array name="c3">
+        <item>Appears too often</item>
+        <item>Inappropriate timing</item>
+        <item>Low Quality</item>
+        <item>Annoying Ads</item>
+        <item>Not interested</item>
+    </string-array>
+    <string-array name="c4">
+        <item>Hardware</item>
+        <item>Software</item>
+    </string-array>
+    <string-array name="c5">
+        <item>Autoplay</item>
+        <item>Loop</item>
+    </string-array>
+    <string-array name="c6">
+        <item>Mistakenly deleted files</item>
+        <item>Not working</item>
+        <item>Not fully functional</item>
+        <item>Too many ads</item>
+    </string-array>
+    <string-array name="c7">
+        <item>App crash</item>
+        <item>Video freezing</item>
+        <item>"Video can't be played"</item>
+        <item>Video loading slow</item>
+        <item>Content refresh</item>
+    </string-array>
+    <string-array name="c8">
+        <item>Can’t connect to iOS or PC</item>
+        <item>Inappropriate video contents</item>
+        <item>Videos lag or buffer</item>
+        <item>Low quality image</item>
+        <item>Slow video loading</item>
+        <item>Disturbed by ads</item>
+    </string-array>
+    <string-array name="c9">
+        <item>Not working</item>
+        <item>Not fully functional</item>
+        <item>Too many fake notification</item>
+        <item>Too many ads</item>
+    </string-array>
+    <string-array name="c_">
+        <item>Multiple retries to start Wi-Fi hotspot</item>
+        <item>Long time to start Wi-Fi hotspot</item>
+        <item>Transfer progress hangs</item>
+        <item>Many attempts to connect</item>
+    </string-array>
+    <string-array name="ca">
+        <item>Multiple retries to find receiver</item>
+        <item>Difficulties with selecting files</item>
+        <item>Multiple retries to connect</item>
+        <item>Disconnects while transferring</item>
+    </string-array>
+    <string-array name="cb">
+        <item>Slow transfer speed</item>
+        <item>Not working</item>
+        <item>Mistakenly deleted files</item>
+        <item>Too many ads</item>
+    </string-array>
+    <string-array name="cc">
+        <item>Phone are still sluggish</item>
+        <item>Not working</item>
+        <item>Not fully functional</item>
+        <item>Too many ads</item>
+    </string-array>
+    <string-array name="cd">
+        <item>Slow transfer speed</item>
+        <item>Transfer process is too complex</item>
+        <item>"Can't connect with iOS or PC"</item>
+        <item>Too many ads</item>
+    </string-array>
+    <string-array name="ce">
+        <item>@string/cgo</item>
+        <item>@string/cgp</item>
+        <item>@string/chd</item>
+        <item>@string/che</item>
+        <item>@string/chf</item>
+        <item>@string/chg</item>
+    </string-array>
+    <string-array name="cf">
+        <item>Bad Interface</item>
+        <item>Unsatisfactory FunctionUnsatisfactory FunctionUnsatisfactory FunctionUnsatisfactory Function</item>
+        <item>Disturbing Persistency</item>
+    </string-array>
+    <string-array name="cg">
+        <item>Uncomfortable content</item>
+        <item>Pornography</item>
+        <item>Violent content</item>
+        <item>Harmful and dangerous content</item>
+        <item>Title/cover does not match the content</item>
+    </string-array>
+    <string-array name="ch">
+        <item>Spam or misleading content</item>
+        <item>Infringes on my rights</item>
+        <item>I want the lyrics</item>
+        <item>I want to share</item>
+        <item>I want more songs from this artist</item>
+    </string-array>
+    <string-array name="ci">
+        <item>Added time</item>
+        <item>Play Duration</item>
+        <item>Title</item>
+    </string-array>
+    <string-array name="cj">
+        <item>After starting, hidden folders and files will be shown</item>
+        <item>Files included in .nomedia folder will not be scanned by default</item>
+    </string-array>
+    <string-array name="ck">
+        <item>Show hidden files and folders</item>
+        <item>Scan .nomedia folder</item>
+    </string-array>
+    <string-array name="cl">
+        <item>Software decoder</item>
+        <item>Hardware decoder</item>
+    </string-array>
+    <integer-array name="cm">
+        <item>0</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="cn">
+        <item>Best fit</item>
+        <item>Fill</item>
+        <item>1 : 1</item>
+        <item>4 : 3</item>
+        <item>16 : 9</item>
+    </string-array>
+    <integer-array name="co">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="u">
+        <item>Cross the stars and the moon to meet yourself better.</item>
+        <item>The weather suddenly cools, so its time to turn the story.</item>
+        <item>Dream what you want to dream, be who you want to be.</item>
+        <item>We are born broken and mended by living.</item>
+        <item>The wine will taste better after time has witnessed.</item>
+        <item>Sometimes ever , sometimes never.</item>
+        <item>"I've been always working hard to live."</item>
+        <item>Maybe it is time to let us become tolerant.</item>
+        <item>The longest day has an end.</item>
+        <item>Life is too short for long-term grudges.</item>
+    </string-array>
+    <string-array name="bj">
+        <item>Check your moments on %s</item>
+    </string-array>
+    <string-array name="bv">
+        <item>Get things done faster and easier with our no-install mini-apps</item>
+        <item>Access dozens of mini-apps on one page, without occupying any space</item>
+    </string-array>
+    <string-array name="p">
+        <item>How to make more money?</item>
+        <item>Teach me how to cook a dish?</item>
+        <item>Give me a name for my child.</item>
+    </string-array>
+    <string-array name="bw">
+        <item>Enhance Your Productivity🔥</item>
+        <item>Goodbye, app clutter👋</item>
+    </string-array>
+    <string-array name="bp">
+        <item>Delete residual files from uninstalled apps to maintain a tidy device.</item>
+        <item>Remove leftover files from uninstalled apps for improved efficiency.</item>
+        <item>Delete residual files from uninstalled apps for a clutter-free phone.</item>
+        <item>Uninstalling apps may leave behind unused files. Remove them now!</item>
+    </string-array>
+    <string-array name="bu">
+        <item>Silence is not golden. Play some music!</item>
+        <item>Unleash the music lover in you. Press play now!</item>
+        <item>Dust off those headphones. Music time!</item>
+    </string-array>
+    <string-array name="by">
+        <item>"Unused apps piling up? It's cleanup time!"</item>
+        <item>Unused apps taking up space? Time for a cleanup?</item>
+        <item>Free up space! Consider cleaning out unused apps.</item>
+    </string-array>
+    <string-array name="c0">
+        <item>"💗Be careful not to miss your friend's Status, save it now!"</item>
+    </string-array>
+    <string-array name="c1">
+        <item>New status found!</item>
+    </string-array>
+</resources>

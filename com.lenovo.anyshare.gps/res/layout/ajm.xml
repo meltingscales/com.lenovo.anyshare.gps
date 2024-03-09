@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="bottom" android:paddingTop="@dimen/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.coin.widget.CoinCircleProgressView android:id="@id/cye" android:background="@drawable/ap2" android:layout_width="@dimen/bql" android:layout_height="@dimen/bql" android:layout_marginTop="@dimen/bp7" android:layout_marginRight="@dimen/blk" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/bst" android:textColor="@color/bj1" android:gravity="center" android:id="@id/du9" android:background="@drawable/aqq" android:layout_width="wrap_content" android:layout_height="@dimen/bm3" android:layout_marginLeft="@dimen/brl" android:layout_marginTop="@dimen/bqf" android:layout_marginRight="@dimen/brl" android:layout_below="@id/cye" android:layout_alignLeft="@id/cye" android:layout_alignRight="@id/cye" />
+    <ImageView android:id="@id/c4d" android:layout_width="@dimen/bq6" android:layout_height="@dimen/bq6" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bmw" android:src="@drawable/aqp" android:layout_alignTop="@id/cye" android:layout_alignParentRight="true" />
+    <View android:id="@id/e3v" android:layout_width="wrap_content" android:layout_height="@dimen/br7" android:layout_alignLeft="@id/cye" android:layout_alignTop="@id/cye" android:layout_alignRight="@id/cye" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/c_a" android:visibility="invisible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqx" android:layout_marginRight="@dimen/brt" android:minHeight="@dimen/bqj" android:layout_toLeftOf="@id/cye" android:layout_alignTop="@id/cye">
+        <FrameLayout android:id="@id/dpi" android:background="@drawable/aqf" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start|bottom|center" android:id="@id/c4c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bwo" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="-10.0dip" android:src="@drawable/bwp" />
+            <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/uy" android:gravity="center_vertical" android:id="@id/e07" android:paddingTop="@dimen/blk" android:paddingBottom="@dimen/blk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bl2" android:includeFontPadding="false" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/c3j" android:layout_width="@dimen/bla" android:layout_height="@dimen/bmm" android:layout_marginLeft="-1.0dip" android:src="@drawable/bwn" />
+    </LinearLayout>
+</merge>

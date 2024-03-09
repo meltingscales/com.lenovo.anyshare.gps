@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dse" style="@style/q1">
+        <TextView android:textColor="@color/b3g" android:layout_gravity="start" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/dfj" android:layout_marginRight="@dimen/dfj" style="@style/q7"/>
+        <TextView android:textColor="#aaaaaa" android:layout_gravity="start" android:id="@+id/content" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/dfj" android:layout_marginRight="@dimen/dfj" style="@style/pr"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/df1" android:layout_marginBottom="@dimen/df1" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dfj" android:layout_marginRight="@dimen/dfj">
+                <RadioGroup android:layout_gravity="start|top" android:id="@+id/d0z" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <RadioGroup android:id="@+id/d10" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            </LinearLayout>
+        </ScrollView>
+        <include layout="@layout/a30"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/avb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.cleanit.diskclean.widget.ExpandLayout android:id="@id/b6c" android:background="@color/auj" android:layout_width="fill_parent" android:layout_height="@dimen/d40">
+        <FrameLayout android:id="@id/b6_" android:layout_width="fill_parent" android:layout_height="@dimen/d3w" android:layout_alignParentBottom="true">
+            <ProgressBar android:id="@id/b5t" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="false" android:progressDrawable="@drawable/ce6" style="?android:progressBarStyleHorizontal" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/b6b" android:layout_width="@dimen/d3v" android:layout_height="fill_parent">
+                <View android:background="@drawable/ce8" android:layout_width="@dimen/cub" android:layout_height="fill_parent" />
+                <View android:background="#d8ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/d45" android:textColor="@color/axs" android:ellipsize="end" android:gravity="start|center" android:id="@id/b6h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cuu" android:singleLine="true" android:layout_marginStart="@dimen/cuu" />
+            <LinearLayout android:orientation="vertical" android:id="@id/b6f" android:background="#14ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/d44" android:textColor="@color/axs" android:gravity="center" android:id="@id/b6e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.ushareit.cleanit.widget.TotalSizeBar android:id="@id/b6k" android:paddingBottom="@dimen/d41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/d42" android:textColor="@color/axs" android:id="@id/b69" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cwu" android:layout_toRightOf="@id/b69" android:layout_alignTop="@id/b69" android:layout_alignBottom="@id/b69" android:layout_marginStart="@dimen/cwu" android:layout_toEndOf="@id/b69">
+                    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/d47" android:textColor="@color/axs" android:gravity="center_vertical" android:id="@id/b6l" android:paddingTop="@dimen/d46" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/d3z" android:textColor="@color/axs" android:gravity="center_vertical" android:id="@id/b5k" android:paddingBottom="@dimen/d3y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </com.ushareit.cleanit.widget.TotalSizeBar>
+    </com.ushareit.cleanit.diskclean.widget.ExpandLayout>
+    <FrameLayout android:paddingTop="@dimen/cxs" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.ushareit.cleanit.diskclean.widget.CleanPinnedExpandableListView android:gravity="center" android:id="@id/b63" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/cxi" android:cacheColorHint="#00000000" android:groupIndicator="@null" android:childDivider="#00000000" android:divider="@null" />
+        <com.ushareit.theme.night.view.NightLinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/b65" android:background="@drawable/ccc" android:layout_width="fill_parent" android:layout_height="@dimen/cxn" app:a76="@color/au7">
+            <com.ushareit.theme.night.view.NightTextView android:textStyle="bold" android:textColor="@color/aw3" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/b64" android:background="@drawable/c92" android:layout_width="fill_parent" android:layout_height="@dimen/cws" android:layout_marginLeft="@dimen/cvp" android:layout_marginTop="@dimen/ct3" android:layout_marginRight="@dimen/cvp" android:layout_marginBottom="@dimen/ct3" android:minWidth="@dimen/cui" />
+        </com.ushareit.theme.night.view.NightLinearLayout>
+    </FrameLayout>
+</LinearLayout>

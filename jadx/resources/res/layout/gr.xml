@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/u3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/s5" android:layout_width="@dimen/ah2" android:layout_height="@dimen/ah2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/aj8" android:textColor="@color/xu" android:id="@+id/th" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aid" app:layout_constraintEnd_toEndOf="@+id/s5" app:layout_constraintStart_toStartOf="@+id/s5" app:layout_constraintTop_toBottomOf="@+id/s5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

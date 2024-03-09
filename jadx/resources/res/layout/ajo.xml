@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/aqr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bmf" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@+id/c_a" android:visibility="invisible" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bl2" android:layout_marginRight="@dimen/brt" android:layout_toLeftOf="@+id/aqr" android:layout_alignTop="@+id/aqr">
+        <FrameLayout android:background="@drawable/aqf" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bwo"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginTop="-10dp" android:src="@drawable/bwp"/>
+            <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/uy" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/e07" android:paddingLeft="@dimen/bm3" android:paddingTop="@dimen/blk" android:paddingRight="@dimen/bl2" android:paddingBottom="@dimen/blk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/bq4" android:maxLines="2" android:includeFontPadding="false"/>
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/c3j" android:layout_width="@dimen/bla" android:layout_height="@dimen/bmm" android:layout_marginLeft="-1dp" android:src="@drawable/bwn"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bad" />
+    <LinearLayout android:orientation="vertical" android:id="@id/deu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqn" android:layout_marginRight="@dimen/br9" android:layout_below="@id/e26" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true">
+        <include layout="@layout/bb2" />
+        <include layout="@layout/bb1" />
+        <RelativeLayout android:id="@id/ded" android:background="@drawable/djk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bmm">
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/def" android:background="@drawable/dji" android:layout_width="@dimen/br8" android:layout_height="@dimen/bmf" android:layout_marginLeft="@dimen/bo3" android:layout_marginTop="@dimen/bl2" android:layout_marginBottom="@dimen/bmf" android:layout_alignParentLeft="true" app:a75="@dimen/db2" />
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/deg" android:padding="@dimen/bq1" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4" android:layout_marginRight="@dimen/bnj" android:src="@drawable/d4f" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:a75="@dimen/db2" />
+            <TextView android:textSize="@dimen/bst" android:textColor="@color/wg" android:id="@id/dee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqc" android:text="@string/cgr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <include layout="@layout/bb7" />
+        <include layout="@layout/bb8" />
+        <include layout="@layout/bb0" />
+        <com.lenovo.anyshare.appextension.view.AppExtensionTextLayout android:id="@id/arz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.lenovo.anyshare.appextension.view.AppExtensionImageLayout android:id="@id/arx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.lenovo.anyshare.appextension.view.AppExtensionRecommentLayout android:id="@id/ary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

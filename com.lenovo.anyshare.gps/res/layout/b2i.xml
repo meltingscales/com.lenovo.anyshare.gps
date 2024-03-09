@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.widget.RoundFrameLayout android:id="@id/c1q" android:layout_width="@dimen/bkw" android:layout_height="@dimen/bqx" android:layout_marginLeft="@dimen/bmm" android:layout_marginTop="@dimen/bl2" android:layout_marginBottom="@dimen/bl2" app:a0o="csi" app:a17="csi" app:a1c="csi" app:a1g="csi" app:a_7="@dimen/brt">
+        <ImageView android:id="@id/c1p" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:layout_gravity="bottom" android:background="@drawable/agu" android:layout_width="fill_parent" android:layout_height="@dimen/bnj" android:alpha="0.7" />
+    </com.ushareit.widget.RoundFrameLayout>
+    <TextView android:textSize="@dimen/bsu" android:textColor="@color/a3s" android:id="@id/c1j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bqv" app:a0o="@id/c1q" app:a0u="@id/c1q" app:a1a="@id/c1q" />
+    <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:id="@id/c2q" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/bl2" android:maxLines="2" app:a0p="@id/c1i" app:a0v="@id/cvn" app:a18="@id/c1q" app:a1_="@id/cvn" app:a1b="@id/c1q" app:a1g="csi" app:a1i="csb" />
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:ellipsize="end" android:id="@id/c1i" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bl2" android:maxLines="1" app:a0o="csi" app:a0v="@id/cvn" app:a14="csb" app:a17="@id/c2q" app:a1_="@id/cvn" app:a1c="@id/c2q" app:a1f="@id/c2q" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/cvn" android:visibility="gone" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/bp0" app:a0o="csi" app:a0v="@id/cl0" app:a1_="@id/cl0" app:a1g="csi" />
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center" android:id="@id/cl0" android:padding="@dimen/bqf" android:visibility="gone" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginRight="@dimen/bp0" android:src="@drawable/crk" app:a0o="csi" app:a0v="@id/dhc" app:a1_="@id/dhc" app:a1g="csi" app:a7_="@color/w4" />
+    <Space android:id="@id/dhc" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bkq" app:a0o="csi" app:a0u="csi" app:a1a="csi" app:a1g="csi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

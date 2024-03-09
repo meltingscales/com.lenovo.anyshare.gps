@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/al_" android:background="@color/pu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+        <com.st.entertainment.core.view.RoundStrokeImageView android:layout_gravity="start|top" android:id="@+id/return_view_res_0x7805005c" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp" android:src="@drawable/ac0"/>
+        <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/py" android:gravity="center" android:id="@+id/title_text_res_0x78050074" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38dp" android:text="@string/aat"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/aki" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+.class public final Lcom/lenovo/anyshare/lGh;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Ljava/lang/String; = "{\n\t\"prayers\": [{\n\t\t\"country\": \"Belgium\",\n\t\t\"prayer_times\": [{\n\t\t\t\"fajr\": \"03:12\",\n\t\t\t\"sunrise\": \"05:26\",\n\t\t\t\"dhuhr\": \"13:45\",\n\t\t\t\"asr\": \"18:06\",\n\t\t\t\"maghrib\": \"22:03\",\n\t\t\t\"isha\": \"00:13\",\n\t\t\t\"date_world_timestamp\": 1655952183579,\n\t\t\t\"date_islamic\": \"1443-11-24\",\n\t\t\t\"is_summertime\": true\n\t\t}],\n\t\t\"city_code\": \"Bruxelles-Capitale\",\n\t\t\"city_name\": \"Bruxelles-Capitale\"\n\t}, {\n\t\t\"country\": \"Indonesia\",\n\t\t\"prayer_times\": [{\n\t\t\t\"fajr\": \"04:49\",\n\t\t\t\"sunrise\": \"06:00\",\n\t\t\t\"dhuhr\": \"11:58\",\n\t\t\t\"asr\": \"15:19\",\n\t\t\t\"maghrib\": \"17:50\",\n\t\t\t\"isha\": \"19:00\",\n\t\t\t\"date_world_timestamp\": 1655952183579,\n\t\t\t\"date_islamic\": \"1443-11-24\",\n\t\t\t\"is_summertime\": false\n\t\t}],\n\t\t\"city_code\": \"North Jakarta\",\n\t\t\"city_name\": \"North Jakarta\"\n\t}, {\n\t\t\"country\": \"Malaysia\",\n\t\t\"prayer_times\": [{\n\t\t\t\"fajr\": \"05:51\",\n\t\t\t\"sunrise\": \"07:05\",\n\t\t\t\"dhuhr\": \"13:19\",\n\t\t\t\"asr\": \"16:45\",\n\t\t\t\"maghrib\": \"19:26\",\n\t\t\t\"isha\": \"20:38\",\n\t\t\t\"date_world_timestamp\": 1655952183579,\n\t\t\t\"date_islamic\": \"1443-11-24\",\n\t\t\t\"is_summertime\": false\n\t\t}],\n\t\t\"city_code\": \"Kuala Lumpur\",\n\t\t\"city_name\": \"Kuala Lumpur\"\n\t}, {\n\t\t\"country\": \"United Arab Emirates\",\n\t\t\"prayer_times\": [{\n\t\t\t\"fajr\": \"04:09\",\n\t\t\t\"sunrise\": \"05:35\",\n\t\t\t\"dhuhr\": \"12:30\",\n\t\t\t\"asr\": \"15:50\",\n\t\t\t\"maghrib\": \"19:15\",\n\t\t\t\"isha\": \"20:38\",\n\t\t\t\"date_world_timestamp\": 1655952183579,\n\t\t\t\"date_islamic\": \"1443-11-24\",\n\t\t\t\"is_summertime\": false\n\t\t}],\n\t\t\"city_code\": \"Abu Dhabi\",\n\t\t\"city_name\": \"Abu Dhabi\"\n\t}, {\n\t\t\"country\": \"United Kingdom\",\n\t\t\"prayer_times\": [{\n\t\t\t\"fajr\": \"02:32\",\n\t\t\t\"sunrise\": \"04:41\",\n\t\t\t\"dhuhr\": \"13:07\",\n\t\t\t\"asr\": \"17:25\",\n\t\t\t\"maghrib\": \"21:25\",\n\t\t\t\"isha\": \"23:26\",\n\t\t\t\"date_world_timestamp\": 1655952183579,\n\t\t\t\"date_islamic\": \"1443-11-24\",\n\t\t\t\"is_summertime\": true\n\t\t}],\n\t\t\"city_code\": \"Greater London\",\n\t\t\"city_name\": \"Greater London\"\n\t}, {\n\t\t\"country\": \"France\",\n\t\t\"prayer_times\": [{\n\t\t\t\"fajr\": \"03:21\",\n\t\t\t\"sunrise\": \"05:47\",\n\t\t\t\"dhuhr\": \"13:58\",\n\t\t\t\"asr\": \"18:10\",\n\t\t\t\"maghrib\": \"22:01\",\n\t\t\t\"isha\": \"00:16\",\n\t\t\t\"date_world_timestamp\": 1655952183579,\n\t\t\t\"date_islamic\": \"1443-11-24\",\n\t\t\t\"is_summertime\": true\n\t\t}],\n\t\t\"city_code\": \"Paris\",\n\t\t\"city_name\": \"Paris\"\n\t}]\n}"
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public static final a()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/lenovo/anyshare/lGh;->a:Ljava/lang/String;
+
+    return-object v0
+.end method

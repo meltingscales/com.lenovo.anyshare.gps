@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/tb" android:paddingBottom="@dimen/bqf" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ushareit.ads.ui.view.BannerAdView android:id="@id/cit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/e48" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmm" />
+    <com.ushareit.filemanager.main.music.MusicViewPagerIndicator android:layout_gravity="center_horizontal" android:id="@id/e49" android:paddingTop="@dimen/brt" android:paddingBottom="@dimen/bnc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/bop" />
+</LinearLayout>

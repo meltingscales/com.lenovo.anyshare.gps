@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dlj" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/aoj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp7" android:layout_marginBottom="@dimen/bp7" android:src="@drawable/bsc" />
+    <FrameLayout android:id="@id/bo4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.ushareit.ads.immersive.AdFlashSkipView android:layout_gravity="right" android:id="@id/aok" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/bhz" android:textColor="@color/bj1" android:gravity="center" android:id="@id/aoi" android:background="@drawable/bws" android:visibility="gone" android:layout_width="@dimen/bi0" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brl" android:layout_marginTop="@dimen/brt" android:text="@string/ads_main_flash_flag" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/bzg" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_marginRight="@dimen/blk" android:layout_marginBottom="@dimen/blk" android:src="@drawable/akt" />
+</FrameLayout>

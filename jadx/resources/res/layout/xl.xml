@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/d74" android:layout_width="match_parent" android:layout_height="@dimen/brc">
+    <RelativeLayout android:id="@+id/d4_" android:background="@drawable/akp" android:layout_width="match_parent" android:layout_height="@dimen/brc" android:layout_marginLeft="@dimen/bmm" android:layout_marginRight="@dimen/bmm">
+        <ImageView android:id="@+id/d4g" android:layout_width="@dimen/bqd" android:layout_height="@dimen/bqd" android:layout_marginLeft="@dimen/blk" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/blr" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqv" android:layout_toRightOf="@+id/d4g" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/d4i" android:layout_width="@dimen/blr" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2" android:text="@string/avl" android:lines="1"/>
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:ellipsize="end" android:id="@+id/d4a" android:layout_width="@dimen/blr" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnc" android:text="@string/avl" android:lines="2"/>
+        </LinearLayout>
+        <com.ushareit.ads.sharemob.views.TextProgress android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b03" android:layout_width="@dimen/bru" android:layout_height="@dimen/bp7" android:layout_marginRight="@dimen/blk" android:max="100" android:progress="100" android:progressDrawable="@drawable/akc" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:textSize="@dimen/bsw" app:text_margin_left="@dimen/bqv" app:text_margin_right="@dimen/bqv" app:text_max_length="@dimen/brm" style="?android:attr/progressBarStyleHorizontal"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/jb" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/u_">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginRight="@dimen/aqj" android:layout_marginStart="@dimen/aqj" android:layout_marginEnd="@dimen/aqj">
+        <RelativeLayout android:id="@+id/ug" android:background="@drawable/u6" android:layout_width="match_parent" android:layout_height="@dimen/ar9" android:layout_marginTop="@dimen/arr">
+            <ImageButton android:id="@+id/vc" android:background="@drawable/yz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ao5" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/ao5" android:layout_alignParentEnd="true"/>
+            <ImageView android:id="@+id/xq" android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:layout_marginLeft="@dimen/and" android:layout_marginRight="@dimen/amf" android:src="@drawable/oh" android:layout_centerVertical="true" android:layout_marginStart="@dimen/and" android:layout_marginEnd="@dimen/amf"/>
+            <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:ellipsize="end" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adhan_setting" android:maxLines="1" android:layout_centerVertical="true" android:layout_toEndOf="@+id/xq"/>
+        </RelativeLayout>
+        <include layout="@layout/kp"/>
+        <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aog" android:layout_marginTop="@dimen/amf" android:text="@string/v_" android:layout_marginStart="@dimen/aog"/>
+        <include layout="@layout/li"/>
+        <TextView android:textSize="@dimen/ass" android:textStyle="bold" android:textColor="@color/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aog" android:layout_marginTop="@dimen/amf" android:text="@string/sp" android:layout_marginStart="@dimen/aog"/>
+        <include layout="@layout/kg"/>
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/u_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/and">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yq" android:layout_toLeftOf="@+id/w3" android:layout_centerVertical="true" android:layout_toStartOf="@+id/w3"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/w3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/aso" android:textColor="@color/j9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Facebook: fb.me/muslimdaily.official"/>
+                <TextView android:textSize="@dimen/aso" android:textColor="@color/j9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Messenger: m.me/muslimdaily.official"/>
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yr" android:layout_toRightOf="@+id/w3" android:layout_centerVertical="true" android:layout_toEndOf="@+id/w3"/>
+        </RelativeLayout>
+        <View android:id="@+id/a8w" android:layout_width="match_parent" android:layout_height="@dimen/aon"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

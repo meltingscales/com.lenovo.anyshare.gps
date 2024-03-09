@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:gravity="center_vertical" android:id="@id/bx9" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/br9" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/br9" app:a_7="@dimen/br9">
+        <ImageView android:id="@id/bwy" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+    <View android:id="@id/dih" android:layout_width="0.0dip" android:layout_height="@dimen/bnc" android:layout_toRightOf="@id/bx9" android:layout_toEndOf="@id/bx9" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:ellipsize="end" android:gravity="left" android:layout_gravity="start|center" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/dqb" android:layout_toRightOf="@id/dih" android:layout_centerVertical="true" android:layout_toStartOf="@id/dqb" android:layout_toEndOf="@id/dih" />
+    <FrameLayout android:id="@id/dqb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bm3" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/bm3" android:layout_alignParentEnd="true">
+        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:id="@id/b00" android:background="@drawable/aho" android:layout_width="wrap_content" android:layout_height="@dimen/bok" android:max="100" android:progress="100" android:singleLine="true" app:ajb="@dimen/bsw" app:ajh="@dimen/blk" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/akc" />
+        <include android:layout_gravity="end" android:id="@id/apt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/bqa" layout="@layout/um" />
+    </FrameLayout>
+</RelativeLayout>

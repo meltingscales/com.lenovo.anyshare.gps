@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/dgm" android:layout_height="@dimen/dgm">
+    <ImageView android:id="@+id/cky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dfj" android:scaleType="centerCrop"/>
+    <TextView android:textSize="@dimen/dgx" android:textColor="@color/b38" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/ckz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dg4" android:lines="2"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

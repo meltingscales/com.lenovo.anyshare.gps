@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:background="@color/i0" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:background="@color/jb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/a7u" android:layout_alignParentBottom="true"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/a7u" android:paddingBottom="@dimen/aqr" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:overScrollMode="never"/>
+        <com.ushareit.muslim.main.widget.MuslimMainHomeTopView android:id="@+id/xg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ap6" android:layout_marginRight="@dimen/ap6"/>
+    </RelativeLayout>
+</FrameLayout>

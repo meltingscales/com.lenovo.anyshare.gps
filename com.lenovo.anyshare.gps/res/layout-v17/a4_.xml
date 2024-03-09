@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/aao" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/c_b" android:layout_width="fill_parent" android:layout_height="@dimen/c4h" app:a1g="csi">
+        <Button android:layout_gravity="start|center" android:id="@id/return_view" android:background="@drawable/ayl" android:layout_width="@dimen/c3x" android:layout_height="@dimen/c3w" android:layout_marginLeft="@dimen/c3j" android:layout_marginStart="@dimen/c3j" app:a78="#99ffffff" />
+        <TextView android:textSize="@dimen/c4a" android:textStyle="bold" android:textColor="@color/a__" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c29" android:layout_marginRight="@dimen/c2w" android:text="@string/b2t" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/c29" android:layout_marginEnd="@dimen/c2w" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/bgc" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:layout_marginRight="@dimen/c35" android:layout_marginEnd="@dimen/c35">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/bgm" android:layout_width="@dimen/c2j" android:layout_height="@dimen/c2j" android:src="@drawable/b16" app:a7_="@color/a__" />
+            <TextView android:textSize="@dimen/c4f" android:textColor="@color/ac_" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/bgr" android:background="@drawable/b7m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/c1r" android:minWidth="@dimen/c18" android:minHeight="@dimen/c18" android:layout_marginEnd="@dimen/c1r" app:a7_="@color/a__" app:a7i="@color/a__" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/b7y" android:paddingTop="@dimen/c1d" android:paddingBottom="@dimen/c1d" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/c3p" android:layout_marginRight="@dimen/c3p" app:a0o="csi" app:a1f="@id/c_b" />
+</androidx.constraintlayout.widget.ConstraintLayout>

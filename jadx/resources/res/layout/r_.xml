@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.st.entertainment.core.view.GameIncentiveFrameLayout android:id="@+id/alk" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ajz" android:background="#fff" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/return_view_res_0x7805005c" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:src="@drawable/ac0"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ak0" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/aju" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="centerCrop" app:rsi_radius="8dp"/>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/pt" android:id="@+id/ale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp"/>
+            <com.st.entertainment.SdkLottieAnimationView android:layout_gravity="center_horizontal" android:id="@+id/ak6" android:layout_width="wrap_content" android:layout_height="7dp" android:layout_marginTop="14dp" app:lottie_autoPlay="true" app:lottie_fileName="game_loading/data.json" app:lottie_imageAssetsFolder="game_loading/images" app:lottie_loop="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@+id/aiv" android:layout="@layout/ri" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

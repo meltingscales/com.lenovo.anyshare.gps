@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/aog" android:background="@drawable/ah6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/bmf" android:paddingTop="@dimen/bmf" android:paddingRight="@dimen/bmf" android:paddingBottom="@dimen/bmf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/bx9" android:layout_width="@dimen/br4" android:layout_height="@dimen/br4" android:layout_alignParentTop="true" style="@style/am8">
+                <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+                <include android:layout_gravity="end|bottom" android:layout_width="@dimen/bmm" android:layout_height="@dimen/bl2" layout="@layout/uo"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/bhl" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" style="@style/am9"/>
+            <TextView android:textSize="@dimen/bho" android:textColor="@color/sg" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bqv" android:maxLines="1" android:maxEms="36" android:layout_below="@+id/title" android:layout_alignWithParentIfMissing="true" android:lineSpacingExtra="@dimen/bhn" style="@style/am7"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bx9" android:layout_below="@+id/message" android:layout_alignParentBottom="true" android:layout_toEndOf="@+id/bx9">
+                <ImageView android:background="@drawable/ahn" android:layout_width="wrap_content" android:layout_height="@dimen/bl2"/>
+                <TextView android:textSize="@dimen/bsu" android:textColor="#ff9f00" android:id="@+id/aol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bq1" android:layout_marginStart="@dimen/bq1"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags"/>
+        </RelativeLayout>
+        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="match_parent" android:layout_height="@dimen/bhp" android:layout_marginTop="@dimen/bmm" android:max="100" android:progress="100" app:textSize="@dimen/bsy" app:text_bold="true" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akc"/>
+    </LinearLayout>
+</FrameLayout>

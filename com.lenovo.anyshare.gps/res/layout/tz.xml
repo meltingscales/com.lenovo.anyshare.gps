@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@id/d6v" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_7="@dimen/bl2" style="@style/agp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/aog" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.ushareit.ads.ui.widget.RoundRectFrameLayout android:id="@id/d2i" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/brq" android:layout_weight="1.0" app:m4="@dimen/bl2" app:m5="0.0dip" app:a_j="0.52356" app:al8="@dimen/bl2" app:al9="0.0dip">
+            <FrameLayout android:id="@id/bc_" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/bca" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/bcd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/bl2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/agp" />
+        </com.ushareit.ads.ui.widget.RoundRectFrameLayout>
+        <FrameLayout android:id="@id/bl3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/brq" android:layout_weight="1.0">
+            <include android:id="@id/dqf" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v4" />
+        </FrameLayout>
+    </LinearLayout>
+</com.ushareit.ads.ui.widget.RoundFrameLayout>

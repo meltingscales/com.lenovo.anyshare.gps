@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/c2d" android:background="@drawable/b3u" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c2m" app:night_bg_color_tint="@color/a93">
+    <TextView android:textSize="@dimen/c48" android:textStyle="bold" android:textColor="@color/a__" android:id="@+id/e09" android:paddingLeft="@dimen/c1f" android:paddingTop="@dimen/c1f" android:paddingRight="@dimen/c1t" android:paddingBottom="@dimen/c3j" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/d2t" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c2m"/>
+</com.ushareit.theme.night.view.NightLinearLayout>

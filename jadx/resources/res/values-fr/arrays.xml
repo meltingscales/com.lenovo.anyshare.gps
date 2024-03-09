@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="e">
+        <item>Qu&apos;Allah vous bénisse en ce mois sacré de Ramadan.</item>
+        <item>Je vous souhaite un Ramadan paisible et heureux.</item>
+        <item>Je vous souhaite santé et prospérité en ce Ramadan.</item>
+        <item>Je vous souhaite un mois sacré joyeux et glorieux.</item>
+        <item>Je vous souhaite un Ramadan béni</item>
+        <item>Que ce mois sacré apporte une abondance de bénédictions.</item>
+        <item>Que le Ramadan vous rapproche toujours plus de la Jannah.</item>
+        <item>Nous vous gardons dans nos prières pendant le Ramadan.</item>
+        <item>Je vous envoie de l&apos;amour et de la lumière pour votre famille en ce Ramadan.</item>
+        <item>Qu&apos;Allah soit avec vous tout au long de votre jeûne.</item>
+        <item>Qu&apos;Allah vous bénisse pendant le mois sacré.</item>
+        <item>Qu&apos;Allah bénisse et protège votre famille pendant le Ramadan.</item>
+        <item>Qu&apos;Allah soit généreux avec vous pendant ce Ramadan.</item>
+        <item>Je vous souhaite un mois sacré d&apos;illumination et de joie.</item>
+        <item>Laissez Allah remplir votre vie en ce mois sacré</item>
+        <item>Je vous souhaite du bien pour ce Ramadan.</item>
+        <item>Que votre jeûne vous apporte la paix intérieure et la joie inhérente.</item>
+    </array>
+    <array name="a">
+        <item>Pornographique Vulgaire</item>
+        <item>Crime</item>
+        <item>Politiquement sensible</item>
+        <item>Marketing illégal</item>
+        <item>Fausses informations</item>
+        <item>Infractions</item>
+    </array>
+    <array name="c">
+        <item>Contenu gênant</item>
+        <item>Pornographie</item>
+        <item>Contenu violent</item>
+        <item>Contenu préjudiciable et dangereux</item>
+        <item>Le titre/la couverture ne correspond pas au contenu</item>
+    </array>
+    <array name="s">
+        <item>Nom (A-Z)</item>
+        <item>Nom (Z-A)</item>
+        <item>Date (par ordre chronologique inverse)</item>
+        <item>Date (par ordre chronologique)</item>
+    </array>
+    <array name="t">
+        <item>Ce n&apos;est pas l&apos;expérience que nous aimerions que vous viviez. Partagez vos commentaires ci-dessous.</item>
+        <item>Hmmm, oh ! Pourriez-vous nous en dire plus sur ce que nous pourrions améliorer ?</item>
+        <item>Nous vous remercions de vos commentaires. Y a-t-il quelque chose de spécifique que nous pourrions améliorer selon vous ?</item>
+        <item>Merci ! Vos commentaires nous incitent à nous améliorer. Voulez-vous nous donner un 5 ?</item>
+        <item>Merci ! Vos commentaires géniaux viennent d&apos;ensoleiller notre journée ! Évaluez-nous sur le Play Store.</item>
+    </array>
+    <array name="v">
+        <item>%s applications peuvent être mises à jour sans consommer de données.</item>
+        <item>%s applications que vous avez reçues n&apos;ont pas encore été mises à jour.</item>
+        <item>%s applications partagées par des amis doivent être mises à jour.</item>
+    </array>
+    <array name="x">
+        <item>Les fichiers audio volumineux ont utilisé %s d&apos;espace</item>
+    </array>
+    <array name="z">
+        <item>Les fichiers d&apos;images volumineux ont utilisé %s d&apos;espace</item>
+    </array>
+    <array name="a1">
+        <item>Des fichiers volumineux occupent %s d&apos;espace</item>
+        <item>Il est temps de nettoyer les %s gros fichiers dans le stockage.</item>
+    </array>
+    <array name="a3">
+        <item>Les fichiers vidéo volumineux ont utilisé %s d&apos;espace</item>
+    </array>
+    <array name="a5">
+        <item>Trouvé %s fichiers de musique en double à nettoyer.</item>
+        <item>Nettoyer %s fichiers de musique en double pour libérer de l’espace</item>
+    </array>
+    <array name="a7">
+        <item>J&apos;ai trouvé %s de photos en double à nettoyer.</item>
+        <item>N&apos;oubliez pas de nettoyer %s photos en double pour libérer de l&apos;espace.</item>
+    </array>
+    <array name="a9">
+        <item>J&apos;ai trouvé %s de vidéos en double à nettoyer.</item>
+        <item>N&apos;oubliez pas de nettoyer les %s de vidéos en double pour libérer de l&apos;espace.</item>
+    </array>
+    <array name="aa">
+        <item>%s fichiers indésirables ralentissent le système.</item>
+        <item>%s fichiers indésirables détectés</item>
+    </array>
+    <array name="ac">
+        <item>Déjà %s jours depuis que vous avez nettoyé les fichiers indésirables</item>
+        <item>Les fichiers indésirables du mobile n&apos;ont pas été nettoyés depuis plus de %s jours.</item>
+    </array>
+    <array name="ae">
+        <item>%s chansons partagées par des amis n&apos;ont pas encore été écoutées.</item>
+        <item>%s nouvelles chansons partagées par des amis n&apos;ont pas encore été écoutées.</item>
+        <item>Vous souvenez-vous encore des %s chansons que vous avez reçues ?</item>
+    </array>
+    <array name="ag">
+        <item>J&apos;ai trouvé des déchets résiduels de l&apos;application désinstallée.</item>
+    </array>
+    <array name="ai">
+        <item>Trouvé %s fichiers de captures d&apos;écran à nettoyer</item>
+        <item>N&apos;oubliez pas de nettoyer les %s fichiers de captures d&apos;écran</item>
+    </array>
+    <array name="ak">
+        <item>%s applications inutilisées détectées</item>
+    </array>
+    <array name="al">
+        <item>Cette vidéo a été prise par une personne avec un téléphone ou une caméra</item>
+        <item>Il s&apos;agit d&apos;une vidéo publique</item>
+        <item>Autres raisons</item>
+    </array>
+    <array name="am">
+        <item>Quel est votre nombre porte-bonheur ?</item>
+        <item>Quel est votre rêve ?</item>
+        <item>Où voudriez-vous aller ?</item>
+        <item>Quel est votre film favori ?</item>
+        <item>Quelle compétence voudriez-vous avoir ?</item>
+        <item>Quel est le nom de votre meilleur(e) ami(e) ?</item>
+        <item>Quel est votre plat favori ?</item>
+    </array>
+    <array name="an">
+        <item>Quel est votre nombre porte-bonheur ?</item>
+        <item>Quel est votre plat favori ?</item>
+        <item>Comment s’appelle votre meilleur(e) ami(e) ?</item>
+        <item>Quel est votre film favori ?</item>
+        <item>Quel est votre rêve ?</item>
+    </array>
+    <array name="ao">
+        <item>%s applications peuvent être mises à jour sans consommer de données.</item>
+        <item>%s applications que vous avez reçues n&apos;ont pas encore été mises à jour.</item>
+        <item>%s applications partagées par des amis doivent être mises à jour.</item>
+    </array>
+    <array name="ap">
+        <item>Mises à jour disponibles pour %s applications partagées avec vous</item>
+        <item>Mettez à jour maintenant ! %s nouvelles versions d&apos;application disponibles</item>
+        <item>Restez à jour avec la dernière version des applications.</item>
+        <item>Découvrez les nouveautés ! Mettez à jour aujourd&apos;hui !</item>
+    </array>
+    <array name="aq">
+        <item>Les fichiers audio volumineux ont utilisé %s d&apos;espace</item>
+    </array>
+    <array name="as">
+        <item>Les fichiers d&apos;images volumineux ont utilisé %s d&apos;espace</item>
+    </array>
+    <array name="au">
+        <item>Des fichiers volumineux occupent %s d&apos;espace</item>
+        <item>Il est temps de nettoyer les %s gros fichiers dans le stockage.</item>
+    </array>
+    <array name="aw">
+        <item>Les fichiers vidéo volumineux ont utilisé %s d&apos;espace</item>
+    </array>
+    <array name="ay">
+        <item>Ces applications ralentissent le système ; relancez votre téléphone maintenant.</item>
+    </array>
+    <array name="b0">
+        <item>%s applications ralentissent le système ; boostez votre téléphone maintenant.</item>
+    </array>
+    <array name="b2">
+        <item>Cliquez pour accélérer la vitesse de recharge maintenant</item>
+    </array>
+    <array name="b4">
+        <item>%s applications ralentissent votre vitesse de recharge</item>
+    </array>
+    <array name="b6">
+        <item>Plus d&apos;espace de stockage ; connectez-vous à un PC pour libérer de l&apos;espace.</item>
+        <item>À court de stockage, transférez les gros fichiers sur votre PC</item>
+    </array>
+    <array name="b7">
+        <item>Trouvé %s fichiers de musique en double à nettoyer.</item>
+        <item>Nettoyer %s fichiers de musique en double pour libérer de l’espace</item>
+    </array>
+    <array name="b9">
+        <item>J&apos;ai trouvé %s de photos en double à nettoyer.</item>
+        <item>N&apos;oubliez pas de nettoyer %s photos en double pour libérer de l&apos;espace.</item>
+    </array>
+    <array name="ba">
+        <item>J&apos;ai trouvé %s de vidéos en double à nettoyer.</item>
+        <item>N&apos;oubliez pas de nettoyer les %s de vidéos en double pour libérer de l&apos;espace.</item>
+    </array>
+    <array name="bc">
+        <item>︎Mettez votre casque audio</item>
+        <item>Il est temps d&apos;écouter de la musique</item>
+    </array>
+    <array name="bd">
+        <item>%s fichiers indésirables ralentissent le système.</item>
+        <item>%s fichiers indésirables détectés</item>
+    </array>
+    <array name="bf">
+        <item>Déjà %s jours depuis que vous avez nettoyé les fichiers indésirables</item>
+        <item>Les fichiers indésirables du mobile n&apos;ont pas été nettoyés depuis plus de %s jours.</item>
+    </array>
+    <array name="bh">
+        <item>%s chansons partagées par des amis n&apos;ont pas encore été écoutées.</item>
+        <item>%s nouvelles chansons partagées par des amis n&apos;ont pas encore été écoutées.</item>
+        <item>Vous souvenez-vous encore des %s chansons que vous avez reçues ?</item>
+    </array>
+    <array name="bi">
+        <item>Vous n&apos;avez pas certains morceaux ? Il est temps d&apos;appuyer sur lecture et de redécouvrir vos morceaux préférés !</item>
+        <item>Vous sentez comme un vide ? Montez le volume et laissez la musique embellir vos journées de joie.</item>
+        <item>Les rythmes qui vous font vibrer vous manquent ? Plongez dans vos morceaux préférés et laissez le rythme guider votre journée.</item>
+    </array>
+    <array name="bk">
+        <item>Écoutez votre liste de lecture❤</item>
+        <item>Écoutez votre liste de lecture</item>
+    </array>
+    <array name="bm">
+        <item>%s applications utilisent la batterie en arrière-plan</item>
+    </array>
+    <array name="bo">
+        <item>Des fichiers résiduels de l&apos;application qui vient d&apos;être supprimée ont été détectés.</item>
+        <item>Supprimez les fichiers résiduels de l&apos;application qui vient d&apos;être supprimée.</item>
+    </array>
+    <array name="bq">
+        <item>Trouvé %s fichiers de captures d&apos;écran à nettoyer</item>
+        <item>N&apos;oubliez pas de nettoyer les %s fichiers de captures d&apos;écran</item>
+    </array>
+    <array name="bs">
+        <item>%s de nouveaux souvenirs à partager avec vos amis et vos proches</item>
+        <item>Partagez %s nouvelles photos sans perte de qualité</item>
+    </array>
+    <array name="bt">
+        <item>Cliquez pour jouer</item>
+        <item>Il est temps d&apos;écouter de la musique</item>
+    </array>
+    <array name="bx">
+        <item>%s applications inutilisées détectées</item>
+    </array>
+    <array name="bz">
+        <item>%1$s détecté avec %2$s menaces de sécurité</item>
+        <item>%1$s apps détectées avec %2$s menaces de sécurité</item>
+    </array>
+    <array name="c2">
+        <item>Ces applications utilisent la batterie en arrière-plan</item>
+    </array>
+    <array name="c3">
+        <item>Apparaît trop souvent</item>
+        <item>Timing inapproprié</item>
+        <item>Mauvaise qualité</item>
+        <item>Annonces ennuyeuses</item>
+        <item>Pas intéressé</item>
+    </array>
+    <array name="c4">
+        <item>Matériel</item>
+        <item>Logiciel</item>
+    </array>
+    <array name="c5">
+        <item>Lecture automatique</item>
+        <item>Boucle</item>
+    </array>
+    <array name="c6">
+        <item>Fichiers supprimés par erreur</item>
+        <item>Ne fonctionne pas</item>
+        <item>Pas entièrement fonctionnel</item>
+        <item>Trop de publicités</item>
+    </array>
+    <array name="c8">
+        <item>Impossible de se connecter à iOS ou à un PC</item>
+        <item>Contenu vidéo inapproprié</item>
+        <item>Vidéos en retard ou en tampon</item>
+        <item>Image de basse qualité</item>
+        <item>Chargement lent de la vidéo</item>
+        <item>Distribué par divertissements</item>
+    </array>
+    <array name="c9">
+        <item>Ne fonctionne pas</item>
+        <item>Pas entièrement fonctionnel</item>
+        <item>Trop de fausses notifications</item>
+        <item>Trop de publicités</item>
+    </array>
+    <array name="c_">
+        <item>Plusieurs tentatives pour démarrer le point d&apos;accès Wi-Fi</item>
+        <item>Longtemps pour démarrer le point d&apos;accès Wi-Fi</item>
+        <item>La progression du transfert se bloque</item>
+        <item>De nombreuses tentatives de connexion</item>
+    </array>
+    <array name="ca">
+        <item>Plusieurs tentatives pour trouver le destinataire</item>
+        <item>Des difficultés à sélectionner des fichiers</item>
+        <item>Plusieurs tentatives de connexion</item>
+        <item>Se déconnecte pendant le transfert</item>
+    </array>
+    <array name="cb">
+        <item>Vitesse de transfert lente</item>
+        <item>Ne fonctionne pas</item>
+        <item>Fichiers supprimés par erreur</item>
+        <item>Trop de publicités</item>
+    </array>
+    <array name="cc">
+        <item>Les téléphones sont toujours aussi lents</item>
+        <item>Ne fonctionne pas</item>
+        <item>Pas entièrement fonctionnel</item>
+        <item>Trop de publicités</item>
+    </array>
+    <array name="cd">
+        <item>Vitesse de transfert lente</item>
+        <item>Le processus de transfert est trop complexe</item>
+        <item>Impossible de se connecter avec iOS ou un PC</item>
+        <item>Trop de publicités</item>
+    </array>
+    <array name="cf">
+        <item>Mauvaise interface</item>
+        <item>Fonctionnement non satisfaisant</item>
+        <item>Persistance gênante</item>
+    </array>
+    <array name="cg">
+        <item>Contenu gênant</item>
+        <item>Pornographie</item>
+        <item>Contenu violent</item>
+        <item>Contenu préjudiciable et dangereux</item>
+        <item>Le titre/la couverture ne correspond pas au contenu</item>
+    </array>
+    <array name="ch">
+        <item>Spam ou contenu trompeur</item>
+        <item>Atteinte à mes droits</item>
+        <item>Je veux les paroles</item>
+        <item>Je veux partager</item>
+        <item>Je veux plus de chansons de cet artiste</item>
+    </array>
+    <array name="ci">
+        <item>Temps ajouté</item>
+        <item>Durée de lecture</item>
+        <item>Titre</item>
+    </array>
+    <array name="cj">
+        <item>Après le démarrage, les dossiers et les fichiers masqués seront affichés</item>
+        <item>Les fichiers inclus dans le dossier .nomedia ne seront pas balayés par défaut</item>
+    </array>
+    <array name="ck">
+        <item>Afficher les fichiers et les dossiers masqués</item>
+        <item>Balayer le dossier .nomedia</item>
+    </array>
+    <array name="cl">
+        <item>Décodeur logiciel</item>
+        <item>Décodeur matériel</item>
+    </array>
+    <array name="cn">
+        <item>Adapter au mieux</item>
+        <item>Plein écran</item>
+        <item>1 : 1</item>
+        <item>4 : 3</item>
+        <item>16 : 9</item>
+    </array>
+    <array name="u">
+        <item>Traversez les étoiles et la lune pour mieux vous rencontrer.</item>
+        <item>Le temps se rafraîchit soudainement ; il est donc temps de tourner la page.</item>
+        <item>Rêvez ce qui vous plaît, soyez qui vous voulez.</item>
+        <item>Nous naissons brisés et nous sommes réparés par la vie.</item>
+        <item>Le vin sera plus savoureux après le temps passé.</item>
+        <item>Parfois toujours, parfois jamais.</item>
+        <item>J&apos;ai toujours travaillé dur pour vivre.</item>
+        <item>Il est peut-être temps que nous devenions tolérants.</item>
+        <item>Le jour le plus long a une fin.</item>
+        <item>La vie est trop courte pour les rancunes à long terme.</item>
+    </array>
+    <array name="bj">
+        <item>Consultez vos moments sur %s</item>
+    </array>
+    <array name="p">
+        <item>Comment gagner plus d&apos;argent ?</item>
+        <item>M&apos;apprendre à cuisiner un plat ?</item>
+        <item>Donnez-moi un nom pour mon enfant.</item>
+    </array>
+    <array name="bp">
+        <item>Supprimez les fichiers résiduels des applications désinstallées pour maintenir votre appareil impeccable.</item>
+        <item>Supprimez les fichiers restants des applications désinstallées pour plus d&apos;efficacité.</item>
+        <item>Supprimez les fichiers résiduels des applications désinstallées pour avoir un téléphone sans souci.</item>
+        <item>La désinstallation d&apos;applications peut laisser des fichiers inutilisés. Supprimez-les maintenant !</item>
+    </array>
+    <array name="bu">
+        <item>Le silence n&apos;est pas d&apos;or. Jouez de la musique !</item>
+        <item>Libérez le passionné de musique qui sommeille en vous. Appuyez sur lecture maintenant !</item>
+        <item>Dépoussiérez vos écouteurs. L&apos;heure est à la musique !</item>
+    </array>
+    <array name="by">
+        <item>Les applications inutilisées s&apos;accumulent ? Il est temps de faire le ménage !</item>
+        <item>Les applications inutilisées occupent de l&apos;espace ? Il est temps de faire le ménage ?</item>
+        <item>Libérez de l&apos;espace ! Pensez à nettoyer les applications inutilisées.</item>
+    </array>
+    <array name="c0">
+        <item>��Ne manquez pas le statut de votre ami, sauvegardez-le maintenant !</item>
+    </array>
+    <array name="c1">
+        <item>Nouveau statut trouvé !</item>
+    </array>
+</resources>

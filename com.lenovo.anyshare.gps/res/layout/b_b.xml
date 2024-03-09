@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/q1">
+        <TextView android:id="@id/title_text" android:text="@string/d44" style="@style/q7" />
+        <TextView android:id="@id/cgi" android:text="@string/d42" style="@style/pr" />
+        <com.lenovo.anyshare.widget.RectFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginTop="@dimen/bm3" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bmf" app:a_j="0.625">
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/cgj" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.lenovo.anyshare.widget.RectFrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/c1q" android:paddingLeft="@dimen/bm3" android:paddingTop="@dimen/bl2" android:paddingRight="@dimen/bm3" android:paddingBottom="@dimen/bl2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8">
+            <TextView android:textColor="@color/xu" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/cne" android:layout_width="wrap_content" android:layout_height="@dimen/bo8" android:text="AndroidShare_1234" android:singleLine="true" android:drawableLeft="@drawable/dh4" android:drawablePadding="@dimen/br9" android:drawableStart="@drawable/dh4" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ct2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/xu" android:layout_gravity="center_vertical" android:id="@id/csv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="12345678" android:drawableLeft="@drawable/dh5" android:drawablePadding="@dimen/br9" android:layout_weight="1.0" android:drawableStart="@drawable/dh5" />
+                <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/a4d" android:gravity="center" android:id="@id/bc0" android:background="@drawable/aro" android:layout_width="wrap_content" android:layout_height="@dimen/bo8" android:minWidth="@dimen/brj" android:text="@string/arf" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/a30" />
+    </LinearLayout>
+</LinearLayout>

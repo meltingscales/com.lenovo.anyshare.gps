@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/cgo" android:background="@color/tc" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/dcw" android:background="@drawable/an4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bt3" android:textColor="@color/tj" android:gravity="start|center_vertical" android:id="@+id/dd_" android:paddingLeft="@dimen/bo8" android:paddingRight="@dimen/bo8" android:layout_width="match_parent" android:layout_height="@dimen/bqq" android:text="@string/d9o" android:layout_toLeftOf="@+id/dcv" android:layout_toStartOf="@+id/dcv"/>
+            <ImageView android:id="@+id/dcv" android:padding="@dimen/bqv" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginLeft="@dimen/bq1" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/bq1" android:layout_marginBottom="@dimen/bq1" android:src="@drawable/dqp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" android:layout_marginHorizontal="@dimen/bq1" android:layout_marginVertical="@dimen/bq1"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/xu" android:gravity="start|center_vertical" android:id="@+id/dcx" android:paddingLeft="@dimen/bo8" android:paddingRight="@dimen/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bpe" android:text="@string/d9n" android:paddingHorizontal="@dimen/bo8"/>
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/dd6" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:background="@color/a0z" android:layout_width="match_parent" android:layout_height="1px"/>
+        <FrameLayout android:id="@+id/b0m" android:layout_width="match_parent" android:layout_height="@dimen/bqd">
+            <TextView android:textColor="@color/a3s" android:layout_gravity="center" android:id="@+id/ddb" android:text="@string/at5" style="@style/vz"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

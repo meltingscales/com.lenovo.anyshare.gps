@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/c90" layout="@layout/a0y" />
+        <FrameLayout android:id="@id/cu3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.lenovo.anyshare.content.photo.PhotoSafeBoxView android:id="@id/d8a" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.lenovo.anyshare.widget.recyclerview_adapter.sticky_recyclerview.StickyRecyclerView android:id="@id/b0p" android:background="@color/bi0" android:paddingBottom="17.0dip" android:clipToPadding="false" style="@style/qo" />
+            <com.lenovo.anyshare.widget.recyclerview_adapter.sticky_recyclerview.StickyRecyclerView android:id="@id/aq6" android:background="@color/bi0" android:paddingBottom="17.0dip" android:clipToPadding="false" style="@style/qo" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.ushareit.widget.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/cud" android:background="@drawable/duj" android:padding="@dimen/dhs" android:layout_width="@dimen/dhv" android:layout_height="@dimen/dhv" />
+    <include android:id="@id/cu7" layout="@layout/a05" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/a2b" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/aa1"/>
+        <FrameLayout android:id="@+id/bb6" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/dh4"/>
+        <View android:id="@+id/dh4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bqd"/>
+        <FrameLayout android:id="@+id/bni" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/abo"/>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

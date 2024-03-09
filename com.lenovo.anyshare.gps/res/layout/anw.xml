@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.gallery.GalleryRoundFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:a_x="@dimen/ch3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.mcds.ui.view.RatioByWidthImageView android:id="@id/byp" android:background="@color/at_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:ank="2.5" />
+    <ViewStub android:id="@id/cfa" android:background="@color/atb" android:layout="@layout/ani" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgm" android:layout_height="@dimen/cgf" android:layout_margin="@dimen/ch3" />
+</com.ushareit.mcds.ui.view.gallery.GalleryRoundFrameLayout>

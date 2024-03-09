@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.muslim.main.home.widget.RamadanView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/a_a" android:background="@drawable/u6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/aqj" android:layout_marginTop="@dimen/ap6" android:layout_marginRight="@dimen/aqj"/>

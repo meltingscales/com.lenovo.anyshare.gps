@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dnc" app:a_7="@dimen/blk" app:a_j="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightFrameLayout android:background="@drawable/dh8" android:layout_width="fill_parent" android:layout_height="fill_parent" app:a75="@dimen/db2" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.lenovo.anyshare.widget.CustomProgressBar android:layout_gravity="center" android:id="@id/cyc" android:layout_width="fill_parent" android:layout_height="@dimen/dnc" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/cyp" android:layout_width="fill_parent" android:layout_height="@dimen/dnc">
+            <LinearLayout android:gravity="end|center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="@dimen/dnc" android:layout_weight="1.0">
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dne" android:textColor="#fffff511" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/dfj" android:layout_width="@dimen/blc" android:layout_height="fill_parent" android:text="15.9" app:a7i="@color/w4" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginHorizontal="@dimen/bqf">
+                    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dnh" android:textColor="@color/bj1" android:gravity="bottom" android:id="@id/dfm" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bmf" android:text="MB" android:textDirection="locale" app:a7i="#e5ffffff" />
+                    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dnh" android:textColor="@color/bj1" android:gravity="top" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bmf" android:text="@string/da6" app:a7i="#e5ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ai8">
+                <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dne" android:textColor="#fffff511" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/dox" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/brm" android:text="46" app:a7i="@color/w4" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginHorizontal="@dimen/bqf">
+                    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dnh" android:textColor="@color/bj1" android:gravity="bottom" android:id="@id/dp2" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bmf" android:text="s" android:textDirection="locale" app:a7i="#e5ffffff" />
+                    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/dnh" android:textColor="@color/bj1" android:gravity="top" android:id="@id/doz" android:layout_width="@dimen/bq4" android:layout_height="@dimen/bmf" android:text="@string/da9" app:a7i="#e5ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ushareit.theme.night.view.NightFrameLayout>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

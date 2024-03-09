@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/e77" android:background="@drawable/buq" android:layout_width="match_parent" android:layout_height="@dimen/bm0" app:radius="@dimen/ce9">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cb8" android:background="@drawable/dup" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/amb"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/blk">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ba2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ushareit.widget.RoundFrameLayout android:id="@+id/b_z" android:layout_width="@dimen/ce8" android:layout_height="@dimen/ce8" android:layoutDirection="ltr" app:radius="@dimen/ce6">
+                    <ImageView android:id="@+id/b_w" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bup" android:scaleType="centerCrop"/>
+                    <ImageView android:id="@+id/ba5" android:layout_width="@dimen/cea" android:layout_height="@dimen/ce_" android:src="@drawable/bus"/>
+                </com.ushareit.widget.RoundFrameLayout>
+                <TextView android:textSize="@dimen/btj" android:textStyle="bold" android:textColor="@color/v9" android:ellipsize="end" android:id="@+id/ba8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/bs3" android:maxLines="1" android:singleLine="true" android:layout_weight="1" android:layout_marginStart="@dimen/br9" android:layout_marginEnd="@dimen/bs3"/>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/b_k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/b_h" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:src="@drawable/ary"/>
+                    <TextView android:textSize="@dimen/btg" android:textStyle="bold" android:textColor="@color/wh" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/b_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:singleLine="true"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ba3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bl2">
+                <com.ushareit.widget.RoundFrameLayout android:id="@+id/ba0" android:layout_width="@dimen/ce8" android:layout_height="@dimen/ce8" android:layoutDirection="ltr" app:radius="@dimen/ce6">
+                    <ImageView android:id="@+id/b_x" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bup" android:scaleType="centerCrop"/>
+                    <ImageView android:id="@+id/ba6" android:layout_width="@dimen/cea" android:layout_height="@dimen/ce_" android:src="@drawable/bus"/>
+                </com.ushareit.widget.RoundFrameLayout>
+                <TextView android:textSize="@dimen/btj" android:textStyle="bold" android:textColor="@color/v9" android:ellipsize="end" android:id="@+id/ba9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginRight="@dimen/bs3" android:maxLines="1" android:singleLine="true" android:layout_weight="1" android:layout_marginStart="@dimen/br9" android:layout_marginEnd="@dimen/bs3"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/b_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/b_i" android:layout_width="@dimen/bnj" android:layout_height="@dimen/bnj" android:src="@drawable/ary"/>
+                    <TextView android:textSize="@dimen/btg" android:textStyle="bold" android:textColor="@color/wh" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/b_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:singleLine="true"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.ushareit.widget.RoundFrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/d71" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <View android:background="@color/a4r" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include app:a1c="csi" app:a1g="csi" layout="@layout/a0g" />
+        <com.ushareit.widget.CommonContentPagesSwitchBar android:id="@id/dm4" android:paddingTop="@dimen/bs3" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/bqd" app:a1g="csi" app:amn="false" />
+        <com.ushareit.listplayer.pager.ViewPagerForSlider android:id="@id/e5b" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bnj" android:layout_marginTop="@dimen/blv" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bpo" app:a0p="@id/dwu" app:a1f="@id/dm4" />
+        <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/a4d" android:gravity="center" android:layout_gravity="center" android:id="@id/dwu" android:background="@drawable/bac" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/bpv" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bpo" android:text="@string/bmk" android:textAllCaps="true" app:a0o="csi" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/e2r" android:background="@color/a4r" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</FrameLayout>

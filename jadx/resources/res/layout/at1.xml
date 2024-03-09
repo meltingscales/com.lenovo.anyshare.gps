@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/cay" android:paddingTop="@dimen/d2p" android:paddingBottom="@dimen/d2o" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/icon" android:layout_width="@dimen/d27" android:layout_height="@dimen/d27" android:layout_marginBottom="@dimen/d1c" android:scaleType="fitCenter"/>
+    <TextView android:textSize="@dimen/d1m" android:textColor="@color/awp" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/d2q" android:singleLine="true"/>
+    <TextView android:textSize="@dimen/d1o" android:textColor="@color/awt" android:ellipsize="end" android:gravity="center" android:id="@+id/ctk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d28" android:maxWidth="@dimen/d2q" android:singleLine="true"/>
+    <TextView android:textSize="@dimen/d1t" android:textStyle="bold" android:textColor="@color/awy" android:ellipsize="end" android:gravity="center" android:id="@+id/b00" android:background="@drawable/cb2" android:visibility="gone" android:layout_width="@dimen/d27" android:layout_height="@dimen/d1p" android:layout_marginTop="@dimen/d2n" android:layout_marginBottom="@dimen/d2n" android:singleLine="true"/>
+</LinearLayout>

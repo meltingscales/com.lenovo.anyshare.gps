@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/q3">
+    <LinearLayout android:background="@drawable/dev" android:paddingTop="@dimen/alr" style="@style/q1">
+        <ImageView android:gravity="center" android:layout_gravity="end|center_vertical" android:id="@+id/a0b" android:padding="@dimen/am3" android:visibility="visible" android:layout_width="@dimen/apk" android:layout_height="@dimen/apk" android:src="@drawable/y9"/>
+        <TextView android:textStyle="bold" android:id="@+id/title_text_res_0x71070257" android:layout_marginTop="@dimen/aqj" android:layout_marginBottom="@dimen/alr" android:text="@string/adhan_automanually" style="@style/q7"/>
+        <androidx.legacy.widget.Space android:layout_width="match_parent" android:layout_height="@dimen/aqj"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a39" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/ao5" android:layout_marginRight="@dimen/aon">
+            <ImageView android:layout_width="@dimen/aon" android:layout_height="@dimen/aon" android:src="@drawable/oc"/>
+            <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/amf" android:layout_marginRight="@dimen/amf" android:text="@string/adhan_open_location_tip" android:layout_weight="1"/>
+            <FrameLayout android:layout_width="@dimen/aqo" android:layout_height="@dimen/aon">
+                <TextView android:textSize="@dimen/asq" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/abj" android:background="@drawable/tz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sl"/>
+                <ImageView android:id="@+id/a0s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/oe" android:scaleType="centerInside"/>
+                <com.airbnb.lottie.LottieAnimationView android:id="@+id/a3u" android:layout_width="match_parent" android:layout_height="match_parent" app:lottie_fileName="adhanloading/data.json" app:lottie_imageAssetsFolder="adhanloading/images"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a32" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/ao5" android:layout_marginRight="@dimen/aon">
+            <ImageView android:layout_width="@dimen/aon" android:layout_height="@dimen/aon" android:src="@drawable/oo"/>
+            <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/amf" android:layout_marginRight="@dimen/amf" android:text="@string/adhan_open_floating_tip" android:layout_weight="1"/>
+            <FrameLayout android:layout_width="@dimen/aqo" android:layout_height="@dimen/aon">
+                <TextView android:textSize="@dimen/asq" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/aav" android:background="@drawable/tz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sl"/>
+                <ImageView android:id="@+id/a0i" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/oe" android:scaleType="centerInside"/>
+                <com.airbnb.lottie.LottieAnimationView android:id="@+id/a3t" android:layout_width="match_parent" android:layout_height="match_parent" app:lottie_fileName="adhanloading/data.json" app:lottie_imageAssetsFolder="adhanloading/images"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a2t" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aon" android:layout_marginTop="@dimen/ao5" android:layout_marginRight="@dimen/aon">
+            <ImageView android:layout_width="@dimen/aon" android:layout_height="@dimen/aon" android:src="@drawable/o3"/>
+            <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/amf" android:layout_marginRight="@dimen/amf" android:text="@string/adhan_permission_background_pop" android:layout_weight="1"/>
+            <FrameLayout android:layout_width="@dimen/aqo" android:layout_height="@dimen/aon">
+                <TextView android:textSize="@dimen/asq" android:textStyle="bold" android:textColor="@color/l9" android:gravity="center" android:id="@+id/aa1" android:background="@drawable/tz" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sl"/>
+                <ImageView android:id="@+id/a04" android:background="@drawable/qc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/oe" android:scaleType="centerInside"/>
+                <com.airbnb.lottie.LottieAnimationView android:id="@+id/a3s" android:layout_width="match_parent" android:layout_height="match_parent" app:lottie_fileName="adhanloading/data.json" app:lottie_imageAssetsFolder="adhanloading/images"/>
+            </FrameLayout>
+        </LinearLayout>
+        <androidx.legacy.widget.Space android:layout_width="match_parent" android:layout_height="@dimen/ans"/>
+        <androidx.legacy.widget.Space android:layout_width="match_parent" android:layout_height="@dimen/am3"/>
+    </LinearLayout>
+</LinearLayout>

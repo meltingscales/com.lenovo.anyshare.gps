@@ -1,0 +1,69 @@
+.class public Lcom/lenovo/anyshare/Oxg;
+.super Lcom/lenovo/anyshare/_ie$c;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;->setSelection(I)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:I
+
+.field public final synthetic c:Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;
+
+
+# direct methods
+.method public constructor <init>(Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;II)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/lenovo/anyshare/Oxg;->c:Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;
+
+    iput p2, p0, Lcom/lenovo/anyshare/Oxg;->a:I
+
+    iput p3, p0, Lcom/lenovo/anyshare/Oxg;->b:I
+
+    invoke-direct {p0}, Lcom/lenovo/anyshare/_ie$c;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public callback(Ljava/lang/Exception;)V
+    .locals 1
+
+    .line 1
+    iget-object p1, p0, Lcom/lenovo/anyshare/Oxg;->c:Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;
+
+    invoke-static {p1}, Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;->b(Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;)Lcom/lenovo/anyshare/Mxg;
+
+    move-result-object p1
+
+    iget v0, p0, Lcom/lenovo/anyshare/Oxg;->a:I
+
+    invoke-virtual {p1, v0}, Lcom/lenovo/anyshare/Mxg;->a(I)V
+
+    .line 2
+    iget-object p1, p0, Lcom/lenovo/anyshare/Oxg;->c:Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;
+
+    invoke-static {p1}, Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;->b(Lcom/ushareit/filemanager/player/photo/thumblist/ThumbListView;)Lcom/lenovo/anyshare/Mxg;
+
+    move-result-object p1
+
+    iget v0, p0, Lcom/lenovo/anyshare/Oxg;->b:I
+
+    invoke-virtual {p1, v0}, Lcom/lenovo/anyshare/Mxg;->a(I)V
+
+    return-void
+.end method

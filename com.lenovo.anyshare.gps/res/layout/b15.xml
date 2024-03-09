@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d77" android:background="@color/b0m" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/bqj">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/atw" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" android:src="@drawable/csw" style="@style/aj7" />
+        <TextView android:textSize="@dimen/bt1" android:textColor="@color/a7_" android:layout_gravity="center_vertical" android:id="@id/dpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b5c" style="@style/aj3" />
+        <com.lenovo.anyshare.main.music.equalizer.SwitchButton android:layout_gravity="end|center" android:id="@id/bi3" android:background="@drawable/cui" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bok" custom:agv="@drawable/cug" style="@style/ahx" xmlns:custom="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <com.ushareit.musicplayer.equalizer.DefaultEqualizerPresetView android:id="@id/bdq" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_weight="0.148" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.335">
+        <ImageView android:layout_gravity="center" android:background="@drawable/ctk" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/bok" android:layout_marginRight="@dimen/bok" />
+        <LinearLayout android:layout_gravity="end|fill_horizontal|start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/blk" android:layout_marginBottom="@dimen/blk" style="@style/ai1">
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b4e" />
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:gravity="center" android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/b4g" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b4f" style="@style/ang" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:baselineAligned="false">
+            <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:paddingTop="@dimen/bnj" android:paddingBottom="@dimen/bnj" android:layout_width="@dimen/bpb" android:layout_height="fill_parent" android:src="@drawable/ctw" android:scaleType="fitXY" />
+                <com.ushareit.musicplayer.equalizer.VerticalSeekBar android:layout_gravity="center" android:id="@id/bj0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:max="30" style="@style/anh" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:paddingTop="@dimen/bnj" android:paddingBottom="@dimen/bnj" android:layout_width="@dimen/bpb" android:layout_height="fill_parent" android:src="@drawable/ctw" android:scaleType="fitXY" />
+                <com.ushareit.musicplayer.equalizer.VerticalSeekBar android:layout_gravity="center" android:id="@id/biy" android:layout_width="wrap_content" android:layout_height="fill_parent" android:max="30" style="@style/anh" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:paddingTop="@dimen/bnj" android:paddingBottom="@dimen/bnj" android:layout_width="@dimen/bpb" android:layout_height="fill_parent" android:src="@drawable/ctw" android:scaleType="fitXY" />
+                <com.ushareit.musicplayer.equalizer.VerticalSeekBar android:layout_gravity="center" android:id="@id/bj1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:max="30" style="@style/anh" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:paddingTop="@dimen/bnj" android:paddingBottom="@dimen/bnj" android:layout_width="@dimen/bpb" android:layout_height="fill_parent" android:src="@drawable/ctw" android:scaleType="fitXY" />
+                <com.ushareit.musicplayer.equalizer.VerticalSeekBar android:layout_gravity="center" android:id="@id/biz" android:layout_width="wrap_content" android:layout_height="fill_parent" android:max="30" style="@style/anh" />
+            </FrameLayout>
+            <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:paddingTop="@dimen/bnj" android:paddingBottom="@dimen/bnj" android:layout_width="@dimen/bpb" android:layout_height="fill_parent" android:src="@drawable/ctw" android:scaleType="fitXY" />
+                <com.ushareit.musicplayer.equalizer.VerticalSeekBar android:layout_gravity="center" android:id="@id/bix" android:layout_width="wrap_content" android:layout_height="fill_parent" android:max="30" style="@style/anh" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/brt" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_weight="0.056">
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b4a" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b49" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b4b" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b4_" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/b16" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b48" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_weight="0.056">
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/b15" android:gravity="center" android:id="@id/d47" android:background="@drawable/ctt" android:paddingLeft="@dimen/bl2" android:paddingRight="@dimen/bl2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/brm" android:text="@string/b55" android:layout_centerVertical="true" style="@style/agr" />
+        <Spinner android:id="@id/d46" android:background="@drawable/ctv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:popupBackground="@drawable/cth" android:spinnerMode="dropdown" style="@style/anf" />
+        <ImageView android:layout_width="@dimen/bmm" android:layout_height="@dimen/bmm" android:src="@drawable/cu7" android:layout_alignParentBottom="true" style="@style/ags" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/bnj" android:paddingRight="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="0.295">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bsw" android:textColor="@color/b15" android:gravity="center" android:layout_gravity="center|top" android:id="@id/av2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b4c" />
+            <FrameLayout android:layout_gravity="center|top" android:id="@id/av3" android:layout_width="@dimen/blc" android:layout_height="@dimen/blc">
+                <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ctb" />
+                <ImageView android:layout_gravity="center" android:id="@id/auz" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ct_" android:scaleType="fitXY" />
+                <com.ushareit.musicplayer.equalizer.SeekArc android:layout_gravity="center" android:id="@id/auy" android:layout_width="fill_parent" android:layout_height="fill_parent" seekarc:k8="@color/b17" seekarc:k_="@dimen/bqf" seekarc:u6="false" seekarc:a4y="1000" seekarc:a95="@color/b19" seekarc:a99="@dimen/bqf" seekarc:aa8="180" seekarc:aa_="true" seekarc:afs="15" seekarc:agp="330" seekarc:ajp="@drawable/ctx" seekarc:alb="false" xmlns:seekarc="http://schemas.android.com/apk/res-auto" />
+                <ImageView android:layout_gravity="bottom|center" android:id="@id/av1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:src="@drawable/cub" />
+                <ImageView android:layout_gravity="center" android:id="@id/av0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ctf" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/bsw" android:textColor="@color/b15" android:gravity="center" android:layout_gravity="center|top" android:id="@id/e4x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b5d" />
+            <FrameLayout android:layout_gravity="center|top" android:id="@id/e4y" android:layout_width="@dimen/blc" android:layout_height="@dimen/blc">
+                <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ctb" />
+                <ImageView android:layout_gravity="center" android:id="@id/e4u" android:padding="@dimen/bnj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ct_" android:scaleType="fitXY" />
+                <com.ushareit.musicplayer.equalizer.SeekArc android:layout_gravity="center" android:id="@id/e4t" android:padding="@dimen/boe" android:layout_width="fill_parent" android:layout_height="fill_parent" seekarc:k8="@color/b17" seekarc:k_="@dimen/bqf" seekarc:u6="false" seekarc:a4y="1000" seekarc:a95="@color/b19" seekarc:a99="@dimen/bqf" seekarc:aa8="180" seekarc:aa_="true" seekarc:afs="15" seekarc:agp="330" seekarc:ajp="@drawable/ctx" seekarc:alb="false" xmlns:seekarc="http://schemas.android.com/apk/res-auto" />
+                <ImageView android:layout_gravity="bottom|center" android:id="@id/e4w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:src="@drawable/cub" />
+                <ImageView android:layout_gravity="center" android:id="@id/e4v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ctf" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_weight="0.08">
+        <TextView android:textSize="@dimen/bsw" android:textColor="@color/b15" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/e54" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/b5e" />
+        <SeekBar android:layout_gravity="start|center" android:id="@id/e53" android:layout_width="0.0dip" android:layout_height="wrap_content" android:max="100" android:layout_weight="1.0" style="@style/ani" />
+    </LinearLayout>
+</LinearLayout>

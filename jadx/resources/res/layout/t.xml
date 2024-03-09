@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/q3">
+    <RelativeLayout android:layout_gravity="bottom" android:background="@drawable/ad" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/hs" android:textColor="@color/c4" android:id="@+id/gf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cx" android:layout_marginTop="@dimen/cx" android:text="@string/ej"/>
+        <ImageView android:id="@+id/gc" android:padding="@dimen/eq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bq" android:src="@drawable/cu" android:scaleType="centerCrop" android:layout_alignParentRight="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bz" android:layout_below="@+id/gf">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/ge" android:paddingLeft="@dimen/gp" android:paddingRight="@dimen/gp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:id="@+id/ek" android:background="@color/cw" android:layout_width="match_parent" android:layout_height="@dimen/cr" android:layout_marginLeft="@dimen/dk" android:layout_marginTop="@dimen/cx" android:layout_marginRight="@dimen/dk"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/el" android:paddingLeft="@dimen/gp" android:paddingRight="@dimen/gp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7" android:layout_marginBottom="@dimen/d8"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

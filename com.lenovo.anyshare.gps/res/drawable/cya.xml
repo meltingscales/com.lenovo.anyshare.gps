@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/ax" android:drawable="@drawable/cyb" />
+    <item android:duration="@integer/ax" android:drawable="@drawable/cyc" />
+    <item android:duration="@integer/ax" android:drawable="@drawable/cyd" />
+    <item android:duration="@integer/ax" android:drawable="@drawable/cye" />
+    <item android:duration="@integer/ax" android:drawable="@drawable/cyf" />
+    <item android:duration="@integer/ax" android:drawable="@drawable/cyg" />
+    <item android:duration="@integer/ax" android:drawable="@drawable/cyd" />
+    <item android:duration="@integer/ax" android:drawable="@drawable/cyh" />
+</animation-list>

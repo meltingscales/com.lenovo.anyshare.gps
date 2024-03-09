@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cfu" android:background="@color/aea" android:paddingLeft="@dimen/bmm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bpz">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/bty" app:night_alpha="@dimen/db2"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/xl" android:gravity="center_vertical" android:id="@+id/cft" android:layout_width="match_parent" android:layout_height="@dimen/bqj" android:text="@string/bet"/>
+    </LinearLayout>
+    <com.lenovo.anyshare.view.PtrClassicFrameLayout android:id="@+id/dn6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/buw" app:ptr_duration_to_close="200" app:ptr_duration_to_close_header="700" app:ptr_keep_header_when_refresh="true" app:ptr_pull_to_fresh="false" app:ptr_ratio_of_header_height_to_refresh="1.2" app:ptr_resistance="1.8">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/d2t" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/cfu" android:overScrollMode="never"/>
+    </com.lenovo.anyshare.view.PtrClassicFrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/cfq" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7" android:layout_marginTop="@dimen/byv" android:layout_marginBottom="@dimen/byv" android:indeterminateDrawable="@drawable/aul" android:layout_below="@+id/cfu" android:layout_centerHorizontal="true"/>
+    <include android:id="@+id/buw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/ahh"/>
+</RelativeLayout>

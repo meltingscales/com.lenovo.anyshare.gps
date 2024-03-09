@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/p7" android:background="#b3000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/nx" android:layout_width="match_parent" android:layout_height="match_parent">
+        <sg.bigo.ads.common.view.RoundedFrameLayout android:id="@+id/o_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp" android:layout_centerHorizontal="true" app:radius="6dp">
+            <ImageView android:id="@+id/oq" android:layout_width="80dp" android:layout_height="80dp"/>
+        </sg.bigo.ads.common.view.RoundedFrameLayout>
+        <Button android:textSize="14sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@+id/oi" android:background="@drawable/l3" android:layout_width="169dp" android:layout_height="43.5dp" android:text="@string/mr" android:maxLines="1" android:layout_below="@+id/o_" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-50dp" android:layout_below="@+id/oi" android:layout_marginStart="-50dp" android:layout_toEndOf="@+id/oi">
+            <ImageView android:layout_gravity="center" android:id="@+id/nw" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/l9"/>
+            <View android:layout_gravity="center" android:id="@+id/ny" android:background="@drawable/l_" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginTop="25dp" android:layout_marginStart="25dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="16sp" android:textColor="@android:color/white" android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/mp" android:fontFamily="sans-serif-medium"/>
+</FrameLayout>

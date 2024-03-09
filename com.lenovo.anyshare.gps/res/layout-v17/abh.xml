@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a3s" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/b9v" android:paddingTop="@dimen/brt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_marginRight="@dimen/bmw" android:layout_marginStart="@dimen/bm3" android:layout_marginEnd="@dimen/bmw">
+        <include layout="@layout/acd" />
+    </FrameLayout>
+    <View android:id="@id/b3g" android:background="@color/a0t" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/bra" android:layout_marginStart="@dimen/bra" />
+</LinearLayout>

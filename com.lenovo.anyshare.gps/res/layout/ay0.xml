@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.qrcode.FinderLayout android:id="@id/bmv" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/e2_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/de5" android:textColor="#ffc1c1c1" android:gravity="center" android:id="@id/d8z" android:paddingLeft="@dimen/bq4" android:paddingRight="@dimen/bq4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bnj" android:text="@string/cjl" android:layout_above="@id/e2_" android:layout_centerHorizontal="true" app:a7i="@color/w4" />
+    <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/de5" android:textColor="#ffc1c1c1" android:gravity="center" android:id="@id/d90" android:paddingLeft="@dimen/bq4" android:paddingRight="@dimen/bq4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnj" android:text="@string/clf" android:layout_below="@id/e2_" android:layout_centerHorizontal="true" app:a7i="@color/w4" />
+    <TextView android:textSize="14.0sp" android:id="@id/e18" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bqd" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</com.lenovo.anyshare.qrcode.FinderLayout>

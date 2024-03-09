@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="@dimen/ar1">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/a16" android:layout_width="@dimen/aph" android:layout_height="@dimen/aph" android:layout_marginLeft="@dimen/aon" android:src="@drawable/a2e" android:layout_marginStart="@dimen/aon"/>
+        <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:gravity="center_vertical" android:id="@+id/aba" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/am3" android:layout_weight="1" android:layout_marginStart="@dimen/am3"/>
+        <FrameLayout android:layout_width="@dimen/aqo" android:layout_height="@dimen/aqo" android:layout_marginLeft="@dimen/and" android:layout_marginRight="@dimen/and" android:layout_marginHorizontal="@dimen/and">
+            <com.ushareit.muslim.prayerrecorder.widget.CurrentPrayerItemView android:id="@+id/a3x" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/a1h" android:layout_width="@dimen/apb" android:layout_height="@dimen/apb" android:src="@drawable/pq"/>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@+id/adv" android:background="@color/j7" android:layout_width="match_parent" android:layout_height="@dimen/alp" android:layout_marginLeft="@dimen/ans" android:layout_marginRight="@dimen/ans" android:layout_alignParentBottom="true" android:layout_marginHorizontal="@dimen/ans"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/d_f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="400.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="end" android:id="@id/d8r" android:paddingLeft="@dimen/dkx" android:paddingTop="@dimen/brt" android:paddingRight="@dimen/dkx" android:layout_width="@dimen/bpe" android:layout_height="@dimen/bpe" android:layout_marginRight="@dimen/bqf" android:src="@drawable/dgy" android:layout_marginEnd="@dimen/bqf" />
+            <TextView android:textSize="@dimen/dl0" android:textStyle="bold" android:textColor="#ff191919" android:gravity="center_vertical" android:id="@id/d8t" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bm3" android:text="@string/d4l" android:lines="1" />
+            <ListView android:id="@id/d8q" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8" android:layout_marginBottom="@dimen/bnj" android:divider="@drawable/ath" android:dividerHeight="@dimen/bsi" style="@style/rc" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

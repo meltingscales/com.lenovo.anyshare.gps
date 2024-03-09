@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.mcds.ui.view.McdsRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/re">
+    <ImageView android:layout_gravity="end" android:id="@+id/bfx" android:layout_width="@dimen/byf" android:layout_height="@dimen/byf" android:layout_marginTop="@dimen/byn" android:layout_marginRight="@dimen/byi" android:src="@drawable/axt" android:layout_above="@+id/bes" android:layout_alignParentRight="true"/>
+    <com.ushareit.mcds.ui.view.RoundFrameLayout android:id="@+id/bes" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/byi" android:layout_marginTop="@dimen/bxw" android:layout_marginRight="@dimen/byi" app:radius="@dimen/bya" style="@style/rd">
+        <ViewStub android:id="@+id/byt" android:layout="@layout/ao9" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/cf0" android:layout="@layout/aoa" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:layout_gravity="end|bottom" android:id="@+id/au1" android:layout="@layout/anh" android:layout_width="@dimen/cgm" android:layout_height="@dimen/cgf" android:layout_margin="@dimen/ch3"/>
+    </com.ushareit.mcds.ui.view.RoundFrameLayout>
+</com.ushareit.mcds.ui.view.McdsRelativeLayout>

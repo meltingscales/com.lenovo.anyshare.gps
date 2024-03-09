@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.downloader.video.GuideToVideoSingleView android:id="@+id/c10" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:radius="@dimen/c3j" app:rect_radio="1.51" app:style_type="0"/>
+    <com.ushareit.downloader.video.GuideToVideoSingleView android:id="@+id/c11" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c3p" android:layout_weight="1" app:radius="@dimen/c3j" app:rect_radio="1.51" app:style_type="0"/>
+    <com.ushareit.downloader.video.GuideToVideoSingleView android:id="@+id/c12" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c3p" android:layout_weight="1" app:radius="@dimen/c3j" app:rect_radio="1.51" app:style_type="0"/>
+</merge>

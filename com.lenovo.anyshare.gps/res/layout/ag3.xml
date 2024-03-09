@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/c_f" android:layout_width="fill_parent" android:layout_height="wrap_content" app:a17="csi" app:a1a="csi" app:a1g="csi">
+        <ImageView android:id="@id/c7u" android:layout_width="@dimen/bok" android:layout_height="@dimen/bok" />
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/e0p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:maxLines="2" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/c98" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bpo" android:layout_marginTop="@dimen/br9" app:a17="csi" app:a1f="@id/c_f" />
+    <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/wh" android:ellipsize="end" android:gravity="center" android:id="@id/e0o" android:background="@drawable/bao" android:layout_width="@dimen/bra" android:layout_height="@dimen/bp7" android:text="@string/asg" android:maxLines="1" app:a0o="@id/c98" app:a1a="csi" app:a1g="@id/c98" />
+</androidx.constraintlayout.widget.ConstraintLayout>

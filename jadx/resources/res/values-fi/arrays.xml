@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornografinen ja mauton</item>
+        <item>Rikos</item>
+        <item>Poliittisesti arkaluontoinen</item>
+        <item>Laiton markkinointi</item>
+        <item>Vääriä tietoja</item>
+        <item>Rikkomus</item>
+    </array>
+    <array name="c">
+        <item>Epämukava sisältö</item>
+        <item>Pornografia</item>
+        <item>Väkivaltainen sisältö</item>
+        <item>Haitallinen ja vaarallinen sisältö</item>
+        <item>Nimi/kansi ei vastaa sisältöä</item>
+    </array>
+</resources>

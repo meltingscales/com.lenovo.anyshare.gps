@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/e5h" android:layout="@layout/b5h" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ushareit.siplayer.component.view.PlayGestureDetectorCoverView android:id="@+id/bre" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

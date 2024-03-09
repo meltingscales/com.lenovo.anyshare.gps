@@ -1,0 +1,220 @@
+.class public final Lcom/lenovo/anyshare/KUj$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/lenovo/anyshare/gRj;
+.implements Lcom/lenovo/anyshare/swk;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/lenovo/anyshare/KUj;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/lenovo/anyshare/KUj$a$a;,
+        Lcom/lenovo/anyshare/KUj$a$b;,
+        Lcom/lenovo/anyshare/KUj$a$c;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/lenovo/anyshare/gRj<",
+        "TT;>;",
+        "Lcom/lenovo/anyshare/swk;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Lcom/lenovo/anyshare/rwk;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/lenovo/anyshare/rwk<",
+            "-TT;>;"
+        }
+    .end annotation
+.end field
+
+.field public final b:J
+
+.field public final c:Ljava/util/concurrent/TimeUnit;
+
+.field public final d:Lcom/lenovo/anyshare/ARj$c;
+
+.field public final e:Z
+
+.field public f:Lcom/lenovo/anyshare/swk;
+
+
+# direct methods
+.method public constructor <init>(Lcom/lenovo/anyshare/rwk;JLjava/util/concurrent/TimeUnit;Lcom/lenovo/anyshare/ARj$c;Z)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/lenovo/anyshare/rwk<",
+            "-TT;>;J",
+            "Ljava/util/concurrent/TimeUnit;",
+            "Lcom/lenovo/anyshare/ARj$c;",
+            "Z)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lcom/lenovo/anyshare/KUj$a;->a:Lcom/lenovo/anyshare/rwk;
+
+    .line 3
+    iput-wide p2, p0, Lcom/lenovo/anyshare/KUj$a;->b:J
+
+    .line 4
+    iput-object p4, p0, Lcom/lenovo/anyshare/KUj$a;->c:Ljava/util/concurrent/TimeUnit;
+
+    .line 5
+    iput-object p5, p0, Lcom/lenovo/anyshare/KUj$a;->d:Lcom/lenovo/anyshare/ARj$c;
+
+    .line 6
+    iput-boolean p6, p0, Lcom/lenovo/anyshare/KUj$a;->e:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public cancel()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/KUj$a;->f:Lcom/lenovo/anyshare/swk;
+
+    invoke-interface {v0}, Lcom/lenovo/anyshare/swk;->cancel()V
+
+    .line 2
+    iget-object v0, p0, Lcom/lenovo/anyshare/KUj$a;->d:Lcom/lenovo/anyshare/ARj$c;
+
+    invoke-interface {v0}, Lcom/lenovo/anyshare/YRj;->dispose()V
+
+    return-void
+.end method
+
+.method public onComplete()V
+    .locals 5
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/KUj$a;->d:Lcom/lenovo/anyshare/ARj$c;
+
+    new-instance v1, Lcom/lenovo/anyshare/KUj$a$a;
+
+    invoke-direct {v1, p0}, Lcom/lenovo/anyshare/KUj$a$a;-><init>(Lcom/lenovo/anyshare/KUj$a;)V
+
+    iget-wide v2, p0, Lcom/lenovo/anyshare/KUj$a;->b:J
+
+    iget-object v4, p0, Lcom/lenovo/anyshare/KUj$a;->c:Ljava/util/concurrent/TimeUnit;
+
+    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/lenovo/anyshare/ARj$c;->a(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lcom/lenovo/anyshare/YRj;
+
+    return-void
+.end method
+
+.method public onError(Ljava/lang/Throwable;)V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/KUj$a;->d:Lcom/lenovo/anyshare/ARj$c;
+
+    new-instance v1, Lcom/lenovo/anyshare/KUj$a$b;
+
+    invoke-direct {v1, p0, p1}, Lcom/lenovo/anyshare/KUj$a$b;-><init>(Lcom/lenovo/anyshare/KUj$a;Ljava/lang/Throwable;)V
+
+    iget-boolean p1, p0, Lcom/lenovo/anyshare/KUj$a;->e:Z
+
+    if-eqz p1, :cond_0
+
+    iget-wide v2, p0, Lcom/lenovo/anyshare/KUj$a;->b:J
+
+    goto :goto_0
+
+    :cond_0
+    const-wide/16 v2, 0x0
+
+    :goto_0
+    iget-object p1, p0, Lcom/lenovo/anyshare/KUj$a;->c:Ljava/util/concurrent/TimeUnit;
+
+    invoke-virtual {v0, v1, v2, v3, p1}, Lcom/lenovo/anyshare/ARj$c;->a(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lcom/lenovo/anyshare/YRj;
+
+    return-void
+.end method
+
+.method public onNext(Ljava/lang/Object;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/KUj$a;->d:Lcom/lenovo/anyshare/ARj$c;
+
+    new-instance v1, Lcom/lenovo/anyshare/KUj$a$c;
+
+    invoke-direct {v1, p0, p1}, Lcom/lenovo/anyshare/KUj$a$c;-><init>(Lcom/lenovo/anyshare/KUj$a;Ljava/lang/Object;)V
+
+    iget-wide v2, p0, Lcom/lenovo/anyshare/KUj$a;->b:J
+
+    iget-object p1, p0, Lcom/lenovo/anyshare/KUj$a;->c:Ljava/util/concurrent/TimeUnit;
+
+    invoke-virtual {v0, v1, v2, v3, p1}, Lcom/lenovo/anyshare/ARj$c;->a(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lcom/lenovo/anyshare/YRj;
+
+    return-void
+.end method
+
+.method public onSubscribe(Lcom/lenovo/anyshare/swk;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/KUj$a;->f:Lcom/lenovo/anyshare/swk;
+
+    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->validate(Lcom/lenovo/anyshare/swk;Lcom/lenovo/anyshare/swk;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
+    iput-object p1, p0, Lcom/lenovo/anyshare/KUj$a;->f:Lcom/lenovo/anyshare/swk;
+
+    .line 3
+    iget-object p1, p0, Lcom/lenovo/anyshare/KUj$a;->a:Lcom/lenovo/anyshare/rwk;
+
+    invoke-interface {p1, p0}, Lcom/lenovo/anyshare/rwk;->onSubscribe(Lcom/lenovo/anyshare/swk;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public request(J)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/lenovo/anyshare/KUj$a;->f:Lcom/lenovo/anyshare/swk;
+
+    invoke-interface {v0, p1, p2}, Lcom/lenovo/anyshare/swk;->request(J)V
+
+    return-void
+.end method

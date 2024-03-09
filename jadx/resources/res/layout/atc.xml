@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/d77" android:background="@color/avb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:id="@+id/d9e" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/cxi" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/ate"/>
+            <include layout="@layout/atu"/>
+            <include layout="@layout/atd"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include layout="@layout/aty"/>
+    <include layout="@layout/att"/>
+</FrameLayout>

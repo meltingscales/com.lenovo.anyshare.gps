@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="50dp">
+    <View android:background="@color/a4w" android:layout_width="match_parent" android:layout_height="@dimen/bnc"/>
+    <View android:background="@drawable/blh" android:layout_width="match_parent" android:layout_height="50dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aww" android:paddingLeft="@dimen/bm3" android:paddingRight="@dimen/bm3" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ushareit.filemanager.main.music.view.CircleRotateImageView android:id="@+id/aq4" android:padding="@dimen/bp0" android:clickable="true" android:layout_width="@dimen/bqj" android:layout_height="@dimen/bqj" android:layout_marginTop="-7dp"/>
+        <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="marquee" android:gravity="start|center_vertical" android:layout_gravity="center_vertical" android:id="@+id/dgg" android:paddingTop="@dimen/bqv" android:paddingBottom="@dimen/bqv" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:maxWidth="@dimen/bln" android:singleLine="true" android:layout_weight="6" android:marqueeRepeatLimit="marquee_forever"/>
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/coj" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/bmr" android:layout_weight="1" style="@style/agu"/>
+        <FrameLayout android:layout_gravity="center" android:id="@+id/cvx" android:layout_width="@dimen/bp7" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@+id/cvw" android:clickable="true" android:layout_width="@dimen/bok" android:layout_height="@dimen/bok" android:src="@drawable/bo1"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/cvm" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:src="@drawable/bmo"/>
+            <com.lenovo.anyshare.widget.RoundProgressBar android:layout_gravity="center" android:id="@+id/cw8" android:padding="@dimen/bp0" android:visibility="visible" android:clickable="false" android:layout_width="@dimen/bp7" android:layout_height="@dimen/bp7"/>
+        </FrameLayout>
+        <ImageView android:layout_gravity="start|center_vertical" android:id="@+id/coi" android:layout_width="@dimen/bo8" android:layout_height="@dimen/bo8" android:layout_marginRight="@dimen/bqf" android:src="@drawable/bmi" android:layout_weight="1" style="@style/ai1"/>
+    </LinearLayout>
+</FrameLayout>

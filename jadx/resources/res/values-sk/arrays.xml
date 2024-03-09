@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Pornografia a vulgarita</item>
+        <item>Zločin</item>
+        <item>Politicky citlivé</item>
+        <item>Nezákonný marketing</item>
+        <item>Falošné informácie</item>
+        <item>Porušovanie predpisov</item>
+    </array>
+    <array name="c">
+        <item>Nevhodný obsah</item>
+        <item>Pornografia</item>
+        <item>Násilný obsah</item>
+        <item>Škodlivý a nebezpečný obsah</item>
+        <item>Názov/obal nezodpovedajú obsahu</item>
+    </array>
+</resources>

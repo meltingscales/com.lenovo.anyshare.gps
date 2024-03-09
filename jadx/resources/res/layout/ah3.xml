@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.photo.subscaleview.SubsamplingScaleImageView android:id="@+id/czm" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/c_3" android:background="@color/bj1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/v_" android:layout_width="match_parent" android:layout_height="@dimen/bko"/>
+        <TextView android:textSize="@dimen/bst" android:textColor="@color/a75" android:layout_gravity="center" android:id="@+id/dtp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bs3" android:layout_marginBottom="@dimen/bq3" android:text="@string/cta" android:drawableTop="@drawable/c30"/>
+    </LinearLayout>
+</FrameLayout>

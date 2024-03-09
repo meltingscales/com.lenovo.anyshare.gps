@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/hn" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/gx"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/tg" app:layout_constraintTop_toTopOf="0">
+        <RelativeLayout android:id="@+id/s0" android:layout_width="match_parent" android:layout_height="@dimen/agj" android:layout_marginLeft="@dimen/ah2" android:layout_marginTop="@dimen/ah9" android:layout_marginRight="@dimen/ah2">
+            <TextView android:textSize="@dimen/ajc" android:textColor="@color/g1" android:gravity="center" android:id="@+id/rg" android:layout_width="wrap_content" android:layout_height="match_parent" android:drawableRight="@drawable/bzr" android:drawableEnd="@drawable/bzr"/>
+            <View android:background="@color/g1" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignLeft="@+id/rg" android:layout_alignRight="@+id/rg" android:layout_alignParentBottom="true" android:layout_alignStart="@+id/rg" android:layout_alignEnd="@+id/rg"/>
+            <EditText android:textSize="@dimen/ajc" android:textColor="@color/g1" android:textColorHint="@color/agu" android:gravity="start|center_vertical" android:id="@+id/st" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/ae7" android:hint="@string/pa" android:lines="1" android:layout_toRightOf="@+id/rg" android:inputType="number" android:textCursorDrawable="@drawable/nb" android:layout_marginStart="@dimen/aey" android:layout_toEndOf="@+id/rg">
+                <requestFocus/>
+            </EditText>
+            <ImageView android:id="@+id/ss" android:padding="@dimen/aid" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/agj" android:layout_height="@dimen/agj" android:src="@drawable/c19" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+            <View android:background="@color/g8" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignLeft="@+id/st" android:layout_alignParentBottom="true" android:layout_alignStart="@+id/st"/>
+        </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/aj9" android:textColor="@color/ge" android:id="@+id/tb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ah2" android:layout_marginTop="@dimen/ad3" android:text="@string/ow" android:singleLine="true" android:layout_below="@+id/s0" android:layout_marginStart="@dimen/ah2"/>
+        <Button android:textColor="@color/hj" android:id="@+id/r9" android:layout_marginLeft="@dimen/ah2" android:layout_marginTop="@dimen/ah7" android:layout_marginRight="@dimen/ah2" android:text="@string/ard" android:layout_below="@+id/s0" style="@style/w1"/>
+        <TextView android:textSize="@dimen/aja" android:textColor="@color/xu" android:id="@+id/tu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ag4" android:layout_marginBottom="@dimen/af5" android:text="@string/asz" android:layout_below="@+id/r9" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

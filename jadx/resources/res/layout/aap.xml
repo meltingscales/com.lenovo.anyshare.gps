@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:background="@drawable/bra" android:paddingLeft="@dimen/bo8" android:paddingTop="@dimen/bmf" android:paddingRight="@dimen/bmm" android:paddingBottom="@dimen/bmf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/brt" android:layout_marginTop="@dimen/bp0" android:layout_marginRight="@dimen/brt">
+    <FrameLayout android:background="@drawable/blg" android:layout_width="@dimen/bqx" android:layout_height="wrap_content">
+        <com.ushareit.widget.RoundFrameLayout android:layout_gravity="start|center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:radius="@dimen/brt">
+            <ImageView android:layout_gravity="center" android:id="@+id/aq4" android:layout_width="@dimen/bqn" android:layout_height="@dimen/bqn" android:src="@drawable/bkn" android:scaleType="centerCrop"/>
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:src="@drawable/bkl"/>
+        </com.ushareit.widget.RoundFrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bre" android:layout_marginRight="@dimen/bks">
+        <TextView android:textSize="@dimen/bsx" android:textStyle="bold" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bt_"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/ye" android:id="@+id/dgo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 Songs" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/dgp" android:layout_width="@dimen/bpj" android:layout_height="@dimen/bpj" android:layout_marginRight="@dimen/bqf" android:src="@drawable/bkm"/>
+</FrameLayout>

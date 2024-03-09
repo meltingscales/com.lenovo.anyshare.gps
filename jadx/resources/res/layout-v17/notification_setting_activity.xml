@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/b8q" android:background="@drawable/av9" android:layout_width="match_parent" android:layout_height="@dimen/btl">
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="start|center_vertical" android:id="@+id/return_view_res_0x7f090b96" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" android:src="@drawable/avk" app:night_color_tint="@color/w4" style="@style/aj7"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/btv" android:textStyle="bold" android:textColor="@color/w4" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/brx" android:text="@string/cfk" android:singleLine="true" android:drawablePadding="5dp" android:layout_marginEnd="@dimen/brx" app:night_tv_text_color="@color/tj" style="@style/alh"/>
+        <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|center_vertical" android:id="@+id/d_i" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" android:src="@drawable/d0y" android:scaleType="center" app:night_color_tint="@color/w4" style="@style/ahp"/>
+        <com.ushareit.theme.night.view.NightImageView android:gravity="center" android:layout_gravity="end|center_vertical" android:id="@+id/cl3" android:layout_width="@dimen/bso" android:layout_height="@dimen/bsn" android:src="@drawable/d2y" app:night_color_tint="@color/w4" style="@style/ahx"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/as9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/b8q"/>
+    <include layout="@layout/notification_lock_common_progress_view"/>
+</RelativeLayout>

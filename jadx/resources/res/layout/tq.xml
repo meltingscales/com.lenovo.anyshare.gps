@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/b9k" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.ads.ui.widget.RectFrameLayout android:id="@+id/d2i" android:background="#19000000" android:layout_width="match_parent" android:layout_height="wrap_content" app:rect_radio="0.5236">
+        <ImageView android:id="@+id/bcd" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.san.ads.MediaView android:id="@+id/bc_" android:background="@color/sh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.ushareit.ads.ui.widget.RectFrameLayout>
+    <RelativeLayout android:id="@+id/ap2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bl2">
+        <FrameLayout android:layout_gravity="end" android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+        <include android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/bmf" android:layout_marginRight="@dimen/blk" layout="@layout/vw"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bmf" android:layout_marginTop="@dimen/brl" android:layout_marginRight="@dimen/brt" android:layout_below="@+id/dqf" layout="@layout/un"/>
+    </RelativeLayout>
+</LinearLayout>

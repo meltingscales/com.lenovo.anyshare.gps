@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.muslim.main.widget.GuideAnchorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/uk" android:layout_width="20dp" android:layout_height="20dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ImageView android:id="@+id/us" android:layout_width="wrap_content" android:layout_height="@dimen/aq6" android:src="@drawable/a5i" app:layout_constraintEnd_toStartOf="@+id/uk" app:layout_constraintRight_toLeftOf="@+id/uk" app:layout_constraintTop_toBottomOf="@+id/uk"/>
+    <LinearLayout android:id="@+id/a30" android:background="@color/l9" android:paddingTop="@dimen/and" android:paddingBottom="@dimen/and" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/and" app:layout_constraintTop_toBottomOf="@+id/us">
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/a57" android:layout_weight="1"/>
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/a54" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/asq" android:textColor="@color/i0" android:id="@+id/a54" android:background="@drawable/qd" android:paddingLeft="@dimen/apx" android:paddingTop="@dimen/aqw" android:paddingRight="@dimen/apx" android:paddingBottom="@dimen/aqw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/ao5" android:minHeight="@dimen/apb" android:text="@string/wj" android:layout_alignLeft="@+id/xe" android:layout_alignStart="@+id/xe" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/a30"/>
+</com.ushareit.muslim.main.widget.GuideAnchorView>

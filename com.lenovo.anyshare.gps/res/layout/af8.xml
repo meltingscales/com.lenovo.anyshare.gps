@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/bn4" android:layout_height="@dimen/bn4" android:layout_marginLeft="@dimen/brl" android:src="@drawable/bol" app:a75="@dimen/db2" />
+    <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/ty" android:id="@id/d3w" android:layout_width="@dimen/bkq" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/blk" android:layout_marginRight="@dimen/bmf" android:text="@string/b9l" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/bsw" android:textStyle="bold" android:textColor="@color/wh" android:gravity="center" android:layout_gravity="center|right" android:id="@id/dxm" android:background="@drawable/brf" android:layout_width="@dimen/bra" android:layout_height="@dimen/bok" android:layout_marginRight="@dimen/bnb" android:text="@string/asb" />
+</merge>

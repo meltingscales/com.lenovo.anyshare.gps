@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.anyshare.widget.RoundRectFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/c3j" app:rect_radio="1">
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/c1p" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="end|top" android:id="@+id/c1b" android:padding="@dimen/c2b" android:layout_width="@dimen/c2c" android:layout_height="@dimen/c2c" android:scaleType="centerCrop"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|bottom" android:orientation="horizontal" android:id="@+id/bhc" android:background="@drawable/b6p" android:paddingLeft="@dimen/c1r" android:paddingRight="@dimen/c1r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/c3c">
+        <com.ushareit.theme.night.view.NightImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/c1r" android:src="@drawable/b6q"/>
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c46" android:textColor="@color/aaz" android:id="@+id/e35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bnc" android:layout_marginBottom="@dimen/bnc" app:night_tv_text_color="@color/a__"/>
+    </LinearLayout>
+</com.lenovo.anyshare.widget.RoundRectFrameLayout>

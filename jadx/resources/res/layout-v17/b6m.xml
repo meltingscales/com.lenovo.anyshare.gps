@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="1dp" android:paddingRight="1dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ushareit.ads.ui.view.TransRBanerAdView android:id="@+id/drz" android:paddingTop="@dimen/bqv" android:paddingBottom="@dimen/bqv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnb" android:layout_marginTop="@dimen/bqv" android:layout_marginRight="@dimen/bla" android:layout_marginStart="@dimen/bnb" android:layout_marginEnd="@dimen/bla"/>
+</LinearLayout>

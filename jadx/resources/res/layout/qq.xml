@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.lenovo.anyshare.bizentertainment.magnet.view.SquareRoundFrameLayout android:layout_width="match_parent" android:layout_height="0dp">
+        <com.st.entertainment.core.view.RoundStrokeImageView android:id="@+id/ajk" android:layout_width="match_parent" android:layout_height="match_parent" app:rsi_radius="8dp"/>
+    </com.lenovo.anyshare.bizentertainment.magnet.view.SquareRoundFrameLayout>
+    <TextView android:textSize="10sp" android:textColor="@color/md" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/ale" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1"/>
+</LinearLayout>

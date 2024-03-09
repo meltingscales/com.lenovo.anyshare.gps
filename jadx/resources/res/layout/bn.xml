@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/av" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/d7" android:layout_width="match_parent" android:layout_height="@dimen/ak"/>
+    <com.ushareit.video.widget.ProviderLogoView android:id="@+id/ff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f5" app:dh="@dimen/cq" app:dw="@dimen/cq" style="@style/ao"/>
+    <TextView android:textColor="@color/d7" android:id="@+id/i9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/f5" android:layout_marginRight="@dimen/bz" style="@style/e2"/>
+    <TextView android:textSize="@dimen/hr" android:textColor="@color/e2" android:ellipsize="end" android:layout_gravity="bottom" android:id="@+id/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b7" android:layout_marginRight="@dimen/ak" android:layout_marginBottom="@dimen/g8" android:maxLines="1" android:singleLine="true"/>
+    <ImageView android:id="@+id/b" android:background="@drawable/p" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/gq" android:padding="@dimen/e4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/g8" android:src="@drawable/db" android:scaleType="fitCenter"/>
+    <com.ushareit.video.widget.LiveTagView android:layout_gravity="start|top" android:id="@+id/d_" android:background="@drawable/g5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/b7" android:layout_marginTop="@dimen/f5" app:auto_play="true"/>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bm3">
+    <ImageView android:id="@+id/c7w" android:layout_width="@dimen/bow" android:layout_height="@dimen/bow" android:layout_marginLeft="@dimen/bmm" android:src="@drawable/c5k"/>
+    <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqo" android:layout_marginTop="@dimen/bp0" android:text="@string/adf"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqj" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/bq9">
+        <LinearLayout android:orientation="vertical" android:id="@+id/cbk" android:background="@drawable/c4c" android:padding="@dimen/bnj" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:id="@+id/dtz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adi"/>
+            <TextView android:textSize="@dimen/bsv" android:textStyle="bold" android:textColor="@color/xu" android:id="@+id/e00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm3" android:layout_marginBottom="@dimen/blk" android:text="@string/adj" android:drawableLeft="@drawable/c4k" android:drawablePadding="@dimen/br9"/>
+        </LinearLayout>
+        <include layout="@layout/ap3"/>
+    </LinearLayout>
+</FrameLayout>

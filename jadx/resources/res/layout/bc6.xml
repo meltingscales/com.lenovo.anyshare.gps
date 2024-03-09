@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bgi" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/dky" android:layout_width="@dimen/bo4" android:layout_height="@dimen/bn6" android:src="@drawable/dn8" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/dle" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

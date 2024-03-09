@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@drawable/aw8" android:layout_width="match_parent" android:layout_height="@dimen/br5" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginHorizontal="@dimen/bqf">
+        <LinearLayout android:layout_gravity="start|center_vertical" android:orientation="horizontal" android:id="@+id/b2f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bo8" android:layout_marginRight="@dimen/bo8">
+            <TextView android:textSize="@dimen/bt1" android:textStyle="bold" android:textColor="@color/a3s" android:gravity="center" android:layout_gravity="start|center_vertical" android:id="@+id/b3j" android:layout_width="@dimen/bq7" android:layout_height="@dimen/bq7"/>
+            <LinearLayout android:layout_gravity="start|center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bl2" android:layout_marginRight="@dimen/bl2" android:layout_weight="1" android:layout_marginHorizontal="@dimen/bl2">
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/w4" android:ellipsize="end" android:layout_gravity="start" android:id="@+id/b3i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:maxLines="2"/>
+                <TextView android:textSize="@dimen/bsv" android:textColor="@color/xu" android:ellipsize="end" android:layout_gravity="start" android:id="@+id/b3k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            </LinearLayout>
+            <ImageView android:layout_gravity="end|center_vertical" android:id="@+id/b2d" android:layout_width="@dimen/bvb" android:layout_height="@dimen/bvb" android:src="@drawable/as1"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.ushareit.theme.night.view.NightFrameLayout android:id="@+id/ax6" android:background="@drawable/aw4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bow" android:layout_marginLeft="@dimen/bqf" android:layout_marginRight="@dimen/bqf" android:layout_marginHorizontal="@dimen/bqf" app:night_bg_color_tint="@color/afs"/>
+</LinearLayout>

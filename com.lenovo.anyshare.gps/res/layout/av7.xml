@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/a2b" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/buh" android:background="@drawable/cch" android:paddingLeft="@dimen/ctn" android:paddingTop="@dimen/cxs" android:paddingRight="@dimen/ctn" android:layout_width="fill_parent" android:layout_height="@dimen/cxd" android:layout_marginLeft="@dimen/ctn" android:layout_marginTop="@dimen/ctn" android:layout_marginRight="@dimen/ctn" android:minHeight="@dimen/cx1">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/cx8">
+            <ImageView android:id="@id/bx2" android:layout_width="@dimen/ctn" android:layout_height="@dimen/ctn" android:layout_marginLeft="@dimen/csw" android:src="@drawable/c_w" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/bx4" android:visibility="gone" android:layout_width="@dimen/ctn" android:layout_height="@dimen/ctn" android:layout_marginLeft="@dimen/csw" android:src="@drawable/c_x" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/cyv" android:textColor="@color/auf" android:ellipsize="end" android:id="@id/de1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cwc" android:maxLines="1" android:layout_centerVertical="true" />
+            <FrameLayout android:id="@id/de3" android:layout_width="wrap_content" android:layout_height="@dimen/cwp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="end|center" android:id="@id/de0" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="@dimen/d0a" android:layout_height="@dimen/d0a" android:layout_marginRight="@dimen/csw" android:src="@drawable/c9k" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

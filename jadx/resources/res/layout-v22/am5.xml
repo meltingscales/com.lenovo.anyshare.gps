@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/e77" android:background="@drawable/buq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ushareit.widget.RoundFrameLayout android:id="@+id/cb8" android:background="@drawable/bum" android:layout_width="match_parent" android:layout_height="match_parent" app:radius="@dimen/blk">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/amb"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/blv" android:layout_marginRight="@dimen/blv" android:layout_marginBottom="@dimen/bqf" android:layout_marginHorizontal="@dimen/blv">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ba2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/b_z" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" android:layout_centerVertical="true" android:layoutDirection="ltr" app:radius="@dimen/bl2" app:rect_radio="1">
+                        <ImageView android:id="@+id/b_w" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bup" android:scaleType="centerCrop"/>
+                        <ImageView android:id="@+id/ba5" android:layout_width="@dimen/cdv" android:layout_height="@dimen/cdu" android:src="@drawable/bus"/>
+                    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+                    <TextView android:textSize="@dimen/btj" android:textStyle="bold" android:textColor="@color/tj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ba8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:maxLines="1"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ba3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bqf" android:layout_weight="1">
+                    <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@+id/ba0" android:layout_width="@dimen/bqo" android:layout_height="@dimen/bqo" android:layout_centerVertical="true" android:layoutDirection="ltr" app:radius="@dimen/bl2" app:rect_radio="1">
+                        <ImageView android:id="@+id/b_x" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bup" android:scaleType="centerCrop"/>
+                        <ImageView android:id="@+id/ba6" android:layout_width="@dimen/cdv" android:layout_height="@dimen/cdu" android:src="@drawable/bus"/>
+                    </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+                    <TextView android:textSize="@dimen/btj" android:textStyle="bold" android:textColor="@color/tj" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ba9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br9" android:maxLines="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ushareit.widget.RoundFrameLayout>
+</FrameLayout>

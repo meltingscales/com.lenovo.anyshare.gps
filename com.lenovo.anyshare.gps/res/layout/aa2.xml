@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bmf"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bm3">
+        <TextView android:textSize="@dimen/bsy" android:textStyle="bold" android:textColor="@color/w4" android:id="@id/e09" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/b_o" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.ushareit.filemanager.widget.AutoWrapLinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/cck" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br9" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/br9" />
+</LinearLayout>

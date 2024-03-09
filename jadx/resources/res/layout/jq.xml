@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/jb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ushareit.muslim.main.home.widget.MainTransPushView android:id="@+id/a5s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/arr"/>
+                <com.ushareit.muslim.settings.adhanbk.AdbanBkSettingView android:id="@+id/x9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/aqj" android:layout_marginTop="@dimen/arr" android:layout_marginRight="@dimen/aqj"/>
+                <com.ushareit.muslim.settings.widget.SettingGroupView android:id="@+id/xa" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.ushareit.muslim.settings.widget.SettingGroupView android:id="@+id/x_" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include layout="@layout/kd"/>
+</FrameLayout>

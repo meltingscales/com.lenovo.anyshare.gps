@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/bnh" style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/bei" android:background="@drawable/dev" android:paddingTop="@dimen/bo8" style="@style/q1">
+        <TextView android:textSize="@dimen/byw" android:textStyle="bold" android:textColor="@color/w4" android:ellipsize="end" android:gravity="start" android:id="@id/e09" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/by7" android:layout_marginRight="@dimen/by7" android:maxLines="2" />
+        <TextView android:id="@id/cl9" android:layout_marginTop="@dimen/bmm" style="@style/pr" />
+        <com.ushareit.widget.flowlayout.TagFlowLayout android:id="@id/d1a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/bnj" android:layout_marginRight="@dimen/by7" android:layout_below="@id/e09" app:x9="@dimen/bmm" app:anl="@dimen/blk" />
+        <FrameLayout android:id="@id/bo0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/by7" android:layout_marginTop="@dimen/bq1" android:layout_marginRight="@dimen/by7" android:layout_below="@id/d1a">
+            <EditText android:textSize="@dimen/bsx" android:textColor="@color/w4" android:textColorHint="#cccccccc" android:gravity="center_vertical" android:id="@id/bhk" android:background="@drawable/d45" android:paddingLeft="@dimen/bm3" android:paddingTop="@dimen/bq1" android:paddingRight="@dimen/bm3" android:paddingBottom="@dimen/bq1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bn4" android:minHeight="@dimen/bqa" android:hint="@string/aw7" android:maxLines="3" />
+            <TextView android:textSize="@dimen/bsu" android:textColor="@color/wh" android:layout_gravity="start|center|top" android:id="@id/crd" android:background="@android:color/white" android:paddingLeft="@dimen/bl2" android:paddingTop="@dimen/bl2" android:paddingRight="@dimen/bl2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:text="@string/aw7" />
+        </FrameLayout>
+        <include layout="@layout/a30" />
+    </LinearLayout>
+</LinearLayout>

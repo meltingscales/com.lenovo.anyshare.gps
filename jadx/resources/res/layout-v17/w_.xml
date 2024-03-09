@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cxp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5dp">
+    <RelativeLayout android:gravity="center" android:id="@+id/bkj" android:paddingBottom="@dimen/blv" android:visibility="gone" android:layout_width="@dimen/bnf" android:layout_height="match_parent" android:layout_marginTop="@dimen/brl" android:layout_marginRight="@dimen/bp0" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/bp0">
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:radius="@dimen/blk">
+            <View android:id="@+id/bkl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bp0" android:layout_marginBottom="@dimen/bp0" android:layout_alignParentRight="true"/>
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bqv" android:layout_alignParentRight="true" app:radius="@dimen/blk">
+            <View android:id="@+id/bkk" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/bnc" android:layout_marginBottom="@dimen/bnc"/>
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+    </RelativeLayout>
+    <com.ushareit.ads.ui.widget.RoundRelativeLayout android:id="@+id/au8" android:layout_width="match_parent" android:layout_height="wrap_content" app:radius="@dimen/bnj">
+        <com.ushareit.ads.ui.widget.CustomViewpager2 android:id="@+id/au_" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/br9"/>
+    </com.ushareit.ads.ui.widget.RoundRelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dfw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/bp7" android:layout_marginBottom="@dimen/br9" android:layout_alignRight="@+id/au8" android:layout_alignBottom="@+id/au8" android:layout_marginEnd="@dimen/bp7" android:layout_alignEnd="@+id/au8"/>
+</RelativeLayout>

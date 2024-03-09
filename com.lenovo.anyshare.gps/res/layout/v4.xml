@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dqf" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dq7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bs3">
+        <com.ushareit.ads.ui.widget.RoundFrameLayout android:gravity="center_vertical" android:id="@id/bx9" android:background="@color/so" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginRight="@dimen/br9" app:a_7="@dimen/brt">
+            <ImageView android:id="@id/bwy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </com.ushareit.ads.ui.widget.RoundFrameLayout>
+        <TextView android:textSize="@dimen/bih" android:textColor="@color/sw" android:ellipsize="end" android:id="@id/dpx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/bih" android:textStyle="bold" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@id/ck2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:maxLines="1" />
+    <FrameLayout android:id="@id/az6" android:layout_width="fill_parent" android:layout_height="@dimen/bnj" android:layout_marginTop="@dimen/br9" android:layout_marginBottom="9.0dip">
+        <com.san.ads.TextProgressView android:textStyle="bold" android:textColor="@color/bj1" android:gravity="center" android:id="@id/b00" android:background="@drawable/aho" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="100" android:singleLine="true" app:a7k="100" app:ajb="@dimen/btj" app:a9a="?android:progressBarStyleHorizontal" app:a9_="@drawable/akf" />
+    </FrameLayout>
+</LinearLayout>

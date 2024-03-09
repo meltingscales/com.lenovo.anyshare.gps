@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/q3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.theme.night.view.NightRelativeLayout android:id="@id/d5w" android:background="@drawable/axj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_marginHorizontal="@dimen/bnj" app:a76="@color/afs">
+        <com.lenovo.anyshare.widget.RoundRectFrameLayout android:id="@id/drm" android:layout_width="fill_parent" android:layout_height="@dimen/bks" app:lz="@dimen/byx" app:m1="@dimen/byx" app:a_j="0.3" app:al6="@dimen/bl2" app:al7="@dimen/bl2">
+            <ImageView android:id="@id/c7s" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </com.lenovo.anyshare.widget.RoundRectFrameLayout>
+        <com.ushareit.theme.night.view.NightImageView android:id="@id/c49" android:layout_width="@dimen/bnb" android:layout_height="@dimen/bnb" android:layout_margin="@dimen/bqf" android:src="@drawable/dhr" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:a7_="@color/w4" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/b1s" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_below="@id/drm" android:layout_marginHorizontal="@dimen/bnj">
+            <com.ushareit.theme.night.view.NightImageView android:id="@id/c3h" android:layout_width="@dimen/bqq" android:layout_height="@dimen/bqq" android:layout_marginTop="@dimen/bo8" android:layout_marginBottom="@dimen/bo8" app:a75="@dimen/db2" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bm3" android:layout_weight="1.0" android:layout_marginStart="@dimen/bm3">
+                <TextView android:textSize="@dimen/bsx" android:textColor="@color/wu" android:id="@id/dt9" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/br9" android:maxLines="2" android:layout_weight="1.0" />
+                <LinearLayout android:id="@id/cbh" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/bth" android:textColor="@color/vf" android:background="@drawable/dkh" android:paddingLeft="@dimen/br9" android:paddingTop="@dimen/bp0" android:paddingRight="@dimen/br9" android:paddingBottom="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d9w" android:paddingHorizontal="@dimen/br9" android:paddingVertical="@dimen/bp0" />
+                    <TextView android:textSize="@dimen/bth" android:textColor="@color/a3_" android:background="@drawable/dki" android:paddingLeft="@dimen/br9" android:paddingTop="@dimen/bp0" android:paddingRight="@dimen/br9" android:paddingBottom="@dimen/bp0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bp0" android:text="@string/d9t" android:layout_marginStart="@dimen/bp0" android:paddingHorizontal="@dimen/br9" android:paddingVertical="@dimen/bp0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/bsz" android:textStyle="bold" android:textColor="@color/ty" android:gravity="center" android:id="@id/dsv" android:background="@drawable/aro" android:layout_width="fill_parent" android:layout_height="@dimen/bq7" android:layout_marginLeft="@dimen/bnj" android:layout_marginRight="@dimen/bnj" android:layout_marginBottom="@dimen/bnj" android:text="@string/d9e" android:layout_below="@id/b1s" android:layout_marginHorizontal="@dimen/bnj" />
+    </com.ushareit.theme.night.view.NightRelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/ar9" android:layout_marginLeft="@dimen/and" android:layout_marginRight="@dimen/ao5" android:layout_marginStart="@dimen/and" android:layout_marginEnd="@dimen/ao5">
+        <ImageButton android:id="@+id/vc" android:background="@drawable/yz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:ellipsize="end" android:id="@+id/acp" android:paddingLeft="@dimen/am3" android:paddingRight="@dimen/am3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/vc" android:layout_centerVertical="true" android:layout_toStartOf="@+id/vc"/>
+        <ImageView android:id="@+id/xq" android:visibility="gone" android:layout_width="@dimen/ap4" android:layout_height="@dimen/ap4" android:layout_marginRight="@dimen/amf" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/amf"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/acp" android:layout_toRightOf="@+id/xq" android:layout_toStartOf="@+id/acp" android:layout_toEndOf="@+id/xq">
+            <TextView android:textSize="@dimen/ass" android:textColor="@color/ij" android:ellipsize="end" android:id="@+id/ado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+            <TextView android:textSize="@dimen/asp" android:textColor="@color/j9" android:ellipsize="end" android:id="@+id/tv_content_res_0x71070285" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aqw" android:maxLines="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/adv" android:background="@color/a1_" android:layout_width="match_parent" android:layout_height="@dimen/alp" android:layout_marginLeft="@dimen/and" android:layout_marginRight="@dimen/and"/>
+</FrameLayout>

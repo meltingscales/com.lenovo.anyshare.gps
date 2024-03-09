@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bwk" android:background="@color/b3t" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/btl">
+        <Button android:id="@+id/return_view_res_0x7f090b96" android:background="@drawable/avj" android:layout_width="@dimen/bsm" android:layout_height="@dimen/bsl" android:layout_marginLeft="@dimen/brt" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/bt0" android:textStyle="bold" android:textColor="#ffffff" android:gravity="start|center_vertical" android:id="@+id/title_text_res_0x7f090ec1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bow" android:layout_marginRight="@dimen/bow" android:singleLine="true" android:layout_toLeftOf="@+id/right_container_res_0x7f090bb0" android:layout_toRightOf="@+id/return_view_res_0x7f090b96" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/right_container_res_0x7f090bb0" android:layout_width="wrap_content" android:layout_height="@dimen/bpv" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <include layout="@layout/aiu"/>
+        </RelativeLayout>
+        <View android:id="@+id/dq3" android:background="@color/a1b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bko" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

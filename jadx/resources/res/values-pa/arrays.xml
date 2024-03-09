@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>ਅਸ਼ਲੀਲ ਅਸ਼ਲੀਲ</item>
+        <item>ਅਪਰਾਧ</item>
+        <item>ਸਿਆਸੀ ਤੌਰ &apos;ਤੇ ਸੰਵੇਦਨਸ਼ੀਲ</item>
+        <item>ਗੈਰ-ਕਾਨੂੰਨੀ ਮਾਰਕੀਟਿੰਗ</item>
+        <item>ਗਲਤ ਜਾਣਕਾਰੀ</item>
+        <item>ਉਲੰਘਣਾ</item>
+    </array>
+    <array name="c">
+        <item>ਅਸੁਵਿਧਾਜਨਕ ਸਾਮਗਰੀ</item>
+        <item>ਕਾਮ ਉਕਸਾਊ ਚਿੱਤਰ</item>
+        <item>ਹਿੰਸਕ ਸਾਮਗਰੀ</item>
+        <item>ਨੁਕਸਾਨਦਾਇਕ ਅਤੇ ਖ਼ਤਰਨਾਕ ਸਾਮਗਰੀ</item>
+        <item>ਸਿਰਲੇਖ/ਕਵਰ ਸਾਮਗਰੀ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ ਹੈ</item>
+    </array>
+</resources>

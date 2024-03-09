@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/qe"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/bkq" style="@style/qd">
+        <com.ushareit.theme.night.view.NightTextView android:textSize="@dimen/c49" android:textStyle="bold" android:textColor="@color/a__" android:ellipsize="end" android:id="@id/dqf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/c23" android:text="@string/b0v" android:maxLines="3" app:a0u="csi" app:a17="csi" app:a1g="csi" />
+        <FrameLayout android:id="@id/e33" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c23" android:layout_marginTop="@dimen/c1t" android:layout_marginRight="@dimen/c23" android:layout_marginBottom="@dimen/c23" app:a0u="csi" app:a17="csi" app:a1a="csi" app:a1c="csi" app:a1f="@id/dqf" />
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c47" android:textStyle="bold" android:textColor="@color/aaz" android:gravity="center" android:id="@id/bf4" android:background="@drawable/b2s" android:layout_width="fill_parent" android:layout_height="@dimen/c2j" android:layout_margin="@dimen/c23" android:text="@string/b0w" app:a17="csi" app:a1a="csi" app:a1f="@id/e33" />
+        <com.ushareit.widget.UpperCaseTextView android:textSize="@dimen/c47" android:textStyle="bold" android:textColor="@color/a_b" android:gravity="center" android:id="@id/bk6" android:paddingLeft="@dimen/c0r" android:paddingRight="@dimen/c0r" android:layout_width="wrap_content" android:layout_height="@dimen/c2j" android:layout_marginTop="@dimen/c35" android:layout_marginBottom="@dimen/c0r" android:minWidth="@dimen/c3d" android:text="@string/b0r" app:a0o="csi" app:a17="csi" app:a1a="csi" app:a1f="@id/bf4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/aog" android:layout_width="match_parent" android:layout_height="@dimen/bh9">
+    <com.ushareit.ads.ui.widget.RoundFrameLayout android:id="@+id/bx9" android:layout_width="@dimen/bha" android:layout_height="@dimen/bha" android:layout_centerVertical="true" app:radius="@dimen/brt" style="@style/ag7">
+        <ImageView android:id="@+id/icon" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@color/so"/>
+    </com.ushareit.ads.ui.widget.RoundFrameLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bhc" android:layout_marginRight="@dimen/bhc" android:layout_toLeftOf="@+id/bo8" android:layout_toRightOf="@+id/bx9" android:layout_centerVertical="true" android:layout_toStartOf="@+id/bo8" android:layout_toEndOf="@+id/bx9">
+        <TextView android:textSize="@dimen/bsy" android:textColor="@color/sf" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/bsv" android:textColor="@color/sg" android:ellipsize="end" android:gravity="start" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bp0" android:maxLines="2" android:layout_below="@+id/title"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/bo8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/ag6">
+        <com.san.ads.TextProgressView android:textColor="@color/bj1" android:gravity="center" android:id="@+id/b00" android:background="@drawable/aho" android:layout_width="@dimen/bru" android:layout_height="@dimen/bok" android:max="100" android:progress="100" android:maxLines="1" android:paddingStart="@dimen/blk" android:paddingEnd="@dimen/blk" app:textSize="@dimen/bsw" app:text_margin_left="@dimen/blk" app:text_margin_right="@dimen/blk" app:text_max_length="@dimen/brc" app:progress_style="?android:attr/progressBarStyleHorizontal" app:progress_drawable="@drawable/akc"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/b3u" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ags"/>
+    <RelativeLayout android:id="@+id/b75" android:visibility="gone" android:layout_width="@dimen/boe" android:layout_height="@dimen/boe" android:layout_marginTop="@dimen/br4" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ait" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <include layout="@layout/uo"/>
+</RelativeLayout>

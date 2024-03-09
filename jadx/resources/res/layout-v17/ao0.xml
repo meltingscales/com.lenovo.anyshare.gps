@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/c2d" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/ch7">
+    <View android:id="@+id/bfs" android:background="@color/ata" android:visibility="gone" android:layout_width="@dimen/cga" android:layout_height="@dimen/cgt" android:layout_marginTop="@dimen/cgd" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:layout_constraintEnd_toEndOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/bft" android:background="@color/ata" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/cga" app:layout_constraintTop_toTopOf="0"/>
+</merge>

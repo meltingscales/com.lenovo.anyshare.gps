@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_marginTop="@dimen/cun" android:layout_marginBottom="@dimen/cun" android:layout_weight="1">
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/c5i" android:layout_width="@dimen/cuh" android:layout_height="@dimen/cuh" app:night_alpha="@dimen/db2"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cxh">
+        <TextView android:textSize="@dimen/cyt" android:textColor="@color/axs" android:id="@+id/dvx" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/cyr" android:textColor="@color/aty" android:id="@+id/dvw" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

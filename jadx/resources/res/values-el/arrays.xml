@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>Χυδαία πορνογραφία</item>
+        <item>Έγκλημα</item>
+        <item>Πολιτικά ευαίσθητο</item>
+        <item>Παράνομο μάρκετινγκ</item>
+        <item>Ψευδής πληροφορίες</item>
+        <item>Παραβίαση πνευματικών δικαιωμάτων</item>
+    </array>
+    <array name="c">
+        <item>Ενοχλητικό περιεχόμενο</item>
+        <item>Πορνογραφία</item>
+        <item>Βίαιο περιεχόμενο</item>
+        <item>Επιβλαβές και επικίνδυνο περιεχόμενο</item>
+        <item>Ασυμφωνία τίτλου/εξωφύλλου με περιεχόμενο</item>
+    </array>
+</resources>

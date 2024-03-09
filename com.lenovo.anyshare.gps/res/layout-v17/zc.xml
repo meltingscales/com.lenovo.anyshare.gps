@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.theme.night.view.NightLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cb8" android:background="@drawable/cc0" android:paddingLeft="@dimen/cu2" android:paddingRight="@dimen/ctv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/cu2" android:paddingEnd="@dimen/ctv" app:a76="@color/au7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.ushareit.cleanit.widget.CircleProgressBar android:layout_gravity="center_vertical" android:id="@id/cyj" android:layout_width="@dimen/cww" android:layout_height="@dimen/cww" app:rt="@dimen/cu2" app:rw="@dimen/cxh" app:ry="@dimen/cyr" app:rz="@dimen/czd" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cxs" android:layout_marginRight="@dimen/cun" android:layout_weight="1.0" android:layout_marginStart="@dimen/cxs" android:layout_marginEnd="@dimen/cun">
+        <TextView android:textSize="@dimen/cyr" android:textColor="@color/auo" android:id="@id/c_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmw" android:singleLine="true" android:lineSpacingExtra="@dimen/cw2" />
+        <TextView android:textSize="@dimen/cys" android:textStyle="bold" android:textColor="@color/auf" android:id="@id/drv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx6" android:text="@string/bv8" android:maxLines="2" android:lineSpacingExtra="@dimen/cw2" />
+    </LinearLayout>
+</com.ushareit.theme.night.view.NightLinearLayout>

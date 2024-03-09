@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="index.min.css">
+</head>
+
+<body>
+    <div id="box">
+        <div class="content">
+            <h1 id="head">How to transfer files between Android and iOS devices?</h1>
+            <div class="hr"></div>
+            <div id="cont">
+                <p>
+                    <b>Method 1. Set up a Wi-Fi hotspot on Android devices and connect iOS devices to this hotspot.</b>
+                </p>
+                <p>1. Tap 'Send' on Android devices, and select the file(s) you want to send. Next, find 'Connect to iOS/WP'
+                    in Select Receiver page and tap it.</p>
+                <p>2. The default connection mode is hotspot. It will automatically close the current Wi-Fi connection and set
+                    up a hotspot on the phone, for it's the fastest transfer way when connected.</p>
+                <p>3. Once the hotspot is activated, there will be instructions for connection. Follow these instructions on
+                    iOS devices.</p>
+                <p>If you select 'Receive' on Android devices, SHAREit will activate hotspot automatically. Follow the displayed
+                    instructions to connect on iOS devices.</p>
+                <br>
+                <p>
+                    <b>Method 2. When Android and iOS devices are in the same Wi-Fi network.</b>
+                </p>
+                <p>If the Android and iOS devices are connected to the same Wi-Fi, and you do not want to use hotspot connection,
+                    then you can go to Settings in SHAREit and select 'Prefer Wi-Fi Mode'.</p>
+                <p>The advantage of this method is that the Wi-Fi connections on both devices will not be interrupted, which
+                    is the most convenient way of transferring files.</p>
+                <p>Once set up, hotspot will not be activated the next time you tap on 'Connect to iOS/WP' .</p>
+                <br>
+                <p>Tip These two methods apply for the connection between Andriod and WindowsPhone devices as well.</p>
+            </div>
+            <div id="btn">
+                <a class="btn" id="btn_1" onclick="collect('btn_1',true);">
+                    <img src="like.png" alt="" width="100%">
+                    <span id="done">Solved</span>
+                </a>
+                <a class="btn" id="btn_2" onclick="collect('btn_2',false);">
+                    <img src="dislike.png" alt="" width="100%">
+                    <span id="undone">Unsolved</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <h2 id="xiangguan">See also</h2>
+    <div id="box">
+        <div class="content">
+            <div id="other">
+                <a href="shareits://test_portal/21?url=file:///android_asset/help/ht_pc.html" id="other_1" style="border-bottom: medium none;">How to transfer files between Android devices and PC?</a>
+            </div>
+        </div>
+    </div>
+    <h2 id="feadback_title">Have any other questions</h2>
+    <div id="box" class="feed">
+        <div class="content">
+            <div id="other">
+                <a id="feadback_btn" onclick="goFeadback()">Feedback</a>
+            </div>
+        </div>
+    </div>
+    <script src="index.min.js"></script>
+</body>
+
+</html>

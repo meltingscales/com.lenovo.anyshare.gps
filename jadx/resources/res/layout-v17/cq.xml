@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ushareit.widget.RoundFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/fm" android:layout_width="@dimen/f9" android:layout_height="@dimen/ef" app:radius="@dimen/f5">
+    <com.ushareit.theme.night.view.NightImageView android:id="@+id/c9" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.ushareit.theme.night.view.NightImageView android:layout_gravity="center" android:id="@+id/eu" android:background="@drawable/g6" android:layout_width="@dimen/b7" android:layout_height="@dimen/b7"/>
+    <TextView android:textSize="@dimen/i_" android:textColor="@color/d7" android:ellipsize="end" android:layout_gravity="start|bottom" android:id="@+id/bb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/eq" android:layout_marginBottom="@dimen/dy" android:layout_marginStart="@dimen/eq"/>
+    <ImageView android:layout_gravity="end|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cr" android:layout_marginBottom="@dimen/cr" android:src="@drawable/g0" android:layout_marginEnd="@dimen/cr"/>
+</com.ushareit.widget.RoundFrameLayout>
