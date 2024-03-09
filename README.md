@@ -23,7 +23,7 @@ TODO
 
 ### jadx
 
-TODO
+Nothing significant to report.
 
 ## Commands
 
